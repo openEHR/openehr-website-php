@@ -1,0 +1,171 @@
+/* Resetting styles */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,image,mark,meter,nav,output,progress,section,summary,time { margin: 0; padding: 0; border: 0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption { font-size: 12px; font-weight: normal; font-style: normal;  font-family:Verdana, Arial, Helvetica, sans-serif; }
+fieldset,iframe { border: none; }
+ol,ul {list-style: none;}
+caption,th { text-align: left; }
+table { border-collapse: collapse; border-spacing: 0; }
+article,aside,footer,header,hgroup,nav,section,figure,figcaption { display: block; }
+
+/* Main layout */
+body {
+ background-color:#F3f8fa;
+ color:#000000;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ font-size:12px;
+ line-height:120%;
+/* box-shadow: inset 0px 750px 50px 0px rgba(232,244,249,1);*/
+ }
+ 
+
+#MainFrame {
+ background-color:#FFFFFF;
+ margin:auto;
+ position:relative;
+ width:1024px;
+ z-index: 3;
+}
+
+/* Panels and menus */
+
+/* Top panel beginning */
+#TopPanel {
+ background-color:#e7eff6;
+ background-image: url("../gui/TopPanel.png"); 
+ background-repeat:no-repeat;
+ height:75px;
+ position:relative;
+ width:1024px;
+}
+
+#Utilities {
+ height:40px;
+ width:250px;
+ position: absolute;
+ text-align:right;
+ top:10px;
+ left:730px;
+}
+
+#Utilities a {
+ color:#023760;
+ text-decoration:none;
+}
+
+#Utilities a:hover{
+ color:#023760;
+ text-decoration:underline;
+}
+
+#Search {
+ height:40px;
+ width:250px;
+ position: absolute;
+ padding-top:0px;
+ text-align:right;
+ top:30px;
+ left:750px;
+} 
+
+#Search span {
+ color:#023760;
+ font-weight:900; 
+ font-size:12px;
+ line-height:130%;
+}
+
+#Motto {
+ height:40px;
+ width:280px;
+ position: absolute;
+ padding-top:0px;
+ text-align:left;
+ top:28px;
+ left:390px;
+ color:#023760;
+ font-size:14px;
+ font-weight:500;
+}
+/* Top panel end */
+
+/* Rest is defined in Menu style file */
+#TopMenu{
+ background-color:#edc172;
+ background-image: url("../gui/TopMenu.png");
+ height:30px;
+ width:1024px;
+ border-top:1px solid #eda656;
+ border-bottom:1px solid #eda656;  
+}
+
+/* Bottom menu beginning */
+#BottomMenu {
+ background-color:#edc172;
+ background-image: url("../gui/BottomMenu.png");
+ height:190px;
+ position:relative;
+ width:1024px;
+ padding-top:15px; 
+ border-top:1px solid #eda656;
+ border-bottom:1px solid #eda656;
+}
+
+#BottomFrame {
+ color:#000000;
+ height:190px;
+ width:180px;
+ position: absolute;
+ padding-left:10px;
+ padding-right:10px;
+}
+
+#BottomFrame ul {
+list-style:none;
+line-height:200%;
+
+}
+
+#BottomFrame a {
+ text-decoration:none;
+ color:#00355f;
+ font-weight:500;
+}
+
+#BottomFrame a:hover {
+ color:#00355f;
+ font-weight:900;
+}
+
+.MenuHeading {
+font-size:14px;
+font-weight:900; 
+line-height:150%; 
+color:#00355f; 
+text-decoration:none; 
+margin-bottom:0.5em;
+}
+/* Bottom menu end */
+
+/*Bottom panel beginnig */
+#BottomPanel {
+ background-color:#6c9fc4;
+ background-image: url("../gui/BottomPanel.png"); 
+ background-repeat:no-repeat;
+ height:15px;
+ position:relative;
+ width:1024px;
+ padding-top:15px;
+ padding-bottom:15px;
+}
+
+#BottomPanel p {
+ text-align:center;
+}
+
+#BottomPanel span {
+text-decoration:none;
+font-weight:900;
+color:#023760;
+}
+
+/* Bottom panel end */

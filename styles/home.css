@@ -1,0 +1,156 @@
+/*Headings, paragraph*/
+h1 {font-size:17px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-bottom:0.3em;}
+h2 {font-size:17px; font-weight:900; line-height:150%; color:#023760; text-decoration:none; margin-top:0.8em; margin-bottom:0.7em; font-style:italic;}
+h3 {font-size:14px; font-weight:900; line-height:150%; color:#023760; text-decoration:none;
+margin-top:1.5em; margin-bottom:0.1em; font-style:italic;}
+h4 {font-size:14px; font-weight:900; line-height:150%; color:#023760; text-decoration:none; margin-bottom:0.5em;}
+h5 {font-size:12px; font-weight:900; line-height:150%; color:#023760; text-decoration:none;
+margin-top:1.5em; margin-bottom:0.1em}
+h6 {font-size:10px; font-weight:500; line-height:120%; color:#666666; text-decoration:none; margin-top:0.1em; margin-bottom:0.1em;}
+
+p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
+
+
+#MainArea {
+ background-color:#ffffff;
+ width:1024px;
+}
+
+#MainArea a {
+ color:#3386AE;
+ font-weight:900;
+ text-decoration:none;
+}
+
+#MainArea a:hover {
+ color:#3386AE;
+ font-weight:900;
+ text-decoration:underline;
+}
+
+#HomeFrame1 {
+ position:absolute;
+ top:125px;
+ left:40px;
+ height:150px;
+ width:950px;
+ background-image: url("../gui/HomeFrame1.png");
+ background-repeat:no-repeat;
+}
+
+#FoundationFrame {
+ position:absolute;
+ height:110px;
+ width:671px;
+ padding-left:15px;
+ padding-right:25px;
+}
+
+#WikiFrame {
+ position:absolute;
+ left:720px;
+ height:110px;
+ width:190px;
+ padding-left:15px;
+ padding-right:25px;
+ padding-bottom:10px;
+}
+
+#SpecificationFrame {
+ position:absolute;
+ top:275px;
+ left:40px;
+ height:300px;
+ width:230px;
+}
+
+#ModelsFrame {
+ position:absolute;
+ top:275px;
+ left:280px;
+ height:300px;
+ width:230px;
+}
+
+#SoftwareFrame {
+ position:absolute;
+ top:275px;
+ left:520px;
+ height:300px;
+ width:230px;
+}
+
+#LocalisationFrame {
+ position:absolute;
+ top:275px;
+ left:760px; 
+ height:290px;
+ width:230px;
+}
+
+#TextFrame {
+ position:absolute;
+ top:150px;
+ left:0px;
+ height:160px;
+ width:190px;
+ padding-left:15px;
+ padding-right:25px;
+ padding-bottom:5px;
+}
+
+#HomeFrame2 {
+ position:absolute;
+ top:575px;
+ left:40px;
+ height:360px;
+ width:950px;
+ background-image: url("../gui/HomeFrame2.png");
+ background-repeat:no-repeat;
+}
+
+#UsersFrame {
+ position:absolute;
+ left:720px;
+ height:340px;
+ width:210px;
+ padding-left:15px;
+ padding-right:20px;
+}
+
+#TwitterFrame {
+ position:absolute;
+ height:340px;
+ width:210px;
+ padding-left:15px;
+ padding-right:20px;
+}
+
+#NewsFrame {
+ position: absolute;
+ height:340px;
+ width:210px;
+ left:240px;
+ padding-left:15px;
+ padding-right:20px;
+}
+
+#ReleasesFrame {
+ position: absolute;
+ height:340px;
+ width:210px;
+ left:480px;
+ padding-left:15px;
+ padding-right:20px;
+} 
+
+#LinksFrame {
+ position:absolute;
+ top:0px;
+ left:0px;
+ height:290px;
+ width:190px;
+ padding-left:15px;
+ padding-right:25px;
+ padding-bottom:10px;
+}
