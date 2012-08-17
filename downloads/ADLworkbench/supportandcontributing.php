@@ -77,7 +77,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<p>If it is an ADL 1.5 test archetype, create a problem report on the <a href="http://www.openehr.org/issues/browse/AWBPR">Jira AWB PR tracker</a>, with component set to 'Test archetypes'.</p>
 			
 			<h3>...with this online documentation</h3>
-			<p>If your problem is that you can't find an answer to what you are looking for, please report this on the <a href="http://www.openehr.org/issues/browse/AWBPR">Jira AWB PR tracker</a>,
+			<p>If your problem is that you can't find an answer to what you are looking for, please report
+			this on the <a href="http://www.openehr.org/issues/browse/AWBPR">Jira AWB PR tracker</a>,
 			with component set to 'Documentation'. If you really need an answer, don't be afraid to post on the openehr-technical mailing list (<a href="http://lists.chime.ucl.ac.uk/mailman/listinfo/openehr-technical">subscribe here</a>, <a href="http://www.openehr.org/mailarchives/openehr-technical/">list archive</a>).</p>
 			<h3>...with the <i>open</i>EHR specifications</h3>
 			<p>There is a dedicated Jira tracker for this <a href="http://www.openehr.org/issues/browse/SPECPR">here</a>.</p>
