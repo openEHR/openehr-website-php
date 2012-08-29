@@ -5,33 +5,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
-	<meta http-equiv="Content-Language" content="en">
-
-	<title>openEHR - Modelling Tools</title>
-
-	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
-	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
-	<meta name="author" content="Sam Heard, Thomas Beale">
-	<meta name="copyright" content="The openEHR Foundation">
-	<meta name="design" content="Adriana Danilakova">
-	<meta name="distribution" content="Global">
-	
-	<meta name="rating" content="General">
-	<meta name="robots" content="All">
-	<meta name="revisit-after" content="15 days">
-	<meta name="viewport" content="1024">
-
-	<link rel="stylesheet" href="http://www.openehr.org/new-ws/site/styles/basic.css"  type="text/css">
-	<link rel="stylesheet" href="http://www.openehr.org/new-ws/site/styles/programs.css"  type="text/css"> 
-	<link rel="stylesheet" href="http://www.openehr.org/new-ws/site/styles/menu.css" type="text/css"> 
-	
-	<link rel="home" href="http://www.openehr.org">
-	<link rel="bookmark" href="http://www.openehr.org" title="openEHR - Homepage">
-	<link rel="index" href="http://www.openehr.org/sitemap">
-
-	<script type="text/javascript" src="http://www.openehr.org/new-ws/site/menu/dropdown.js"></script> 
-	
+	<title>openEHR - ADL Workbench</title>
+	<?php include '../../panel/headpanel.php' ?>
 </head>
 
 
@@ -82,7 +57,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			The remaining sections below describe how to see the ADL/AOM 1.5 changes using the archetypes you have configured above.</p>
 			
 			<a name="archedconfig"></a><h3>Using the Archetype Editor with the AWB</h3>
-			<p>The <a href="http://www.openehr.org/svn/knowledge_tools_dotnet/TRUNK/ArchetypeEditor/home">Archetype Editor</a>
+			<p>The <a href="http://www.openehr.org/new-ws/site/downloads/archetypeeditor/home">Archetype Editor</a>
 			can be configured as the standard editor for individual archetypes, when the 'Edit' button is selected.
 			All that is required is that the Archetype Editor is installed, and it is associated with files of the '.adl' extension.
 			Then the following configuration variable can be set to use the standard launch command for a file of the given extension:</p>

@@ -40,11 +40,12 @@ body {
 
 #Utilities {
  height:40px;
- width:250px;
+ width:350px;
  position: absolute;
  text-align:right;
+ font-size:11px;
  top:10px;
- left:730px;
+ left:630px;
 }
 
 #Utilities a {
@@ -74,17 +75,27 @@ body {
  line-height:130%;
 }
 
+#Logo {
+ height:60px;
+ width:180px;
+ position:absolute;
+ left:40px;
+ top:8px;
+}
+
 #Motto {
- height:40px;
+ height:30px;
  width:280px;
  position: absolute;
  padding-top:0px;
  text-align:left;
- top:28px;
- left:390px;
- color:#023760;
- font-size:14px;
- font-weight:500;
+ top:21px;
+ left:215px;
+ color:#023670;
+ font-size:10px;
+ font-weight:100;
+ font-style:italic;
+ line-height:100%;
 }
 /* Top panel end */
 

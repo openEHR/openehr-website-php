@@ -5,33 +5,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
-	<meta http-equiv="Content-Language" content="en">
-
 	<title>openEHR - Publications</title>
-
-	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
-	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
-	<meta name="author" content="Sam Heard, Thomas Beale">
-	<meta name="copyright" content="The openEHR Foundation">
-	<meta name="design" content="Adriana Danilakova">
-	<meta name="distribution" content="Global">
-	
-	<meta name="rating" content="General">
-	<meta name="robots" content="All">
-	<meta name="revisit-after" content="15 days">
-	<meta name="viewport" content="1024">
-
-	<link rel="stylesheet" href="../styles/basic.css"  type="text/css">
-	<link rel="stylesheet" href="../styles/programs.css"  type="text/css"> 
-	<link rel="stylesheet" href="../styles/menu.css" type="text/css"> 
-
-	<link rel="home" href="http://www.openehr.org">
-	<link rel="bookmark" href="http://www.openehr.org" title="openEHR - Homepage">
-	<link rel="index" href="http://www.openehr.org/information/sitemap.html">
-
-	<script type="text/javascript" src="../menu/dropdown.js"></script> 
-	
+	<?php include '../panel/headpanel.php' ?>
 </head>
 
 
@@ -49,7 +24,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		</div>
 	</div> 
 
-	<div id="MainArea" style="height:10300px;">
+	<div id="MainArea">
 	
 		<div id="SideMenu">
 		<?php include 'menu/resourcesmenu.php' ?>
@@ -191,7 +166,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<h3><a name="thesesanddisertations"></a>PhD Theses and other Dissertations about openEHR Archetypes</h3>
 			<ul>
 				<li>
-				<p><h4>Towards Interoperable and Knowledge-Based Electronic Health Records Using Archetype Methodology (<a href="http://www.imt.liu.se/~ronch/IMT-Diss1280-Chen.pdf">PDF</a>)</h4></p>
+				<p><h4>Towards Interoperable and Knowledge-Based Electronic Health Records Using Archetype Methodology (<a href="https://docs.google.com/open?id=0BywkVxKayXoSSVEzQVBHTWxMVzg">PDF</a>)</h4></p>
 				<p><b>Rong Chen</b></p>
 				<p><i>PhD thesis (som f&ouml;r avl&auml;ggande av filosofie doktorsexamen vid Link&ouml;pings universitet och tekniska h&ouml;gskola kommer att offentligt f&ouml;rsvaras i Eken, Campus
 				US ing&aring;ng 65, Link&ouml;ping, torsdagen 5 november 2009, kl. 9.00)</i></p>

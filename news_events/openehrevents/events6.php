@@ -2,33 +2,8 @@
 
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
-	<meta http-equiv="Content-Language" content="en">
-
 	<title>openEHR - Events</title>
-
-	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
-	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
-	<meta name="author" content="Sam Heard, Thomas Beale">
-	<meta name="copyright" content="The openEHR Foundation">
-	<meta name="design" content="Adriana Danilakova">
-	<meta name="distribution" content="Global">
-	
-	<meta name="rating" content="General">
-	<meta name="robots" content="All">
-	<meta name="revisit-after" content="15 days">
-	<meta name="viewport" content="1024">
-
-	<link rel="stylesheet" href="../../styles/basic.css"  type="text/css">
-	<link rel="stylesheet" href="../../styles/programs.css"  type="text/css"> 
-	<link rel="stylesheet" href="../../styles/menu.css" type="text/css"> 
-
-	<link rel="home" href="http://www.openehr.org">
-	<link rel="bookmark" href="http://www.openehr.org" title="openEHR - Homepage">
-	<link rel="index" href="http://www.openehr.org/sitemap">
-
-	<script type="text/javascript" src="../../menu/dropdown.js"></script> 
-	
+	<?php include '../../panel/headpanel.php' ?>
 </head>
 
 
@@ -46,16 +21,16 @@
 		</div>
 	</div> 
 
-	<div id="MainArea" style="height:500px;">
+	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
 		<?php $current = 2; include '../menu/newsmenu.php' ?>
 		</div>
 		
 		<div id="TextArea">
-			
-			<h2>openEHR @ HINZ</h2>
-			<h6>21/06/2012-22/06/2012</h6>
+			<h1>Events</h1>
+			<h2>openEHR @ HINZ | New Zeland</h2>
+			<h6>21. - 22. June 2012</h6>
 			<br/>
 			<p>Two days of strategic events on healthcare interoperability in June in New Zealand (Programme to see <a href="https://sites.google.com/a/hl7.org.nz/hl7-new-zealand/news/21-22june2012healthcareinteroperabilitypioneeredhammondopenehr#">here</a>).</p>
 			<p>Thurs 21 June - <strong>Bringing the Electronic Health Record (EHR) to Life -

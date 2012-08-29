@@ -5,33 +5,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
-	<meta http-equiv="Content-Language" content="en">
-
 	<title>openEHR - Obtaining Solutions</title>
-
-	<meta name="description" content="Vendors page">
-	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health care software, open source software, vendors, apps">
-	<meta name="author" content="Thomas Beale">
-	<meta name="copyright" content="The openEHR Foundation">
-	<meta name="design" content="Adriana Danilakova">
-	<meta name="distribution" content="Global">
-	
-	<meta name="rating" content="General">
-	<meta name="robots" content="All">
-	<meta name="revisit-after" content="15 days">
-	<meta name="viewport" content="1024">
-
-	<link rel="stylesheet" href="../../styles/basic.css"  type="text/css">
-	<link rel="stylesheet" href="../../styles/programs.css"  type="text/css">
-	<link rel="stylesheet" href="../../styles/menu.css" type="text/css"> 
-
-	<link rel="home" href="http://www.openehr.org">
-	<link rel="bookmark" href="http://www.openehr.org" title="openEHR - Homepage">
-	<link rel="index" href="http://www.openehr.org/sitemap">
-
-	<script type="text/javascript" src="../../menu/dropdown.js"></script> 
-	
+	<?php include '../../panel/headpanel.php' ?>
 </head>
 
 
@@ -50,7 +25,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		</div>
 	</div> 
 
-	<div id="MainArea" style="height:1400px;">
+	<div id="MainArea">
 	
 		<div id="SideMenu">
 		<?php include 'menu/solutionsmenu.php' ?>
@@ -74,8 +49,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<th class="TableMainT" style="text-align:center;"><a href="solutionshome#MT">Modelling<br/>Tools</a></th>
 			<th class="TableMainT" style="text-align:center;"><a href="solutionshome#MM">Model<br/>Manag.</a></th>
 			<th class="TableMainT" style="text-align:center;"><a href="solutionshome#IT">Implement.<br/>Tools</a></th>
-			<th class="TableMainT" style="text-align:center;"><a href="solutionshome#OS">Operational<br/>Solutions</a></th>
-			<th class="TableMainT" style="text-align:center;"><a href="solutionshome#Ap">Applicat.</a></th>
+			<th class="TableMainT" style="text-align:center;"><a href="solutionshome#Ap">Applications</a></th>
 			<th class="TableMainT" style="text-align:center;"><a href="solutionshome#Se">Services</a></th>
 			<th class="TableMainT" style="text-align:center;"><a href="solutionshome#Hdp">Health Data<br/>Persistence</a></th>
 			</tr>
@@ -84,9 +58,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<td class="TableMainC" ><a href="http://www.code24.nl/">Code24</a><br/>Netherlands</td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
-			<td class="TableMainC" style="text-align:center;"></td>
-			<td class="TableMainC" style="text-align:center;"></td>
-			<td class="TableMainC" style="text-align:center;"></td>
+			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			</tr>
@@ -96,15 +69,13 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
-			<td class="TableMainC" style="text-align:center;"></td>
-			<td class="TableMainC" style="text-align:center;"></td>
+			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			</tr>
 			<tr>
 			<td class="TableMainC" style="text-align:center;">&nbsp;<img src="../../files/entry_points/infinnity_logo.jpg">&nbsp;<br/></td>
 			<td class="TableMainC" ><a href="http://www.infinnity.ru/">Infinity Solutions</a><br/>Russia</td>
-			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
@@ -120,7 +91,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			<td class="TableMainC" style="text-align:center;"></td>
-			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			</tr>
 			<tr>
@@ -130,14 +100,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
-			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
-			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			</tr>
 				<tr>
 			<td class="TableMainC" style="text-align:center;"><br/><img src="../../files/entry_points/P2D_Logotipo_Empresa.jpg"><br/><br/></td>
 			<td class="TableMainC" ><a href="http://www.p2d.com.br/novosite/main/index.php">P2D</a><br/>Brazil</td>
-			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
@@ -153,13 +121,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
-			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
 			</tr>
 			<tr>
 			<td class="TableMainC" style="text-align:center;"><br/>&nbsp;<img src="../../files/entry_points/zorggemak_logo.jpg">&nbsp;<br/><br/></td>
 			<td class="TableMainC" ><a href="http://www.zorggemak.com/">Zorg Gemak</a><br/>Netherlands</td>
-			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>
 			<td class="TableMainC" style="text-align:center;"></td>

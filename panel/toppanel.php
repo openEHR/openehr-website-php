@@ -1,9 +1,13 @@
+	<div id="Logo">
+	<a href="http://www.openehr.org/new-ws/site/home"><img src="http://www.openehr.org/new-ws/site/gui/openEHRlogo.png"></a>
+	</div>
+	
 	<div id="Motto">
-		An open domain-driven platform<br/>for adaptive e-health systems
+	An open domain-driven<br/>platform for adaptive<br/>e-health systems
 	</div>
 	
 	<div id="Utilities">
-	<a href="http://www.openehr.org/new-ws/site/aboutthiswebsite">About this Website</a> | <a href="http://www.openehr.org/home.html">Old Website</a>
+	<a href="http://www.openehr.org/new-ws/site/aboutthiswebsite">About this Website</a> | <a href="http://www.openehr.org/home.html">Old Website</a> | <a href="mailto:webmaster@openehr.org">Contact Webmaster</a>
 	</div>
 	
 	<div id="Search">
