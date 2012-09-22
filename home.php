@@ -25,20 +25,27 @@
 
 		<div id="HomeFrame1">
 			<div id="FoundationFrame">
-				<h2>Welcome to openEHR</h2>
-				<p style="text-align:justify;">The openEHR Foundation works to enable semantic interoperaility and intelligent computing in health information systems. 
-				It does this by defining an open, knowledge-driven platform, based on a standardised Electronic Health Record (EHR). 
-				openEHR's work is organised in the four Programmes below.<br/>
-				<a href="about/foundation" style="line-height:200%;">Learn more</a></p>
+				<h2>Welcome</h2>
+				<p><a href="whatisopenehr">What is openEHR?</a></p>
+				<p><a href="whoisusingopenehr">Who is using openEHR?</a></p>
+				<p><a href="about/foundation">About openEHR Foundation</a></p>
 			</div>
 		
 		
-			<div id="WikiFrame">
-				<h2>Join & Learn</h2>
-				<p><a href="http://www.openehr.org/wiki/dashboard.action">Wiki</a></p>
-				<p><a href="http://www.openehr.org/new-ws/site/community/mailinglists">Mailing Lists</a></p>
-				<p><a href="http://www.openehr.org/new-ws/site/resources/learningcentre">Learning Centre</a></p>
-				
+			<div id="UsersFrame">
+				<h2>Your guide to openEHR</h2>
+				<div id="User1">
+				<p style="line-height:160%; text-align:center;"><a href="entry_points/yourguide/vendors_developers"><img src="gui/vendors.png"><br/>IT Vendors<br/>Developers</a></p>
+				</div>
+				<div id="User2">
+				<p style="line-height:160%; text-align:center;"><a href="entry_points/yourguide/governmentbodies_programmes"><img src="gui/government.png"><br/>Government Bodies<br/>eHealth Programmes</a></p>
+				</div>
+				<div id="User3">
+				<p style="line-height:160%; text-align:center;"><a href="entry_points/yourguide/providers_clinicians"><img src="gui/providers.png"><br/>Providers<br/>Clinicians</a></p>
+				</div>	
+				<div id="User4">
+				<p style="line-height:160%; text-align:center;"><a href="entry_points/yourguide/universities_researchcentres"><img src="gui/research.png"><br/>Universities<br/>Research Centres</a></p>
+				</div>	
 			</div>
 		</div>
 			
@@ -131,7 +138,7 @@
 			</div>
 			
 			
-			<div id="NewsFrame">
+			<div id="Twitter2Frame">
 				<h2>Clinical Model News</h2>
 				<div style="position: absolute; top:30px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
 					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -168,11 +175,11 @@
 			</div>
 			
 			
-			<div id="ReleasesFrame">
+			<div id="NewsFrame">
 			<div id="LinksFrame">
 				<h2>News & Events</h2>
-				<a href="news_events/openehrnews/news21">ADL - syntax highlight for Notepad++</a>
-				<h6>13. August 2012</h6>
+				<a href="news_events/openehrevents/events8">openEHR Foundation Meeting</a>
+				<h6>10.-12. September 2012</h6>
 				<br/>
 				<a href="news_events/openehrevents/events7">HL7 Australia Seminar on Future HL7 Standards</a>
 				<h6>2. July 2012</h6>
@@ -188,9 +195,12 @@
 				</div>
 			</div>
 			
-			<div id="UsersFrame">
+			<div id="ReleasesFrame">
 				<div id="LinksFrame">
 				<h2>Releases</h2>
+				<a href="news_events/openehrreleases/release20">ADL - syntax highlight for Notepad++</a>
+				<h6>13. August 2012</h6>
+				<br/>
 				<a href="news_events/openehrreleases/release19">ADL 1.5 Workbench - beta release 8</a>
 				<h6>2. August 2012</h6>
 				<br/>
@@ -202,9 +212,6 @@
 				<br/>
 				<a href="news_events/openehrreleases/release16">ADL 1.5 Workbench - beta release 3</a>
 				<h6>14. January 2011</h6>
-				<br/>
-				<a href="news_events/openehrreleases/release15">Achetype Editor 2.2 beta release</a>
-				<h6>28. December 2010</h6>
 				</div>
 			</div>	 
 		</div>

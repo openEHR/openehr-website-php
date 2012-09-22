@@ -35,46 +35,44 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h1>Clinical Standardisation</h1>
 			<br/>
-			<p>Clinicians and their clients are what openEHR is about. The power to create life-long and future-proof
-			health records that support health and health care across the full range of health care environments.
-			By separating the specification of clinical information from the model on which the software operates,
-			clinicians can go on extending their shared information requirements to meet evolving needs.</p>
-			<p>As a clinician you are in the position to present your information
-			requirements to the openEHR community and ensure that the specifications really do allow you to do what you need.
-			These are specified as archetypes - allowing them to be shared across systems implementing the openEHR architecture. 
-			You can join the <a href="../../community/mailinglists">mailing lists</a> as a first step. There are more than
-			1000 people from 75+ countries already there.</p>
-			<p>The openEHR community is presently building a repository for the web-based authoring of archetypes. 
-			This <a href="http://openehr.org/knowledge/">model repository</a> is an early prototype and includes an OWL
-			repository for aiding the documentation of archetypes and helping us find them.</p>
-			<p class="par">Some of the benefits available from openEHR-baed systems for clinical professionals:</p>
+			<p>openEHR's ultimate aims are to improve clinical care provision. It does this in two ways:</p>
 			<ul>
-			<li><em>Domain specialists can model their own information and
-			workflows</em> using archetypes, and have these used directly in
-			the openEHR-enabled environments. Archeype modelling can occur at an
-			international as well as local level, enabled by the openEHR online
-			archetype library, a managed global archetype development and governance
-			environment. By this means, even doctors in remote locations can participate
-			directly in building health content models for the needs of their local
-			environment and speciality.</li>
-			<li><em>Medico-legal support</em> for all decisions made and recorded,
-			due to a permanent, versioned record, digital attestations, and a chain of
-			evidence supporting clinical decisions.</li>
-			<li>openEHR <em>supports all phases of care delivery</em>, from
-			recording observations, measurements, test results, through clinical evaluation
-			and care-planning, to active intervention and management.</li>
-			<li>Workflow-based action archetypes enable the <em>state of an activity to
-			be accurately known at all times</em> and be utilised in intelligent
-			clinical decision support applications.</li>
-			<li><em>Location-independent medication management</em> is possible with
-			the use of shared openEHR medication instructions, supporting
-			electronic prescribing, and allergy and interaction checking.</li>
-			<li>All openEHR <em>information is globally sharable</em> in
-			the care community.</li>
-			<li>Linking and threading allows <em>longitudinal views of issues and
-			problems</em> for each patient.</li>
+				<li>enabling <em>interoperable, longitudinal health records</em> by standardising both health data
+				(text, quantities, etc) and clinical content (vital signs, diagnoses, care plans) across all
+				care settings;</li>
+				<li>enabling <em>computation on health data</em>, via the inclusion of shared semantics.
+				This is the basis of true decision support and analytics,
+				including all secondary data use.</li>
 			</ul>
-			<br/>
+			<p>This is achieved by the innovation of 'multi-level modelling', whereby clinical content
+			is standardised using a modelling layer known as 'archetypes' that is separate from the data
+			standards layer. This enables system software to be built and deployed independently
+			of clinical modelling of content and workflows. Clinicians are now in the driving seat
+			for system content and semantics, while IT specialists can safely build scalable solutions,
+			safe in the knowledge that adding new data points and content models won't affect them.</p>
+			<p>The 'clinical standardisation' occurs at two levels:</p>
+			<ul>
+				<li>definition of standard <em>data points</em> and <em>data groups</em> as <em>archetypes</em>: define
+				standard clinical concepts once, including data items for vital signs, medications,
+				investigations. Archetypes act as a unit of governance.
+				This is the level at which clinicians agree on how to record a blood pressure or diagnosis.</li>
+				<li>definition of standard <em>data sets</em> as <em>templates</em>: define collections of data elements taken from
+				archetypes for particular uses, e.g. medication summary, discharge summary, referral,
+				lab panels etc. These definitions can be used to generate message definitions, document
+				definitions, and programming APIs for immediate use by industry.</li>
+			</ul>
+			<p>To date, openEHR at the international level has concentrated on the first category - international definitions
+			of standard clinical information. Within national programmes, archetypes have been
+			both developed and re-used as the basis for templates for national use.</p>
+			<p>As a clinician you can get involved in the first category purely on the basis of professional interest,
+			and/or as part of a professional or national programme. To do this, you can join the openEHR
+			community, joining the <a href="http://lists.openehr.org/mailman/listinfo/openehr-announce_lists.openehr.org">announcements</a>
+			and <a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">clinical</a> mailing lists as a first step.
+			There are more than 1000 people from 75+ countries already there. You can also join
+			the openEHR <a href="http://www.openehr.org/knowledge/">Clinical Knowledge Manager</a> (CKM) as a contributor, and build archetypes
+			for open international use. If you are a specialist, your expertise will be particularly
+			valued. The CKM operates as an online community, with individuals discussing and working
+			on archetypes in their interest area.
 			
 		</div>
 			

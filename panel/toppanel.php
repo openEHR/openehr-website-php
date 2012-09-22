@@ -1,14 +1,16 @@
 	<div id="Logo">
-	<a href="http://www.openehr.org/new-ws/site/home"><img src="http://www.openehr.org/new-ws/site/gui/openEHRlogo.png"></a>
+	<a href="http://www.openehr.org/new-ws/site/home">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	</div>
 	
 	<div id="Motto">
-	An open domain-driven<br/>platform for adaptive<br/>e-health systems
+	An open domain-driven<br/>platform for flexible<br/>e-health systems
 	</div>
 	
 	<div id="Utilities">
-	<a href="http://www.openehr.org/new-ws/site/aboutthiswebsite">About this Website</a> | <a href="http://www.openehr.org/home.html">Old Website</a> | <a href="mailto:webmaster@openehr.org">Contact Webmaster</a>
-	</div>
+	<a href="http://www.openehr.org/new-ws/site/aboutthiswebsite">About this Website</a> | <a href="http://www.openehr.org/home.html">Old Website</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a> | <a href="http://www.openehr.org/wiki">Wiki</a></div>
 	
 	<div id="Search">
 		<div id="cse-search-form" style="width: 100%;">Loading</div>

@@ -12,7 +12,7 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
 
 
 #MainArea {
- background-color:#ffffff;
+ background-color:#FFFFFF;
  width:1024px;
 }
 
@@ -35,25 +35,54 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  height:150px;
  width:950px;
  background-image: url("../gui/HomeFrame1.png");
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...);
  background-repeat:no-repeat;
 }
 
 #FoundationFrame {
  position:absolute;
  height:110px;
- width:671px;
+ width:190px;
  padding-left:15px;
  padding-right:25px;
 }
 
-#WikiFrame {
+#UsersFrame {
  position:absolute;
- left:720px;
+ left:240px;
  height:110px;
- width:190px;
+ width:671px;
  padding-left:15px;
  padding-right:25px;
  padding-bottom:10px;
+}
+
+#User1 {
+ position:absolute;
+ left:20px;
+ top:50px;
+ padding-left:15px;
+}
+
+#User2 {
+ position:absolute;
+ left:170px;
+ top:50px;
+ padding-left:15px;
+}
+
+#User3 {
+ position:absolute;
+ left:370px;
+ top:50px;
+ padding-left:15px;
+}
+
+#User4 {
+ position:absolute;
+ left:500px;
+ top:50px;
+ padding-left:15px;
 }
 
 #SpecificationFrame {
@@ -109,7 +138,7 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  background-repeat:no-repeat;
 }
 
-#UsersFrame {
+#ReleasesFrame {
  position:absolute;
  left:720px;
  height:340px;
@@ -126,7 +155,7 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-right:20px;
 }
 
-#NewsFrame {
+#Twitter2Frame {
  position: absolute;
  height:340px;
  width:210px;
@@ -135,7 +164,7 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-right:20px;
 }
 
-#ReleasesFrame {
+#NewsFrame {
  position: absolute;
  height:340px;
  width:210px;

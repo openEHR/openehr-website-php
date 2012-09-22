@@ -83,6 +83,10 @@ body {
  top:8px;
 }
 
+#Logo a {
+ text-decoration:none;
+}
+
 #Motto {
  height:30px;
  width:280px;

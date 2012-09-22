@@ -32,9 +32,15 @@
 			
 			<h1>Events</h1>
 			<br/>
+			<a href="openehrevents/events8">openEHR Foundation Meeting</a>
+			<h6>10. - 12. September 2012, London</h6>
+			<p>openEHR Foundation Strategic Planning Seminar had focused on discussion of the current state of openEHR
+			in order to develop both short and long term strategies. Board and the community members found the opportunity
+			to share their insights into key matters, covering both policy and technology aspects of openEHR.</p>
+			<br>
 			<a href="openehrevents/events7">HL7 Australia Seminar on Future HL7 Standards</a>
 			<h6>2. July 2012, Sydney</h6>
-			<p>This HL7 Australia "Future of eHealth Standards" Seminar will outline the recent developments
+			<p>This HL7 Australia "Future of eHealth Standards" Seminar outlined the recent developments
 			in the use of openEHR Archetypes in HL7, the FHIR work (an Aussie development that is taking
 			the global HL7 community by storm) as well as the Clinical Information Modeling Initiative (CIMI).</p>
 			<br>

@@ -38,6 +38,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<h2>Site</h2>
 			<ul>
 				<li><a href="http://www.openehr.org/new-ws/site/home">Home</a></li>
+				<li><a href="http://www.openehr.org/new-ws/site/whatisopenehr">What is openEHR?</a></li>
+				<li><a href="http://www.openehr.org/new-ws/site/whoisusingopenehr">Who is using openEHR?</a></li>
 				<li><a href="http://www.openehr.org/new-ws/site/aboutthiswebsite">About This Website</a></li>
 				<li><a href="http://www.openehr.org/home.html">Old Website</a></li>
 				<li><a href="mailto:webmaster@openehr.org">Contact Webmaster</a></li>

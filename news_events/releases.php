@@ -32,6 +32,11 @@
 			
 			<h1>Releases</h1>
 			<br/>
+			<a href="openehrnews/news21">ADL - syntax highlight for Notepad++</a>
+			<h6>13. August 2012</h6>
+			<p>ADL syntax highlight for Notepad++ was developed by Armando Prieto from Venezuela.
+			Find more information about ADL Text Editors on Wiki.</p>
+			<br/>
 			<a href="openehrreleases/release19">ADL 1.5 Workbench - beta release 8</a>
 			<h6>2. August 2012</h6>
 			<p>A new beta release of the ADL 1.5 Workbench is now available here. Release includes a complete makeover of the user interface, with numerous usability improvements,

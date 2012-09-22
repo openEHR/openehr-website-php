@@ -24,7 +24,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	</div> 
 
 
-	<div id="MainArea" style="height:450px;">
+	<div id="MainArea">
 	
 		<div id="SideMenu">
 		<?php include 'menu/specificationsmenu.php' ?>
@@ -33,6 +33,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<div id="TextArea">
 		
 		<h1>Releases</h1>
+		<br/>
 		<p>The current working baseline is <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/roadmap.html">here</a>.</p><br/>
 		<table class="TableMain">
 			<tbody>
@@ -42,17 +43,17 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<th class="TableMainT"> Description </th>
 			</tr>
 			<tr>
-			<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.2/roadmap.html"><b>Release 1.0.2</b></a></td>
+			<td class="TableMainC"> <a href="releasehistory/release102">Release 1.0.2</a></td>
 			<td class="TableMainC"> 31 December 2008 </td>
 			<td class="TableMainC"> 22 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10030">Release notes.</a></td>
 			</tr>
 			<tr>
-			<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/roadmap.html"><b>Release 1.0.1</b></a></td>
+			<td class="TableMainC"> <a href="releasehistory/release101">Release 1.0.1</a></td>
 			<td class="TableMainC"> 15 April 2007 </td>
 			<td class="TableMainC"> 56 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10019">Release notes.</a></td>
 			</tr>
 			<tr>
-			<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0/roadmap.html"><b>Release 1.0</b></a></td>
+			<td class="TableMainC"> <a href="releasehistory/release10"><b>Release 1.0</a></td>
 			<td class="TableMainC"> 07 February 2006 </td>
 			<td class="TableMainC"> 54 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10018">Release notes.</a></td>
 			</tr>
@@ -62,18 +63,17 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<td class="TableMainC"> Error correction release. 12 Change Requests </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10017">Release notes.</a></td>
 			</tr>
 			<tr>
-			<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.95/roadmap.html"><b>Release 0.95</b></a></td>
+			<td class="TableMainC"> <a href="releasehistory/release095"><b>Release 0.95</b></a></td>
 			<td class="TableMainC"> 15 March 2005 </td>
 			<td class="TableMainC"> Basic modelling changes. 17 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10016">Release notes.</a></td>
 			</tr>
 			<tr>
-			<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/roadmap.html"><b>Release 0.9</b></a></td>
+			<td class="TableMainC"> <a href="releasehistory/release09"><b>Release 0.9</b></a></td>
 			<td class="TableMainC"> 04 May 2004 </td>
 			<td class="TableMainC"> First complete release of openEHR. 84 Change Requests </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10015">Release notes.</a></td>
 			</tr>
 			</tbody>
 		</table>
-
 		
 		</div>
 			

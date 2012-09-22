@@ -31,11 +31,6 @@
 			
 			<h1>News</h1>
 			<br/>
-			<a href="openehrnews/news21">ADL - syntax highlight for Notepad++</a>
-			<h6>13. August 2012</h6>
-			<p>ADL syntax highlight for Notepad++ was developed by Armando Prieto from Venezuela.
-			Find more information about ADL Text Editors on Wiki.</p>
-			<br/>
 			<a href="openehrnews/news20">Brazil re-affirms commitement to openEHR</a>
 			<h6>16. May 2012</h6>
 			<p>As part of operationalising chapter III of the government decree
