@@ -1,8 +1,8 @@
 		<div id="BottomFrame" style="left:40px;">
 			<p class="MenuHeading">Specifications <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
-			<li><a href="http://www.openehr.org/releases/1.0.2/roadmap.html">Current Release</a></li>
-			<li><a href="http://www.openehr.org/svn/specification/TRUNK/publishing/roadmap.html">Development Baseline</a></li>
+			<li><a href="http://www.openehr.org/new-ws/site/programs/specification/releasehistory/release102">Current Release</a></li>
+			<li><a href="http://www.openehr.org/new-ws/site/programs/specification/currentbaseline">Development Baseline</a></li>
 			<li><a href="http://www.openehr.org/issues/browse/SPECPR">Issue Tracker</a></li>
 			<li><a href="http://www.openehr.org/releases/1.0.2/its/XML-schema/index.html">XML Schemas</a></li>
 			<li><a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">RM UML</a></li>

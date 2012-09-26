@@ -5,50 +5,55 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 <html>
 <head>
-	<title>openEHR - Clinical Models Program</title>
+
+	<title>openEHR - Localisation Program</title>
+	<link rel="bookmark" href="http://www.openehr.org/programs/localisation" title="openEHR - Localisation Program">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
+
 
 <body>
 
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		 <?php include '../../menu/topmenu.php' ?>
+			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
-
 
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-		<?php include 'menu/modelsmenu.php' ?>
+			<?php include 'menu/localisationmenu.php' ?>
 		</div>
-
+		
 		<div id="TextArea">
-		
-		<h1>List of Models</h1>
-		<p>TBD</p>
-		
+			
+			<h1>Localisation Program</h1>
+			
 		</div>
 			
+
 	</div>
 
 	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>	
+		<?php include '../../panel/bottompanel.php' ?>
 	</div>
-	
-</div>
 
+</div>
+	
 <script type="text/javascript">
 var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
 </script>

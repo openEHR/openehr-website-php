@@ -5,47 +5,51 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 <html>
 <head>
+
 	<title>openEHR - Software Program</title>
+	<link rel="bookmark" href="http://www.openehr.org/programs/software/changeprocess" title="openEHR - Software Program">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
+
 
 <body>
 
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
 		
 		<div class="nav">
-   		 <?php include '../../menu/topmenu.php' ?>
+			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-		<?php include 'menu/softwaremenu.php' ?>
+			<?php include 'menu/softwaremenu.php' ?>
 		</div>
 
 		<div id="TextArea">
 
-		<h1>Change Process</h1>
-		<p>TBD</p>
+			<h1>Change Process</h1>
+			<p>TBD</p>
 		
 		</div>
 			
-
 	</div>
 
 	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>	
+		<?php include '../../panel/bottompanel.php' ?>	
 	</div>
 	
 </div>

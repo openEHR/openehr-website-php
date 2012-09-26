@@ -52,12 +52,12 @@
 		<div id="SpecificationFrame">
 			<img src="gui/SpecificationFrame.png" usemap="#specification"/>
 			<map name="specification">
-			  <area shape="rect" coords="0,0,220,150" href="programs/specification/programhome" alt="Specification Program" />
+			  <area shape="rect" coords="0,0,220,150" href="programs/specification" alt="Specification Program" />
 			</map> 
 			<div id="TextFrame">
 			<h1>Specifications <br/>Program</h1>
 			<p>Specifications for health information, archetypes, querying and services.
-			<br/><a href="programs/specification/programhome" style="line-height:200%;">Learn more</a></p>
+			<br/><a href="programs/specification" style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>
 
@@ -65,12 +65,12 @@
 		<div id="ModelsFrame">
 			<img src="gui/ModelsFrame.png" usemap="#models"/>
 			<map name="models">
-			  <area shape="rect" coords="0,0,220,150" href="programs/clinicalmodels/programhome" alt="Clinical Models Program" />
+			  <area shape="rect" coords="0,0,220,150" href="programs/clinicalmodels" alt="Clinical Models Program" />
 			</map> 
 			<div id="TextFrame">
 			<h1>Clinical Models <br/>Program</h1>
 			<p>Clinician-built archetypes, templates and ref-sets for e-health applications.
-			<br/><a href="programs/clinicalmodels/programhome" style="line-height:200%;">Learn more</a></p>
+			<br/><a href="programs/clinicalmodels" style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>
 
@@ -78,12 +78,12 @@
 		<div id="SoftwareFrame">
 			<img src="gui/SoftwareFrame.png" usemap="#software"/>
 			<map name="software">
-			  <area shape="rect" coords="0,0,220,150" href="programs/software/programhome" alt="Software Program" />
+			  <area shape="rect" coords="0,0,220,150" href="programs/software" alt="Software Program" />
 			</map> 
 			<div id="TextFrame">
 			<h1>Software <br/>Program</h1>
 			<p>Software tools and components for clinical modelling and EHR platform.
-			<br/><a href="programs/software/programhome"  style="line-height:200%;">Learn more</a></p>
+			<br/><a href="programs/software"  style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>
 			
@@ -91,12 +91,12 @@
 		<div id="LocalisationFrame">
 			<img src="gui/LocalisationFrame.png" usemap="#localisation"/>
 			<map name="localisation">
-			  <area shape="rect" coords="0,0,220,150" href="programs/localisation/programhome" alt="Localisation Program" />
+			  <area shape="rect" coords="0,0,220,150" href="programs/localisation" alt="Localisation Program" />
 			</map> 
 			<div id="TextFrame">
 			<h1>Localisation <br/>Program</h1>
 			<p>Education, translation, and dissemination - making openEHR work everywhere.
-			<br/><a href="programs/localisation/programhome" style="line-height:200%;">Learn more</a></p>
+			<br/><a href="programs/localisation" style="line-height:200%;">Learn more</a></p>
 			</div> 
 		</div>
 		

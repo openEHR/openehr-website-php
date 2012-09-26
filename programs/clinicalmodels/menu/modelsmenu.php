@@ -1,4 +1,4 @@
-		<p class="SideMenuHeading"><a href="http://www.openehr.org/new-ws/site/programs/clinicalmodels/programhome" <?php if($pageOn == 'programhome.php'){?> class="active"<?php }?> style="font-weight:900;">Clinical Models<br/>Program</a></p>
+		<p class="SideMenuHeading"><a href="http://www.openehr.org/new-ws/site/programs/clinicalmodels" <?php if($pageOn == 'index.php'){?> class="active"<?php }?> style="font-weight:900;">Clinical Models<br/>Program</a></p>
 			<ul>
 			<li><a href="http://openehr.org/knowledge/">Model Repository</a></li>
 			<li><a href="http://www.openehr.org/new-ws/site/programs/clinicalmodels/documentation" <?php if($pageOn == 'documentation.php'){?> class="active"<?php }?>>Documentation</a></li>

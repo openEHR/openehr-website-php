@@ -1,11 +1,14 @@
+
 			<ul id="menu" class="menu">
+			
 				<li><span><a href="http://www.openehr.org/new-ws/site/home">Home</a></span></li>
+				
        			<li><span>Programs</span>
 					<ul>
-                		<li><a href="http://www.openehr.org/new-ws/site/programs/specification/programhome">&nbsp; Specification Program</a></li>
-               			<li><a href="http://www.openehr.org/new-ws/site/programs/clinicalmodels/programhome">&nbsp; Clinical Models Program</a></li>
-                		<li><a href="http://www.openehr.org/new-ws/site/programs/software/programhome">&nbsp; Software Program</a></li>
-						<li><a href="http://www.openehr.org/new-ws/site/programs/localisation/programhome">&nbsp; Localisation Program</a></li>
+                		<li><a href="http://www.openehr.org/new-ws/site/programs/specification">&nbsp; Specification Program</a></li>
+               			<li><a href="http://www.openehr.org/new-ws/site/programs/clinicalmodels">&nbsp; Clinical Models Program</a></li>
+                		<li><a href="http://www.openehr.org/new-ws/site/programs/software">&nbsp; Software Program</a></li>
+						<li><a href="http://www.openehr.org/new-ws/site/programs/localisation">&nbsp; Localisation Program</a></li>
 					</ul>
         		</li>
 				
@@ -51,3 +54,4 @@
         		</li>
 
     		</ul>
+

@@ -7,6 +7,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <html>
 <head>
 	<title>openEHR - Contacts</title>
+	<link rel="bookmark" href="http://www.openehr.org/about/contacts" title="openEHR - Contact">
 	<?php include '../panel/headpanel.php' ?>
 </head>
 
@@ -16,20 +17,21 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../panel/toppanel.php' ?>
+		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
 		
 		<div class="nav">
-   		 <?php include '../menu/topmenu.php' ?>
+			<?php include '../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-		<?php include 'menu/aboutmenu.php' ?>
+			<?php include 'menu/aboutmenu.php' ?>
 		</div>
 		
 		<div id="TextArea">
@@ -40,15 +42,14 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 		</div>
 			
-
 	</div>
 
 	<div id="BottomMenu">
-	<?php include '../menu/bottommenu.php' ?>
+		<?php include '../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../panel/bottompanel.php' ?>
+		<?php include '../panel/bottompanel.php' ?>
 	</div>
 
 </div>

@@ -1,4 +1,4 @@
-		<p class="SideMenuHeading"><a href="http://www.openehr.org/new-ws/site/programs/localisation/programhome" <?php if($pageOn == 'programhome.php'){?> class="active"<?php }?> style="font-weight:900;">Localisation<br/>Program</a></p>
+		<p class="SideMenuHeading"><a href="http://www.openehr.org/new-ws/site/programs/localisation" <?php if($pageOn == 'index.php'){?> class="active"<?php }?> style="font-weight:900;">Localisation<br/>Program</a></p>
 				<ul>
 				<li><a href="http://www.openehr.org/new-ws/site/programs/localisation/whatscurrent" <?php if($pageOn == 'whatscurrent.php'){?> class="active"<?php }?>>What's Current?</a></li>
 				<li><a href="http://www.openehr.org/new-ws/site/programs/localisation/countries" <?php if($pageOn == 'countries.php'){?> class="active"<?php }?>>Countries</a></li>

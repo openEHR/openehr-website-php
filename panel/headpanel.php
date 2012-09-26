@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="http://www.openehr.org/new-ws/site/styles/menu.css" type="text/css"> 
 	
 	<link rel="home" href="http://www.openehr.org">
-	<link rel="bookmark" href="http://www.openehr.org" title="openEHR - Homepage">
 	<link rel="index" href="http://www.openehr.org/sitemap">
 
 	<script type="text/javascript" src="http://www.openehr.org/new-ws/site/menu/dropdown.js"></script> 
+	

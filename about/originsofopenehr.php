@@ -3,6 +3,7 @@
 <html>
 <head>
 	<title>openEHR - Foundation Origins</title>
+	<link rel="bookmark" href="http://www.openehr.org/about/originsofopenehr" title="openEHR - Foundation Origins">
 	<?php include '../panel/headpanel.php' ?>
 </head>
 
@@ -11,20 +12,21 @@
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../panel/toppanel.php' ?>
+		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
 		
 		<div class="nav">
-   		 <?php include '../menu/topmenu.php' ?>
+			<?php include '../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-		<?php include 'menu/aboutmenu.php' ?>
+			<?php include 'menu/aboutmenu.php' ?>
 		</div>
 		
 		<div id="TextArea">
@@ -36,157 +38,56 @@
 			<p>Some ten years after the GEHR project was established in 1989, partners in that project have come together again to review experience gained over the intervening years. It is especially encouraging that a forthcoming ISO standard will elevate formally defined clinical requirements to the highest level in the standards process for electronic healthcare records. So many systems describe themselves as electronic healthcare records and yet share little common concept of what such an entity is and what it is for.</p>
 			<p>The research and development in this field has followed a chaotic and tortuous evolution, influenced inevitably by commercial, political and academic considerations and rivalries and also by severe inertia because of powerful needs to continue to accommodate legacy systems. Confused and confusing arguments have raged about esoteric models of ill-defined clinical terminology, processes and communications. Continuing reinvention of wheels at these levels of abstraction (more precisely concoction of alternative definitions and plans of possibly wheel-like objects!), has inhibited progress. There is still an urgent need for empirical study of the implementation and comparative evaluation of a diverse range of approaches to the provision of high quality electronic healthcare records. This must be informed by international consensus about the requirements to be met.</p>
 			
-			
 			<h3>Introduction - the AIM Initiative in Europe</h3>
 			<p>In 1988, the European Union established the Advanced Informatics in Medicine (AIM) initiative, within the wide-ranging Framework Programme for Research and Technology Development in Europe.</p>
-			<p class="par">The rationale for the Framework Programme was:</p>
+			<p>The rationale for the Framework Programme was:</p>
 			<ul>
 				<li>To strengthen the economic and social cohesion of the Community</li>
 				<li>To offer obvious benefits through the collaboration of several States</li>
-				<li>To apply significant and complementary results across the whole Community
-				</li>
-				<li>To contribute to a common market and to scientific and technical unification
-				</li>
-			</ul><br/>
-			<p>It succeeded in catalysing a wave of new partnerships across all sectors of
-			the European economy.</p>
-			<p class="par">In relation to health, the Framework Programme objectives set out in 1988
-			were:</p>
+				<li>To apply significant and complementary results across the whole Community</li>
+				<li>To contribute to a common market and to scientific and technical unification</li>
+			</ul>
+			<p>It succeeded in catalysing a wave of new partnerships across all sectors of the European economy.</p>
+			<p>In relation to health, the Framework Programme objectives set out in 1988 were:</p>
 			<ul>
-			<li>To unify European activities by providing the means for efficient
-			communication of medical records and knowledge so that these may be understood
-			and compatible, thereby permitting the integration of health information systems
-			</li>
-			<li>To strengthen competitiveness by advancing the technical basis of products
-			and services and commercialising European inventiveness in all scales of
-			enterprise</li>
-			<li>To improve the quality of life through improving diagnosis and treatment,
-			increasing public awareness and knowledge of health care and widening access to
-			improved services</li>
-			</ul><br/>
-			<p>Thus, from the earliest stages of the Programme, the harmonisation of
-			electronic health care records was seen as of the highest strategic importance
-			for health care development in Europe.</p>
-			<p class="par">Under the outstanding leadership of Dr Niels Rossing, the AIM Programme was
-			developed in key phases, as follows:</p>
+				<li>To unify European activities by providing the means for efficient communication of medical records and knowledge so that these may be understood and compatible, thereby permitting the integration of health information systems</li>
+				<li>To strengthen competitiveness by advancing the technical basis of products and services and commercialising European inventiveness in all scales of enterprise</li>
+				<li>To improve the quality of life through improving diagnosis and treatment, increasing public awareness and knowledge of health care and widening access to improved services</li>
+			</ul>
+			<br/>
+			<p>Thus, from the earliest stages of the Programme, the harmonisation of electronic health care records was seen as of the highest strategic importance for health care development in Europe.</p>
+			<p>Under the outstanding leadership of Dr Niels Rossing, the AIM Programme was developed in key phases, as follows:</p>
 			<ul>
-			<li>
-			<strong>1988 - 90</strong> Exploratory phase, 20 million ECU, 43 projects
-			</li>
-			<li>
-			<strong>1990 - 94</strong> 110 million ECU, 38 projects; 12 concerted
-			actions (eg. Medirec)</li>
-			<li>
-			<strong>1994 - 98</strong> 135 million ECU, ~60 projects</li>
-			</ul><br/>
-			<p>The first major Call for Proposals under the AIM Workplan was issued in 1989.
-			A Key Action was to be research and development for an electronic health care
-			record architecture. There was intense competition among rival consortia seeking
-			funding to work on this challenge. Other Key Actions addressed clinical
-			terminology and clinical care protocols and important work in these areas
-			evolved in the early AIM Programme Projects (e.g. Galen, Games, Dilemma), and
-			colleagues from these days work alongside us to this day.</p>
-			
+				<li><em>1988 - 90</em> Exploratory phase, 20 million ECU, 43 projects</li>
+				<li><em>1990 - 94</em> 110 million ECU, 38 projects; 12 concerted actions (eg. Medirec)</li>
+				<li><em>1994 - 98</em> 135 million ECU, ~60 projects</li>
+			</ul>
+			<p>The first major Call for Proposals under the AIM Workplan was issued in 1989. A Key Action was to be research and development for an electronic health care record architecture. There was intense competition among rival consortia seeking funding to work on this challenge. Other Key Actions addressed clinical terminology and clinical care protocols and important work in these areas evolved in the early AIM Programme Projects (e.g. Galen, Games, Dilemma), and colleagues from these days work alongside us to this day.</p>
 			
 			<h3>The Good European Health Record (GEHR) Project Proposal</h3>
-			<p>A Consortium was drawn together by Dr Alain Maskens and Dr Sam Heard to bid
-			to work within AIM on electronic health record architecture. Alain, a Belgian
-			oncologist, was running HDMP, a small software company specialising in
-			electronic healthcare records for GPs. Sam, an Australian General Practitioner,
-			was lecturer at the Medical College of St Bartholomew&rsquo;s Hospital in London and
-			ran a practice in East London and had developed a general practice system
-			supported by a cooperative of general practices. The two had met through
-			Professor Mal Salkind, head of General Practice at St Bartholomew&rsquo;s, during the
-			AIM exploratory phase and had begun to collaborate on the development of a
-			generic EHR system.</p>
-			<p>The Consortium comprised seven professional, industrial and academic
-			partners: St Bartholomew&rsquo;s Medical College (co-ordinating partner); HDMP; The
-			French Red Cross Hospitals; The Association of Doctors and Dentists of
-			Luxembourg; The General Practice Institute of Oporto, Portugal; France Telecom;
-			Smithkline Beecham.</p>
-			<p>Professor David Ingram, Professor of Medical Informatics at St Bartholomew&rsquo;s
-			Medical College, was invited to lead the Consortium, to prepare the proposal
-			and, subsequently, as Project Director, to run the project. In this, he worked
-			closely with Lesley Southgate, who had succeeded Mal Salkind as Head of Primary
-			Care at St. Bartholomew&rsquo;s.</p>
-			<p>The project proposal was put together in three months in early 1991 and was
-			given the title <em>The Good European Health Record</em> (GEHR); the name was
-			proposed by Alain Maskens. After a final 72 hour, round the clock, weekend
-			flurry of preparation, it was submitted just in time. It emerged as an
-			unexpected but warmly endorsed winning proposal, in the adjudication that
-			followed. Some rival consortia had worked for several years to position
-			themselves for the work, so the result was controversial. Negotiations, led for
-			GEHR by David Ingram, were completed with the Commission who were represented by
-			the Project Officer, Jacques Lacombe, and Michael Wilson. The project commenced
-			in January 1992.</p>
-			
+			<p>A Consortium was drawn together by Dr Alain Maskens and Dr Sam Heard to bid to work within AIM on electronic health record architecture. Alain, a Belgian oncologist, was running HDMP, a small software company specialising in electronic healthcare records for GPs. Sam, an Australian General Practitioner, was lecturer at the Medical College of St Bartholomew&rsquo;s Hospital in London and ran a practice in East London and had developed a general practice system supported by a cooperative of general practices. The two had met through Professor Mal Salkind, head of General Practice at St Bartholomew&rsquo;s, during the AIM exploratory phase and had begun to collaborate on the development of a generic EHR system.</p>
+			<p>The Consortium comprised seven professional, industrial and academic partners: St Bartholomew&rsquo;s Medical College (co-ordinating partner); HDMP; The French Red Cross Hospitals; The Association of Doctors and Dentists of Luxembourg; The General Practice Institute of Oporto, Portugal; France Telecom; Smithkline Beecham.</p>
+			<p>Professor David Ingram, Professor of Medical Informatics at St Bartholomew&rsquo;s Medical College, was invited to lead the Consortium, to prepare the proposal and, subsequently, as Project Director, to run the project. In this, he worked closely with Lesley Southgate, who had succeeded Mal Salkind as Head of Primary Care at St. Bartholomew&rsquo;s.</p>
+			<p>The project proposal was put together in three months in early 1991 and was given the title <em>The Good European Health Record</em> (GEHR); the name was proposed by Alain Maskens. After a final 72 hour, round the clock, weekend flurry of preparation, it was submitted just in time. It emerged as an unexpected but warmly endorsed winning proposal, in the adjudication that followed. Some rival consortia had worked for several years to position themselves for the work, so the result was controversial. Negotiations, led for GEHR by David Ingram, were completed with the Commission who were represented by the Project Officer, Jacques Lacombe, and Michael Wilson. The project commenced in January 1992.</p>
 
 			<h3>Participants in the GEHR Project</h3>
-			<p>In addition, to David and Sam, of those still closely involved in the
-			continuing story of GEHR, Dr Dipak Kalra, who led the GEHR Clinical Task Group,
-			and David Lloyd, a key contributor to the technical Task Group, joined the St.
-			Bartholomew's team at the outset. Dr Jo Milan, Director of Information at the
-			Royal Marsden Hospital, London, and Dr Stanley Sheppard, Chief Executive of
-			Update, a UK general practice software company, joined as sub-contractors to St.
-			Bartholomew's. Update had to withdraw from the Consortium in the early days of
-			the project, but Stan maintained contact on a personal basis. Tom Beale was
-			employed as a consultant to the Royal Marsden in 1993 and subsequently joined
-			the St Bartholomew's GEHR team, as a consultant, to assist in the key modelling
-			phase, leading to the first GEHR object model for the health care record. David
-			Ingram was appointed Professor of Health informatics at UCL in London in 1995
-			and the team, moved there to establish the Centre for Health Informatics
-			(CHIME). Marcia Jacks was the GEHR Project Administrator and is now co-ordinator
-			of CHIME at UCL, where the St. Bartholomew's team moved.</p>
-			<p>Notable contributions in GEHR were also made by:</p>
-			<p>Jeff Geboers, HDMP; Christian Aligne, French Red Cross; Olivier Baille,
-			France Telecom; Daniel Mart, Association of Doctors and Dentists of Luxembourg;
-			Jose Calado and Helder Machado, Institute of General Practice, Oporto; Mario
-			Cortelezzi, Luxembourg; Penny Grub, Richard Dixon, University of Hull; Lesley
-			Southgate, Jeanette Murphy and Sian Griffiths, St Bartholomew's Medical College;
-			Ian Grey and John Shorter, SmithKline Beecham; Benoit Hap, C2V Paris; Gerhard
-			Brenner, Carlos Salvador.</p>
-			<p>Lesley Southgate, is now President of the Royal College of General
-			Practitioners of the UK and Daniel Mart is General Secretary of the Association
-			of Doctors and Dentists of Luxembourg.</p>
-
+			<p>In addition, to David and Sam, of those still closely involved in the continuing story of GEHR, Dr Dipak Kalra, who led the GEHR Clinical Task Group, and David Lloyd, a key contributor to the technical Task Group, joined the St. Bartholomew's team at the outset. Dr Jo Milan, Director of Information at the Royal Marsden Hospital, London, and Dr Stanley Sheppard, Chief Executive of Update, a UK general practice software company, joined as sub-contractors to St. Bartholomew's. Update had to withdraw from the Consortium in the early days of the project, but Stan maintained contact on a personal basis. Tom Beale was employed as a consultant to the Royal Marsden in 1993 and subsequently joined the St Bartholomew's GEHR team, as a consultant, to assist in the key modelling phase, leading to the first GEHR object model for the health care record. David	Ingram was appointed Professor of Health informatics at UCL in London in 1995 and the team, moved there to establish the Centre for Health Informatics (CHIME). Marcia Jacks was the GEHR Project Administrator and is now co-ordinator	of CHIME at UCL, where the St. Bartholomew's team moved.</p>
+			<p>Notable contributions in GEHR were also made by: Jeff Geboers, HDMP; Christian Aligne, French Red Cross; Olivier Baille, France Telecom; Daniel Mart, Association of Doctors and Dentists of Luxembourg; Jose Calado and Helder Machado, Institute of General Practice, Oporto; Mario Cortelezzi, Luxembourg; Penny Grub, Richard Dixon, University of Hull; Lesley Southgate, Jeanette Murphy and Sian Griffiths, St Bartholomew's Medical College; Ian Grey and John Shorter, SmithKline Beecham; Benoit Hap, C2V Paris; Gerhard Brenner, Carlos Salvador.</p>
+			<p>Lesley Southgate, is now President of the Royal College of General Practitioners of the UK and Daniel Mart is General Secretary of the Association of Doctors and Dentists of Luxembourg.</p>
 			
 			<h3>The Accomplishments of the GEHR Project</h3>
-			<p>The work of the GEHR project is well documented in its many widely
-			communicated project reports, publications and software, and described on the
-			CHIME.ucl.ac.uk web site. The final AIM Conference Paper concluded the first
-			stage of the story of GEHR. All public deliverables of the Project may be
-			downloaded from the UCL, CHIME web site.</p>
-			<p>Working on the GEHR Project was an absorbing and unforgettable experience. It
-			tackled an intrinsically difficult and contentious domain. Its results, which
-			have continued to evolve in many projects and standards developments, have
-			proved to be enduring accomplishments, from clinical, technical and
-			organisational perspectives.</p>
-			<p class="par">Key attributes of the project approach and accomplishment were:</p>
+			<p>The work of the GEHR project is well documented in its many widely communicated project reports, publications and software, and described on the CHIME.ucl.ac.uk web site. The final AIM Conference Paper concluded the first stage of the story of GEHR. All public deliverables of the Project may be downloaded from the UCL, CHIME web site.</p>
+			<p>Working on the GEHR Project was an absorbing and unforgettable experience. It tackled an intrinsically difficult and contentious domain. Its results, which have continued to evolve in many projects and standards developments, have proved to be enduring accomplishments, from clinical, technical and organisational perspectives.</p>
+			<p>Key attributes of the project approach and accomplishment were:</p>
 			<ul>
-			<li>Experienced, competent, committed and passionate multi-professional
-			teamwork. The team worked very hard, disagreed and fought at times, but also
-			evolved a culture of friendship, mutual support and loyalty, through some
-			difficult challenges.</li>
-			<li>Development of an original, formal approach to electronic health record
-			architecture, based on object modelling methods and founded on a comprehensive
-			and systematic review of patient and clinical professional roles and
-			requirements, across Europe, in relation to records.</li>
-			<li>An empirical and iterative prototyping approach to the evolution of the
-			architecture, emphasising implementation and testing of concepts, practically,
-			at each stage.</li>
-			<li>The decision of the partners, in the interests of effective dissemination of
-			the work, to publish the project results openly, within the public domain. The
-			EU Contract in principle vested IPR for the work with the Consortium.</li>
+				<li>Experienced, competent, committed and passionate multi-professional teamwork. The team worked very hard, disagreed and fought at times, but also evolved a culture of friendship, mutual support and loyalty, through some difficult challenges.</li>
+				<li>Development of an original, formal approach to electronic health record architecture, based on object modelling methods and founded on a comprehensive and systematic review of patient and clinical professional roles and requirements, across Europe, in relation to records.</li>
+				<li>An empirical and iterative prototyping approach to the evolution of the architecture, emphasising implementation and testing of concepts, practically, at each stage.</li>
+				<li>The decision of the partners, in the interests of effective dissemination of the work, to publish the project results openly, within the public domain. The EU Contract in principle vested IPR for the work with the Consortium.</li>
 			</ul>
-			<p>Warmly supported as it was by Niels Rossing and the Commission and by its
-			Project Officer, Jacques Lacombe, the Project proved from its very earliest
-			stages and over time not to be short of powerful opponents, as well. Its results
-			were provided, step by step as they were available and often before official
-			publication, into all the stages of the formulation of EU pre-standards of CEN
-			and further afield.</p>
+			<p>Warmly supported as it was by Niels Rossing and the Commission and by its Project Officer, Jacques Lacombe, the Project proved from its very earliest stages and over time not to be short of powerful opponents, as well. Its results were provided, step by step as they were available and often before official publication, into all the stages of the formulation of EU pre-standards of CEN and further afield.</p>
 
-			<h3>The Interface between the GEHR Project and Technical Committee
-			TC/251-Medical Informatics of CEN</h3>
+			<h3>The Interface between the GEHR Project and Technical Committee TC/251-Medical Informatics of CEN</h3>
 			<p>At about the same time that the AIM Programme was initiated, CEN established
 			a standards initiative for medical informatics through its Technical Committee
 			TC/251, led by Prof. Georges de Moor. The strategic co-ordination achieved
@@ -317,10 +218,8 @@
 			implementation difficulties associated with the fine granularity of the single
 			level architecture of the original GOM. Progress at UCL with the concept of the
 			object dictionary and tools to support it was encouraging.</p>
-	
 
-			<h3>Australia awakens the world electronic health care records
-			community to the approach of GEHR</h3>
+			<h3>Australia awakens the world electronic health care records community to the approach of GEHR</h3>
 			<p>Aware of the anti-GEHR sentiments in the UK and in CEN in Europe, Sam Heard
 			and Tom Beale joined forces again in Australia, in 1996, to work together to
 			refine the GEHR Object Model through implementation. This also led to a two
@@ -344,7 +243,6 @@
 			systems R&amp;D teams at DSTC on implementation of a GEHR server or kernel,
 			based on the archetype model for content within a higher level information model
 			close to the higher levels of the original GEHR object model.</p>
-
 			
 			<h3>Implementation, Implementation, implementation!</h3>
 			<p><i>from GEHR and Synapses to Synex, Medicate and 6-winit in CHIME and UCL </i></p>
@@ -393,7 +291,6 @@
 			Programme, to look at synthesis among the different modelling approaches to the
 			EHCR.</p>
 
-			
 			<h3>openEHR</h3>
 			<p>In 1998, at the conclusion of the Synapses Project, David Ingram circulated a
 			paper about the need for a clinically focused Foundation to own the content
@@ -420,7 +317,6 @@
 			Europe, Australia and the USA. Peter Schloeffel was asked to pursue a role as
 			ambassador for openEHR, to press ahead with Sam and Tom to establish
 			the Australian chapter as the first step and to seek to find a USA partner.</p>
-			
 			
 			<h3>First Ideas for the openEHR Foundation</h3>
 			<p>A draft "manifesto" was prepared for discussion with interested parties, as
@@ -450,18 +346,14 @@
 			met. It is especially encouraging that the ISO has now adopted work which will
 			elevate formally defined clinical requirements to the highest level in the
 			standards process for electronic healthcare records.</p>
-			<p class="par">openEHR directs its efforts towards:</p>
+			<p>openEHR directs its efforts towards:</p>
 			<ul>
-			<li>well-formulated clinical requirements, offered as a contribution towards international consensus</li>
-			<li>rigorous development, implemention and evaluation methodology for systems</li>
-			<li>common information model for the record, where clinical requirements dictate
-			that this is necessary and where the relationship between model and requirements
-			is made explicit</li>
-			<li>diversity of information models and implementations, where these will enrich
-			experience of a variety of approaches and systems and thereby promote the
-			evolution towards high quality and cost-effective EHR solutions offered</li>
-			<li>empirical evaluation of systems performance against clinical requirements</li>
-			</ul><br/>
+				<li>well-formulated clinical requirements, offered as a contribution towards international consensus</li>
+				<li>rigorous development, implemention and evaluation methodology for systems</li>
+				<li>common information model for the record, where clinical requirements dictate that this is necessary and where the relationship between model and requirements is made explicit</li>
+				<li>diversity of information models and implementations, where these will enrich experience of a variety of approaches and systems and thereby promote the evolution towards high quality and cost-effective EHR solutions offered</li>
+				<li>empirical evaluation of systems performance against clinical requirements</li>
+			</ul>
 			<p>openEHR recognises that achieving its aims is extremely complex on
 			many levels and certainly beyond the co-ordination powers of any one group. It
 			believes that progress can be enhanced by interested groups coming together to
@@ -473,38 +365,18 @@
 			damaging impasse. openEHR has started a process of bringing together
 			like-minded conceptual thinkers and systems implementers, prepared to offer
 			their work to the EHR community in this way.</p>
-			<p class="par">In pursuing its aims, openEHR will:</p>
+			<p>In pursuing its aims, openEHR will:</p>
 			<ul>
-			<li>be open to all who sign up to its objectives and methods of work</li>
-			<li>have free individual membership</li>
-			<li>charge membership fees for official bodies, on a not-for-profit basis</li>
-			<li>help to define and support a common process of specification of clinical
-			requirements, specification and implementation of systems and evaluation of the
-			electronic healthcare records provided (Note: this will be termed the GEHR (Good
-			Electronic Healthcare Record) methodology, since it will rest initially very
-			heavily on the methods set out and followed for the first time in the GEHR
-			project from 1989. This 7-country R&amp;D project developed concepts, object
-			model and early prototypes and tools for a common European Health Record
-			Architecture and has been drawn on in subsequent partnerships and projects
-			across the world. The work was placed by the partners in the public domain and
-			fed into and adopted by standards bodies)</li>
-			<li>publish the work of projects and systems conducted within the
-			openEHR community and adopting the GEHR methodology.</li>
-			<li>offer the sources of such GEHR-based systems, in which IPR will be assigned
-			to openEHR, under an open-source license within the community.
-			Individuals or companies assigning IPR to the Foundation may where necessary and
-			appropriate be remunerated under contract or through license fees.</li>
-			<li>offer all its work openly in a spirit of a public enterprise, believing that
-			this is the best and perhaps only way that appropriate high quality and
-			interoperable systems are likely to emerge, worldwide.</li>
-			<li>seek constructive relationships with groups and communities focusing on
-			other aspects of clinical information management such as messages, terminology,
-			knowledge-management and decision-support.</li>
-			</ul><br/>
-			<p>
-			openEHR will not campaign against or obstruct others working on electronic healthcare
-			records. On the contrary, it will welcome and endorse their success in meeting
-			the aims and objectives of openEHR.</p>
+				<li>be open to all who sign up to its objectives and methods of work</li>
+				<li>have free individual membership</li>
+				<li>charge membership fees for official bodies, on a not-for-profit basis</li>
+				<li>help to define and support a common process of specification of clinical requirements, specification and implementation of systems and evaluation of the electronic healthcare records provided (Note: this will be termed the GEHR (Good Electronic Healthcare Record) methodology, since it will rest initially very heavily on the methods set out and followed for the first time in the GEHR project from 1989. This 7-country R&amp;D project developed concepts, object model and early prototypes and tools for a common European Health Record Architecture and has been drawn on in subsequent partnerships and projects across the world. The work was placed by the partners in the public domain and fed into and adopted by standards bodies)</li>
+				<li>publish the work of projects and systems conducted within the openEHR community and adopting the GEHR methodology.</li>
+				<li>offer the sources of such GEHR-based systems, in which IPR will be assigned to openEHR, under an open-source license within the community. Individuals or companies assigning IPR to the Foundation may where necessary and appropriate be remunerated under contract or through license fees.</li>
+				<li>offer all its work openly in a spirit of a public enterprise, believing that this is the best and perhaps only way that appropriate high quality and interoperable systems are likely to emerge, worldwide.</li>
+				<li>seek constructive relationships with groups and communities focusing on other aspects of clinical information management such as messages, terminology, knowledge-management and decision-support.</li>
+			</ul>
+			<p>openEHR will not campaign against or obstruct others working on electronic healthcare records. On the contrary, it will welcome and endorse their success in meeting the aims and objectives of openEHR.</p>
 
 			<h3>Whehr now?</h3>
 			<p>Until implementations have been conclusively demonstrated and a pathway of
@@ -533,8 +405,7 @@
 			very strong collaborative work at the Whittington Hospital.</p>
 			<p>A week long meeting of the embryonic openEHR international
 			co-ordination group was held in London in February 2001, to review progress. It
-			was attended by Sam, Tom, Peter, Mary, Dipak, David L and chaired by David I.
-			</p>
+			was attended by Sam, Tom, Peter, Mary, Dipak, David L and chaired by David I.</p>
 			<p>The clinical and technical motivations for the Australian work on GEHR since
 			1997 and its focus on splitting the original GEHR approach into a two level
 			architecture, centred on user defined clinical archetypes, was closely studied,
@@ -560,23 +431,21 @@
 			<p>We need to focus on these opportunities for cross-governmental funding for
 			openEHR, perhaps splitting the main open source and content
 			standardisation roles of the foundation from a trading arm, owned by the
-			Foundation, to develop revenue streams to support the goals of the Foundation.
-			</p>
+			Foundation, to develop revenue streams to support the goals of the Foundation.</p>
 			<p>At the same time, we have to remain firmly focused on our continuing pathway
 			of keeping our teams together, expanding our partnerships and delivering the
 			results needed to win the day!</p>
 			
 		</div>
 			
-
 	</div>
 
 	<div id="BottomMenu">
-	<?php include '../menu/bottommenu.php' ?>
+		<?php include '../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../panel/bottompanel.php' ?>
+		<?php include '../panel/bottompanel.php' ?>
 	</div>
 
 </div>

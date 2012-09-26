@@ -1,4 +1,4 @@
-		<p class="SideMenuHeading"><a href="http://www.openehr.org/new-ws/site/programs/specification/programhome" <?php if($pageOn == 'programhome.php'){?> class="active"<?php }?> style="font-weight:900;">Specification<br/>Program</a></p>
+		<p class="SideMenuHeading"><a href="http://www.openehr.org/new-ws/site/programs/specification" <?php if($pageOn == 'index.php'){?> class="active"<?php }?> style="font-weight:900;">Specification<br/>Program</a></p>
 			<ul>
 			<li><a href="http://www.openehr.org/new-ws/site/programs/specification/listofspecifications" <?php if($pageOn == 'listofspecifications.php'){?> class="active"<?php }?>>List of Specifications</a></li>
 			<li><a href="http://www.openehr.org/new-ws/site/programs/specification/releases" <?php if($pageOn == 'releases.php'){?> class="active"<?php }?>>Releases</a></li>

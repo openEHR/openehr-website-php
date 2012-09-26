@@ -5,8 +5,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 <html>
 <head>
+
 	<title>openEHR - Localisation Program</title>
+	<link rel="bookmark" href="http://www.openehr.org/programs/localisation/governance" title="openEHR - Localisation Program">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
 
 
@@ -15,13 +18,15 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		<?php include '../../menu/topmenu.php' ?>
+			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
@@ -55,59 +60,30 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<p class="content1"><a href="#evolution">Evolution of these Terms of Reference</a></p>
 			
 			<h2><a name="introduction"></a>Introduction</h2>
-			<p>This document describes the terms of reference (ToR) for the activities of the openEHR Localisation Program.
-			The Localisation Program has members drawn from the wider openEHR membership and will include individuals from
-			multiple language groups, cultures as well as with a  diversity of technical, clinical and informatics backgrounds
-			for the purpose of extending the reach of openEHR deeper into their locales.</p>
+			<p>This document describes the terms of reference (ToR) for the activities of the openEHR Localisation Program. The Localisation Program has members drawn from the wider openEHR membership and will include individuals from multiple language groups, cultures as well as with a  diversity of technical, clinical and informatics backgrounds for the purpose of extending the reach of openEHR deeper into their locales.</p>
 
 			<h2><a name="programscope"></a>Program Scope</h2>
-			<p>All kinds of localisation activities with the purpose of enabling openEHR's penetration into national/regional
-			eHealth environments with a different mix of languages, cultures, objectives and resources.
-			This includes translation and adaptation of specifications and related artifacts or their extensions as well as instantiation of new content.
-			It is imperative that we support the creation of educational materials in local languages, actively engage with the communication
-			and dissemination of these materials and events, get involved in R&amp;D projects (e.g. with local universities),
-			and liaise with other local standards (clinical guidelines, manuals, white papers, ebooks, etc.)</p>
+			<p>All kinds of localisation activities with the purpose of enabling openEHR's penetration into national/regional eHealth environments with a different mix of languages, cultures, objectives and resources. This includes translation and adaptation of specifications and related artifacts or their extensions as well as instantiation of new content. It is imperative that we support the creation of educational materials in local languages, actively engage with the communication and dissemination of these materials and events, get involved in R&amp;D projects (e.g. with local universities), and liaise with other local standards (clinical guidelines, manuals, white papers, ebooks, etc.)</p>
 
 			<h2><a name="programstructure"></a>Program Structure</h2>
-			<p>The Localisation Program consists of <em>Qualified Members</em> for the Localisation Program, <em>Localisation Program Committee</em>
-			(LPC) and <em>Local openEHR Representative</em>(s) and <em>Organisations</em>. In addition, individuals that are enthusiastic about openEHR
-			who work with the openEHR Representative(s) (most probably affiliated with Local Organisations if any) are also recognised as Local Members.</p>
+			<p>The Localisation Program consists of <em>Qualified Members</em> for the Localisation Program, <em>Localisation Program Committee</em> (LPC) and <em>Local openEHR Representative</em>(s) and <em>Organisations</em>. In addition, individuals that are enthusiastic about openEHR who work with the openEHR Representative(s) (most probably affiliated with Local Organisations if any) are also recognised as Local Members.</p>
+			
 			<br/>
 			<p style="text-align:center;"><img src="../../files/programs/LocProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
 			<br/>
-			<p><em>Qualified Membership (QM):</em> local openEHR activity will happen through qualified members where individuals
-			can join from any country or region (can be a specific territory, language group etc. depending on what local needs are).
-			Acceptance will be based on relevant experience and skills required for localisation activities. It is this group that will do most of the work&#33;</p>
-			<p><em>Localisation Program Committee (LPC):</em> consists of up to nine (minimum of 5) individuals with appropriate background and skills
-			for the localisation work. LPC will decide about who can be qualified members in this arena. Main focus of this Committee
-			is to work with the Community and Board, and to describe how to establish local presence, what processes are required to getting activity
-			in that country and eventually having an affiliated organisation that takes on local representation.
-			LPC has up to 2 co-chairs and the Program Lead acts as the interim chair during initial establishment.</p>
-			<p><em>Local Representative(s):</em> A Qualified Member (can be more than one depending on local needs and skills available)
-			to be designated to lead local work and officially represent openEHR in their own country/region. LPC will assist QM to nominate,
-			propose and get permission from the Board to represent one or more national representatives.
-			These appointments should be approved by the Board before one can be appointed as the national openEHR representative.</p>
-			<p><em>Chapter Organisations:</em> when there's some maturity around localisation in one country/region and firm demand,
-			instead of individual leadership around openEHR Representatives, establishing a formal organisation that would function
-			as a Chapter Organisation might be advantageous. In the <em>open</em> and <em>free</em> spirit of openEHR these need to be not-for-profit organisations
-			and bound by openEHR Foundation's principles and rules. It is expected that existing organisations relevant in this area
-			(e.g. national HL7 affiliates, health informatics associations, local  standardisation bodies etc.)
-			might actually act as the umbrella organisation saving hassle and cost of new establishments.
-			It is yet to be decided as to how membership and money matters can be dealt with within an organisation with other purposes though.
-			This organisation should be approved by the Board before it can be  appointed as the national openEHR Chapter.</p>
-			<p><em>Local Membership:</em> these are enthusiastic individuals who have an interest in and potential to contribute to  openEHR
-			but limited in experience, skills and/or resources to become  Qualified Members. This local membership will provide recognition in
-			this space (e.g. as evidence of peer esteem for academics etc.) and the  grounds to work with them.
-			They will most likely be formal members of  local organisations (e.g. not-for-profit associations etc.).
-			They will  be led by qualified members but have no representative or executive powers.</p>
+			
+			<p><em>Qualified Membership (QM):</em> local openEHR activity will happen through qualified members where individuals can join from any country or region (can be a specific territory, language group etc. depending on what local needs are). Acceptance will be based on relevant experience and skills required for localisation activities. It is this group that will do most of the work&#33;</p>
+			<p><em>Localisation Program Committee (LPC):</em> consists of up to nine (minimum of 5) individuals with appropriate background and skills for the localisation work. LPC will decide about who can be qualified members in this arena. Main focus of this Committee is to work with the Community and Board, and to describe how to establish local presence, what processes are required to getting activity in that country and eventually having an affiliated organisation that takes on local representation. LPC has up to 2 co-chairs and the Program Lead acts as the interim chair during initial establishment.</p>
+			<p><em>Local Representative(s):</em> A Qualified Member (can be more than one depending on local needs and skills available) to be designated to lead local work and officially represent openEHR in their own country/region. LPC will assist QM to nominate, propose and get permission from the Board to represent one or more national representatives. These appointments should be approved by the Board before one can be appointed as the national openEHR representative.</p>
+			<p><em>Chapter Organisations:</em> when there's some maturity around localisation in one country/region and firm demand, instead of individual leadership around openEHR Representatives, establishing a formal organisation that would function as a Chapter Organisation might be advantageous. In the <em>open</em> and <em>free</em> spirit of openEHR these need to be not-for-profit organisations and bound by openEHR Foundation's principles and rules. It is expected that existing organisations relevant in this area (e.g. national HL7 affiliates, health informatics associations, local  standardisation bodies etc.) might actually act as the umbrella organisation saving hassle and cost of new establishments. It is yet to be decided as to how membership and money matters can be dealt with within an organisation with other purposes though. This organisation should be approved by the Board before it can be  appointed as the national openEHR Chapter.</p>
+			<p><em>Local Membership:</em> these are enthusiastic individuals who have an interest in and potential to contribute to  openEHR but limited in experience, skills and/or resources to become  Qualified Members. This local membership will provide recognition in this space (e.g. as evidence of peer esteem for academics etc.) and the  grounds to work with them. They will most likely be formal members of  local organisations (e.g. not-for-profit associations etc.). They will  be led by qualified members but have no representative or executive powers.</p>
 
 
 			<h2><a name="qualifiedmembers"></a>Qualified Members (QM)</h2>
-			<p>This is the body of people who will do the actual work and is <em>not</em> locale specific (e.g. there is only one group).
-			New members (either self nominated or by existing QM) can be added by the decision of LPC based on membership criteria.</p>
+			<p>This is the body of people who will do the actual work and is <em>not</em> locale specific (e.g. there is only one group). New members (either self nominated or by existing QM) can be added by the decision of LPC based on membership criteria.</p>
 
 			<h3><a name="qmresponsibilities"></a>Responsibilities</h3>
-			<p class="par">The responsibilities of QM are:</p>
+			<p>The responsibilities of QM are:</p>
 			<ul>
 				<li>carry on day to day operations of the Localisation Program</li>
 				<li>propose and set the agenda; such as defining common principles and conventions, resources, contents and materials all localization initiatives should consider (to avoid starting from scratch or overlaps).&nbsp; Determine issues that needs to be discussed with the Board (e.g. openEHR certification)</li>
@@ -141,7 +117,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 			</ul>
 
-
 			<h3><a name="qmoutputs"></a>Outputs</h3>
 			<p>These comprise:</p>
 			<ul>
@@ -150,7 +125,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li>development of new resources with a particular locale</li>
 				<li>common resources (e.g. document/web templates, styles, conventions etc.) and guidelines for use by all locales</li>
 			</ul>
-
 
 			<h3><a name="qmmembership"></a>Membership</h3>
 			<p>This section describes the conditions for membership for Qualified Members.</p>
@@ -162,7 +136,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li><em>openEHR experience</em>: active participation and recognition in the openEHR community,</li>
 				<li><em>Local experience</em>: relevant professional stature and recognition in own locale in the field of eHealth and potential for influence.</li>
 			</ul>
-			<br/>
 			<p>Note that a high level of technical competency is <em>not a necessity</em> as Localisation work will involve substantial amount of work related with content (which may actually require clinical or organisational skills more than technical). However a basic level of technical knowledge will be required to appreciate the foundational principles of openEHR as well as skills around software localisation when adapting tools and components.</p>
 			<p class="par">Candidates should submit, in writing, where they stand with regards to the cause of openEHR and provide evidence about their qualifications in these main areas:</p>
 			<ul>
@@ -189,7 +162,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<p>This is the formal governance body for review and decision-making.</p>
 
 			<h3><a name="lpcresponsibilities"></a>Responsibilities</h3>
-			<p class="par">The responsibilities of LPC are:</p>
+			<p>The responsibilities of LPC are:</p>
 			<ul>
 				<li>creative thinking around locale specific issues; including
 				<ul>
@@ -226,28 +199,22 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 				<li>advise of requirements and prioritisation of  work or any other business</li>
 			</ul>
-			<br/>
-			<p class="par">The responsibilities of the LPC co-chairs are as follows:</p>
+			<p>The responsibilities of the LPC co-chairs are as follows:</p>
 			<ul>
 				<li>to run LPC meetings;</li>
 				<li>to facilitate the execution of the work of the LPC;</li>
 				<li>to arbitrate in case of disputes.</li>
 			</ul>
 
-
 			<h3><a name="lpcmembership"></a>Membership</h3>
-			<p>The LPC members will be selected (initially pulled together by the interim Board and interim Program Leader
-			but later on the basis of democratic election by the QM). Maximum of nine and minimum of 5 members is recommended.</p>
+			<p>The LPC members will be selected (initially pulled together by the interim Board and interim Program Leader but later on the basis of democratic election by the QM). Maximum of nine and minimum of 5 members is recommended.</p>
 			<p>Up to two LPC members are elected as <em>co-chairs</em> by the  its members.</p>
-			<p>New members come  from nominations among the QM. Candidates are elected  to the LPC via voting by QM.
-			Elections are  held regularly  depending on the term, or earlier in the case of  resignation. At  election time,
-			the positions of all LPC members who have spent 2 years in the position come up for re-election by the QM.</p>
+			<p>New members come  from nominations among the QM. Candidates are elected  to the LPC via voting by QM. Elections are  held regularly  depending on the term, or earlier in the case of  resignation. At  election time, the positions of all LPC members who have spent 2 years in the position come up for re-election by the QM.</p>
 
 			<h4>Length of membership</h4>
 			<p>Membership  of the LPC is for 2 years.</p>
 			<p>Co-chair positions last 2 years. Elections are held regularly depending on the term or earlier in the case of resignation.</p>
 			<p>an LPC member can leave or may be removed by the Board due to inappropriate conduct.</p>
-
 
 			<h3><a name="lpccommitment"></a>Commitment</h3>
 			<p>LPC members are expected to contribute sufficient time to carry out the work and meet quality and schedule requirements.</p>
@@ -256,7 +223,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<p>Any potential conflicts of interest must be declared by the LPC members , and the they must agree to indicate any such conflict of   interest in discussions and decision-making processes of the Program  in  which they are involved.</p>
 
 			<h3><a name="lpcdecisionmaking"></a>Decision-making</h3>
-			<p class="par">Decisions are primarily made by consensus, i.e. general agreement  with no serious objections voiced. Where there are objections, the  following process will be used:</p>
+			<p>Decisions are primarily made by consensus, i.e. general agreement  with no serious objections voiced. Where there are objections, the  following process will be used:</p>
 			<ul>
 				<li>the co-chairs will manage a more formal round of discussions which seek to expose the points of difference and disagreement;</li>
 				<li>If this fails to result in consensus, the cochairs will facilitate an open community review of the issue with a fixed timeline;</li>
@@ -268,22 +235,19 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<h2><a name="communications"></a>Communications</h2>
 
 			<h3><a name="withfoundation"></a>With the Foundation</h3>
-			<p>The Localisation Program needs to keep the Board up to date on its activities and emerging issues.
-			There is a need for support from the Foundation and concerted action during promotion of openEHR locally
+			<p>The Localisation Program needs to keep the Board up to date on its activities and emerging issues. There is a need for support from the Foundation and concerted action during promotion of openEHR locally
 			(e.g. national programmes/governments usually sign Memorandum of Understanding (MoU) with the openEHR Foundation).</p>
 
-
 			<h3><a name="withprograms"></a>With other Programs</h3>
-			<p class="par">The Localisation Program needs to maintain communications with the other openEHR Programs on a fairly constant basis. Necessary communications include:</p>
+			<p>The Localisation Program needs to maintain communications with the other openEHR Programs on a fairly constant basis. Necessary communications include:</p>
 			<ul>
 				<li>Clinical Models Program: TBD</li>
 				<li>Software Program: TBD</li>
 				<li>Specification Program: TBD</li>
 			</ul>
 
-
 			<h3><a name="withcommunity"></a>With the wider openEHR Community</h3>
-			<p class="par">In order to keep the openEHR community at large informed about events in the Localisation Program, regular and visible communications is needed.
+			<p>In order to keep the openEHR community at large informed about events in the Localisation Program, regular and visible communications is needed.
 			These include the following:</p>
 			<ul>
 				<li>All governance documents are posted on the openEHR web.</li>
@@ -297,9 +261,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 			
 			<h2><a name="ipissues"></a>IP Issues</h2>
-			<p>It is acknowledged that this may be a 'hard' topic&#33; While the copyright (of left) and licensing issues can be become
-			quite complicated the rule of thumb is to provide maximum freedom in the use and dissemination of local openEHR resources while ensuring ownership
-			and quality is retained.<font color="#ff0000">[KA: this can be as complicated as we want]</font>.</p>
+			<p>It is acknowledged that this may be a 'hard' topic&#33; While the copyright (of left) and licensing issues can be become quite complicated the rule of thumb is to provide maximum freedom in the use and dissemination of local openEHR resources while ensuring ownership and quality is retained.<font color="#ff0000">[KA: this can be as complicated as we want]</font>.</p>
 			<p>The details are discussed in this Page (TBD).</p>
 
 
@@ -308,15 +270,14 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 		</div>
 			
-
 	</div>
 
 	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>
+		<?php include '../../panel/bottompanel.php' ?>
 	</div>
 
 </div>
