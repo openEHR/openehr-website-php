@@ -94,7 +94,8 @@ training, research and seeking funding. </p>
 
 <p></p>
 
-<p>The details of the Programme is given in the Terms of Reference.</p>
+<p>The details of the Programme is given in the <a
+href="../programs/localisation/governance">Governance Page</a>.</p>
 
 <p> </p>
 <!-- ----------------------Here ends the content section ---------------------------------->
