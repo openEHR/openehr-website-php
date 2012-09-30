@@ -168,7 +168,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<th class="TableMainT"> Documentary Specification  </th>
 				<th class="TableMainT"> Computable / formal expressions  </th>
 				<th class="TableMainT"> Description  </th>
-				<td class="TableMainT"> Status</td>
 				</tr>
 				<tr>
 				<td class="TableMainC" colspan=4> <b>Implementation</b>  </td>
@@ -190,7 +189,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> Java development guide  </td>
 				<td class="TableMainC"> Template =&gt; Java converter  </td>
 				<td class="TableMainC"> Guide to java implementation of openEHR.</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 				<tr>
 				<td class="TableMainC"> &nbsp;</td>
@@ -203,7 +201,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> .Net development guide  </td>
 				<td class="TableMainC"> Template =&gt; .Net converter </td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 				<tr>
 				<td class="TableMainC"> &nbsp;</td>
@@ -216,14 +213,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> Form generation specification  </td>
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 				<tr>
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> User interface specifications  </td>
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 				<tr>
 				<td class="TableMainC" colspan=4> <b>Education</b>  </td>
@@ -233,7 +228,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> TBD  </td>
 				<td class="TableMainC"> code samples </td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 				<tr>
 				<td class="TableMainC" colspan=4> <b>Standards Interfaces</b>  </td>
@@ -243,14 +237,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> standardised mapping / converged model  </td>
 				<td class="TableMainC">  </td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 				<tr>
 				<td class="TableMainC"> HL7v2  </td>
 				<td class="TableMainC"> Standard openEHR template library for message interfacing  </td>
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 				<tr>
 				<td class="TableMainC"> HL7 CDA  </td>
@@ -264,7 +256,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> Standard archetype / template expression.  </td>
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 			</tbody>
 			</table>

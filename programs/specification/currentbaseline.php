@@ -100,7 +100,7 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> The openEHR demographic model. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
-			<tr style="background-color:#FFFFDD;">
+			<tr style="background-color:#FFEECC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/rm/ehr_extract_im.pdf">EHR Extract IM</a></td>
 				<td class="TableMainC"> UML: <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models</td>
@@ -156,7 +156,7 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> Abstract syntax specification for archetypes 1.4 edition of language (used in ISO 13606-2). </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
-			<tr style="background-color:#FFEECC;">
+			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/am/adl1.5.pdf">Archetype Definition Language 1.5 (ADL)</a></td>
 				<td class="TableMainC"> UML: <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
@@ -170,7 +170,7 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> Object model of archetypes corresponding to ADL 1.4. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
-			<tr style="background-color:#FFEECC;">
+			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/am/aom1.5.pdf">Archetype Object Model 1.5 (AOM)</a></td>
 				<td class="TableMainC"> UML: <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
@@ -201,10 +201,17 @@ $pageOn = 'releases.php';
 			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> Service Model </td>
+				<td class="TableMainC"> EHR Service Model</td>
 				<td class="TableMainC"> </td>
-				<td class="TableMainC"> </td>
-				<td class="TableMainC"> </td>
+				<td class="TableMainC"> Definition of the openEHR coarse-grained interface EHR service interface.</td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/display/spec/openEHR+Service+Model">dev page</a></td>
+			</tr>
+			<tr style="background-color:#FFFFDD;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp; </td>
+				<td class="TableMainC"> vEHR API</td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> API for the openEHR virtual EHR service.</td>
+				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/display/spec/vEHR+Service+Specification">dev page</a></td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> Terminology </td>
@@ -213,7 +220,7 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> Documentary form of the&nbsp;openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
-			<tr style="background-color:#F3F8FA;">
+			<tr style="background-color:#FFEECC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;">Querying</td>
 				<td class="TableMainC"> Archetype Query Language, a-path  </td>
 				<td class="TableMainC"> AQL grammar, a-path grammar  </td>
