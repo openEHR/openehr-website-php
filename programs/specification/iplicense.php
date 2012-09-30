@@ -38,13 +38,9 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<div id="TextArea">
 		
 			<h1>IP and Licensing</h1>
-			<br/>
-			<p>The Specification Program generates artefacts which are intended to be freely usable by all stakeholder types, including commercial enterprises. Controlled copyright, and open source and content licenses are used to achieve these aims.</p>
-			
-			
 			<h2>Introduction</h2>
+			<p>The Specification Program generates artefacts which are intended to be freely usable by all stakeholder types, including commercial enterprises. Controlled copyright, and open source and content licenses are used to achieve these aims.</p>
 			<p>The openEHR specifications and their computable expressions are openly published and free to use for all categories of use, both commercial and non-commercial.Copyright and licenses are used to protect these artefacts for ongoing open and free use by the community.</p>
-			
 			
 			<h2>Artefact Categories</h2>
 			<p>From the IP point of view, there are the following kinds of artefact:</p>
