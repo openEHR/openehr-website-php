@@ -105,7 +105,7 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/rm/ehr_extract_im.pdf">EHR Extract IM</a></td>
 				<td class="TableMainC"> UML: <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models</td>
 				<td class="TableMainC"> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
-				<td class="TableMainC"> development</td>
+				<td class="TableMainC"> Trial <br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/display/spec/openEHR+EHR+Extract">dev page</a></td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
@@ -161,7 +161,7 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/am/adl1.5.pdf">Archetype Definition Language 1.5 (ADL)</a></td>
 				<td class="TableMainC"> UML: <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
 				<td class="TableMainC"> ADL 1.5 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
-				<td class="TableMainC"> trial</td>
+				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
@@ -176,7 +176,7 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> UML: <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
 				<td class="TableMainC"> AOM 1.5 draft - the AOM description now includes uniquely identified formally testable validity conditions 
 										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
-				<td class="TableMainC"> trial</td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
@@ -197,7 +197,14 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/am/tom.pdf">Template Object Model</a></td>
 				<td class="TableMainC"> UML: <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
 				<td class="TableMainC"> Object model of templates. </td>
-				<td class="TableMainC"> development</td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
+			</tr>
+			<tr style="background-color:#FFFFDD;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> Service Model </td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/display/spec/openEHR+Service+Model">dev page</a></td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> Terminology </td>
@@ -205,6 +212,13 @@ $pageOn = 'releases.php';
 				<td class="TableMainC"> <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/computable/terminology/terminology.html">XML source file</a> </td>
 				<td class="TableMainC"> Documentary form of the&nbsp;openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models. </td>
 				<td class="TableMainC"> stable</td>
+			</tr>
+			<tr style="background-color:#F3F8FA;">
+				<td class="TableMainC" style="background-color:#FFFFFF;">Querying</td>
+				<td class="TableMainC"> Archetype Query Language, a-path  </td>
+				<td class="TableMainC"> AQL grammar, a-path grammar  </td>
+				<td class="TableMainC"> &nbsp;</td>
+				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/display/spec/AQL-+Archetype+Query+Language">dev page</a></td>
 			</tr>
 			</tbody>
 			</table>
