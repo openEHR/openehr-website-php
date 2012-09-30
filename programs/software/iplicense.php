@@ -39,13 +39,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 			<h1>IP and Licensing</h1>
 			
-			<h2>IP Rights</h2>
-			
-			<h3>Copyright</h3>
+			<h2>Copyright</h2>
 			<p>Artefacts produced by the Software Program are copyrighted to the openEHR Foundation. This establishes the Foundation to be the owner of the 'moral rights' to the artefacts, on behalf of all the contributors,
 			and for the safety of the user community.</p>
 			
-			<h3>Attribution</h3>
+			<h2>Attribution</h2>
 			<p>The contributors to an artefact are recognised in the contributor's list section in the license block.</p>
 			
 			<table class="TableMain">
