@@ -44,7 +44,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
           
 		  
 			<h2>Learn how the workbench works</h2>
-			<script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/youtube.xml&amp;up_channel=openehr&amp;synd=open&amp;w=290&amp;h=350&amp;title=&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/videoseries?list=PLhWi0RtmG26U6PGezBrDD2QPeQL8tQYTZ&amp;hl=en_GB" frameborder="0" allowfullscreen></iframe>
           
 		  
 			<h2>Download</h2>
@@ -68,6 +68,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 					<td class="TableMainC"> Mac OS X 10.7 (Lion)<br/></td>
 					<td class="TableMainC"> beta 8</td>
 					<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/mac_osx/tools/ADL Workbench for Lion i386.dmg">.dmg installer</a></td>
+					<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
+                </tr>
+                <tr>
+					<td class="TableMainC"> Mac OS X 10.8 (Mountain Lion)<br/></td>
+					<td class="TableMainC"> beta 8</td>
+					<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/mac_osx/tools/ADL Workbench for Mountain Lion i386.dmg">.dmg installer</a></td>
 					<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
                 </tr>
                 <tr>
