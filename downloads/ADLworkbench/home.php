@@ -35,7 +35,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 		<div id="TextArea">
 		
-			<h1>ADL WB Home</h1>
+			<h1>ADL Workbench Home</h1>
 			<h2>ADL 1.5 Workbench beta release 8, 2 August 2012</h2>
 			<p><a href="releasenotes">Release notes</a> - <a href="http://www.openehr.org/issues/browse/AWBPR">Report an issue (Jira)</a> - <a href="http://www.openehr.org/issues/browse/AWB">Development Project (Jira)</a></p>
          
@@ -73,8 +73,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> beta 8</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/mac_osx/tools/ADL Workbench for Lion i386.dmg">.dmg installer</a></td>
 					<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
-                </tr>
-                <tr>
+            </tr>
+            <tr>
 					<td class="TableMainC"> Mac OS X 10.8 (Mountain Lion)<br/></td>
 					<td class="TableMainC"> beta 8</td>
 					<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/mac_osx/tools/ADL Workbench for Mountain Lion i386.dmg">.dmg installer</a></td>
