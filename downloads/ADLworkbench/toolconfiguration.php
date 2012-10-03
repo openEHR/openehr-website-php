@@ -5,8 +5,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 <html>
 <head>
+
 	<title>openEHR - ADL Workbench</title>
+	<link rel="bookmark" href="http://www.openehr.org/downloads/ADLworkbench/toolconfiguration" title="openEHR - ADL Workbench">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
 
 
@@ -15,52 +18,42 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include 'http://www.openehr.org/new-ws/site/panel/toppanel.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		 <?php include 'http://www.openehr.org/new-ws/site/menu/topmenu.php' ?>
+			<?php include 'http://www.openehr.org/new-ws/site/menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 		
 		<div id="SideMenu">
-		<?php include 'menu/adlmenu.php' ?>
+			<?php include 'menu/adlmenu.php' ?>
 		</div>
 
 		<div id="TextArea">
+		
 			<h1>Tool Configuration</h1>
+			
 			<h2>Set-up</h2>
-			<p>In order to work with the examples described below, the following configuration is advised. Experienced
-			users may skip this step.</p>
-
+			<p>In order to work with the examples described below, the following configuration is advised. Experienced users may skip this step.</p>
+			
 			<a name="rmschemaconfiguration"></a><h3>RM Schema configuration</h3>
-			<p>Reference Model (RM) Schemas are used by the ADL Workbench to validate archetypes and templates.
-			Schemas are currently expressed as dADL documents, whose structure follows a simple yet powerful meta-model
-			(for those familiar with model infrastructures, neither UML/XMI nor Eclipse/EMF are currently used, because
-			they lack proper semantics for generic types and some forms of type referencing common in object models).
-			The schema files have a '.bmm' (basic meta-model) extension. The currently available RM schemas can be seen
-			<a href="http://www.openehr.org/svn/knowledge2/TRUNK/rm_schemas/">here</a>. These schemas are defined in a nested way,
-			with most files visible here being used as component schemas for a small number of top-level schemas representing
-			the openEHR Reference Model, EN13606 model and so on.</p>
-			<p>You will need to have all the relevant RM schemas selected for the repository profiles described above to work.
-			Assuming you have followed the above instructions, you do this as follows:</p>
+			<p>Reference Model (RM) Schemas are used by the ADL Workbench to validate archetypes and templates. Schemas are currently expressed as dADL documents, whose structure follows a simple yet powerful meta-model	(for those familiar with model infrastructures, neither UML/XMI nor Eclipse/EMF are currently used, because they lack proper semantics for generic types and some forms of type referencing common in object models). The schema files have a '.bmm' (basic meta-model) extension. The currently available RM schemas can be seen <a href="http://www.openehr.org/svn/knowledge2/TRUNK/rm_schemas/">here</a>. These schemas are defined in a nested way, with most files visible here being used as component schemas for a small number of top-level schemas representing the openEHR Reference Model, EN13606 model and so on.</p>
+			<p>You will need to have all the relevant RM schemas selected for the repository profiles described above to work. Assuming you have followed the above instructions, you do this as follows:</p>
 			<ul>
 				<li>Select the RM Schemas menu &gt; Configure Schemas...</li>
 				<li>Ensure that the openehr, adltest, and en13606 (if relevant) schemas are checked, as shown <a href="images/options_rm_schema_config.png">here</a>.</li>
 				<li>Save the configuration.</li>
 			</ul>
-
-			<p>You can now use <a href="images/profile_combo.png">the profile combo selector above the archetype explorer</a> to switch between the profiles.
-			The remaining sections below describe how to see the ADL/AOM 1.5 changes using the archetypes you have configured above.</p>
+			<p>You can now use <a href="images/profile_combo.png">the profile combo selector above the archetype explorer</a> to switch between the profiles. The remaining sections below describe how to see the ADL/AOM 1.5 changes using the archetypes you have configured above.</p>
 			
 			<a name="archedconfig"></a><h3>Using the Archetype Editor with the AWB</h3>
-			<p>The <a href="http://www.openehr.org/new-ws/site/downloads/archetypeeditor/home">Archetype Editor</a>
-			can be configured as the standard editor for individual archetypes, when the 'Edit' button is selected.
-			All that is required is that the Archetype Editor is installed, and it is associated with files of the '.adl' extension.
-			Then the following configuration variable can be set to use the standard launch command for a file of the given extension:</p>
+			<p>The <a href="http://www.openehr.org/new-ws/site/downloads/archetypeeditor/home">Archetype Editor</a> can be configured as the standard editor for individual archetypes, when the 'Edit' button is selected. All that is required is that the Archetype Editor is installed, and it is associated with files of the '.adl' extension. Then the following configuration variable can be set to use the standard launch command for a file of the given extension:</p>
 <pre>
 commands = &lt;
 	editor_app_command = &lt;"cmd /q /d /c start \"\" /b"&gt;
@@ -150,11 +143,11 @@ rm_schemas = &lt;
 	</div>
 
 	<div id="BottomMenu">
-	<?php include 'http://www.openehr.org/new-ws/site/menu/bottommenu.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include 'http://www.openehr.org/new-ws/site/panel/bottompanel.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/panel/bottompanel.php' ?>
 	</div>
 
 </div>

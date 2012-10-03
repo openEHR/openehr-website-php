@@ -6,6 +6,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <html>
 <head>
 	<title>openEHR - ADL Workbench</title>
+	<link rel="bookmark" href="http://www.openehr.org/downloads/ADLworkbench/home" title="openEHR - ADL Workbench">
 	<?php include '../../panel/headpanel.php' ?>
 </head>
 
@@ -15,22 +16,25 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include 'http://www.openehr.org/new-ws/site/panel/toppanel.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		 <?php include 'http://www.openehr.org/new-ws/site/menu/topmenu.php' ?>
+			<?php include 'http://www.openehr.org/new-ws/site/menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 		
 		<div id="SideMenu">
-		<?php include 'menu/adlmenu.php' ?>
+			<?php include 'menu/adlmenu.php' ?>
 		</div>
 
 		<div id="TextArea">
+		
 			<h1>ADL WB Home</h1>
 			<h2>ADL 1.5 Workbench beta release 8, 2 August 2012</h2>
 			<p><a href="releasenotes">Release notes</a> - <a href="http://www.openehr.org/issues/browse/AWBPR">Report an issue (Jira)</a> - <a href="http://www.openehr.org/issues/browse/AWB">Development Project (Jira)</a></p>
@@ -51,38 +55,38 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h3>Executables</h3>
             <table class="TableMain">
-				<tbody>
-                <tr>
-					<th class="TableMainT"> Platform </th>
-					<th class="TableMainT"> Build</td>
-					<th class="TableMainT"> Executable</th>
-					<th class="TableMainT"> Installation Notes</th>
-                </tr>
-                <tr>
-					<td class="TableMainC"> Windows</td>
-					<td class="TableMainC"> beta 8</td>
-					<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/windows/tools/ADLWorkbenchInstall.exe">.exe installer</a></td>
-                    <td class="TableMainC"><br/> </td>
-                </tr>
-                <tr>
-					<td class="TableMainC"> Mac OS X 10.7 (Lion)<br/></td>
-					<td class="TableMainC"> beta 8</td>
-					<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/mac_osx/tools/ADL Workbench for Lion i386.dmg">.dmg installer</a></td>
+			<tbody>
+			<tr>
+				<th class="TableMainT"> Platform </th>
+				<th class="TableMainT"> Build</td>
+				<th class="TableMainT"> Executable</th>
+				<th class="TableMainT"> Installation Notes</th>
+			</tr>
+			<tr>
+				<td class="TableMainC"> Windows</td>
+				<td class="TableMainC"> beta 8</td>
+				<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/windows/tools/ADLWorkbenchInstall.exe">.exe installer</a></td>
+				<td class="TableMainC"><br/> </td>
+			</tr>
+			<tr>
+				<td class="TableMainC"> Mac OS X 10.7 (Lion)<br/></td>
+				<td class="TableMainC"> beta 8</td>
+				<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/mac_osx/tools/ADL Workbench for Lion i386.dmg">.dmg installer</a></td>
 					<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
                 </tr>
                 <tr>
 					<td class="TableMainC"> Mac OS X 10.8 (Mountain Lion)<br/></td>
 					<td class="TableMainC"> beta 8</td>
 					<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/mac_osx/tools/ADL Workbench for Mountain Lion i386.dmg">.dmg installer</a></td>
-					<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
-                </tr>
-                <tr>
-					<td class="TableMainC">Linux (32-bit Intel)<br/></td>
-					<td class="TableMainC">beta 8</td>
-					<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/linux/tools/adl_workbench-linux.tar.bz2">.tar bz2 archive</a></td>
-					<td class="TableMainC"> <a href="installationnotes#linux">here</a></td>
-                </tr>
-				</tbody>
+				<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
+			</tr>
+			<tr>
+				<td class="TableMainC">Linux (32-bit Intel)<br/></td>
+				<td class="TableMainC">beta 8</td>
+				<td class="TableMainC"> <a href="http://www.openehr.org/svn/oe_distrib/linux/tools/adl_workbench-linux.tar.bz2">.tar bz2 archive</a></td>
+				<td class="TableMainC"> <a href="installationnotes#linux">here</a></td>
+			</tr>
+			</tbody>
             </table>
 			<br/>
 			
@@ -94,11 +98,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	</div>
 
 	<div id="BottomMenu">
-	<?php include 'http://www.openehr.org/new-ws/site/menu/bottommenu.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include 'http://www.openehr.org/new-ws/site/panel/bottompanel.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/panel/bottompanel.php' ?>
 	</div>
 
 </div>

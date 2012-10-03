@@ -26,6 +26,7 @@
 			<ul>
 			<li><a href="http://www.openehr.org/new-ws/site/resources/learningcentre">Learning Centre</a></li>
 			<li><a href="http://www.openehr.org/new-ws/site/resources/publications">Publications</a></li>
+			<li><a href="https://github.com/openEHR">GitHub</a></li>
 			<li><a href="http://www.openehr.org/wiki/display/resources/FAQs+-+Frequently+Asked+Questions">FAQs</a></li>
 			</ul>
 		</div>

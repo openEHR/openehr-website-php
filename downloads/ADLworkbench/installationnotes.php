@@ -5,8 +5,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 <html>
 <head>
+
 	<title>openEHR - ADL Workbench</title>
+	<link rel="bookmark" href="http://www.openehr.org/downloads/ADLworkbench/installationnotes" title="openEHR - ADL Workbench">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
 
 
@@ -15,22 +18,25 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include 'http://www.openehr.org/new-ws/site/panel/toppanel.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		 <?php include 'http://www.openehr.org/new-ws/site/menu/topmenu.php' ?>
+			<?php include 'http://www.openehr.org/new-ws/site/menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 		
 		<div id="SideMenu">
-		<?php include 'menu/adlmenu.php' ?>
+			<?php include 'menu/adlmenu.php' ?>
 		</div>
 
 		<div id="TextArea">
+			
 			<h1>Installation Notes</h1>
 			
 			<h2><a name="mac"></a>Mac OS X</h2>
@@ -53,6 +59,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<p>ADL Workbench will be installed in your <em>Applications</em> folder, under a folder called <em>openEHR</em>.</p>
 			<p>When you double-click the <em>ADL Workbench</em> icon, it will start up inside <em>X11</em> or <em>XQuartz</em>.</p>
 		  
+		  
 			<h2><a name="linux"></a>Linux installation</h2>
 			<p>The Linux version of ADL Workbench requires GTK+ 2.4.0 or above. You can check by typing this command: <em>pkg-config --modversion gtk+-2.0</em> The command should succeed and the version number of GTK+ should appear. If it is not 2.4.0 or above then you need to install GTK+ 2.4.0.</p>
 			<p>After downloading, create a directory, extract the contents of the archive, and run <em>adl_workbench</em>.</p>
@@ -62,11 +69,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	</div>
 
 	<div id="BottomMenu">
-	<?php include 'http://www.openehr.org/new-ws/site/menu/bottommenu.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include 'http://www.openehr.org/new-ws/site/panel/bottompanel.php' ?>
+		<?php include 'http://www.openehr.org/new-ws/site/panel/bottompanel.php' ?>
 	</div>
 
 </div>
