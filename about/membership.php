@@ -38,43 +38,105 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h1>Membership</h1>
 			<br/>
-			<p>Participation of individuals in the Foundation can be at different levels. The key participants are Members who can become Contributors and, through that experience, become qualified to commit changes to the core assets of the Foundation. These Committers (qualified members) are then able to go on to be members of a Program Team and perhaps lead a Project within that Program.</p>
-			<p>Participation of industry, universities, governments and other organisations is established through associates membership.</p>	
-			
-			
+			<p>Direct participation in the Foundation is by Individual Members and Partners (Organisational Members), with indirect participation possible via National Affiliates, as illustrated below.</p>
+			<p style="text-align:center;"><img src="./openehr_membership.png" alt="openEHR Foundation membership categories" style="border: solid 1px #CCCCCC;"></p>	
 			<h2>Individual membership</h2>
-			<p>Individual membership model is:</p>
-			<ul>
-				<li><em>Members</em> - free individual membership, enables participation in the affairs of the Foundation and access to all assets.</li>
-				<li><em>Contributors</em> - official members of Program Committee who can do internal reviews and have voting rights.</li>
-				<li><em>Committers</em> - Contributors who have qualified for the right to commit work or take on other key roles (become leaders of the Programs or Software Projects.</li>
-			</ul>
-			<p>You can find information about current members on following links:</p>
-			<ul>
-				<li><a href="../programs/specification/members">Specification Program Members</a></li>
-				<li><a href="../programs/clinicalmodels/members">Clinical Models Program Members</a></li>
-				<li><a href="../programs/software/governance">Software Program Members</a></li>
-				<li><a href="../programs/localisation/members">Localisation Program Members</a></li>
-			</ul>
-			<p>If you want to become member click <a href="#">here to register</a>.</p>
+			<p>Individual Membership in openEHR is free. There are various categories of membership, based on experience and responsibility. Transitioning from one level of involvement to the next is done on the basis of merit, in a similar fashion to the Apache Software Foundation ‘meritocracy’ concept.</p>
+			<table class="TableMain">
+			<tbody>
+				<tr>
+					<th class="TableMainT"> Category </th>
+					<th class="TableMainT"> How btained</th>
+					<th class="TableMainT"> Rights & Responsibilities</th>
+				</tr>
+				<tr>
+					<td class="TableMainC"> Member</td>
+					<td class="TableMainC"> Subscription to openEHR discussion list(s).</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>Can participate in  all meetings, online work groups.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="TableMainC"> Contributor	</td>
+					<td class="TableMainC"> Fulfill qualifying criteria; elected by Programme Committee.</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>Can be a member of Programme project groups and Committees.</li>
+							<li>Can vote in meetings.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="TableMainC"> Qualified</td>
+					<td class="TableMainC"> Elected by relevant Program Committee.</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>openEHR.org email address.</li>
+							<li>Can take formal roles in Programmes and Project groups.</li>
+							<li>Right to make changes to deliverables.</li>
+							<li>Elect all higher posts.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="TableMainC"> Qualified</td>
+					<td class="TableMainC"> Elected by relevant Program Committee.</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>openEHR.org email address.</li>
+							<li>Can take formal roles in Programmes and Project groups.</li>
+							<li>Right to make changes to deliverables.</li>
+							<li>Elect all higher posts.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="TableMainC"> Programme Committee co-chair</td>
+					<td class="TableMainC"> Elected by relevant Program Qualified Membership.</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>Chair Programme Committees.</li>
+							<li>Represent Programme on Programme Coordination Board.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="TableMainC"> Foundation Board member (2 positions)</td>
+					<td class="TableMainC"> Nominated and elected by Contributing Membership.</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>Strategic decision-making for the openEHR Foundation.</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+			</table>
 			
-			
-			<h2>Associates membership</h2>
-			<p>The openEHR Foundation establishes a group of fee-paying <em>Organisational Associates</em>.<p>
-			<p>The group of Organisational Associates:</p>
-			<ul>
-				<li>is open to industry, universities, governments, standards development organisations;</li>
-				<li>nominates Foundation Board directors and vote for directors if there are excess nominations;</li>
-				<li>has preferential access to and planning of conferences and educational events;</li>
-				<li>is able to establish bilateral relationships with the Foundation if appropriate.</li>
-			</ul>
-			<p>You can find information about current associates on following links:</p>
-			<ul>
-				<li><a href="#">Industry</a></li>
-				<li><a href="#">Universities</a></li>
-				<li><a href="#">Governments</a></li>
-			</ul>
-			<p>If your organisation wants to become member click <a href="#">here to register</a>.</p>
+			<h2>Organisational Membership - Partners</h2>
+				<p>The openEHR Foundation will establish an Organisational membership category known as Partners, consisting of the following types:</p>
+				<ul>
+					<li>Industry Partners: Software suppliers using openEHR</li>
+					<li>Academic Partners: Universities and training organisations</li>
+					<li>National Partners: Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programmes</li>
+					<li>Sponsoring Partners: Large companies or organisations who want to provide resources to raise the profile of openEHR and their own organisation for mutual benefit.</li>
+				</ul>
+				<p>Partners gain the following benefits:</p>
+				<ul>
+					<li>Preferential access to and planning of conferences and educational events</li>
+					<li>Access to a dedicated Clinical Knowledge Manager (CKM) resource, either with a national domain (national eHealth Programmes) or with a sub-domain in a national or international CKM instance</li>
+					<li>Industry Partners will have the right to veto openEHR specification changes with a greater than two thirds majority.</li>
+				</ul>
+			<h2>National Affiliates</h2>
+				<p>The openEHR Foundation will work with other not-for-profit organisations, including Standards Development Organisations (SDOs) under the <a href="../programs/localisation">Localisation Programme</a>. Any organisation taking on the lead in development and uptake of openEHR in a country can be recognised as an Affiliate. Affiliate status is decided by the Foundation Board and recognised with a formal bilateral MOU.</p>
+				<p>openEHR Affiliates must satisfy the following criteria:</p>
+					<ul>
+						<li>non-for-profit or public organisation;</li>
+						<li>demonstrable open membership;</li>
+						<li>agree to engage with openEHR Foundation on a regular basis in order to facilitate planning;</li>
+						<li>agree to requirements on use of openEHR trademarks, domain names, and other elements of branding.</li>
+					</ul>
 			
 		</div>
 			

@@ -40,33 +40,48 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h1>Foundation</h1>
 			
-			<h2><a name="status"></a>openEHR Status</h2>
-			<p>The openEHR Foundation is a non-profit company, limited by guarantee. Its founding shareholders are University College London, UK and Ocean Informatics pty, Australia. It is regulated under the UK Companies Acts 1985 and 1989. The name openEHR has been registered internationally as a Trade Mark.</p>
-			<p>The openEHR Foundation governance structure is described <a href="govstructure">here</a>.</p>
-			<p>Key announcements are found <a href="../news_events/announcements">here</a>.</p>
-			
-			
-			<h2><a name="mission"></a>openEHR Mission</h2>
-			<p>openEHR Foundation is an international organisation, working towards:</p>
-			<ul>
-				<li>making the interoperable, life-long electronic health record a reality;</li>
-				<li>improving health care in the information society.</li>
-			</ul>
-			<p>It does this by:</p>
-			<ul>
-				<li>developing open specifications, open-source software and knowledge resources;</li>
-				<li>engaging in clinical implementation projects;</li>
-				<li>participating in international standards development;</li>
-				<li>supporting health informatics education.</li>
-			</ul>
+			<h2><a name="status"></a>Legal Status</h2>
+			<p>The openEHR Foundation is currently a not-for-profit company, limited by guarantee. Its founders were University College London, UK and Ocean Informatics Pty Ltd, Australia. It is regulated under the UK Companies Acts 1985 and 1989. The name 'openEHR' has been registered internationally as a Trade Mark.</p>
+			<p>As part of the new governance, the Foundation will be recreated as a new not-for-profit company, possibly in the form of a <a href="http://en.wikipedia.org/wiki/Community_Interest_Company">UK Community Interest Company</a>, or else in the form of a Private company limited by guarantee (the same as the current form), commonly used for non-profits in the UK. It may also be registered in another country if this simplifies the Foundation's operations. The new organisation will be created by consultation  of the interim board and prospective organisational members.</p>
 			
 			
 			<h2><a name="vision"></a>openEHR Vision</h2>
-			<p>The openEHR Foundation is proceeding on the basis of three principles: rigour, engagement and trust. They have arisen from consideration of the key aspects of the Foundation's work: the specifications of the EHR computing platform, archetype development by clinicians and ensuring that we achieve real benefit to the community through implementation trials.</p>
+			<p>The openEHR Foundation vision is of a world in which healthcare routinely obtains benefit from ICT, in particular:</p>
+			<ul>
+				<li>life-long interoperable electronic health records (EHRs);</li>
+				<li>computing on EHRs to improve the quality of health care and research.</li>
+			</ul>
 			
-			<h3>Specifications: rigorous and proven through implementation</h3>
-			<p>Managed by the Architecture Review Board (ARB), these are the fundamental output of the organisation providing the rigorous platform on which the archetypes and other clinical artefacts are based. The ARB has determined their strategic directions and published a delivery roadmap for 2008. This group will be finalising the Template model, which is key to using openEHR in real systems, and amongst other things ensuring correct integration with SNOMED and other complex terminologies. Implementation, the critical step in the design process, is proceeding with Java, .Net, Eiffel, Python and Ruby.</p>
-		
+			<h2><a name="mission"></a>openEHR Mission</h2>
+			<p>The Foundation is proceeding on the basis of three principles: rigour, engagement and trust. These correspond to the key activities of the Foundation, organised under the four Programs:</p>
+			<ul>
+				<li><a href="../programs/specification/">Specification Program</a>:
+					<ul>
+						<li>developing rigorous, open specifications, validated by implementation;</li>
+						<li>participating in international standards development;</li>
+					</ul>
+				</li>
+				<li><a href="../programs/clinicalmodels/">Clinical Models Program</a>: 
+					<ul>
+						<li>developing clinical models (archetypes and templates), terminology interfaces;</li>
+						<li>engaging in clinical implementation projects;</li>
+					</ul>
+				</li>
+				<li><a href="../programs/software/">Software Program</a>: 
+					<ul>
+						<li>developing open-source software and tools;</li>
+						<li>participating in connectathons and implementation trials;</li>
+					</ul>
+				</li>
+				<li><a href="../programs/localisation/">Localisation Program</a>: 
+					<ul>
+						<li>advocacy and locale-based education and dissemination;</li>
+						<li>working with national standards organisations;</li>
+					</ul>
+				</li>
+				<li>supporting health informatics education.</li>
+			</ul>
+			
 			<h3>Developing Trust: patients and citizens at the centre</h3>
 			<p>As we develop the specifications and engage clinicians, it is increasingly important to ensure that the platform benefits people using the health service.
 			At this point the openEHR architecture ensures:</p>
@@ -80,14 +95,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<p>The next phase of uptake and implementation will require careful scrutiny by those using the health service and providers of personal health record services.</p>
 			
 			<h3>openEHR as a standard</h3>
-			<p>The success of openEHR is in no small part due to the formal acceptance of CEN 13606 as a European and ISO standard. This standard is based on many aspects of the openEHR design approach. openEHR implementations can easily generate and consume 13606 communication extracts should this standard be widely adopted. Many see openEHR as a more suitable environment for carrying this work forward due to its lean and more appropriate processes for technology advancement. Whatever the future holds, the openEHR Foundation will seek to work very closely with CEN, ISO and other standards organisations. We will, however, seek to develop the standards in a suitable technical environment with implementation testing and then put these to the formal organisations rather than attempt to develop standards by committee.</p>
-			<p>As terminology is a key-stone component of semantic interoperability, the specifications need to include the binding of clinical models to terminology subsets. There are a few proposals for how to make this work efficiently and, to ensure the solution will support future EHR environments, the openEHR Foundation is seeking a formal relationship with IHTSDO, the international SNOMED group.</p>
+			<p>The success of openEHR is in no small part due to the formal acceptance of CEN 13606 as a European and ISO standard. This standard is based on many aspects of the openEHR design approach, and part 2 of the standard is a snapshot of the openEHR Archetype specifications. The openEHR Foundation will work closely with CEN, ISO, HL7 and OMG and other standards organisations on EHR-related and clinical modelling standards.</p>
+			<p>As terminology is a key-stone component of semantic interoperability, openEHR archetypes explicitly provide various ways to implement terminology bindings. The Foundation will work closely with IHTSDO on all terminology-related matters, as well as with other terminology maintainers.</p>
 			
 			<h3>Finally...</h3>
 			<p>The openEHR Foundation will continue to proceed based on its usual 3 key activities ... implementation, implementation, implementation.</p>
-			<br/>
-			<p>To find out more about origins of openEHR click <a href="originsofopenehr">here</a>.</p>
-		
 		</div>
 			
 	</div>
