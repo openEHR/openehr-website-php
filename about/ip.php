@@ -38,7 +38,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h1>Intellectual Property</h1>
 			
-			<h2>Licensing</h2>
+			<h2>Licence Overview</h2>
 			<p>The three areas of work that constitute the main Foundation IP will be licensed in the  following manner:</p>
 			
 			<table class="TableMain">
@@ -46,12 +46,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<tr>
 				<th class="TableMainT">Asset</th>
 				<th class="TableMainT">Description</th>
-				<th class="TableMainT">License</th>
+				<th class="TableMainT">Licence</th>
 			</tr>
 			<tr>
 				<td class="TableMainC"><em>Specification</em></td>
-				<td class="TableMainC">Specification for software and processes</td>
-				<td class="TableMainC">Copyright openEHR Foundation</td>				
+				<td class="TableMainC">Official specifications of the Foundation</td>
+				<td class="TableMainC">Copyright openEHR Foundation, licensed under Creative Commons CC-BY-ND</td>				
 			</tr>
 			<tr>
 				<td class="TableMainC"><em>Software</em></td>
@@ -65,10 +65,14 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			</tr>
 			</tbody>
 			</table>
-			<br/>
+			<p>For more information about artefacts created in Programs and their licenses, click following links:</p>
+			<ul>
+				<li><a href="../programs/specification/iplicense">Specification Program licenses</a></li>
+				<li><a href="../programs/clinicalmodels/iplicense">Clinical Models Program licenses</a></li>
+				<li><a href="../programs/software/iplicense">Software Program licenses</a></li>
+			</ul>
 			
-			
-			<h2>Principles of licensing</h2>
+			<h2>Principles</h2>
 			<p>Licensing of openEHR artefacts is based on following principles:</p>
 			<ul>
 				<li>openEHR Specifications, Software and Clinical Models (archetypes, templates and terminology subsets) available at no cost.</li>
@@ -82,13 +86,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li>Have a formal agreement to use any terminology codes, value sets and reference sets where required.</li>
 			</ul>
 			
-			<h2>Licensing in Programs</h2>
-			<p>For more information about artefacts created in Programs and their licenses, click following links:</p>
-			<ul>
-				<li><a href="../programs/specification/iplicense">Specification Program licenses</a></li>
-				<li><a href="../programs/clinicalmodels/iplicense">Clinical Models Program licenses</a></li>
-				<li><a href="../programs/software/iplicense">Software Program licenses</a></li>
-			</ul>
 
 		</div>
 			
