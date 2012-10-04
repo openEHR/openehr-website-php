@@ -55,7 +55,7 @@
 			  <area shape="rect" coords="0,0,220,150" href="programs/specification" alt="Specification Program" />
 			</map> 
 			<div id="TextFrame">
-			<h1>Specifications <br/>Program</h1>
+			<h1>Specification <br/>Program</h1>
 			<p>Specifications for health information, archetypes, querying and services.
 			<br/><a href="programs/specification" style="line-height:200%;">Learn more</a></p>
 			</div>

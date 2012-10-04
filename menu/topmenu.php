@@ -37,7 +37,6 @@
                 		<li><a href="http://www.openehr.org/new-ws/site/news_events/events">&nbsp; Events</a></li>
 						<li><a href="http://www.openehr.org/new-ws/site/news_events/releases">&nbsp; Releases</a></li>
 						<li><a href="http://www.openehr.org/new-ws/site/news_events/announcements">&nbsp; Announcements</a></li>
-						<li><a href="http://www.openehr.org/new-ws/site/news_events/press">&nbsp; Press</a></li>
 					</ul>
        			</li>
         	
