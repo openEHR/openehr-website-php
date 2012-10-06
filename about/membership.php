@@ -115,36 +115,59 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 					<tr>
 						<th class="TableMainT"> Category </th>
 						<th class="TableMainT"> Description</th>
-						<th class="TableMainT"> Financial</br>Contribution</br>Basis</th>
+						<th class="TableMainT"> Benefits</th>
+						<th class="TableMainT"> Financial</br>Basis</th>
 					</tr>
 					<tr>
 						<td class="TableMainC"> Industry Partner</td>
 						<td class="TableMainC"> Software suppliers using openEHR</td>
+						<td class="TableMainC"> 
+							<ul>
+								<li>Ability to collectively elect 2 board members</li>
+								<li>Participation in planning of conferences and educational events</li>
+								<li>Clinical Knowledge Manager (CKM) sub-domain within a national or international CKM domain</li>
+								<li>Right of review and veto (> 2/3 majority with quorum) openEHR specification changes.</li>
+							</ul>
+						</td>
 						<td class="TableMainC"> Annual gross revenue</td>
 					</tr>
 					<tr>
 						<td class="TableMainC"> National Partner</br>(one per country)</td>
 						<td class="TableMainC"> Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programmes</td>
+						<td class="TableMainC"> 
+							<ul>
+								<li>Ability to collectively elect 5 board members, 1 per region</li>
+								<li>Participation in planning of conferences and educational events</li>
+								<li>Clinical Knowledge Manager (CKM) national domain</li>
+							</ul>
+						</td>
 						<td class="TableMainC"> Based on World Bank country multipliers</td>
 					</tr>
 					<tr>
 						<td class="TableMainC"> Academic Partner</td>
 						<td class="TableMainC"> Universities and other educational organisations</td>
+						<td class="TableMainC"> 
+							<ul>
+								<li>Ability to collectively elect 1 board member</li>
+								<li>Participation in planning of conferences and educational events</li>
+								<li>Clinical Knowledge Manager (CKM) sub-domain within a national or international CKM domain</li>
+							</ul>
+						</td>
 						<td class="TableMainC"> TBD</td>
 					</tr>
 					<tr>
 						<td class="TableMainC"> Sponsoring Partner</td>
 						<td class="TableMainC"> Large companies or organisations who want to provide resources to raise the profile of openEHR and their own organisation for mutual benefit</td>
+						<td class="TableMainC"> 
+							<ul>
+								<li>Visibility on opneEHR website and conferences</li>
+							</ul>
+						</td>
+						<td class="TableMainC"> TBD</td>
 						<td class="TableMainC"> Negotiated</td>
 					</tr>
 				</tbody>
 				</table>
-			<p>Partners gain the following benefits:</p>
-			<ul>
-				<li>Ability to elect Foundation Board members</li>
-				<li>Preferential access to and planning of conferences and educational events</li>
-				<li>Access to a dedicated Clinical Knowledge Manager (CKM) resource, either with a national domain (national eHealth Programmes) or with a sub-domain in a national or international CKM instance</li>
-				<li>Industry Partners will have the right to veto openEHR specification changes with a greater than two thirds majority.</li>
 			</ul>
 				
 				
