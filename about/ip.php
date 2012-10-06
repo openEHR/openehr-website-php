@@ -65,6 +65,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			</tr>
 			</tbody>
 			</table>
+			<p></p>
 			<p>For more information about artefacts created in Programs and their licenses, click following links:</p>
 			<ul>
 				<li><a href="../programs/specification/iplicense">Specification Program licenses</a></li>

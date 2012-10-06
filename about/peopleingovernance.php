@@ -38,10 +38,10 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h1>People in Governance</h1>
 			
-			<h2><a name="boardofdirectors"></a>Board of Directors Members</h2>
-			<p>An interim Board of Directors has been appointed to oversee the transition to the new arrangements.</p>
+			<h2><a name="foundationboard"></a>Interim Foundation Board Members</h2>
+			<p>An interim Foundation Board has been appointed to oversee the transition to the new arrangements.</p>
 		
-			<h3 style="margin-left:1em;">Dr. Sam Heard - Chair of the Board of Directors (Australia)</h3>
+			<h3 style="margin-left:1em;">Dr. Sam Heard - Chair of the Foundation Board (Australia)</h3>
 			<table class="TableInvis">
 			<tbody>
 			<tr>
@@ -102,8 +102,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<tbody>
 			<tr>
 				<td class="TableInvisC" style="text-align:center;"><img src="../files/about/IMcnicoll.png"></td>
-				<td class="TableInvisC" width="650px">Ian McNicoll was for many years a Glasgow GP and is now a Member of the Board of Directors of the openEHR
-										Foundation, an Honorary Senior Research Associate with CHIME, UCL and an independent clinical
+				<td class="TableInvisC" width="650px">Ian McNicoll was for many years a Glasgow GP and an Honorary Senior Research Associate with CHIME, 
+										UCL and an independent clinical
 										informatics consultant, primarily working with Ocean Informatics on openEHR-based projects across Europe.
 										He is a member of the NHS Scotland SCIMP Working Group and serves on the committee of the
 										BCS Primary Health Care Specialist Group.</td>
@@ -129,7 +129,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<br/>
 			
 			
-			<h2><a name="foundationoffice"></a>Foundation Office Members</h2>
+			<h2><a name="foundationoffice"></a>Program Coordination Board Members</h2>
 			
 			<h3 style="margin-left:1em;">Ing. Thomas Beale - Specification Program Leader (United Kingdom)</h3>
 			<table class="TableInvis">

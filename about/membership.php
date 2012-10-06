@@ -55,7 +55,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<th class="TableMainT"> Rights & Responsibilities</th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> Member</td>
+				<td class="TableMainC"> <b>Member</b></td>
 				<td class="TableMainC"> Subscription to openEHR discussion list(s).</td>
 				<td class="TableMainC"> 
 					<ul>
@@ -64,7 +64,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> Contributor	</td>
+				<td class="TableMainC"> <b>Contributing</br>Member</b>	</td>
 				<td class="TableMainC"> Fulfill qualifying criteria; elected by Programme Committee.</td>
 				<td class="TableMainC"> 
 					<ul>
@@ -74,7 +74,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> Qualified</td>
+				<td class="TableMainC"> <b>Qualified</br>Member</b></td>
 				<td class="TableMainC"> Elected by relevant Program Committee.</td>
 				<td class="TableMainC"> 
 					<ul>
@@ -86,7 +86,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> Programme<br/>Committee<br/>co-chair</td>
+				<td class="TableMainC"> <b>Programme<br/>Committee<br/>co-chair</b></td>
 				<td class="TableMainC"> Elected by relevant Program Qualified Membership.</td>
 				<td class="TableMainC"> 
 					<ul>
@@ -96,7 +96,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> Foundation<br/>Board<br/>member<br/>(2 positions)</td>
+				<td class="TableMainC"> <b>Foundation<br/>Board<br/>member<br/></b>(2 positions)</td>
 				<td class="TableMainC"> Nominated and elected by Contributing Membership.</td>
 				<td class="TableMainC"> 
 					<ul>
@@ -119,7 +119,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 						<th class="TableMainT"> Financial</br>Basis</th>
 					</tr>
 					<tr>
-						<td class="TableMainC"> Industry Partner</td>
+						<td class="TableMainC"> <b>Industry Partner</b></td>
 						<td class="TableMainC"> Software suppliers using openEHR</td>
 						<td class="TableMainC"> 
 							<ul>
@@ -132,7 +132,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 						<td class="TableMainC"> Annual gross revenue</td>
 					</tr>
 					<tr>
-						<td class="TableMainC"> National Partner</br>(one per country)</td>
+						<td class="TableMainC"> <b>National Partner</b></br>(one per country)</td>
 						<td class="TableMainC"> Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programmes</td>
 						<td class="TableMainC"> 
 							<ul>
@@ -144,7 +144,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 						<td class="TableMainC"> Based on World Bank country multipliers</td>
 					</tr>
 					<tr>
-						<td class="TableMainC"> Academic Partner</td>
+						<td class="TableMainC"> <b>Academic Partner</b></td>
 						<td class="TableMainC"> Universities and other educational organisations</td>
 						<td class="TableMainC"> 
 							<ul>
@@ -156,7 +156,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 						<td class="TableMainC"> TBD</td>
 					</tr>
 					<tr>
-						<td class="TableMainC"> Sponsoring Partner</td>
+						<td class="TableMainC"> <b>Sponsoring Partner</b></td>
 						<td class="TableMainC"> Large companies or organisations who want to provide resources to raise the profile of openEHR and their own organisation for mutual benefit</td>
 						<td class="TableMainC"> 
 							<ul>
