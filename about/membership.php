@@ -163,7 +163,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 								<li>Visibility on opneEHR website and conferences</li>
 							</ul>
 						</td>
-						<td class="TableMainC"> TBD</td>
 						<td class="TableMainC"> Negotiated</td>
 					</tr>
 				</tbody>
