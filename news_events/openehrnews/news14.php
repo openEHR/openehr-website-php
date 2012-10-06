@@ -34,7 +34,7 @@
 		
 			<h1>News</h1>
 			
-			<h2>openEHR in £1.1m Wellcome Trust Sintero project</h2>
+			<h2>openEHR in &pound;1.1m Wellcome Trust Sintero project</h2>
 			<h6>9. July 2009 | from: Thomas Beale</h6>
 			
 			<br/>

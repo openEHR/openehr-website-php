@@ -72,9 +72,14 @@
 			<p>The openEHR health computing platform will be used as the basis of the core clinical repository for the Sintero project funded by a &pound;1.1m grant from the Wellcome Trust.</p>
 			<br/>
 			
-			<a href="openehrnews/news14">svn.openehr.org turned off</a>
+			<a href="openehrnews/news13">svn.openehr.org turned off</a>
 			<h6>1. May 2009</h6>
 			<p>The old URL http://svn.openehr.org has been turned off; use http://www.openehr.org/svn. If you have an error when doing an SVN operation on a local repository, check if this is the initial part of the URL.</p>
+			<br/>
+			
+			<a href="openehrnews/news12">Microsoft Connected Health Framework (CHF) uses archetypes</a>
+			<h6>20. April 2009</h6>
+			<p>The latest edition of Microsoft's Connected Health Framework - a strategy based on the idea of 'knowledge-driven health' - includes openEHR (ISO 13606-2) archetypes as part of its domain knowledge architecture.</p>
 			<br/>
 			
 		</div>
