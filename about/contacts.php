@@ -39,7 +39,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<h1>Contacts</h1>
 			<br/>
 			<p>To contact webmaster please click <a href="mailto:webmaster@openehr.org">here</a>.</p>
-			
+			<p>To contact a board member please click <a href="mailto:foundationoffice@openehr.org">here</a>.</p>			
+			<p>To contact the foundation office please click <a href="mailto:foundationoffice@openehr.org">here</a>.</p>
 		</div>
 			
 	</div>
