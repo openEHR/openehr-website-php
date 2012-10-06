@@ -46,7 +46,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<tbody>
 				<tr>
 					<th class="TableMainT"> Category </th>
-					<th class="TableMainT"> How btained</th>
+					<th class="TableMainT"> How Obtained</th>
 					<th class="TableMainT"> Rights & Responsibilities</th>
 				</tr>
 				<tr>
@@ -65,18 +65,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 						<ul>
 							<li>Can be a member of Programme project groups and Committees.</li>
 							<li>Can vote in meetings.</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td class="TableMainC"> Qualified</td>
-					<td class="TableMainC"> Elected by relevant Program Committee.</td>
-					<td class="TableMainC"> 
-						<ul>
-							<li>openEHR.org email address.</li>
-							<li>Can take formal roles in Programmes and Project groups.</li>
-							<li>Right to make changes to deliverables.</li>
-							<li>Elect all higher posts.</li>
 						</ul>
 					</td>
 				</tr>
@@ -115,13 +103,36 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			</table>
 			
 			<h2>Organisational Membership - Partners</h2>
-				<p>The openEHR Foundation will establish an Organisational membership category known as Partners, consisting of the following types:</p>
-				<ul>
-					<li>Industry Partners: Software suppliers using openEHR</li>
-					<li>Academic Partners: Universities and training organisations</li>
-					<li>National Partners: Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programmes</li>
-					<li>Sponsoring Partners: Large companies or organisations who want to provide resources to raise the profile of openEHR and their own organisation for mutual benefit.</li>
-				</ul>
+				<p>The openEHR Foundation will establish an Organisational membership category known as Partners, which includes four types. Becoming a Foundation Partner involves the organisation making a financial contribution, determined in a way that depends on the type of organisation. The Partner member types are as follows:</p>
+				<table class="TableMain">
+				<tbody>
+					<tr>
+						<th class="TableMainT"> Category </th>
+						<th class="TableMainT"> Description</th>
+						<th class="TableMainT"> Financial</br>Contribution</br>Basis</th>
+					</tr>
+					<tr>
+						<td class="TableMainC"> Industry Partner</td>
+						<td class="TableMainC"> Software suppliers using openEHR</td>
+						<td class="TableMainC"> Annual gross revenue</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> National Partner</br>(one per country)</td>
+						<td class="TableMainC"> Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programmes</td>
+						<td class="TableMainC"> Based on World Bank country multipliers</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> Academic Partner</td>
+						<td class="TableMainC"> Universities and other educational organisations</td>
+						<td class="TableMainC"> TBD</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> Sponsoring Partner</td>
+						<td class="TableMainC"> Large companies or organisations who want to provide resources to raise the profile of openEHR and their own organisation for mutual benefit</td>
+						<td class="TableMainC"> Negotiated</td>
+					</tr>
+				</tbody>
+				</table>
 				<p>Partners gain the following benefits:</p>
 				<ul>
 					<li>Preferential access to and planning of conferences and educational events</li>
@@ -137,7 +148,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 						<li>agree to engage with openEHR Foundation on a regular basis in order to facilitate planning;</li>
 						<li>agree to requirements on use of openEHR trademarks, domain names, and other elements of branding.</li>
 					</ul>
-			
 		</div>
 			
 	</div>
