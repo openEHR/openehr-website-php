@@ -2,8 +2,11 @@
 
 <html>
 <head>
-	<title>openEHR - News</title>
+
+	<title>openEHR - Events</title>
+	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrevents/events4" title="openEHR - Events">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
 
 
@@ -12,51 +15,46 @@
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		<?php include '../../menu/topmenu.php' ?>
+			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-		<?php $current = 2; include '../menu/newsmenu.php' ?>
+			<?php $current = 2; include '../menu/newsmenu.php' ?>
 		</div>
 		
-		<div id="TextArea">
+		<div id="TextArea" style="height:450px;">
+		
 			<h1>Events</h1>
-			<h2>CIMI Forum - 5th meeting</h2>
-			<h6>12. - 14. January 2012 | San Antonio</h6>
+			
+			<h2>MIE 2008</h2>
+			<h6>25. - 28. May 2008 | G&ouml;teborg</h6>
 			<br/>
-			<p>CIMI held its 5th group meeting in San Antonio from January 12 – 14, 2012. Over 35 people attended in person with an additional 5 participants attending via WebEx. At this meeting, the group:</p>
-			<ul>
-			<li>Established the criteria for membership and the process for adding members to the CIMI group</li>
-			<li>Authorised an interim executive committee</li>
-			<li>Determined a tentative schedule of meetings for 2012</li>
-			<li>Moved forward with the definition of the modeling framework</li>
-			<li>Formalized two task forces to begin the modeling work so that example models can be presented at the next meeting</li>
-			<li>Recognized the formation of a Glossary Group (lead to be announced)</li>
-			<li>Agreed to plans for utilizing existing tools to rapidly develop and test a candidate reference model and to create a small group of example CIMI models that build on the reference model work</li>
-			</ul>
-			<br/>
-			<p>For further details click <a href="http://informatics.mayo.edu/CIMI/index.php/San_Antonio_2012">here</a>.</p>
+			
+			<p>Various openEHR-related events are occurring at <a href="http://sfmi.medako.se/mie2008/index.html">MIE 2008</a>, this year at G&ouml;teborg, Sweden. A number of papers relating to archetypes and associated terminology issues are on the <a href="http://www.hst.aau.dk/~ska/MIE2008/ParalleSessions/AllParallelSessionsV096.htm">programme</a>, as well as two openEHR-related <a href="http://www.sfmi.org/home/page.asp?sid=63&mid=2&PageId=1834">tutorials</a>.</p>
+			
 			<br/>
 			<a href="../events">>> Back to Events</a>
+			
 		</div>
 			
-
 	</div>
-
+	
 	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>	
+		<?php include '../../panel/bottompanel.php' ?>	
 	</div>
 
 </div>

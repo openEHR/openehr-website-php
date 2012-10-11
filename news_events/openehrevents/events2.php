@@ -2,8 +2,11 @@
 
 <html>
 <head>
+
 	<title>openEHR - Events</title>
+	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrevents/events2" title="openEHR - Events">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
 
 
@@ -12,41 +15,46 @@
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		<?php include '../../menu/topmenu.php' ?>
+			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-		<?php $current = 2; include '../menu/newsmenu.php' ?>
+			<?php $current = 2; include '../menu/newsmenu.php' ?>
 		</div>
 		
-		<div id="TextArea">
+		<div id="TextArea" style="height:450px;">
+		
 			<h1>Events</h1>
-			<h2>OpenEHR sessions at HL7</h2>
-			<h6>9. - 14. January 2011 | Sydney</h6>
+			
+			<h2>Eurorec 2002</h2>
+			<h6>28. December 2002 | Berlin</h6>
 			<br/>
-			<p>Two openEHR sessions are scheduled at the next HL7 WGM in Sydney, both on Friday 14 January,
-			the last day of the meeting. The first session is 'openEHR - Introduction to openEHR, Archetypes & Templates',
-			9:00 - 12:30. The second is 'openEHR - Application of openEHR with HL7 & SNOMED'.</p>
+			
+			<p>At EuroRec 2002 in Berlin Ed Hammond gave a <a href="../../files/news_events/events/Edv2BerlinEHR.ppt">keynote presentation</a> (1.3MB .ppt) on his future vision for the EHR. Many of us felt that this was awonderful and thought-provoking view, and Ed has kindly allowed us to share it with the&nbsp; openEHR&nbsp; community here. </p>
+			
 			<br/>
 			<a href="../events">>> Back to Events</a>
+			
 		</div>
 			
-
 	</div>
+	
 	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>	
+		<?php include '../../panel/bottompanel.php' ?>	
 	</div>
 
 </div>

@@ -178,13 +178,13 @@
 			<div id="NewsFrame">
 			<div id="LinksFrame">
 				<h2>News & Events</h2>
-				<a href="news_events/openehrevents/events8">openEHR Foundation Meeting</a>
+				<a href="news_events/openehrevents/events21">openEHR Foundation Meeting</a>
 				<h6>10.-12. September 2012</h6>
 				<br/>
-				<a href="news_events/openehrevents/events7">HL7 Australia Seminar on Future HL7 Standards</a>
+				<a href="news_events/openehrevents/events20">HL7 Australia Seminar on Future HL7 Standards</a>
 				<h6>2. July 2012</h6>
 				<br/>
-				<a href="news_events/openehrevents/events6">openEHR @ HINZ</a>
+				<a href="news_events/openehrevents/events19">openEHR @ HINZ</a>
 				<h6>21.-22. June 2012</h6>
 				<br/>
 				<a href="news_events/openehrnews/news20">Brazil re-affirms commitement to openEHR</a>

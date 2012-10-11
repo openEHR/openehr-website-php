@@ -74,6 +74,71 @@
 			<p>A second beta of the ADL/AOM 1.5 Workbench has been released. The main feature added is support for regression testing of archetypes. A new SVN repository has been added that contains test archetypes as well as the object model schemas used to drive the ADL Workbench.</p>
 			<br/>
 			
+			<a href="openehrreleases/release13">ADL 1.5 Workbench - beta release</a>
+			<h6>11. August 2010</h6>
+			<p>A new beta of the ADL Workbench (AWB) has been published. This version of the tool has been greatly improved from previous versions and has many new features. It also implements most of the ADL / AOM 1.5 draft specifications, which completely replace the ADL and AOM 1.4 vintage.</p>
+			<br/>
+			
+			<a href="openehrreleases/release12">Opereffa - initial release</a>
+			<h6>10. June 2009</h6>
+			<p>The openEHR Foundation is pleased to announce the early release of Opereffa - openEHR REFerence Framework and Application, under development at UCL.</p>
+			<br/>
+			
+			<a href="openehrreleases/release11">New ADL Workbench release supports RM validation</a>
+			<h6>22. March 2009</h6>
+			<p>A new version of the ADL Workbench ('AWB') based on the latest ADL / AOM 1.5 draft specifications has been released. </p>
+			<br/>
+			
+			<a href="openehrreleases/release10">openEHR Release 1.0.2 published</a>
+			<h6>31. December 2008</h6>
+			<p>The openEHR Foundation is pleased to announce Release 1.0.2 of the specifications. In what appears to be a strong sign of stability, only 15 Change Requests were needed, of which only 7 had any effect on the formal specifications, and no impact on existing schemas or data.</p>
+			<br/>
+			
+			<a href="openehrreleases/release9">First openEHR Ruby implementation released</a>
+			<h6>5. May 2008</h6>
+			<p>Akimihci Tatsukawa and Shinji Kobayashi of openEHR.jp announce the release of version 0.0.1 of a Ruby implementation of openEHR.</p>
+			<br/>
+			
+			<a href="openehrreleases/release8">ADL Workbench 1.4.1 release</a>
+			<h6>5. April 2008</h6>
+			<p>Release 1.4.1 of the Archetype Workbench is now available. This release includes some major new features: specialisation semantics are now 90% implemented.</p>
+			<br/>
+			
+			<a href="openehrreleases/release7">openEHR Release 1.0.1 published</a>
+			<h6>15. April 2007</h6>
+			<p>The openEHR Foundation is pleased to announce Release 1.0.1 of the specifications. It is a stable base for ongoing implementation and forthcoming specifications, including the Template Model, EHR Extract, Security, Archetype Query Language, CEN EN13606 integration and services (in cooperation with the HL7/OMG HSSP project).</p>
+			<br/>
+			
+			<a href="openehrreleases/release6">UML of Release 1.0</a>
+			<h6>16. March 2006</h6>
+			<p>On 16 March 2006 openEHR has released the UML diagrams of release 1.0 incorporating changes from the public comment period.</p>
+			<br/>
+			
+			<a href="openehrreleases/release5">openEHR Release 1.0 published</a>
+			<h6>10. February 2006</h6>
+			<p>The openEHR Foundation is pleased to announce Release 1.0 of the specifications.</p>
+			<br/>
+			
+			<a href="openehrreleases/release4">openEHR Release 0.96 published</a>
+			<h6>1. August 2005</h6>
+			<p>Release 0.96 of the openEHR specifications is published today. See the Specification project home page.</p>
+			<br/>
+			
+			<a href="openehrreleases/release3">ADL Workbench release</a>
+			<h6>23. March 2005</h6>
+			<p>The ADL reference parser is now available in the form of the ADL workbench, ADL validator application, dotNet DLL and Java (jni) DLL.</p>
+			<br/>
+			
+			<a href="openehrreleases/release2">Initial release of Java kernel</a>
+			<h6>18. March 2005</h6>
+			<p>The initial release of the java openEHR reference kernel is available. See the Java reference implementation home page.</p>
+			<br/>
+			
+			<a href="openehrreleases/release1">openEHR Release 0.9 published</a>
+			<h6>4. May 2004</h6>
+			<p>Version 0.9 of the openEHR specifications have been published.</p>
+			<br/>
+			
 		</div>
 			
 	</div>

@@ -4,7 +4,7 @@
 <head>
 
 	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news13" title="openEHR - News">
+	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news12" title="openEHR - News">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>

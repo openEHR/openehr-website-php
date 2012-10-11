@@ -129,7 +129,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<br/>
 			
 			
-			<h2><a name="foundationoffice"></a>Program Coordination Board Members</h2>
+			<h2><a name="programcoordinationboard"></a>Program Coordination Board Members</h2>
 			
 			<h3 style="margin-left:1em;">Ing. Thomas Beale - Specification Program Leader (United Kingdom)</h3>
 			<table class="TableInvis">

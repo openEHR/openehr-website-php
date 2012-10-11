@@ -79,8 +79,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 						<li>working with national standards organisations;</li>
 					</ul>
 				</li>
-				<li>supporting health informatics education.</li>
 			</ul>
+			<p>All of openEHR Programs will support health informatics education.</p>
 			
 			<h3>Developing Trust: patients and citizens at the centre</h3>
 			<p>As we develop the specifications and engage clinicians, it is increasingly important to ensure that the platform benefits people using the health service.

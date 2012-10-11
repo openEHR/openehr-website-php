@@ -41,7 +41,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<p>Direct participation in the Foundation is by Individual Members and Partners (Organisational Members), with indirect participation possible via National Affiliates, as illustrated below.</p>
 			
 			<br/>
-			<p style="text-align:center;"><img src="./openehr_membership.png" alt="openEHR Foundation membership categories" style="border: solid 1px #CCCCCC;"></p>	
+			<p style="text-align:center;"><img src="../files/about/MembershipStructure.png" alt="openEHR Foundation membership categories" style="border: solid 1px #CCCCCC;"></p>	
 			<br/>
 			
 			

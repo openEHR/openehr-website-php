@@ -2,8 +2,11 @@
 
 <html>
 <head>
+
 	<title>openEHR - Events</title>
+	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrevents/events3" title="openEHR - Events">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
 
 
@@ -12,43 +15,46 @@
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		<?php include '../../menu/topmenu.php' ?>
+			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-		<?php $current = 2; include '../menu/newsmenu.php' ?>
+			<?php $current = 2; include '../menu/newsmenu.php' ?>
 		</div>
 		
-		<div id="TextArea">
+		<div id="TextArea" style="height:450px;">
+		
 			<h1>Events</h1>
-			<h2>MIE 2011</h2>
-			<h6>28. - 31. August 2011 | Oslo</h6>
+			
+			<h2>MedInfo 2007</h2>
+			<h6>28. August 2007 | London</h6>
 			<br/>
-			<p>MIE2011 is the 23rd International Conference of EFMI - the European Federation for Medical Informatics,
-			and takes place in Oslo August 28-31 2011. The conference will cover various topics in the area of e-health,
-			health informatics, telemedicine etc. There will also be commercial and scientific exhibitions.</p>
-			<p>The opening day will be at Akershus University Hospital, one of the technologically most advanced hospitals in Europe.</p>
-			<p>See the home page <a href="http://www.mie2011.org/">here.</a></p>
+			
+			<p>There were 14 papers, workshops and posters at MedInfo 2007. A video introducing openEHR for MedInfo participants featuring Prof David Ingram, chair of openEHR, was screened at the Tuesday drinks night sponsored by Ocean Informatics at the Storey Bridge Hotel.</p>
+			
 			<br/>
 			<a href="../events">>> Back to Events</a>
+			
 		</div>
 			
-
 	</div>
+	
 	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>	
+		<?php include '../../panel/bottompanel.php' ?>	
 	</div>
 
 </div>

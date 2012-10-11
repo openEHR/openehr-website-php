@@ -2,8 +2,11 @@
 
 <html>
 <head>
+
 	<title>openEHR - Events</title>
+	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrevents/events6" title="openEHR - Events">
 	<?php include '../../panel/headpanel.php' ?>
+	
 </head>
 
 
@@ -12,51 +15,46 @@
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
-   		<?php include '../../menu/topmenu.php' ?>
+			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-		<?php $current = 2; include '../menu/newsmenu.php' ?>
+			<?php $current = 2; include '../menu/newsmenu.php' ?>
 		</div>
 		
-		<div id="TextArea">
+		<div id="TextArea" style="height:450px;">
+		
 			<h1>Events</h1>
-			<h2>openEHR @ HINZ | New Zeland</h2>
-			<h6>21. - 22. June 2012</h6>
+			
+			<h2>IHTSDO 2008 Summer Conference</h2>
+			<h6>29. June - 4. July 2008 | Birningham</h6>
 			<br/>
-			<p>Two days of strategic events on healthcare interoperability in June in New Zealand (Programme to see <a href="https://sites.google.com/a/hl7.org.nz/hl7-new-zealand/news/21-22june2012healthcareinteroperabilitypioneeredhammondopenehr#">here</a>).</p>
-			<p>Thurs 21 June - <strong>Bringing the Electronic Health Record (EHR) to Life -
-			Emeritus Professor Ed Hammond. </strong>Ed will present <strong>EHR - The Killer
-			App</strong>. His key message is that the time has now come to develop a
-			full-blown EHR as technical, societal and other barriers have substantially been
-			dealt with
-			(<a href="http://www.hinz.org.nz/events/Seminar/2012/6/Leveraging+the+EHR+for+translational+health+care%3A+Exploring+what%27s+under+the+bonnet/47">d</a><a href="http://www.hinz.org.nz/events/Seminar/2012/6/Leveraging+the+EHR+for+translational+health+care%3A+Exploring+what%27s+under+the+bonnet/47">ay
-			programme</a>). Hosted by HINZ (Health Informatics NZ) and partners HL7 New
-			Zealand and The University of Auckland.</p>
-			<p>Fri 22 June - <strong>Tutorial on openEHR - Drs. Hugh and Heather
-			Leslie</strong> (Ocean Informatics).&nbsp; The tutorial will cover the full continuum
-			of the methodologies described in the New Zealand Reference Architecture for
-			Interoperability from clinical requirements through modelling to
-			machine-generation of compliant CDAs. Hosted by HL7 NZ.</p>
+			
+			<p>The IHTSDO 2008 Summer Conference: Community of Practice Meetings is at Birmingham NEC from 29 June to 4 July. This six-day international working conference is being hosted by NHS Connecting for Health to bring together IHTSDO's working group and project group members and members of National Release Centres from across the Globe, to progress the quality and development of SNOMED Clinical Terms, to discuss the enhanced release format and to look at better working practice in a volunteer community. This is primarily for clinical terminologists to contribute to the future development of SNOMED CT itself. Details are at <a href="http://etdevents.connectingforhealth.nhs.uk/1629">http://etdevents.connectingforhealth.nhs.uk/1629</a>.</p>
+			
 			<br/>
 			<a href="../events">>> Back to Events</a>
-		</div>
 			
+		</div>
+			 
 	</div>
+	
 	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>	
+		<?php include '../../panel/bottompanel.php' ?>	
 	</div>
 
 </div>
