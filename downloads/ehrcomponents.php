@@ -29,15 +29,30 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		
 	</div> 
 
-	<div id="MainArea" style="height:600px">
+	<div id="MainArea" style="height:450px">
 		
 		<div id="SideMenu">
 			<?php $current = 3; include 'menu/downloadsmenu.php' ?>
 		</div>
 		
-		<div id="TextArea">
+		<div id="TextArea" style="height:450px;">
 		
 			<h1>EHR Components</h1>
+			<br/>
+			
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT" style="width:250px;">Project</th>
+				<th class="TableMainT" style="width:400px;">Download</th>
+			</tr>	
+			<tr>
+				<td class="TableMainC">Java Reference Implementation of openEHR</td>
+				<td class="TableMainC"><br/><a href="http://www.openehr.org/wiki/display/projects/Java+Project+Download">Download page</a><br/><br/></td>
+			</tr>
+			</tbody>
+			</table>
+			<br/>
 		
 		</div>
 

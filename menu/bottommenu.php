@@ -17,6 +17,7 @@
 			<li><a href="http://openehr.org/knowledge/#repositoryoverview">Archetypes Mindmap</a></li>
 			<li><a href="http://openehr.org/knowledge/#userstatistics">User Statistics</a></li>
 			<li><a href="http://www.openehr.org/wiki/display/spec/openEHR+Terminology">openEHR Terminology</a></li>
+			<li><a href="http://www.openehr.org/svn/knowledge2/TRUNK/archetypes/">Test Archetypes</a></li>
 			<li><a href="http://www.ihtsdo.org/fileadmin/user_upload/doc/tig/">SNOMED CT TIG</a></li>
 			</ul>
 		</div>

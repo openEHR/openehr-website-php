@@ -29,7 +29,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		
 	</div> 
 
-	<div id="MainArea" style="height:600px">
+	<div id="MainArea" style="height:450px">
 		
 		<div id="SideMenu">
 			<?php $current = 2; include 'menu/downloadsmenu.php' ?>
@@ -38,6 +38,21 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<div id="TextArea">
 		
 			<h1>Application Building</h1>
+			<br/>
+			
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT" style="width:250px;">Project</th>
+				<th class="TableMainT" style="width:400px;">Download</th>
+			</tr>	
+			<tr>
+				<td class="TableMainC">TBD</td>
+				<td class="TableMainC"><br/>TBD<br/><br/></td>
+			</tr>
+			</tbody>
+			</table>
+			<br/>
 		
 		</div>
 

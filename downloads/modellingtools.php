@@ -29,7 +29,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		
 	</div> 
 
-	<div id="MainArea" style="height:600px">
+	<div id="MainArea">
 		
 		<div id="SideMenu">
 			<?php $current = 1; include 'menu/downloadsmenu.php' ?>
@@ -43,8 +43,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<table class="TableMain">
 			<tbody>
 			<tr>
-				<th class="TableMainT">Project</th>
-				<th class="TableMainT">Download</th>
+				<th class="TableMainT" style="width:250px;">Project</th>
+				<th class="TableMainT" style="width:400px;">Download</th>
 			</tr>
 			<tr>
 				<td class="TableMainC">ADL workbench &amp; parser</td>
@@ -57,10 +57,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC">Archetype Editor</td>
 				<td class="TableMainC"><br/><a href="http://www.openehr.org/new-ws/site/downloads/archetypeeditor/home">Download and help pages</a><br/>
 				Source available on <a href="http://www.openehr.org/projects/dotnet.html">project page</a>.<br/><br/></td>
-			</tr>
-			<tr>
-				<td class="TableMainC">Java Reference Implementation of openEHR</td>
-				<td class="TableMainC"><br/><a href="http://www.openehr.org/wiki/display/projects/Java+Project+Download">Download page</a><br/><br/></td>
 			</tr>
 			<tr>
 				<td class="TableMainC">Link&ouml;ping University Project - <br/>Java archetype editor<br/> and other knowledge tools</td>
@@ -76,15 +72,13 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				Requires Java. Please read the
 				<a href="http://svn.openehr.org/liu_knowledge_tools/TRUNK/LiU-Archetype-Editor/doc/readme.html">
 				release notes</a> before installing the program.<br/>
-				For further information about support mailing lists, source code, other versions etc see:<br/>
-				<a href="http://www.imt.liu.se/mi/ehr/tools/">http://www.imt.liu.se/mi/ehr/tools/
-				</a><br/><br/>
+				For further information about support mailing lists, source code, other versions etc see: <a href="http://www.imt.liu.se/mi/ehr/tools/">http://www.imt.liu.se/mi/ehr/tools/</a><br/><br/>
 				</td>
 			</tr>
 			</tbody>
 			</table>
-
-			
+			<br/>
+	
 		</div>
 
 	</div>

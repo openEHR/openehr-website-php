@@ -249,7 +249,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> Transformationalgorithms  </td>
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> planned</td>
 				</tr>
 				<tr>
 				<td class="TableMainC"> ASTM CCR  </td>

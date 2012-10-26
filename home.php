@@ -146,7 +146,7 @@
 					new TWTR.Widget({
 					  version: 2,
 					  type: 'search',
-					  search: 'clinicalmodels OR openehrCKM',
+					  search: 'from:@clinicalmodels OR from:@openEHRCKM',
 					  interval: 30000,
 					  title: '',
 					  subject: '',
