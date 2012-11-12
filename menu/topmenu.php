@@ -14,12 +14,23 @@
 				
        			<li><span>Entry Points</span>
             		 <ul>
-               			<li><a href="http://www.openehr.org/new-ws/site/entry_points/clinicalstandardisation/home">&nbsp; Clinical Standardisation</a></li>
-						<li><a href="http://www.openehr.org/new-ws/site/entry_points/governmentprogramme/home">&nbsp; Government Programme</a></li>
-                		<li><a href="http://www.openehr.org/new-ws/site/entry_points/medicalresearch/home">&nbsp; Medical Research</a></li>
-						<li><a href="http://www.openehr.org/new-ws/site/entry_points/buildingsolutions/home">&nbsp; Building Solutions</a></li>
-                		<li><a href="http://www.openehr.org/new-ws/site/entry_points/obtainingsolutions/home">&nbsp; Obtaining Solutions</a></li>
-						<li><a href="http://www.openehr.org/new-ws/site/entry_points/internationalstandards/home">&nbsp; International Standards</a></li>
+               			<li><span>&nbsp; Getting started</span>
+							<ul>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/getting_started/vendors_developers">&nbsp; Vendors /<br/>&nbsp; Developers</a></li>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/getting_started/governmentbodies_programmes">&nbsp; Government Bodies /<br/>&nbsp; eHealth Programmes</a></li>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/getting_started/providers_clinicians">&nbsp; Providers /<br/>&nbsp; Clinicians</a></li>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/getting_started/universities_researchcentres">&nbsp; Universities /<br/>&nbsp; Research Centres</a></li>
+							</ul>
+						</li>
+						<li><span>&nbsp; I am working on</span>
+							<ul>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/i_am_working_on/clinical_standardisation">&nbsp; Clinical<br/>&nbsp; Standardisation</a></li>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/i_am_working_on/government_programme">&nbsp; Government<br/>&nbsp; Programme</a></li>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/i_am_working_on/medical_research">&nbsp; Medical<br/>&nbsp; Research</a></li>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/i_am_working_on/building_solutions">&nbsp; Building<br/>&nbsp; Solutions</a></li>
+								<li><a href="http://www.openehr.org/new-ws/site/entry_points/i_am_working_on/obtaining_solutions">&nbsp; Obtaining<br/>&nbsp; Solutions</a></li>
+							</ul>
+						</li>
             		 </ul>
        			</li>
 				

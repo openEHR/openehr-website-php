@@ -58,17 +58,9 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				
 			<h2>Entry Points</h2>
 				<br/>
-				<?php include '../entry_points/clinicalstandardisation/menu/standardisationmenu.php' ?>
+				<?php include '../entry_points/getting_started/menu/guide.php' ?>
 				<br/>
-				<?php include '../entry_points/governmentprogramme/menu/governmentmenu.php' ?>
-				<br/>
-				<?php include '../entry_points/medicalresearch/menu/researchmenu.php' ?>
-				<br/>
-				<?php include '../entry_points/buildingsolutions/menu/buildingmenu.php' ?>
-				<br/>
-				<?php include '../entry_points/obtainingsolutions/menu/solutionsmenu.php' ?>
-				<br/>
-				<?php include '../entry_points/internationalstandards/menu/menustandards.php' ?>
+				<?php include '../entry_points//i_am_working_on/menu/activities.php' ?>
 				<br/>
 				
 			<h2>Downloads</h2>
@@ -84,7 +76,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 					<li><a href="http://www.openehr.org/new-ws/site/news_events/events">Events</a></li>
 					<li><a href="http://www.openehr.org/new-ws/site/news_events/releases">Releases</a></li>
 					<li><a href="http://www.openehr.org/new-ws/site/news_events/announcements">Announcements</a></li>
-					<li><a href="http://www.openehr.org/new-ws/site/news_events/press">Press</a></li>
 				</ul>
 				
 			<h2>About Us</h2>	
@@ -100,9 +91,9 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h2>Specifications (Quick Links)</h2>
 				<ul>
-					<li><a href="http://www.openehr.org/releases/1.0.2/roadmap.html">Current Release</a></li>
-					<li><a href="http://www.openehr.org/svn/specification/TRUNK/publishing/roadmap.html">Development Baseline</a></li>
-					<li><a href="http://www.openehr.org/issues/browse/SPECPR">Issue Tracker</a></li>				
+					<li><a href="http://www.openehr.org/new-ws/site/programs/specification/releasehistory/release102">Current Release</a></li>
+					<li><a href="http://www.openehr.org/new-ws/site/programs/specification/currentbaseline">Development Baseline</a></li>
+					<li><a href="http://www.openehr.org/issues/browse/SPECPR">Issue Tracker</a></li>
 					<li><a href="http://www.openehr.org/releases/1.0.2/its/XML-schema/index.html">XML Schemas</a></li>
 					<li><a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">RM UML</a></li>
 					<li><a href="http://www.openehr.org/svn/knowledge2/TRUNK/rm_schemas/">RM Schemas</a></li>
@@ -114,6 +105,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 					<li><a href="http://openehr.org/knowledge/#repositoryoverview">Archetypes Mindmap</a></li>
 					<li><a href="http://openehr.org/knowledge/#userstatistics">User Statistics</a></li>
 					<li><a href="http://www.openehr.org/wiki/display/spec/openEHR+Terminology">openEHR Terminology</a></li>
+					<li><a href="http://www.openehr.org/svn/knowledge2/TRUNK/archetypes/">Test Archetypes</a></li>
 					<li><a href="http://www.ihtsdo.org/fileadmin/user_upload/doc/tig/">SNOMED CT TIG</a></li>
 				</ul>
 				
@@ -121,6 +113,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<ul>
 					<li><a href="http://www.openehr.org/new-ws/site/resources/learningcentre">Learning Centre</a></li>
 					<li><a href="http://www.openehr.org/new-ws/site/resources/publications">Publications</a></li>
+					<li><a href="https://github.com/openEHR">GitHub</a></li>
 					<li><a href="http://www.openehr.org/wiki/display/resources/FAQs+-+Frequently+Asked+Questions">FAQs</a></li>
 				</ul>
 			

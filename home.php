@@ -24,27 +24,21 @@
 	<div id="MainArea" style="height:840px">
 
 		<div id="HomeFrame1">
-			<div id="FoundationFrame">
+			<div id="WelcomeFrame">
 				<h2>Welcome</h2>
-				<p><a href="whatisopenehr">What is openEHR?</a></p>
-				<p><a href="whoisusingopenehr">Who is using openEHR?</a></p>
-				<p><a href="about/foundation">About openEHR Foundation</a></p>
+				<p>openEHR is about enabling ICT to effectively support healthcare through creating specifications, open source software and tools.</p>
 			</div>
 		
 		
-			<div id="UsersFrame">
-				<h2>Your guide to openEHR</h2>
-				<div id="User1">
-				<p style="line-height:160%; text-align:center;"><a href="entry_points/yourguide/vendors_developers"><img src="gui/vendors.png"><br/>IT Vendors<br/>Developers</a></p>
+			<div id="EntryFrame">
+				<div id="Entry1">
+				<p style="line-height:160%; text-align:center;"><a href="whatisopenehr"><br/>What is<br/>openEHR?</a></p>
 				</div>
-				<div id="User2">
-				<p style="line-height:160%; text-align:center;"><a href="entry_points/yourguide/governmentbodies_programmes"><img src="gui/government.png"><br/>Government Bodies<br/>eHealth Programmes</a></p>
+				<div id="Entry2">
+				<p style="line-height:160%; text-align:center;"><a href="whoisusingopenehr"><br/>Who is using<br/>openEHR?</a></p>
 				</div>
-				<div id="User3">
-				<p style="line-height:160%; text-align:center;"><a href="entry_points/yourguide/providers_clinicians"><img src="gui/providers.png"><br/>Providers<br/>Clinicians</a></p>
-				</div>	
-				<div id="User4">
-				<p style="line-height:160%; text-align:center;"><a href="entry_points/yourguide/universities_researchcentres"><img src="gui/research.png"><br/>Universities<br/>Research Centres</a></p>
+				<div id="Entry3">
+				<p style="line-height:160%; text-align:center;"><a href="about/foundation"><br/>About openEHR<br/>Foundation</a></p>
 				</div>	
 			</div>
 		</div>

@@ -39,15 +39,15 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  background-repeat:no-repeat;
 }
 
-#FoundationFrame {
+#WelcomeFrame {
  position:absolute;
  height:110px;
- width:190px;
+ width:205px;
  padding-left:15px;
  padding-right:25px;
 }
 
-#UsersFrame {
+#EntryFrame {
  position:absolute;
  left:240px;
  height:110px;
@@ -57,31 +57,28 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-bottom:10px;
 }
 
-#User1 {
+#EntryFrame  p  {
+ font-size:16px;
+}
+
+#Entry1 {
  position:absolute;
- left:20px;
- top:50px;
+ left:50px;
+ top:10px;
  padding-left:15px;
 }
 
-#User2 {
+#Entry2 {
  position:absolute;
- left:170px;
- top:50px;
+ left:280px;
+ top:10px;
  padding-left:15px;
 }
 
-#User3 {
- position:absolute;
- left:370px;
- top:50px;
- padding-left:15px;
-}
-
-#User4 {
+#Entry3 {
  position:absolute;
  left:500px;
- top:50px;
+ top:10px;
  padding-left:15px;
 }
 

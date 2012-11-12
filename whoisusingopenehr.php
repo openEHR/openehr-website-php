@@ -22,9 +22,9 @@
 		
 	</div> 
 
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:1450px;">
+	<div id="MainArea" style=" margin-left:30px; width:900px; height:2500px;">
 	
-		<div id="TextArea" style="left:0px; width:900px; height:1450px;">
+		<div id="TextArea" style="left:0px; width:900px; height:2500px;">
 		
 			<h1>Who is using openEHR?</h1>
 			
@@ -135,6 +135,111 @@
 			<br/>
 			
 			<h3>Current Research</h3>
+			TBD
+			<br/>
+			
+			<h2><a name="vendorsolutions"></a>Vendor Solutions</h1>
+			<p>The following table lists openEHR commercial solutions.</p>
+			
+			<h3>Table explanation</h3>
+		
+			<span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span> - Company provides solution in that category<br/>
+			<br/>
+			
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT" style="text-align:center;">Organisation</th>
+				<th class="TableMainT" style="text-align:center;">More<br/>information</th>
+				<th class="TableMainT" style="text-align:center;"><a href="solutionshome#MT">Modelling<br/>Tools</a></th>
+				<th class="TableMainT" style="text-align:center;"><a href="solutionshome#MM">Model<br/>Manag.</a></th>
+				<th class="TableMainT" style="text-align:center;"><a href="solutionshome#IT">Implement.<br/>Tools</a></th>
+				<th class="TableMainT" style="text-align:center;"><a href="solutionshome#Ap">Applications</a></th>
+				<th class="TableMainT" style="text-align:center;"><a href="solutionshome#Se">Services</a></th>
+				<th class="TableMainT" style="text-align:center;"><a href="solutionshome#Hdp">Health Data<br/>Persistence</a></th>
+			</tr>
+			<tr>
+				<td class="TableMainC" style="text-align:center;"><br/>&nbsp;<img src="files/entry_points/Code24.png">&nbsp;<br/></td>
+				<td class="TableMainC" ><a href="http://www.code24.nl/">Code24</a><br/>Netherlands</td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			</tr>
+			<tr>
+				<td class="TableMainC" style="text-align:center;"><br/>&nbsp;<img src="files/entry_points/extensialogo.png">&nbsp;<br/><br/></td>
+				<td class="TableMainC" ><a href="http://www.extensia.com.au/">Extensia</a><br/>Australia</td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			</tr>
+			<tr>
+				<td class="TableMainC" style="text-align:center;">&nbsp;<img src="files/entry_points/infinnity_logo.jpg">&nbsp;<br/></td>
+				<td class="TableMainC" ><a href="http://www.infinnity.ru/">Infinity Solutions</a><br/>Russia</td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			</tr>
+			<tr>
+				<td class="TableMainC" style="text-align:center;"><img src="files/entry_points/Marand.jpg"><br/><br/></td>
+				<td class="TableMainC" ><a href="http://www.marand-thinkmed.com">Marand d.o.o.</a><br/>Slovenia</td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			</tr>
+			<tr>
+				<td class="TableMainC" style="text-align:center;"><br/>&nbsp;<img src="files/entry_points/Ocean.png">&nbsp;<br/><br/></td>
+				<td class="TableMainC" ><a href="http://www.oceaninformatics.com">Ocean Informatics</a><br/>Australia, UK</td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			</tr>
+			<tr>
+				<td class="TableMainC" style="text-align:center;"><br/><img src="files/entry_points/P2D_Logotipo_Empresa.jpg"><br/><br/></td>
+				<td class="TableMainC" ><a href="http://www.p2d.com.br/novosite/main/index.php">P2D</a><br/>Brazil</td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			</tr>
+			<tr>
+				<td class="TableMainC" style="text-align:center;"><br/>&nbsp;<img src="files/entry_points/LogoZilics-200x.jpg">&nbsp;<br/><br/></td>
+				<td class="TableMainC" ><a href="http://www.zilics.com.br/">Zilics</a><br/>Brazil</td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			</tr>
+			<tr>
+				<td class="TableMainC" style="text-align:center;"><br/>&nbsp;<img src="files/entry_points/zorggemak_logo.jpg">&nbsp;<br/><br/></td>
+				<td class="TableMainC" ><a href="http://www.zorggemak.com/">Zorg Gemak</a><br/>Netherlands</td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"></td>
+				<td class="TableMainC" style="text-align:center;"><span style="font-size:30px; color:#009933; font-weight:900;">&nu;</span></td>
+			</tr>
+			</tbody>
+			</table>
 		
 		</div>
 		
