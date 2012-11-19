@@ -21,76 +21,56 @@
 		</div>
 	</div> 
 
-	<div id="MainArea" style="height:840px">
+	<div id="MainArea" style="height:690px">
 
-		<div id="HomeFrame1">
-			<div id="WelcomeFrame">
-				<h2>Welcome</h2>
-				<p>openEHR is about enabling ICT to effectively support healthcare through creating specifications, open source software and tools.</p>
-			</div>
-		
-		
-			<div id="EntryFrame">
-				<div id="Entry1">
-				<p style="line-height:160%; text-align:center;"><a href="whatisopenehr"><br/>What is<br/>openEHR?</a></p>
-				</div>
-				<div id="Entry2">
-				<p style="line-height:160%; text-align:center;"><a href="whoisusingopenehr"><br/>Who is using<br/>openEHR?</a></p>
-				</div>
-				<div id="Entry3">
-				<p style="line-height:160%; text-align:center;"><a href="about/foundation"><br/>About openEHR<br/>Foundation</a></p>
-				</div>	
-			</div>
-		</div>
-			
-		<div id="SpecificationFrame">
-			<img src="gui/SpecificationFrame.png" usemap="#specification"/>
-			<map name="specification">
-			  <area shape="rect" coords="0,0,220,150" href="programs/specification" alt="Specification Program" />
+		<div id="WhatFrame">
+			<img src="gui/WhatFrame.png" usemap="#what"/>
+			<map name="what">
+			  <area shape="rect" coords="0,0,220,150" href="whatisopenehr" alt="What is openEHR" />
 			</map> 
 			<div id="TextFrame">
-			<h1>Specification <br/>Program</h1>
-			<p>Specifications for health information, archetypes, querying and services.
-			<br/><a href="programs/specification" style="line-height:200%;">Learn more</a></p>
+			<h1>What is<br/>openEHR?</h1>
+			<p>openEHR is about enabling ICT to effectively support all aspects of healthcare.
+			<br/><a href="whatisopenehr" style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>
 
 		
-		<div id="ModelsFrame">
-			<img src="gui/ModelsFrame.png" usemap="#models"/>
-			<map name="models">
-			  <area shape="rect" coords="0,0,220,150" href="programs/clinicalmodels" alt="Clinical Models Program" />
+		<div id="WhoFrame">
+			<img src="gui/WhoFrame.png" usemap="#who"/>
+			<map name="who">
+			  <area shape="rect" coords="0,0,220,150" href="whoisusingopenehr" alt="Who is using openEHR" />
 			</map> 
 			<div id="TextFrame">
-			<h1>Clinical Models <br/>Program</h1>
-			<p>Clinician-built archetypes, templates and ref-sets for e-health applications.
-			<br/><a href="programs/clinicalmodels" style="line-height:200%;">Learn more</a></p>
+			<h1>Who is using<br/>openEHR?</h1>
+			<p>Companies, governments, universities, research centres all around the world.
+			<br/><a href="whoisusingopenehr" style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>
 
 		
-		<div id="SoftwareFrame">
-			<img src="gui/SoftwareFrame.png" usemap="#software"/>
-			<map name="software">
-			  <area shape="rect" coords="0,0,220,150" href="programs/software" alt="Software Program" />
+		<div id="AboutFrame">
+			<img src="gui/AboutFrame.png" usemap="#about"/>
+			<map name="about">
+			  <area shape="rect" coords="0,0,220,150" href="about/foundation" alt="About openEHR Foundation" />
 			</map> 
 			<div id="TextFrame">
-			<h1>Software <br/>Program</h1>
-			<p>Software tools and components for clinical modelling and EHR platform.
-			<br/><a href="programs/software"  style="line-height:200%;">Learn more</a></p>
+			<h1>About openEHR<br/>Foundation</h1>
+			<p>openEHR Foundation is opened for everybody to join and participate.
+			<br/><a href="about/foundation"  style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>
 			
 			
-		<div id="LocalisationFrame">
-			<img src="gui/LocalisationFrame.png" usemap="#localisation"/>
-			<map name="localisation">
-			  <area shape="rect" coords="0,0,220,150" href="programs/localisation" alt="Localisation Program" />
+		<div id="JoinFrame">
+			<img src="gui/JoinFrame.png" usemap="#join"/>
+			<map name="join">
+			  <area shape="rect" coords="0,0,220,150" href="openehrprograms" alt="openEHR Programs" />
 			</map> 
 			<div id="TextFrame">
-			<h1>Localisation <br/>Program</h1>
-			<p>Education, translation, and dissemination - making openEHR work everywhere.
-			<br/><a href="programs/localisation" style="line-height:200%;">Learn more</a></p>
+			<h1>The openEHR<br/>Programs</h1>
+			<p>4 openEHR Programs: Specification, Clinical Models, Software, Localisation 
+			<br/><a href="openehrprograms" style="line-height:200%;">Learn more</a></p>
 			</div> 
 		</div>
 		

@@ -39,6 +39,17 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  background-repeat:no-repeat;
 }
 
+#ProgramsFrame {
+ position:absolute;
+ top:125px;
+ left:40px;
+ height:150px;
+ width:950px;
+ background-image: url("../gui/ProgramsFrame.png");
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...);
+ background-repeat:no-repeat;
+}
+
 #WelcomeFrame {
  position:absolute;
  height:110px;
@@ -82,33 +93,33 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-left:15px;
 }
 
-#SpecificationFrame {
+#WhatFrame {
  position:absolute;
- top:275px;
+ top:125px;
  left:40px;
  height:300px;
  width:230px;
 }
 
-#ModelsFrame {
+#WhoFrame {
  position:absolute;
- top:275px;
+ top:125px;
  left:280px;
  height:300px;
  width:230px;
 }
 
-#SoftwareFrame {
+#AboutFrame {
  position:absolute;
- top:275px;
+ top:125px;
  left:520px;
  height:300px;
  width:230px;
 }
 
-#LocalisationFrame {
+#JoinFrame {
  position:absolute;
- top:275px;
+ top:125px;
  left:760px; 
  height:290px;
  width:230px;
@@ -127,7 +138,7 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
 
 #HomeFrame2 {
  position:absolute;
- top:575px;
+ top:425px;
  left:40px;
  height:360px;
  width:950px;
@@ -179,4 +190,37 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-left:15px;
  padding-right:25px;
  padding-bottom:10px;
+}
+
+
+#SpecificationFrame {
+ position:absolute;
+ top:275px;
+ left:40px;
+ height:300px;
+ width:230px;
+}
+
+#ModelsFrame {
+ position:absolute;
+ top:275px;
+ left:280px;
+ height:300px;
+ width:230px;
+}
+
+#SoftwareFrame {
+ position:absolute;
+ top:275px;
+ left:520px;
+ height:300px;
+ width:230px;
+}
+
+#LocalisationFrame {
+ position:absolute;
+ top:275px;
+ left:760px; 
+ height:290px;
+ width:230px;
 }
