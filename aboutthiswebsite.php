@@ -2,8 +2,10 @@
 
 <html>
 <head>
+
 	<title>openEHR - About this Website</title>
 	<?php include 'panel/headpanel.php' ?>
+	
 </head>
 
 
@@ -20,8 +22,10 @@
 		</div>
 	</div> 
 
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:500px;">
+	<div id="MainArea" style="margin-left:30px; width:900px; height:500px;">
+	
 		<div id="TextArea" style="left:0px; width:900px; height:500px;">
+		
 		<h1>About this Website</h1>
 		<p>This new website aims to be more representative of the openEHR community aims and acitivities. Don't consider it as fixed, but rather as a living thing. We are interested in feedback on any aspect of the website. In the initial development phase, visual elements and style are 'draft', and we are interested in suggestions for improvement. In particular:</p>
 		

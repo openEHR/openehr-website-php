@@ -1,9 +1,9 @@
 
 			<ul id="menu" class="menu">
 			
-				<li><span><a href="http://www.openehr.org/new-ws/site/home">Home</a></span></li>
+				<li><a href="http://www.openehr.org/new-ws/site/home">Home</a></li>
 				
-       			<li><span>Programs</span>
+       			<li><a href="http://www.openehr.org/new-ws/site/openehrprograms">Programs</a>
 					<ul>
                 		<li><a href="http://www.openehr.org/new-ws/site/programs/specification">&nbsp; Specification Program</a></li>
                			<li><a href="http://www.openehr.org/new-ws/site/programs/clinicalmodels">&nbsp; Clinical Models Program</a></li>

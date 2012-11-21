@@ -13,7 +13,7 @@
  text-decoration:none;
  width:160px;
  height:24px;
- padding-top:0px;
+ padding-top:6px;
  }
  
 .menu span {
@@ -99,5 +99,5 @@
 
 li.menuhover a, li.menuhover li.menuhover a 
  {color:#fff;
- background:#E17600;}
+ background:#00355f;}
 
