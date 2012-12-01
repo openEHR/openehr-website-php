@@ -49,13 +49,13 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<tr>
 				<td class="TableMainC">ADL workbench &amp; parser</td>
 				<td class="TableMainC"><br/>
-				<a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/home">Download and help pages</a>.<br/>
-				For source, see the <a title="Eiffel Tools Project" href="/openehr/projects/eiffel.html">project page</a>.<br/><br/>
+				<a href="/downloads/ADLworkbench/home">Download and help pages</a>.<br/>
+				For source, see the <a title="Eiffel Tools Project" href="https://github.com/openEHR/adl-tools/wiki">project page</a>.<br/><br/>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableMainC">Archetype Editor</td>
-				<td class="TableMainC"><br/><a href="http://www.openehr.org/new-ws/site/downloads/archetypeeditor/home">Download and help pages</a><br/>
+				<td class="TableMainC"><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/>
 				Source available on <a href="http://www.openehr.org/projects/dotnet.html">project page</a>.<br/><br/></td>
 			</tr>
 			<tr>

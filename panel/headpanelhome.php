@@ -12,12 +12,12 @@
 	<meta name="revisit-after" content="15 days">
 	<meta name="viewport" content="1024">
 
-	<link rel="stylesheet" href="http://www.openehr.org/new-ws/site/styles/basic.css"  type="text/css">
-	<link rel="stylesheet" href="http://www.openehr.org/new-ws/site/styles/home.css"  type="text/css"> 
-	<link rel="stylesheet" href="http://www.openehr.org/new-ws/site/styles/menu.css" type="text/css"> 
+	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
+	<link rel="stylesheet" href="/styles/home.css"  type="text/css"> 
+	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
 	
 	<link rel="home" href="http://www.openehr.org">
 	<link rel="bookmark" href="http://www.openehr.org" title="openEHR - Homepage">
-	<link rel="index" href="http://www.openehr.org/sitemap">
+	<link rel="index" href="/sitemap">
 
-	<script type="text/javascript" src="http://www.openehr.org/new-ws/site/menu/dropdown.js"></script> 
+	<script type="text/javascript" src="/menu/dropdown.js"></script> 

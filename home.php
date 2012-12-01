@@ -56,7 +56,7 @@
 			</map> 
 			<div id="TextFrame">
 			<h1>About openEHR<br/>Foundation</h1>
-			<p>openEHR Foundation is opened for everybody to join and participate.
+			<p>openEHR Foundation is open for everybody to join and participate.
 			<br/><a href="about/foundation"  style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>

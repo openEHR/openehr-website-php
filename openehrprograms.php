@@ -22,9 +22,9 @@
 		</div>
 	</div> 
 
-	<div id="MainArea" style="margin-left:30px; width:900px; height:850px;">
+	<div id="MainArea" style="margin-left:30px; width:900px; height:900px;">
 		
-		<div id="TextArea" style="left:0px; width:900px; height:850px;">
+		<div id="TextArea" style="left:0px; width:900px; height:900px;">
 		
 			<h1>The openEHR Programs</h1>
 			<p>The main work of the openEHR Foundation is performed by four 'programs' which respectively focus on specifications, clinical modelling, software, and localisation. The first three of these programs correspond to the primary types of output of the openEHR community. Work on all of the programs is performed by community members. A lightweight system of governance, influenced by the governance systems of Apache Foundation and the International Health Terminology Standards Development Organisation (IHTSDO), has been defined to enable defensible decision-making.</p>

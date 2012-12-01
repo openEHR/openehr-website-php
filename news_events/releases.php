@@ -37,7 +37,7 @@
 			<h1>Releases</h1>
 			<br/>
 			
-			<a href="openehrnews/news21">ADL - syntax highlight for Notepad++</a>
+			<a href="openehrreleases/release20">ADL - syntax highlight for Notepad++</a>
 			<h6>13. August 2012</h6>
 			<p>ADL syntax highlight for Notepad++ was developed by Armando Prieto from Venezuela.
 			Find more information about ADL Text Editors on Wiki.</p>
