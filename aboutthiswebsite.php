@@ -26,7 +26,6 @@
 	
 		<div id="TextArea" style="left:0px; width:900px; height:1300px;">
 		
-<<<<<<< HEAD
 			<h1>About this Website</h1>
 			<p>This new website aims to be more representative of the openEHR community aims and activities and particularly what people are working on out there. Don't consider it as fixed, but rather as a living thing. We are interested in feedback on any aspect of the website. In the initial development phase, visual elements and style are 'draft', and we welcome ideas for improvement.</p>
 			<p>Note that the technical approach we have taken with this site is a totally manual one - that is, it is constructed from hand-built HTML, PHP, and Java-script. This gives more freedom than the controlled environment of a CMS. Moving to a CMS is not out of the question in the future, but for now, the current approach seems more maintainable. The website code is maintained on Github, and contributors can participate by providing material via that route.</p>
@@ -62,7 +61,7 @@
 			</table>
 			<br/>
 			
-			<p>&#42; If you send us your own creation, we would appreciate if you in your design consider colour scheme of the new website (the logo position will remain the same as is now).</p>
+			<p>&#42; If you send us your own creation, we would appreciate if in your design you consider the colour scheme of the new website (the logo position will remain the same as is now).</p>
 			
 			
 			<h2>Top banner</h2>
@@ -91,11 +90,9 @@
 			
 			<h2>The motto</h2>
 			<p>A number of ideas have been tried here. This is meant to be a short sharp expression of what the openEHR Foundation and its community are about. Key ideas to include seems to be: archetypes/content models; flexibility/future-proofing/adaptibility of systems. Clearly no slogan can capture everything about a large effort like openEHR, so there will never be a perfect one. On the other hand being memorable is useful. Suggestions are welcome <a href="mailto:webmaster@openehr.org">here</a>.</p>
-=======
 			<h1>About this Website</h1>
 			<p>This new website aims to be more representative of the openEHR community aims and acitivities. Don't consider it as fixed, but rather as a living thing. We are interested in feedback on any aspect of the website. In the initial development phase, visual elements and style are 'draft', and we are interested in suggestions for improvement.</p>
 
-			
 			<h2>Providing feedback</h2>
 			<p>Please provide website design ideas/feedback <a href="http://www.openehr.org/wiki/display/oecom/2012+Website+-+feedback+page">here</a>.</p>
 			<p>Routine webmaster requests <a href="mailto:webmaster@openehr.org">here</a>.
