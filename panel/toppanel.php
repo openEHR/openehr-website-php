@@ -10,7 +10,7 @@
 			
 		<div id="Motto">
 		
-			An open domain-driven platform for<br/>for developing flexible e-health systems
+			An open domain-driven platform for<br/>developing flexible e-health systems
 		
 		</div>
 		

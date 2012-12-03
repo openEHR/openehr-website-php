@@ -42,7 +42,7 @@
 			<tr>
 				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="australia_flag" title="australia_flag" src="files/basic/australia.gif"></p><p>Australia</p></td>
 				<td class="TableMainC">NeHTA (National e-Health Transition Authority)</td>
-				<td class="TableMainC">Clinical data groups based on openEHR methodology. Investigation of transformation from openEHR to CDA in progress.</td>
+				<td class="TableMainC">Clinical data modelling based on openEHR methodology. Use of transformation from openEHR models to CDA schemas.</td>
 			</tr>
 			<tr>
 				<td class="TableMainC">Queensland Health</td>
@@ -125,6 +125,18 @@
 				<th class="TableMainT"><p>Institution</p></th>
 				<th class="TableMainT"><p>Team</p></th>
 				<th class="TableMainT"><p>Description</p></th>
+			</tr>
+			<tr>
+				<td class="TableMainC"><p><img width="80px" alt="argentina_flag" title="argentina_flag" src="files/basic/argentina_S.gif"></p>
+				<p>Argentina</p></td>
+				<td class="TableMainC"><a href="http://www.hospitalaustral.edu.ar/">Austral University Hospital</a></td>
+				<td class="TableMainC">Alan March</td>
+				<td class="TableMainC">
+				<ul>
+					<li>implementation of openEHR EHR as a long-term project.</li>
+					<li>initial phase is working on discharge summary</li>
+				</ul>
+				</td>
 			</tr>
 			<tr>
 				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="files/basic/brazil_S.gif"></p>
