@@ -1,12 +1,12 @@
 		<div id="BottomFrame" style="left:40px;">
 			<p class="MenuHeading">Specifications <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
-			<li><a href="/programs/specification/releasehistory/release102">Current Release</a></li>
-			<li><a href="/programs/specification/currentbaseline">Development Baseline</a></li>
-			<li><a href="/issues/browse/SPECPR">Issue Tracker</a></li>
-			<li><a href="/releases/1.0.2/its/XML-schema/index.html">XML Schemas</a></li>
-			<li><a href="/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">RM UML</a></li>
-			<li><a href="/svn/knowledge2/TRUNK/rm_schemas/">RM Schemas</a></li>
+			<li><a href="http://www.openEHR.org/releases/1.0.2">Current Release</a></li>
+			<li><a href="http://www.openEHR.org/releases/currentbaseline">Development Baseline</a></li>
+			<li><a href="/issues/browse/SPECPR" target="_blank">Issue Tracker</a></li>
+			<li><a href="http://www.openEHR.org/releases/1.0.2/reference-models/openEHR/XSD">XML Schemas</a></li>
+			<li><a href="http://www.openEHR.org/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank">RM UML</a></li>
+			<li><a href="http://www.openEHR.org/releases/1.0.2/reference-models/openEHR/BMM" target="_blank">RM BMM Schemas</a></li>
 			</ul>
 		</div>
 
@@ -17,7 +17,7 @@
 			<li><a href="/knowledge/#repositoryoverview">Archetypes Mindmap</a></li>
 			<li><a href="/knowledge/#userstatistics">User Statistics</a></li>
 			<li><a href="/wiki/display/spec/openEHR+Terminology">openEHR Terminology</a></li>
-			<li><a href="/svn/knowledge2/TRUNK/archetypes/">Test Archetypes</a></li>
+			<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank">ADL Test Archetypes</a></li>
 			<li><a href="http://www.ihtsdo.org/fileadmin/user_upload/doc/tig/">SNOMED CT TIG</a></li>
 			</ul>
 		</div>

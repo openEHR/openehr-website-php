@@ -16,7 +16,7 @@
 		
 		<div id="Utilities">
 		
-			<a href="/aboutthiswebsite">About this Website</a> | <a href="http://www.openehr.org/home.html">Old Website</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a> | <a href="/wiki">Wiki</a>
+			<a href="/aboutthiswebsite">About this Website</a> | <a href="http://www.openehr.org/home.html" target="_blank">Old Website</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a> | <a href="/wiki" target="_blank">Wiki</a>
 		
 		</div>
 		
