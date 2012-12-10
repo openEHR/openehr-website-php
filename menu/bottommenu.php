@@ -1,12 +1,12 @@
 		<div id="BottomFrame" style="left:40px;">
 			<p class="MenuHeading">Specifications <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
-			<li><a href="http://www.openEHR.org/releases/1.0.2">Current Release</a></li>
-			<li><a href="http://www.openEHR.org/releases/currentbaseline">Development Baseline</a></li>
+			<li><a href="/releases/1.0.2">Current Release</a></li>
+			<li><a href="/releases/currentbaseline">Development Baseline</a></li>
 			<li><a href="/issues/browse/SPECPR" target="_blank">Issue Tracker</a></li>
-			<li><a href="http://www.openEHR.org/releases/1.0.2/reference-models/openEHR/XSD">XML Schemas</a></li>
-			<li><a href="http://www.openEHR.org/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank">RM UML</a></li>
-			<li><a href="http://www.openEHR.org/releases/1.0.2/reference-models/openEHR/BMM" target="_blank">RM BMM Schemas</a></li>
+			<li><a href="/releases/1.0.2/reference-models/openEHR/XSD">XML Schemas</a></li>
+			<li><a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank">RM UML</a></li>
+			<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank">RM BMM Schemas</a></li>
 			</ul>
 		</div>
 
