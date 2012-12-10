@@ -1,5 +1,5 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$pageOn = 'releases.php';
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -8,7 +8,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 	<title>openEHR - Specifications Program</title>
 	<link rel="bookmark" href="http://www.openehr.org/programs/specification/releases" title="openEHR - Specification Program">
-	<?php include '../../panel/headpanel.php' ?>
+	<?php include '../../../panel/headpanel.php' ?>
 	
 </head>
 
@@ -18,13 +18,13 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
 	
 		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
+			<?php include '../../../menu/topmenu.php' ?>
 		</div>
 		
 	</div> 
@@ -33,7 +33,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/specificationsmenu.php' ?>
+			<?php include '../menu/specificationsmenu.php' ?>
 		</div>
 
 		<div id="TextArea">
@@ -51,17 +51,17 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<th class="TableMainT"> Description </th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="releasehistory/release102">Release 1.0.2</a></td>
+				<td class="TableMainC"> <a href="1.0.2">Release 1.0.2</a></td>
 				<td class="TableMainC"> 31 December 2008 </td>
 				<td class="TableMainC"> 22 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10030">Release notes.</a></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="releasehistory/release101">Release 1.0.1</a></td>
+				<td class="TableMainC"> <a href="1.0.1">Release 1.0.1</a></td>
 				<td class="TableMainC"> 15 April 2007 </td>
 				<td class="TableMainC"> 56 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10019">Release notes.</a></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="releasehistory/release10"><b>Release 1.0</a></td>
+				<td class="TableMainC"> <a href="1.0"><b>Release 1.0</a></td>
 				<td class="TableMainC"> 07 February 2006 </td>
 				<td class="TableMainC"> 54 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10018">Release notes.</a></td>
 			</tr>
@@ -71,12 +71,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> Error correction release. 12 Change Requests </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10017">Release notes.</a></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="releasehistory/release095"><b>Release 0.95</b></a></td>
+				<td class="TableMainC"> <a href="0.95"><b>Release 0.95</b></a></td>
 				<td class="TableMainC"> 15 March 2005 </td>
 				<td class="TableMainC"> Basic modelling changes. 17 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10016">Release notes.</a></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="releasehistory/release09"><b>Release 0.9</b></a></td>
+				<td class="TableMainC"> <a href="0.9"><b>Release 0.9</b></a></td>
 				<td class="TableMainC"> 04 May 2004 </td>
 				<td class="TableMainC"> First complete release of openEHR. 84 Change Requests </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10015">Release notes.</a></td>
 			</tr>
@@ -88,11 +88,11 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	</div>
 
 	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>	
+		<?php include '../../../panel/bottompanel.php' ?>	
 	</div>
 	
 </div>

@@ -1,7 +1,7 @@
 		<p class="SideMenuHeading"><a href="/programs/specification" <?php if($pageOn == 'index.php'){?> class="active"<?php }?> style="font-weight:900;">Specification<br/>Program</a></p>
 			<ul>
 			<li><a href="/programs/specification/listofspecifications" <?php if($pageOn == 'listofspecifications.php'){?> class="active"<?php }?>>List of Specifications</a></li>
-			<li><a href="/programs/specification/releases" <?php if($pageOn == 'releases.php'){?> class="active"<?php }?>>Releases</a></li>
+			<li><a href="/programs/specification/releases" <?php if($pageOn == 'releases/index.php'){?> class="active"<?php }?>>Releases</a></li>
 			<li><a href="/programs/specification/roadmap" <?php if($pageOn == 'roadmap.php'){?> class="active"<?php }?>>Roadmap</a></li>
 			<li><a href="/issues/browse/SPECPR">Issue Tracker</a></li>
 			<li><a href="/issues/browse/SPEC">Change Tracker</a></li>

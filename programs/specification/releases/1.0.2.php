@@ -7,7 +7,7 @@ $pageOn = 'releases.php';
 <head>
 
 	<title>openEHR - Specifications Program</title>
-	<link rel="bookmark" href="http://www.openehr.org/programs/specification/release102" title="openEHR - Specification Program">
+	<link rel="bookmark" href="http://www.openehr.org/programs/specification/releases/1.0.2" title="openEHR - Specification Program">
 	<?php include '../../../panel/headpanel.php' ?>
 	
 </head>
