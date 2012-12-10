@@ -7,8 +7,8 @@ $pageOn = 'releases.php';
 <head>
 
 	<title>openEHR - Specifications Program</title>
-	<link rel="bookmark" href="http://www.openehr.org/programs/specification/currentbaseline" title="openEHR - Specification Program">
-	<?php include '../../panel/headpanel.php' ?>
+	<link rel="bookmark" href="http://www.openehr.org/programs/specification/releases/currentbaseline" title="openEHR - Specification Program">
+	<?php include '../../../panel/headpanel.php' ?>
 	
 </head>
 
@@ -18,13 +18,13 @@ $pageOn = 'releases.php';
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
 		
 		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
+			<?php include '../../../menu/topmenu.php' ?>
 		</div>
 		
 	</div> 
@@ -32,7 +32,7 @@ $pageOn = 'releases.php';
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/specificationsmenu.php' ?>
+			<?php include '../menu/specificationsmenu.php' ?>
 		</div>
 
 		<div id="TextArea">
