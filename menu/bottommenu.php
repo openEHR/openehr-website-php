@@ -4,7 +4,7 @@
 			<li><a href="/releases/1.0.2">Current Release</a></li>
 			<li><a href="/releases/currentbaseline">Development Baseline</a></li>
 			<li><a href="/issues/browse/SPECPR" target="_blank">Issue Tracker</a></li>
-			<li><a href="/releases/1.0.2/reference-models/openEHR/XSD">XML Schemas</a></li>
+			<li><a href="/releases/1.0.2/reference-models/openEHR/XSD" target="_blank">XML Schemas</a></li>
 			<li><a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank">RM UML</a></li>
 			<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank">RM BMM Schemas</a></li>
 			</ul>
