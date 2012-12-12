@@ -29,86 +29,104 @@
 		
 		<div id="TextArea">
 			<h1>Announcements</h1>
-			<h2>Update on openEHR Governance</h2>
-			<h6>20. October 2011 | from: Sam Heard, Chair of Interim Board of Directors</h6>
+			<h2>Announcement concerning progress with IHTSDO and future directions</h2>
+			<h6>21. December 2010 | from: David Ingram, Sam Heard and Dipak Kalra</h6>
 			<br/>
-			<p>I am writing having taken on the role of Chair of the Board of Directors of openEHR Foundation.
-			The new board has met on four occasions and I want to keep you informed of, and get your feedback on,
-			the directions we are setting for the Foundation.</p>
+			<p>At its October meeting in Toronto, the General Assembly of the IHTSDO
+			received and discussed a proposal, submitted by its Management Board, to
+			support, develop and maintain the IP in openEHR, within a broader
+			framework of IHTSDO governance for clinical content of the electronic health
+			record.</p>
+			<h3>IHTSDO Decision</h3>
+			<p>The openEHR Foundation Board has now heard from the IHTSDO
+			Management Board, saying that, whilst the objective of the proposal was
+			considered by the GA to be within the scope of the organisation and that it
+			represented a pressing issue for their governments, it was unable to reach
+			consensus that going forward with openEHR in this way is the right
+			choice, at this time.</p>
+			<p>It confirmed its wish to continue a pathway of harmonisation with
+			openEHR and expressed considerable appreciation for the work done in
+			setting out the proposal, by the working group of Foundation and IHTSDO members.
+			The pathway forward that they have chosen is the creation of an IHTSDO Task
+			Force, to review the requirements for clinical content standardisation, afresh,
+			and then proceed towards an open process for meeting those requirements, in
+			which openEHR would be invited to participate.</p>
+			<p>This is disappointing from our perspective as we believed that the IHTSDO was
+			a good organisation with which to partner, to provide the broader governance for
+			developing and maintaining the openEHR specifications and related
+			tooling that we have been seeking. We have been encouraged, in successive stages
+			over two years, to actively engage in this dialogue to seek greater
+			harmonisation between eHealth standards bodies. It is a time of financial
+			hardship and the openEHR Foundation did seek a significant injection of
+			funds into the specifications and tooling: this may have been a contributing
+			factor in the decision. It was critical to the Board that this move did involve
+			an injection of capital.</p>
+			<p>We much appreciate our close working links with many staff and members of
+			IHTSDO, formed in the process of working with them to generate the proposal that
+			has not, sadly, found favour at this time. A number have been long-standing and
+			loyal advocates for what we are trying to achieve. These will, we hope, be
+			maintained in the future, despite our pressing need to move forward
+			independently. Despite the apparently negative outcome at this stage, we are
+			minded to now look at the opportunities that are on offer to take the
+			specifications forward.</p>
 			
-			<h3>Personal Changes</h3>
-			<p>First, I would like to acknowledge and thank Prof. David Ingram who has lead the organisation through its formative years with care
-			and attention to detail, always ensuring that the community was open and that all we put forward was based on implementation,
-			implementation, implementation. He has taken up a new position as President of the Foundation and remains on the Foundation Board
-			during our transition to the new governance arrangements. On behalf of the openEHR community I would like to express our gratitude
-			for all he has done and hope that he will remain involved for some years yet.</p>
+			<h3>Future</h3>
+			<p>The Foundation now needs to find a smarter way forward which continues to
+			build the momentum behind openEHR and develops opportunities for
+			members individually and collectively. We believe there is no doubt that the
+			momentum for enabling eHealth platforms such as</p>
 			
-			<h3>IP Assignments</h3>
-			<p>The final act of his leadership of the Board has been to get formal IP assignments from Ocean Informatics and University College of all the openEHR
-			assets including all archetypes. Software developed and promoted by the Foundation will be issued from now on under the Apache 2 license
-			with ownership retained by those developing it. This will ensure it can be used confidently by industry.</p>
-			
-			<h3>Clinical Information Modelling Initiative</h3>
-			<p>The main topic I want to address is the international initiative to develop a
-			standardised clinical modelling methodology. This has some IHTSDO secretarial
-			support and is led by Dr Stan Huff of Intermountain Healthcare, a former HL7
-			Chairperson and co-founder of LOINC, who has been advocating a model-based
-			approach for many years. The current approach at Intermountain has been
-			influenced by openEHR and uses a two-level modelling approach.</p>
-
-			<p>Stan has established a leadership group through trust and reputation, which
-			includes a variety of agencies who have been working in the area and national
-			eHealth programs or major initiatives who are interested in consuming the
-			models. It has grown out of an HL7 Fresh Look initiative and is currently known
-			as the Clinical Information Modelling Initiative (CIMI).</p>
-
-			<p class="par">The group has committed to determining a single formalism for clinical
-			modelling and ADL and openEHR are on the list of alternatives which is as
-			follows:</p>
+			<h3>Announcement concerning progress with IHTSDO and future directions</h3>
+			<p>More people are realising the importance of a standard,
+			tool-based approach to content definition and the distributed electronic health
+			record. The health record is becoming an important asset for each citizen, for
+			every provider and for the good of society.</p>
+			<p>The Foundation&rsquo;s view is that standardisation of a knowledge-enabled EHR
+			computing platform is a critically important step to support international
+			efforts of healthcare reform; a step that will lead to genuine diversity of
+			applications, empowerment of individuals and beneficial health outcomes. Health
+			systems are under pressure, and a properly engineered, cost-effective and
+			flexible platform is necessary.</p>
+			<p>The Foundation wishes to acknowledge that the future success of
+			openEHR now clearly lies in the hands on the openEHR community
+			itself. The Foundation is therefore seeking support for an international meeting
+			to define and establish a new way of working. The meeting will discuss ideas
+			about how to progress the work of openEHR and ensure that more people
+			benefit from it. We would like to invite initial discussions on organising this
+			meeting on the openEHR lists, which Sam Heard will moderate.</p>
+			<p class="par">We sense there are a number of central requirements for moving forward and
+			wish to seek the community&rsquo;s opinion on next steps. These include:</p>
 			<ul>
-				<li>Archetype Object Model/ADL 1.5 openEHR</li>
-				<li>CEN/ISO 13606 AOM ADL 1.4</li>
-				<li>UML 2.x + OCL + healthcare extensions</li>
-				<li>OWL 2.0 + healthcare profiles and extensions</li>
-				<li>MIF 2 + tools HL7 RIM &ndash; static model designer</li>
+			<li>The potential for a new Consortium that owns and provides suitable
+			governance for the oversight, IP and other assets of the Foundation &ndash; this might
+			comprise professional organisations, universities and industry;</li>
+			<li>Resources to ensure that information about openEHR continues to
+			grow, specifications are maintained and the business of creating a standard
+			health record platform that works continues;</li>
+			<li>A collaborative &lsquo;refresh&rsquo; and focussing of the aims and ambitions of the
+			openEHR community;</li>
+			<li>Practical engagement with clinical groups, through the Foundation and all
+			its participants to ensure that the improvements sought by health services are
+			supported by openEHR efforts;</li>
+			<li>Maintenance of a lean and agile engineering approach that avoids expending
+			time and effort without practical and incremental gain for the community;</li>
+			<li>Alignment of the efforts of academia and industry around production of open
+			source software tooling to support greater international collaboration and
+			increased uptake of openEHR;</li>
+			<li>A roadmap to ensure that openEHR becomes a universal EHR &ndash; the
+			record that can accept information from all current systems and can be
+			implemented using the latest technological approaches.</li>
 			</ul>
 			<br/>
-			<p>Proponents of the five different approaches have been presenting to members
-			of the group, who have a variety of experience in these matters. Fourteen
-			organisations will cast a vote on the formalism to use
-			including openEHR, Singapore, Eng NHS, Results 4 Care, HL7, Canada
-			Infoway, 13606 Assoc, Tolven, CDISC, GE/Intermountain, US Departments, CDISC,
-			SMArt and Mitre.</p>
-			<p>The group has also been looking at Governance and IP and coming to much the
-			same conclusions as the openEHR Foundation has. Our new governance
-			proposal is pretty much in tune with this group&rsquo;s views.</p>
-			<p>I would like to make a frank and open proposal to this group and seek support
-			from the openEHR community to do so. It goes something like this:</p>
-			
-			<p>&ldquo;<i>If the CIMI group chooses to use ADL as the formalism then the openEHR
-			community is prepared to explore the Foundation governance arrangements with the
-			CIMI group and align the two efforts using the structures that are mutually
-			agreed.</i></p>
-			<p><i>Changes to ADL and the openEHR Reference Model may be part of the process
-			to meet the collective needs, and alignment of the shared RM and a reviewed RM
-			for ISO 13606 would also be a major goal. ADL 1.5 would be submitted to ISO as
-			part of this alignment.&rdquo;</i></p>
-
-			<p>Although some will have doubts, there are compelling arguments to
-			use openEHR, particularly from our implementation
-			experience. openEHR supports a platform approach and a Service Oriented
-			Architecture. The models can be used to specify the same content in service
-			interfaces, messages and documents. Terminology suppliers are finding it
-			difficult to provide generic terminology with no knowledge of the information
-			model and other approaches to post-coordination are fraught with uncertainty.
-			Serialisation of openEHR models can be used to support CDA, greenCDA
-			and other messaging formats.</p>
-			<p>It is a moment of opportunity for growth. I value your feedback.</p>
+			<p>Thank you for your patience during this extended period of uncertainty. We
+			apologise for any difficulties and tensions this has created. We all have
+			choices and we appreciate you may choose you to invest your energy and effort
+			elsewhere. Rather, we hope that the aspirations and energy this community shares
+			will drive us all forward to support and deliver the paradigm shift that is
+			required in eHealth. We appreciate your support at this time.</p>
 			<br/>
-			<p>Yours sincerely,</p>
-			
-			<p>Sam Heard<br/>
-			Chair of Interim Board of Directors</p>
+			<p>David Ingram, Sam Heard and Dipak Kalra,<br/>
+			for the openEHR Foundation</p>
 			<br/>
 			<a href="../announcements">>> Back to Announcements</a>
 		</div>

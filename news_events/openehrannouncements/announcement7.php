@@ -1,1 +1,126 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>	<title>openEHR - Announcements</title>	<?php include '../../panel/headpanel.php' ?></head><body><div id="MainFrame">		<div id="TopPanel">	<?php include '../../panel/toppanel.php' ?>	</div>		<div id="TopMenu" style="text-align:left">		<div class="nav">   		<?php include '../../menu/topmenu.php' ?>		</div>	</div> 	<div id="MainArea">			<div id="SideMenu">		<?php $current = 4; include '../menu/newsmenu.php' ?>		</div>				<div id="TextArea">			<h1>Announcements</h1>			<h2>openEHR Transition Announcement</h2>			<h6>5. September 2011 | from: Sam Heard, Chair of Interim Board of Directors</h6>			<br/>			<p>I am writing on behalf of the new Interim Board of openEHR to			share our plans to take openEHR to a new level of operations; a new			structure, business model and governance. Our vision is the creation of a			thriving community that works collaboratively to benefit humanity through			efficient and effective electronic health records (EHRs) that support the			highest quality health care for the least effort.</p>			<p>Until now, the openEHR Foundation has functioned as an owner of			intellectual property, governed by University College London and Ocean			Informatics, with board members Prof David Ingram (UCL), Prof Dipak Kalra (UCL)			and Dr Sam Heard (Ocean).</p>			<p class="par">With the support of the considerable community of Members and via engagement			of a new category of sponsoring organisational Member known as &lsquo;Associates&rsquo; -			Companies, Universities and Governments - the Transitional Board proposes a			number of changes:</p>			<ul>				<li>The openEHR Foundation becomes an operational non-profit				organisation with paid key staff and resources;</li>				<li>The Board (of governance) of the Foundation is extended to up to 10 people				with a shift to election by the openEHR Associates;</li>				<li>Members who participate are recognised by their peers, may take on				decision-making roles, and have the right to commit changes to the key				development assets of the Foundation.</li>			</ul>			<br/>			<p class="par">The Members will participate individually and, through qualification by peer			recognition, will control the development within the three Programmes that are			building the key assets:</p>			<ul>				<li>The openEHR <em>specifications</em> of the logical				health record and attendant services as well as the methods for describing the				content using archetypes (Detailed Clinical Models) and templates; and</li>				<li>The openEHR <em>archetypes and templates</em> to				be used within systems and for message content between systems to achieve				interoperability; and</li>				<li>The openEHR <em>software projects, </em> to provide				open source development of tools to support the uptake and use of the				specifications and templates.</li>			</ul>			<br/>			<p>A group of Members will be needed to bootstrap each of these programmes and			determine the working arrangements that are suitable to the products that they			are managing at the current stage of development.</p>			<p>The Associates will determine who governs the Foundation by nominating and			voting on new members of the Board. The Board will appoint key Operational staff			and will approve the leader of each of the Programmes. The Programme Leaders			will be appointed by Qualified Members working in that Programme, subject to			Board approval. We believe this will create the right balance between the			&lsquo;ground up&rsquo; creation of openEHR through participation of Members and			&lsquo;top down&rsquo; governance.</p>			<p>The first step is to share with you a white paper providing more detail on			the proposals and to ensure that the Members are reasonably satisfied that this			is the right direction to head.</p>			<p>Some key activities have been proceeding in the background and are reaching a			point of maturity. It has taken us some time to gather more clinical champions			in this endeavour and companies that can use and work with the tools in their			early stages of development. It has also taken quite some time for Thomas Beale			to work out how to provide a seamless pathway between definition of archetypes,			specialisation of archetypes to ensure development scalability, to meet			jurisdictional requirements, and templates that allow tailoring for actual use			in specific settings. The result is ADL/AOM 1.5. He has, as usual, been totally			committed to this work and it is probably very important for me to say, it is			&ldquo;no mean feat&rdquo;.</p>			<p class="par">There is a lot to do. Most important are:</p>			<ul>				<li>Begin to showcase development teams and software using openEHR				successfully in clinical settings;</li>				<li>Finalise ADL/AOM 1.5, including its succinct XML expression, and integrate				it into existing and emerging tools;</li>				<li>Update the openEHR reference model to version 1.1 bringing our				collective knowledge to bear on the new features and changes while ensuring				backward compatibility;</li>				<li>Begin an open source software project for tools, web-based if possible, to				author archetypes, templates and terminology reference sets directly interacting				with the Clinical Knowledge Manager and equivalent repository and review tools;				and</li>				<li>Establish a mechanism for Associates to formally endorse archetypes (and				possibly in the longer term templates) for international use.</li>			</ul>			<br/>			<p>The Board has been changed to manage the transition until we are in a			position to take nominations from Associates. Prof. David Ingram will become			President and remain on the Board. Dr Bill Aylward from Moorfield&rsquo;s Eye Hospital			(the Open Eyes Project) will join Dr Ian McNicoll with his long advocacy of			health care computing (British Computer Society) and Dr Jussara Rotzsch who has			been involved in establishing openEHR as the Brazilian national EHR			model. Professor Dipak Kalra and I will remain and I become Chair of the Board			initially. The new Board will now actively seek Associates to engage in this			important work and to provide secure governance into the future.</p>			<p>At present many of our key participants are being drawn into national			programmes. Whilst this is encouraging, we need to bring this work, where			appropriate, back to the international community as quickly as possible. It is			clear that governance that is acceptable to these national programs and industry			is a very important step. It is also our belief that standard SDO processes are			not suitable for our work and we have instead modelled our future on			collaborative engineering efforts. Our products must be fit for purpose, stable			and have an update cycle that is in tune with our domain.</p>			<p>Free membership for participants and free access to the assets of the			Foundation remains a fundamental principle going forward. Our commitment to open			specifications, open software and open clinical models, unrestrictive to			commercial use, remains unchanged.</p>			<p>We hope you will join with us enthusiastically in the next phase of			development of the Foundation and comment freely on the attached paper. There			will be many views on what we need to do and how we might best achieve it. The			Board is very interested in alternative ways to balance the needs of industry			and governments with those of the developers and users of the system.</p>			<p>Let&rsquo;s make the future of eHealth work efficiently for all.</p>			<br/>			<p>Yours sincerely,</p>						<p>Sam Heard<br/>			Chair of Interim Board of Directors</p>			<br/>			<p>Acknowledgements: Thank you to David Ingram, Dipak Kalra, Thomas Beale,			Martin van der Meer and Tony Shannon for assisting in the planning.</p>			<p><a title="openEHR Foundation moving forward" href="../../files/news_events/openEHR Foundation moving forward.pdf">openEHR Transition White paper</a> (application/pdf, 164.5 kB)</p>			<p><a href="http://www.openehr.org/wiki/display/oecom/openEHR+Transition+Feedback+Page">Transition feedback wiki page</a></p>						<br/>			<a href="../announcements">>> Back to Announcements</a>		</div>				</div>	<div id="BottomMenu">	<?php include '../../menu/bottommenu.php' ?>	</div>	<div id="BottomPanel">	<?php include '../../panel/bottompanel.php' ?>	</div></div>	<script type="text/javascript">var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});</script></body></html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>openEHR - Announcements</title>
+	<?php include '../../panel/headpanel.php' ?>
+</head>
+
+
+<body>
+
+<div id="MainFrame">
+	
+	<div id="TopPanel">
+	<?php include '../../panel/toppanel.php' ?>
+	</div>
+	
+	<div id="TopMenu" style="text-align:left">
+		<div class="nav">
+   		<?php include '../../menu/topmenu.php' ?>
+		</div>
+	</div> 
+
+	<div id="MainArea">
+	
+		<div id="SideMenu">
+		<?php $current = 4; include '../menu/newsmenu.php' ?>
+		</div>
+		
+		<div id="TextArea">
+			<h1>Announcements</h1>
+			<h2>openEHR / IHTSDO Update from the Board</h2>
+			<h6>30. November 2010 | from: David Ingram, Sam Heard and Dipak Kalra</h6>
+			<br/>
+			<p>At the end of August, the Foundation Board posted an announcement
+			about progress of discussions with IHTSDO concerning governance of archetypes
+			and SNOMED terminology, expecting to be in a position to report back by mid-October.
+			We have been working along the lines set out in previous announcements,
+			here, and the wiki consultation process with openEHR users, earlier this year.
+			Although a detailed set of options has been drafted by IHTSDO and openEHR
+			representatives and presented to the IHTSDO General Assembly, there has as yet
+			been no feedback and thus we have not been able to provide any more information.
+			We are assured, however, that there will be a formal response soon,
+			and at that stage we will be able to discuss the outcome more widely.</p>
+			<p>As is clear from the several threads of discussion on the openEHR lists,
+			there is understandable frustration about slow progress in defining next steps for openEHR,
+			and we share that frustration. The Foundation currently has no formal status
+			in the wider governmental and intergovernmental discussions but the work done and communicated,
+			by members on the lists, UCL and Ocean over many years, and taken up
+			and developed within the wider EHR community and in ISO-13606,
+			is seen as an important contribution, on which many are building or wish to do so.
+			It is certainly very widely studied by very many visitors who download
+			and use materials from the openEHR web site and observe the discussion lists.</p>
+			<p class="par">The participants in the recent openEHR list debates have reflected widely
+			different perspectives and interests, but a broadly shared goal.
+			Caricaturing the dialogue a bit, it's all about:</p>
+			<ul>
+				<li>standards, standards, standards;</li>
+				<li>and/or open-source, open-source, open source;</li>
+				<li>and/or governance, governance, governance.</li>
+			</ul>
+			<br/>
+			<p>Whereas, as far as openEHR is concerned, it's all about implementation, implementation, implementation!</p>
+			<p>Of course, the underlying drivers cannot be wholly detached from considerations of power and influence, reputation, resource and personal freedom.</P>
+			<p>A community like ours has many highly motivated people seeking to take forward personal,
+			organisational and wider community missions. We readily acknowledge our own failings and
+			constraints in not pursuing various lines of approach which others powerfully advocate for us.
+			We have adopted a low profile, to avoid being drawn into the multiple vortices afflicting the field.
+			We have thereby retained flexibility to focus on requirements and implementation issues,
+			making no pretence of democratic process. It has brought some advantages and some,
+			no doubt justified, disappointments and criticisms. Effectively, all openEHR Foundation efforts
+			are focused through the ARB and CRB, sustained and supported by Ocean and UCL.
+			Observation of the times of posting of announcements, code and documents shows
+			how much people active in openEHR are doing it in the spare 20 hours of their sixty plus hour weeks.
+			In our work, we all have companies or departments to run, services to provide,
+			products to develop and market and professions to keep up-to-date.</p>
+			<p>To summarise previous statements of our approach, we are working as follows:</P>
+			The governance and support of openEHR IP must change as soon as possible,
+			as previously announced. We have set a deadline of September 30th, 2011 for this.</p>
+			<p class="par">We are seeking the best possible combination of:</p>
+			<ul>
+				<li>Continued, open access to the resources owned by and protected by the Foundation.</li>
+				<li>Alignment with governments, through IHTSDO, to contribute towards their desire for joined up
+				archetype and terminology governance, and related models, specifications, software methods, repositories and open-source tooling.</li>
+				<li>Creation of an openEHR Users' Association to pursue wider collaboration on open-source tool chain developments,
+				that support EHR systems developers.</li>
+			</ul>
+			<br/>
+			<p>When we have transferred the Foundation IP to the best form of sustainable long term development
+			and governance achievable, we will consider the formative work and role of the openEHR Foundation
+			to have been completed and, as promised from the outset of openEHR, we will close the Foundation.</p>
+			<p>So, we see our sole current role as a Foundation Board as joining together the continuing work
+			of the ARB and CRB looking after the IP in openEHR until such time as it can be contributed towards
+			creating a sustainable model of future governance. The core team is committed to working closely
+			with whatever new organisational structure is adopted, to help make the transition effective.</p>
+			<p>Finally, the only reason for doing any of this is to help healthcare to improve.
+			openEHR was created to support a 'learning by doing' agenda for the EHR with
+			a focus on what clinicians really need. This remains an important concern.</p>
+			<br/>
+			<p>David Ingram, Sam Heard and Dipak Kalra,<br/>
+			for the openEHR Foundation Board</p>
+			
+			
+			<br/>
+			<a href="../announcements">>> Back to Announcements</a>
+		</div>
+			
+
+	</div>
+
+	<div id="BottomMenu">
+	<?php include '../../menu/bottommenu.php' ?>
+	</div>
+
+	<div id="BottomPanel">
+	<?php include '../../panel/bottompanel.php' ?>
+	</div>
+
+</div>
+	
+<script type="text/javascript">
+var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
+
+</body>
+</html>

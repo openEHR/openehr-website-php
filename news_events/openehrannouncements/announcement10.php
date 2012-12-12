@@ -1,99 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-<head>
-	<title>openEHR - Announcements</title>
-	<?php include '../../panel/headpanel.php' ?>
-</head>
-
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu" style="text-align:left">
-		
-		<div class="nav">
-   		<?php include '../../menu/topmenu.php' ?>
-		</div>
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-		<?php $current = 4; include '../menu/newsmenu.php' ?>
-		</div>
-		
-		<div id="TextArea">
-			<h1>Announcements</h1>
-			<h2>Board statement on Clinical Knowledge Manager</h2>
-			<h6>15. May 2012 | from: Board of Directors</h6>
-			
-			<h3>What is Clinical Knowledge Manager?</h3>
-			<p>The Clinical Knowledge Manager (CKM) application is used by the openEHR Foundation
-			to provide governance of archetypes, templates and terminology reference sets,
-			and to facilitate discussions and communication about these assets within the openEHR community.
-			The primary functionality is to locate and view the assets, manage the review and publication
-			process and provide maintenance and evolution of these for the future.
-			All of the hosted assets are freely and openly available to view or
-			download at no cost under a CC-BY-SA licence (which may change to a CC-BY license
-			if this is deemed to provide advantage by industry and health care providers).</p>
-			<p>CKM is a commercial application developed by Ocean Informatics and primarily intended
-			to support national standards and large vendor model development and is provided
-			to the Foundation free of charge, with the underlying Arcitecta Mediaflux
-			asset management engine licensed to the Foundation at a reduced rate.</p>
-			
-			<h3>Why did the openEHR Foundation choose CKM?</h3>
-			<p>The use of a web-based paradigm to support the collaborative clinical
-			governance and maintenance of openEHR clinical models remains leading-edge
-			and as first-of-breed, the Ocean Informatics CKM is currently the only tool
-			which offers the rich functionality required by the Foundation and wider modelling community.
-			The Foundation will continue to work with Ocean Informatics to develop CKM
-			to meet the evolving needs of the community at no cost for participants,
-			ensuring that CKM remains compliant with emerging federated governance standards
-			as other competing tools and repositories appear on the market.
-			The current use of the Ocean Informatics CKM does not preclude the use
-			of equivalent products in the future, should these meet Foundation requirements.</p>
-			
-			<h3>What are the future plans for CKM?</h3>
-			<p>The Foundation is currently considering proposals by Ocean Informatics
-			to offer a paid subscription option within the openEHR CKM, allowing maintenance
-			of a limited set of ‘local’ archetypes within separate ‘domains’ for use
-			by smaller organisations, such as academic units, hospitals or SMEs. <p>
-			<p>Apart from offering value to these organisations, this may present
-			a very useful opportunity to explore the practical demands of distributed
-			governance of openEHR assets between domains. The primary aim is to provide
-			functionality to groups for whom a full CKM deployment may be unnecessary,
-			but depending on detailed costings and hosting arrangements, it may also be possible
-			for the Foundation to receive a proportion of the subscription fees,
-			and the facility be offered to Associates of the Foundation
-			at reduced cost as part of their membership.</p>
-			<br/>
-			<p>openEHR Board of Directors</p>
-			<br/>
-			<a href="../announcements">>> Back to Announcements</a>
-		</div>
-			
-
-	</div>
-
-	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>	
-	</div>
-
-</div>
-	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
-
-</body>
-</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>	<title>openEHR - Announcements</title>	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrannouncements/announcement10" title="openEHR - Announcements">	<?php include '../../panel/headpanel.php' ?>	</head><body><div id="MainFrame">		<div id="TopPanel">		<?php include '../../panel/toppanel.php' ?>	</div>		<div id="TopMenu" style="text-align:left">			<div class="nav">			<?php include '../../menu/topmenu.php' ?>		</div>			</div> 	<div id="MainArea">			<div id="SideMenu">			<?php $current = 4; include '../menu/newsmenu.php' ?>		</div>				<div id="TextArea">					<h1>Announcements</h1>						<h2>openEHR Transition Announcement</h2>			<h6>5. September 2011 | from: Sam Heard, Chair of Interim Board of Directors</h6>			<br/>						<p>I am writing on behalf of the new Interim Board of openEHR to share our plans to take openEHR to a new level of operations; a new structure, business model and governance. Our vision is the creation of a thriving community that works collaboratively to benefit humanity through efficient and effective electronic health records (EHRs) that support the highest quality health care for the least effort.</p>			<p>Until now, the openEHR Foundation has functioned as an owner of intellectual property, governed by University College London and Ocean Informatics, with board members Prof David Ingram (UCL), Prof Dipak Kalra (UCL) and Dr Sam Heard (Ocean).</p>			<p>With the support of the considerable community of Members and via engagement of a new category of sponsoring organisational Member known as &lsquo;Associates&rsquo; - Companies, Universities and Governments - the Transitional Board proposes a number of changes:</p>			<ul>				<li>The openEHR Foundation becomes an operational non-profit organisation with paid key staff and resources;</li>				<li>The Board (of governance) of the Foundation is extended to up to 10 people with a shift to election by the openEHR Associates;</li>				<li>Members who participate are recognised by their peers, may take on decision-making roles, and have the right to commit changes to the key development assets of the Foundation.</li>			</ul>			<p>The Members will participate individually and, through qualification by peer recognition, will control the development within the three Programmes that are building the key assets:</p>			<ul>				<li>The openEHR <em>specifications</em> of the logical health record and attendant services as well as the methods for describing the content using archetypes (Detailed Clinical Models) and templates; and</li>				<li>The openEHR <em>archetypes and templates</em> to be used within systems and for message content between systems to achieve interoperability; and</li>				<li>The openEHR <em>software projects, </em> to provide open source development of tools to support the uptake and use of the specifications and templates.</li>			</ul>			<p>A group of Members will be needed to bootstrap each of these programmes and determine the working arrangements that are suitable to the products that they are managing at the current stage of development.</p>			<p>The Associates will determine who governs the Foundation by nominating and voting on new members of the Board. The Board will appoint key Operational staff and will approve the leader of each of the Programmes. The Programme Leaders will be appointed by Qualified Members working in that Programme, subject to Board approval. We believe this will create the right balance between the &lsquo;ground up&rsquo; creation of openEHR through participation of Members and &lsquo;top down&rsquo; governance.</p>			<p>The first step is to share with you a white paper providing more detail on the proposals and to ensure that the Members are reasonably satisfied that this is the right direction to head.</p>			<p>Some key activities have been proceeding in the background and are reaching a point of maturity. It has taken us some time to gather more clinical champions in this endeavour and companies that can use and work with the tools in their early stages of development. It has also taken quite some time for Thomas Beale to work out how to provide a seamless pathway between definition of archetypes, specialisation of archetypes to ensure development scalability, to meet jurisdictional requirements, and templates that allow tailoring for actual use in specific settings. The result is ADL/AOM 1.5. He has, as usual, been totally committed to this work and it is probably very important for me to say, it is &ldquo;no mean feat&rdquo;.</p>			<p>There is a lot to do. Most important are:</p>			<ul>				<li>Begin to showcase development teams and software using openEHR successfully in clinical settings;</li>				<li>Finalise ADL/AOM 1.5, including its succinct XML expression, and integrate it into existing and emerging tools;</li>				<li>Update the openEHR reference model to version 1.1 bringing our collective knowledge to bear on the new features and changes while ensuring backward compatibility;</li>				<li>Begin an open source software project for tools, web-based if possible, to author archetypes, templates and terminology reference sets directly interacting with the Clinical Knowledge Manager and equivalent repository and review tools; and</li>				<li>Establish a mechanism for Associates to formally endorse archetypes (and possibly in the longer term templates) for international use.</li>			</ul>			<p>The Board has been changed to manage the transition until we are in a position to take nominations from Associates. Prof. David Ingram will become President and remain on the Board. Dr Bill Aylward from Moorfield&rsquo;s Eye Hospital (the Open Eyes Project) will join Dr Ian McNicoll with his long advocacy of health care computing (British Computer Society) and Dr Jussara Rotzsch who has been involved in establishing openEHR as the Brazilian national EHR model. Professor Dipak Kalra and I will remain and I become Chair of the Board initially. The new Board will now actively seek Associates to engage in this important work and to provide secure governance into the future.</p>			<p>At present many of our key participants are being drawn into national programmes. Whilst this is encouraging, we need to bring this work, where appropriate, back to the international community as quickly as possible. It is clear that governance that is acceptable to these national programs and industry is a very important step. It is also our belief that standard SDO processes are not suitable for our work and we have instead modelled our future on collaborative engineering efforts. Our products must be fit for purpose, stable and have an update cycle that is in tune with our domain.</p>			<p>Free membership for participants and free access to the assets of the Foundation remains a fundamental principle going forward. Our commitment to open specifications, open software and open clinical models, unrestrictive to commercial use, remains unchanged.</p>			<p>We hope you will join with us enthusiastically in the next phase of development of the Foundation and comment freely on the attached paper. There will be many views on what we need to do and how we might best achieve it. The Board is very interested in alternative ways to balance the needs of industry and governments with those of the developers and users of the system.</p>			<p>Let&rsquo;s make the future of eHealth work efficiently for all.</p>			<br/>			<p>Yours sincerely,</p>			<p><i>Sam Heard<br/>			Chair of Interim Board of Directors</i></p>			<br/>						<p>Acknowledgements: Thank you to David Ingram, Dipak Kalra, Thomas Beale,			Martin van der Meer and Tony Shannon for assisting in the planning.</p>						<p><a title="openEHR Foundation moving forward" href="../../files/news_events/openEHR Foundation moving forward.pdf">openEHR Transition White paper</a> (application/pdf, 164.5 kB)</p>			<p><a href="http://www.openehr.org/wiki/display/oecom/openEHR+Transition+Feedback+Page">Transition feedback wiki page</a></p>						<br/>			<a href="../announcements">>> Back to Announcements</a>		</div>				</div>	<div id="BottomMenu">		<?php include '../../menu/bottommenu.php' ?>	</div>	<div id="BottomPanel">		<?php include '../../panel/bottompanel.php' ?>	</div></div>	<script type="text/javascript">var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});</script></body></html>
