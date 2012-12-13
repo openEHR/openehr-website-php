@@ -55,14 +55,18 @@
 				<td class="TableMainC">This logo candidate is from the interim openEHR board. Change in colours and fonts of openEHR and new globe graphic added.</td>
 				<td class="TableMainC"></td>
 			</tr>
+			<tr>
+				<td class="TableMainC"><p><img width="200px" alt="test logo 1" title="test logo 1" src="files/basic/openEHR_test_logo_1.png"></p></td>
+				<td class="TableMainC">This is a test logo intended to show a possible basic structure of a new logo. The idea would be to keep the existing 'openEHR' word in the current colours (since this is very recognisable), and to add something graphical on the right side. This demonstration logo is just a quick one showing the sun and birds.</td>
+				<td class="TableMainC"></td>
+			</tr>
 			</tbody>
 			</table>
 			<br/>
 			
-			<p>&#42; For new proposals, we suggest to retain the distinctive blue and orange colours. It seems reasonable to also retain the basic form of the 'openEHR' and potentially add something to the right of it or on / around it. This will ensure a visual connection with the existing openEHR brand, which will help people in the community.</p>
+			<p>&#42; For new proposals, we suggest retaining the distinctive blue and orange colours. It seems reasonable to also retain the basic form of the 'openEHR' word and potentially add something to the right of it or on / around it. This would ensure a visual connection with the existing openEHR brand, which will help people in the community.</p>
 			
-			
-			<h2>Top banner</h2>
+			<h2>Home page banner image</h2>
 			<p>You can also propose home page banner graphics. The table below shows some candidates. You can also send your own picture/graphic design (size: 200x75px in transparent PNG format) <a href="mailto:webmaster@openehr.org">here</a>. The deadline for banner candidates is 31 December 2012. A vote will be arranged following this date.</p>
 			
 			<table class="TableMain">
