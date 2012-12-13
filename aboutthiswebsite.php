@@ -42,23 +42,23 @@
 			<tbody>
 			<tr>
 				<th class="TableMainT"><p>Graphic representation</p></th>
-				<th class="TableMainT"><p>Logo Background</p></th>
+				<th class="TableMainT"><p>Description</p></th>
 				<th class="TableMainT"><p>Notes</p></th>
 			</tr>
 			<tr>
 				<td class="TableMainC"><p><img width="200px" alt="current logo" title="current logo" src="files/basic/openEHRlogo.png"></p></td>
-				<td class="TableMainC">This is the current openEHR logo. The simple graphic, with the distinctive orange and blue colours. The new website follows this colour scheme.</td>
+				<td class="TableMainC">This is the current openEHR logo - the simple graphic, with the distinctive orange and blue colours. The new website follows this colour scheme.</td>
 				<td class="TableMainC">The fonts in logo are standard fonts with shadow effect.</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><p><img width="200px" alt="board logo" title="board logo" src="files/basic/candidate1.png"></p></td>
-				<td class="TableMainC">This logo candidate is from the interim openEHR board. Change in colours and fonts of openEHR and new globe graphic added.</td>
-				<td class="TableMainC"></td>
+				<td class="TableMainC">This logo candidate is from the interim openEHR board.</td>
+				<td class="TableMainC"> Change in colours and fonts of openEHR and new globe graphic added.</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><p><img width="200px" alt="test logo 1" title="test logo 1" src="files/basic/openEHR_test_logo_1.png"></p></td>
-				<td class="TableMainC">This is a test logo intended to show a possible basic structure of a new logo. The idea would be to keep the existing 'openEHR' word in the current colours (since this is very recognisable), and to add something graphical on the right side. This demonstration logo is just a quick one showing the sun and birds.</td>
-				<td class="TableMainC"></td>
+				<td class="TableMainC">This is a test logo intended to show a possible basic structure of a new logo.</td>
+				<td class="TableMainC">The idea would be to keep the existing 'openEHR' word in the current colours (since this is very recognisable), and to add something graphical on the right side. This demonstration logo is just a quick one showing the sun and birds.</td>
 			</tr>
 			</tbody>
 			</table>
