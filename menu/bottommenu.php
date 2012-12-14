@@ -1,12 +1,12 @@
 		<div id="BottomFrame" style="left:40px;">
 			<p class="MenuHeading">Specifications <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
-			<li><a href="/releases/1.0.2" title="Tooltip">Current Release</a></li>
-			<li><a href="/releases/currentbaseline" title="Tooltip">Development Baseline</a></li>
-			<li><a href="/issues/browse/SPECPR" target="_blank" title="Tooltip">Issue Tracker</a></li>
-			<li><a href="/releases/1.0.2/reference-models/openEHR/XSD" target="_blank" title="Tooltip">XML Schemas</a></li>
-			<li><a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank" title="Tooltip">RM UML</a></li>
-			<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Tooltip">RM BMM Schemas</a></li>
+			<li><a href="/releases/1.0.2" title="Current official release of specifications">Current Release</a></li>
+			<li><a href="/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
+			<li><a href="/issues/browse/SPECPR" target="_blank" title="Specifications issue tracker (Jira)">Issue Tracker</a></li>
+			<li><a href="/releases/1.0.2/reference-models/openEHR/XSD" target="_blank" title="Reference Model XML Schemas (current release)">XML Schemas</a></li>
+			<li>RM UML<a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.1]</a>, <a href="/releases/1.0.2/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.2]</a></li>
+			<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (dADL format object model schemas)">RM BMM Schemas</a></li>
 			</ul>
 		</div>
 
@@ -14,11 +14,11 @@
 			<p class="MenuHeading">Clinical Models <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
 			<li><a href="/knowledge/" title="Clinical Knowledge Manager">CKM</a></li>
-			<li><a href="/knowledge/#repositoryoverview" title="Tooltip">Archetypes Mindmap</a></li>
-			<li><a href="/knowledge/#userstatistics" title="Tooltip">User Statistics</a></li>
-			<li><a href="/wiki/display/spec/openEHR+Terminology" title="Tooltip">openEHR Terminology</a></li>
-			<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank" title="Tooltip">ADL Test Archetypes</a></li>
-			<li><a href="http://www.ihtsdo.org/fileadmin/user_upload/doc/tig/" title="Tooltip">SNOMED CT TIG</a></li>
+			<li><a href="/knowledge/#repositoryoverview" title="Clinical Knowledge Manager mindmap of all archetypes">CKM Archetypes Mindmap</a></li>
+			<li><a href="/knowledge/#userstatistics" title="Clinical Knowledge Manager user statistics">CKM User Statistics</a></li>
+			<li><a href="/wiki/display/spec/openEHR+Terminology" title="openEHR terminology/vocabulary page">openEHR Terminology</a></li>
+			<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank" title="Library of ADL reference archetypes for compiler testing">ADL Test Archetypes</a></li>
+			<li><a href="http://www.ihtsdo.org/fileadmin/user_upload/doc/tig/" title="SNOMED CT Technical Implementation Guide">SNOMED CT TIG</a></li>
 			</ul>
 		</div>
 		

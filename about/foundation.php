@@ -42,8 +42,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h2><a name="status"></a>Legal Status</h2>
 			<p>The openEHR Foundation is currently a not-for-profit company, limited by guarantee. Its founders were University College London, UK and Ocean Informatics Pty Ltd, Australia. It is regulated under the UK Companies Acts 1985 and 1989. The name 'openEHR' has been registered internationally as a Trade Mark.</p>
-			<p>As part of the new governance, the Foundation will be recreated as a new not-for-profit company, possibly in the form of a <a href="http://en.wikipedia.org/wiki/Community_Interest_Company">UK Community Interest Company</a>, or else in the form of a Private company limited by guarantee (the same as the current form), commonly used for non-profits in the UK. It may also be registered in another country if this simplifies the Foundation's operations. The new organisation will be created by consultation  of the interim board and prospective organisational members.</p>
-			
+			<p>As part of the new governance, the Foundation will be recreated as a new not-for-profit company, possibly in the form of a <a href="http://en.wikipedia.org/wiki/Community_Interest_Company">UK Community Interest Company</a>, or else in the form of a Private company limited by guarantee (the same as the current form), commonly used for non-profits in the UK. The new organisation will be created by consultation  of the interim board and prospective organisational members.</p>
 			
 			<h2><a name="vision"></a>openEHR Vision</h2>
 			<p>The openEHR Foundation vision is of a world in which healthcare routinely obtains benefit from ICT, in particular:</p>
