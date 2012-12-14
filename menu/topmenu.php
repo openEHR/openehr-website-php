@@ -56,7 +56,8 @@
                 		<li><a href="/about/foundation">&nbsp; Foundation</a></li>
 						<li><a href="/about/membership">&nbsp; Membership</a></li>
 						<li><a href="/about/govstructure">&nbsp; Governance Structure</a></li>
-						<li><a href="/about/peopleingovernance">&nbsp; People in Governance</a></li>			
+						<li><a href="/about/peopleingovernance">&nbsp; People in Governance</a></li>		
+						<li><a href="/about/origins">&nbsp; Origins of openEHR</a></li>
 						<li><a href="/about/ip">&nbsp; Intellectual Property</a></li>
 						<li><a href="/about/logos">&nbsp; Logos</a></li>
 						<li><a href="/about/contacts">&nbsp; Contacts</a></li>
