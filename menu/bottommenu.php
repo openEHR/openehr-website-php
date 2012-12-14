@@ -13,7 +13,7 @@
 		<div id="BottomFrame" style="left:245px;">
 			<p class="MenuHeading">Clinical Models <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
-			<li><a href="/knowledge/">Model Repository</a></li>
+			<li><a href="/knowledge/">CKM</a></li>
 			<li><a href="/knowledge/#repositoryoverview">Archetypes Mindmap</a></li>
 			<li><a href="/knowledge/#userstatistics">User Statistics</a></li>
 			<li><a href="/wiki/display/spec/openEHR+Terminology">openEHR Terminology</a></li>
