@@ -183,4 +183,13 @@ font-weight:900;
 color:#023760;
 }
 
+#BottomPanel a {
+text-decoration:none;
+font-weight:900;
+color:#023760;
+}
+#BottomPanel a:hover{
+text-decoration:underline;
+}
+
 /* Bottom panel end */

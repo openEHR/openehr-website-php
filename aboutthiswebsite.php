@@ -29,6 +29,7 @@
 			<h1>About this Website</h1>
 			<p>This new website aims to be more representative of the openEHR community aims and activities and particularly what people are working on out there. Don't consider it as fixed, but rather as a living thing. We are interested in feedback on any aspect of the website. In the initial development phase, visual elements and style are 'draft', and we welcome ideas for improvement.</p>
 			<p>Note that the technical approach we have taken with this site is a totally manual one - that is, it is constructed from hand-built HTML, PHP, and Java-script. This gives more freedom than the controlled environment of a CMS. Moving to a CMS is not out of the question in the future, but for now, the current approach seems more maintainable. The website code is maintained on Github, and contributors can participate by providing material via that route.</p>
+			<p><a href="http://www.openehr.org">Old website</a></p>
 			
 			<h2>Providing feedback</h2>
 			<p>Please provide website design ideas/feedback <a href="http://www.openehr.org/wiki/display/oecom/2012+Website+-+feedback+page">here</a>.</p>
