@@ -47,7 +47,7 @@
 			and tooling are backwardly compatible, so your existing archetypes are safe!
 			Some of the new features of the tool:</p>
 			<ul>
-				<li>Improved validation, with code-based error messages matching ADL and AOM 1.5 <a href="http://www.openehr.org/new-ws/site/programs/specification/currentbaseline">draft&nbsp;specifications</a> (see bottom of page);</li>
+				<li>Improved validation, with code-based error messages matching ADL and AOM 1.5 <a href="/programs/specification/currentbaseline">draft&nbsp;specifications</a> (see bottom of page);</li>
 				<li>Support for referencing from one archetype to another without slots;</li>
 				<li>Support for ADL 1.5 templates, including slot-filling and exclusions;</li>
 				<li>Separate explorers for archetypes and templates;</li>
@@ -58,12 +58,12 @@
 				<li>An initial 13606 schema is available, allowing validation of EN 13606 archetypes.</li>
 				<li>Test function changed to prevent any .adl file overwriting; instead, outputs files for viewing in diff tools.</li>
 			</ul>
-			<p>The <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/home">help pages</a> are completely revamped (you can download the tool from there as well). There are builds for Windows, MacOS X 10.5 and Linux.</p>
-			<p>A heavily reworked set of test archetypes as well as the Reference Model schemas used to drive the tool (and other tools in the future) have been published in a <a href="http://www.openehr.org/svn/knowledge2/TRUNK/">new SVN repository</a>, where we are starting to build up comprehensive examples of openEHR as well as EN13606 archetypes and templates.</p>
-			<p>The new version of the Archetype Definition Language (ADL) and the Archetype Object Model (AOM) have been quite some time coming. They are are still in late draft form, and contributions via testing, tool use, specification review and archetype development is encouraged. See the <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/supportandcontributing">support page</a> for how to get involved. There are many details that require the help of implementers and the community in general.</p>
+			<p>The <a href="/downloads/ADLworkbench/home">help pages</a> are completely revamped (you can download the tool from there as well). There are builds for Windows, MacOS X 10.5 and Linux.</p>
+			<p>A heavily reworked set of test archetypes as well as the Reference Model schemas used to drive the tool (and other tools in the future) have been published in a <a href="/svn/knowledge2/TRUNK/">new SVN repository</a>, where we are starting to build up comprehensive examples of openEHR as well as EN13606 archetypes and templates.</p>
+			<p>The new version of the Archetype Definition Language (ADL) and the Archetype Object Model (AOM) have been quite some time coming. They are are still in late draft form, and contributions via testing, tool use, specification review and archetype development is encouraged. See the <a href="/downloads/ADLworkbench/supportandcontributing">support page</a> for how to get involved. There are many details that require the help of implementers and the community in general.</p>
 			<p>In the coming weeks and months, further release candidates will be published, containing the remaining ADL/AOM 1.5 features, in particular the XML OPT (operational template) generator. This is a key piece of openEHR (and open health computing) technology, which acts as the bridge between knowledge models and downstream computing artefacts including XML schemas and source code, opening the door to completely tool-generated messages, code and&nbsp; GUI components.</p>
 			<p>Beyond the short to medium term, this tool and related resources will come under a joint programme being actively pursued by openEHR Foundation with <a href="http://www.ihtsdo.org">IHTSDO</a>. This will greatly facilitate the integration of tooling and standards in the knowledge and terminology area.</p>
-			<p>Please direct all feedback as described in the <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/supportandcontributing">support page</a>.</p>
+			<p>Please direct all feedback as described in the <a href="/downloads/ADLworkbench/supportandcontributing">support page</a>.</p>
 			
 			<br/>
 			<a href="../releases">>> Back to Releases</a>

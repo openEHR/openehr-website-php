@@ -4,7 +4,7 @@
 <head>
 
 	<title>openEHR - Releases</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/releases/release15" title="openEHR - Releases">
+	<link rel="bookmark" href="http://www.openehr.org/news_events/releases/release19" title="openEHR - Releases">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -35,12 +35,11 @@
 		<div id="TextArea">
 		
 			<h1>Releases</h1>
-			
-			<h2>Achetype Editor 2.2 beta release</h2>
-			<h6>21. December 2010 | from: Thomas Beale</h6>
+			<h2>ADL 1.5 Workbench - beta release 8</h2>
+			<h6>2. August 2012 | from: Thomas Beale</h6>
 			<br/>
 			
-			<p>A new beta release of the Archetype Editor is now available <a href="http://www.openehr.org/new-ws/site/downloads/archetypeeditor/home">here</a>. Bug fixes and enhancements are described in the <a href="http://www.openehr.org/new-ws/site/downloads/archetypeeditor/releasenotes">release notes</a>. Issues can be reported on the Problem Report tracker <a href="http://www.openehr.org/issues/browse/AEPR">here</a>. Thanks to Peter Gummer at Ocean Informatics for ongoing software support and creating the new openEHR installer, and to Shahla Fozonkhah for her tireless testing.</p>
+			<p>This release of the ADL 1.5 workbench includes a complete makeover of the user interface, with numerous usability improvements, plus a number of compiler corrections. See the <a href="/downloads/ADLworkbench/home">help pages</a>.</p>
 			
 			<br/>
 			<a href="../releases">>> Back to Releases</a>

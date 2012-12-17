@@ -3,7 +3,7 @@
 			
 				<li><a href="/home">Home</a></li>
 				
-       			<li><a href="/openehrprograms">Programs</a>
+       			<li><a href="/openehr_programs">Programs</a>
 					<ul>
                 		<li><a href="/programs/specification">&nbsp; Specification Program</a></li>
                			<li><a href="/programs/clinicalmodels">&nbsp; Clinical Models Program</a></li>

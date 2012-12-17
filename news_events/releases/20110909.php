@@ -38,20 +38,20 @@
 			<h6>9. September 2011 | from: Thomas Beale</h6>
 			<br/>
 			
-			<p>A new beta release of the ADL 1.5 Workbench is now available <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/home">here</a>. Quite a lot of new features have been added, as described in the <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/releasenotes">release notes</a>. Please note that this release only includes a Windows build; Linux and Mac builds will follow in the next couple of weeks. (I would be interested to know if anyone uses the Linux build...). It's still a beta, and there are bugs and deficiencies - please take the trouble to report them <a href="http://www.openehr.org/issues/browse/AWBPR">here</a>.</p>
+			<p>A new beta release of the ADL 1.5 Workbench is now available <a href="/downloads/ADLworkbench/home">here</a>. Quite a lot of new features have been added, as described in the <a href="/downloads/ADLworkbench/releasenotes">release notes</a>. Please note that this release only includes a Windows build; Linux and Mac builds will follow in the next couple of weeks. (I would be interested to know if anyone uses the Linux build...). It's still a beta, and there are bugs and deficiencies - please take the trouble to report them <a href="/issues/browse/AWBPR">here</a>.</p>
 			
 			<p>Some highlights:</p>
 			<ul>
-				<li><a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/images/docking_side_by_side_definitions.png">New docking</a> UI, enabling multiple Archetype and Class Tools at once;</li>
-				<li><a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/images/rm_schema_tool.png">Reference
-				Model browsing</a>, including any reference model, and supporting <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/images/rm_schema_tool_duplex_classes.png">cross-model
+				<li><a href="/downloads/ADLworkbench/images/docking_side_by_side_definitions.png">New docking</a> UI, enabling multiple Archetype and Class Tools at once;</li>
+				<li><a href="/downloads/ADLworkbench/images/rm_schema_tool.png">Reference
+				Model browsing</a>, including any reference model, and supporting <a href="/downloads/ADLworkbench/images/rm_schema_tool_duplex_classes.png">cross-model
 				comparisons</a>;</li>
-				<li>Greatly enhanced <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/images/explorer_class_view.png">class viewer</a>, enabling not only exploration of the static type model, but also dynamic replacements at runtime, providing a way of understanding realistic data structures;</li>
-				<li><a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/images/address_bar.png">Search bar</a> allowing you to search for classes or archetypes;</li>
-				<li><a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/images/apgar_RM_icons.png">CKM icons</a> are now switchable in to replace the standard icons in the Archetype tool and Archetype Catalog;</li>
-				<li>beta version of <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/images/xml_serialisation.png">XML OPT output</a>, based on a rule set to control details of XML serialisation (it's not yet conformant with either ADL 1.4 or 1.5 XSD - but will be soon);</li>
-				<li>the RM schema files now include proper package structures, and the <a href="http://www.openehr.org/svn/knowledge2/TRUNK/rm_schemas/openehr_ehr_102.bmm">openEHR RM schema</a> is now a faithful representation of the published specifications;</li>
-				<li>the <a href="http://www.openehr.org/svn/knowledge2/TRUNK/rm_schemas/cen_EN13606_0.95.bmm">EN13606 model schema</a> has been substantially improved, although it is still not complete. Any offers to help with this are welcome!</li>
+				<li>Greatly enhanced <a href="/downloads/ADLworkbench/images/explorer_class_view.png">class viewer</a>, enabling not only exploration of the static type model, but also dynamic replacements at runtime, providing a way of understanding realistic data structures;</li>
+				<li><a href="/downloads/ADLworkbench/images/address_bar.png">Search bar</a> allowing you to search for classes or archetypes;</li>
+				<li><a href="/downloads/ADLworkbench/images/apgar_RM_icons.png">CKM icons</a> are now switchable in to replace the standard icons in the Archetype tool and Archetype Catalog;</li>
+				<li>beta version of <a href="/downloads/ADLworkbench/images/xml_serialisation.png">XML OPT output</a>, based on a rule set to control details of XML serialisation (it's not yet conformant with either ADL 1.4 or 1.5 XSD - but will be soon);</li>
+				<li>the RM schema files now include proper package structures, and the <a href="/svn/knowledge2/TRUNK/rm_schemas/openehr_ehr_102.bmm">openEHR RM schema</a> is now a faithful representation of the published specifications;</li>
+				<li>the <a href="/svn/knowledge2/TRUNK/rm_schemas/cen_EN13606_0.95.bmm">EN13606 model schema</a> has been substantially improved, although it is still not complete. Any offers to help with this are welcome!</li>
 			</ul>
 			<br/>
 			

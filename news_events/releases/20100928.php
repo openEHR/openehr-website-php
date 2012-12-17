@@ -40,7 +40,7 @@
 			<h6>28. September 2010 | from: Thomas Beale</h6>
 			<br/>
 			
-			<p>A second beta of the ADL/AOM 1.5 Workbench has been released. The main feature added is support for regression testing of archetypes. A new SVN repository has been added <a href="http://www.openehr.org/svn/knowledge2/TRUNK/">here</a> that contains test archetypes as well as the object model schemas used to drive the ADL Workbench. Around 150 test archetypes are available, each now with a test result tag included in the description meta-data, covering most pass/fail conditions defined in ADL 1.5. Other features include text searching for archetypes, and various compiler bug fixes.</p>
+			<p>A second beta of the ADL/AOM 1.5 Workbench has been released. The main feature added is support for regression testing of archetypes. A new SVN repository has been added <a href="/svn/knowledge2/TRUNK/">here</a> that contains test archetypes as well as the object model schemas used to drive the ADL Workbench. Around 150 test archetypes are available, each now with a test result tag included in the description meta-data, covering most pass/fail conditions defined in ADL 1.5. Other features include text searching for archetypes, and various compiler bug fixes.</p>
 			<p>Builds are available for:</p>
 			<ul>
 				<li>Windows XP/Vista/Windows 7</li>
@@ -49,8 +49,8 @@
 				<li>Linux</li>
 			</ul>
 			<br/>
-			<a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/home">Download page</a>;
-			<a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/releasenotes">Release notes</a>.</p>
+			<a href="/downloads/ADLworkbench/home">Download page</a>;
+			<a href="/downloads/ADLworkbench/releasenotes">Release notes</a>.</p>
 			
 			<br/>
 			<a href="../releases">>> Back to Releases</a>

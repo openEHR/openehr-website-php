@@ -58,7 +58,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			
 			<h2>How openEHR works for others</h2>
-			<p>For list of companies which have built solutions on openEHR see <a href="../../whoisusingopenehr">who is using openEHR</a>.</p>
+			<p>For list of companies which have built solutions on openEHR see <a href="../../who_is_using_openehr">who is using openEHR</a>.</p>
 			
 		</div>
 			

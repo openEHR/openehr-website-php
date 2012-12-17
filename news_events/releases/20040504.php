@@ -4,7 +4,7 @@
 <head>
 
 	<title>openEHR - Releases</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/releases/release19" title="openEHR - Releases">
+	<link rel="bookmark" href="http://www.openehr.org/news_events/releases/release1" title="openEHR - Releases">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -35,11 +35,12 @@
 		<div id="TextArea">
 		
 			<h1>Releases</h1>
-			<h2>ADL 1.5 Workbench - beta release 8</h2>
-			<h6>2. August 2012 | from: Thomas Beale</h6>
+			
+			<h2>openEHR Release 0.9 published</h2>
+			<h6>4. May 2004 | from: Thomas Beale</h6>
 			<br/>
 			
-			<p>This release of the ADL 1.5 workbench includes a complete makeover of the user interface, with numerous usability improvements, plus a number of compiler corrections. See the <a href="http://www.openehr.org/new-ws/site/downloads/ADLworkbench/home">help pages</a>.</p>
+			<p>Version 0.9 of the openEHR specifications have been published. <a href="/programs/specification/releasehistory/release09">Specification home page</a>; <a href="/issues/browse/SPEC/fixforversion/10015">release notes</a>. Thanks to everyone in the community who contributed to this release.</p>
 			
 			<br/>
 			<a href="../releases">>> Back to Releases</a>

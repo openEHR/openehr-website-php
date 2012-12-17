@@ -30,24 +30,24 @@
 		<div id="WhatFrame">
 			<img src="gui/WhatFrame.png" usemap="#what"/>
 			<map name="what">
-			  <area shape="rect" coords="0,0,220,150" href="whatisopenehr" alt="What is openEHR" />
+			  <area shape="rect" coords="0,0,220,150" href="what_is_openehr" alt="What is openEHR" />
 			</map> 
 			<div id="TextFrame">
 				<h1>What is<br/>openEHR?</h1>
 				<p>openEHR is about enabling ICT to effectively support all aspects of healthcare.
-				<br/><a href="whatisopenehr" style="line-height:200%;">Learn more</a></p>
+				<br/><a href="what_is_openehr" style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>
 		
 		<div id="WhoFrame">
 			<img src="gui/WhoFrame.png" usemap="#who"/>
 			<map name="who">
-			  <area shape="rect" coords="0,0,220,150" href="whoisusingopenehr" alt="Who is using openEHR" />
+			  <area shape="rect" coords="0,0,220,150" href="who_is_using_openehr" alt="Who is using openEHR" />
 			</map> 
 			<div id="TextFrame">
 				<h1>Who is using<br/>openEHR?</h1>
 				<p>Companies, governments, universities, research centres all around the world.
-				<br/><a href="whoisusingopenehr" style="line-height:200%;">Learn more</a></p>
+				<br/><a href="who_is_using_openehr" style="line-height:200%;">Learn more</a></p>
 			</div>
 		</div>
 
@@ -66,12 +66,12 @@
 		<div id="JoinFrame">
 			<img src="gui/JoinFrame.png" usemap="#join"/>
 			<map name="join">
-			  <area shape="rect" coords="0,0,220,150" href="openehrprograms" alt="openEHR Programs" />
+			  <area shape="rect" coords="0,0,220,150" href="openehr_programs" alt="openEHR Programs" />
 			</map> 
 			<div id="TextFrame">
 				<h1>The openEHR<br/>Programs</h1>
 				<p>4 openEHR Programs: Specification, Clinical Models, Software, Localisation 
-				<br/><a href="openehrprograms" style="line-height:200%;">Learn more</a></p>
+				<br/><a href="openehr_programs" style="line-height:200%;">Learn more</a></p>
 			</div> 
 		</div>
 		

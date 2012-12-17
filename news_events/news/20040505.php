@@ -3,8 +3,8 @@
 <html>
 <head>
 
-	<title>openEHR - Releases</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/releases/release1" title="openEHR - Releases">
+	<title>openEHR - News</title>
+	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news4" title="openEHR - News">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -26,24 +26,24 @@
 		
 	</div> 
 
-	<div id="MainArea" style="height:450px;">
+	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 3; include '../menu/newsmenu.php' ?>
+			<?php $current = 1; include '../menu/newsmenu.php' ?>
 		</div>
 		
-		<div id="TextArea">
+		<div id="TextArea" style="height:450px;">
 		
-			<h1>Releases</h1>
+			<h1>News</h1>
 			
-			<h2>openEHR Release 0.9 published</h2>
-			<h6>4. May 2004 | from: Thomas Beale</h6>
-			<br/>
-			
-			<p>Version 0.9 of the openEHR specifications have been published. <a href="http://www.openehr.org/new-ws/site/programs/specification/releasehistory/release09">Specification home page</a>; <a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10015">release notes</a>. Thanks to everyone in the community who contributed to this release.</p>
+			<h2>openEHR ARB Formation</h2>
+			<h6>5. May 2004 | from: Thomas Beale</h6>
 			
 			<br/>
-			<a href="../releases">>> Back to Releases</a>
+			<p>The Foundation has formally appointed an openEHR Architectural Review Board (ARB), with 8 members, to review future changes proposed to openEHR specifications and software.</p>
+						
+			<br/>
+			<a href="../news">>> Back to News</a>
 			
 		</div>
 			

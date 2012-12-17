@@ -4,7 +4,7 @@
 <head>
 
 	<title>openEHR - Releases</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/releases/release5" title="openEHR - Releases">
+	<link rel="bookmark" href="http://www.openehr.org/news_events/releases/release16" title="openEHR - Releases">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -36,11 +36,13 @@
 		
 			<h1>Releases</h1>
 			
-			<h2>openEHR Release 1.0 published</h2>
-			<h6>10. February 2006 | from: Thomas Beale</h6>
+			<h2>ADL 1.5 Workbench - beta release 3</h2>
+			<h6>14. January 2011 | from: Thomas Beale</h6>
 			<br/>
 			
-			<p>On 10 February 2006 openEHR Release 1.0 was released. <a href="http://www.openehr.org/new-ws/site/programs/specification/releasehistory/release10">Specification home page</a>; <a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10018">release notes</a>. Thanks to everyone in the community who contributed to this release.</p>
+			<p>The latest beta of the ADL 1.5 Workbench for Windows, Mac and Linux can now be downloaded from the <a href="/downloads/ADLworkbench/home">help page</a>.</p>
+			<p>It includes significant UI improvements, and an implementation of annotations as recently discussed on the lists. Release notes <a href="/downloads/ADLworkbench/releasenotes">here</a>. As indicated in the online documentation, please report all problems on the <a href="/issues/browse/AWBPR">dedicated Jira issue tracker</a>.As this is a beta, the more people who download and test the tool on all platforms, the faster the quality improves.</p>
+			<p>Foretaste of the future: as well as XML operational templates, we now are looking at adding editing capabilities and also UI form visualisation....</p>
 			
 			<br/>
 			<a href="../releases">>> Back to Releases</a>
