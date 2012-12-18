@@ -73,13 +73,13 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<tr>
 				<td class="TableMainC"> Mac OS X 10.7 (Lion)<br/></td>
 				<td class="TableMainC"> beta 8</td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/mac_osx_10.7/adl_workbench/ADL%20Workbench%20for%20Lion%20i386.dmg">.dmg installer</a></td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/mac_osx/adl_workbench/ADL%20Workbench%20for%20Lion%20i386.dmg">.dmg installer</a></td>
 					<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
             </tr>
             <tr>
 					<td class="TableMainC"> Mac OS X 10.8 (Mountain Lion)<br/></td>
 					<td class="TableMainC"> beta 8</td>
-					<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/mac_osx_10.8/adl_workbench/ADL%20Workbench%20for%20Mountain%20Lion%20i386.dmg">.dmg installer</a></td>
+					<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/mac_osx/adl_workbench/ADL%20Workbench%20for%20Mountain%20Lion%20i386.dmg">.dmg installer</a></td>
 				<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
 			</tr>
 			<tr>
