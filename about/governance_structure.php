@@ -86,7 +86,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 			</ul>
 			<p>An interim Board has been appointed to oversee the transition to the new arrangements.</p>
-			<p>See members of interim Foundation Board <a href="peopleingovernance#foundationboard">here</a>.</p>
+			<p>See members of interim Foundation Board <a href="people_in_governance#foundationboard">here</a>.</p>
 			
 			
 			<h2><a name="advisorypanel"></a>Advisory Panel</h2>
@@ -114,7 +114,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li>Liaise with industry, eHealth standards bodies and national eHealth programmes;</li>
 				<li>Meet monthly.</li>
 			</ul>
-			<p>See members of Program Coordination Board <a href="peopleingovernance#programcoordinationboard">here</a>.</p>
+			<p>See members of Program Coordination Board <a href="people_in_governance#programcoordinationboard">here</a>.</p>
 		</div>
 			
 	</div>

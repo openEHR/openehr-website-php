@@ -47,11 +47,11 @@
 		<div id="BottomFrame" style="left:815px;">
 			<p class="MenuHeading">Using the Site <sup style="font-size:8px; font-style:italic;">Policies</sup></p>
 			<ul>
-			<li><a href="/site_policies/termsofuse">Terms of Use</a></li>
-			<li><a href="/site_policies/editorialpolicy">Editorial Policy</a></li>
-			<li><a href="/site_policies/privacypolicy">Privacy Policy</a></li>
-			<li><a href="/site_policies/syndication">Syndication</a></li>
-			<li><a href="/site_policies/feedback">Feedback</a></li>
-			<li><a href="/site_policies/sitemap">Site Map</a></li>
+			<li><a href="/using_the_site/terms_of_use">Terms of Use</a></li>
+			<li><a href="/using_the_site/editorial_policy">Editorial Policy</a></li>
+			<li><a href="/using_the_site/privacy_policy">Privacy Policy</a></li>
+			<li><a href="/using_the_site/syndication">Syndication</a></li>
+			<li><a href="/using_the_site/feedback">Feedback</a></li>
+			<li><a href="/using_the_site/site_map">Site Map</a></li>
 			</ul>
 		</div>

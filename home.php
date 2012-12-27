@@ -154,19 +154,19 @@
 			<div id="NewsFrame">
 				<div id="LinksFrame">
 					<h2>News & Events</h2>
-					<a href="news_events/openehrannouncements/announcement14">openEHR Transition Update</a>
+					<a href="news_events/announcements/20121212">openEHR Transition Update</a>
 					<h6>12. December 2012</h6>
 					<br/>
-					<a href="news_events/openehrevents/events21">openEHR Foundation Meeting</a>
+					<a href="news_events/events/20120910">openEHR Foundation Meeting</a>
 					<h6>10.-12. September 2012</h6>
 					<br/>
-					<a href="news_events/openehrevents/events20">HL7 Australia Seminar on Future HL7 Standards</a>
+					<a href="news_events/events/20120702">HL7 Australia Seminar on Future HL7 Standards</a>
 					<h6>2. July 2012</h6>
 					<br/>
-					<a href="news_events/openehrevents/events19">openEHR @ HINZ</a>
+					<a href="news_events/events/20120621">openEHR @ HINZ</a>
 					<h6>21.-22. June 2012</h6>
 					<br/>
-					<a href="news_events/openehrnews/news20">Brazil re-affirms commitement to openEHR</a>
+					<a href="news_events/news/20120516">Brazil re-affirms commitement to openEHR</a>
 					<h6>16. May 2012</h6>
 				</div>	
 			</div>
@@ -175,19 +175,19 @@
 			<div id="ReleasesFrame">
 				<div id="LinksFrame">
 					<h2>Releases</h2>
-					<a href="news_events/openehrreleases/release20">ADL - syntax highlight for Notepad++</a>
+					<a href="news_events/releases/20120813">ADL - syntax highlight for Notepad++</a>
 					<h6>13. August 2012</h6>
 					<br/>
-					<a href="news_events/openehrreleases/release19">ADL 1.5 Workbench - beta release 8</a>
+					<a href="news_events/releases/20120802">ADL 1.5 Workbench - beta release 8</a>
 					<h6>2. August 2012</h6>
 					<br/>
-					<a href="news_events/openehrreleases/release18">ADL 1.5 Workbench - beta release 4</a>
+					<a href="news_events/releases/20110909">ADL 1.5 Workbench - beta release 4</a>
 					<h6>9. September 2011</h6>
 					<br/>
-					<a href="news_events/openehrreleases/release17">First open source release of openEHR.NET</a>
+					<a href="news_events/releases/20110304">First open source release of openEHR.NET</a>
 					<h6>4. March 2011</h6>
 					<br/>
-					<a href="news_events/openehrreleases/release16">ADL 1.5 Workbench - beta release 3</a>
+					<a href="news_events/releases/20110114">ADL 1.5 Workbench - beta release 3</a>
 					<h6>14. January 2011</h6>
 				</div>
 			</div>	 

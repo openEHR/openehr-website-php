@@ -48,7 +48,7 @@ $pageOn = 'releases.php';
 				<li><em>Trial</em>: specifications that have been worked on by a design group and validated in test software to the point where they are ready for community use on a trial basis;</li>
 				<li><em>Development</em>: draft forms of specification documents, made available for the purposes of review, input and experimental use.</li>
 			</ul>
-			<p>If you are looking for a specific release, go <a href="releases">here</a>.</p>
+			<p>If you are looking for a specific release, go <a href="../releases">here</a>.</p>
 			
 			<h3>Reading Documents</h3>
 			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them,
@@ -281,18 +281,18 @@ $pageOn = 'releases.php';
 		
 			<br/>
 			<br/>
-			<a href="releases">>> Back to Releases</a>
+			<a href="../releases">>> Back to Releases</a>
 		
 		</div>
 			
 	</div>
 
 	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
+		<?php include '../../../menu/bottommenu.php' ?>
 	</div>
 
 	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>	
+		<?php include '../../../panel/bottompanel.php' ?>	
 	</div>
 	
 </div>
