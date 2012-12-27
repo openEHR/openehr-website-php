@@ -93,7 +93,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<br/>
 			
 			<h3>Source Code</h3>
-			<p>The source code can be accessed from the <a href="http://www.openehr.org/projects/eiffel.html">openEHR project page</a>.</p>
+			<p>The source code can be accessed from the <a href="https://github.com/openEHR/adl-tools/wiki">adl-tools GitHub home page</a>.</p>
 		
 		</div>
 

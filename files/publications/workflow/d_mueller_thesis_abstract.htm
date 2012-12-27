@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+<!-- #BeginTemplate "/Templates/Bare.dwt" --><!-- DW6 -->
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type" />
+<!-- #BeginEditable "Head" -->
+
+
+
+
+
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <title>R Mueller PhD abstract</title>
+<!-- #EndEditable -->
+  <link rel="stylesheet" href="http://www.openehr.org/styles/oe.css" type="text/css" />
+
+
+  
+  
+  <meta content="Robert Muellere PhD thesis abstract" name="description" />
+</head>
+
+
+<body>
+
+
+
+<br />
+
+<span style="font-weight: bold;">Robert M&uuml;ller</span>. <span style="font-style: italic;">Event-Oriented Dynamic Adaptation of Workflows: Model, Architecture, and Implementation</span>. PhD thesis submitted to&nbsp;Fakult&auml;t f&uuml;r Mathematik und Informatik at the Universit&auml;t Leipzig.&nbsp;<a href="http://www.imn.htwk-leipzig.de/%7Emueller/references/diss.pdf">Full thesis</a> (PDF).<br />
+
+
+
+<hr style="width: 100%; height: 2px;" />
+<h2>Abstract</h2>
+
+<p>Workflow management is widely accepted as a core technology to
+support long-term business processes in heterogeneous and distributed
+environments. However, conventional workflow management systems do not
+provide sufficient flexibility support to cope with the broad range of
+failure situations that may occur during workflow execution. In
+particular, most systems do not allow to dynamically adapt a workflow
+due to a failure situation, e.g., to dynamically drop or insert
+execution steps.</p>
+
+<p>As a contribution to overcome these limitations, this dissertation
+introduces the agent-based workflow&nbsp;management system AGENTWORK.
+AGENTWORK supports the definition, the execution and, as its
+main&nbsp;contribution, the event-oriented and semi-automated dynamic
+adaptation of workflows. Two strategies&nbsp;for automatic workflow
+adaptation are provided. Predictive adaptation adapts workflow parts
+affected by&nbsp;a failure in advance (predictively), typically as soon
+as the failure is detected. This is advantageous in&nbsp;many
+situations and gives enough time to meet organizational constraints for
+adapted workflow parts.&nbsp;Reactive adaptation is typically performed
+when predictive adaptation is not possible. In this case,
+adaptation&nbsp;is performed when the affected workflow part is to be
+executed, e.g., before an activity is executed&nbsp;it is checked
+whether it is subject to a workflow adaptation such as dropping,
+postponement or replacement.&nbsp;In particular, the following
+contributions are provided by AGENTWORK.</p>
+
+<p>A Formal Model for Workflow Definition, Execution, and Estimation:
+In this context, AGENTWORK first provides an object-oriented workflow
+definition language. This language allows for the definition of
+a&nbsp;workflow&rsquo;s control and data flow. Furthermore, a
+workflow&rsquo;s cooperation with other workflows or
+workflow&nbsp;systems can be specified. Second, AGENTWORK provides a
+precise workflow execution model. This&nbsp;is necessary, as a running
+workflow usually is a complex collection of concurrent activities and
+data flow&nbsp;processes, and as failure situations and dynamic
+adaptations affect running workflows. Furthermore,&nbsp;mechanisms for
+the estimation of a workflow&rsquo;s future execution behavior are
+provided. These mechanisms&nbsp;are of particular importance for
+predictive adaptation.&nbsp;Mechanisms for Determining and Processing
+Failure Events and Failure Actions: AGENTWORK provides&nbsp;mechanisms
+to decide whether an event constitutes a failure situation and what has
+to be done to cope&nbsp;with this failure. This is formally achieved by
+evaluating event-condition-action rules where the
+eventcondition&nbsp;part describes under which condition an event has
+to be viewed as a failure event. The action&nbsp;part represents the
+necessary actions needed to cope with the failure. To support the
+temporal dimension&nbsp;<br />
+
+of events and actions, this dissertation provides a novel
+event-condition-action model based on a temporal&nbsp;object-oriented
+logic.</p>
+
+<p>Mechanisms for the Adaptation of Affected Workflows: In case of
+failure situations it has to be decided&nbsp;how an affected workflow
+has to be dynamically adapted on the node and edge level. AGENTWORK
+provides&nbsp;a novel approach that combines the two principal
+strategies reactive adaptation and predictive
+adaptation.&nbsp;Depending on the context of the failure, the
+appropriate strategy is selected. Furthermore, control&nbsp;flow
+adaptation operators are provided which translate failure actions into
+structural control flow adaptations.&nbsp;Data flow operators adapt the
+data flow after a control flow adaptation, if necessary.&nbsp;</p>
+
+<p>Mechanisms for the Handling of Inter-Workflow Implications of
+Failure Situations: AGENTWORK provides&nbsp;novel mechanisms to decide
+whether a failure situation occurring to a workflow affects other
+workflows that communicate and cooperate with this workflow. In
+particular, AGENTWORK derives the&nbsp;temporal implications of a
+dynamic adaptation by estimating the duration that will be needed to
+process&nbsp;the changed workflow definition (in comparison with the
+original definition). Furthermore, qualitative&nbsp;implications of the
+dynamic change are determined. For this purpose, so-called quality
+measuring objects&nbsp;are introduced.</p>
+
+<p>All mechanisms provided by AGENTWORK include that users may interact
+during the failure handling&nbsp;process. In particular, the user has
+the possibility to reject or modify suggested workflow
+adaptations.&nbsp;A Prototypical Implementation: Finally, a
+prototypical CORBA-based implementation of AGENTWORK is&nbsp;described.
+This implementation supports the integration of AGENTWORK into the
+distributed and heterogeneous&nbsp;environments of real-world
+organizations such as hospitals or insurance business enterprises.</p>
+
+<hr style="width: 100%; height: 2px;" /><small><span style="font-family: courier new,courier,monospace;">Last changed:
+$Date: 2006-03-23 22:48:25 +0000 (Thu, 23 Mar 2006) $ $Revision: 57 $</span></small><br />
+
+
+
+
+
+
+
+<!-- #EndEditable --><!-- #End --><!-- #EndTemplate -->
+</body>
+</html>

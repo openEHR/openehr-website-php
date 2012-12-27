@@ -37,8 +37,9 @@
 				<li><span>Downloads</span>
             		<ul>
 						<li><a href="/downloads/modellingtools">&nbsp; Modelling Tools</a></li>
-						<li><a href="/downloads/applicationbuilding">&nbsp; Application Building</a></li>
+						<li><a href="/downloads/applications">&nbsp; Applications</a></li>
 						<li><a href="/downloads/ehrcomponents">&nbsp; EHR Components</a></li>
+						<li><a href="/downloads/applicationbuilding">&nbsp; Application Building</a></li>
 					</ul>
        			</li>
 				

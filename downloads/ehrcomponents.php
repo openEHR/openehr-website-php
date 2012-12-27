@@ -43,11 +43,15 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<table class="TableMain">
 			<tbody>
 			<tr>
-				<th class="TableMainT" style="width:250px;">Project</th>
-				<th class="TableMainT" style="width:400px;">Download</th>
+				<th class="TableMainT">Project</th>
+				<th class="TableMainT">Description</th>
+				<th class="TableMainT">Technology</th>
+				<th class="TableMainT">Download</th>
 			</tr>	
 			<tr>
 				<td class="TableMainC">Java Reference Implementation of openEHR</td>
+				<td class="TableMainC"><p>A reference implementation of openEHR reference model, archetype model and other core semantics. This library is the core of most other Java implementations of openEHR.</p></td>
+				<td class="TableMainC">Java</td>
 				<td class="TableMainC"><br/><a href="http://www.openehr.org/wiki/display/projects/Java+Project+Download">Download page</a><br/><br/></td>
 			</tr>
 			</tbody>

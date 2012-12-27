@@ -7,7 +7,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 <head>
 
 	<title>openEHR - Downloads: Appliction Building</title>
-	<link rel="bookmark" href="http://www.openehr.org/downloads/modellingtools" title="openEHR - Downloads: Application Building">
+	<link rel="bookmark" href="http://www.openehr.org/downloads/applicationbuilding" title="openEHR - Downloads: Application Building">
 	<?php include '../panel/headpanel.php' ?>
 	
 </head>
@@ -32,7 +32,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea" style="height:450px">
 		
 		<div id="SideMenu">
-			<?php $current = 2; include 'menu/downloadsmenu.php' ?>
+			<?php $current = 4; include 'menu/downloadsmenu.php' ?>
 		</div>
 		
 		<div id="TextArea">
@@ -43,12 +43,16 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<table class="TableMain">
 			<tbody>
 			<tr>
-				<th class="TableMainT" style="width:250px;">Project</th>
-				<th class="TableMainT" style="width:400px;">Download</th>
+				<th class="TableMainT">Project</th>
+				<th class="TableMainT">Description</th>
+				<th class="TableMainT">Technology</th>
+				<th class="TableMainT">Download</th>
 			</tr>	
 			<tr>
 				<td class="TableMainC">TBD</td>
-				<td class="TableMainC"><br/>TBD<br/><br/></td>
+				<td class="TableMainC">TBD</td>
+				<td class="TableMainC">TBD</td>
+				<td class="TableMainC">TBD</td>
 			</tr>
 			</tbody>
 			</table>

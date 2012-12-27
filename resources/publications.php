@@ -51,7 +51,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<h3><a name="workflowinhealthcare"></a>Workflow in Healthcare</h3>
 			<ul>
 				<li>
-				<p><h4>Designing Guideline-based Workflow-integrated Electronic Health Records (<a href="http://www.openehr.org/publications/workflow/Barretto_PhD_Thesis_2005.zip">zipped PDF</a>)</h4></p>
+				<p><h4>Designing Guideline-based Workflow-integrated Electronic Health Records (<a href="http://www.openehr.org/files/publications/workflow/Barretto_PhD_Thesis_2005.zip">zipped PDF</a>)</h4></p>
 				<p><b>Sistine Ann Barretto</b></p>
 				<p><i>PhD thesis submitted to the department of Information Technology (Research),
 				University of South Australia. June 2005.</i></p>
@@ -83,7 +83,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 				
 				<li>
-				<p><h4>Workflow Modelling of Coordinated Inter-Health-Provider Care Plans (<a href="http://www.openehr.org/publications/workflow/Eric_Browne_WF_thesis_2005.pdf">PDF</a>)</h4></p>
+				<p><h4>Workflow Modelling of Coordinated Inter-Health-Provider Care Plans (<a href="http://www.openehr.org/files/publications/workflow/Eric_Browne_WF_thesis_2005.pdf">PDF</a>)</h4></p>
 				<p><b>Eric Browne</b></p>
 				<p><i>PhD thesis submitted to&nbsp;the Division of Information Technology, Engineering and
 				the Environment. January 2005.</i></p>
@@ -218,7 +218,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 
 				<li>
-				<p><h4>Introducing an openEHR-Based Electronic Health Record System in a Hospital (<a href="http://www.openehr.org/publications/archetypes/goek-masters-thesis_2008.pdf">PDF</a>)</h4></p>
+				<p><h4>Introducing an openEHR-Based Electronic Health Record System in a Hospital (<a href="http://www.openehr.org/files/publications/archetypes/goek-masters-thesis_2008.pdf">PDF</a>)</h4></p>
 				<p><b>Murat G&ouml;k</b></p>
 				<p><i>Masters Thesis submitted to Department of Medical Informatics, University of G&ouml;ttingen, Germany, May 2008</i></p>
 				<p><i>Abstract</i>: this thesis reports a case study of an openEHR
@@ -258,7 +258,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 				<li>
 				<p><h4>Semantic Mapping Of Clinical Model Data To Biomedical Terminologies To Facilitate Interoperability
-				(<a href="http://www.openehr.org/publications/archetypes/RQamar-PhD-Thesis-Mar2008.pdf">PDF</a>)</h4></p>
+				(<a href="http://www.openehr.org/files/publications/archetypes/RQamar-PhD-Thesis-Mar2008.pdf">PDF</a>)</h4></p>
 				<p><b>Rahil Qamar</b></p>
 				<p><i>Submitted to the University of Manchester for the degree of Doctor of Philosophy
 				in the Faculty of Engineering and Physical Sciences, Mar 2008, 
@@ -293,7 +293,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 				<li>
 				<p><h4>Archetype based Domain Modelling for Health Information Systems
-				(<a href="http://www.openehr.org/publications/archetypes/KorayAtalag-THESIS_Final.pdf">PDF</a>)</h4></p>
+				(<a href="http://www.openehr.org/files/publications/archetypes/KorayAtalag-THESIS_Final.pdf">PDF</a>)</h4></p>
 				<p><b>Koray Atalag</b></p>
 				<p><i>Submitted to Department of Information Systems, Middle East Technical University (METU), July 2007, Supervisor: Prof. Dr. Semih Bilgen</i></p>
 				<p><i>Abstract</i>: A major problem to be solved in health informatics is
@@ -357,7 +357,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<h4>Querying</h4>
 			<ul>
 				<li>
-				<p><h4>EHR Query Language (EQL) &ndash; a query language for archetype-based health records.(<a href="http://www.openehr.org/publications/archetypes/MedInfo_2007_EQL_MA.pdf">PDF</a>)</h4></p>
+				<p><h4>EHR Query Language (EQL) &ndash; a query language for archetype-based health records.(<a href="http://www.openehr.org/files/publications/archetypes/MedInfo_2007_EQL_MA.pdf">PDF</a>)</h4></p>
 				<p><b>Chunlan Ma, Heath Frankel, Thomas Beale, Sam Heard</b></p>
 				<p><i>Ocean Informatics<br/>
 				pp 397-401 Proceedings of MedInfo 2007, K. Kuhn et al. (Eds), IOS publishing, 2007.</i></p>
@@ -462,7 +462,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 				
 				<li>
-				<p><h4>Semantic Issues in Integrating Data from Different Models to Achieve Data Interoperability (<a href="http://www.openehr.org/publications/archetypes/Medinfo_2007_QamarRector.pdf">PDF</a>)</h4></p>
+				<p><h4>Semantic Issues in Integrating Data from Different Models to Achieve Data Interoperability (<a href="http://www.openehr.org/files/publications/archetypes/Medinfo_2007_QamarRector.pdf">PDF</a>)</h4></p>
 				<p><b>Rahil Qamar, Alan Rector </b></p>
 				<p><i>Medical Informatics Group, University of Manchester, Manchester, U.K.<br/>
 				pp 674-678 Proceedings of MedInfo 2007, K. Kuhn et al. (Eds), IOS publishing, 2007.</i></p>
@@ -482,7 +482,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 				
 				<li>
-				<p><h4>Framework for Clinical Data Standardization Based on Archetypes (<a href="http://www.openehr.org/publications/archetypes/Medinfo_2007_JAM.pdf">PDF</a>)</h4></p>
+				<p><h4>Framework for Clinical Data Standardization Based on Archetypes (<a href="http://www.openehr.org/files/publications/archetypes/Medinfo_2007_JAM.pdf">PDF</a>)</h4></p>
 				<p><b>Jose A. Maldonado</b> (a), <b>David Moner</b> (a), <b>Diego Tom&aacute;s</b> (a), <b>Carlos &Aacute;ngulo</b> (a), <b>Montserrat Robles</b> (a), <b>Jesualdo T. Fern&aacute;ndez</b> (b)</p>
 				<p><i>(a) Biomedical Informatics Group, ITACA Institute, Technical University of Valencia, Spain<br/>
 				(b) Departamento de Inform&aacute;tica y Sistemas, University of Murcia, Spain<br/>
@@ -507,7 +507,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 				<li>
 				<p><h4>Exploiting ebXML registry semantic constructs for handling archetype metadata in healthcare informatics.
-				(<a href="http://www.openehr.org/publications/archetypes/IJMSO_dogac_et_al_2006.pdf">PDF</a>)</h4></p>
+				(<a href="http://www.openehr.org/files/publications/archetypes/IJMSO_dogac_et_al_2006.pdf">PDF</a>)</h4></p>
 				<p><b>Dogac, A., Laleci, G.B., Kabak, Y., Unal, S., Beale, T., Heard, S., Elkin, P.L., Najmi, F., Mattocks, C., Weber, D. and Kernberg, M.</b></p>
 				<p><i>Int. J. Metadata, Semantics and Ontologies, Vol. 1, No. 1, pp.21&ndash;36.</i></p>
 				</li>
@@ -548,7 +548,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<ul>
 				<li>
 				<p><h4>Importing Clinical Data into Electronic Health Records - Lessons Learnt from the First Australian GEHR Trials.
-				(<a href="http://www.openehr.org/publications/archetypes/HIC2002_bird_goodchild_heard.pdf">PDF</a>)</h4></p>
+				(<a href="http://www.openehr.org/files/publications/archetypes/HIC2002_bird_goodchild_heard.pdf">PDF</a>)</h4></p>
 				<p><b>Bird L, Goodchild A, Heard S</b></p>
 				<p><i>Proceedings HIC 2002 conference.</i></p>
 				</li>
@@ -565,14 +565,14 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<ul>
 				<li>
 				<p><h4>Templates and Archetypes: how do we know what we are talking about?
-				(<a href="http://www.openehr.org/publications/archetypes/templates_and_archetypes_heard_et_al.pdf">PDF</a>)</h4></p>
+				(<a href="http://www.openehr.org/files/publications/archetypes/templates_and_archetypes_heard_et_al.pdf">PDF</a>)</h4></p>
 				<p><b>S. Heard, T. Beale, G. Freriks, A. Rossi-Mori, O. Pishev.</b></p>
 				<p><i>HL7 internal paper, 2003.</i></p>
 				</li>
 				
 				<li>
 				<p><h4>Archetypes: Constraint-based domain models for future-proof information systems.
-				(<a href="http://www.openehr.org/publications/archetypes/archetypes_beale_oopsla_2002.pdf">PDF</a>)</h4></p>
+				(<a href="http://www.openehr.org/files/publications/archetypes/archetypes_beale_oopsla_2002.pdf">PDF</a>)</h4></p>
 				<p><b>Beale T.</b></p>
 				<p><i>In: Eleventh OOPSLA Workshop on Behavioral Semantics: Serving the Customer
 				(Seattle, Washington, USA, November 4, 2002). Edited by Kenneth Baclawski and
@@ -581,7 +581,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				
 				<li>
 				<p><h4>Archetypes - An Interoperable Knowledge Methodology for Future-proof Information Systems.
-				(<a href="http://www.openehr.org/publications/archetypes/archetypes_beale_web_2000.pdf">PDF</a>)</h4></p>
+				(<a href="http://www.openehr.org/files/publications/archetypes/archetypes_beale_web_2000.pdf">PDF</a>)</h4></p>
 				<p><b>Beale T.</b></p>
 				<p><i>Published on the internet in 2000.</i></p>
 				</li>
@@ -619,7 +619,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<ul>
 				<li>
 				<p><h4>Towards Sustainability of Health Information Systems: How Can We Define, Measure and Achieve It?
-				(<a href="http://www.openehr.org/publications/health_ict/Medinfo2007-sustainability-Garde.pdf">PDF</a>)</h4><p>
+				(<a href="http://www.openehr.org/files/publications/health_ict/Medinfo2007-sustainability-Garde.pdf">PDF</a>)</h4><p>
 				<p><b>Sebastian Garde</b> (a, b), <b>Carola M. Hullina</b> (b), <b>Rong Chen</b> (c), <b>Thilo Schuler</b> (d), <b>Jana Gr&auml;nz</b> (a, e), <b>Petra Knaup</b> (f), <b>Evelyn J.S. Hovenga</b> (a)</p>
 				<p><i>(a) Health Informatics Research Group, Central Queensland University, Melbourne VIC &amp; Rockhampton, QLD, Australia<br/>
 				(b) Austin Centre for Applied Clinical Informatics, Austin Health, Heidelberg VIC, Australia<br/>
@@ -660,7 +660,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				
 				<li>
 				<p><h4>Graphical Overview and Navigation of Electronic Health Records in a prototyping environment using Google Earth and openEHR
-				Archetypes (<a href="http://www.openehr.org/publications/health_ict/MedInfo2007-graphicalEHR-Sundvall.pdf">PDF</a>)</h4><p>
+				Archetypes (<a href="http://www.openehr.org/files/publications/health_ict/MedInfo2007-graphicalEHR-Sundvall.pdf">PDF</a>)</h4><p>
 				<p><b>Erik Sundvall, Mikael Nystr&ouml;m, Mattias Forss, Rong Chen, H&aring;kan Petersson, Hans &Aring;hlfeldt</b></p>
 				<p><i>Link&ouml;ping University, Sweden<br/>
 				pp1043-1047 Proceedings MedInfo 2007, K. Kuhn et al. (Eds), IOS Publishing 2007.</i></p>
@@ -680,7 +680,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 				
 				<li>
-				<p><h4>The openEHR Java Reference Implementation Project (<a href="http://www.openehr.org/publications/health_ict/Medinfo2007-openehr_java-ChenKlein.pdf">PDF</a>)</h4><p>
+				<p><h4>The openEHR Java Reference Implementation Project (<a href="http://www.openehr.org/files/publications/health_ict/Medinfo2007-openehr_java-ChenKlein.pdf">PDF</a>)</h4><p>
 				<p><b>Rong Chen</b> (a), <b>Gunnar O Klein</b> (b)</p>
 				<p><i>(a) Department of Biomedical Engineering, Link&ouml;ping University, Sweden<br/>
 				(b) Department of Medicine, Karolinska Institutet, Sweden
@@ -782,7 +782,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<ul>
 				<li>
 				<p><h4>An Ontology-based Model of Clinical Information</em></strong>. 
-				(<a href="http://www.openehr.org/publications/health_ict/MedInfo2007-BealeHeard.pdf">PDF</a>)</h4><p>
+				(<a href="http://www.openehr.org/files/publications/health_ict/MedInfo2007-BealeHeard.pdf">PDF</a>)</h4><p>
 				<p><b>Thomas Beale</b> (a), <b>Sam Heard</b> (b)</p>
 				<p><i>
 				(a) CTO Ocean Informatics, visiting Senior Research Fellow, University College London<br/>
@@ -823,7 +823,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				</li>
 				
 				<li>
-				<p><h4>Design and Implementation of a Federated Health Record Server (<a href="http://www.openehr.org/publications/health_ict/UCL-TEHRE01-Reprint.pdf">PDF</a>)</h4><p>
+				<p><h4>Design and Implementation of a Federated Health Record Server (<a href="http://www.openehr.org/files/publications/health_ict/UCL-TEHRE01-Reprint.pdf">PDF</a>)</h4><p>
 				<p><b>Kalra D</b> (a), <b>Austin A</b> (a), <b>O&rsquo;Connor A</b> (a), <b>Lloyd D</b> (a), <b>Patterson D</b> (b), <b>Ingram D</b> (a)</p>
 				<p><i>(a) University College London, CHIME, Holborn Union Building, Highgate Hill, London, N19 3UA<br/>
 				(b) The Whittington Hospital, Highgate Hill, London N19 5NF<br/>

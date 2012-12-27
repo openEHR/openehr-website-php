@@ -43,23 +43,33 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<table class="TableMain">
 			<tbody>
 			<tr>
-				<th class="TableMainT" style="width:250px;">Project</th>
-				<th class="TableMainT" style="width:400px;">Download</th>
+				<th class="TableMainT">Project</th>
+				<th class="TableMainT">Description</th>
+				<th class="TableMainT">Technology</th>
+				<th class="TableMainT">Download</th>
 			</tr>
 			<tr>
-				<td class="TableMainC">ADL workbench &amp; parser</td>
-				<td class="TableMainC"><br/>
-				<a href="/downloads/ADLworkbench/home">Download and help pages</a>.<br/>
-				For source, see the <a title="Eiffel Tools Project" href="https://github.com/openEHR/adl-tools/wiki">project page</a>.<br/><br/>
-				</td>
+				<td class="TableMainC">ADL workbench (AWB)</td>
+				<td class="TableMainC"><p>Reference model-driven visual IDE for parsing, compiling, analysing, converting and (Q1 2013) editing ADL 1.4 and ADL 1.5 archetypes and templates. Built on the reference ADL parser.</p></td>
+				<td class="TableMainC">Source: Eiffel 7.1; builds available for Windows, Linux and Mac OSX.</td>
+				<td class="TableMainC"><p><a href="/downloads/ADLworkbench/home">Download and help pages</a>.</p></td>
 			</tr>
 			<tr>
-				<td class="TableMainC">Archetype Editor</td>
-				<td class="TableMainC"><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/>
-				Source available on <a href="http://www.openehr.org/projects/dotnet.html">project page</a>.<br/><br/></td>
+				<td class="TableMainC">ADL 1.5 command-line compiler</td>
+				<td class="TableMainC"><p>A command-line version of the compiler used inside the ADL Workbench</p></td>
+				<td class="TableMainC">Source: Eiffel 7.1; builds available for Windows, Linux and Mac OSX.</td>
+				<td class="TableMainC">(Available Q1 2013)</td>
 			</tr>
 			<tr>
-				<td class="TableMainC">Link&ouml;ping University Project - <br/>Java archetype editor<br/> and other knowledge tools</td>
+				<td class="TableMainC">Archetype Editor (AE)</td>
+				<td class="TableMainC"><p>The Archetype Editor is currently the main tool in use for authoring openEHR ADL 1.4 archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Spanish, Swedish and Turkish.</p></td>
+				<td class="TableMainC">Microsft .Net</td>
+				<td class="TableMainC"><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/></td>
+			</tr>
+			<tr>
+				<td class="TableMainC">LiU Archetype Editor and other knowledge tools</td>
+				<td class="TableMainC"><p>Part of the Link&ouml;ping University Project to build openEHR tools and demonstrators</p></td>
+				<td class="TableMainC">Java</td>
 				<td class="TableMainC"><br/><a href="http://www.imt.liu.se/mi/ehr/"> LiU</a> Archetype Editor, <br/>version 0.5.2 (2007 March 20)&nbsp;
 				<ul>
 					<li>
