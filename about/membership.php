@@ -109,62 +109,62 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			
 			<h2>Organisational Membership - Partners</h2>
-				<p>The openEHR Foundation will establish an Organisational membership category known as Partners, which includes four types. Becoming a Foundation Partner involves the organisation making a financial contribution, determined in a way that depends on the type of organisation. The Partner member types are as follows:</p>
-				<table class="TableMain">
-				<tbody>
-					<tr>
-						<th class="TableMainT"> Category </th>
-						<th class="TableMainT"> Description</th>
-						<th class="TableMainT"> Benefits</th>
-						<th class="TableMainT"> Financial</br>Basis</th>
-					</tr>
-					<tr>
-						<td class="TableMainC"> <b>Industry Partner</b></td>
-						<td class="TableMainC"> Software suppliers using openEHR</td>
-						<td class="TableMainC"> 
-							<ul>
-								<li>Ability to collectively elect 2 board members</li>
-								<li>Participation in planning of conferences and educational events</li>
-								<li>Clinical Knowledge Manager (CKM) sub-domain within a national or international CKM domain</li>
-								<li>Right of review and veto (> 2/3 majority with quorum) openEHR specification changes.</li>
-							</ul>
-						</td>
-						<td class="TableMainC"> Annual gross revenue</td>
-					</tr>
-					<tr>
-						<td class="TableMainC"> <b>National Partner</b></br>(one per country)</td>
-						<td class="TableMainC"> Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programmes</td>
-						<td class="TableMainC"> 
-							<ul>
-								<li>Ability to collectively elect 5 board members, 1 per region</li>
-								<li>Participation in planning of conferences and educational events</li>
-								<li>Clinical Knowledge Manager (CKM) national domain</li>
-							</ul>
-						</td>
-						<td class="TableMainC"> Based on World Bank country multipliers</td>
-					</tr>
-					<tr>
-						<td class="TableMainC"> <b>Academic Partner</b></td>
-						<td class="TableMainC"> Universities and other educational organisations</td>
-						<td class="TableMainC"> 
-							<ul>
-								<li>Ability to collectively elect 1 board member</li>
-								<li>Participation in planning of conferences and educational events</li>
-								<li>Clinical Knowledge Manager (CKM) sub-domain within a national or international CKM domain</li>
-							</ul>
-						</td>
-						<td class="TableMainC"> TBD</td>
-					</tr>
-					<tr>
-						<td class="TableMainC"> <b>Sponsoring Partner</b></td>
-						<td class="TableMainC"> Large companies or organisations who want to provide resources to raise the profile of openEHR and their own organisation for mutual benefit</td>
-						<td class="TableMainC"> 
-							<ul>
-								<li>Visibility on opneEHR website and conferences</li>
-							</ul>
-						</td>
-						<td class="TableMainC"> Negotiated</td>
-					</tr>
+			<p>The openEHR Foundation will establish an Organisational membership category known as Partners, which includes four types. Becoming a Foundation Partner involves the organisation making a financial contribution, determined in a way that depends on the type of organisation. The Partner member types are as follows:</p>
+			<table class="TableMain">
+			<tbody>
+				<tr>
+					<th class="TableMainT"> Category </th>
+					<th class="TableMainT"> Description</th>
+					<th class="TableMainT"> Benefits</th>
+					<th class="TableMainT"> Financial</br>Basis</th>
+				</tr>
+				<tr>
+					<td class="TableMainC"> <b>Industry Partner</b></td>
+					<td class="TableMainC"> Software suppliers using openEHR</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>Ability to collectively elect 2 board members</li>
+							<li>Participation in planning of conferences and educational events</li>
+							<li>Clinical Knowledge Manager (CKM) sub-domain within a national or international CKM domain</li>
+							<li>Right of review and veto (> 2/3 majority with quorum) openEHR specification changes.</li>
+						</ul>
+					</td>
+					<td class="TableMainC"> Annual gross revenue</td>
+				</tr>
+				<tr>
+					<td class="TableMainC"> <b>National Partner</b></br>(one per country)</td>
+					<td class="TableMainC"> Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programmes</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>Ability to collectively elect 5 board members, 1 per region</li>
+							<li>Participation in planning of conferences and educational events</li>
+							<li>Clinical Knowledge Manager (CKM) national domain</li>
+						</ul>
+					</td>
+					<td class="TableMainC"> Based on World Bank country multipliers</td>
+				</tr>
+				<tr>
+					<td class="TableMainC"> <b>Academic Partner</b></td>
+					<td class="TableMainC"> Universities and other educational organisations</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>Ability to collectively elect 1 board member</li>
+							<li>Participation in planning of conferences and educational events</li>
+							<li>Clinical Knowledge Manager (CKM) sub-domain within a national or international CKM domain</li>
+						</ul>
+					</td>
+					<td class="TableMainC"> TBD</td>
+				</tr>
+				<tr>
+					<td class="TableMainC"> <b>Sponsoring Partner</b></td>
+					<td class="TableMainC"> Large companies or organisations who want to provide resources to raise the profile of openEHR and their own organisation for mutual benefit</td>
+					<td class="TableMainC"> 
+						<ul>
+							<li>Visibility on opneEHR website and conferences</li>
+						</ul>
+					</td>
+					<td class="TableMainC"> Negotiated</td>
+				</tr>
 				</tbody>
 				</table>
 			</ul>
