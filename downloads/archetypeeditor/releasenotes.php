@@ -41,7 +41,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h2><a name="ArchetypeEditorReleases-CurrentBetaRelease"></a>Current Beta Release</h2>
 
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.2"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/TRUNK/ArchetypeEditor" rel="nofollow">Archetype Editor 2.2.779</a></span> 2 May 2011</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.2"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/TRUNK/ArchetypeEditor" rel="nofollow">Archetype Editor 2.2.876</a></span> 29 November 2012</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -55,6 +55,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li>An <em>openEHR installer</em> is now available. (Previous releases were only available from Ocean Informatics.)</li>
 				<li>The option to report an issue goes to the problem tracker on openEHR rather than Ocean Informatics.</li>
 				<li>The <em>Help</em> is now online as well as being installed.</li>
+				<li>Archetypes can be copied to and from ADL and XML, in batch mode from the command line.</li>
 				<li>On creating a new archetype, the 'short concept label' is inserted as the default 'Concept' label.</li>
 				<li>On creating a new archetype, an appropriate structure is preselected (usually 'Tree').</li>
 				<li><em>&lt;Ctrl+F6&gt;</em> and <em>&lt;Ctrl+Shift+F6&gt;</em> keyboard shortcuts move between the main tabs.</li>
@@ -64,7 +65,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li>A new <em>Display</em> menu improves the usability of the Display tab.</li>
 				<li>The proportion constraint control hides the denominator for unitary and percentage types.</li>
 				<li>Data value choices are restricted to those that are unique.</li>
-				<li>The default <em>cardinality of clusters</em> is 1..*.</li>
+				<li>The default <em>cardinality of clusters and sections</em> is 1..*.</li>
 				<li><em>ACTION</em> archetypes now show the <em>Planned</em> state, not <em>Initial</em> which was not truly a state.</li>
 				<li>In <em>ACTION</em> archetypes, <em>ISM_TRANSITION</em> now has an at-code.</li>
 				<li>Allow re-ordering of care flow steps within a state of <em>ACTION</em> archetypes.</li>
@@ -76,28 +77,51 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li>Allow an individual <em>internal code</em> to be copied in a format like 'local::at0071::meconium'.</li>
 				<li>Allow <em>constraint bindings</em> to be edited directly at the node definition.</li>
 				<li>Allow <em>constraint bindings</em> and <em>term bindings</em> to use and browse any terminology.</li>
+				<li>Allow <em>assumed value</em> to be set in any data, not just on patient state.</li>
 				<li>Allow each <em>contributor</em> to be edited.</li>
 				<li>Allow the <em>copyright</em> to be edited.</li>
+				<li>Allow the <em>current contact</em> to be recorded.</li>
+				<li>Allow <em>DV_PARSABLE</em> to be viewed on the Interface tab.</li>
+				<li>Named <em>slots</em> now show the Details tab, allowing comments, annotations and bindings to be added.</li>
 				<li>The active <em>language</em> is now displayed in the title bar.</li>
 				<li>The at-code and description of <em>internal codes</em> are now shown.</li>
 				<li>HTML displays the <em>copyright</em> from the archetype.</li>
-				<li>Prevent renaming of non-specialised nodes in specialised archetypes.</li>
+				<li>The <em>Authorship</em> date defaults to YYYY-MM-DD format.</li>
+				<li>Prevent changing the structure of specialised archetypes.</li>
+				<li>Prevent editing of non-specialised nodes on the Definition tab of specialised archetypes.</li>
 				<li>When specialising a multiple-occurrence node, the node is cloned only if the user requests.</li>
 				<li>When specialising a cluster by cloning, all of the cluster's children are copied too.</li>
 				<li>Added g/m2.7 and 10^x property units.</li>
 				<li>Fixed the file recovery dialog to appear when appropriate during start-up.</li>
 				<li>Fixed specialising of <em>XML</em> archetypes.</li>
+				<li>Fixed saving name constraints of <em>XML ELEMENT</em> archetypes.</li>
 				<li>Fixed several exceptions with <em>XML</em> archetypes.</li>
 				<li>Fixed specialising of of a node more than 10 times in ADL archetypes.</li>
 				<li>Fixed drag and drop in <em>SECTION</em> archetypes.</li>
 				<li>Fixed action patterns in <em>XML INSTRUCTION</em> archetypes.</li>
 				<li>Fixed loading math_function, width, fixed interval and offset in <em>OBSERVATION</em> archetypes.</li>
+				<li>Fixed loading occurrences of sub-sections in <em>SECTION</em> archetypes.</li>
 				<li>Fixed errors when loading <em>term bindings</em> and <em>constraint bindings</em>.</li>
+				<li>Fixed some problems editing the <em>Term Bindings</em> Complex tab.</li>
 				<li>Fixed displaying <em>URI</em> constraints within a <em>choice</em> element.</li>
-				<li>Fixed errors when saving an archetype containing a <em>choice</em> with an interval of date or time.</li>
+				<li>Fixed usability problems with <em>assumed value</em> for <em>DV_QUANTITY</em>.</li>
+				<li>Fixed changing the data type of an element to a slot.</li>
+				<li>Fixed saving a <em>choice</em> with an interval of date or time.</li>
+				<li>Fixed saving a <em>choice</em> with a slot.</li>
+				<li>Fixed saving a <em>Single</em> or <em>Table</em> structure with a slot.</li>
+				<li>Fixed saving of <em>assumed value</em> for <em>DV_CODED_TEXT</em> internal codes.</li>
+				<li>Fixed saving of <em>assumed value</em> for <em>DV_PROPORTION</em>.</li>
+				<li>Fixed saving to XML of <em>is_integral</em> for <em>DV_PROPORTION</em>.</li>
+				<li>Fixed saving <em>COMPOSITION</em> archetypes with a <em>Table</em> structure.</li>
+				<li>Fixed saving <em>Participation</em> occurrences in <em>COMPOSITION</em> archetypes.</li>
 				<li>Fixed invalid occurrences of embedded archetypes.</li>
 				<li>Fixed mistranslations in the <em>Japanese</em> terminology.</li>
 				<li>Fixed errors that occurred when the computer's language is <em>Norwegian</em>.</li>
+				<li>Fixed saving of edits done on the Terminology tab.</li>
+				<li>Fixed saving the correct order of <em>internal reference</em> elements.</li>
+				<li>Fixed "Person State with Event Series" to be initially enabled in <em>OBSERVATION</em> archetypes.</li>
+				<li>Fixed the "-" button to be enabled whenever appropriate to remove cluster and slot elements.</li>
+				<li>Fixed garbled text on the Header and Display tabs in some languages.</li>
 			</ul>
 			<br/>
 
@@ -120,9 +144,9 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<ul>
 				<li>Old spellings of the following are still accepted, but it now saves the ADL with the correct spelling:
 				<ul>
-				<li><em>null_flavor</em> is now called <em>null_flavour</em>.</li>
-				<li><em>term_binding</em> is now called <em>term_bindings</em>.</li>
-				<li><em>constraint_binding</em> is now called <em>constraint_bindings</em>.</li>
+					<li><em>null_flavor</em> is now called <em>null_flavour</em>.</li>
+					<li><em>term_binding</em> is now called <em>term_bindings</em>.</li>
+					<li><em>constraint_binding</em> is now called <em>constraint_bindings</em>.</li>
 				</ul>
 				</li>
 				<li>An <em>MD5 hash</em> digest of the Archetype Model is saved in <em>other_details</em>, for canonical Archetype Model integrity check hashes.</li>

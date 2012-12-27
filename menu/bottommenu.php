@@ -1,8 +1,8 @@
 		<div id="BottomFrame" style="left:40px;">
 			<p class="MenuHeading">Specifications <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
-			<li><a href="/releases/1.0.2" title="Current official release of specifications">Current Release</a></li>
-			<li><a href="/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
+			<li><a href="/programs/specification/releases/1.0.2" title="Current official release of specifications">Current Release</a></li>
+			<li><a href="/programs/specification/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
 			<li><a href="/issues/browse/SPECPR" target="_blank" title="Specifications issue tracker (Jira)">Issue Tracker</a></li>
 			<li><a href="/releases/1.0.2/reference-models/openEHR/XSD" target="_blank" title="Reference Model XML Schemas (current release)">XML Schemas</a></li>
 			<li>RM UML<a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.1]</a>, <a href="/releases/1.0.2/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.2]</a></li>

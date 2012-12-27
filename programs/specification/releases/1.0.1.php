@@ -86,56 +86,56 @@ $pageOn = 'releases.php';
 				<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> Reference Model</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/rm/ehr_im.pdf">EHR IM</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models </td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a>; XMI; openEHR BMM models </td>
 				<td class="TableMainC"> The information model of the openEHR EHR. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/rm/demographic_im.pdf">Demographic IM</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models </td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a>; XMI; openEHR BMM models </td>
 				<td class="TableMainC"> The openEHR demographic model. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/rm/ehr_extract_im.pdf">EHR Extract IM</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models</td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a>; XMI; openEHR BMM models</td>
 				<td class="TableMainC"> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
 				<td class="TableMainC"> development</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/rm/common_im.pdf">Common IM</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models</td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a>; XMI; openEHR BMM models</td>
 				<td class="TableMainC"> Information model containing common concepts, including the archetype-enabling LOCATABLE class, party references, audits and attestations, change control, and authored resources. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/rm/data_structures_im.pdf">Data Structures IM</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models</td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a>; XMI; openEHR BMM models</td>
 				<td class="TableMainC"> Information model of data structures, incuding a powerful model of HISTORY and EVENT. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/rm/data_types_im.pdf">Data Types IM</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models</td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a>; XMI; openEHR BMM models</td>
 				<td class="TableMainC"> Information model of data types, including quantities, date/times, plain and coded text, time specification, multimedia and URIs. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/rm/support_im.pdf">Support IM</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models</td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a>; XMI; openEHR BMM models</td>
 				<td class="TableMainC"> Support model defining identifiers, assumed types, and terminology interface specification used in the rest of the specifications. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/rm/integration_im.pdf">Integration IM</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a>; XMI; openEHR BMM models</td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a>; XMI; openEHR BMM models</td>
 				<td class="TableMainC"> Model supporting expression of legacy data in a free form for further processing into and out of openEHR information structures. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
@@ -156,35 +156,35 @@ $pageOn = 'releases.php';
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/am/adl.pdf">Archetype Definition Language 1.4 (ADL)</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a></td>
 				<td class="TableMainC"> Abstract syntax specification for archetypes 1.4 edition of language (used in ISO 13606-2). </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/am/aom.pdf">Archetype Object Model (AOM)</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a></td>
 				<td class="TableMainC"> Object model of archetypes corresponding to ADL 1.4. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/am/openehr_archetype_profile.pdf">openEHR Archetype Profile (OAP)</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a></td>
 				<td class="TableMainC"> openEHR plug-in additions to the generic archetype object model.</td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/releases/1.0.1/architecture/am/archetype_principles.pdf">Archetypes Principles</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a></td>
 				<td class="TableMainC"> Semantic principles of archetypes and templates.</td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="http://www.openehr.org/wiki/display/spec/openEHR+Templates+and+Specialised+Archetypes">Template Object Model</a></td>
-				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">online</a></td>
+				<td class="TableMainC"> UML: <a href="http://www.openehr.org/releases/1.0.1/architecture/computable/UML/uml.html">source files</a>, <a href="http://htmlpreview.github.com/?https://raw.github.com/openEHR/reference-models/master/models/openEHR/Release-1.0.1/UML/HTML/index.html">online</a></td>
 				<td class="TableMainC"> Object model of templates. </td>
 				<td class="TableMainC"> development</td>
 			</tr>
