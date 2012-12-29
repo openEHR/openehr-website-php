@@ -33,7 +33,8 @@
 			
 			<h2>Providing feedback</h2>
 			<p>Please provide website design ideas/feedback <a href="http://www.openehr.org/wiki/display/oecom/2012+Website+-+feedback+page">here</a>.</p>
-			<p>Routine webmaster requests <a href="mailto:webmaster@openehr.org">here</a>.
+			<p>Routine website problems/issues/requests <a href="https://github.com/openEHR/openehr-website/issues">here</a>.</p>
+			<p>Email <a href="mailto:webmaster@openehr.org">webmaster</a>.</p>
 			
 			<h2>Logo</h2>
 			<p>As openEHR is moving forward we think it is time to refresh the Foundation image. Besides the new website, there is also a possibility for openEHR community to create a new openEHR logo. A few proposals have been made already.</p>		
