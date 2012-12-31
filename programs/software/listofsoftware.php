@@ -37,7 +37,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<div id="TextArea">
 
 			<h1>List of Software</h1>
-			<p>TBD</p>
+			<p>This part of the website is currently under construction.</p>
 		
 		</div>	
 

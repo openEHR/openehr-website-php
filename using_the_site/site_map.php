@@ -35,13 +35,14 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h1>Site Map</h1>
 			
+			<div style="position:relative; left:0px; top:0px;">
 			<h2>Site</h2>
 			<ul>
 				<li><a href="/home">Home</a></li>
 				<li><a href="/what_is_openehr">What is openEHR?</a></li>
 				<li><a href="/who_is_using_openehr">Who is using openEHR?</a></li>
 				<li><a href="/about_this_website">About This Website</a></li>
-				<li><a href="http://www.openehr.org/home.html">Old Website</a></li>
+				<li><a href="http://www-old.openehr.org">Old Website</a></li>
 				<li><a href="mailto:webmaster@openehr.org">Contact Webmaster</a></li>
 			</ul>
 			
@@ -62,12 +63,15 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<br/>
 				<?php include '../entry_points//i_am_working_on/menu/activities.php' ?>
 				<br/>
-				
+			</div>
+			
+			<div style="position:absolute; left:400px; top:50px;">
 			<h2>Downloads</h2>
 				<ul>
 					<li><a href="/downloads/modellingtools">Modelling Tools</a></li>
-					<li><a href="/downloads/applicationbuilding">Application Building</a></li>
+					<li><a href="/downloads/applications">Applications</a></li>
 					<li><a href="/downloads/ehrcomponents">EHR Components</a></li>
+					<li><a href="/downloads/applicationbuilding">Application Building</a></li>
 				</ul>
 			
 			<h2>News & Events</h2>
@@ -84,6 +88,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 					<li><a href="/about/membership">Membership</a></li>
 					<li><a href="/about/governance_structure">Governance Structure</a></li>
 					<li><a href="/about/people_in_governance">People in Governance</a></li>
+					<li><a href="/about/origins">Origins of openEHR</a></li>
 					<li><a href="/about/intellectual_property">Intellectual Property</a></li>
 					<li><a href="/about/logos">Logos</a></li>
 					<li><a href="/about/contacts">Contacts</a></li>
@@ -124,7 +129,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 					<li><a href="http://www.youtube.com/user/openehr?feature=results_main" target="_blank">YouTube</a></li>
 					<li><a href="http://www.facebook.com/pages/openEHR/109178295780185?sk=info" target="_blank">Facebook</a></li>
 					<li><a href="http://twitter.com/#!/openehr" target="_blank">Twitter</a></li>
-					<li><a href="/community/rss">RSS</a></li>
 				</ul>
 		
 			<h2>Using the Site (Policies)</h2>
@@ -136,7 +140,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 					<li><a href="/using_the_site/feedback">Feedback</a></li>
 					<li><a href="/using_the_site/site_map">Site Map</a></li>
 				</ul>
-		
+			</div>
+			
 		</div>
 	</div>
 			

@@ -39,7 +39,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		
 			<h1>Members</h1>
 			<br/>
-			<p>TBD</p>
+			<p>This part of the website is currently under construction.</p>
 		
 		</div>
 			

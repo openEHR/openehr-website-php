@@ -5,5 +5,4 @@
 			<li><a href="http://www.youtube.com/user/openehr?feature=results_main" target="_blank">YouTube</a></li>
 			<li><a href="http://www.facebook.com/pages/openEHR/109178295780185?sk=info" target="_blank">Facebook</a></li>
 			<li><a href="http://twitter.com/#!/openehr" target="_blank">Twitter</a></li>
-			<li><a href="/community/rss" <?php if($pageOn == 'rss.php'){?> class="active"<?php }?>>RSS</a></li>
 			</ul>
