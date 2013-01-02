@@ -64,7 +64,7 @@
 		</div>
 			
 		<div id="JoinFrame">
-			<img src="gui/JoinFrame.png" usemap="#join"/>
+			<img src="gui/ProgramsFrame.png" usemap="#join"/>
 			<map name="join">
 			  <area shape="rect" coords="0,0,220,150" href="openehr_programs" alt="openEHR Programs" />
 			</map> 
