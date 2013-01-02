@@ -28,8 +28,34 @@
 		
 			<h1>Who is using openEHR?</h1>
 			
+			<h2><a name="providers"></a>Healthcare Providers</h2>
+			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Foundation. Other providers may be using it. Please <a href="about/contacts">contact us</a>, if you know of more locations where openEHR is in use.</p>
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"><p>Country</p></th>
+				<th class="TableMainT"><p>Provider/authority</p></th>
+				<th class="TableMainT"><p>Description</p></th>
+				<th class="TableMainT"><p>Vendor</p></th>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="australia_flag" title="australia_flag" src="files/basic/australia.gif"></p><p>Australia</p></td>
+				<td class="TableMainC">Queensland Health - state health authority, 4.5m consumers</td>
+				<td class="TableMainC">22 Hospitals using the Multiprac Infection Control system, based on OceanEHR, an implementation of openEHR release 1.0.2</td>
+				<td class="TableMainC">Ocean Informatics, Australia</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
+				<td class="TableMainC">The University Medical Center Ljubljana, Slovenia is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
+				<td class="TableMainC"> The Children's Hospital has been using Think!Med Clinical for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
+				<td class="TableMainC">Marand, Slovenia</td>
+			</tr>
+			</tbody>
+			</table>
+			<br/><br/>
+
 			<h2><a name="governments"></a>Governments</h2>
-			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Board. Other governments may be using it. If any government or other jurisdictional entity wants to be added to this list please <a href="about/contacts">contact us</a>, since it enables potential users to find out more about openEHR from a user perspective.</p>
+			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Foundation. Other governments may be using it. If any government or other jurisdictional entity wants to be added to this list please <a href="about/contacts">contact us</a>, since it enables potential users to find out more about openEHR from a user perspective.</p>
 			<br/>
 
 			<table class="TableMain">
