@@ -22,13 +22,13 @@
 		
 	</div> 
 
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:4000px;">
+	<div id="MainArea" style=" margin-left:30px; width:900px; height:5000px;">
 	
-		<div id="TextArea" style="left:0px; width:900px; height:4000px;">
+		<div id="TextArea" style="left:0px; width:900px; height:5000px;">
 		
 			<h1>Who is using openEHR?</h1>
 			
-			<h2><a name="providers"></a>Healthcare Providers</h2>
+			<h2><a name="providers"></a>Healthcare Providers and Authorities</h2>
 			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Foundation. Other providers may be using it. Please <a href="about/contacts">contact us</a>, if you know of more locations where openEHR is in use.</p>
 			<table class="TableMain">
 			<tbody>
@@ -36,19 +36,29 @@
 				<th class="TableMainT"><p>Country</p></th>
 				<th class="TableMainT"><p>Provider/authority</p></th>
 				<th class="TableMainT"><p>Description</p></th>
-				<th class="TableMainT"><p>Vendor</p></th>
+				<th class="TableMainT"><p>Vendor(s)</p></th>
+				<th class="TableMainT"><p>Status</p></th>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="australia_flag" title="australia_flag" src="files/basic/australia.gif"></p><p>Australia</p></td>
-				<td class="TableMainC">Queensland Health - state health authority, 4.5m consumers</td>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="australia_flag" title="australia_flag" src="files/basic/australia.gif"></p><p>Australia</p></td>
+				<td class="TableMainC">Queensland Health<br/>Australian state health authority covering 4.5m consumers</td>
 				<td class="TableMainC">22 Hospitals using the Multiprac Infection Control system, based on OceanEHR, an implementation of openEHR release 1.0.2</td>
 				<td class="TableMainC">Ocean Informatics, Australia</td>
+				<td class="TableMainC">Deployed Aug 2012</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
-				<td class="TableMainC">The University Medical Center Ljubljana, Slovenia is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
-				<td class="TableMainC"> The Children's Hospital has been using Think!Med Clinical for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="russia_flag" title="russia_flag" src="files/basic/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
+				<td class="TableMainC">Moscow City Department of Information Technologies</td>
+				<td class="TableMainC">The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow's 12 million inhabitants providing applications to 130,000 users in 780 facilities including all primary health centres and city hospitals</td>
+				<td class="TableMainC">Prime: IBS, Moscow<br/>EHR: Marand (Slovenia)<br/>Clinical strategy & tooling: Ocean Informatics UK<br/>Clinical apps: Infinnity (Russia)<br/>IHE/XDS: Forcare (Netherlands)</td>
+				<td class="TableMainC">Contracted; deployment during 2013</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
+				<td class="TableMainC">University Medical Center Ljubljana, Slovenia<br/>LMC is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
+				<td class="TableMainC">The Children's Hospital has been using Think!Med Clinical for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
 				<td class="TableMainC">Marand, Slovenia</td>
+				<td class="TableMainC">Deployed June 2011</td>
 			</tr>
 			</tbody>
 			</table>
