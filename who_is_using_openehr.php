@@ -55,10 +55,10 @@
 			</tr>
 			<tr>
 				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
-				<td class="TableMainC">University Medical Center Ljubljana, Slovenia<br/>LMC is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
+				<td class="TableMainC">University Medical Center Ljubljana, Slovenia<br/>UMCL is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
 				<td class="TableMainC">The Children's Hospital has been using Think!Med Clinical for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
 				<td class="TableMainC">Marand, Slovenia</td>
-				<td class="TableMainC">Deployed June 2011</td>
+				<td class="TableMainC">Deployed April 2011</td>
 			</tr>
 			</tbody>
 			</table>
