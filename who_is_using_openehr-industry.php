@@ -42,35 +42,41 @@
 				<th class="TableMainT"><p>Status</p></th>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="australia_flag" title="australia_flag" src="files/basic/australia.gif"></p><p>Australia</p></td>
+				<td class="TableMainC" rowspan="5"><p><img width="80px" alt="australia_flag" title="australia_flag" src="files/basic/australia.gif"></p><p>Australia</p></td>
+				<td class="TableMainC"><a href="http://www.health.qld.gov.au/">Queensland Health</a><br/>Australian state health authority responsible for the providing public health 4.5m consumers</td>
+				<td class="TableMainC">State-wide Clinical Data Repository based on Extensia RecordPoint</td>
+				<td class="TableMainC"><a href="http://www.extensia.com.au/">Extensia, Australia</a></td>
+				<td class="TableMainC">Deployed March 2007</td>
+			</tr>
+			<tr>
 				<td class="TableMainC"><a href="http://www.health.qld.gov.au/">Queensland Health</a><br/>Australian state health authority responsible for the providing public health 4.5m consumers; Centre for Healthcare Related Infection Surveillance and Prevention (CHRISP)</td>
-				<td class="TableMainC">22 Hospitals using the Multiprac Infection Control system based on OceanEHR platform (openEHR release 1.0.2)</td>
-				<td class="TableMainC"><a href="http://www.oceaninformatics.com">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">22 Hospitals using the Multiprac Infection Control system based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
 				<td class="TableMainC">Deployed Aug 2012</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><a href="http://www.health.nt.gov.au/">Northern Territory Health</a><br/>Australian state health authority responsible for the providing public health 233,000 consumers</td>
 				<td class="TableMainC">State-wide Shared EHR</td>
-				<td class="TableMainC"><a href="http://www.oceaninformatics.com">Ocean Informatics, Australia</a><br/><br/><a href="http://dialog.com.au/">Dialog Information Technology, Australia</a></td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a><br/><br/><a href="http://dialog.com.au/">Dialog Information Technology, Australia</a></td>
 				<td class="TableMainC">Deployed October 2012</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><a href="http://www.sath.org.au/">St Andrews Hospital Toowoomba, Queensland, Australia</a><br/>Regional private hospital</td>
-				<td class="TableMainC">Multiprac Infection Control and Staff Health system based on OceanEHR platform</td>
-				<td class="TableMainC"><a href="http://www.oceaninformatics.com">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">Multiprac Infection Control and Staff Health system based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
 				<td class="TableMainC">Deployed June 2012</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><a href="http://hsnph.org.au/about-us/welcome/">St Vincents Holy Spirit Hospital, Brisbane, Australia</a><br/>Private 225 bed hospital</td>
-				<td class="TableMainC">Multiprac Infection Control and Staff Health system based on OceanEHR platform</td>
-				<td class="TableMainC"><a href="http://www.oceaninformatics.com">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">Multiprac Infection Control and Staff Health system based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
 				<td class="TableMainC">Deployed December 2012</td>
 			</tr>
 			<tr>
 				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="files/basic/brazil_S.gif"></p><p>Brazil</p></td>
-				<td class="TableMainC"><a href="http://www.idealmed.pt/index.php/en/idealmed/uhc-unidade-hospitalar-de-coimbra#/como-chegar">xxxx</a><br/>xxxx</td>
-				<td class="TableMainC">Ambulatory care EHR system</td>
-				<td class="TableMainC"><a href="[1:25:26 PM] JUSSARA RÖTZSCH: http://www.p2d.com.br/">P2D, Brazil</a></td>
+				<td class="TableMainC">Around 3,000 health professionals including doctors (primarily ophthalmologists - Brazilian College of Ophthalmologists), physiotherapists, nurses and receptionists.</td>
+				<td class="TableMainC">Web-based ambulatory care EHR system</td>
+				<td class="TableMainC"><a href="http://www.p2d.com.br/">P2D, Brazil</a></td>
 				<td class="TableMainC">Deployed Feb 2012</td>
 			</tr>
 			<tr>
