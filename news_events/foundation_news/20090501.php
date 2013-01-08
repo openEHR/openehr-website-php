@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news13" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -32,7 +31,7 @@
 		
 		<div id="TextArea">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
 			<h2>svn.openehr.org turned off</h2>
 			<h6>1. May 2009 | from: Thomas Beale</h6>
@@ -51,7 +50,7 @@
 			
 						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 			
 		</div>
 			

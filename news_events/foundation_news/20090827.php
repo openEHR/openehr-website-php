@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news15" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -32,7 +31,7 @@
 		
 		<div id="TextArea">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
 			<h2>OSHIP gets CLIPS decision support engine</h2>
 			<h6>27. August 2009 | from: Tim Cook</h6>
@@ -53,7 +52,7 @@
 			Tim Cook on behalf of the entire OSHIP Team</p>
 			
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 			
 		</div>
 			

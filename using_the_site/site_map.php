@@ -76,10 +76,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h2>News & Events</h2>
 				<ul>
-					<li><a href="/news_events/news">News</a></li>
+					<li><a href="/news_events/industry_news">Industry News</a></li>
+					<li><a href="/news_events/foundation_news">Foundation News</a></li>
+					<li><a href="/news_events/announcements">Announcements</a></li>
 					<li><a href="/news_events/events">Events</a></li>
 					<li><a href="/news_events/releases">Releases</a></li>
-					<li><a href="/news_events/announcements">Announcements</a></li>
+					<li><a href="/news_events/clinical_model_news">CKM Activity</a></li>
 				</ul>
 				
 			<h2>About Us</h2>	

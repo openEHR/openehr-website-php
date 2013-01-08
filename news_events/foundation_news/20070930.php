@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news9" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -34,16 +33,16 @@
 		
 		<div id="TextArea" style="height:450px;">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
-			<h2>openEHR Python Project Started</h2>
-			<h6>3. June 2008 | from: Thomas Beale</h6>
+			<h2>openEHR at BCS Primary Health Care Specialist Group</h2>
+			<h6>30. September 2007 | from: Thomas Beale</h6>
 			
 			<br/>
-			<p>This week an upload of code from Tim Cook marks the start of the openEHR Python project. This project aims to produce an open source implementation of openEHR in Python.</p>
+			<p>Thomas Beale presented openEHR at the British Computer Society <a href="http://www.phcsg.org/">Primary Health Care Specialist Group</a> conference in Oxford, 30th September 2007.</p>
 						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 			
 		</div>
 			

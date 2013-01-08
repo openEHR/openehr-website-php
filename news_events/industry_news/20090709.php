@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news14" title="openEHR - News">
+	<title>openEHR - Industry News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -19,20 +18,22 @@
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 1; include '../menu/newsmenu.php' ?>
+			<?php $current = 5; include '../menu/newsmenu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 		
-			<h1>News</h1>
+			<h1>Industry News</h1>
 			
 			<h2>openEHR in &pound;1.1m Wellcome Trust Sintero project</h2>
 			<h6>9. July 2009 | from: Thomas Beale</h6>
@@ -44,7 +45,7 @@
 			<p>All openEHR archetypes developed in the course of the project will be created and maintained in the openEHR Clinical Knowledge Manager at <a href="http://www.openehr.org/knowledge">http://www.openEHR.org/knowledge</a>, and will be open to review by the clinical community at large.</p>
 						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/industry_news/">>> Back to News</a>
 			
 		</div>
 			

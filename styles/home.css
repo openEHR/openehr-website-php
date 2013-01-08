@@ -18,13 +18,11 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
 
 #MainArea a {
  color:#3386AE;
- font-weight:900;
  text-decoration:none;
 }
 
 #MainArea a:hover {
  color:#3386AE;
- font-weight:900;
  text-decoration:underline;
 }
 

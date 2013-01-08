@@ -77,7 +77,7 @@
 		
 		<div id="HomeFrame2">
 			<div id="TwitterFrame">
-				<h2>openEHR News</h2>
+				<h2>openEHR Talk</h2>
 				<div style="position: absolute; top:30px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
 					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 					<script>
@@ -90,7 +90,7 @@
 					 title: '',
 					 subject: '',
 					 width: 190,
-					 height: 250,
+					 height: 100,
 					 theme: {
 					   shell: {
 						 background: 'none',
@@ -111,12 +111,10 @@
 					}).render().start();
 					</script>
 				</div>
-			</div>
-			
-			
-			<div id="Twitter2Frame">
-				<h2>Clinical Model News</h2>
-				<div style="position: absolute; top:30px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
+				
+				<br/><br/><br/><br/><br/><br/><br/><br/>
+				<a href="news_events/clinical_model_news" style="color:#023670;"><h2>CKM Activity</h2></a>
+				<div style="position: absolute; top:190px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
 					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 					<script>
 					new TWTR.Widget({
@@ -127,7 +125,7 @@
 					  title: '',
 					  subject: '',
 					  width: 190,
-					  height: 250,
+					  height: 100,
 					  theme: {
 						shell: {
 						  background: 'none',
@@ -150,31 +148,49 @@
 				</div>
 			</div>
 			
+			
+			<div id="Twitter2Frame">
+				<div id="LinksFrame">
+					<a href="news_events/industry_news" style="color:#023670;"><h2>Industry News</h2></a>
+					<a href="news_events/industry_news/20120516">Brazil re-affirms commitment to openEHR</a>
+					<h6>16. May 2012</h6>
+					<br/>
+					<a href="news_events/industry_news/20111214">Clinical Information Modelling Initiative goes with Archetypes & UML profile</a>
+					<h6>14. December 2011</h6>
+					<br/>
+					<a href="news_events/industry_news/20110106">Brazil chooses openEHR for EHR at all levels of government</a>
+					<h6>6. January 2011</h6>
+					<br/>
+					<a href="news_events/industry_news/20090709">openEHR in &pound;1.1m Wellcome Trust Sintero project</a>
+					<h6>9. July 2009</h6>
+				</div>
+			</div>
+			
 
 			<div id="NewsFrame">
 				<div id="LinksFrame">
-					<h2>News & Events</h2>
+					<a href="news_events/announcements" style="color:#023670;"><h2>Announcements</h2></a>
 					<a href="news_events/announcements/20121212">openEHR Transition Update</a>
 					<h6>12. December 2012</h6>
 					<br/>
-					<a href="news_events/events/20120910">openEHR Foundation Meeting</a>
-					<h6>10.-12. September 2012</h6>
+					<a href="news_events/announcements/20120515">Board statement on Clinical Knowledge Manager</a>
+					<h6>15. May 2012</h6>
 					<br/>
-					<a href="news_events/events/20120702">HL7 Australia Seminar on Future HL7 Standards</a>
-					<h6>2. July 2012</h6>
+					<a href="news_events/announcements/20120211">Interim board announces new openEHR Program groups</a>
+					<h6>11. February 2012</h6>
 					<br/>
-					<a href="news_events/events/20120621">openEHR @ HINZ</a>
-					<h6>21.-22. June 2012</h6>
+					<a href="news_events/announcements/20111020">Update on openEHR Governance</a>
+					<h6>20. October 2011</h6>
 					<br/>
-					<a href="news_events/news/20120516">Brazil re-affirms commitement to openEHR</a>
-					<h6>16. May 2012</h6>
+					<a href="news_events/announcements/20110905">openEHR Transition Announcement</a>
+					<h6>5. September 2011</h6>
 				</div>	
 			</div>
 			
 			
 			<div id="ReleasesFrame">
 				<div id="LinksFrame">
-					<h2>Releases</h2>
+					<a href="news_events/releases" style="color:#023670;"><h2>Releases</h2></a>
 					<a href="news_events/releases/20120813">ADL - syntax highlight for Notepad++</a>
 					<h6>13. August 2012</h6>
 					<br/>
@@ -191,6 +207,8 @@
 					<h6>14. January 2011</h6>
 				</div>
 			</div>	 
+			
+			
 		</div>
 	</div>
 

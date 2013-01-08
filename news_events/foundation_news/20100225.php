@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news3" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -26,29 +25,29 @@
 		
 	</div> 
 
-	<div id="MainArea">
+	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
 			<?php $current = 1; include '../menu/newsmenu.php' ?>
 		</div>
 		
-		<div id="TextArea" style="height:450px;">
+		<div id="TextArea">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
-			<h2>Version control system adopted</h2>
-			<h6>4. May 2004 | from: Thomas Beale</h6>
+			<h2>David Ingram interview with Talkstandards</h2>
+			<h6>25. February 2010 | from: Thomas Beale</h6>
 			
 			<br/>
-			<p>openEHR public materials have been moved to a web-accessible version control system called BitKeeper, enabling reliable access and collaborative development on software and documents.</p>
-						
+			<p>In an exclusive interview with Talkstandards, Professor David Ingram of openEHR, outlines some of his expectations for the future of ICT in the health care sector.
+			See <a href="http://www.talkstandards.com/best-approach-to-ehealth-standardization-is-learning-by-doing/">Talkstandards website</a>.</p>
+
 			<br/>
-			<a href="../news">>> Back to News</a>
-			
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 		</div>
 			
+
 	</div>
-	
 	<div id="BottomMenu">
 		<?php include '../../menu/bottommenu.php' ?>
 	</div>

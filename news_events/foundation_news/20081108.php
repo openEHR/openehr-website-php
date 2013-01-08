@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news5" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -34,16 +33,16 @@
 		
 		<div id="TextArea" style="height:450px;">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
-			<h2>openEHR at BCS Primary Health Care Specialist Group</h2>
-			<h6>30. September 2007 | from: Thomas Beale</h6>
+			<h2>CfH / NEHTA / Canada Health Infoway - openEHR presentation</h2>
+			<h6>8. November 2008 | from: Thomas Beale</h6>
 			
 			<br/>
-			<p>Thomas Beale presented openEHR at the British Computer Society <a href="http://www.phcsg.org/">Primary Health Care Specialist Group</a> conference in Oxford, 30th September 2007.</p>
+			<p>Professor David Ingram (Head of CHIME, UCL, chair of openEHR Foundation) delivered an invited presentation at a workshop in Helsingor, Denmark, at the invitation of NHS Connecting for Health (CFH), Australia's National e-Health Transition Authority (NEHTA) and Canada Health Infoway.</p>
 						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 			
 		</div>
 			

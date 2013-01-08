@@ -3,8 +3,8 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/news" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
+	<link rel="bookmark" href="http://www.openehr.org/news_events/foundation_news" title="openEHR - Foundation News">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -34,22 +34,7 @@
 		
 		<div id="TextArea">
 			
-			<h1>News</h1>
-			<br/>
-			
-			<a href="20120516">Brazil re-affirms commitement to openEHR</a>
-			<h6>16. May 2012</h6>
-			<p>As part of operationalising chapter III of the government decree (Nº 2.073, DE 31 DE AGOSTO DE 2011), a national EHR Workshop was held aimed at defining methods and standards to be used in the Brazilian EHR Project (RES-National). The conclusions were largely underpinned by openEHR.</p>
-			<br/>
-			
-			<a href="20111214">Clinical Information Modelling Initiative goes with Archetypes & UML profile</a>
-			<h6>14. December 2011</h6>
-			<p>The Clinical Information Modeling Initiative is an international collaboration that is dedicated to providing a common format for detailed specifications for the representation of health information content so that semantically interoperable information may be created and shared in health records, messages and documents.</p>
-			<br/>
-			
-			<a href="20110106">Brazil chooses openEHR for EHR at all levels of government</a>
-			<h6>6. January 2011</h6>
-			<p>Brazil has chosen to use openEHR and archetypes for the shareable EHR at three levels of government - federal, state and municipal.</p>
+			<h1>Foundation News</h1>
 			<br/>
 			
 			<a href="20100225">David Ingram interview with Talkstandards</a>
@@ -67,19 +52,9 @@
 			<p>The Open Source Health Information Platform (OSHIP) has integrated the "gold standard" forward chaining inference engine CLIPS in order to support complex decision support requirements.</p>
 			<br/>
 			
-			<a href="20090709">openEHR in £1.1m Wellcome Trust Sintero project</a>
-			<h6>9. July 2009</h6>
-			<p>The openEHR health computing platform will be used as the basis of the core clinical repository for the Sintero project funded by a &pound;1.1m grant from the Wellcome Trust.</p>
-			<br/>
-			
 			<a href="20090501">svn.openehr.org turned off</a>
 			<h6>1. May 2009</h6>
 			<p>The old URL http://svn.openehr.org has been turned off; use http://www.openehr.org/svn. If you have an error when doing an SVN operation on a local repository, check if this is the initial part of the URL.</p>
-			<br/>
-			
-			<a href="20090420">Microsoft Connected Health Framework (CHF) uses archetypes</a>
-			<h6>20. April 2009</h6>
-			<p>The latest edition of Microsoft's Connected Health Framework - a strategy based on the idea of 'knowledge-driven health' - includes openEHR (ISO 13606-2) archetypes as part of its domain knowledge architecture.</p>
 			<br/>
 			
 			<a href="20081108">CfH / NEHTA / Canada Health Infoway - openEHR presentation</a>
