@@ -4,7 +4,6 @@
 <head>
 
 	<title>openEHR - Releases</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/releases/release15" title="openEHR - Releases">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>

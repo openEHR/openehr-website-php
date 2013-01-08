@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news18" title="openEHR - News">
+	<title>openEHR - Industry News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -29,12 +28,12 @@
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 1; include '../menu/newsmenu.php' ?>
+			<?php $current = 5; include '../menu/newsmenu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>News</h1>
+			<h1>Industry News</h1>
 			
 			<h2>Brazil chooses openEHR for EHR at all levels of government</h2>
 			<h6>6. January 2011 | from: Jussara R&ouml;tzsch, Ministry of Health, Brazil</h6>
@@ -58,7 +57,7 @@
 			Ministry of Health, Brazil</p>
 
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/industry_news/">>> Back to News</a>
 			
 		</div>
 			

@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news8" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -34,16 +33,16 @@
 		
 		<div id="TextArea" style="height:450px;">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
-			<h2>Health IT press Australia - OpenEHR: The World's Record</h2>
-			<h6>10. December 2007 | from: Thomas Beale</h6>
+			<h2>Version control system adopted</h2>
+			<h6>4. May 2004 | from: Thomas Beale</h6>
 			
 			<br/>
-			<p>An article on openEHR in Australia's Pulse+IT magazine, by Heather Leslie, Nov 2007. </p>
+			<p>openEHR public materials have been moved to a web-accessible version control system called BitKeeper, enabling reliable access and collaborative development on software and documents.</p>
 						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 			
 		</div>
 			

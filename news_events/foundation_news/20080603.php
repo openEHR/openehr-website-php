@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news10" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -34,16 +33,16 @@
 		
 		<div id="TextArea" style="height:450px;">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
-			<h2>New openEHR Decision Support mailing list</h2>
-			<h6>6. June 2008 | from: Thomas Beale</h6>
+			<h2>openEHR Python Project Started</h2>
+			<h6>3. June 2008 | from: Thomas Beale</h6>
 			
 			<br/>
-			<p>A new openEHR Decision Support mailing list has been created. openEHR has only a small number of lists outside of the specific programming language sub-communities, and each is broad, reflecting a belief in the interdisciplinary nature of things. The decision support list is the first new list for a couple of years, and is intended to support discussions around solving problems in decision support with openEHR. See <a href="../../community/mailinglists">mailing list page</a> for subscription.</p>
+			<p>This week an upload of code from Tim Cook marks the start of the openEHR Python project. This project aims to produce an open source implementation of openEHR in Python.</p>
 						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 			
 		</div>
 			

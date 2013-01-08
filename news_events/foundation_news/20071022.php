@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news17" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -26,29 +25,29 @@
 		
 	</div> 
 
-	<div id="MainArea" style="height:450px;">
+	<div id="MainArea">
 	
 		<div id="SideMenu">
 			<?php $current = 1; include '../menu/newsmenu.php' ?>
 		</div>
 		
-		<div id="TextArea">
+		<div id="TextArea" style="height:450px;">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
-			<h2>David Ingram interview with Talkstandards</h2>
-			<h6>25. February 2010 | from: Thomas Beale</h6>
+			<h2>Archetype Editorial Group launched</h2>
+			<h6>22. October 2007 | from: Thomas Beale</h6>
 			
 			<br/>
-			<p>In an exclusive interview with Talkstandards, Professor David Ingram of openEHR, outlines some of his expectations for the future of ICT in the health care sector.
-			See <a href="http://www.talkstandards.com/best-approach-to-ehealth-standardization-is-learning-by-doing/">Talkstandards website</a>.</p>
-
+			<p>The lead group for archetype authoring has been formed - the Archetype Editorial Group. This group will work with Sebastian Garde to finalise the process for the authoring of archetypes and begin the ratification of all archetypes. The archetypes will then be stored in a web-based environment that will provide a lot of background information and also manage the orderly release of updates. It is an international group, predominantly doctors at the outset. It is hoped that the next group will provide the leadership for Nursing archetypes.</p>
+						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
+			
 		</div>
 			
-
 	</div>
+	
 	<div id="BottomMenu">
 		<?php include '../../menu/bottommenu.php' ?>
 	</div>

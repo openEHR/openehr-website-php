@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news2" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -34,7 +33,7 @@
 		
 		<div id="TextArea" style="height:450px;">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
 			<h2>openEHR has 256 members</h2>
 			<h6>26. August 2003 | from: Thomas Beale</h6>
@@ -43,7 +42,7 @@
 			<p>There are now 256 members from 42 countries - so we are a veritable international group! Thank you for your participation.</p>
 						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 			
 		</div>
 			

@@ -37,7 +37,7 @@
 			<h1>Announcements</h1>
 			
 			<h2>Interim board announces new openEHR Program groups</h2>
-			<h6>11. February | from: Sam Heard, Chair of Interim Board of Directors</h6>
+			<h6>11. February 2012 | from: Sam Heard, Chair of Interim Board of Directors</h6>
 			<br/>
 			
 			<p>openEHR is now being used in a range of environments and languages. Using it effectively has a steep learning curve but the benefits of having clinical content specified independent of the implementation environment or the format for sharing (web services, message etc) is beginning to make sense as people start to really try to share more complex health information. The real advantages are more obvious once there is a shared health record as that involves a leap of complexity: lists have to be maintained; actions recorded against instructions etc.</p>

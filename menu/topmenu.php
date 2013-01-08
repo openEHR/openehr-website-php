@@ -45,10 +45,12 @@
 				
         		<li><span>News & Events</span>
             		 <ul>
-                		<li><a href="/news_events/news">&nbsp; News</a></li>
+                		<li><a href="/news_events/industry_news">&nbsp; Industry News</a></li>
+						<li><a href="/news_events/foundation_news">&nbsp; Foundation News</a></li>
+						<li><a href="/news_events/announcements">&nbsp; Announcements</a></li>
                 		<li><a href="/news_events/events">&nbsp; Events</a></li>
 						<li><a href="/news_events/releases">&nbsp; Releases</a></li>
-						<li><a href="/news_events/announcements">&nbsp; Announcements</a></li>
+						<li><a href="/news_events/clinical_model_news">&nbsp; CKM Activity</a></li>
 					</ul>
        			</li>
         	

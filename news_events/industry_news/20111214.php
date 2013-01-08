@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news19" title="openEHR - News">
+	<title>openEHR - Industry News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -19,20 +18,22 @@
 	</div>
 	
 	<div id="TopMenu" style="text-align:left">
+	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 1; include '../menu/newsmenu.php' ?>
+			<?php $current = 5; include '../menu/newsmenu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 		
-			<h1>News</h1>
+			<h1>Industry News</h1>
 			
 			<h2>Clinical Information Modelling Initiative goes with Archetypes & UML profile</h2>
 			<h6>14. December 2011 | from: Thomas Beale</h6>
@@ -93,7 +94,7 @@
 			<p>In the future CIMI will provide information publicly on the Internet. For immediate further information, contact <a href="mailto:stan.huff@imail.org">Stan Huff</a>.</p>
 			
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/industry_news/">>> Back to News</a>
 			
 		</div>
 			

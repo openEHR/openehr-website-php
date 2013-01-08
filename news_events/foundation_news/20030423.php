@@ -3,8 +3,7 @@
 <html>
 <head>
 
-	<title>openEHR - News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrnews/news1" title="openEHR - News">
+	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
@@ -34,7 +33,7 @@
 		
 		<div id="TextArea" style="height:450px;">
 		
-			<h1>News</h1>
+			<h1>Foundation News</h1>
 			
 			<h2>Foundation Establishment</h2>
 			<h6>23. April 2003 | from: Thomas Beale</h6>
@@ -43,7 +42,7 @@
 			<p>The openEHR Foundation has been established as a not-for-profit company, limited by guarantee.</p>
 						
 			<br/>
-			<a href="../news">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to News</a>
 			
 		</div>
 			
