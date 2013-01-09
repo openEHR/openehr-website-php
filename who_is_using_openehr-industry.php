@@ -22,14 +22,94 @@
 		
 	</div> 
 
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:4000px;">
+	<div id="MainArea" style=" margin-left:30px; width:900px; height:5000px;">
 	
-		<div id="TextArea" style="left:0px; width:900px; height:4000px;">
+		<div id="TextArea" style="left:0px; width:900px; height:5000px;">
 		
 			<h1>Who is using openEHR?</h1>
 			
+			<h2><a name="providers"></a>Healthcare Providers and Authorities</h2>
+			<p>The following&nbsp; table indicates known current and contracted future deployments of openEHR solutions into production healthcare 
+			delivery settings and operational secondary use contexts, including medical research and public health. 
+			Please <a href="about/contacts">contact us</a>, to notify of other openEHR deployments.</p>
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"><p>Country</p></th>
+				<th class="TableMainT"><p>Provider/authority</p></th>
+				<th class="TableMainT"><p>Description</p></th>
+				<th class="TableMainT"><p>Vendor(s)</p></th>
+				<th class="TableMainT"><p>Status</p></th>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="australia_flag" title="australia_flag" src="files/basic/australia.gif"></p><p>Australia</p></td>
+				<td class="TableMainC"><a href="http://www.health.qld.gov.au/">Queensland Health</a><br/>Australian state health authority responsible for the providing public health 4.5m consumers; Centre for Healthcare Related Infection Surveillance and Prevention (CHRISP)</td>
+				<td class="TableMainC">Infection Control system, Multiprac, for 22 large hospitals in Queensland based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">Deployed Aug 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.health.nt.gov.au/">Northern Territory Health</a><br/>Australian state health authority responsible for the providing public health 233,000 consumers</td>
+				<td class="TableMainC">Shared Electronic Health record for over 50,000 remote indigenous people in the NT and other states in Australia</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a><br/><br/><a href="http://dialog.com.au/">Dialog Information Technology, Australia</a></td>
+				<td class="TableMainC">Deployed October 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.sath.org.au/">St Andrews Hospital Toowoomba, Queensland, Australia</a><br/>Regional private hospital</td>
+				<td class="TableMainC">Multiprac Infection Control and Staff Health system based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">Deployed June 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://hsnph.org.au/about-us/welcome/">St Vincents Holy Spirit Hospital, Brisbane, Australia</a><br/>Large private 225 bed hospital</td>
+				<td class="TableMainC">Multiprac Infection Control and Staff Health system based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">Deployed December 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="files/basic/brazil_S.gif"></p><p>Brazil</p></td>
+				<td class="TableMainC">Around 3,000 health professionals including doctors (primarily ophthalmologists - Brazilian College of Ophthalmologists), physiotherapists, nurses and receptionists.</td>
+				<td class="TableMainC">Web-based ambulatory care EHR system</td>
+				<td class="TableMainC"><a href="http://www.p2d.com.br/">P2D, Brazil</a></td>
+				<td class="TableMainC">Deployed Feb 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.spasaude.org.br/">SPAsaude health plan</a></br>Boa Esperan&ccedil;a, S&atilde;o Paulo</td>
+				<td class="TableMainC">Web-based ambulatory care system for chronic care management</td>
+				<td class="TableMainC"><a href="http://ricardoquintano.wix.com/ezvida/">ezVida, Brazil</a></td>
+				<td class="TableMainC">Deployed June 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="portugal_flag" title="portugal_flag" src="files/basic/portugal_flag.jpg"></p><p>Portugal</p></td>
+				<td class="TableMainC"><a href="http://www.idealmed.pt/index.php/en/idealmed/uhc-unidade-hospitalar-de-coimbra#/como-chegar">IdealMed, Coimbra, Portugal</a><br/>Large private hospital covering all medical specialties and settings including inpatient, outpatient, surgery, emergency, Medical Training, Clinical Research and Clinical Trials</td>
+				<td class="TableMainC">Clinical Repository &amp; Clinical Trials Management System</td>
+				<td class="TableMainC"><a href="http://solutions.criticalsoftware.com/health/">Critical Software S.A., Portugal</a></td>
+				<td class="TableMainC">Deployed May 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="russia_flag" title="russia_flag" src="files/basic/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
+				<td class="TableMainC"><a href="http://www.mos.ru/en/authority/dit/">Moscow City Department of Information Technologies</a><br/>Authority responsible for e-health solutions for Moscow's 12 million, and 130,000 users in 780 facilities.</td>
+				<td class="TableMainC">The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow, including all primary health centres and city hospitals</td>
+				<td class="TableMainC">Prime: <a href="http://www.ibs.ru/">IBS, Moscow</a><br/>
+					EHR platform: <a href="http://www.marand-thinkmed.com/">Marand (Slovenia)</a><br/>
+					Clinical apps: <a href="http://www.infinnity.ru/">Infinnity (Russia)</a><br/>
+					Clinical strategy &amp; tooling: <a href="http://www.oceaninformatics.com">Ocean Informatics UK</a><br/>
+					IHE/XDS: <a href="http://www.forcare.nl/">Forcare (Netherlands)</a></td>
+				<td class="TableMainC">Pilot phase contracted; deployment during 2013</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
+				<td class="TableMainC"><a href="http://www4.kclj.si/ang/index.php">University Medical Center Ljubljana, Slovenia</a><br/>UMCL is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
+				<td class="TableMainC">The Children's Hospital has been using Think!Med Clinical for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
+				<td class="TableMainC"><a href="http://www.marand-thinkmed.com/">Marand, Slovenia</a></td>
+				<td class="TableMainC">Deployed April 2011</td>
+			</tr>
+			</tbody>
+			</table>
+			<br/><br/>
+
 			<h2><a name="governments"></a>Governments</h2>
-			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Board. Other governments may be using it. If any government or other jurisdictional entity wants to be added to this list please <a href="about/contacts">contact us</a>, since it enables potential users to find out more about openEHR from a user perspective.</p>
+			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Foundation. Other governments may be using it. If any government or other jurisdictional entity wants to be added to this list please <a href="about/contacts">contact us</a>, since it enables potential users to find out more about openEHR from a user perspective.</p>
 			<br/>
 
 			<table class="TableMain">
