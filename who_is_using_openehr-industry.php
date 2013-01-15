@@ -22,9 +22,9 @@
 		
 	</div> 
 
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:5000px;">
+	<div id="MainArea" style=" margin-left:30px; width:900px; height:5800px;">
 	
-		<div id="TextArea" style="left:0px; width:900px; height:5000px;">
+		<div id="TextArea" style="left:0px; width:900px; height:5800px;">
 		
 			<h1>Who is using openEHR?</h1>
 			
@@ -74,12 +74,33 @@
 				<td class="TableMainC">Deployed Feb 2012</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><a href="http://www.spasaude.org.br/">SPAsaude health plan</a></br>Boa Esperan&ccedil;a, S&atilde;o Paulo</td>
+				<td class="TableMainC"><a href="http://www.spasaude.org.br/">SPAsaude health plan</a><br/>Boa Esperan&ccedil;a, S&atilde;o Paulo</td>
 				<td class="TableMainC">Web-based ambulatory care system for chronic care management</td>
 				<td class="TableMainC"><a href="http://ricardoquintano.wix.com/ezvida/">ezVida, Brazil</a></td>
 				<td class="TableMainC">Deployed June 2012</td>
 			</tr>
 			<tr>
+				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="netherlands_flag" title="netherlands_flag" src="files/basic/netherlands.gif"></p><p>The Netherlands</p></td>
+				<td class="TableMainC"><a href="http://www.ggznhn.nl">GGZ Noord Holland Noord</a><br/>Mental health organisation</td>
+				<td class="TableMainC">MedPlus24 medication viewer (openEHR 1.0.2), to view all prescribed medication for a specific patient. The information 
+				is digitally collected from all the surrounding city pharmacies in the region.</td>
+				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
+				<td class="TableMainC">Deployed April 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.ggzfriesland.nl">GGZ Friesland</a><br/>Mental health organisation</td>
+				<td class="TableMainC">mConsole &amp; Base24 EHR solution (openEHR 1.0.2), where Base24 is used as an integrated database which links the patient portal and several other 
+				3rd party systems directly with the EHR. Patients and care providers work seamlessly with the same data.</td>
+				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
+				<td class="TableMainC">Deployed August 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.rkz.nl">Rode Kruis Ziekenhuis</a><br/>Hospital</td>
+				<td class="TableMainC">BeterVerwijzen a digital referral system (openEHR 1.0.2), where a home physician is able to make an electronic referral which is managed 
+				and processed in combination the EHR.</td>
+				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
+				<td class="TableMainC">Deployed November 2011</td>
+			</tr>
 				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="portugal_flag" title="portugal_flag" src="files/basic/portugal_flag.jpg"></p><p>Portugal</p></td>
 				<td class="TableMainC"><a href="http://www.idealmed.pt/index.php/en/idealmed/uhc-unidade-hospitalar-de-coimbra#/como-chegar">IdealMed, Coimbra, Portugal</a><br/>Large private hospital covering all medical specialties and settings including inpatient, outpatient, surgery, emergency, Medical Training, Clinical Research and Clinical Trials</td>
 				<td class="TableMainC">Clinical Repository &amp; Clinical Trials Management System</td>
@@ -87,7 +108,7 @@
 				<td class="TableMainC">Deployed May 2011</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="russia_flag" title="russia_flag" src="files/basic/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
+				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="russia_flag" title="russia_flag" src="files/basic/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
 				<td class="TableMainC"><a href="http://www.mos.ru/en/authority/dit/">Moscow City Department of Information Technologies</a><br/>Authority responsible for e-health solutions for Moscow's 12 million, and 130,000 users in 780 facilities.</td>
 				<td class="TableMainC">The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow, including all primary health centres and city hospitals</td>
 				<td class="TableMainC">Prime: <a href="http://www.ibs.ru/">IBS, Moscow</a><br/>
@@ -96,6 +117,25 @@
 					Clinical strategy &amp; tooling: <a href="http://www.oceaninformatics.com">Ocean Informatics UK</a><br/>
 					IHE/XDS: <a href="http://www.forcare.nl/">Forcare (Netherlands)</a></td>
 				<td class="TableMainC">Pilot phase contracted; deployment during 2013</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><em>Clinic of Chelyabinsk Medical Academy</em><br/>572 beds, 196 physicians, 386 staff in total</td>
+				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC">Deployed late 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><em>Federal Medical Biological Agency of Trekhgorny, Chelyabinskaya oblast</em><br/>403 beds, 119 physicians<br/>
+				<em>Federal Medical Biological Agency of Chelyabinsk, Radiation Rehabilitation Center</em></br>200 beds, 36 physicians, 76 staff in total</td>
+				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC">Deployed 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><em>Russian Railways Medical Center, Chelyabinsk, Department of Southern Urals</em><br/>630 beds, 700 physicians, 1500 of staff in total</td>
+				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC">Deployed 2011</td>
 			</tr>
 			<tr>
 				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
@@ -107,6 +147,44 @@
 			</tbody>
 			</table>
 			<br/><br/>
+
+
+			<h2><a name="research_projects"></a>Funded Research Projects</h2>
+			<p>The following&nbsp; table indicates known funded research projects using openEHR. Please <a href="about/contacts">contact us</a>, to notify of other projects.</p>
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"><p>Location</p></th>
+				<th class="TableMainT"><p>Project</p></th>
+				<th class="TableMainT"><p>Description</p></th>
+				<th class="TableMainT"><p>Vendor(s) / consortium</p></th>
+				<th class="TableMainT"><p>Status</p></th>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="eu_flag" title="eu_flag" src="files/basic/Flag_of_Europe.svg.png"></p><p>European Union</p></td>
+				<td class="TableMainC"><a href="http://www.chiron-project.eu/">CHIRON</a><br/>Integrated Healthcare approach for home, mobile and clinical environments.<br/>
+				CHIRON is a European Research Project co-financed by the ARTEMIS Joint Undertaking (call 2009 – Artemis Sub-program ASP2: Person-centric Healthcare).<br/>
+				27 partners.</td>
+				<td class="TableMainC">The CHIRON project intends to combine state-of-the art technologies and innovative solutions into an integrated framework designed for an 
+				effective and person-centric health management along the complete care cycle. Will monitor 100 patients with atrial fibrillation during 2013.</td>
+				<td class="TableMainC"><a href="http://www.medvision360.com/?lang=en">MedVision360 (Zorg Gemak), Netherlands</a></td>
+				<td class="TableMainC">March 2010 - end 2013</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.mobiguide-project.eu/">MOBIGUIDE</a><br/>MobiGuide (FP7-287811) is a supported project under the European 
+				Commission Seventh Framework Programme (2007-2013).<br/>
+				13 partners.</td>
+				<td>The aim of the MobiGuide project is to develop an intelligent decision-support system for patients with chronic illnesses. The system accompanies 
+				the patients wherever they go and helps them and their care providers in managing their illness,
+				whether they are at home, at work, out and about or travelling abroad on holiday or for business.</td>
+				<td class="TableMainC"><a href="http://www.medvision360.com/?lang=en">MedVision360 (Zorg Gemak), Netherlands</a></td>
+				<td class="TableMainC">ends 2013</td>
+			</tr>
+			</tbody>
+			</table>
+			<br/><br/>
+
+
 
 			<h2><a name="governments"></a>Governments</h2>
 			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Foundation. Other governments may be using it. If any government or other jurisdictional entity wants to be added to this list please <a href="about/contacts">contact us</a>, since it enables potential users to find out more about openEHR from a user perspective.</p>
@@ -207,7 +285,7 @@
 				<th class="TableMainT"><p>Description</p></th>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80px" alt="argentina_flag" title="argentina_flag" src="files/basic/argentina_S.gif"></p>
+				<td class="TableMainC"><p><img width="80px" alt="argentina_flag" title="argentina_flag" src="files/basic/Flag_of_Argentina.svg.png"></p>
 				<p>Argentina</p></td>
 				<td class="TableMainC"><a href="http://www.hospitalaustral.edu.ar/">Austral University Hospital</a></td>
 				<td class="TableMainC">Alan March</td>
