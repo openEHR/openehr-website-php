@@ -22,14 +22,209 @@
 		
 	</div> 
 
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:4000px;">
+	<div id="MainArea" style=" margin-left:30px; width:900px; height:5850px;">
 	
-		<div id="TextArea" style="left:0px; width:900px; height:4000px;">
+		<div id="TextArea" style="left:0px; width:900px; height:5850px;">
 		
 			<h1>Who is using openEHR?</h1>
 			
+			<h2><a name="providers"></a>Healthcare Providers and Authorities</h2>
+			<p>The following&nbsp; table indicates known current and contracted future deployments of openEHR solutions into production healthcare 
+			delivery settings and operational secondary use contexts, including medical research and public health. 
+			Please <a href="about/contacts">contact us</a>, to notify of other openEHR deployments.</p>
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"><p>Country</p></th>
+				<th class="TableMainT"><p>Provider/authority</p></th>
+				<th class="TableMainT"><p>Description</p></th>
+				<th class="TableMainT"><p>Vendor(s)</p></th>
+				<th class="TableMainT"><p>Status</p></th>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="australia_flag" title="australia_flag" src="files/basic/australia.gif"></p><p>Australia</p></td>
+				<td class="TableMainC"><a href="http://www.health.qld.gov.au/">Queensland Health</a><br/>Australian state health authority responsible for the providing public health 4.5m consumers; Centre for Healthcare Related Infection Surveillance and Prevention (CHRISP)</td>
+				<td class="TableMainC">Infection Control system, Multiprac, for 22 large hospitals in Queensland based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">Deployed Aug 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.health.nt.gov.au/">Northern Territory Health</a><br/>Australian state health authority responsible for the providing public health 233,000 consumers</td>
+				<td class="TableMainC">Shared Electronic Health record for over 50,000 remote indigenous people in the NT and other states in Australia</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a><br/><br/><a href="http://dialog.com.au/">Dialog Information Technology, Australia</a></td>
+				<td class="TableMainC">Deployed October 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.sath.org.au/">St Andrews Hospital Toowoomba, Queensland, Australia</a><br/>Regional private hospital</td>
+				<td class="TableMainC">Multiprac Infection Control and Staff Health system based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">Deployed June 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://hsnph.org.au/about-us/welcome/">St Vincents Holy Spirit Hospital, Brisbane, Australia</a><br/>Large private 225 bed hospital</td>
+				<td class="TableMainC">Multiprac Infection Control and Staff Health system based on the Ocean OceanEHR platform</td>
+				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
+				<td class="TableMainC">Deployed December 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="files/basic/brazil_S.gif"></p><p>Brazil</p></td>
+				<td class="TableMainC">Around 3,000 health professionals including doctors (primarily ophthalmologists - Brazilian College of Ophthalmologists), physiotherapists, nurses and receptionists.</td>
+				<td class="TableMainC">Web-based ambulatory care EHR system</td>
+				<td class="TableMainC"><a href="http://www.p2d.com.br/">P2D, Brazil</a></td>
+				<td class="TableMainC">Deployed Feb 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.spasaude.org.br/">SPAsaude health plan</a><br/>Boa Esperan&ccedil;a, S&atilde;o Paulo</td>
+				<td class="TableMainC">Web-based ambulatory care system for chronic care management</td>
+				<td class="TableMainC"><a href="http://ricardoquintano.wix.com/ezvida/">ezVida, Brazil</a></td>
+				<td class="TableMainC">Deployed June 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="netherlands_flag" title="netherlands_flag" src="files/basic/netherlands.gif"></p><p>The Netherlands</p></td>
+				<td class="TableMainC"><a href="http://www.ggznhn.nl">GGZ Noord Holland Noord</a><br/>Mental health organisation</td>
+				<td class="TableMainC">MedPlus24 medication viewer (openEHR 1.0.2), to view all prescribed medication for a specific patient. The information 
+				is digitally collected from all the surrounding city pharmacies in the region.</td>
+				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
+				<td class="TableMainC">Deployed April 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.ggzfriesland.nl">GGZ Friesland</a><br/>Mental health organisation</td>
+				<td class="TableMainC">mConsole &amp; Base24 EHR solution (openEHR 1.0.2), where Base24 is used as an integrated database which links the patient portal and several other 
+				3rd party systems directly with the EHR. Patients and care providers work seamlessly with the same data.</td>
+				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
+				<td class="TableMainC">Deployed August 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.rkz.nl">Rode Kruis Ziekenhuis</a><br/>Hospital</td>
+				<td class="TableMainC">BeterVerwijzen a digital referral system (openEHR 1.0.2), where a home physician is able to make an electronic referral which is managed 
+				and processed in combination the EHR.</td>
+				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
+				<td class="TableMainC">Deployed November 2011</td>
+			</tr>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="portugal_flag" title="portugal_flag" src="files/basic/portugal_flag.jpg"></p><p>Portugal</p></td>
+				<td class="TableMainC"><a href="http://www.idealmed.pt/index.php/en/idealmed/uhc-unidade-hospitalar-de-coimbra#/como-chegar">IdealMed, Coimbra, Portugal</a><br/>Large private hospital covering all medical specialties and settings including inpatient, outpatient, surgery, emergency, Medical Training, Clinical Research and Clinical Trials</td>
+				<td class="TableMainC">Clinical Repository &amp; Clinical Trials Management System</td>
+				<td class="TableMainC"><a href="http://solutions.criticalsoftware.com/health/">Critical Software S.A., Portugal</a></td>
+				<td class="TableMainC">Deployed May 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="russia_flag" title="russia_flag" src="files/basic/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
+				<td class="TableMainC"><a href="http://www.mos.ru/en/authority/dit/">Moscow City Department of Information Technologies</a><br/>Authority responsible for e-health solutions for Moscow's 12 million, and 130,000 users in 780 facilities.</td>
+				<td class="TableMainC">The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow, including all primary health centres and city hospitals</td>
+				<td class="TableMainC">Prime: <a href="http://www.ibs.ru/">IBS, Moscow</a><br/>
+					EHR platform: <a href="http://www.marand-thinkmed.com/">Marand (Slovenia)</a><br/>
+					Clinical apps: <a href="http://www.infinnity.ru/">Infinnity (Russia)</a><br/>
+					Clinical strategy &amp; tooling: <a href="http://www.oceaninformatics.com">Ocean Informatics UK</a><br/>
+					IHE/XDS: <a href="http://www.forcare.nl/">Forcare (Netherlands)</a></td>
+				<td class="TableMainC">Pilot phase contracted; deployment during 2013</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><em>Clinic of Chelyabinsk Medical Academy</em><br/>572 beds, 196 physicians, 386 staff in total</td>
+				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC">Deployed late 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><em>Federal Medical Biological Agency of Trekhgorny, Chelyabinskaya oblast</em><br/>403 beds, 119 physicians<br/>
+				<em>Federal Medical Biological Agency of Chelyabinsk, Radiation Rehabilitation Center</em></br>200 beds, 36 physicians, 76 staff in total</td>
+				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC">Deployed 2012</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><em>Russian Railways Medical Center, Chelyabinsk, Department of Southern Urals</em><br/>630 beds, 700 physicians, 1500 of staff in total</td>
+				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC">Deployed 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
+				<td class="TableMainC"><a href="http://www4.kclj.si/ang/index.php">University Medical Center Ljubljana, Slovenia</a><br/>UMCL is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
+				<td class="TableMainC">The Children's Hospital has been using Think!Med Clinical for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
+				<td class="TableMainC"><a href="http://www.marand-thinkmed.com/">Marand, Slovenia</a></td>
+				<td class="TableMainC">Deployed April 2011</td>
+			</tr>
+			</tbody>
+			</table>
+			<br/><br/>
+
+
+			<h2><a name="research_projects"></a>Funded Research Projects</h2>
+			<p>The following&nbsp; table indicates known funded research projects using openEHR. Please <a href="about/contacts">contact us</a>, to notify of other projects.</p>
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"><p>Location</p></th>
+				<th class="TableMainT"><p>Project</p></th>
+				<th class="TableMainT"><p>Description</p></th>
+				<th class="TableMainT"><p>Vendor(s) / consortium</p></th>
+				<th class="TableMainT"><p>Status</p></th>
+			</tr>
+			<tr>
+				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="eu_flag" title="eu_flag" src="files/basic/Flag_of_Europe.svg.png"></p><p>European Union</p></td>
+				<td class="TableMainC"><a href="http://www.chiron-project.eu/">CHIRON</a><br/>Integrated Healthcare approach for home, mobile and clinical environments.<br/>
+				CHIRON is a European Research Project co-financed by the ARTEMIS Joint Undertaking (call 2009 – Artemis Sub-program ASP2: Person-centric Healthcare).<br/>
+				27 partners.</td>
+				<td class="TableMainC">The CHIRON project intends to combine state-of-the art technologies and innovative solutions into an integrated framework designed for an 
+				effective and person-centric health management along the complete care cycle. Will monitor 100 patients with atrial fibrillation during 2013.</td>
+				<td class="TableMainC"><a href="http://www.medvision360.com/?lang=en">MedVision360 (Zorg Gemak), Netherlands</a></td>
+				<td class="TableMainC">March 2010 - end 2013</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.mobiguide-project.eu/">MOBIGUIDE</a><br/>MobiGuide (FP7-287811) is a supported project under the European 
+				Commission Seventh Framework Programme (2007-2013).<br/>
+				13 partners.</td>
+				<td>The aim of the MobiGuide project is to develop an intelligent decision-support system for patients with chronic illnesses. The system accompanies 
+				the patients wherever they go and helps them and their care providers in managing their illness,
+				whether they are at home, at work, out and about or travelling abroad on holiday or for business.</td>
+				<td class="TableMainC"><a href="http://www.medvision360.com/?lang=en">MedVision360 (Zorg Gemak), Netherlands</a></td>
+				<td class="TableMainC">ends 2013</td>
+			</tr>
+			</tbody>
+			</table>
+			<br/><br/>
+
+
+			<h2><a name="nonprofit"></a>Non-profit and Open Source Organisations using openEHR</h2>
+			<p>If you are using openEHR in a non-profit, standards or similar organisation, and would like to be included on this list, or you want to submit updates or corrections, then <a href="about/contacts">contact us</a>.</p>
+			<br/>
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"><p>Organisation</p></th>
+				<th class="TableMainT"><p>Team/Contacts</p></th>
+				<th class="TableMainT"><p>Description</p></th>
+			</tr>
+			<tr>
+				<td class="TableMainC"><img alt="clinical_templates_logo" title="clinical_templates_logo" src="files/basic/clinical_templates_logo.png"><br/><br/>
+				<a href="http://www.clinicaltemplates.org">ClinicalTemplates.org</a></td>
+				<td class="TableMainC">Derek Hoy</td>
+				<td class="TableMainC"><em>ClinicalTemplates.org</em> supports clinical communities, local and international, which:
+				<ul>
+					<li>form round clinical topics</li>
+					<li>collect resources and develop new information tools or share existing ones</li>
+					<li>gather feedback on their templates and discuss how to improve them</li>
+				</ul>
+				<a href="http://www.clinicaltemplates.org/info/ehealth-and-informatics/">Role of openEHR</a><br/>
+				<em>Status</em> (Jun 2011): active</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://code.google.com/p/open-ehr-gen-framework/"><img alt="openEHRgen_logo" title="openEHRgen_logo" src="files/basic/openEHRgen_logo.png"></a></td>
+				<td class="TableMainC">Pablo Pazos</td>
+				<td class="TableMainC"><em>openEHRgen Framework</em><br/>
+				A system building framework for EMR systems based on openEHR and other dynamic technologies, including <em>Grails Framework</em> and the <em>Groovy</em> language.
+				<ul>
+					<li>Technology: Java</li>
+					<li>License: Apache 2.0</li>
+				</ul>
+				<em>Status</em> (Jun 2011): active</td>
+			</tr>
+			</tbody>
+			</table>
+
+
 			<h2><a name="governments"></a>Governments</h2>
-			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Board. Other governments may be using it. If any government or other jurisdictional entity wants to be added to this list please <a href="about/contacts">contact us</a>, since it enables potential users to find out more about openEHR from a user perspective.</p>
+			<p>The following&nbsp; table indicates use or interest in openEHR known to the openEHR Foundation. Other governments may be using it. If any government or other jurisdictional entity wants to be added to this list please <a href="about/contacts">contact us</a>, since it enables potential users to find out more about openEHR from a user perspective.</p>
 			<br/>
 
 			<table class="TableMain">
@@ -81,14 +276,10 @@
 				<td class="TableMainC">TNO is using openEHR archetypes and templates in a diabetic management project. A number of companies are evaluating the approach with a view to implementation.</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80px" alt="singapore_flag" title="singapore_flag" src="files/basic/singapor.gif"> </p><p>Singapore</p></td>
-				<td class="TableMainC">Ministry of Health</td>
-				<td class="TableMainC">Adoption of openEHR 2009 for clinical modelling, terminology.</td>
-			</tr>
-			<tr>
 				<td class="TableMainC"><p><img width="80px" alt="slovakia_flag" title="slovakia_flag" src="files/basic/slovakia.gif"> </p><p>Slovakia</p></td>
 				<td class="TableMainC">Ministry of Health</td>
-				<td class="TableMainC">Invited presentation by openEHR to government, 2007. MoH &euro;32m contract awarded to consortium using openEHR in 2010. National CKM established in 2012.</td>
+				<td class="TableMainC">Invited presentation by openEHR to government, 2007. MoH &euro;32m contract awarded to consortium using openEHR in 2010. 
+				National CKM established in 2012.</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"> </p><p>Slovenia</p></td>
@@ -104,10 +295,6 @@
 				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="uk_flag" title="uk_flag" src="files/basic/uk_S.gif"></p><p>UK</p></td>
 				<td class="TableMainC">National Health <br/>Service (NHS)<br/>Connecting for <br/>Health (CFH)</td>
 				<td class="TableMainC">The NHS has developed and used openEHR archetypes and templates as a formal way of capturing clinical content requirements. In a pilot in Q1&amp;2 2007, around 220 archetypes and 40 templates were developed in the maternity and emergency department (ED) specialties. By end 2008, the number of archetypes was around 1000.</td>
-			</tr>
-			<tr>
-				<td class="TableMainC">Scotland</td>
-				<td class="TableMainC">Scotland have nearly finished the Phase 1 evaluation of the use of archetypes for clinical content specifications and are planning phase 2.</td>
 			</tr>
 			</tbody>
 			</table>
@@ -127,7 +314,7 @@
 				<th class="TableMainT"><p>Description</p></th>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80px" alt="argentina_flag" title="argentina_flag" src="files/basic/argentina_S.gif"></p>
+				<td class="TableMainC"><p><img width="80px" alt="argentina_flag" title="argentina_flag" src="files/basic/Flag_of_Argentina.svg.png"></p>
 				<p>Argentina</p></td>
 				<td class="TableMainC"><a href="http://www.hospitalaustral.edu.ar/">Austral University Hospital</a></td>
 				<td class="TableMainC">Alan March</td>
@@ -396,45 +583,6 @@
 			</tbody>
 			</table>
 			<br/><br/>
-			
-			<h2><a name="nonprofit"></a>Non-profit and Open Source Organisations using openEHR</h2>
-			<p>If you are using openEHR in a non-profit, standards or similar organisation, and would like to be included on this list, or you want to submit updates or corrections, then <a href="about/contacts">contact us</a>.</p>
-			<br/>
-		
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"><p>Organisation</p></th>
-				<th class="TableMainT"><p>Team/Contacts</p></th>
-				<th class="TableMainT"><p>Description</p></th>
-			</tr>
-			<tr>
-				<td class="TableMainC"><img alt="clinical_templates_logo" title="clinical_templates_logo" src="files/basic/clinical_templates_logo.png"><br/><br/>
-				<a href="http://www.clinicaltemplates.org">ClinicalTemplates.org</a></td>
-				<td class="TableMainC">Derek Hoy</td>
-				<td class="TableMainC"><em>ClinicalTemplates.org</em> supports clinical communities, local and international, which:
-				<ul>
-					<li>form round clinical topics</li>
-					<li>collect resources and develop new information tools or share existing ones</li>
-					<li>gather feedback on their templates and discuss how to improve them</li>
-				</ul>
-				<a href="http://www.clinicaltemplates.org/info/ehealth-and-informatics/">Role of openEHR</a><br/>
-				<em>Status</em> (Jun 2011): active</td>
-			</tr>
-			<tr>
-				<td class="TableMainC"><a href="http://code.google.com/p/open-ehr-gen-framework/"><img alt="openEHRgen_logo" title="openEHRgen_logo" src="files/basic/openEHRgen_logo.png"></a></td>
-				<td class="TableMainC">Pablo Pazos</td>
-				<td class="TableMainC"><em>openEHRgen Framework</em><br/>
-				A system building framework for EMR systems based on openEHR and other dynamic technologies, including <em>Grails Framework</em> and the <em>Groovy</em> language.
-				<ul>
-					<li>Technology: Java</li>
-					<li>License: Apache 2.0</li>
-				</ul>
-				<em>Status</em> (Jun 2011): active</td>
-			</tr>
-			</tbody>
-			</table>
-
 		
 		</div>
 		
