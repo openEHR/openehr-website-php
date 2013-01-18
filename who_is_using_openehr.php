@@ -92,14 +92,14 @@
 				<td class="TableMainC">mConsole &amp; Base24 EHR solution (openEHR 1.0.2), where Base24 is used as an integrated database which links the patient portal and several other 
 				3rd party systems directly with the EHR. Patients and care providers work seamlessly with the same data.</td>
 				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
-				<td class="TableMainC">Deployed August 2011</td>
+				<td class="TableMainC">Deployed August 2012</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><a href="http://www.rkz.nl">Rode Kruis Ziekenhuis</a><br/>Hospital</td>
 				<td class="TableMainC">BeterVerwijzen a digital referral system (openEHR 1.0.2), where a home physician is able to make an electronic referral which is managed 
 				and processed in combination the EHR.</td>
 				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
-				<td class="TableMainC">Deployed November 2011</td>
+				<td class="TableMainC">Deployed November 2012</td>
 			</tr>
 				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="portugal_flag" title="portugal_flag" src="files/basic/portugal_flag.jpg"></p><p>Portugal</p></td>
 				<td class="TableMainC"><a href="http://www.idealmed.pt/index.php/en/idealmed/uhc-unidade-hospitalar-de-coimbra#/como-chegar">IdealMed, Coimbra, Portugal</a><br/>Large private hospital covering all medical specialties and settings including inpatient, outpatient, surgery, emergency, Medical Training, Clinical Research and Clinical Trials</td>
