@@ -138,11 +138,18 @@
 				<td class="TableMainC">Deployed 2011</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
+				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
 				<td class="TableMainC"><a href="http://www4.kclj.si/ang/index.php">University Medical Center Ljubljana, Slovenia</a><br/>UMCL is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
 				<td class="TableMainC">The Children's Hospital has been using Think!Med Clinical for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
 				<td class="TableMainC"><a href="http://www.marand-thinkmed.com/">Marand, Slovenia</a></td>
 				<td class="TableMainC">Deployed April 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.mz.gov.si">Ministry of Health, Slovenia</a><br/>The Slovenian Ministry of Health is responsible for the majority of all healthcare delivery institutions in the country.</td>
+				<td class="TableMainC">National health information exchange network enabling sharing of clinical information among all healthcare stakeholders. Once completed, it will serve as the interoperability backbone providing 
+				services to eHealth applications such as eReferral, ePrescription as well as national health registries. Based on established industry standards including <a href = "http://www.ihe.net">IHE</a> and <a href = "http://www.openEHR.org">openEHR</a>.</td>
+				<td class="TableMainC">Consoritum led by <a href="http://www.marand-thinkmed.com/">Marand, Slovenia</a></td>
+				<td class="TableMainC">Contracted Sep 2012; initial deployment Q2 2013</td>
 			</tr>
 			</tbody>
 			</table>
