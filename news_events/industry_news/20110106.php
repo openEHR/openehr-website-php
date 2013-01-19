@@ -57,7 +57,7 @@
 			Ministry of Health, Brazil</p>
 
 			<br/>
-			<a href="/news_events/industry_news/">>> Back to News</a>
+			<a href="/news_events/industry_news/">>> Back to Industry News</a>
 			
 		</div>
 			

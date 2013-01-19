@@ -45,7 +45,7 @@
 			<p>All openEHR archetypes developed in the course of the project will be created and maintained in the openEHR Clinical Knowledge Manager at <a href="http://www.openehr.org/knowledge">http://www.openEHR.org/knowledge</a>, and will be open to review by the clinical community at large.</p>
 						
 			<br/>
-			<a href="/news_events/industry_news/">>> Back to News</a>
+			<a href="/news_events/industry_news/">>> Back to Industry News</a>
 			
 		</div>
 			

@@ -51,7 +51,7 @@
 			<p>Other references: <a href="http://www.blog.saude.gov.br/oficina-debate-ferramenta-de-registro-do-cartao-nacional-de-saude/">Ministry of Health Blog</a></p>
 			
 			<br/>
-			<a href="/news_events/industry_news/">>> Back to News</a>
+			<a href="/news_events/industry_news/">>> Back to Industry News</a>
 			
 		</div>
 			

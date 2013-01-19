@@ -109,7 +109,7 @@
 			</tr>
 			<tr>
 				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="russia_flag" title="russia_flag" src="files/basic/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
-				<td class="TableMainC"><a href="http://www.mos.ru/en/authority/dit/">Moscow City Department of Information Technologies</a><br/>Authority responsible for e-health solutions for Moscow's 12 million, and 130,000 users in 780 facilities.</td>
+				<td class="TableMainC"><a name="IBS_Moscow"><a href="http://www.mos.ru/en/authority/dit/">Moscow City Department of Information Technologies</a><br/>Authority responsible for e-health solutions for Moscow's 12 million, and 130,000 users in 780 facilities.</td>
 				<td class="TableMainC">The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow, including all primary health centres and city hospitals</td>
 				<td class="TableMainC">Prime: <a href="http://www.ibs.ru/">IBS, Moscow</a><br/>
 					EHR platform: <a href="http://www.marand-thinkmed.com/">Marand (Slovenia)</a><br/>

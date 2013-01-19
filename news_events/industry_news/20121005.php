@@ -35,14 +35,11 @@
 		
 			<h1>Industry News</h1>
 			
-			<h2>Microsoft Connected Health Framework (CHF) uses archetypes</h2>
-			<h6>20. April 2009 | from: Thomas Beale</h6>
-			
+			<h2>Northern Territory Health deploys Shared EHR</h2>
+			<h6>5. October 2012 | from: Northern Territory, Australia</h6>
 			<br/>
-			<p>The latest edition of Microsoft's Connected Health Framework - a strategy based on the idea of 'knowledge-driven health' (see http://www.microsoft.com/industry/healthcare/technology/HealthFramework.mspx) - includes openEHR (ISO 13606-2) archetypes as part of its domain knowledge architecture. There is much worth reading in this set of documents, including a good analysis of the problem space, deployment scenarios and issues, semantic and services architecture and much else besides.</p>
-			<p>See also: <a href="http://www.microsoft.com/industry/healthcare/technology/HealthFramework.mspx">MS CHF documents</a></p>
+			<p><a href="http://www.health.nt.gov.au/">Northern Territory Health</a> has deployed a Shared Electronic Health Record system for over 50,000 remote indigenous people based on the Ocean Informatics EHR platform.</p>
 			
-						
 			<br/>
 			<a href="/news_events/industry_news/">>> Back to Industry News</a>
 			

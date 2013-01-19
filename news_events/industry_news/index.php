@@ -37,9 +37,29 @@
 			<h1>Industry News</h1>
 			<br/>
 			
+			<a href="20121226">IBS consortium including three openEHR vendors to build Moscow eHealth infrastructure</a>
+			<h6>26. December 2012</h6>
+			<p>A consortium led by IBS Moscow and including three openEHR vendors - Marand, Infinnity, and Ocean Informatics - has won the contract for the pilot of the Moscow city integrated medical information system.</p>
+			<br/>
+			
+			<a href="20121005">Northern Territory Health deploys Shared EHR</a>
+			<h6>05. October 2012</h6>
+			<p>Northern Territory Health has deployed a Shared Electronic Health Record system for over 50,000 remote indigenous people based on the Ocean Informatics EHR platform</p>
+			<br/>
+			
+			<a href="20120810">Infection Control System deployed by Queensland Health</a>
+			<h6>10. August 2012</h6>
+			<p>Infection Control system, Multiprac, for 22 large hospitals in Queensland based on the Ocean OceanEHR platform has been inmplemented.</p>
+			<br/>
+			
 			<a href="20120516">Brazil re-affirms commitment to openEHR</a>
 			<h6>16. May 2012</h6>
 			<p>As part of operationalising chapter III of the government decree, a national EHR Workshop was held aimed at defining methods and standards to be used in the Brazilian EHR Project (RES-National). The conclusions were largely underpinned by openEHR.</p>
+			<br/>
+			
+			<a href="20120215">Web-based openEHR ambulatory care EHR system deployed in Brazil</a>
+			<h6>15. February 2012</h6>
+			<p>P2D, Brazil, deploys web-based ambulantory care EHR to around 3,000 health professionals including doctors, physiotherapists, nurses and receptionists (primarily Brazilian College of Ophthalmologists).</p>
 			<br/>
 			
 			<a href="20111214">Clinical Information Modelling Initiative goes with Archetypes & UML profile</a>

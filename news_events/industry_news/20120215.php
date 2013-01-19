@@ -35,14 +35,11 @@
 		
 			<h1>Industry News</h1>
 			
-			<h2>Microsoft Connected Health Framework (CHF) uses archetypes</h2>
-			<h6>20. April 2009 | from: Thomas Beale</h6>
-			
+			<h2>Web-based openEHR ambulatory care EHR system deployed in Brazil</h2>
+			<h6>15. February 2012 | from: S&atilde;o Jos&eacute; dos Campos, Brazil</h6>
 			<br/>
-			<p>The latest edition of Microsoft's Connected Health Framework - a strategy based on the idea of 'knowledge-driven health' (see http://www.microsoft.com/industry/healthcare/technology/HealthFramework.mspx) - includes openEHR (ISO 13606-2) archetypes as part of its domain knowledge architecture. There is much worth reading in this set of documents, including a good analysis of the problem space, deployment scenarios and issues, semantic and services architecture and much else besides.</p>
-			<p>See also: <a href="http://www.microsoft.com/industry/healthcare/technology/HealthFramework.mspx">MS CHF documents</a></p>
+			<p>P2D, Brazil, deploys web-based ambulantory care EHR to around 3,000 health professionals including doctors, physiotherapists, nurses and receptionists (primarily Brazilian College of Ophthalmologists).</p>
 			
-						
 			<br/>
 			<a href="/news_events/industry_news/">>> Back to Industry News</a>
 			

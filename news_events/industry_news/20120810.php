@@ -35,14 +35,11 @@
 		
 			<h1>Industry News</h1>
 			
-			<h2>Microsoft Connected Health Framework (CHF) uses archetypes</h2>
-			<h6>20. April 2009 | from: Thomas Beale</h6>
-			
+			<h2>Infection Control System deployed by Queensland Health</h2>
+			<h6>10. August 2012 | from: Queensland, Australia</h6>
 			<br/>
-			<p>The latest edition of Microsoft's Connected Health Framework - a strategy based on the idea of 'knowledge-driven health' (see http://www.microsoft.com/industry/healthcare/technology/HealthFramework.mspx) - includes openEHR (ISO 13606-2) archetypes as part of its domain knowledge architecture. There is much worth reading in this set of documents, including a good analysis of the problem space, deployment scenarios and issues, semantic and services architecture and much else besides.</p>
-			<p>See also: <a href="http://www.microsoft.com/industry/healthcare/technology/HealthFramework.mspx">MS CHF documents</a></p>
+			<p><a href="http://www.health.qld.gov.au/">Queensland Health</a> deploys Multiprac Infection Control system, based on the Ocean OceanEHR platform in 22 state hospitals.</p>
 			
-						
 			<br/>
 			<a href="/news_events/industry_news/">>> Back to Industry News</a>
 			

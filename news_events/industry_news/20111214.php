@@ -94,7 +94,7 @@
 			<p>In the future CIMI will provide information publicly on the Internet. For immediate further information, contact <a href="mailto:stan.huff@imail.org">Stan Huff</a>.</p>
 			
 			<br/>
-			<a href="/news_events/industry_news/">>> Back to News</a>
+			<a href="/news_events/industry_news/">>> Back to Industry News</a>
 			
 		</div>
 			

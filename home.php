@@ -152,17 +152,18 @@
 			<div id="Twitter2Frame">
 				<div id="LinksFrame">
 					<a href="news_events/industry_news" style="color:#023670;"><h2>Industry News</h2></a>
+					
+					<a href="news_events/industry_news/20121226">IBS consortium including three openEHR vendors to build Moscow eHealth infrastructure</a>
+					<h6>26. December 2012</h6>
+					<br/>
+					<a href="news_events/industry_news/20121005">Northern Territory Health deploys Shared EHR</a>
+					<h6>05. October 2012</h6>
+					<br/>
+					<a href="news_events/industry_news/20120810">Infection Control System deployed by Queensland Health</a>
+					<h6>10. August 2012</h6>
+					<br/>
 					<a href="news_events/industry_news/20120516">Brazil re-affirms commitment to openEHR</a>
 					<h6>16. May 2012</h6>
-					<br/>
-					<a href="news_events/industry_news/20111214">Clinical Information Modelling Initiative goes with Archetypes & UML profile</a>
-					<h6>14. December 2011</h6>
-					<br/>
-					<a href="news_events/industry_news/20110106">Brazil chooses openEHR for EHR at all levels of government</a>
-					<h6>6. January 2011</h6>
-					<br/>
-					<a href="news_events/industry_news/20090709">openEHR in &pound;1.1m Wellcome Trust Sintero project</a>
-					<h6>9. July 2009</h6>
 				</div>
 			</div>
 			
@@ -170,6 +171,10 @@
 			<div id="NewsFrame">
 				<div id="LinksFrame">
 					<a href="news_events/announcements" style="color:#023670;"><h2>Announcements</h2></a>
+					
+					<a href="news_events/announcements/20130117">Publications on openEHR and open source</a>
+					<h6>17. January 2013</h6>
+					<br/>
 					<a href="news_events/announcements/20121212">openEHR Transition Update</a>
 					<h6>12. December 2012</h6>
 					<br/>
@@ -181,9 +186,6 @@
 					<br/>
 					<a href="news_events/announcements/20111020">Update on openEHR Governance</a>
 					<h6>20. October 2011</h6>
-					<br/>
-					<a href="news_events/announcements/20110905">openEHR Transition Announcement</a>
-					<h6>5. September 2011</h6>
 				</div>	
 			</div>
 			
@@ -191,6 +193,7 @@
 			<div id="ReleasesFrame">
 				<div id="LinksFrame">
 					<a href="news_events/releases" style="color:#023670;"><h2>Releases</h2></a>
+					
 					<a href="news_events/releases/20120813">ADL - syntax highlight for Notepad++</a>
 					<h6>13. August 2012</h6>
 					<br/>
