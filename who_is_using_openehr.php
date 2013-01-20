@@ -205,7 +205,7 @@
 			<tr>
 				<td class="TableMainC"><img alt="clinical_templates_logo" title="clinical_templates_logo" src="files/basic/clinical_templates_logo.png"><br/><br/>
 				<a href="http://www.clinicaltemplates.org">ClinicalTemplates.org</a></td>
-				<td class="TableMainC">Derek Hoy</td>
+				<td class="TableMainC"></td>
 				<td class="TableMainC"><em>ClinicalTemplates.org</em> supports clinical communities, local and international, which:
 				<ul>
 					<li>form round clinical topics</li>
