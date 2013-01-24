@@ -62,6 +62,11 @@
 			<p>P2D, Brazil, deploys web-based ambulantory care EHR to around 3,000 health professionals including doctors, physiotherapists, nurses and receptionists (primarily Brazilian College of Ophthalmologists).</p>
 			<br/>
 			
+			<a href="20120209">Creation of National Center for Archetypes (NCA), based at Slovak University of Technology (STU), Bratislava</a>
+			<h6>9. February 2012</h6>
+			<p>A National Center for Archetypes (NCA STU), specialising in knowledge structures for Slovak e-health, has been launched, supported by the management of Slovak University of Technology in Bratislava (STU) and the Faculty of Electrical Engineering and Information Technology (FEI STU).</p>
+			<br/>
+			
 			<a href="20111214">Clinical Information Modelling Initiative goes with Archetypes & UML profile</a>
 			<h6>14. December 2011</h6>
 			<p>The Clinical Information Modeling Initiative is an international collaboration that is dedicated to providing a common format for detailed specifications for the representation of health information content so that semantically interoperable information may be created and shared in health records, messages and documents.</p>

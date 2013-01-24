@@ -13,7 +13,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 </head>
 
 
-
 <body>
 
 <div id="MainFrame">
