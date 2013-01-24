@@ -22,9 +22,9 @@
 		
 	</div> 
 
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:5850px;">
+	<div id="MainArea" style=" margin-left:30px; width:900px; height:5950px;">
 	
-		<div id="TextArea" style="left:0px; width:900px; height:5850px;">
+		<div id="TextArea" style="left:0px; width:900px; height:5950px;">
 		
 			<h1>Who is using openEHR?</h1>
 			
@@ -110,7 +110,7 @@
 			<tr>
 				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="russia_flag" title="russia_flag" src="files/basic/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
 				<td class="TableMainC"><a name="IBS_Moscow"><a href="http://www.mos.ru/en/authority/dit/">Moscow City Department of Information Technologies</a><br/>Authority responsible for e-health solutions for Moscow's 12 million, and 130,000 users in 780 facilities.</td>
-				<td class="TableMainC">The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow, including all primary health centres and city hospitals</td>
+				<td class="TableMainC">The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow, including all primary health centres and city hospitals, using the Marand Think!Med EHR platform.</td>
 				<td class="TableMainC">Prime: <a href="http://www.ibs.ru/">IBS, Moscow</a><br/>
 					EHR platform: <a href="http://www.marand-thinkmed.com/">Marand (Slovenia)</a><br/>
 					Clinical apps: <a href="http://www.infinnity.ru/">Infinnity (Russia)</a><br/>
@@ -138,11 +138,19 @@
 				<td class="TableMainC">Deployed 2011</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
+				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="files/basic/slovenia.gif"></p><p>Slovenia</p></td>
 				<td class="TableMainC"><a href="http://www4.kclj.si/ang/index.php">University Medical Center Ljubljana, Slovenia</a><br/>UMCL is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
-				<td class="TableMainC">The Children's Hospital has been using Think!Med Clinical for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
+				<td class="TableMainC">The Children's Hospital has been using the Marand Think!Med Clinical applications over the Think!Med EHR platform for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
 				<td class="TableMainC"><a href="http://www.marand-thinkmed.com/">Marand, Slovenia</a></td>
 				<td class="TableMainC">Deployed April 2011</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"><a href="http://www.onko-i.si/">Institute of Oncology, Ljubljana</a><br/>The Institute is the leading cancer care and research institution in the 
+				region. 400 beds, 150 physicans and 800 staff.</td>
+				<td class="TableMainC">Think!Med Screening, based on the Think!EHR Platform, provides a medical data repository and supports the workflow for Slovenia’s National Breast Cancer Screening program. 
+				It covers screening of all women between the ages of 50 and 69 and is run countrywide by the Institute of Oncology.</td>
+				<td class="TableMainC"><a href="http://www.marand-thinkmed.com/">Marand, Slovenia</a></td>
+				<td class="TableMainC">Deployed Dec 2012</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><a href="http://www.mz.gov.si">Ministry of Health, Slovenia</a><br/>The Slovenian Ministry of Health is responsible for the majority of all healthcare delivery institutions in the country.</td>
