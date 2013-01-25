@@ -1,14 +1,16 @@
+<?php
+$PageName = 'Foundation News';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Foundation News</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/foundation_news" title="openEHR - Foundation News">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -18,7 +20,7 @@
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -29,12 +31,12 @@
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 1; include '../menu/newsmenu.php' ?>
+			<?php include '../menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Foundation News</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			
 			<a href="20100225">David Ingram interview with Talkstandards</a>
@@ -126,9 +128,8 @@
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

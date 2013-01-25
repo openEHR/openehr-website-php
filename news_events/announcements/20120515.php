@@ -1,14 +1,16 @@
+<?php
+$PageName = 'Announcements';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Announcements</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrannouncements/announcement13" title="openEHR - Announcements">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -18,7 +20,7 @@
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -29,12 +31,12 @@
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 4; include '../menu/newsmenu.php' ?>
+			<?php include '../menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 		
-			<h1>Announcements</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Board statement on Clinical Knowledge Manager</h2>
 			<h6>15. May 2012 | from: Board of Directors</h6>
@@ -79,10 +81,11 @@
 			and the facility be offered to Associates of the Foundation
 			at reduced cost as part of their membership.</p>
 			<br/>
-			<p><i>openEHR Board of Directors</i></p>
-			<br/>
 			
-			<a href="../announcements">>> Back to Announcements</a>
+			<p><i>openEHR Board of Directors</i></p>
+			
+			<br/>
+			<a href="../announcements">>> Back to <?php echo "$PageName";?></a>
 			
 		</div>
 			
@@ -98,9 +101,8 @@
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

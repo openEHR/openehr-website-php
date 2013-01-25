@@ -1,13 +1,16 @@
+<?php
+$PageName = 'Releases';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Releases</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -17,7 +20,7 @@
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -28,12 +31,12 @@
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 3; include '../menu/newsmenu.php' ?>
+			<?php include '../menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 		
-			<h1>Releases</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>New ADL 1.5 Workbench - beta release</h2>
 			<h6>11. August 2010 | from: Thomas Beale</h6>
@@ -65,7 +68,7 @@
 			<p>Please direct all feedback as described in the <a href="/downloads/ADLworkbench/supportandcontributing">support page</a>.</p>
 			
 			<br/>
-			<a href="../releases">>> Back to Releases</a>
+			<a href="../releases">>> Back to <?php echo "$PageName";?></a>
 			
 		</div>
 			
@@ -81,9 +84,8 @@
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

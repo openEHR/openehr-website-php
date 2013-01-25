@@ -1,13 +1,16 @@
+<?php
+$PageName = 'Foundation News';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Foundation News</title>
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -17,7 +20,7 @@
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -28,17 +31,17 @@
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 1; include '../menu/newsmenu.php' ?>
+			<?php include '../menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 		
-			<h1>Foundation News</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>IHTSDO and openEHR Begin Collaborative Work Programme</h2>
 			<h6>15. September 2009 | from: David Ingram</h6>
-			
 			<br/>
+			
 			<p>IHTSDO and the openEHR Foundation are to work together on a harmonisation project where the overall goal is the practical development of effective and sustainable clinical content for the electronic health record. The project will explore how best to support those who wish to use openEHR archetypes and SNOMED CT terminology together within current and future systems to support data capture, complex queries, clinical decision support and reporting.</p>
 			<p>This initiative arose from an intergovernmental workshop with high-level industry representation held in Helsingor, Denmark in November 2008, where the openEHR Foundation and the IHTSDO were invited to present their perspectives on how health informatics standards could best interact and contribute to meeting the common needs of large-scale health information infrastructure initiatives, worldwide. In response to this call for leadership and wider consultation, IHTSDO and openEHR have resolved to identify opportunities to align efforts to address the practical implementation and evaluation challenges facing national eHealth programs, in a coordinated way.</p>
 			<p>This work will be of immediate interest and relevance in countries where the use of clinical data archetypes and clinical terminology are already envisaged as part of the standardisation process. Further, a growing number of e-health system vendors are recognising that standardisation of content is difficult to achieve within their own applications without agreement on the structure of the information. In the first instance, IHTSDO and openEHR recognize the potential value to these stakeholders and others in more active harmonization efforts, including establishing principles to guide collaborative activities.</p>
@@ -65,7 +68,7 @@
 			+45 3644 8736</p>
 			
 			<br/>
-			<a href="/news_events/foundation_news/">>> Back to News</a>
+			<a href="/news_events/foundation_news/">>> Back to <?php echo "$PageName";?></a>
 			
 		</div>
 			
@@ -81,9 +84,8 @@
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

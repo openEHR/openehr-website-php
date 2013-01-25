@@ -48,12 +48,15 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.8em; }
 text-decoration:none;
 color:#023760;
 font-weight:500;
+display:block;
 }
 
 #SideMenu a:hover{
-text-decoration:underline;
+background-color:#b4d5e5;
+text-decoration:none;
 color:#023760;
 font-weight:500;
+display:block;
 } 
 
 #SideMenu .active {
@@ -65,6 +68,7 @@ font-weight:900;
 color:#CC9900;
 font-weight:900;
 text-decoration:none;
+background-color:transparent;
 }
 
 #SideMenu .active a {
@@ -76,6 +80,7 @@ font-weight:900;
 color:#CC9900;
 font-weight:900;
 text-decoration:none;
+background-color:transparent;
 }
 
 #SideMenu ul {
@@ -86,14 +91,13 @@ line-height:200%;
 border-top:1px solid #9fd0e7;
 }
 
-
-.SideMenuHeading {
+#SideMenu span {
 font-size:14px;
-line-height:150%; 
+line-height:200%; 
 color:#023760;
 font-weight:900;
 text-decoration:none; 
-margin-bottom:0.5em;
+padding-left:6px;
 }
 
 #TextArea {

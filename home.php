@@ -1,13 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
 	<title>Welcome to openEHR - Homepage</title>
 	<?php include 'panel/headpanelhome.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -148,7 +148,6 @@
 				</div>
 			</div>
 			
-			
 			<div id="Twitter2Frame">
 				<div id="LinksFrame">
 					<a href="news_events/industry_news" style="color:#023670;"><h2>Industry News</h2></a>
@@ -167,7 +166,6 @@
 				</div>
 			</div>
 			
-
 			<div id="NewsFrame">
 				<div id="LinksFrame">
 					<a href="news_events/announcements" style="color:#023670;"><h2>Announcements</h2></a>
@@ -188,8 +186,7 @@
 					<h6>20. October 2011</h6>
 				</div>	
 			</div>
-			
-			
+					
 			<div id="ReleasesFrame">
 				<div id="LinksFrame">
 					<a href="news_events/releases" style="color:#023670;"><h2>Releases</h2></a>
@@ -210,8 +207,7 @@
 					<h6>14. January 2011</h6>
 				</div>
 			</div>	 
-			
-			
+				
 		</div>
 	</div>
 
@@ -225,9 +221,8 @@
 
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include 'panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

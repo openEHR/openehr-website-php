@@ -1,14 +1,16 @@
+<?php
+$PageName = 'Announcements';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Announcements</title>
-	<link rel="bookmark" href="http://www.openehr.org/news_events/openehrannouncements/announcement14" title="openEHR - Announcements">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -18,7 +20,7 @@
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -29,12 +31,12 @@
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php $current = 4; include '../menu/newsmenu.php' ?>
+			<?php include '../menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 		
-			<h1>Announcements</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>openEHR Transition Update</h2>
 			<h6>12. December 2012 | from: Interim Board</h6>
@@ -52,13 +54,15 @@
 			<p>The Board will be meeting again soon to assess progress in these areas.</p>
 			<p>As a result of the London meeting, we have updated openEHR Foundation Moving Forward document and we are interested in feedback from the community to help us move forward. (See links below)</p>
 			<br/>
+			
 			<p><i>openEHR Interim Board</i></p>
 			<br/>
+			
 			<p><a title="openEHR Foundation moving forward" href="../../files/news_events/openEHR Foundation moving forward December 2012.pdf">openEHR Transition Final Document</a> (application/pdf, 543 kB) </p>
 			<p><a href="http://www.openehr.org/wiki/display/oecom/openEHR+Transition+December+2012+Feedback">Feedback wiki page</a></p>
 			
 			<br/>
-			<a href="../announcements">>> Back to Announcements</a>
+			<a href="../announcements">>> Back to <?php echo "$PageName";?></a>
 			
 		</div>
 			
@@ -74,9 +78,8 @@
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

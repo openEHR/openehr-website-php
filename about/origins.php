@@ -1,21 +1,26 @@
+<?php
+$PageName = 'Origins of openEHR';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
-	<title>openEHR - Foundation Origins</title>
-	<link rel="bookmark" href="http://www.openehr.org/about/originsofopenehr" title="openEHR - Foundation Origins">
+
 	<?php include '../panel/headpanel.php' ?>
+	
 </head>
 
-
 <body>
+
 <div id="MainFrame">
 	
 	<div id="TopPanel">
 		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
 			<?php include '../menu/topmenu.php' ?>
@@ -26,13 +31,13 @@
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/aboutmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Origins of openEHR</h1>
-			
+			<h1><?php echo "$PageName";?></h1>
+			<br/>
 			<p><i>David Ingram, October 2002</i></p>
 			<p>Some ten years after the GEHR project was established in 1989, partners in that project have come together again to review experience gained over the intervening years. It is especially encouraging that a forthcoming ISO standard will elevate formally defined clinical requirements to the highest level in the standards process for electronic healthcare records. So many systems describe themselves as electronic healthcare records and yet share little common concept of what such an entity is and what it is for.</p>
 			<p>The research and development in this field has followed a chaotic and tortuous evolution, influenced inevitably by commercial, political and academic considerations and rivalries and also by severe inertia because of powerful needs to continue to accommodate legacy systems. Confused and confusing arguments have raged about esoteric models of ill-defined clinical terminology, processes and communications. Continuing reinvention of wheels at these levels of abstraction (more precisely concoction of alternative definitions and plans of possibly wheel-like objects!), has inhibited progress. There is still an urgent need for empirical study of the implementation and comparative evaluation of a diverse range of approaches to the provision of high quality electronic healthcare records. This must be informed by international consensus about the requirements to be met.</p>
@@ -186,9 +191,8 @@
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>
