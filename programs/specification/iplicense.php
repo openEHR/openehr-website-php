@@ -1,17 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'IP and Licensing';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Specifications Program</title>
-	<link rel="bookmark" href="http://www.openehr.org/programs/specification/iplicense" title="openEHR - Specification Program">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -21,7 +20,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -32,12 +31,13 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/specificationsmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 
 		<div id="TextArea">
 		
-			<h1>IP and Licensing</h1>
+			<h1><?php echo "$PageName";?></h1>
+			
 			<h2>Introduction</h2>
 			<p>The Specification Program generates artefacts which are intended to be freely usable by all stakeholder types, including commercial enterprises. Controlled copyright, and open source and content licenses are used to achieve these aims.</p>
 			<p>The openEHR specifications and their computable expressions are openly published and free to use for all categories of use, both commercial and non-commercial.Copyright and licenses are used to protect these artefacts for ongoing open and free use by the community.</p>
@@ -135,9 +135,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

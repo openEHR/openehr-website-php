@@ -1,17 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = "Clinical Models Program";
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Clinical Models Program</title>
-	<link rel="bookmark" href="http://www.openehr.org/programs/clinicalmodels" title="openEHR - Clinical Models Program">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -32,12 +31,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/modelsmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Clinical Models Program</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Introduction</h2>
 			<p>The Health Information Models space is for discussions about formalised models of health domain content. In the openEHR Framework there are a number of innovations that make it relatively straightforward to specify and share clinical content. The foundations are the clinical models, consisting of archetypes and templates. These models require terminology and finally the models need to support automated clinical process, offering the clinician users decision support and suggesting quality care options in the form of computerised clinical pathways.</p>
@@ -94,9 +93,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

@@ -1,15 +1,16 @@
-<?php $pageOn = basename($_SERVER['PHP_SELF']); ?>
+<?php
+$PageName = 'Archetype Editor Home';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Archetype Editor</title>
-	<link rel="bookmark" href="http://www.openehr.org/downloads/archetypeeditor/home" title="openEHR - Archetype Editor">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -19,7 +20,7 @@
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -30,7 +31,7 @@
 	<div id="MainArea">
 		
 		<div id="SideMenu">
-			<?php include 'menu/editormenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 
 		<div id="TextArea">
@@ -42,7 +43,7 @@
 			
 			
 			<h2>Current beta release 29 November 2012</h2>
-			<p>Archetype Editor 2.2 has many fixes to the handling of XML archetypes, constraint bindings, term bindings and specialised archetypes. See the <a href="releasenotes">Release notes</a> for a complete list of the changes.</p>
+			<p>Archetype Editor 2.2 has many fixes to the handling of XML archetypes, constraint bindings, term bindings and specialised archetypes. See the <a href="release_notes">Release notes</a> for a complete list of the changes.</p>
 		
 		
 			<h2>Download</h2>
@@ -95,9 +96,8 @@
 
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

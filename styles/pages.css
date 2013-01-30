@@ -33,7 +33,7 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.8em; }
  position:absolute;
  color:#023760;
  top:107px;
- width:150px;
+ width:170px;
  height:400px;
  padding-left:10px;
  padding-right:10px;
@@ -48,7 +48,8 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.8em; }
 text-decoration:none;
 color:#023760;
 font-weight:500;
-display:block;
+display:inline-block;
+width:170px;
 }
 
 #SideMenu a:hover{
@@ -62,6 +63,7 @@ display:block;
 #SideMenu .active {
 color:#CC9900;
 font-weight:900;
+width:170px;
 }
 
 #SideMenu .active:hover{
@@ -97,14 +99,19 @@ line-height:200%;
 color:#023760;
 font-weight:900;
 text-decoration:none; 
+padding-right:10px;
 padding-left:6px;
+padding-bottom:6px;
+width:145px;
+display:inline-block;
 }
+
 
 #TextArea {
  position:relative;
  top:0px;
- left:180px;
- width:780px;
+ left:200px;
+ width:770px;
  overflow:auto;
  padding-top:0px;
  padding-left:20px;

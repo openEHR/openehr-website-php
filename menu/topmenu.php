@@ -14,22 +14,9 @@
 				
        			<li><span>Entry Points</span>
             		 <ul>
-               			<li><span>&nbsp; Getting started</span>
-							<ul>
-								<li><a href="/entry_points/getting_started/vendors_developers">&nbsp; Vendors / Developers</a></li>
-								<li><a href="/entry_points/getting_started/governmentbodies_programmes">&nbsp; Government Bodies</a></li>
-								<li><a href="/entry_points/getting_started/providers_clinicians">&nbsp; Providers / Clinicians</a></li>
-								<li><a href="/entry_points/getting_started/universities_researchcentres">&nbsp; Universities / Research</a></li>
-							</ul>
+               			<li><?php include "$root/entry_points/getting_started/menu.php"?>
 						</li>
-						<li><span>&nbsp; I am working on</span>
-							<ul>
-								<li><a href="/entry_points/i_am_working_on/clinical_standardisation">&nbsp; Clinical Standardisation</a></li>
-								<li><a href="/entry_points/i_am_working_on/government_programme">&nbsp; Government Programme</a></li>
-								<li><a href="/entry_points/i_am_working_on/medical_research">&nbsp; Medical Research</a></li>
-								<li><a href="/entry_points/i_am_working_on/building_solutions">&nbsp; Building Solutions</a></li>
-								<li><a href="/entry_points/i_am_working_on/obtaining_solutions">&nbsp; Obtaining Solutions</a></li>
-							</ul>
+						<li><?php include "$root/entry_points/i_am_working_on/menu.php"?>
 						</li>
             		 </ul>
        			</li>

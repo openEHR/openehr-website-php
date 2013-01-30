@@ -1,15 +1,19 @@
+<?php
+$PageName = 'openEHR Programs';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR Programs</title>
 	<?php include 'panel/headpanel.php' ?>
 	
 </head>
 
-
 <body>
+
 <div id="MainFrame">
 	
 	<div id="TopPanel">
@@ -17,9 +21,11 @@
 	</div>
 	
 	<div id="TopMenu">
+	
 		<div class="nav">
-		<?php include 'menu/topmenu.php' ?>
+			<?php include 'menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea" style="margin-left:30px; width:900px; height:900px;">
@@ -82,9 +88,9 @@
 	</div>
 
 </div>
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+
+<?php include 'panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

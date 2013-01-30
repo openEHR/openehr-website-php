@@ -1,42 +1,45 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Syndication';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - Syndication</title>
-	<?php include '../panel/headpanel.php' ?>
-</head>
 
+<head>
+	
+	<?php include '../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../panel/toppanel.php' ?>
+		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
+	
 		<div class="nav">
-   		<?php include '../menu/topmenu.php' ?>
+			<?php include '../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-		<?php include 'menu/sitepoliciesmenu.php' ?>
+		<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Syndication</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<p>This part of the website is currently under construction.</p>
 		</div>
 			
-
 	</div>
 
 	<div id="BottomMenu">
@@ -49,9 +52,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

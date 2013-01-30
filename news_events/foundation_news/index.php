@@ -21,7 +21,7 @@ $PageName = 'Foundation News';
 	</div>
 	
 	<div id="TopMenu">
-	
+		
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
 		</div>
@@ -39,79 +39,50 @@ $PageName = 'Foundation News';
 			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			
-			<a href="20100225">David Ingram interview with Talkstandards</a>
-			<h6>25. February 2010</h6>
-			<p>In an exclusive interview with Talkstandards, Professor David Ingram of openEHR, outlines some of his expectations for the future of ICT in the health care sector.</p>
+			<a href="20121212">openEHR Transition Update</a>
+			<h6>12. December 2012</h6>
+			<p>The Interim Board of the openEHR Foundation has largely agreed the basis for going forward based on the face-to-face meeting in London and feedback from a number of parties. We had planned to undertake elections before the end of the year but have all been too busy to put the necessary processes in place to make this feasible.</p>
 			<br/>
 			
-			<a href="20090915">IHTSDO and openEHR Begin Collaborative Work Programme</a>
-			<h6>15. September 2009</h6>
-			<p>Organizations will explore how clinical terminologies and archetype-based record structures can best be aligned to support electronic health records.</p>
+			<a href="20120515">Board statement on Clinical Knowledge Manager</a>
+			<h6>15. May 2012</h6>
+			<p>What is Clinical Knowledge Manager? The Clinical Knowledge Manager (CKM) application is used by the openEHR Foundation to provide governance of archetypes, templates and terminology reference sets, and to facilitate discussions and communication about these assets within the openEHR community.</p>
 			<br/>
 			
-			<a href="20090827">OSHIP gets CLIPS decision support engine</a>
-			<h6>27. August 2009</h6>
-			<p>The Open Source Health Information Platform (OSHIP) has integrated the "gold standard" forward chaining inference engine CLIPS in order to support complex decision support requirements.</p>
+			<a href="20120211">Interim board announces new openEHR Program groups</a>
+			<h6>11. February 2012</h6>
+			<p>The interim Board of Directors has now established 4 programs: Specifications, Software, Clinical Modelling and Localisation. Each Program has a Committee which will grow to up to 9 members and a list of Qualified Members to support each committee. Each group is beginning to work on the appropriate processes to support their activities.</p>
 			<br/>
 			
-			<a href="20090501">svn.openehr.org turned off</a>
-			<h6>1. May 2009</h6>
-			<p>The old URL http://svn.openehr.org has been turned off; use http://www.openehr.org/svn. If you have an error when doing an SVN operation on a local repository, check if this is the initial part of the URL.</p>
+			<a href="20111020">Update on openEHR Governance</a>
+			<h6>20. October 2011</h6>
+			<p>The new Board of Directors has met on four occasions and set the new directions for the Foundation. Personal changes have occured in the Board. Formal IP assignments of all the openEHR assets including all archetypes have been completed. A progress within international initiative to develop a standardised clinical modelling methodology has been made.</p>
 			<br/>
 			
-			<a href="20081108">CfH / NEHTA / Canada Health Infoway - openEHR presentation</a>
-			<h6>8. November 2008</h6>
-			<p>Professor David Ingram (Head of CHIME, UCL, chair of openEHR Foundation) delivered an invited presentation at a workshop in Helsingor, Denmark, at the invitation of NHS Connecting for Health (CFH), Australia's National e-Health Transition Authority (NEHTA) and Canada Health Infoway. </p>
+			<a href="20110905">openEHR Transition Announcement</a>
+			<h6>5. September 2011</h6>
+			<p>A new Interim Board of openEHR has been created to take openEHR to a new level of operations; a new structure, business model and governance. Our vision is the creation of a thriving community that works collaboratively to benefit humanity through efficient and effective electronic health records (EHRs) that support the highest quality health care for the least effort.</p>
 			<br/>
 			
-			<a href="20080606">New openEHR Decision Support mailing list</a>
-			<h6>6. June 2008</h6>
-			<p>A new openEHR Decision Support mailing list has been created - openehr-decisionsupport@openEHR.org. openEHR has only a small number of lists outside of the specific programming language sub-communities, and each is broad, reflecting a belief in the interdisciplinary nature of things. </p>
+			<a href="20110810">Message from the Chair of the openEHR Board</a>
+			<h6>10. August 2011</h6>
+			<p> A Personal Message to the openEHR Community. I wrote here some time ago of my forthcoming retirement and our wish and intention, as a Board, to pass the mantle
+			of openEHR to the best possible new leadership and ownership, from October 1<sup>st</sup>.</p>
 			<br/>
 			
-			<a href="20080603">openEHR Python Project Started</a>
-			<h6>3. June 2008</h6>
-			<p>This week an upload of code from Tim Cook marks the start of the openEHR Python project. This project aims to produce an open source implementation of openEHR in Python.</p>
+			<a href="20101221">Announcement concerning progress with IHTSDO and future directions</a>
+			<h6>21. December 2010</h6>
+			<p>At its October meeting in Toronto, the General Assembly of the IHTSDO received and discussed a proposal, submitted by its Management Board, to support, develop and maintain the IP in openEHR, within a broader framework of IHTSDO governance for clinical content of the electronic health record.</p>
 			<br/>
 			
-			<a href="20071210">Health IT press Australia - OpenEHR: The World's Record</a>
-			<h6>10. December 2007</h6>
-			<p>An article on openEHR in Australia's Pulse+IT magazine, by Heather Leslie, Nov 2007.</p>
+			<a href="20101201">openEHR / IHTSDO Update from the Board</a>
+			<h6>1. December 2010</h6>
+			<p>At the end of August, the Foundation Board posted an announcement about progress of discussions with IHTSDO concerning governance of archetypes and SNOMED terminology, expecting to be in a position to report back by mid-October. We have been working along the lines set out in previous announcements, here, and the wiki consultation process with openEHR users, earlier this year.</p>
 			<br/>
 			
-			<a href="20071028">Vivici announce PHR</a>
-			<h6>28. October 2007</h6>
-			<p>Vivici of the Netherlands announce their personal health record based on openEHR. </p>
-			<br/>
-			
-			<a href="20071022">Archetype Editorial Group launched</a>
-			<h6>22. October 2007</h6>
-			<p>The lead group for archetype authoring has been formed - the Archetype Editorial Group. This group will work with Sebastian Garde to finalise the process for the authoring of archetypes and begin the ratification of all archetypes.</p>
-			<br/>
-			
-			<a href="20070930">openEHR at BCS Primary Health Care Specialist Group</a>
-			<h6>30. September 2007</h6>
-			<p>Thomas Beale presented openEHR at the British Computer Society Primary Health Care Specialist Group conference  in Oxford, 30th September 2007. See presentations page.</p>
-			<br/>
-			
-			<a href="20040505">openEHR ARB Formation</a>
-			<h6>5. May 2004</h6>
-			<p>The Foundation has formally appointed an openEHR Architectural Review Board (ARB), with 8 members, to review future changes proposed to openEHR specifications and software.</p>
-			<br/>
-			
-			<a href="20040504">Version control system adopted</a>
-			<h6>4. May 2004</h6>
-			<p>openEHR public materials have been moved to a web-accessible version control system called BitKeeper, enabling reliable access and collaborative development on software and documents.</p>
-			<br/>
-			
-			<a href="20030826">openEHR has 256 members</a>
-			<h6>26. August 2003</h6>
-			<p>There are now 256 members from 42 countries - so we are a veritable international group! Thank you for your participation.</p>
-			<br/>
-			
-			<a href="20030423">Foundation Establishment</a>
-			<h6>23. April 2003</h6>
-			<p>The openEHR Foundation has been established as a not-for-profit company, limited by guarantee.</p>
+			<a href="20100831">openEHR / IHTSDO explore IP integration, governance, SNOMED archetypes</a>
+			<h6>31. August 2010</h6>
+			<p>The openEHR Foundation core team held a two-day meeting with senior representatives of the IHTSDO on August 26th-27th, in London. he meeting explored the potential for integration of the IP held by the openEHR Foundation and that of the IHTSDO under the governance arrangements, internationally, of the IHTSDO.</p>
 			<br/>
 			
 		</div>
@@ -123,7 +94,7 @@ $PageName = 'Foundation News';
 	</div>
 
 	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>
+		<?php include '../../panel/bottompanel.php' ?>	
 	</div>
 
 </div>

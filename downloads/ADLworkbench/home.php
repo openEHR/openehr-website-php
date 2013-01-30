@@ -1,17 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'ADL Workbench Home';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - ADL Workbench</title>
-	<link rel="bookmark" href="http://www.openehr.org/downloads/ADLworkbench/home" title="openEHR - ADL Workbench">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -21,7 +20,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -32,14 +31,15 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 		
 		<div id="SideMenu">
-			<?php include 'menu/adlmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 
 		<div id="TextArea">
 		
-			<h1>ADL Workbench Home</h1>
+			<h1><?php echo "$PageName";?></h1>
+			
 			<h2>ADL 1.5 Workbench beta release 8, 2 August 2012</h2>
-			<p><a href="releasenotes">Release notes</a> - <a href="http://www.openehr.org/issues/browse/AWBPR">Report an issue (Jira)</a> - <a href="http://www.openehr.org/issues/browse/AWB">Development Project (Jira)</a></p>
+			<p><a href="release_notes">Release notes</a> - <a href="http://www.openehr.org/issues/browse/AWBPR">Report an issue (Jira)</a> - <a href="http://www.openehr.org/issues/browse/AWB">Development Project (Jira)</a></p>
          
 
 			<h2>News</h2>
@@ -74,19 +74,19 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<td class="TableMainC"> Mac OS X 10.7 (Lion)<br/></td>
 				<td class="TableMainC"> beta 8</td>
 				<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/mac_osx/adl_workbench/ADL%20Workbench%20for%20Lion%20i386.dmg">.dmg installer</a></td>
-					<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
+					<td class="TableMainC"> <a href="installation_notes#mac">here</a> <br/></td>
             </tr>
             <tr>
 					<td class="TableMainC"> Mac OS X 10.8 (Mountain Lion)<br/></td>
 					<td class="TableMainC"> beta 8</td>
 					<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/mac_osx/adl_workbench/ADL%20Workbench%20for%20Mountain%20Lion%20i386.dmg">.dmg installer</a></td>
-				<td class="TableMainC"> <a href="installationnotes#mac">here</a> <br/></td>
+				<td class="TableMainC"> <a href="installation_notes#mac">here</a> <br/></td>
 			</tr>
 			<tr>
 				<td class="TableMainC">Linux (32-bit Intel)<br/></td>
 				<td class="TableMainC">beta 8</td>
 				<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/linux/adl_workbench/adl_workbench-linux.tar.bz2">.tar bz2 archive</a></td>
-				<td class="TableMainC"> <a href="installationnotes#linux">here</a></td>
+				<td class="TableMainC"> <a href="installation_notes#linux">here</a></td>
 			</tr>
 			</tbody>
             </table>
@@ -109,9 +109,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

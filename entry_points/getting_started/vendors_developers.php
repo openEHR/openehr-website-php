@@ -1,40 +1,44 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Vendors / Developers';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - Vendors / Developers</title>
-	<?php include '../../panel/headpanel.php' ?>
-</head>
 
+<head>
+
+	<?php include '../../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../../panel/toppanel.php' ?>
+		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
-   		<?php include '../../menu/topmenu.php' ?>
+			<?php include '../../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-		<?php include 'menu/guide.php' ?>
+		<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Vendors / Developers</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<br/>
+			
 			<p>openEHR provides many advantages for health information system and application vendors. Because it is a standardised computing platform it enables many vendors to avoid re-inventing their own back-end for EHR, demographics, data integration and so on, and instead use one of the high-quality implementations becoming available. All of the API and service specifications are already or will soon be publicly available.</p>
 			<p>A prime source of efficiency when using the openEHR platform is the ability to use archetypes agreed formally elsewhere, ensuring genuine semantic interoperability of health records. This might be considered a form of cooperative clinical configuration. While such configuration is a source of income to vendors in the current environment, it is a waste for the health system as a whole and a source of many of the integration problems we are currently experiencing.</p>
 			
@@ -62,7 +66,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 		</div>
 			
-
 	</div>
 
 	<div id="BottomMenu">
@@ -75,9 +78,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

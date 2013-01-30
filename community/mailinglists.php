@@ -1,38 +1,41 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Mailing Lists';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - Mailing lists</title>
-	<?php include '../panel/headpanel.php' ?>
-</head>
 
+<head>
+
+	<?php include '../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../panel/toppanel.php' ?>
+		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
-   		 <?php include '../menu/topmenu.php' ?>
+			<?php include '../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 		
 		<div id="SideMenu">
-		<?php include 'menu/communitymenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
-		<h1>Mailing lists</h1>
+		<h1><?php echo "$PageName";?></h1>
 		<p>The openEHR mailing lists are sited at <a href="http://www.mailmanhost.com/">dot.list</a>, a mailing list hoster run by one of the developers of the mailman software. The ICANN lists are also hosted here, so we think it's safe. All lists have the address of the form listname@lists.openehr.org. Only the openehr-announce list is moderated.</p>
 		
 		<h2>openEHR Foundation</h2>
@@ -259,9 +262,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

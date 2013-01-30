@@ -39,6 +39,11 @@ $PageName = 'Industry News';
 			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			
+			<a href="20130128">IBS and Moscow city to host second openEHR Workshop</a>
+			<h6>28. January 2013</h6>
+			<p>On 5. - 7. February the second part of a series of seminars on the use of the international open standard medical management, storage and exchange of electronic medical records (openEHR) will be hosted in Moscow. The seminar organizers are the Department of Information Technology in Moscow together with IBS.</p>
+			<br/>
+			
 			<a href="20121226">IBS consortium including three openEHR vendors to build Moscow eHealth infrastructure</a>
 			<h6>26. December 2012</h6>
 			<p>A consortium led by IBS Moscow and including three openEHR vendors - Marand, Infinnity, and Ocean Informatics - has won the contract for the pilot of the Moscow city integrated medical information system.</p>
