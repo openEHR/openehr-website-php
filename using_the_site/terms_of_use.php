@@ -1,38 +1,42 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Terms of Use';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - Terms of Use</title>
-	<?php include '../panel/headpanel.php' ?>
-</head>
 
+<head>
+
+	<?php include '../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../panel/toppanel.php' ?>
+		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
+	
 		<div class="nav">
-   		<?php include '../menu/topmenu.php' ?>
+			<?php include '../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-		<?php include 'menu/sitepoliciesmenu.php' ?>
+		<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Terms of Use</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<h2>Introduction</h2>
 			<p>Welcome to www.openehr.org (for further reference "the website").
 			The openEHR Foundation owns the website. You may access and use the website if you accept the terms and conditions (for futher reference "the terms") set out below.
@@ -80,7 +84,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 		</div>
 			
-
 	</div>
 
 	<div id="BottomMenu">
@@ -93,9 +96,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

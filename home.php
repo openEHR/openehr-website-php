@@ -1,13 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
 	<title>Welcome to openEHR - Homepage</title>
 	<?php include 'panel/headpanelhome.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -25,7 +25,7 @@
 		
 	</div> 
 
-	<div id="MainArea" style="height:690px">
+	<div id="MainArea" style="height:740px">
 
 		<div id="WhatFrame">
 			<img src="gui/WhatFrame.png" usemap="#what"/>
@@ -63,7 +63,7 @@
 			</div>
 		</div>
 			
-		<div id="JoinFrame">
+		<div id="ProgramsFrame">
 			<img src="gui/ProgramsFrame.png" usemap="#join"/>
 			<map name="join">
 			  <area shape="rect" coords="0,0,220,150" href="openehr_programs" alt="openEHR Programs" />
@@ -75,10 +75,11 @@
 			</div> 
 		</div>
 		
-		<div id="HomeFrame2">
+		<div id="BigFrame">
+		
 			<div id="TwitterFrame">
 				<h2>openEHR Talk</h2>
-				<div style="position: absolute; top:30px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
+				<div style="position: absolute; top:20px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
 					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 					<script>
 					new TWTR.Widget({
@@ -90,7 +91,7 @@
 					 title: '',
 					 subject: '',
 					 width: 190,
-					 height: 100,
+					 height: 120,
 					 theme: {
 					   shell: {
 						 background: 'none',
@@ -112,9 +113,9 @@
 					</script>
 				</div>
 				
-				<br/><br/><br/><br/><br/><br/><br/><br/>
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 				<a href="news_events/clinical_model_news" style="color:#023670;"><h2>CKM Activity</h2></a>
-				<div style="position: absolute; top:190px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
+				<div style="position: absolute; top:215px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
 					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 					<script>
 					new TWTR.Widget({
@@ -125,7 +126,7 @@
 					  title: '',
 					  subject: '',
 					  width: 190,
-					  height: 100,
+					  height: 120,
 					  theme: {
 						shell: {
 						  background: 'none',
@@ -148,11 +149,13 @@
 				</div>
 			</div>
 			
-			
-			<div id="Twitter2Frame">
+			<div id="IndustryFrame">
 				<div id="LinksFrame">
 					<a href="news_events/industry_news" style="color:#023670;"><h2>Industry News</h2></a>
 					
+					<a href="news_events/industry_news/20130128">IBS and Moscow city to host second openEHR Workshop</a>
+					<h6>28. January 2013</h6>
+					<br/>
 					<a href="news_events/industry_news/20121226">IBS consortium including three openEHR vendors to build Moscow eHealth infrastructure</a>
 					<h6>26. December 2012</h6>
 					<br/>
@@ -167,29 +170,30 @@
 				</div>
 			</div>
 			
-
 			<div id="NewsFrame">
 				<div id="LinksFrame">
-					<a href="news_events/announcements" style="color:#023670;"><h2>Announcements</h2></a>
+					<a href="news_events/foundation_news" style="color:#023670;"><h2>Foundation News</h2></a>
 					
-					<a href="news_events/announcements/20130117">Publications on openEHR and open source</a>
-					<h6>17. January 2013</h6>
-					<br/>
-					<a href="news_events/announcements/20121212">openEHR Transition Update</a>
+					<a href="news_events/foundation_news/20121212">openEHR Transition Update</a>
 					<h6>12. December 2012</h6>
 					<br/>
-					<a href="news_events/announcements/20120515">Board statement on Clinical Knowledge Manager</a>
+					<a href="news_events/foundation_news/20120515">Board statement on Clinical Knowledge Manager</a>
 					<h6>15. May 2012</h6>
 					<br/>
-					<a href="news_events/announcements/20120211">Interim board announces new openEHR Program groups</a>
+					<a href="news_events/foundation_news/20120211">Interim board announces new openEHR Program groups</a>
 					<h6>11. February 2012</h6>
 					<br/>
-					<a href="news_events/announcements/20111020">Update on openEHR Governance</a>
-					<h6>20. October 2011</h6>
+					
+					<a href="news_events/community_news" style="color:#023670;"><h2>Community News</h2></a>
+					
+					<a href="news_events/community_news/20130127">Erik Sundvall's EHR PhD thesis published online</a>
+					<h6>17. January 2013</h6>
+					<br/>
+					<a href="news_events/community_news/20130117">Publications on openEHR and open source</a>
+					<h6>17. January 2013</h6>
 				</div>	
 			</div>
-			
-			
+					
 			<div id="ReleasesFrame">
 				<div id="LinksFrame">
 					<a href="news_events/releases" style="color:#023670;"><h2>Releases</h2></a>
@@ -208,11 +212,14 @@
 					<br/>
 					<a href="news_events/releases/20110114">ADL 1.5 Workbench - beta release 3</a>
 					<h6>14. January 2011</h6>
+					<br/>
+					<a href="news_events/releases/20101221">Achetype Editor 2.2 beta release</a>
+					<h6>21. December 2010</h6>
 				</div>
 			</div>	 
-			
-			
+				
 		</div>
+		
 	</div>
 
 	<div id="BottomMenu">
@@ -225,9 +232,8 @@
 
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include 'panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

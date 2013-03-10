@@ -1,17 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = "Documentation";
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Clinical Models Program</title>
-	<link rel="bookmark" href="http://www.openehr.org/programs/clinicalmodels/documentation" title="openEHR - Clinical Models Program">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -21,7 +20,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -32,12 +31,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea" style="height:450px;">
 	
 		<div id="SideMenu">
-			<?php include 'menu/modelsmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 
 		<div id="TextArea">
 		
-			<h1>Documentation</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			<p>The openEHR Clinical Knowledge Manager (CKM) is an international, online clinical knowledge resource. It has gathered an active Web 2.0 community of interested and motivated individuals focused on furthering an open and international approach to clinical informatics - an application- and message-independent lingua franca for sharing health information between individuals, clinicians and organisations; between applications, and across regional and national borders. All contributions to CKM is on a voluntary basis, and all CKM content is open source and freely available under a Creative Commons licence.</p>
 			<p>See the live instance of CKM <a href="http://openehr.org/knowledge">here</a>.</p>
@@ -64,9 +63,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

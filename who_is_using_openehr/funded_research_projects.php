@@ -1,17 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Funded Research Projects';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Who is using openEHR?</title>
-	<link rel="bookmark" href="http://www.openehr.org/who_is_using_openehr" title="openEHR - Who is using openEHR?">
 	<?php include '../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -37,7 +36,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	
 		<div id="TextArea">
 
-			<h1><a name="research_projects"></a>Funded Research Projects</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<p>The following&nbsp; table indicates known funded research projects using openEHR. Please <a href="about/contacts">contact us</a>, to notify of other projects.</p>
 			<table class="TableMain">
 			<tbody>
@@ -86,9 +85,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

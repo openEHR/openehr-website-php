@@ -1,17 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = "Governance &amp; Members";
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Software Program</title>
-	<link rel="bookmark" href="http://www.openehr.org/programs/software/governance" title="openEHR - Software Program">
 	<?php include '../../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -21,7 +20,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<?php include '../../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
@@ -32,15 +31,15 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/softwaremenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 
 		<div id="TextArea">
 
-			<h1>Governance &amp; Members</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			<p>Most current openEHR-related software projects are self-governed sparate entities. The principles below only govern the common openEHR Software Programme itself and it's provided resources (sometimes including code donated to the openEHR foundation).</p>
-			<p>The governance structure of the openEHR software program/group is mosly mail-list based and inspired by the <a href="http://www.apache.org/foundation/">Apache Software Foundation</a> and <a href="http://www.apache.org/foundation/how-it-works.html#management">the way it works</a>. That is combined with the <a href="https://sites.google.com/a/openehrfoundation.org/foundation/home/foundation-committees">general governance structure of the openEHR foundation</a> that requires both a <em>Program Committee</em> and a list of <em>Program Qualified Members</em>.</p>
+			<p>The governance structure of the openEHR software program/group is mosly mail-list based and inspired by the <a href="http://www.apache.org/foundation/">Apache Software Foundation</a> and <a href="http://www.apache.org/foundation/how-it-works.html#management">the way it works</a>. That is combined with the general <a href="../../about/governance_structure">governance structure</a> of the openEHR Foundation that requires both a <em>Program Committee</em> and a list of <em>Program Qualified Members</em>.</p>
 			
 			
 			<h2>Community, including Program Qualified Members</h2>
@@ -104,9 +103,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	
 </div>
 
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

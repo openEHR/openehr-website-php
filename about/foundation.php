@@ -1,17 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Foundation';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
 <head>
 
-	<title>openEHR - Foundation</title>
-	<link rel="bookmark" href="http://www.openehr.org/about/foundation" title="openEHR - Foundation">
 	<?php include '../panel/headpanel.php' ?>
 	
 </head>
-
 
 <body>
 
@@ -21,7 +20,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
 			<?php include '../menu/topmenu.php' ?>
@@ -32,12 +31,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/aboutmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Foundation</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2><a name="status"></a>Legal Status</h2>
 			<p>The openEHR Foundation is currently a not-for-profit company, limited by guarantee. Its founders were University College London, UK and Ocean Informatics Pty Ltd, Australia. It is regulated under the UK Companies Acts 1985 and 1989. The name 'openEHR' has been registered internationally as a Trade Mark.</p>
@@ -98,6 +97,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 			<h3>Finally...</h3>
 			<p>The openEHR Foundation will continue to proceed based on its usual 3 key activities ... implementation, implementation, implementation.</p>
+			
 		</div>
 			
 	</div>
@@ -112,9 +112,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

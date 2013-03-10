@@ -1,4 +1,4 @@
-
+<?php $root = realpath($_SERVER["DOCUMENT_ROOT"]); ?>
 			<ul id="menu" class="menu">
 			
 				<li><a href="/home">Home</a></li>
@@ -14,57 +14,20 @@
 				
        			<li><span>Entry Points</span>
             		 <ul>
-               			<li><span>&nbsp; Getting started</span>
-							<ul>
-								<li><a href="/entry_points/getting_started/vendors_developers">&nbsp; Vendors / Developers</a></li>
-								<li><a href="/entry_points/getting_started/governmentbodies_programmes">&nbsp; Government Bodies</a></li>
-								<li><a href="/entry_points/getting_started/providers_clinicians">&nbsp; Providers / Clinicians</a></li>
-								<li><a href="/entry_points/getting_started/universities_researchcentres">&nbsp; Universities / Research</a></li>
-							</ul>
+               			<li><?php include "$root/entry_points/getting_started/menu.php"?>
 						</li>
-						<li><span>&nbsp; I am working on</span>
-							<ul>
-								<li><a href="/entry_points/i_am_working_on/clinical_standardisation">&nbsp; Clinical Standardisation</a></li>
-								<li><a href="/entry_points/i_am_working_on/government_programme">&nbsp; Government Programme</a></li>
-								<li><a href="/entry_points/i_am_working_on/medical_research">&nbsp; Medical Research</a></li>
-								<li><a href="/entry_points/i_am_working_on/building_solutions">&nbsp; Building Solutions</a></li>
-								<li><a href="/entry_points/i_am_working_on/obtaining_solutions">&nbsp; Obtaining Solutions</a></li>
-							</ul>
+						<li><?php include "$root/entry_points/i_am_working_on/menu.php"?>
 						</li>
             		 </ul>
        			</li>
 				
-				<li><span>Downloads</span>
-            		<ul>
-						<li><a href="/downloads/modellingtools">&nbsp; Modelling Tools</a></li>
-						<li><a href="/downloads/applications">&nbsp; Applications</a></li>
-						<li><a href="/downloads/ehrcomponents">&nbsp; EHR Components</a></li>
-						<li><a href="/downloads/applicationbuilding">&nbsp; Application Building</a></li>
-					</ul>
+				<li><?php include "$root/downloads/menu.php"?>
        			</li>
 				
-        		<li><span>News & Events</span>
-            		 <ul>
-                		<li><a href="/news_events/industry_news">&nbsp; Industry News</a></li>
-						<li><a href="/news_events/foundation_news">&nbsp; Foundation News</a></li>
-						<li><a href="/news_events/announcements">&nbsp; Announcements</a></li>
-                		<li><a href="/news_events/events">&nbsp; Events</a></li>
-						<li><a href="/news_events/releases">&nbsp; Releases</a></li>
-						<li><a href="/news_events/clinical_model_news">&nbsp; CKM Activity</a></li>
-					</ul>
+        		<li><?php include "$root/news_events/menu.php"?>
        			</li>
         	
-				<li><span>About Us</span>
-            		 <ul>
-                		<li><a href="/about/foundation">&nbsp; Foundation</a></li>
-						<li><a href="/about/membership">&nbsp; Membership</a></li>
-						<li><a href="/about/governance_structure">&nbsp; Governance Structure</a></li>
-						<li><a href="/about/people_in_governance">&nbsp; People in Governance</a></li>		
-						<li><a href="/about/origins">&nbsp; Origins of openEHR</a></li>
-						<li><a href="/about/intellectual_property">&nbsp; Intellectual Property</a></li>
-						<li><a href="/about/logos">&nbsp; Logos</a></li>
-						<li><a href="/about/contacts">&nbsp; Contacts</a></li>
-            		 </ul>
+				<li><?php include "$root/about/menu.php"?>
         		</li>
 
     		</ul>

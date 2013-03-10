@@ -1,6 +1,6 @@
 /*Headings, paragraph*/
 h1 {font-size:17px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-bottom:0.3em;}
-h2 {font-size:17px; font-weight:900; line-height:150%; color:#023760; text-decoration:none; margin-top:0.8em; margin-bottom:0.7em; font-style:italic;}
+h2 {font-size:16px; font-weight:900; line-height:150%; color:#023760; text-decoration:none; margin-top:0.9em; margin-bottom:0.6em; font-style:italic;}
 h3 {font-size:14px; font-weight:900; line-height:150%; color:#023760; text-decoration:none;
 margin-top:1.5em; margin-bottom:0.1em; font-style:italic;}
 h4 {font-size:14px; font-weight:900; line-height:150%; color:#023760; text-decoration:none; margin-bottom:0.5em;}
@@ -24,71 +24,6 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
 #MainArea a:hover {
  color:#3386AE;
  text-decoration:underline;
-}
-
-#HomeFrame1 {
- position:absolute;
- top:125px;
- left:40px;
- height:150px;
- width:950px;
- background-image: url("../gui/HomeFrame1.png");
- filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...);
- background-repeat:no-repeat;
-}
-
-#ProgramsFrame {
- position:absolute;
- top:125px;
- left:40px;
- height:150px;
- width:950px;
- background-image: url("../gui/ProgramsFrame.png");
- filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...);
- background-repeat:no-repeat;
-}
-
-#WelcomeFrame {
- position:absolute;
- height:110px;
- width:205px;
- padding-left:15px;
- padding-right:25px;
-}
-
-#EntryFrame {
- position:absolute;
- left:240px;
- height:110px;
- width:671px;
- padding-left:15px;
- padding-right:25px;
- padding-bottom:10px;
-}
-
-#EntryFrame  p  {
- font-size:16px;
-}
-
-#Entry1 {
- position:absolute;
- left:50px;
- top:10px;
- padding-left:15px;
-}
-
-#Entry2 {
- position:absolute;
- left:280px;
- top:10px;
- padding-left:15px;
-}
-
-#Entry3 {
- position:absolute;
- left:500px;
- top:10px;
- padding-left:15px;
 }
 
 #WhatFrame {
@@ -115,7 +50,7 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  width:230px;
 }
 
-#JoinFrame {
+#ProgramsFrame {
  position:absolute;
  top:125px;
  left:760px; 
@@ -134,23 +69,14 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-bottom:5px;
 }
 
-#HomeFrame2 {
+#BigFrame {
  position:absolute;
  top:425px;
  left:40px;
- height:360px;
+ height:410px;
  width:950px;
- background-image: url("../gui/HomeFrame2.png");
+ background-image: url("../gui/BigFrame.png");
  background-repeat:no-repeat;
-}
-
-#ReleasesFrame {
- position:absolute;
- left:720px;
- height:340px;
- width:210px;
- padding-left:15px;
- padding-right:20px;
 }
 
 #TwitterFrame {
@@ -161,7 +87,7 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-right:20px;
 }
 
-#Twitter2Frame {
+#IndustryFrame {
  position: absolute;
  height:340px;
  width:210px;
@@ -179,6 +105,15 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-right:20px;
 } 
 
+#ReleasesFrame {
+ position:absolute;
+ left:720px;
+ height:340px;
+ width:210px;
+ padding-left:15px;
+ padding-right:20px;
+}
+
 #LinksFrame {
  position:absolute;
  top:0px;
@@ -189,7 +124,6 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-right:25px;
  padding-bottom:10px;
 }
-
 
 #SpecificationFrame {
  position:absolute;

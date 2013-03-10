@@ -85,6 +85,9 @@ body {
 
 #Logo a {
  text-decoration:none;
+ display:block;
+ height:60px;
+ width:180px;
 }
 
 #Motto {

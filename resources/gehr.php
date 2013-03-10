@@ -1,38 +1,42 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'GEHR';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - GEHR</title>
-	<?php include '../panel/headpanel.php' ?>
-</head>
 
+<head>
+
+	<?php include '../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../panel/toppanel.php' ?>
+		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu">
+	
 		<div class="nav">
-   		<?php include '../menu/topmenu.php' ?>
+			<?php include '../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-		<?php include 'menu/resourcesmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>GEHR</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>GEHR - The Good European Health Record</h2>
 			<p>The <a href="http://www.chime.ucl.ac.uk/work-areas/ehrs/GEHR/Deliverables.htm">GEHR
@@ -224,10 +228,9 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	</div>
 
 </div>
-	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

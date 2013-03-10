@@ -1,38 +1,42 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Privacy Policy';
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - Privacy Policy</title>
-	<?php include '../panel/headpanel.php' ?>
-</head>
 
+<head>
+
+	<?php include '../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-	<?php include '../panel/toppanel.php' ?>
+		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
+	
 		<div class="nav">
-   		<?php include '../menu/topmenu.php' ?>
+			<?php include '../menu/topmenu.php' ?>
 		</div>
+		
 	</div> 
 
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-		<?php include 'menu/sitepoliciesmenu.php' ?>
+		<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Privacy Policy</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			<p>We will process your data in accordance with the Data Protection Act. The purpose of the privacy policy is to inform users about what information we collect when they visit www.openEHR.org (for further reference "the website") and its tools, how we use the information, whether the information is disclosed and the ways in which we protect users' privacy.</p>
 			
@@ -54,7 +58,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			
 		</div>
 			
-
 	</div>
 
 	<div id="BottomMenu">
@@ -67,9 +70,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

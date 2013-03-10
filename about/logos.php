@@ -1,16 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Logos';
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - Logos</title>
-	<link rel="bookmark" href="http://www.openehr.org/about/logos" title="openEHR - Logos">
-	<?php include '../panel/headpanel.php' ?>
-</head>
 
+<head>
+
+	<?php include '../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
@@ -31,12 +31,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/aboutmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Logos</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			<p>There are various versoins of the openEHR logo in use as shown below.</p>
 			
@@ -84,9 +84,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

@@ -1,16 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Intellectual Property';
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - Intellectual Property</title>
-	<link rel="bookmark" href="http://www.openehr.org/about/ip" title="openEHR - Intellectual Property">
-	<?php include '../panel/headpanel.php' ?>
-</head>
 
+<head>
+
+	<?php include '../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
@@ -20,7 +20,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
 			<?php include '../menu/topmenu.php' ?>
@@ -31,12 +31,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/aboutmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Intellectual Property</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Licence Overview</h2>
 			<p>The three areas of work that constitute the main Foundation IP will be licensed in the  following manner:</p>
@@ -80,7 +80,6 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li>Have a formal agreement to use any terminology codes, value sets and reference sets where required.</li>
 			</ul>
 			
-
 		</div>
 			
 	</div>
@@ -95,9 +94,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>

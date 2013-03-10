@@ -1,16 +1,16 @@
 <?php
-$pageOn = basename($_SERVER['PHP_SELF']);
+$PageName = 'Governance Structure';
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-	<title>openEHR - Governance Structure</title>
-	<link rel="bookmark" href="http://www.openehr.org/about/govstructure" title="openEHR - Governance Structure">
-	<?php include '../panel/headpanel.php' ?>
-</head>
 
+<head>
+
+	<?php include '../panel/headpanel.php' ?>
+	
+</head>
 
 <body>
 
@@ -20,7 +20,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 		<?php include '../panel/toppanel.php' ?>
 	</div>
 	
-	<div id="TopMenu" style="text-align:left">
+	<div id="TopMenu">
 		
 		<div class="nav">
 			<?php include '../menu/topmenu.php' ?>
@@ -31,12 +31,12 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 	<div id="MainArea">
 	
 		<div id="SideMenu">
-			<?php include 'menu/aboutmenu.php' ?>
+			<?php include 'menu.php' ?>
 		</div>
 		
 		<div id="TextArea">
 			
-			<h1>Governance Structure</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			<p>The governance structure of the openEHR Foundation is based on the division of activities into four Programs: Specifications, Clinical models, Software and Localisation. Work is carried out in projects within these Programs by Contributing and Qualified members, with all Members having the right of access to work items and particpation in meetings. </p>
 			<p>A Program Coordination Board will coordinate and prioritise the work done by the Programs. A Foundation Office is responsible for administration and communicaions. A Foundation Board, elected by both the Individual and Organisational Membership sets the strategy according to stakeholder requirements. An Advisory Panel provides a way to formalise external expert input. The structure is shown below.</p>
@@ -115,6 +115,7 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 				<li>Meet monthly.</li>
 			</ul>
 			<p>See members of Program Coordination Board <a href="people_in_governance#programcoordinationboard">here</a>.</p>
+			
 		</div>
 			
 	</div>
@@ -129,9 +130,8 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 
 </div>
 	
-<script type="text/javascript">
-var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
-</script>
+<?php include '../panel/scriptpanel.php' ?>
 
 </body>
+
 </html>
