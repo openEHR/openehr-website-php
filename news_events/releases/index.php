@@ -39,6 +39,11 @@ $PageName = 'Releases';
 			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			
+			<a href="20130305">CKM upgraded to include projects and other features</a>
+			<h6>5. March 2013</h6>
+			<p>A major new release of the openEHR Clinical Knowledge Manager (CKM) went online today. This release is a major upgrade to CKM which provides improved 'governance units', and also gets closer to the ultimate goal of an end-to-end tool chain.</p>
+			<br/>
+			
 			<a href="20120813">ADL - syntax highlight for Notepad++</a>
 			<h6>13. August 2012</h6>
 			<p>ADL syntax highlight for Notepad++ was developed by Armando Prieto from Venezuela.

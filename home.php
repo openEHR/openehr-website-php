@@ -174,14 +174,14 @@
 				<div id="LinksFrame">
 					<a href="news_events/foundation_news" style="color:#023670;"><h2>Foundation News</h2></a>
 					
+					<a href="news_events/foundation_news/20130306">Professor Dipak Kalra becomes President of EuroRec</a>
+					<h6>6. March 2013</h6>
+					<br/>
 					<a href="news_events/foundation_news/20121212">openEHR Transition Update</a>
 					<h6>12. December 2012</h6>
 					<br/>
 					<a href="news_events/foundation_news/20120515">Board statement on Clinical Knowledge Manager</a>
 					<h6>15. May 2012</h6>
-					<br/>
-					<a href="news_events/foundation_news/20120211">Interim board announces new openEHR Program groups</a>
-					<h6>11. February 2012</h6>
 					<br/>
 					
 					<a href="news_events/community_news" style="color:#023670;"><h2>Community News</h2></a>
@@ -198,6 +198,9 @@
 				<div id="LinksFrame">
 					<a href="news_events/releases" style="color:#023670;"><h2>Releases</h2></a>
 					
+					<a href="news_events/releases/20130305">CKM upgraded to include projects and other features</a>
+					<h6>5. March 2013</h6>
+					<br/>
 					<a href="news_events/releases/20120813">ADL - syntax highlight for Notepad++</a>
 					<h6>13. August 2012</h6>
 					<br/>
@@ -212,9 +215,6 @@
 					<br/>
 					<a href="news_events/releases/20110114">ADL 1.5 Workbench - beta release 3</a>
 					<h6>14. January 2011</h6>
-					<br/>
-					<a href="news_events/releases/20101221">Achetype Editor 2.2 beta release</a>
-					<h6>21. December 2010</h6>
 				</div>
 			</div>	 
 				
