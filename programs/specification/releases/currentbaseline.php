@@ -223,9 +223,16 @@ $PageName = 'Releases';
 				<td class="TableMainC" style="background-color:#FFFFFF;">Querying</td>
 				<td class="TableMainC"> Archetype Query Language, a-path  </td>
 				<td class="TableMainC"> AQL grammar, a-path grammar  </td>
-				<td class="TableMainC"> &nbsp;</td>
+				<td class="TableMainC"> Query language based on archetype paths and pattern matching.</td>
 				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/display/spec/AQL-+Archetype+Query+Language">dev page</a></td>
 			</tr>
+			<tr style="background-color:#FFFFDD;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> Guidelines and&nbsp; Decision Support </td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/gdl-tools/blob/master/cds/docs/specs/gdl-specs.pdf?raw=true">Guideline Description Language (GDL) </td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> Guideline language based on ADL syntax with extensions.</td>
+				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://github.com/openEHR/gdl-tools/wiki">dev page</a></td>
+			</tr>			
 			</tbody>
 			</table>
 			
