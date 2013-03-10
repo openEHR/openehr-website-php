@@ -130,20 +130,20 @@ $pageOn = basename($_SERVER['PHP_SELF']);
 			<tr>
 				<td class="TableMainC"><em>Clinic of Chelyabinsk Medical Academy</em><br/>572 beds, 196 physicians, 386 staff in total</td>
 				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
-				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity, Russia</a></td>
 				<td class="TableMainC">Deployed late 2012</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><em>Federal Medical Biological Agency of Trekhgorny, Chelyabinskaya oblast</em><br/>403 beds, 119 physicians<br/>
 				<em>Federal Medical Biological Agency of Chelyabinsk, Radiation Rehabilitation Center</em></br>200 beds, 36 physicians, 76 staff in total</td>
 				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
-				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity, Russia</a></td>
 				<td class="TableMainC">Deployed 2012</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><em>Russian Railways Medical Center, Chelyabinsk, Department of Southern Urals</em><br/>630 beds, 700 physicians, 1500 of staff in total</td>
 				<td class="TableMainC">openEHR-based EHR system covering specialities including Infectious Diseases, Reanimation and Intensive Care, Surgery (including Cardio and Emergency departments), Gyneacology, Neurology, Obstetrics etc.</td>
-				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity (Russia)</a></td>
+				<td class="TableMainC"><a href="http://www.infinnity.ru/">Infinnity, Russia</a></td>
 				<td class="TableMainC">Deployed 2011</td>
 			</tr>
 			<tr>
