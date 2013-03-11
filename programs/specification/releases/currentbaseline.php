@@ -228,7 +228,7 @@ $PageName = 'Releases';
 			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> Guidelines and&nbsp; Decision Support </td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/gdl-tools/blob/master/cds/docs/specs/gdl-specs.pdf?raw=true">Guideline Description Language (GDL) </td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/gdl-tools/blob/master/cds/docs/specs/gdl-specs.pdf?raw=true">Guideline Definition Language (GDL) </td>
 				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Guideline language based on ADL syntax with extensions.</td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://github.com/openEHR/gdl-tools/wiki">dev page</a></td>
