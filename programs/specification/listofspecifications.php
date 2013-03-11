@@ -138,8 +138,8 @@ $PageName = 'List of Specifications';
 				</tr>
 				<tr>
 					<td class="TableMainC"> Guidelines and&nbsp; Decision Support </td>
-					<td class="TableMainC"> Guideline Description Language (GDL) </td>
-					<td class="TableMainC"> A language for expressing guidelines for use with decision support components.</td>
+					<td class="TableMainC"> Guideline Definition Language (GDL) </td>
+					<td class="TableMainC"> A language for expressing computable guidelines for use with decision support components.</td>
 				</tr>
 				</tbody>
 			</table>

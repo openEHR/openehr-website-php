@@ -49,7 +49,7 @@ $PageName = 'Guidelines and Decision Support';
 			</tr>	
 			<tr>
 				<td class="TableMainC">GDL Tools</td>
-				<td class="TableMainC"><p>Tools for guideline definition using Guideline Description Language (GDL), a proposed new language based on ADL. GitHub project repository <a href="https://github.com/openEHR/gdl-tools/wiki">here</a>. Current GDL specification draft (<a href="https://github.com/openEHR/gdl-tools/blob/master/cds/docs/specs/gdl-specs.pdf?raw=true">PDF</a>).</p></td>
+				<td class="TableMainC"><p>Tools for guideline definition using Guideline Definition Language (GDL), a proposed new language based on ADL. GitHub project repository <a href="https://github.com/openEHR/gdl-tools/wiki">here</a>. Current GDL specification draft (<a href="https://github.com/openEHR/gdl-tools/blob/master/cds/docs/specs/gdl-specs.pdf?raw=true">PDF</a>).</p></td>
 				<td class="TableMainC">Java</td>
 				<td class="TableMainC"><br/><a href="http://sourceforge.net/projects/gdl-editor/">Download page</a><br/><br/></td>
 			</tr>
