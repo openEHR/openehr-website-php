@@ -72,7 +72,7 @@ $PageName = 'openEHR Programs';
 			
 			<h2>Localisation Program</h2>
 			<p>Bringing the technical outputs of the other programs to the real world is the job of the Localisation Program, which works in a distributed fashion around the world, generally in collaboration with local, regional and national standards groups, as well as industry and academic groups. The Localisation Program aims to make the outputs of openEHR available and usable in local languages and within diverse healthcare cultures and funding environments.</p>
-			<a href="programs/software" style="line-height:200%;">Learn more</a><br/>
+			<a href="programs/localisation" style="line-height:200%;">Learn more</a><br/>
 		
 		</div>
 		

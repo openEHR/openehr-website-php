@@ -39,6 +39,11 @@ $PageName = 'Foundation News';
 			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			
+			<a href="20130306">Professor Dipak Kalra becomes President of EuroRec</a>
+			<h6>6. March 2013</h6>
+			<p>In a slightly belated announcement, the Foundation would like to recognise that Professor Dipak Kalra MD, PhD, head of department at the UCL Center for Health Informatics and Multi-Professional Education (CHIME) and openEHR board member, took office as president of Eurorec, along with the new board on 19 Nov 2012.</p>
+			<br/>
+			
 			<a href="20121212">openEHR Transition Update</a>
 			<h6>12. December 2012</h6>
 			<p>The Interim Board of the openEHR Foundation has largely agreed the basis for going forward based on the face-to-face meeting in London and feedback from a number of parties. We had planned to undertake elections before the end of the year but have all been too busy to put the necessary processes in place to make this feasible.</p>

@@ -82,6 +82,7 @@ $PageName = 'Site Map';
 							<li><a href="/downloads/archetypeeditor/home">Archetype Editor</a></li>
 						</ul>
 					<li><a href="/downloads/applications">Applications</a></li>
+					<li><a href="/downloads/ds_and_guidelines">Guidelines and DS</a></li>
 					<li><a href="/downloads/ehrcomponents">EHR Components</a></li>
 					<li><a href="/downloads/applicationbuilding">Application Building</a></li>
 				</ul>
