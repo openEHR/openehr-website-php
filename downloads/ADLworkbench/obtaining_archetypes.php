@@ -38,34 +38,54 @@ $PageName = 'ADL Workbench: Obtaining Archetypes';
 		
 			<h1>Obtaining Archetypes</h1>
 			
-			<h2>Places to find archetypes</h2>
-			<p>For first-time use, you will be asked to provide paths to archetypes. It helps to have already downloaded some archetypes! Useful places you can get archetypes:</p>
+			<h2>The openeHR GitHub archetypes repository</h2>
+			<p>For first-time use of the ADL Workbench, you will need some archetypes. The standard location for test archetypes, as well as a snapshot copy of CKM is the <a href="https://github.com/openEHR/adl-archetypes">openEHR adl-archetypes Git repository</a>.</p>
+			<p>If you know how to use Git, make a clone of this repository in your openEHR work area, with the following command:</p>
+			<pre>git clone https://github.com/openEHR/adl-archetypes.git</pre>
+			<p>If you don't know how to use Git, or don't have Git installed, you can obtain a snapshot of the repository as a .zip file using <a href="https://github.com/openEHR/adl-archetypes/archive/master.zip">this link</a>.</p>
+			<p>Once you have these archetypes, either as a Git repository or else snapshot, you will see various logical groups of archetypes, under the following sub-directories:</p>
 			<ul>
-				<li><a href="http://www.openehr.org/knowledge">openEHR Knowledge Repository</a></li>
-				<li><a href="http://dcm.nehta.org.au/ckm">Australian National (Nehta) Knowledge Repository</a></li>
-				<li><a href="https://ckm.nca.stuba.sk/">Slovak National (STUBA) Knowledge Repository</a></li>
-				<li><a href="http://www.openehr.org/svn/knowledge2/TRUNK/archetypes/">openEHR test and sample archetypes</a></li>
+				<li>ADL_1.5_reference: ADL 1.5 validity testing archetypes; </li>
+				<li>Reference
+					<ul>
+					<li>CKM_2012_08_08: snapshot of the contents of the openEHR CKM, with various validity-related fixes.</li>
+					</ul>
+				</li>
+				<li>Example
+					<ul>
+					<li>openEHR
+						<ul>
+							<li>ehr_extract_template: an ADL 1.5 template example based on the openEHR EHR Extract model.</li>
+							<li>demographic_template: an ADL 1.5 template example based on the openEHR dempgraphic model.</li>
+							<li>link_archeytpes: ADL 1.5 archetypes showing archetyping of the LINK type in the openEHR RM.</li>
+						</ul>
+					</li>
+					</ul>
+				</li>
+				<li>Development
+					<ul>
+						<li>CIMI: Clinical Information Model Initiative proof-of-concept archetypes based on a CIMI reference model;</li>
+					</ul>
+				</li>
+			</ul>
+			<p>Other directories will appear from time to time. Each of these directories should be treated as a separate 'repository' for the configuration steps below.</p>
+
+			<h2>Other places to find archetypes</h2>
+			<p>The following locations also provide archetypes:</p>
+			<ul>
+				<li><a href="http://www.openehr.org/ckm">openEHR CKM - most recent CKM archetypes</a></li>
+				<li><a href="http://dcm.nehta.org.au/ckm">Australian National (Nehta) CKM</a></li>
+				<li><a href="https://www.clinicalmodels.org.uk/">UK CKM</a></li>
+				<li><a href="https://ckm.nca.stuba.sk/">Slovak National (STUBA) CKM</a></li>
 			</ul>
 			 
 			<h3>Downloading from a Clinical Knowledge Manager (CKM) site</h3>
-			<p>All CKM sites work the same way, and the steps for download are as follows:</p>
+			<p>You can obtain the latest snapshot of the contents of any CKM as follows:</p>
 			<ul>
 			  <li>Login to the repository at <a href="http://www.openehr.org/knowledge">http://www.openehr.org/knowledge</a>.</li>
 			  <li>Go to Archetypes &gt; Bulk Export and select all archetypes for download; save in any convenient location. For the purposes of this documentation, we will refer to the location as $CKM for each of these CKM downloads (i.e. you will probably have directores like .../openEHR_CKM, .../Nehta_CKM, etc).</li>
 			</ul>
 
-			<h3>Downloading the openEHR knowledge2 test and sample archetypes</h3>
-			<p>The <i>open</i>EHR test archetype repository is a Subversion repository located <a href="http://www.openehr.org/svn/knowledge2/TRUNK/archetypes">here</a>. If you have a Subversion client such as TortoiseSVN installed on your machine, use it to check out this repository. Check this repository out to a convenient location on your computer.</p>
-			<p>Now, there is actually more than one logical group of archetypes in the repository, found in the following sub-directories:</p>
-			<ul>
-				<li><em>ADL_1.5_test</em>: ADL 1.5 validity testing archetypes; </li>
-				<li><em>CIMI</em>: Clinical Information Model Initiative proof-of-concept archetypes based on a CIMI reference model;</li>
-				<li><em>en13606_examples</em>: example archetypes based on EN13606 reference model;</li>
-				<li><em>openEHR_examples</em>: example archetypes based on the openEHR 1.0.2 reference model.</li>
-			</ul>
-			<p>Other directories will appear from time to time. Each of these directories should be treated as a separate 'repository' for the configuration steps below.</p>
-
-			
 			<h2>Setting and changing repository profiles</h2>
 			<p>The Configure Repositories dialog can be used to add further profiles, remove profiles, and edit the details of a profile. The latter includes being able to rename a profile and/or change its paths. The first time you start the tool if you are a new user, you will be asked for a repository. The screen will look like this:<br/></p>
 			<p><a href="images/startup_repository.png"><img border="0" alt="Repository dialog at startup" src="images/tn_startup_repository.jpg" width="200" height="151"/> </a></p>
