@@ -50,14 +50,14 @@ $PageName = 'Modelling Tools';
 			<tr>
 				<td class="TableMainC">ADL workbench (AWB)</td>
 				<td class="TableMainC">Reference model-driven visual IDE for parsing, compiling, analysing, converting and (Q1 2013) editing ADL 1.4 and ADL 1.5 archetypes and templates. Built on the reference ADL parser.</td>
-				<td class="TableMainC">Source: Eiffel 7.1; builds available for Windows, Linux and Mac OSX.</td>
-				<td class="TableMainC"><a href="/downloads/ADLworkbench/home">Download and help pages</a>.</td>
+				<td class="TableMainC">Source: Eiffel 7.2; builds available for Windows, Linux and Mac OSX.</td>
+				<td class="TableMainC"><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
 			</tr>
 			<tr>
 				<td class="TableMainC">ADL 1.5 command-line compiler</td>
 				<td class="TableMainC">A command-line version of the compiler used inside the ADL Workbench</td>
-				<td class="TableMainC">Source: Eiffel 7.1; builds available for Windows, Linux and Mac OSX.</td>
-				<td class="TableMainC">(Available Q1 2013)</td>
+				<td class="TableMainC">Source: Eiffel 7.2; builds available for Windows, Linux and Mac OSX.</td>
+				<td class="TableMainC"><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
 			</tr>
 			<tr>
 				<td class="TableMainC">Archetype Editor (AE)</td>
