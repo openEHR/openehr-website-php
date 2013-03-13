@@ -61,20 +61,21 @@ $PageName = 'Academic Research';
 				</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="../files/basic/brazil_S.gif"></p>
-				<p>Brazil</p></td>
-				<td class="TableMainC"><a href="http://www.ufrj.br/">University of Rio de Janiero</a>
-				</td>
-				<td class="TableMainC">Rigoleta Dutra
-				</td>
+				<td class="TableMainC" rowspan="5"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="../files/basic/brazil_S.gif"></p><p>Brazil</p></td>
+				<td class="TableMainC"><a href="http://www.ufrj.br/">University of Rio de Janiero</a></td>
+				<td class="TableMainC">Rigoleta Dutra</td>
 				<td class="TableMainC">PhD Thesis on archetype-based systems<br/>
 				[2009]</td>
 			</tr>
 			<tr>
+				<td class="TableMainC"><a href="http://www.senai.fieb.org.br/">SENAI - Cimatec</a><br/>Industry training centre</td>
+				<td class="TableMainC">Gustavo M. Bacelar-Silva<br/>Hilton V. Cesar<br/>Patricia F. Braga<br/>Rodney N. Guimarães</td>
+				<td class="TableMainC">openEHR-based pervasive health information system for primary care: First Brazilian Experience for Public Care.<br/>
+				[2013]</td>
+			</tr>
+			<tr>
 				<td class="TableMainC"><a href="http://www.uff.br/">Fluminense Federal University</a></td>
-				<td class="TableMainC">Luciana Tricai Cavalini, <br/>
-				Helia Kawa, <br/>
-				Israel Figueiredo Junior, postgrad/undergrad students</td>
+				<td class="TableMainC">Luciana Tricai Cavalini, <br/>Helia Kawa, <br/>Israel Figueiredo Junior, postgrad/undergrad students</td>
 				<td class="TableMainC">Epidemiologic Surveillance Support System (EpiS3): a decision-support system
 				for epidemiological surveillance (disease control and prevention for communities
 				and healthcare settings).<br/>
@@ -94,7 +95,7 @@ $PageName = 'Academic Research';
 				<td class="TableMainC">Marcelo Rodrigues dos Santos</td>
 				<td class="TableMainC">Phd Thesis on semantic interoperability involving the usage of
 				openEHR RM and AM models.<br/>
-				[2009]</td>
+				[2012]</td>
 			</tr>
 			<tr>
 				<td class="TableMainC">Hospital das Clinicas<br/>University of S&atilde;o Paulo<br/>
