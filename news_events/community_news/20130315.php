@@ -1,5 +1,5 @@
 <?php
-$PageName = 'Foundation News';
+$PageName = 'Community News';
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -21,7 +21,7 @@ $PageName = 'Foundation News';
 	</div>
 	
 	<div id="TopMenu">
-		
+	
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
 		</div>
@@ -38,20 +38,20 @@ $PageName = 'Foundation News';
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>Professor Dipak Kalra becomes President of EuroRec</h2>
-			<h6>6. March 2013 | from: Interim Board</h6>
+			<h2>openEHR Primary Care project starts in Salvador, Brazil</h2>
+			<h6>15. March 2013 | from: Salvador, Brazil</h6>
 			<br/>
+			<p>Gustavo M. Bacelar-Silva MD has launched a new project "openEHR-based pervasive health information system for primary care: First Brazilian Experience for Public Care" at SENAI - Cimatec (industrial college in Salvador). The team includes: Gustavo M. Bacelar-Silva, Hilton V. Cesar, Patricia F. Braga, Rodney N. Guimar&#227;es</p>
+
 			
-			<p>In a slightly belated announcement, the Foundation would like to recognise that Professor Dipak Kalra MD, PhD, head of department at the UCL Center for Health Informatics and Multi-Professional Education (CHIME) and openEHR board member, took office as president of <a href="http://www.eurorec.org/" target="_blank">Eurorec</a>, along with the new board on 19 Nov 2012.</p>
-			<p>Detailed press releases: <a href="http://www.eurorec.org/news_events/index.cfm?actief=news&show=upcoming&newsID=280" target="_blank">EuroRec</a>, <a href="http://www.ucl.ac.uk/silva/chime/news/chime-news/news-20121129" target="_blank">CHIME</a>.</p>
 			
+
 			<br/>
-			<a href="../foundation_news">>> Back to <?php echo "$PageName";?></a>
-			
+			<a href="/news_events/community_news/">>> Back to <?php echo "$PageName";?></a>
 		</div>
 			
 	</div>
-
+	
 	<div id="BottomMenu">
 		<?php include '../../menu/bottommenu.php' ?>
 	</div>
