@@ -44,7 +44,6 @@ $PageName = 'Community News';
 			
 			<p><a href="http://www.imt.liu.se/%7Eerisu/" target="_blank">Erik Sundvall</a>'s PhD thesis entitled "Scalability and Semantic Sustainability in Electronic Health Record Systems" is now available <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-87702" target="_blank">online</a>. It contains many openEHR-related papers and discussions (see abstract included below).</p>
 			<p>Public PhD defence will be held the 15:th of February, in Link&ouml;ping, Sweden. Faculty opponent: prof. Dipak Kalra, UCL. (Temporary <a href="http://www.imt.liu.se/%7Eerisu/2013/phd/" target="_blank">event-information page</a>; can be used for online participation or getting a recording.)</p>
-			<br/>
 			
 			<h3>Abstract</h3>
 			<i><p>This work is a small contribution to the greater goal of making software systems used in healthcare more useful and sustainable. To come closer to that goal, health record data will need to be more computable and easier to exchange between systems.</p>

@@ -39,6 +39,11 @@ $PageName = 'Community News';
 			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			
+			<a href="20130315">openEHR Primary Care project starts in Salvador, Brazil</a>
+			<h6>15. March 2013</h6>
+			<p>Gustavo M. Bacelar-Silva MD has launched a new project "openEHR-based pervasive health information system for primary care: First Brazilian Experience for Public Care" at SENAI - Cimatec (industrial college in Salvador).</p>
+			<br/>
+			
 			<a href="20130127">Erik Sundvall's EHR PhD thesis published online</a>
 			<h6>27. January 2013</h6>
 			<p>Erik Sundvall's PhD thesis entitled "Scalability and Semantic Sustainability in Electronic Health Record Systems" is now available online. It contains many openEHR-related papers and discussions.</p>

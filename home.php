@@ -186,10 +186,10 @@
 					
 					<a href="news_events/community_news" style="color:#023670;"><h2>Community News</h2></a>
 					
-					<a href="news_events/community_news/20130127">Erik Sundvall's EHR PhD thesis published online</a>
-					<h6>17. January 2013</h6>
+					<a href="news_events/community_news/20130315">openEHR Primary Care project starts in Salvador, Brazil</a>
+					<h6>15. March 2013</h6>
 					<br/>
-					<a href="news_events/community_news/20130117">Publications on openEHR and open source</a>
+					<a href="news_events/community_news/20130127">Erik Sundvall's EHR PhD thesis published online</a>
 					<h6>17. January 2013</h6>
 				</div>	
 			</div>
@@ -198,6 +198,9 @@
 				<div id="LinksFrame">
 					<a href="news_events/releases" style="color:#023670;"><h2>Releases</h2></a>
 					
+					<a href="news_events/releases/20130311">Guideline Definition Language (GDL) first release</a>
+					<h6>11. March 2013</h6>
+					<br/>
 					<a href="news_events/releases/20130305">CKM upgraded to include projects and other features</a>
 					<h6>5. March 2013</h6>
 					<br/>
@@ -212,9 +215,6 @@
 					<br/>
 					<a href="news_events/releases/20110304">First open source release of openEHR.NET</a>
 					<h6>4. March 2011</h6>
-					<br/>
-					<a href="news_events/releases/20110114">ADL 1.5 Workbench - beta release 3</a>
-					<h6>14. January 2011</h6>
 				</div>
 			</div>	 
 				
