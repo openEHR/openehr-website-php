@@ -13,9 +13,9 @@
 		<div id="BottomFrame" style="left:245px;">
 			<p class="MenuHeading">Clinical Models <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
-			<li><a href="/knowledge/" title="Clinical Knowledge Manager">CKM</a></li>
-			<li><a href="/knowledge/#repositoryoverview" title="Clinical Knowledge Manager mindmap of all archetypes">CKM Archetypes Mindmap</a></li>
-			<li><a href="/knowledge/#userstatistics" title="Clinical Knowledge Manager user statistics">CKM User Statistics</a></li>
+			<li><a href="/ckm/" title="Clinical Knowledge Manager">CKM</a></li>
+			<li><a href="/ckm/#repositoryoverview" title="Clinical Knowledge Manager mindmap of all archetypes">CKM Archetypes Mindmap</a></li>
+			<li><a href="/ckm/#userstatistics" title="Clinical Knowledge Manager user statistics">CKM User Statistics</a></li>
 			<li><a href="/wiki/display/spec/openEHR+Terminology" title="openEHR terminology/vocabulary page">openEHR Terminology</a></li>
 			<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank" title="Library of ADL reference archetypes for compiler testing">ADL Test Archetypes</a></li>
 			<li><a href="http://www.ihtsdo.org/fileadmin/user_upload/doc/tig/" title="SNOMED CT Technical Implementation Guide">SNOMED CT TIG</a></li>
