@@ -40,7 +40,7 @@ $PageName = 'Archetype Editor: Release Notes';
 			
 			<h2><a name="ArchetypeEditorReleases-CurrentBetaRelease"></a>Current Beta Release</h2>
 
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.2"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/TRUNK/ArchetypeEditor" rel="nofollow">Archetype Editor 2.2.876</a></span> 29 November 2012</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.2"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet" rel="nofollow">Archetype Editor 2.2.905</a></span> 27 February 2013</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -62,6 +62,7 @@ $PageName = 'Archetype Editor: Release Notes';
 				<li>The <em>Display</em> tab no longer has its own "Save" button.</li>
 				<li>The <em>Display</em> tab can now search for text.</li>
 				<li>A new <em>Display</em> menu improves the usability of the Display tab.</li>
+				<li>The <em>uid</em> attribute is now loaded and saved in archetypes where it is present.</li>
 				<li>The proportion constraint control hides the denominator for unitary and percentage types.</li>
 				<li>Data value choices are restricted to those that are unique.</li>
 				<li>The default <em>cardinality of clusters and sections</em> is 1..*.</li>
@@ -77,6 +78,7 @@ $PageName = 'Archetype Editor: Release Notes';
 				<li>Allow <em>constraint bindings</em> to be edited directly at the node definition.</li>
 				<li>Allow <em>constraint bindings</em> and <em>term bindings</em> to use and browse any terminology.</li>
 				<li>Allow <em>assumed value</em> to be set in any data, not just on patient state.</li>
+				<li>Allow <em>assumed value</em> to be deleted.</li>
 				<li>Allow each <em>contributor</em> to be edited.</li>
 				<li>Allow the <em>copyright</em> to be edited.</li>
 				<li>Allow the <em>current contact</em> to be recorded.</li>
@@ -90,7 +92,14 @@ $PageName = 'Archetype Editor: Release Notes';
 				<li>Prevent editing of non-specialised nodes on the Definition tab of specialised archetypes.</li>
 				<li>When specialising a multiple-occurrence node, the node is cloned only if the user requests.</li>
 				<li>When specialising a cluster by cloning, all of the cluster's children are copied too.</li>
+				<li>Changing the data type of elements at the same specialisation level as the archetype is always allowed.</li>
+				<li>Specialised <em>XML</em> archetypes preserve all term codes inherited from the parent archetype.</li>
 				<li>Added g/m2.7 and 10^x property units.</li>
+				<li>Added <em>Rate of Change - Pressure</em> property units (daPa/s).</li>
+				<li>Added <em>Rate of Change - Frequency</em> property units (Hz/s).</li>
+				<li>Added more <em>Japanese</em> translations.</li>
+				<li>Added <em>Russian</em> translations.</li>
+				<li>Internationalised many parts of the user interface, ready for translation into other languages.</li>
 				<li>Fixed the file recovery dialog to appear when appropriate during start-up.</li>
 				<li>Fixed specialising of <em>XML</em> archetypes.</li>
 				<li>Fixed saving name constraints of <em>XML ELEMENT</em> archetypes.</li>
@@ -100,6 +109,7 @@ $PageName = 'Archetype Editor: Release Notes';
 				<li>Fixed action patterns in <em>XML INSTRUCTION</em> archetypes.</li>
 				<li>Fixed loading math_function, width, fixed interval and offset in <em>OBSERVATION</em> archetypes.</li>
 				<li>Fixed loading occurrences of sub-sections in <em>SECTION</em> archetypes.</li>
+				<li>Fixed error when loading an empty <em>resource_package_uri</em> from ADL.</li>
 				<li>Fixed errors when loading <em>term bindings</em> and <em>constraint bindings</em>.</li>
 				<li>Fixed some problems editing the <em>Term Bindings</em> Complex tab.</li>
 				<li>Fixed displaying <em>URI</em> constraints within a <em>choice</em> element.</li>
@@ -110,6 +120,8 @@ $PageName = 'Archetype Editor: Release Notes';
 				<li>Fixed saving a <em>Single</em> or <em>Table</em> structure with a slot.</li>
 				<li>Fixed saving of <em>assumed value</em> for <em>DV_CODED_TEXT</em> internal codes.</li>
 				<li>Fixed saving of <em>assumed value</em> for <em>DV_PROPORTION</em>.</li>
+				<li>Fixed saving of <em>assumed value</em> for <em>DV_DURATION</em>.</li>
+				<li>Fixed saving of <em>DV_QUANTITY</em> or <em>DV_PROPORTION</em> with a non-zero precision.</li>
 				<li>Fixed saving to XML of <em>is_integral</em> for <em>DV_PROPORTION</em>.</li>
 				<li>Fixed saving <em>COMPOSITION</em> archetypes with a <em>Table</em> structure.</li>
 				<li>Fixed saving <em>Participation</em> occurrences in <em>COMPOSITION</em> archetypes.</li>
