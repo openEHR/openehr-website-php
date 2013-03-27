@@ -67,8 +67,8 @@ $PageName = 'Modelling Tools';
 			</tr>
 			<tr>
 				<td class="TableMainC">Archetype Editor (AE)</td>
-				<td class="TableMainC">The Archetype Editor is currently the main tool in use for authoring openEHR ADL 1.4 archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Spanish, Swedish and Turkish.</td>
-				<td class="TableMainC">Microsoft .Net</td>
+				<td class="TableMainC">The Archetype Editor is currently the main tool in use for authoring openEHR ADL 1.4 archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Russian, Spanish, Swedish and Turkish.</td>
+				<td class="TableMainC">Microsoft .NET</td>
 				<td class="TableMainC"><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/></td>
 			</tr>
 			<tr>
