@@ -48,6 +48,12 @@ $PageName = 'Modelling Tools';
 				<th class="TableMainT">Download</th>
 			</tr>
 			<tr>
+				<td class="TableMainC">ADL Text Editor Modes / Support</td>
+				<td class="TableMainC">ADL syntax plug-ins, syntax files and other support for text editors, including gvim/vim, emacs, Notepad++, Textpad, and Kate/KDevelop.</td>
+				<td class="TableMainC">All platforms</td>
+				<td class="TableMainC"><a href="http://www.openehr.org/wiki/display/dev/ADL+Text+Editors">Download and help page</a></td>
+			</tr>
+			<tr>
 				<td class="TableMainC">ADL workbench (AWB)</td>
 				<td class="TableMainC">Reference model-driven visual IDE for parsing, compiling, analysing, converting and (Q1 2013) editing ADL 1.4 and ADL 1.5 archetypes and templates. Built on the reference ADL parser.</td>
 				<td class="TableMainC">Source: Eiffel 7.2; builds available for Windows, Linux and Mac OSX.</td>
