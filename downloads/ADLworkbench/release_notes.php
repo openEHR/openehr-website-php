@@ -39,8 +39,13 @@ $PageName = 'ADL Workbench: Release Notes';
 			<h1>Release Notes</h1>
 			
 			<h2>Release History</h2>
+			
 
-			<h3>2 Aug 2012 ADL 1.5 beta Release 8 (<a href="https://github.com/openEHR/adl-tools/commit/4e6b696d1ad31a8269aa71e85aca4fee38172eef">Git commit 4e6b696d1ad31a8269aa71e85aca4fee38172eef (was SVN rev 1826)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
+			<h3>9 April 2013 ADL 1.5 beta Release 9 (<a href="https://github.com/openEHR/adl-tools/tree/1.5beta9">Git tag 1.5beta9</a>) 
+				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10160">Jira</a>)</h3>
+				
+			<h3>2 Aug 2012 ADL 1.5 beta Release 8 (<a href="https://github.com/openEHR/adl-tools/commit/4e6b696d1ad31a8269aa71e85aca4fee38172eef">Git commit 4e6b696d1ad31a8269aa71e85aca4fee38172eef (was SVN rev 1826)</a>) 
+				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10151">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -85,7 +90,8 @@ $PageName = 'ADL Workbench: Release Notes';
 				</li>
 			</ul>
 
-			<h3>29 Jun 2012 ADL 1.5 beta Release 7 (<a href="https://github.com/openEHR/adl-tools/commit/fc5e9b292bb83a5d725074c53f16ad4b3ccc25b6">Git commit fc5e9b292bb83a5d725074c53f16ad4b3ccc25b6 (was SVN rev 1757)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
+			<h3>29 Jun 2012 ADL 1.5 beta Release 7 (<a href="https://github.com/openEHR/adl-tools/commit/fc5e9b292bb83a5d725074c53f16ad4b3ccc25b6">Git commit fc5e9b292bb83a5d725074c53f16ad4b3ccc25b6 (was SVN rev 1757)</a>) 
+				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10140">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -150,7 +156,8 @@ $PageName = 'ADL Workbench: Release Notes';
 				</li>
 			</ul>
 		
-			<h3>8 Sep 2011 ADL 1.5 beta Release 4 (<a href="https://github.com/openEHR/adl-tools/commit/a835702bca29da3a7349cc3a09118913b2625cd9">Git commit a835702bca29da3a7349cc3a09118913b2625cd9 (was SVN rev 1603)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10080">Jira</a>)</h3>
+			<h3>8 Sep 2011 ADL 1.5 beta Release 4 (<a href="https://github.com/openEHR/adl-tools/commit/a835702bca29da3a7349cc3a09118913b2625cd9">Git commit a835702bca29da3a7349cc3a09118913b2625cd9 (was SVN rev 1603)</a>) 
+				(<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10080">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
