@@ -139,7 +139,7 @@ $PageName = 'Archetype Editor: Release Notes';
 			
 			<h2><a name="ArchetypeEditorReleases-CurrentStableRelease"></a>Current Stable Release</h2>
 
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.1.583"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/RELEASES/BlueChina" rel="nofollow">Archetype Editor 2.1.583</a></span> 2 July 2009</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.1.583"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/tree/BlueChina" rel="nofollow">Archetype Editor 2.1.583</a></span> 2 July 2009</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -185,7 +185,7 @@ $PageName = 'Archetype Editor: Release Notes';
 			
 			<h2><a name="ArchetypeEditorReleases-PreviousReleases"></a>Previous Releases</h2>
 
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.0.582"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/RELEASES/Nitrogen" rel="nofollow">Archetype Editor 2.0.582</a></span> 2 July 2009</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.0.582"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/tree/Nitrogen" rel="nofollow">Archetype Editor 2.0.582</a></span> 2 July 2009</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -245,7 +245,7 @@ $PageName = 'Archetype Editor: Release Notes';
 			</ul>
 
 			
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1248"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/!svn/bc/332/TRUNK/ArchetypeEditor/" rel="nofollow">Archetype Editor 1.0.1248.332</a></span> 12 May 2008</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1248"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/commit/8b240c79cba195ced3463823a5af104597363015" rel="nofollow">Archetype Editor 1.0.1248.332</a></span> 12 May 2008</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -267,7 +267,7 @@ $PageName = 'Archetype Editor: Release Notes';
 			</ul>
 
 			
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1247"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/!svn/bc/327/TRUNK/ArchetypeEditor/" rel="nofollow">Archetype Editor 1.0.1247.327</a></span> 6 May 2008</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1247"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/commit/6457065e019d174145ec120279559eebd05a1877" rel="nofollow">Archetype Editor 1.0.1247.327</a></span> 6 May 2008</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -292,7 +292,7 @@ $PageName = 'Archetype Editor: Release Notes';
 			</ul>
 
 			
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1246"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/!svn/bc/315/TRUNK/ArchetypeEditor/" rel="nofollow">Archetype Editor 1.0.1246.315</a></span> 29 April 2008</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1246"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/commit/61598f0d47401c43d6352bb985bbc11ef1f0f6ce" rel="nofollow">Archetype Editor 1.0.1246.315</a></span> 29 April 2008</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -335,7 +335,7 @@ $PageName = 'Archetype Editor: Release Notes';
 			</ul>
 
 
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1245.279"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/!svn/bc/279/TRUNK/ArchetypeEditor/" rel="nofollow">Archetype Editor 1.0.1245.279</a></span> 26 March 2008</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1245.279"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/commit/6a5b1e3b75aca222e8db2d0290c05d8e3bbfc79c" rel="nofollow">Archetype Editor 1.0.1245.279</a></span> 26 March 2008</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -360,7 +360,7 @@ $PageName = 'Archetype Editor: Release Notes';
 			</ul>
 
 
-			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1244.250"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/!svn/bc/250/TRUNK/ArchetypeEditor/" rel="nofollow">Archetype Editor 1.0.1244.250</a></span> 30 November 2007</h3>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1244.250"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/commit/6876ede017e87eeafcd378ffd4d524d417a54554" rel="nofollow">Archetype Editor 1.0.1244.250</a></span> 30 November 2007</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>

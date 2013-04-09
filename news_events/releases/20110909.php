@@ -52,8 +52,8 @@ $PageName = 'Releases';
 				<li><a href="/downloads/ADLworkbench/images/address_bar.png">Search bar</a> allowing you to search for classes or archetypes;</li>
 				<li><a href="/downloads/ADLworkbench/images/apgar_RM_icons.png">CKM icons</a> are now switchable in to replace the standard icons in the Archetype tool and Archetype Catalog;</li>
 				<li>beta version of <a href="/downloads/ADLworkbench/images/xml_serialisation.png">XML OPT output</a>, based on a rule set to control details of XML serialisation (it's not yet conformant with either ADL 1.4 or 1.5 XSD - but will be soon);</li>
-				<li>the RM schema files now include proper package structures, and the <a href="/svn/knowledge2/TRUNK/rm_schemas/openehr_ehr_102.bmm">openEHR RM schema</a> is now a faithful representation of the published specifications;</li>
-				<li>the <a href="/svn/knowledge2/TRUNK/rm_schemas/cen_EN13606_0.95.bmm">EN13606 model schema</a> has been substantially improved, although it is still not complete. Any offers to help with this are welcome!</li>
+				<li>the RM schema files now include proper package structures, and the <a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/BMM">openEHR RM schema</a> is now a faithful representation of the published specifications;</li>
+				<li>the <a href="https://github.com/openEHR/reference-models/tree/master/models/ISO_13606/2008/BMM">EN13606 model schema</a> has been substantially improved, although it is still not complete. Any offers to help with this are welcome!</li>
 			</ul>
 			<br/>
 			

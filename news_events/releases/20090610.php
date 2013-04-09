@@ -111,8 +111,7 @@ $PageName = 'Releases';
 			related to Opereffa can be found at http://sourceforge.net/projects/opereffa/,
 			These include multiple options for exploring the framework, including source and
 			binary downloads and a live DVD with full development environment and demo
-			server setup. There is an SVN repository at
-			<a href="http://www.openehr.org/svn/opereffa">http://www.openehr.org/svn/opereffa</a>
+			server setup. There is an SVN repository at http://www.openehr.org/svn/opereffa
 			for the latest source code. Again, details for using these resources are given
 			in the Opereffa home page.</p>
 			<p>There is also a Jira project setup at

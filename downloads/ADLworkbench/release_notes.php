@@ -40,7 +40,7 @@ $PageName = 'ADL Workbench: Release Notes';
 			
 			<h2>Release History</h2>
 
-			<h3>2 Aug 2012 ADL 1.5 beta Release 8 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/1826/BRANCHES/adl1.5/">SVN rev 1826</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
+			<h3>2 Aug 2012 ADL 1.5 beta Release 8 (<a href="https://github.com/openEHR/adl-tools/commit/4e6b696d1ad31a8269aa71e85aca4fee38172eef">Git commit 4e6b696d1ad31a8269aa71e85aca4fee38172eef (was SVN rev 1826)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -85,7 +85,7 @@ $PageName = 'ADL Workbench: Release Notes';
 				</li>
 			</ul>
 
-			<h3>29 Jun 2012 ADL 1.5 beta Release 7 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/1757/BRANCHES/adl1.5/">SVN rev 1757</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
+			<h3>29 Jun 2012 ADL 1.5 beta Release 7 (<a href="https://github.com/openEHR/adl-tools/commit/fc5e9b292bb83a5d725074c53f16ad4b3ccc25b6">Git commit fc5e9b292bb83a5d725074c53f16ad4b3ccc25b6 (was SVN rev 1757)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -105,7 +105,7 @@ $PageName = 'ADL Workbench: Release Notes';
 				</li>
 			</ul>
 
-			<h3>29 Mar 2012 ADL 1.5 beta Release 6 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/1677/BRANCHES/adl1.5/">SVN rev 1677</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
+			<h3>29 Mar 2012 ADL 1.5 beta Release 6 (<a href="https://github.com/openEHR/adl-tools/commit/50c1ac7d62407ed79b12a932b6a5ce613219f599">Git commit 50c1ac7d62407ed79b12a932b6a5ce613219f599 (was SVN rev 1677)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -129,7 +129,7 @@ $PageName = 'ADL Workbench: Release Notes';
 				</li>
 			</ul>
 
-			<h3>29 Nov 2011 ADL 1.5 beta Release 5 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/1656/BRANCHES/adl1.5/">SVN rev 1656</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10120">Jira</a>)</h3>
+			<h3>29 Nov 2011 ADL 1.5 beta Release 5 (<a href="https://github.com/openEHR/adl-tools/commit/740a0d96eee071077b3e5a250c9c0686184ab446">Git commit 740a0d96eee071077b3e5a250c9c0686184ab446 (was SVN rev 1656)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10120">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -150,7 +150,7 @@ $PageName = 'ADL Workbench: Release Notes';
 				</li>
 			</ul>
 		
-			<h3>8 Sep 2011 ADL 1.5 beta Release 4 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/1603/BRANCHES/adl1.5/">SVN rev 1603</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10080">Jira</a>)</h3>
+			<h3>8 Sep 2011 ADL 1.5 beta Release 4 (<a href="https://github.com/openEHR/adl-tools/commit/a835702bca29da3a7349cc3a09118913b2625cd9">Git commit a835702bca29da3a7349cc3a09118913b2625cd9 (was SVN rev 1603)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10080">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -206,13 +206,13 @@ $PageName = 'ADL Workbench: Release Notes';
 				<li>Source code: tools upgraded to Eiffel 6.8 GPL.</li>
 			</ul>
 		
-			<h3>14 Jan 2011 ADL 1.5 beta Release 3 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/1405/BRANCHES/adl1.5/">SVN rev 1405</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10073">Jira</a>)</h3>
+			<h3>14 Jan 2011 ADL 1.5 beta Release 3 (<a href="https://github.com/openEHR/adl-tools/commit/65afe78825f9e2dc2d5e7865d6c649debe205d07">Git commit 65afe78825f9e2dc2d5e7865d6c649debe205d07 (was SVN rev 1405)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10073">Jira</a>)</h3>
 			<ul>
 				<li>Archetype annotations implemented:
 				<ul>
 					<li><a href="learning_about#annotations">details</a>;</li>
-					<li><a href="http://www.openehr.org/svn/knowledge2/TRUNK/archetypes/ADL_1.5_test/validity/annotations/">example archetypes</a>;</li>
-					<li>specifications: <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/rm/common_im.pdf">common IM (section 7)</a>, <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/architecture/am/adl1.5.pdf">ADL 1.5 (section 9.8)</a>;</li>
+					<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/validity/annotations">example archetypes</a>;</li>
+					<li>specifications: <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/rm/common_im.pdf?raw=true">common IM (section 7)</a>, <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/adl1.5.pdf?raw=true">ADL 1.5 (section 9.8)</a>;</li>
 				</ul>
 				<li>More flexible RM schemas, now nestable and clearer syntax (<a href="tool_configuration#rmschemaconfiguration">details</a>);</li>
 				<li>Signficantly improved GUI:
@@ -229,11 +229,11 @@ $PageName = 'ADL Workbench: Release Notes';
 				<li>Upgraded source code to Eiffel 6.7.</li>
 			</ul>
 		
-			<h3>28 Sep 2010 ADL 1.5 beta Release 2 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/1247/BRANCHES/specialisation/">SVN rev 1247</a>):</h3>
+			<h3>28 Sep 2010 ADL 1.5 beta Release 2 (<a href="https://github.com/openEHR/adl-tools/commit/b0b8381134fdcdd90cdc0a68e02ec2e688ed0f0d">Git commit b0b8381134fdcdd90cdc0a68e02ec2e688ed0f0d (was SVN rev 1247)</a>):</h3>
 			<ul>
 				<li>Added regression testing facility so that any archetype can now include in its description section an expected compilation result,
 				such as 'PASS', 'FAIL', or a validity code e.g. 'VSONIL'. This enables all the current test archetypes
-				(found <a href="http://www.openehr.org/svn/knowledge2/TRUNK/archetypes/">here</a>) to be used by any compiler
+				(found <a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference">here</a>) to be used by any compiler
 				in any language in the same way. The ADL Workbench now has a button which turns on this facility on the test page.
 				See <a href="test_tool">Test tool page</a> for details;</li>
 				<li>Fixed bugs that prevented constraint bindings being read in correctly, and also errors being correctly reported from the parsing of the archetype ontology;</li>
@@ -267,9 +267,9 @@ $PageName = 'ADL Workbench: Release Notes';
 			</ul>
 
 
-			<h3>11 Aug 2010 ADL 1.5 beta Release 1 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/1105/BRANCHES/specialisation/">SVN rev 1105</a>):</h3>
+			<h3>11 Aug 2010 ADL 1.5 beta Release 1 (<a href="https://github.com/openEHR/adl-tools/commit/569646fc6480548311e33a9a16d2bc4e12c94597">Git commit 569646fc6480548311e33a9a16d2bc4e12c94597 (was SVN rev 1105)</a>):</h3>
 			<ul>
-				<li value="0">Improved validation, with code-based error messages matching ADL and AOM 1.5 <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/roadmap.html">draft&nbsp;specifications</a> (see bottom of page);</li>
+				<li value="0">Improved validation, with code-based error messages matching ADL and AOM 1.5 <a href="http://www.openehr.org/programs/specification/releases/currentbaseline">draft&nbsp;specifications</a> (see bottom of page);</li>
 				<li value="0">Support for referencing from one archetype to another without slots;</li>
 				<li value="0">Support for ADL 1.5 templates, including slot-filling and exclusions;</li>
 				<li value="0">Separate explorers for archetypes and templates;</li>
@@ -282,7 +282,7 @@ $PageName = 'ADL Workbench: Release Notes';
 				in diff tools.</li>
 			</ul>
 
-			<h3>22 Mar 2009 ADL 1.5 Preview Release 1.5.0 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/851/BRANCHES/specialisation/">SVN rev 851</a>):</h3>
+			<h3>22 Mar 2009 ADL 1.5 Preview Release 1.5.0 (<a href="https://github.com/openEHR/adl-tools/commit/f9aa528c92824cf363a358930c4740a5190f3b7b">Git commit f9aa528c92824cf363a358930c4740a5190f3b7b (was SVN rev 851)</a>):</h3>
 			<ul>
 				<li value="0">performs stricter validation than previous versions, now reporting 40 syntax errors, 47
 				validity errors, and 4 validity warnings.</li>
@@ -302,7 +302,7 @@ $PageName = 'ADL Workbench: Release Notes';
 				currently expressed in a custom meta-model format which is much simpler than UML 2 based meta-models, e.g.
 				XMI (<a href=
 				"http://www.openehr.org/wiki/display/dev/Machine-readable+model+representations+of+openEHR">why</a>?). The
-				meta-model can be found <a href="http://www.openehr.org/svn/knowledge2/TRUNK/rm_schemas/">here</a>. Both the
+				meta-model can be found <a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/BMM">here</a>. Both the
 				location of this file, and its design may change in the future, and its current format should not be taken as
 				normative for openEHR.</li>
 				<li value="0">RM attributes are now shown in the node map visualisation (<a href=
@@ -318,7 +318,7 @@ $PageName = 'ADL Workbench: Release Notes';
 				fles.</li>
 			</ul>
 
-			<h3>02 Apr 2008 Release 1.4.1 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/TAGS/Release-1.4.1">SVN rev 599 / TAG Release-1.4.1</a>)</h3>
+			<h3>02 Apr 2008 Release 1.4.1 (<a href="https://github.com/openEHR/adl-tools/commit/5c0fdaf3f1f065028a93ba936ccb8f292aad31cf">Git commit 5c0fdaf3f1f065028a93ba936ccb8f292aad31cf (was SVN rev 599 / TAG Release-1.4.1)</a>)</h3>
 			<ul>
 				<li value="0">The Archetype workbench now functions as a compiler over the entire archteype
 				&#39;directory&#39; (the merged result of the reference and work repositories). With a single command
@@ -346,28 +346,26 @@ $PageName = 'ADL Workbench: Release Notes';
 				<li value="0">repository export to HTML.</li>
 			</ul>
 
-			<h3>09 Apr 2007 Release 1.4.0 (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/203/TRUNK/">SVN rev 203</a>):</h3>
+			<h3>09 Apr 2007 Release 1.4.0 (<a href="https://github.com/openEHR/adl-tools/commit/f96c0eae57e6bb075e29fcc73937e5edb1799bd4">Git commit f96c0eae57e6bb075e29fcc73937e5edb1799bd4 (was SVN rev 203)</a>):</h3>
 			<ul>
 				<li value="0">Unicode support (see test/family_history archetype example in farsi);</li>
 				<li value="0">improve speed of GUI display;</li>
 				<li value="0">correct bugs with icon loading.</li>
 			</ul>
 
-			<h3>05 Mar 2007 bug fix release&nbsp;(<a href=
-			"http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/169/TRUNK/">SVN rev 169</a>):</h3>
+			<h3>05 Mar 2007 bug fix release&nbsp;(<a href="https://github.com/openEHR/adl-tools/commit/9b902757ecc66b4ecb1d1fe81f948e86130fb576">Git commit 9b902757ecc66b4ecb1d1fe81f948e86130fb576 (was SVN rev 169)</a>):</h3>
 			<ul>
 				<li value="0">Support non-inclusive two-sided intervals (e.g. |0..&lt;1000|)</li>
 				<li value="0">correct bug in parsing text terms used in C_CODE_PHRASE with &#39;,&#39;</li>
 			</ul>
 			
-			<h3>02 Mar&nbsp;2007 Release (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/166/TRUNK/">SVN rev 166</a>)</h3>:
+			<h3>02 Mar&nbsp;2007 Release (<a href="https://github.com/openEHR/adl-tools/commit/1a997c27e546635dcd985ff8d64268cc1acf7809">Git commit 1a997c27e546635dcd985ff8d64268cc1acf7809 (was SVN rev 166)</a>)</h3>:
 			<ul>
 			  <li value="0">Upgrade ADL workbench to <span style="FONT-WEIGHT: bold">process ADL 1.4 languages section</span>, including translations - and display on &#39;description&#39; tab<br /></li>
 			  <li value="0">Performs various silent upgrades on strings to turn them into CODE_PHRASEs.</li>
 			</ul>
 
-			<h3>10 Jan 2007 Release (<a href="http://www.openehr.org/svn/ref_impl_eiffel/!svn/bc/152/TRUNK/">SVN rev
-			152</a>):</h3>
+			<h3>10 Jan 2007 Release (<a href="https://github.com/openEHR/adl-tools/commit/fbf7675841258413a3275e2ae738ccd65275c19b">Git commit fbf7675841258413a3275e2ae738ccd65275c19b (was SVN rev 152)</a>):</h3>
 			<ul>
 			  <li value="0">Repository merging - local and reference repositories can now be merged and viewed as one logical repository</li>
 			  <li value="0">Inheritance view - the node map now shows nodes as inherited, redefined or added.</li>

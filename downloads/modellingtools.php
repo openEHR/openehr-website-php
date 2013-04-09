@@ -85,7 +85,7 @@ $PageName = 'Modelling Tools';
 					(Unix, Linux etc.)</li>
 				</ul>
 				Requires Java. Please read the
-				<a href="http://svn.openehr.org/liu_knowledge_tools/TRUNK/LiU-Archetype-Editor/doc/readme.html">release notes</a> before installing the program.<br/>
+				(http://svn.openehr.org/liu_knowledge_tools/TRUNK/LiU-Archetype-Editor/doc/readme.html) release notes before installing the program.<br/>
 				For further information about support mailing lists, source code, other versions etc see: <a href="http://www.imt.liu.se/mi/ehr/tools/">http://www.imt.liu.se/mi/ehr/tools/</a><br/><br/>
 				</td>
 			</tr>

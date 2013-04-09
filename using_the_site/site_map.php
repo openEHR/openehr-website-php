@@ -100,7 +100,7 @@ $PageName = 'Site Map';
 					<li><a href="/programs/specification/releases/currentbaseline">Development Baseline</a></li>
 					<li><a href="http://www.openehr.org/issues/browse/SPECPR">Issue Tracker</a></li>
 					<li><a href="http://www.openehr.org/releases/1.0.2/its/XML-schema/index.html">XML Schemas</a></li>
-					<li><a href="http://www.openehr.org/svn/specification/TAGS/Release-1.0.1/publishing/architecture/computable/UML/uml_start_view.html">RM UML</a></li>
+					<li>RM UML<a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.1]</a>, <a href="/releases/1.0.2/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.2]</a></li>
 					<li><a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/BMM">RM BMM Schemas</a></li>
 				</ul>
 			<br/>
@@ -111,7 +111,7 @@ $PageName = 'Site Map';
 					<li><a href="http://openehr.org/knowledge/#repositoryoverview">Archetypes Mindmap</a></li>
 					<li><a href="http://openehr.org/knowledge/#userstatistics">User Statistics</a></li>
 					<li><a href="http://www.openehr.org/wiki/display/spec/openEHR+Terminology">openEHR Terminology</a></li>
-					<li><a href="http://www.openehr.org/svn/knowledge2/TRUNK/archetypes/">Test Archetypes</a></li>
+					<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/">Test Archetypes</a></li>
 					<li><a href="http://www.ihtsdo.org/fileadmin/user_upload/doc/tig/">SNOMED CT TIG</a></li>
 				</ul>
 			<br/>
