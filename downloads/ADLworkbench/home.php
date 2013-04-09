@@ -38,14 +38,14 @@ $PageName = 'ADL Workbench Home';
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>ADL 1.5 Workbench beta release 8, 2 August 2012</h2>
+			<h2>ADL 1.5 Workbench beta release 9, 9 April 2013</h2>
 			<p><a href="release_notes">Release notes</a> - <a href="http://www.openehr.org/issues/browse/AWBPR">Report an issue (Jira)</a> - <a href="http://www.openehr.org/issues/browse/AWB">Development Project (Jira)</a></p>
          
 
 			<h2>News</h2>
 			<ul>
-				<li>This release includes numerous bug-fixes and UI improvements;</li>
-				<li>Final release before editing capability is included.</li>
+				<li>This release adds AOM / RM mappings for AOM built-in syntax for coded text, ordinals and quantities;</li>
+				<li>Numerous other improvements.</li>
 			</ul>
           
 		  
@@ -66,7 +66,7 @@ $PageName = 'ADL Workbench Home';
 			</tr>
 			<tr>
 				<td class="TableMainC"> Windows</td>
-				<td class="TableMainC"> beta 8</td>
+				<td class="TableMainC"> beta 9</td>
 				<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/windows/adl_workbench/ADLWorkbenchInstall.exe">.exe installer</a></td>
 				<td class="TableMainC"><br/> </td>
 			</tr>
@@ -84,7 +84,7 @@ $PageName = 'ADL Workbench Home';
 			</tr>
 			<tr>
 				<td class="TableMainC">Linux (32-bit Intel)<br/></td>
-				<td class="TableMainC">beta 8</td>
+				<td class="TableMainC">beta 9</td>
 				<td class="TableMainC"> <a href="https://github.com/openEHR/downloads/blob/master/linux/adl_workbench/adl_workbench-linux.tar.bz2">.tar bz2 archive</a></td>
 				<td class="TableMainC"> <a href="installation_notes#linux">here</a></td>
 			</tr>
