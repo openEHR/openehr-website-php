@@ -145,35 +145,49 @@ $PageName = 'Releases';
 				<td class="TableMainC" style="background-color:#FFFFFF;"> Archetype Model </td>
 				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/archetype_semantics.pdf?raw=true" target="_blank">Archetype Semantics</a></td>
 				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Description of semantics of populations of archetypes, including identifiers, specialisation, revision, versioning, composition, and conformance.</td>
+				<td class="TableMainC"> Overview of semantics of archetypes, including identifiers, specialisation, revision, versioning, composition, and conformance.</td>
 				<td class="TableMainC"> development</td>
+			</tr>
+			<tr style="background-color:#FFFFDD;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/dist_dev_model.pdf?raw=true" target="_blank">Model of Distributed Development</a></td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> Description of distirbuted development and governance concepts of archetypes, templates and terminology subsets.</td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">dev page</a></td>
+			</tr>
+			<tr style="background-color:#FFFFDD;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/knowledge_id_system.pdf?raw=true" target="_blank">Knowledge Artefact identification</a></td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> Formal model of identifiers, versioning and lifecycle for archetypes, templates and terminology subsets.</td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">dev page</a></td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/adl1.4.pdf?raw=true" target="_blank">Archetype Definition Language 1.4 (ADL)</a></td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/adl1.4.pdf?raw=true" target="_blank">ADL 1.4</a></td>
 				<td class="TableMainC"> UML: <a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/UML">source files</a>, <a href="http://www.openehr.org/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> Abstract syntax specification for archetypes 1.4 edition of language (used in ISO 13606-2). </td>
+				<td class="TableMainC"> Abstract syntax specification for Archetype Definition Language (ADL), 1.4 edition of language (used in ISO 13606-2). </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/adl1.5.pdf?raw=true" target="_blank">Archetype Definition Language 1.5 (ADL)</a></td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/adl1.5.pdf?raw=true" target="_blank">ADL 1.5</a></td>
 				<td class="TableMainC"> UML: <a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/UML">source files</a>, <a href="http://www.openehr.org/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> ADL 1.5 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
+				<td class="TableMainC"> Archetype Definition Language (ADL) 1.5 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/aom1.4.pdf?raw=true" target="_blank">Archetype Object Model 1.4 (AOM)</a></td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/aom1.4.pdf?raw=true" target="_blank">AOM 1.4</a></td>
 				<td class="TableMainC"> UML: <a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/UML">source files</a>, <a href="http://www.openehr.org/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> Object model of archetypes corresponding to ADL 1.4. </td>
+				<td class="TableMainC"> Archetype Object Model (AOM) 1.4 - syntax-independent model of archetypes corresponding to ADL 1.4. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/aom1.5.pdf?raw=true" target="_blank">Archetype Object Model 1.5 (AOM)</a></td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/aom1.5.pdf?raw=true" target="_blank">AOM 1.5</a></td>
 				<td class="TableMainC"> UML: <a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/UML">source files</a>, <a href="http://www.openehr.org/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> AOM 1.5 draft - the AOM description now includes uniquely identified formally testable validity conditions 
+				<td class="TableMainC"> Archetype Object Model (AOM) 1.5 draft - the AOM description now includes uniquely identified formally testable validity conditions 
 										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
 			</tr>
