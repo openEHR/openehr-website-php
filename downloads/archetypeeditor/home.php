@@ -55,7 +55,7 @@ $PageName = 'Archetype Editor Home';
 
 
 			<h2>Download</h2>
-			<p><a href="https://github.com/openEHR/downloads/blob/master/windows/archetype_editor/ArchetypeEditorInstall.exe">Download the installer</a>.</p>
+			<p><a href="https://github.com/openEHR/downloads/blob/master/windows/archetype_editor/ArchetypeEditorInstall.exe?raw=true">Download the installer</a>.</p>
 			<p>Archetype Editor is available for Windows only. .NET 2.0 is required.</p>
 			
 			<h3>Source Code</h3>
