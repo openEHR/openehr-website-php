@@ -86,7 +86,7 @@ $PageName = 'Releases';
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> Reference Model</td>
+				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ReferenceModel"><em>Reference Model</em></a></td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/rm/ehr_im.pdf" target="_blank">EHR IM</a></td>
 				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a>; XMI; openEHR BMM models </td>
 				<td class="TableMainC"> The information model of the openEHR EHR. </td>
@@ -142,7 +142,7 @@ $PageName = 'Releases';
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> Archetype Model </td>
+				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ArchetypeModel"><em>Archetype Model</em></a> </td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/archetype_semantics.pdf" target="_blank">Archetype Semantics</a></td>
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> Overview of semantics of archetypes, including identifiers, specialisation, revision, versioning, composition, and conformance.</td>
@@ -213,7 +213,7 @@ $PageName = 'Releases';
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> Service Model </td>
+				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ServiceModel"><em>Service Model</em></a> </td>
 				<td class="TableMainC"> EHR Service Model</td>
 				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Definition of the openEHR coarse-grained interface EHR service interface.</td>
