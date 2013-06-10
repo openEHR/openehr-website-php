@@ -65,10 +65,10 @@ $PageName = 'Membership';
 			</tr>
 			<tr>
 				<td class="TableMainC"> <b>Contributing</br>Member</b>	</td>
-				<td class="TableMainC"> Fulfill qualifying criteria; elected by Programme Committee.</td>
+				<td class="TableMainC"> Fulfill qualifying criteria; elected by Program Committee.</td>
 				<td class="TableMainC"> 
 					<ul>
-						<li>Can be a member of Programme project groups and Committees.</li>
+						<li>Can be a member of Program project groups and Committees.</li>
 						<li>Can vote in meetings.</li>
 					</ul>
 				</td>
@@ -79,19 +79,19 @@ $PageName = 'Membership';
 				<td class="TableMainC"> 
 					<ul>
 						<li>openEHR.org email address.</li>
-						<li>Can take formal roles in Programmes and Project groups.</li>
+						<li>Can take formal roles in Program and Project groups.</li>
 						<li>Right to make changes to deliverables.</li>
 						<li>Elect all higher posts.</li>
 					</ul>
 				</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <b>Programme<br/>Committee<br/>co-chair</b></td>
+				<td class="TableMainC"> <b>Program<br/>Committee<br/>co-chair</b></td>
 				<td class="TableMainC"> Elected by relevant Program Qualified Membership.</td>
 				<td class="TableMainC"> 
 					<ul>
-						<li>Chair Programme Committees.</li>
-						<li>Represent Programme on Programme Coordination Board.</li>
+						<li>Chair Program Committees.</li>
+						<li>Represent Program on Program Coordination Board.</li>
 					</ul>
 				</td>
 			</tr>
@@ -133,7 +133,7 @@ $PageName = 'Membership';
 				</tr>
 				<tr>
 					<td class="TableMainC"> <b>National Partner</b></br>(one per country)</td>
-					<td class="TableMainC"> Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programmes</td>
+					<td class="TableMainC"> Ministries of Health or other permanent bodies, typically sponsoring / funding national e-health Programs</td>
 					<td class="TableMainC"> 
 						<ul>
 							<li>Ability to collectively elect 5 board members, 1 per region</li>
@@ -171,7 +171,7 @@ $PageName = 'Membership';
 				
 				
 			<h2>National Affiliates</h2>
-			<p>The openEHR Foundation will work with other not-for-profit organisations, including Standards Development Organisations (SDOs) under the <a href="../programs/localisation">Localisation Programme</a>. Any organisation taking on the lead in development and uptake of openEHR in a country can be recognised as an Affiliate. Affiliate status is decided by the Foundation Board and recognised with a formal bilateral MOU.</p>
+			<p>The openEHR Foundation will work with other not-for-profit organisations, including Standards Development Organisations (SDOs) under the <a href="../programs/localisation">Localisation Program</a>. Any organisation taking on the lead in development and uptake of openEHR in a country can be recognised as an Affiliate. Affiliate status is decided by the Foundation Board and recognised with a formal bilateral MOU.</p>
 			<p>openEHR Affiliates must satisfy the following criteria:</p>
 			<ul>
 				<li>non-for-profit or public organisation;</li>
