@@ -78,73 +78,23 @@
 		<div id="BigFrame">
 		
 			<div id="TwitterFrame">
-				<h2>openEHR Talk</h2>
-				<div style="position: absolute; top:20px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
-					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<div style="position: absolute; top:5px; padding-left:1px; padding-right:4px; word-wrap:break-word; ">
+					<a class="twitter-timeline" href="https://twitter.com/search?q=%23openehr" 
+						data-widget-id="347727645871570946" 
+						data-tweet-limit="2" 
+						width="190" 
+						height="250" 
+						lang="EN"
+						data-chrome="nofooter noborders transparent noscrollbar">openEHR Talk</a>
 					<script>
-					new TWTR.Widget({
-					 version: 2,
-					 type: 'search',
-					 search: 'openEHR AND -openehrCKM',
-					 lang: 'en',
-					 interval: 30000,
-					 title: '',
-					 subject: '',
-					 width: 190,
-					 height: 120,
-					 theme: {
-					   shell: {
-						 background: 'none',
-						 color: '#3386AE'
-					   },
-					   tweets: {
-						 background: 'none',
-						 color: '#000000',
-						 links: '#3386AE'
-					   }
-					 },
-					 features: {
-					   scrollbar: false,
-					   loop: true,
-					   live: true,
-					   behavior: 'default'
-					 }
-					}).render().start();
-					</script>
-				</div>
-				
-				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-				<a href="news_events/clinical_model_news" style="color:#023670;"><h2>CKM Activity</h2></a>
-				<div style="position: absolute; top:215px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
-					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-					<script>
-					new TWTR.Widget({
-					  version: 2,
-					  type: 'search',
-					  search: 'from:@clinicalmodels OR from:@openEHRCKM',
-					  interval: 30000,
-					  title: '',
-					  subject: '',
-					  width: 190,
-					  height: 120,
-					  theme: {
-						shell: {
-						  background: 'none',
-						  color: '#3386AE'
-						},
-						tweets: {
-						  background: 'none',
-						  color: '#000000',
-						  links: '#3386AE'
+						!function(d,s,id) {var js, fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
+							if(!d.getElementById(id))
+								{js=d.createElement(s);
+									js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js,fjs);
+								}
 						}
-					  },
-					  features: {
-						scrollbar: false,
-						loop: true,
-						live: true,
-						behavior: 'default'
-					  }
-					}).render().start();
+						(document,"script","twitter-wjs");
 					</script>
 				</div>
 			</div>
