@@ -60,7 +60,7 @@ $PageName = 'Modelling Tools';
 				<td class="TableMainC"><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
 			</tr>
 			<tr>
-				<td class="TableMainC">ADL 1.5 command-line compiler</td>
+				<td class="TableMainC">ADL 1.5 command-line compiler (ADLC)</td>
 				<td class="TableMainC">A command-line version of the compiler used inside the ADL Workbench</td>
 				<td class="TableMainC">Source: Eiffel 7.2; builds available for Windows, Linux and Mac OSX.</td>
 				<td class="TableMainC"><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
@@ -68,8 +68,14 @@ $PageName = 'Modelling Tools';
 			<tr>
 				<td class="TableMainC">Archetype Editor (AE)</td>
 				<td class="TableMainC">The Archetype Editor is currently the main tool in use for authoring openEHR ADL 1.4 archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Russian, Spanish, Swedish and Turkish.</td>
-				<td class="TableMainC">Microsoft .NET</td>
+				<td class="TableMainC">Microsoft VB.NET</td>
 				<td class="TableMainC"><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/></td>
+			</tr>
+			<tr>
+				<td class="TableMainC">LinkEHR Editor</td>
+				<td class="TableMainC">The LinkEHR AOM 1.4 Editor works with multiple reference models and languages. Reference models can be plugged in in XML-schema or openEHR BMM (basic meta-model) format.</td>
+				<td class="TableMainC">Java (closed source); all platforms.</td>
+				<td class="TableMainC"><br/><a href="http://pangea.upv.es/linkehr/">Download and help pages</a><br/></td>
 			</tr>
 			<tr>
 				<td class="TableMainC">LiU Archetype Editor and other knowledge tools</td>
