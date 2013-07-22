@@ -1,111 +1,1 @@
-<?php
-$PageName = 'Foundation News';
-?>
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-		
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include '../menu.php' ?>
-		</div>
-		
-		<div id="TextArea">
-			
-			<h1><?php echo "$PageName";?></h1>
-			<br/>
-			
-			<a href="20130306">Professor Dipak Kalra becomes President of EuroRec</a>
-			<h6>6. March 2013</h6>
-			<p>In a slightly belated announcement, the Foundation would like to recognise that Professor Dipak Kalra MD, PhD, head of department at the UCL Center for Health Informatics and Multi-Professional Education (CHIME) and openEHR board member, took office as president of Eurorec, along with the new board on 19 Nov 2012.</p>
-			<br/>
-			
-			<a href="20121212">openEHR Transition Update</a>
-			<h6>12. December 2012</h6>
-			<p>The Interim Board of the openEHR Foundation has largely agreed the basis for going forward based on the face-to-face meeting in London and feedback from a number of parties. We had planned to undertake elections before the end of the year but have all been too busy to put the necessary processes in place to make this feasible.</p>
-			<br/>
-			
-			<a href="20120515">Board statement on Clinical Knowledge Manager</a>
-			<h6>15. May 2012</h6>
-			<p>What is Clinical Knowledge Manager? The Clinical Knowledge Manager (CKM) application is used by the openEHR Foundation to provide governance of archetypes, templates and terminology reference sets, and to facilitate discussions and communication about these assets within the openEHR community.</p>
-			<br/>
-			
-			<a href="20120211">Interim board announces new openEHR Program groups</a>
-			<h6>11. February 2012</h6>
-			<p>The interim Board of Directors has now established 4 programs: Specifications, Software, Clinical Modelling and Localisation. Each Program has a Committee which will grow to up to 9 members and a list of Qualified Members to support each committee. Each group is beginning to work on the appropriate processes to support their activities.</p>
-			<br/>
-			
-			<a href="20111020">Update on openEHR Governance</a>
-			<h6>20. October 2011</h6>
-			<p>The new Board of Directors has met on four occasions and set the new directions for the Foundation. Personal changes have occured in the Board. Formal IP assignments of all the openEHR assets including all archetypes have been completed. A progress within international initiative to develop a standardised clinical modelling methodology has been made.</p>
-			<br/>
-			
-			<a href="20110905">openEHR Transition Announcement</a>
-			<h6>5. September 2011</h6>
-			<p>A new Interim Board of openEHR has been created to take openEHR to a new level of operations; a new structure, business model and governance. Our vision is the creation of a thriving community that works collaboratively to benefit humanity through efficient and effective electronic health records (EHRs) that support the highest quality health care for the least effort.</p>
-			<br/>
-			
-			<a href="20110810">Message from the Chair of the openEHR Board</a>
-			<h6>10. August 2011</h6>
-			<p> A Personal Message to the openEHR Community. I wrote here some time ago of my forthcoming retirement and our wish and intention, as a Board, to pass the mantle
-			of openEHR to the best possible new leadership and ownership, from October 1<sup>st</sup>.</p>
-			<br/>
-			
-			<a href="20101221">Announcement concerning progress with IHTSDO and future directions</a>
-			<h6>21. December 2010</h6>
-			<p>At its October meeting in Toronto, the General Assembly of the IHTSDO received and discussed a proposal, submitted by its Management Board, to support, develop and maintain the IP in openEHR, within a broader framework of IHTSDO governance for clinical content of the electronic health record.</p>
-			<br/>
-			
-			<a href="20101201">openEHR / IHTSDO Update from the Board</a>
-			<h6>1. December 2010</h6>
-			<p>At the end of August, the Foundation Board posted an announcement about progress of discussions with IHTSDO concerning governance of archetypes and SNOMED terminology, expecting to be in a position to report back by mid-October. We have been working along the lines set out in previous announcements, here, and the wiki consultation process with openEHR users, earlier this year.</p>
-			<br/>
-			
-			<a href="20100831">openEHR / IHTSDO explore IP integration, governance, SNOMED archetypes</a>
-			<h6>31. August 2010</h6>
-			<p>The openEHR Foundation core team held a two-day meeting with senior representatives of the IHTSDO on August 26th-27th, in London. he meeting explored the potential for integration of the IP held by the openEHR Foundation and that of the IHTSDO under the governance arrangements, internationally, of the IHTSDO.</p>
-			<br/>
-			
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>	
-	</div>
-
-</div>
-	
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<?phpsession_start();$PageName = 'Foundation News';?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>	<?php include '../../panel/headpanel.php' ?>	</head><body><div id="MainFrame">		<div id="TopPanel">		<?php include '../../panel/toppanel.php' ?>	</div>		<div id="TopMenu">				<div class="nav">			<?php include '../../menu/topmenu.php' ?>		</div>			</div> 	<div id="MainArea">			<div id="SideMenu">			<?php include '../menu.php' ?>		</div>				<div id="TextArea">						<h1><?php echo "$PageName";?></h1>						<?php			//Connect to the database			require_once ('../../../con_real.php');						if ( (isset($_GET['id'])) && (is_numeric($_GET['id'])) ) {				$news_id = intval($_GET['id']);								//Retrieve the release information				$q = "SELECT title, text, DATE_FORMAT(date, '%M %d, %Y') AS dr, resources, coordinates, first_name, surname FROM news_items, users WHERE category='foundation_news' AND news_items.item_id=$news_id AND news_items.user_id=users.user_id";						$r = @mysqli_query ($conx, $q);								if (mysqli_num_rows($r) === 1) { //Valid id for one item										//Get the item information					$row = mysqli_fetch_array ($r, MYSQLI_ASSOC);										//Formating the information					echo '<h2>' . $row['title'] . '</h2>' . "\n\t\t\t";					echo '<h6>' . $row['dr'] . '&nbsp; | &nbsp;from: ' . $row['first_name']. ' ' . $row['surname']. '</h6><br/>' . "\n\t\t\t";					echo '<div class="news_article">' . "\n\t\t\t\t" . $row['text'] . '<br/>';					if ($row['resources'] != '') {						echo "\n\t\t\t\t" . '<p><em>Other resources:</em> ' . $row['resources']. '</p><br/>';					}					if ($row['coordinates'] != '') {						echo "\n\t\t\t\t" . '<p><em>Date, time and place:</em> ' . $row['coordinates']. '</p><br/>';					}					echo "\n\t\t\t</div>";					echo "\n\t\t\t" . '<p><a href="../foundation_news">>> Back to Foundation News</a></p>';				}				else { //Not valid item id					echo '<p>Sorry, this page doesn\'t exist.</p>';				}							}			else {				//Retrieve releases information summary				$q = "SELECT item_id, title, summary, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='foundation_news' ORDER BY date DESC";				$r = @mysqli_query ($conx, $q);								//Count the number of the rows				$num = mysqli_num_rows($r);				echo '<br/>';								if ($num > 0) { //everything went ok, display results										//Fetch and print all releases:					while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {						echo '<a href="index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'							. $row['dr'] . '</h6>							<p>' . $row['summary'] . '</p><br/>';					}					mysqli_free_result ($r); //Free up the resources				}				else { //if it didnt run ok					echo '<p>There are currently no foundation news.</p>';				} 			}						mysqli_close($conx);			?>							</div>				</div>	<div id="BottomMenu">		<?php include '../../menu/bottommenu.php' ?>	</div>	<div id="BottomPanel">		<?php include '../../panel/bottompanel.php' ?>		</div></div>	<?php include '../../panel/scriptpanel.php' ?></body></html>

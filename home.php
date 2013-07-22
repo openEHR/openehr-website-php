@@ -1,10 +1,16 @@
+<?php
+session_start();
+$PageName = 'Welcome to openEHR';
+//Connect to the database
+require_once ('../con_real.php');
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
 
 <head>
 
-	<title>Welcome to openEHR - Homepage</title>
 	<?php include 'panel/headpanelhome.php' ?>
 	
 </head>
@@ -78,73 +84,23 @@
 		<div id="BigFrame">
 		
 			<div id="TwitterFrame">
-				<h2>openEHR Talk</h2>
-				<div style="position: absolute; top:20px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
-					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<div style="position: absolute; top:5px; padding-left:1px; padding-right:4px; word-wrap:break-word; ">
+					<a class="twitter-timeline" href="https://twitter.com/search?q=%23openehr" 
+						data-widget-id="347727645871570946" 
+						data-tweet-limit="1" 
+						width="190" 
+						height="250" 
+						lang="EN"
+						data-chrome="nofooter noborders transparent noscrollbar">openEHR Talk</a>
 					<script>
-					new TWTR.Widget({
-					 version: 2,
-					 type: 'search',
-					 search: 'openEHR AND -openehrCKM',
-					 lang: 'en',
-					 interval: 30000,
-					 title: '',
-					 subject: '',
-					 width: 190,
-					 height: 120,
-					 theme: {
-					   shell: {
-						 background: 'none',
-						 color: '#3386AE'
-					   },
-					   tweets: {
-						 background: 'none',
-						 color: '#000000',
-						 links: '#3386AE'
-					   }
-					 },
-					 features: {
-					   scrollbar: false,
-					   loop: true,
-					   live: true,
-					   behavior: 'default'
-					 }
-					}).render().start();
-					</script>
-				</div>
-				
-				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-				<a href="news_events/clinical_model_news" style="color:#023670;"><h2>CKM Activity</h2></a>
-				<div style="position: absolute; top:215px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
-					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-					<script>
-					new TWTR.Widget({
-					  version: 2,
-					  type: 'search',
-					  search: 'from:@clinicalmodels OR from:@openEHRCKM',
-					  interval: 30000,
-					  title: '',
-					  subject: '',
-					  width: 190,
-					  height: 120,
-					  theme: {
-						shell: {
-						  background: 'none',
-						  color: '#3386AE'
-						},
-						tweets: {
-						  background: 'none',
-						  color: '#000000',
-						  links: '#3386AE'
+						!function(d,s,id) {var js, fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
+							if(!d.getElementById(id))
+								{js=d.createElement(s);
+									js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js,fjs);
+								}
 						}
-					  },
-					  features: {
-						scrollbar: false,
-						loop: true,
-						live: true,
-						behavior: 'default'
-					  }
-					}).render().start();
+						(document,"script","twitter-wjs");
 					</script>
 				</div>
 			</div>
@@ -152,69 +108,131 @@
 			<div id="IndustryFrame">
 				<div id="LinksFrame">
 					<a href="news_events/industry_news" style="color:#023670;"><h2>Industry News</h2></a>
+					<?php
+						//Retrieve industry news
+						$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='industry_news' ORDER BY date DESC LIMIT 3";
+						$r = @mysqli_query ($conx, $q);
+						
+						//Count the number of the rows
+						$num = mysqli_num_rows($r);
+						
+						if ($num > 0) { //everything went ok, display results
+							
+							//Fetch and print all releases:
+							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
+								echo '<a href="news_events/industry_news/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+									. $row['dr'] . '</h6><br/>';
+							}
+							mysqli_free_result ($r); //Free up the resources
+						}
+						else { //if it didnt run ok
+							echo '<p>There are currently no industry news.</p>';
+						} 
+					?>
 					
-					<a href="news_events/industry_news/20130128">IBS and Moscow city to host second openEHR Workshop</a>
-					<h6>28. January 2013</h6>
-					<br/>
-					<a href="news_events/industry_news/20121226">IBS consortium including three openEHR vendors to build Moscow eHealth infrastructure</a>
-					<h6>26. December 2012</h6>
-					<br/>
-					<a href="news_events/industry_news/20121005">Northern Territory Health deploys Shared EHR</a>
-					<h6>05. October 2012</h6>
-					<br/>
-					<a href="news_events/industry_news/20120810">Infection Control System deployed by Queensland Health</a>
-					<h6>10. August 2012</h6>
-					<br/>
-					<a href="news_events/industry_news/20120516">Brazil re-affirms commitment to openEHR</a>
-					<h6>16. May 2012</h6>
+					<a href="news_events/community_news" style="color:#023670;"><h2>Community News</h2></a>
+					<?php
+						//Retrieve community news
+						$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='community_news' ORDER BY date DESC LIMIT 2";
+						$r = @mysqli_query ($conx, $q);
+						
+						//Count the number of the rows
+						$num = mysqli_num_rows($r);
+						
+						if ($num > 0) { //everything went ok, display results
+							
+							//Fetch and print all releases:
+							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
+								echo '<a href="news_events/community_news/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+									. $row['dr'] . '</h6><br/>';
+							}
+							mysqli_free_result ($r); //Free up the resources
+						}
+						else { //if it didnt run ok
+							echo '<p>There are currently no community news.</p>';
+						} 
+					?>
 				</div>
 			</div>
 			
 			<div id="NewsFrame">
 				<div id="LinksFrame">
 					<a href="news_events/foundation_news" style="color:#023670;"><h2>Foundation News</h2></a>
+					<?php
+						//Retrieve foundation news
+						$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='foundation_news' ORDER BY date DESC LIMIT 3";
+						$r = @mysqli_query ($conx, $q);
+						
+						//Count the number of the rows
+						$num = mysqli_num_rows($r);
+						
+						if ($num > 0) { //everything went ok, display results
+							
+							//Fetch and print all releases:
+							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
+								echo '<a href="news_events/foundation_news/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+									. $row['dr'] . '</h6><br/>';
+							}
+							mysqli_free_result ($r); //Free up the resources
+						}
+						else { //if it didnt run ok
+							echo '<p>There are currently no foundation news.</p>';
+						} 
+					?>
 					
-					<a href="news_events/foundation_news/20130306">Professor Dipak Kalra becomes President of EuroRec</a>
-					<h6>6. March 2013</h6>
-					<br/>
-					<a href="news_events/foundation_news/20121212">openEHR Transition Update</a>
-					<h6>12. December 2012</h6>
-					<br/>
-					<a href="news_events/foundation_news/20120515">Board statement on Clinical Knowledge Manager</a>
-					<h6>15. May 2012</h6>
-					<br/>
-					
-					<a href="news_events/community_news" style="color:#023670;"><h2>Community News</h2></a>
-					
-					<a href="news_events/community_news/20130315">openEHR Primary Care project starts in Salvador, Brazil</a>
-					<h6>15. March 2013</h6>
-					<br/>
-					<a href="news_events/community_news/20130127">Erik Sundvall's EHR PhD thesis published online</a>
-					<h6>17. January 2013</h6>
+					<a href="news_events/events" style="color:#023670;"><h2>Events</h2></a>
+					<?php
+						//Retrieve events
+						$q = "SELECT item_id, title, coordinates FROM news_items WHERE category='events' ORDER BY item_id DESC LIMIT 2";
+						$r = @mysqli_query ($conx, $q);
+						
+						//Count the number of the rows
+						$num = mysqli_num_rows($r);
+						
+						if ($num > 0) { //everything went ok, display results
+							
+							//Fetch and print all releases:
+							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
+								echo '<a href="news_events/events/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+									. $row['coordinates'] . '</h6><br/>';
+							}
+							mysqli_free_result ($r); //Free up the resources
+						}
+						else { //if it didnt run ok
+							echo '<p>There are currently no events.</p>';
+						} 
+					?>
 				</div>	
 			</div>
 					
 			<div id="ReleasesFrame">
 				<div id="LinksFrame">
 					<a href="news_events/releases" style="color:#023670;"><h2>Releases</h2></a>
+					<?php
+						//Retrieve releases
+						$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='releases' ORDER BY date DESC LIMIT 5";
+						$r = @mysqli_query ($conx, $q);
+						
+						//Count the number of the rows
+						$num = mysqli_num_rows($r);
+						
+						if ($num > 0) { //everything went ok, display results
+							
+							//Fetch and print all releases:
+							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
+								echo '<a href="news_events/releases/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+									. $row['dr'] . '</h6><br/>';
+							}
+							mysqli_free_result ($r); //Free up the resources
+						}
+						else { //if it didnt run ok
+							echo '<p>There are currently no releases.</p>';
+						} 
+					?>
 					
-					<a href="news_events/releases/20130311">Guideline Definition Language (GDL) first release</a>
-					<h6>11. March 2013</h6>
-					<br/>
-					<a href="news_events/releases/20130305">CKM upgraded to include projects and other features</a>
-					<h6>5. March 2013</h6>
-					<br/>
-					<a href="news_events/releases/20120813">ADL - syntax highlight for Notepad++</a>
-					<h6>13. August 2012</h6>
-					<br/>
-					<a href="news_events/releases/20120802">ADL 1.5 Workbench - beta release 8</a>
-					<h6>2. August 2012</h6>
-					<br/>
-					<a href="news_events/releases/20110909">ADL 1.5 Workbench - beta release 4</a>
-					<h6>9. September 2011</h6>
-					<br/>
-					<a href="news_events/releases/20110304">First open source release of openEHR.NET</a>
-					<h6>4. March 2011</h6>
+					<?php 
+					mysqli_close($conx);
+					?>
 				</div>
 			</div>	 
 				

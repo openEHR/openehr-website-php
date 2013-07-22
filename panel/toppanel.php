@@ -12,8 +12,14 @@
 		</div>
 		
 		<div id="Utilities">
-		
-			<a href="/aboutthiswebsite">About this Website</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="http://www.openehr.org/knowledge">CKM</a>
+			
+			<?php
+			if( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'],'logout.php')) ) { 
+				echo '<a href="/login/user_home">User Home</a> | <a href="/login/logout">Logout</a>';
+			} 
+			else {
+				echo '<a href="/login">Login</a>';
+			}?> | <a href="/aboutthiswebsite">About this Website</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="http://www.openehr.org/knowledge">CKM</a>
 		
 		</div>
 		

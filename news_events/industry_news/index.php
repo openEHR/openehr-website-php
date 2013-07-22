@@ -1,4 +1,5 @@
 <?php
+session_start();
 $PageName = 'Industry News';
 ?>
 
@@ -21,7 +22,7 @@ $PageName = 'Industry News';
 	</div>
 	
 	<div id="TopMenu">
-	
+		
 		<div class="nav">
 			<?php include '../../menu/topmenu.php' ?>
 		</div>
@@ -37,63 +38,68 @@ $PageName = 'Industry News';
 		<div id="TextArea">
 			
 			<h1><?php echo "$PageName";?></h1>
-			<br/>
 			
-			<a href="20130128">IBS and Moscow city to host second openEHR Workshop</a>
-			<h6>28. January 2013</h6>
-			<p>On 5. - 7. February the second part of a series of seminars on the use of the international open standard medical management, storage and exchange of electronic medical records (openEHR) will be hosted in Moscow. The seminar organizers are the Department of Information Technology in Moscow together with IBS.</p>
-			<br/>
+			<?php
+			//Connect to the database
+			require_once ('../../../con_real.php');
 			
-			<a href="20121226">IBS consortium including three openEHR vendors to build Moscow eHealth infrastructure</a>
-			<h6>26. December 2012</h6>
-			<p>A consortium led by IBS Moscow and including three openEHR vendors - Marand, Infinnity, and Ocean Informatics - has won the contract for the pilot of the Moscow city integrated medical information system.</p>
-			<br/>
+			if ( (isset($_GET['id'])) && (is_numeric($_GET['id'])) ) {
+				$news_id = intval($_GET['id']);
+				
+				//Retrieve the release information
+				$q = "SELECT title, text, DATE_FORMAT(date, '%M %d, %Y') AS dr, resources, coordinates, first_name, surname FROM news_items, users WHERE category='industry_news' AND news_items.item_id=$news_id AND news_items.user_id=users.user_id";		
+				$r = @mysqli_query ($conx, $q);
+				
+				if (mysqli_num_rows($r) === 1) { //Valid id for one item
+					
+					//Get the item information
+					$row = mysqli_fetch_array ($r, MYSQLI_ASSOC);
+					
+					//Formating the information
+					echo '<h2>' . $row['title'] . '</h2>' . "\n\t\t\t";
+					echo '<h6>' . $row['dr'] . '&nbsp; | &nbsp;from: ' . $row['first_name']. ' ' . $row['surname']. '</h6><br/>' . "\n\t\t\t";
+					echo '<div class="news_article">' . "\n\t\t\t\t" . $row['text'] . '<br/>';
+					if ($row['resources'] != '') {
+						echo "\n\t\t\t\t" . '<p><em>Other resources:</em> ' . $row['resources']. '</p><br/>';
+					}
+					if ($row['coordinates'] != '') {
+						echo "\n\t\t\t\t" . '<p><em>Date, time and place:</em> ' . $row['coordinates']. '</p><br/>';
+					}
+					echo "\n\t\t\t</div>";
+					echo "\n\t\t\t" . '<p><a href="../industry_news">>> Back to Industry News</a></p>';
+				}
+				else { //Not valid item id
+					echo '<p>Sorry, this page doesn\'t exist.</p>';
+				}
+				
+			}
+			else {
+				//Retrieve releases information summary
+				$q = "SELECT item_id, title, summary, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='industry_news' ORDER BY date DESC";
+				$r = @mysqli_query ($conx, $q);
+				
+				//Count the number of the rows
+				$num = mysqli_num_rows($r);
+				echo '<br/>';
+				
+				if ($num > 0) { //everything went ok, display results
+					
+					//Fetch and print all releases:
+					while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
+						echo '<a href="index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+							. $row['dr'] . '</h6>
+							<p>' . $row['summary'] . '</p><br/>';
+					}
+					mysqli_free_result ($r); //Free up the resources
+				}
+				else { //if it didnt run ok
+					echo '<p>There are currently no industry news.</p>';
+				} 
+			}
 			
-			<a href="20121005">Northern Territory Health deploys Shared EHR</a>
-			<h6>05. October 2012</h6>
-			<p>Northern Territory Health has deployed a Shared Electronic Health Record system for over 50,000 remote indigenous people based on the Ocean Informatics EHR platform</p>
-			<br/>
-			
-			<a href="20120810">Infection Control System deployed by Queensland Health</a>
-			<h6>10. August 2012</h6>
-			<p>Infection Control system, Multiprac, for 22 large hospitals in Queensland based on the Ocean OceanEHR platform has been inmplemented.</p>
-			<br/>
-			
-			<a href="20120516">Brazil re-affirms commitment to openEHR</a>
-			<h6>16. May 2012</h6>
-			<p>As part of operationalising chapter III of the government decree, a national EHR Workshop was held aimed at defining methods and standards to be used in the Brazilian EHR Project (RES-National). The conclusions were largely underpinned by openEHR.</p>
-			<br/>
-			
-			<a href="20120215">Web-based openEHR ambulatory care EHR system deployed in Brazil</a>
-			<h6>15. February 2012</h6>
-			<p>P2D, Brazil, deploys web-based ambulantory care EHR to around 3,000 health professionals including doctors, physiotherapists, nurses and receptionists (primarily Brazilian College of Ophthalmologists).</p>
-			<br/>
-			
-			<a href="20120209">Creation of National Center for Archetypes (NCA), based at Slovak University of Technology (STU), Bratislava</a>
-			<h6>9. February 2012</h6>
-			<p>A National Center for Archetypes (NCA STU), specialising in knowledge structures for Slovak e-health, has been launched, supported by the management of Slovak University of Technology in Bratislava (STU) and the Faculty of Electrical Engineering and Information Technology (FEI STU).</p>
-			<br/>
-			
-			<a href="20111214">Clinical Information Modelling Initiative goes with Archetypes & UML profile</a>
-			<h6>14. December 2011</h6>
-			<p>The Clinical Information Modeling Initiative is an international collaboration that is dedicated to providing a common format for detailed specifications for the representation of health information content so that semantically interoperable information may be created and shared in health records, messages and documents.</p>
-			<br/>
-			
-			<a href="20110106">Brazil chooses openEHR for EHR at all levels of government</a>
-			<h6>6. January 2011</h6>
-			<p>Brazil has chosen to use openEHR and archetypes for the shareable EHR at three levels of government - federal, state and municipal.</p>
-			<br/>
-			
-			<a href="20090709">openEHR in &pound;1.1m Wellcome Trust Sintero project</a>
-			<h6>9. July 2009</h6>
-			<p>The openEHR health computing platform will be used as the basis of the core clinical repository for the Sintero project funded by a &pound;1.1m grant from the Wellcome Trust.</p>
-			<br/>
-			
-			<a href="20090420">Microsoft Connected Health Framework (CHF) uses archetypes</a>
-			<h6>20. April 2009</h6>
-			<p>The latest edition of Microsoft's Connected Health Framework - a strategy based on the idea of 'knowledge-driven health' - includes openEHR (ISO 13606-2) archetypes as part of its domain knowledge architecture.</p>
-			<br/>
-			
+			mysqli_close($conx);
+			?>
+					
 		</div>
 			
 	</div>
@@ -103,7 +109,7 @@ $PageName = 'Industry News';
 	</div>
 
 	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>
+		<?php include '../../panel/bottompanel.php' ?>	
 	</div>
 
 </div>

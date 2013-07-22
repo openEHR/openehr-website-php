@@ -131,7 +131,7 @@ $PageName = 'Academic Research';
 				[2008-]</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80px" alt="new_zealand_flag" title="japan_flag" src="../files/basic/newzealand.gif"></p>
+				<td class="TableMainC"><p><img width="80px" alt="new_zealand_flag" title="new_zealand_flag" src="../files/basic/newzealand.gif"></p>
 				<p>New Zealand</p></td>
 				<td class="TableMainC"><a href="http://www.fmhs.auckland.ac.nz/soph/centres/nihi/">The University of Auckland, National Institute for Health Innovation</a></td>
 				<td class="TableMainC">
@@ -185,23 +185,23 @@ $PageName = 'Academic Research';
 			</tr>
 			<tr>
 				<td class="TableMainC">
-				<a href="http://www.upv.es/">Technical University of Valencia</a>,<br/>Biomedical Informatics Group<br/>
-				*Faculty of Informatics.<br/><a href="http://www.um.es/">Murcia University</a>.</td>
-				<td class="TableMainC">David Moner,<br/>
-				Jesualdo Tom&aacute;s Fern&aacute;ndez*,<br/>
-				Jos&eacute; Alberto Maldonado,<br/>
-				Montserrat Robles,<br/>
-				Diego Bosc&aacute;</td>
+				<a href="http://www.upv.es">Technical University of Valencia</a>,<br/><a href="http://www.ibime.upv.es">Biomedical Informatics Group</a></td>
+				<td class="TableMainC">Jos&eacute; Alberto Maldonado,<br/>
+				David Moner,<br/>
+				Diego Bosc&aacute;,<br/>
+				Montserrat Robles</td>
 				<td class="TableMainC">
+				Since 2004 the research group has been working on the application of the dual model methodology in legacy systems, providing tools and methodologies to upgrade existing data into archetyped instances according to any selected reference model.<br/>
 				Activities:
 				<ul>
-					<li>Description of existing information as legacy archetypes.</li>
 					<li>Formalisation of the constraint part of archetypes as semi-structured data types.</li>
-					<li>Ontological engineering of Archetypes: cooperative development, translation to ontological languages.</li>
+					<li>Description of existing information as legacy archetypes.</li>
+					<li>Data integration and transformation based on archetype definitions.</li>
+					<li>Archetyped data reuse and abstraction for clinical research.</li>
+					<li>Definition of generic an reusable clinical models based on the archetype methodology.</li>
 				</ul>
-				See LinkEHR editor tool - a generic, schema-based archetype tool -
-				<a href="http://www.linkehr.com/">http://www.linkehr.com/</a>.<br/>
-				[June 2009]</td>
+				See LinkEHR - a reference model-independent archetype editor and data transformation tool (<a href="http://www.linkehr.com/">www.linkehr.com</a>).<br/>
+				[April 2013]</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"><a href="http://www-en.us.es/">University of Seville</a></td>

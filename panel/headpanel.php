@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
 	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
 	
+	<link rel="shortcut icon" href="gui/favicon.ico" />
 	<link rel="home" href="http://www.openehr.org">
 	<link rel="index" href="/sitemap">
 
