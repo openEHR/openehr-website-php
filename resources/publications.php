@@ -45,6 +45,7 @@ $PageName = 'Publications';
 				<p class="content2"><a href="#papersmentioning">Papers and Theses mentioning archetypes</a></p>
 				<p class="content2"><a href="#papersrelated">Papers about Related Subjects</a></p>
 			<p class="content1"><a href="#healthict">Publications on Health ICT</a></p>
+				<p class="content2"><a href="#decision_support">Decision Support</a></p>
 				<p class="content2"><a href="#governanceandsustainability">Governance and Sustainability</a></p>
 				<p class="content2"><a href="#openehr">openEHR</a></p>
 				<p class="content2"><a href="#regionalhealth">Regional Health</a></p>
@@ -619,6 +620,22 @@ $PageName = 'Publications';
 			
 			<br/>
 			<h2><a name="healthict"></a>Publications on Health ICT</h2>
+			<h3><a name="decision_support"></a>Decision Support</h3>
+				<ul>
+					<li>
+						<p><h4>Evaluation of the Guideline Definition Language (GDL) in the clinical area of severe sepsis and septic shock (<a href="http://www.openehr.org/files/publications/health_ict/KonstantinosKalliamvakos-Final-thesis-report-v3.pdf">PDF</a>)</h4></p>
+						<p><b>Author: Konstantinos Kalliamvakos</b></p>
+						<p>Master's Programme in Health Informatics, 2013<br/>
+						Examiner: Sabine Koch PhD, dept of LIME, Karolinska Institutet</p>
+						<p><b>Abstract</b></p>
+						<p><b>Background</b>: The currently existing Guideline Representation Models(GRM) present limitations which hinder the adoption of guideline oriented Clinical Decision Support Systems(CDSS). To overcome these limitations and allow a successful adoption of guideline oriented CDSS standardized GRMs, which can express Clinical Practice Guidelines(CPGs) as Clinical Decision Support(CDS) rules, are needed. Therefore the two standardized GRMs GELLO and GDL have emerged. Even though GDL is currently evaluated in different clinical areas further evaluation is needed to improve and verify its design.</p>
+						<p><b>Objectives</b>: The aim is to assess if GDL can be used to successfully represent CPGs as CDS rules in an EHR and to unveil any similarities between the specifications of GELLO and GDL.</p>
+						<p><b>Methods</b>: A small part of a severe sepsis and septic shock guideline was modeled using GDL which was then applied to mock patient data to validate GDL. Furthermore the specification of GELLO and GDL were compared against certain criteria to unveil any similarities.</p>
+						<p><b>Results</b>: Four GDL guides were produced for the detection and management of severe sepsis and septic shock. Results from the validation of GDL were in line with the mock patient data and results from the comparison of GELLO and GDL revealed two similarities.</p>
+						<p><b>Conclusion</b>: The validation indicates that GDL can support the criteria for modeling guidelines in the clinical area of severe sepsis and septic shock; due to limitations this finding cannot be generalized. The comparison of GELLO and GDL revealed similarities regarding the use of the OO approach for their design and the use of a local term binded to an external terminology.</p>
+						<p><b>Keywords</b>: Guideline representation models, GDL, GELLO, Clinical decision support systems, HL7, openEHR.</p>
+					</li>
+				</ul>
 			<h3><a name="governanceandsustainability"></a>Governance and Sustainability</h3>
 			<ul>
 				<li>
