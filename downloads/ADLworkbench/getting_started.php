@@ -1,49 +1,25 @@
-<?php
-$PageName = 'ADL Workbench: Getting Started';
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
+$PageName = 'Getting Started';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-	
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-	</div> 
-
-	<div id="MainArea">
-		
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-
-		<div id="TextArea">
-		
-			<h1>Getting Started</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
 			<p>Two resources need to be configured at first time used of the ADL Workbench. The first is the 'reference models' (RMs) which are imported in the form of schema files expressed in the openEHR 'basic meta-model' (BMM) format. Multiple RMs can be imported, enabling comparison of models, classes as well as archetypes based on different models.</p>
 			<p>The second resource that must be configured is the 'profiles' that define where archetypes and templates are to be found.</p>
 			
+			
 			<h2>Download archetypes</h2>
 			<p>For first-time use, you will be asked to provide paths to archetypes. It helps to have already downloaded some archetypes! See <a href="obtaining_archetypes">here</a> how to do this.</p>
+			
 			
 			<h2>Basic Configuration</h2>
 			
@@ -57,6 +33,7 @@ $PageName = 'ADL Workbench: Getting Started';
 			<p><a href="images/startup_repository.png"><img border="0" alt="Repository dialog at startup" src="images/tn_startup_repository.jpg" width="200" height="151"/> </a></p>
 			<p>The repository dialog is used to define the location of a repository of archetypes/templates. The 'profile' is a logical name for a 'reference' repository, and optionally, a 'work' repository. You can create as many profiles as you like. The 'reference' repository is a directory containing archetypes that you will use, but not modify, such as the CKM archetypes, or a national library. These archetypes will be shown with blue icons. The optional 'work' repository is to indicate the directory under which you have archetypes/templates you are working on. The latter can include specialisations of the archetypes found in the reference location. These archetypes will be shown with green icons.</p>
 			<p>The files in each repository area can be arranged in any manner - e.g. the traditional 'openEHR' structure, or even a single directory. When the files are read by the AWB, they are classified under the class structure of the reference model on which each archetype is based.</p>
+		  
 		  
 			<h2>Using the Tool</h2>
 			
@@ -196,23 +173,7 @@ $PageName = 'ADL Workbench: Getting Started';
 			</tr>
             </tbody>
             </table>
-			
-		</div>
 
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

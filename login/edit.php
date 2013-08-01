@@ -23,13 +23,7 @@
 	$char2old = '</script>';
 	$char2new = '&lt;/script&gt;';
 	
-	
 ?>
-
-
-
-
-
 
 <?php
 $PageName = 'Edit News and Events';
@@ -72,10 +66,11 @@ $PageName = 'Edit News and Events';
 		
 		<div id="TextArea" style="left:0px; width:900px; ">
 		
-			<h1>Create News and Events</h1>
+			<h1><?php echo $PageName;?></h1>
 			<br/>
 				<?php
 				include 'getpost_functions.php';
+				
 				//use GET parameter to fetch the news from db
 				if(isset($_GET['nid']) && empty($_POST)){
 					
@@ -83,6 +78,7 @@ $PageName = 'Edit News and Events';
 					$newsid = (int)$_GET['nid'];
 					$array_data = getPost($newsid);
 				}
+				
 				elseif(isset($_POST['submitted'])) {
 					//Connect to the database
 					require_once('../../con_test.php'); 
@@ -90,7 +86,7 @@ $PageName = 'Edit News and Events';
 					//Initialise an error array
 					$errors = array(); 
 
-					//Check for the first name
+					//Check for the category
 					if (empty($_POST['category'])) {
 						$errors[] = 'You forgot to set the category.';
 					}
@@ -132,7 +128,6 @@ $PageName = 'Edit News and Events';
 						$tx = mysqli_real_escape_string($dbc, $tnx);
 					}
 					
-					
 					//Check for the other resources
 					if (empty($_POST['resources'])) {
 						$rs = '';
@@ -143,6 +138,16 @@ $PageName = 'Edit News and Events';
 						$rns = str_replace($char1old, $char1new, $rns);
 						$rns = str_replace($char2old, $char2new, $rns);
 						$rs = mysqli_real_escape_string($dbc, $rns);
+					}
+					
+					//Check for the coordinates
+					if (empty($_POST['coordinates'])) {
+						$co = '';
+					}
+					else {
+						$cno = trim ($_POST['coordinates']);
+						$cno = htmlentities($cno);
+						$co = mysqli_real_escape_string($dbc, $cno);
 					}
 					
 					//Check for the user id
@@ -179,6 +184,7 @@ $PageName = 'Edit News and Events';
 								summary = '$su',
 								text = '$tx',
 								resources = '$rs',
+								coordinates = '$co',
 								user_id = '$id'
 							WHERE item_id='$iind'
 							";
@@ -191,6 +197,7 @@ $PageName = 'Edit News and Events';
 							echo '<h2>System error</h2> <p>Your news have not been updated due system error. We apologize for any inconvenience. Please try again later or contact site administrator.</p>';
 							echo '<p>' . mysqli_error($dbc) . '<br>Query: ' . $p . '</p>';
 						}
+						echo "\n\t\t".'</div>';
 						include ('../templates/_footer.php');
 						exit();
 						
@@ -216,13 +223,14 @@ $PageName = 'Edit News and Events';
 				}
 				?>
 
-				<form action="edit.php" method="post">
+				<form id="news_form" action="edit.php" method="post">
 				<p>News category: <select name="category"><option value="foundation_news">Foundation News</option><option value="community_news">Community News</option><option value="industry_news">Industry News</option><option value="events">Events</option><option value="releases">Releases</option></select></p>
 				<p>&#42; News title: <input type="text" name="title" size="20" maxlength="80" class="input" value="<?php if(isset($array_data['title'])) echo $array_data['title']; ?>" /></p>
 				<p>&#42; News summary: <input type="text" name="summary" size="40" maxlength="300" class="input" value="<?php if(isset($array_data['summary'])) echo $array_data['summary']; ?>" /></p>
 				<p>&#42; News text: <textarea name="text" rows="20" cols="80"><?php if(isset($array_data['text'])) echo $array_data['text']; ?></textarea></p>
 				<p>Other resources: <textarea name="resources" rows="5" cols="80"><?php if(isset($array_data['resources'])) echo $array_data['resources']; ?></textarea></p>
-				<p><input type="submit" name="submit" value="Update" /></p>
+				<p>Date and place: <input type="text" name="coordinates" size="40" maxlength="300" class="input" value="<?php if(isset($_POST['coordinates'])) echo $_POST['coordinates']; ?>" /></p>
+				<!--<p><input type="submit" name="submit" value="Update" /></p>-->
 				<input type="hidden" name="item_id" value="<?php echo $newsid;?>" />
 				<input type="hidden" name="user_id" value="<?php echo $usr_id;?>" />
 				<input type="hidden" name="submitted" value="TRUE" />
@@ -246,6 +254,7 @@ $PageName = 'Edit News and Events';
 </div>
 
 <?php include '../panel/scriptpanel.php' ?>
+<script type ="text/javascript" src="submit.js"></script>
 
 </body>
 

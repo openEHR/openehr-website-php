@@ -1,42 +1,17 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Governance';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-		
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-
-		<div id="TextArea">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
+			
 			<p class="content1"><a href="#introduction">Introduction</a></p>
 			<p class="content1"><a href="#programstructure">Program Structure</a></p>
 				<p class="content2"><a href="#editorialcommittee">Editorial Committee</a></p>
@@ -67,9 +42,7 @@ $PageName = 'Governance';
 			<h2><a name="programstructure"></a>Program Structure</h2>
 			<p>The Specification Program consists of an Editorial Committee (EC), and two kinds of Groups - Component Maintainer Groups (CMGs), and Standards Advisory Groups (SAGs). CMGs are classified as 'core' and 'implementation-related'. The Editorial Committee membership consists of 1 representative from each CMG and has up to 3 co-chairs.</p>
 			<p>The following chart illustrates the structure. Initial membership of the Program starts with membership of a CMG and/or SAG.</p>
-			<br/>
-			<p style="text-align:center;"><img src="../../files/programs/SpecProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
-			<br/>
+			<p style="text-align:center;"><img src="/files/programs/specification/SpecProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
 
 			<h3><a name="editorialcommittee"></a>Editorial Committee</h3>
 			<p>The Program has an Editorial Committee (EC) which is the formal body for review and decision-making.</p>
@@ -129,7 +102,7 @@ $PageName = 'Governance';
 			<p>Co-chair positions last 2 years. Elections are held every 12 months at a fixed date, or earlier in the case of resignation. A vacating   co-chair may not re-nominate for a successive term but may re-nominate   after at least one 12 month period since the previous term served.</p>
 			
 			<h3><a name="componentmaintainergroup"></a>Component Maintainer Group</h3>
-			<p>Most Program members are members of one or more component maintainer groups (CMGs),  where each <a href="/wiki/display/oecom/Specification+Progam+-+Deliverables" title="Specification Progam - Deliverables">component</a> has such a group.</p>
+			<p>Most Program members are members of one or more component maintainer groups (CMGs),  where each <a href="/wiki/display/oecom/Specification+Progam+-+Deliverables" title="Specification Progam - Deliverables" target="_blank">component</a> has such a group.</p>
 			
 			<h4><a name="cmgresponsibilities"></a>Responsibilities</h4>
 			<p>The responsibilities of a CMG are:</p>
@@ -141,7 +114,7 @@ $PageName = 'Governance';
 			<h4><a name="cmgmembership"></a>Membership</h4>
 			<p>A Program member can be in one or more CMGs, according to breadth of expertise. Each core CMG requires a minimum of 3 members. Non-core CMGs must have at least 1 member.</p>
 			<p>Each member must be sufficiently technically qualified to understand  the relevant specifications / artefacts, and be able to participate  actively in the processing of changes to the artefacts in that  component.</p>
-			<p>The membership of each CMG is recorded online at the <a href="http://www.openehr.org/issues/browse/SPEC">SPEC tracker location</a> .</p>
+			<p>The membership of each CMG is recorded online at the <a href="http://www.openehr.org/issues/browse/SPEC" target="_blank">SPEC tracker location</a> .</p>
 			<p>There is no limit on the duration of CMG membership, as long as the   participation and competence are maintained, and the Program Fairness Rules are not broken.</p>
 			
 			<h4><a name="cmgcreation"></a>Creation</h4>
@@ -158,7 +131,7 @@ $PageName = 'Governance';
 			<p>Each SAG is constituted for a particular standard or group of related  standards managed by an official standards organisation, e.g. ISO 13606,  SNOMED CT, etc.</p>
 
 			<h4><a name="sagresponsibilities"></a>Responsibilities</h4>
-			<p class="par">The responsibilities of a SAG are as follows:</p>
+			<p>The responsibilities of a SAG are as follows:</p>
 			<ul>
 				<li>To <em>track the relevant standard</em> and to advise if there are features that might affect openEHR specifications, e.g. should be incorporated, should be aligned to, or might require transformational tools;</li>
 				<li>To <em>offer relevant openEHR specifications</em> to the standards body, either as input to standards development, or as a formal standards proposal. (Finalising such a proposal would be an openEHR board decision and generally would involve an organisation - organisation MOU and legal advice);</li>
@@ -272,7 +245,7 @@ $PageName = 'Governance';
 			<p>If the  departure leaves a CMG (see below) with less than 3 members then a new  volunteer for the relevant component is sought initially from within the Program . If none is found, a new nomination is sought from the general membership.</p>
 
 			<h3><a name="termination"></a>Termination</h3>
-			<p>An existing member who has been referred to the  openEHR board by the Editorial Committee for disruptive or other  unprofessional behaviour may be removed by he openEHR board following an appeal process, if all attempts at  arbitration fail.</p>
+			<p>An existing member who has been referred to the  openEHR board by the Editorial Committee for disruptive or other  unprofessional behaviour may be removed by he openEHR board following an appeal process, if all attempts at arbitration fail.</p>
 			<p>Where termination leaves a vacancy, the same rules as for resignations are followed.</p>
 
 			
@@ -328,22 +301,6 @@ $PageName = 'Governance';
 			<h3>What stops one company / organisation having undue influence?</h3>
 			<p>Any number of people from a given organisation can participate in the Specification Program. However, two rules are designed to ensure that no single organisation can have an inappropriate influence. The first is that no organisation can have a majority of the members on any given CMG or SAG; the second is that no more than 2 members from a single organisation can work on the EC simultaneously.</p>
 
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>	
-	</div>
-	
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

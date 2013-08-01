@@ -1,42 +1,16 @@
-<?php
-$PageName = 'ADL Workbench: The Test Tool';
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
+$PageName = 'The Test Tool';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-	</div> 
-
-	<div id="MainArea">
-		
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-
-		<div id="TextArea">
-		
-			<h1>The Test Tool</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
 			<p>The test page in the Workbench is accessible via the &#39;Test&#39; tab on the right hand side of the tool. It enables batch execution of test or other routines built into the tool archetypes, and is mainly a facility for debugging archetypes, as well as parser logic.</p>
@@ -97,23 +71,7 @@ $PageName = 'ADL Workbench: The Test Tool';
 			<h2>Viewing results</h2>
 			<p>The files described above are saved in a way to make it convenient to look at diffs using a typical &#39;diff&#39; tool capable of diffing same-named files in sibling directories. This is useful to assess round-tripping correctness and to find bugs. For the examples here, we have used the <a href="http://winmerge.org/">open source Winmerge tool</a>, but you can use any tool you like.</p>
 			<p>Based on the selection of EVALUATION archetypes in the CKM repository, here is the resulting directory structure. Below are some example diff views.</p>
-	
-		</div>
 
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

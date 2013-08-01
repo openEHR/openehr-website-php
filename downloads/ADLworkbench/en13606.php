@@ -1,42 +1,16 @@
-<?php
-$PageName = 'ADL Workbench: EN 13606';
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
+$PageName = 'EN 13606';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-	</div> 
-
-	<div id="MainArea">
-		
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-
-		<div id="TextArea">
-		
-			<h1>EN 13606</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
 			<p>A draft version of the EN13606-1 schema for the AWB has been developed, along with some example archetypes. This is intended to show how ADL / AOM 1.5 functions for archetypes built on a different reference model, and also to enable organisations working with EN13606 to have a more formal tool basis for developing archetypes, templates and generally migrating to ADL/AOM 1.5. The entire EN13606 model can be viewed in the AWB RM schema and Class tools, and comparisons can be made with classes in the openEHR reference model.</p>
@@ -55,22 +29,6 @@ $PageName = 'ADL Workbench: EN 13606';
 			<h2>EN13606 archetypes</h2>
 			<p>Some initial 13606 archetypes have been created <a href="https://github.com/openEHR/adl-archetypes/tree/master/Example/EN13606">here</a> in the adl-archetypes Github repository. These are currently purely experimental and unreviewed.</p>
 
-		</div>
-
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

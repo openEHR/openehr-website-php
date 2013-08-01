@@ -1,47 +1,20 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Governance Structure';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-		
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-		
-		<div id="TextArea">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 			
 			<h1><?php echo "$PageName";?></h1>
-			<br/>
+			
 			<p>The governance structure of the openEHR Foundation is based on the division of activities into four Programs: Specifications, Clinical models, Software and Localisation. Work is carried out in projects within these Programs by Contributing and Qualified members, with all Members having the right of access to work items and particpation in meetings. </p>
 			<p>A Program Coordination Board will coordinate and prioritise the work done by the Programs. A Foundation Office is responsible for administration and communicaions. A Foundation Board, elected by both the Individual and Organisational Membership sets the strategy according to stakeholder requirements. An Advisory Panel provides a way to formalise external expert input. The structure is shown below.</p>
-			<br/>
-			<p style="text-align:center;"><img src="../files/about/OrganisationalStructure.png" alt="Organisational Structure" style="border: solid 1px #CCCCCC;" usemap="#orgstructure"></p>
+			<p style="text-align:center;"><img src="../files/about/OrganisationalStructure.png" alt="Foundation Governance Structure" title="Foundation Governance Structure" style="border: solid 1px #CCCCCC;" usemap="#orgstructure"></p>
 			<map name="orgstructure">
 				<area shape="rect" coords="180,45,300,100" href="#foundationboard"/>
 				<area shape="rect" coords="60,100,160,160" href="#advisorypanel"/>
@@ -52,7 +25,6 @@ $PageName = 'Governance Structure';
 				<area shape="rect" coords="245,270,330,325" href="../programs/software"/>
 				<area shape="rect" coords="340,270,425,325" href="../programs/localisation"/>
 			</map> 
-			<br/>
 			
 			
 			<h2><a name="foundationboard"></a>Foundation Board</h2>
@@ -116,22 +88,6 @@ $PageName = 'Governance Structure';
 			</ul>
 			<p>See members of Program Coordination Board <a href="people_in_governance#programcoordinationboard">here</a>.</p>
 			
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-	
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

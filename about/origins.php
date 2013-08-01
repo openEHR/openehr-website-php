@@ -1,43 +1,17 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Origins of openEHR';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-		
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-		
-		<div id="TextArea">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 			
 			<h1><?php echo "$PageName";?></h1>
-			<br/>
+		
 			<p><i>David Ingram, October 2002</i></p>
 			<p>Some ten years after the GEHR project was established in 1989, partners in that project have come together again to review experience gained over the intervening years. It is especially encouraging that a forthcoming ISO standard will elevate formally defined clinical requirements to the highest level in the standards process for electronic healthcare records. So many systems describe themselves as electronic healthcare records and yet share little common concept of what such an entity is and what it is for.</p>
 			<p>The research and development in this field has followed a chaotic and tortuous evolution, influenced inevitably by commercial, political and academic considerations and rivalries and also by severe inertia because of powerful needs to continue to accommodate legacy systems. Confused and confusing arguments have raged about esoteric models of ill-defined clinical terminology, processes and communications. Continuing reinvention of wheels at these levels of abstraction (more precisely concoction of alternative definitions and plans of possibly wheel-like objects!), has inhibited progress. There is still an urgent need for empirical study of the implementation and comparative evaluation of a diverse range of approaches to the provision of high quality electronic healthcare records. This must be informed by international consensus about the requirements to be met.</p>
@@ -177,22 +151,6 @@ $PageName = 'Origins of openEHR';
 			<p>We need to focus on these opportunities for cross-governmental funding for openEHR, perhaps splitting the main open source and content standardisation roles of the foundation from a trading arm, owned by the Foundation, to develop revenue streams to support the goals of the Foundation.</p>
 			<p>At the same time, we have to remain firmly focused on our continuing pathway of keeping our teams together, expanding our partnerships and delivering the results needed to win the day!</p> 			
 			
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-	
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

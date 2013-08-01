@@ -1,44 +1,18 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Academic Research';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-	
-		<div id="TextArea">
-	
 			<h1><?php echo "$PageName";?></h1>
-			<p>If you are using openEHR for an academic (including open source) product, and would like to be included on the list, or you want to submit updates or corrections, then please <a href="about/contacts">contact us</a>.</p>
-			<br/>
+			
+			<p>If you are using openEHR for an academic (including open source) product, and would like to be included on the list, or you want to submit updates or corrections, then please <a href="/about/contacts">contact us</a>.</p>
 			
 			<table class="TableMain">
 			<tbody>
@@ -49,7 +23,7 @@ $PageName = 'Academic Research';
 				<th class="TableMainT"><p>Description</p></th>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80px" alt="argentina_flag" title="argentina_flag" src="../files/basic/Flag_of_Argentina.svg.png"></p>
+				<td class="TableMainC"><p><img width="80px" alt="argentina_flag" title="argentina_flag" src="/files/who_is_using_openehr/Flag_of_Argentina.svg.png"></p>
 				<p>Argentina</p></td>
 				<td class="TableMainC"><a href="http://www.hospitalaustral.edu.ar/">Austral University Hospital</a></td>
 				<td class="TableMainC">Alan March</td>
@@ -61,7 +35,7 @@ $PageName = 'Academic Research';
 				</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="5"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="../files/basic/brazil_S.gif"></p><p>Brazil</p></td>
+				<td class="TableMainC" rowspan="5"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="/files/who_is_using_openehr/brazil_S.gif"></p><p>Brazil</p></td>
 				<td class="TableMainC"><a href="http://www.ufrj.br/">University of Rio de Janiero</a></td>
 				<td class="TableMainC">Rigoleta Dutra</td>
 				<td class="TableMainC">PhD Thesis on archetype-based systems<br/>
@@ -105,7 +79,7 @@ $PageName = 'Academic Research';
 				[May 2009]</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80px" alt="germany_flag" title="germany_flag" src="../files/basic/germany_S.gif"></p>
+				<td class="TableMainC"><p><img width="80px" alt="germany_flag" title="germany_flag" src="/files/who_is_using_openehr/germany_S.gif"></p>
 				<p>Germany</p></td>
 				<td class="TableMainC">University of Heidelberg / <br/>Heilbronn University</td>
 				<td class="TableMainC">Petra Knaup, <br/>
@@ -121,7 +95,7 @@ $PageName = 'Academic Research';
 				</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80px" alt="japan_flag" title="japan_flag" src="../files/basic/japan_S.gif"></p>
+				<td class="TableMainC"><p><img width="80px" alt="japan_flag" title="japan_flag" src="/files/who_is_using_openehr/japan_S.gif"></p>
 				<p>Japan</p></td>
 				<td class="TableMainC"><a href="http://www.ehime-u.ac.jp/">Ehime University</a></td>
 				<td class="TableMainC">Shinji KOBAYASHI, <br/>
@@ -131,7 +105,7 @@ $PageName = 'Academic Research';
 				[2008-]</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80px" alt="new_zealand_flag" title="new_zealand_flag" src="../files/basic/newzealand.gif"></p>
+				<td class="TableMainC"><p><img width="80px" alt="new_zealand_flag" title="new_zealand_flag" src="/files/who_is_using_openehr/newzealand.gif"></p>
 				<p>New Zealand</p></td>
 				<td class="TableMainC"><a href="http://www.fmhs.auckland.ac.nz/soph/centres/nihi/">The University of Auckland, National Institute for Health Innovation</a></td>
 				<td class="TableMainC">
@@ -144,7 +118,7 @@ $PageName = 'Academic Research';
 				[Mar 2012]</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80" alt="portugal_flag" title="portugal_flag" src="../files/basic/portugal_flag.jpg"></p>
+				<td class="TableMainC"><p><img width="80" alt="portugal_flag" title="portugal_flag" src="/files/who_is_using_openehr/portugal_flag.jpg"></p>
 				<p>Portugal</p></td>
 				<td class="TableMainC">Center for Research in Health Technologies and Information Systems (CINTESIS),<br/>
 				Faculty of Medicine,<br/>Porto University</td>
@@ -165,7 +139,7 @@ $PageName = 'Academic Research';
 			</tr>
 			<tr>
 				<td class="TableMainC" rowspan="5">
-				<p><img width="80" alt="spain_flag" title="spain_flag" src="../files/basic/spain.gif"></p>
+				<p><img width="80" alt="spain_flag" title="spain_flag" src="/files/who_is_using_openehr/spain.gif"></p>
 				<p>Spain</p></td>
 				<td class="TableMainC">University of Alcal&aacute;, Madrid<br/>
 				<a href="http://www.ieru.org/">Information Engineering Research Unit</a></td>
@@ -259,7 +233,7 @@ $PageName = 'Academic Research';
 				[March 2012]</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><p><img width="80" alt="slovakia_flag" title="slovakia_flag" src="../files/basic/slovakia.gif"></p>
+				<td class="TableMainC"><p><img width="80" alt="slovakia_flag" title="slovakia_flag" src="/files/who_is_using_openehr/slovakia.gif"></p>
 				<p>Slovak Republic</p></td>
 				<td class="TableMainC">NCA STU &ndash; National archetype center,<br/>
 				Slovak Technical University, Bratislava.</td>
@@ -273,7 +247,7 @@ $PageName = 'Academic Research';
 				[March 2012]</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="2"><p><img width="80" alt="sweden_flag" title="sweden_flag" src="../files/basic/sweden_S.gif"></p>
+				<td class="TableMainC" rowspan="2"><p><img width="80" alt="sweden_flag" title="sweden_flag" src="/files/who_is_using_openehr/sweden_S.gif"></p>
 				<p>Sweden</p></td>
 				<td class="TableMainC"><a href="http://www.imt.liu.se/mi/ehr/">Medical Informatics group at the Department of Biomedical Engineering, <br/>
 				Link&ouml;pings universitet, Sweden</a></td>
@@ -302,7 +276,7 @@ $PageName = 'Academic Research';
 			</tr>
 			<tr>
 				<td class="TableMainC">
-				<p><img width="80" alt="uk_flag" title="uk_flag" src="../files/basic/uk_S.gif"></p>
+				<p><img width="80" alt="uk_flag" title="uk_flag" src="/files/who_is_using_openehr/uk_S.gif"></p>
 				<p>UK</p></td>
 				<td class="TableMainC"><a href="http://www.chime.ucl.ac.uk/">CHIME (Centre for
 				Health Informatics and Multi-professional Education),<br/>
@@ -318,24 +292,7 @@ $PageName = 'Academic Research';
 			</tr>
 			</tbody>
 			</table>
-			<br/><br/>
-		
-		</div>
-		
-	</div>
 
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

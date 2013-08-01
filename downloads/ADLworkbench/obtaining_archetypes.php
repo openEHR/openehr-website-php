@@ -1,45 +1,19 @@
-<?php
-$PageName = 'ADL Workbench: Obtaining Archetypes';
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
+$PageName = 'Obtaining Archetypes';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
-
-	</div> 
-
-	<div id="MainArea">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-
-		<div id="TextArea">
-		
-			<h1>Obtaining Archetypes</h1>
+			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>The openeHR GitHub archetypes repository</h2>
-			<p>For first-time use of the ADL Workbench, you will need some archetypes. The standard location for test archetypes, as well as a snapshot copy of CKM is the <a href="https://github.com/openEHR/adl-archetypes">openEHR adl-archetypes Git repository</a>.</p>
+			<p>For first-time use of the ADL Workbench, you will need some archetypes. The standard location for test archetypes, as well as a snapshot copy of CKM is the <a href="https://github.com/openEHR/adl-archetypes" target="_blank">openEHR adl-archetypes Git repository</a>.</p>
 			<p>If you know how to use Git, make a clone of this repository in your openEHR work area, with the following command:</p>
 			<pre>git clone https://github.com/openEHR/adl-archetypes.git</pre>
 			<p>If you don't know how to use Git, or don't have Git installed, you can obtain a snapshot of the repository as a .zip file using <a href="https://github.com/openEHR/adl-archetypes/archive/master.zip">this link</a>.</p>
@@ -47,25 +21,25 @@ $PageName = 'ADL Workbench: Obtaining Archetypes';
 			<ul>
 				<li>ADL_1.5_reference: ADL 1.5 validity testing archetypes; </li>
 				<li>Reference
-					<ul>
+				<ul>
 					<li>CKM_2012_08_08: snapshot of the contents of the openEHR CKM, with various validity-related fixes.</li>
-					</ul>
+				</ul>
 				</li>
 				<li>Example
-					<ul>
+				<ul>
 					<li>openEHR
-						<ul>
-							<li>ehr_extract_template: an ADL 1.5 template example based on the openEHR EHR Extract model.</li>
-							<li>demographic_template: an ADL 1.5 template example based on the openEHR dempgraphic model.</li>
-							<li>link_archeytpes: ADL 1.5 archetypes showing archetyping of the LINK type in the openEHR RM.</li>
-						</ul>
-					</li>
+					<ul>
+						<li>ehr_extract_template: an ADL 1.5 template example based on the openEHR EHR Extract model.</li>
+						<li>demographic_template: an ADL 1.5 template example based on the openEHR dempgraphic model.</li>
+						<li>link_archeytpes: ADL 1.5 archetypes showing archetyping of the LINK type in the openEHR RM.</li>
 					</ul>
+					</li>
+				</ul>
 				</li>
 				<li>Development
-					<ul>
-						<li>CIMI: Clinical Information Model Initiative proof-of-concept archetypes based on a CIMI reference model;</li>
-					</ul>
+				<ul>
+					<li>CIMI: Clinical Information Model Initiative proof-of-concept archetypes based on a CIMI reference model;</li>
+				</ul>
 				</li>
 			</ul>
 			<p>Other directories will appear from time to time. Each of these directories should be treated as a separate 'repository' for the configuration steps below.</p>
@@ -73,16 +47,16 @@ $PageName = 'ADL Workbench: Obtaining Archetypes';
 			<h2>Other places to find archetypes</h2>
 			<p>The following locations also provide archetypes:</p>
 			<ul>
-				<li><a href="http://www.openehr.org/ckm">openEHR CKM - most recent CKM archetypes</a></li>
-				<li><a href="http://dcm.nehta.org.au/ckm">Australian National (Nehta) CKM</a></li>
-				<li><a href="https://www.clinicalmodels.org.uk/">UK CKM</a></li>
-				<li><a href="https://ckm.nca.stuba.sk/">Slovak National (STUBA) CKM</a></li>
+				<li><a href="http://www.openehr.org/ckm" target="_blank">openEHR CKM - most recent CKM archetypes</a></li>
+				<li><a href="http://dcm.nehta.org.au/ckm" target="_blank">Australian National (Nehta) CKM</a></li>
+				<li><a href="https://www.clinicalmodels.org.uk/" target="_blank">UK CKM</a></li>
+				<li><a href="https://ckm.nca.stuba.sk/" target="_blank">Slovak National (STUBA) CKM</a></li>
 			</ul>
 			 
 			<h3>Downloading from a Clinical Knowledge Manager (CKM) site</h3>
 			<p>You can obtain the latest snapshot of the contents of any CKM as follows:</p>
 			<ul>
-			  <li>Login to the repository at <a href="http://www.openehr.org/knowledge">http://www.openehr.org/knowledge</a>.</li>
+			  <li>Login to the repository at <a href="http://www.openehr.org/knowledge" target="_blank">http://www.openehr.org/knowledge</a>.</li>
 			  <li>Go to Archetypes &gt; Bulk Export and select all archetypes for download; save in any convenient location. For the purposes of this documentation, we will refer to the location as $CKM for each of these CKM downloads (i.e. you will probably have directores like .../openEHR_CKM, .../Nehta_CKM, etc).</li>
 			</ul>
 
@@ -94,7 +68,7 @@ $PageName = 'ADL Workbench: Obtaining Archetypes';
 			<p>Follow these steps to configure any of the above repisitory locations on your computer as a 'profile' in the AWB. We refer to any of these locations on your system as '$repo_dir' in the below steps.</p>
 			<ul>
 				<li>In the AWB, select Repository &gt; Set Repository</li>
-				<li>On the dialog, use the large &#39;+&#39; button to add a new profile called &#39;xxx&#39;.</li>
+				<li>On the dialog, use the large '+' button to add a new profile called 'xxx'.</li>
 				<li>Set the Reference repository to $repo_dir, as described above.</li>
 				<li>Save the new profile.</li>
 			</ul>
@@ -102,10 +76,10 @@ $PageName = 'ADL Workbench: Obtaining Archetypes';
 			<p>Configuring a 'work repository' as is done as follows, using the example of the openEHR example archetypes mentioned above.</p>
 			<ul>
 				<li>In the AWB, select Repository &gt; Configure Repositories.</li>
-				<li>On the dialog, use the Add button to add a new profile called &#39;ADL 1.5 test&#39; or similar. A sub-dialog will appear on which the paths can be edited</li>
+				<li>On the dialog, use the Add button to add a new profile called 'ADL 1.5 test' or similar. A sub-dialog will appear on which the paths can be edited</li>
 				<li>Set the Reference repository path to $knowledge2/archetypes/ADL_1.5_test.</li>
 				<li>Hit OK to save the new profile.</li>
-				<li>Repeat the above steps and create another new profile called &#39;openEHR examples&#39; or similar, with the following paths:
+				<li>Repeat the above steps and create another new profile called 'openEHR examples' or similar, with the following paths:
 				<ul>
 					<li>Set the Reference Repository to $knowledge2/archetypes/openEHR_examples/demographic_template/Reference.</li>
 					<li>Set the Work Repository to $knowledge2/archetypes/openEHR_examples/demographic_template/Working.</li>
@@ -114,22 +88,6 @@ $PageName = 'ADL Workbench: Obtaining Archetypes';
 				<li>Save the new profile.</li>
 			</ul>
 			
-		</div>
-
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

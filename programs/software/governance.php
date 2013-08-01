@@ -1,50 +1,24 @@
-<?php
-$PageName = "Governance &amp; Members";
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
+$PageName = 'Governance';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-
-		<div id="TextArea">
-
 			<h1><?php echo "$PageName";?></h1>
-			<br/>
+			
 			<p>Most current openEHR-related software projects are self-governed sparate entities. The principles below only govern the common openEHR Software Programme itself and it's provided resources (sometimes including code donated to the openEHR foundation).</p>
-			<p>The governance structure of the openEHR software program/group is mosly mail-list based and inspired by the <a href="http://www.apache.org/foundation/">Apache Software Foundation</a> and <a href="http://www.apache.org/foundation/how-it-works.html#management">the way it works</a>. That is combined with the general <a href="../../about/governance_structure">governance structure</a> of the openEHR Foundation that requires both a <em>Program Committee</em> and a list of <em>Program Qualified Members</em>.</p>
+			<p>The governance structure of the openEHR software program/group is mosly mail-list based and inspired by the <a href="http://www.apache.org/foundation/" target="_blank">Apache Software Foundation</a> and <a href="http://www.apache.org/foundation/how-it-works.html#management" target="_blank">the way it works</a>. That is combined with the general <a href="/about/governance_structure">governance structure</a> of the openEHR Foundation that requires both a <em>Program Committee</em> and a list of <em>Program Qualified Members</em>.</p>
 			
 			
 			<h2>Community, including Program Qualified Members</h2>
 			<p>The majority of the work and software decisions should be discussed on the <a href="/community/mailinglists.php">openehr-implementers mailing list</a> where anybody can contribute to the concensus-targeted discussion (no qualified membership required).</p>
-			<p>If voting is needed then votes from <em>Program Qualified Members</em> will be evaluated using <a href="http://www.apache.org/foundation/voting.html"> Apache style voting and interpretation</a>.</p>
+			<p>If voting is needed then votes from <em>Program Qualified Members</em> will be evaluated using <a href="http://www.apache.org/foundation/voting.html" target="_blank"> Apache style voting and interpretation</a>.</p>
 			<p>Qualified Membership should be based on meritocracy and willingness to contribute. Qualified Membership is not time-limited. Qualified Membership can be ended if the member requests to be removed.</p>
 			<p>If three independent* <em>Qualified Members</em> agree to suggest a new member and presents the candidate (including openEHR related merits), then the <em>Program Committee</em> should discuss and consider if the
 			new member should be:</p>
@@ -76,7 +50,7 @@ $PageName = "Governance &amp; Members";
 			<h2>Program Committee</h2>
 			<p>The <em>Program Committee</em> is responsible for reporting to and relating to the openEHR foundation board and it also maintains the official (and incubating) openEHR software project listings and approves new
 			<em>Program Qualified Member</em> suggestions (as described above).</p>
-			<p> The <em>Program Committee</em> is according to openEHR foundation <a href="https://sites.google.com/a/openehrfoundation.org/foundation/home/foundation-committees">program rules</a> limited to a maximum of 9 and minimum of 5 Qualified Members. During initial/bootstrap committee formation we have strived to set it up in a way so that no specific company or institution is represented more than once (since the number of seats is limited).</p>
+			<p> The <em>Program Committee</em> is according to openEHR foundation <a href="https://sites.google.com/a/openehrfoundation.org/foundation/home/foundation-committees" target="_blank">program rules</a> limited to a maximum of 9 and minimum of 5 Qualified Members. During initial/bootstrap committee formation we have strived to set it up in a way so that no specific company or institution is represented more than once (since the number of seats is limited).</p>
 			<p>The <em>Program Committee</em> positions should be renewed or changed on a regular basis as decided by the openEHR foundation. The <em>Software Program Qualified Members</em> suggest new and/or renewed positions in the <em>Software Program Committee</em> to the openEHR foundation board that does final approval (or asks the <em>Software Program Qualified Members</em> for a new suggestion).</p>
 			
 			<h3>Current Program Committee Members</h3>
@@ -89,22 +63,6 @@ $PageName = "Governance &amp; Members";
 				<li>Seref Arikan</li>
 			</ul> 
 		
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>	
-	</div>
-	
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

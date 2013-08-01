@@ -1,42 +1,17 @@
-<?php
-$PageName = "Governance";
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
+$PageName = 'Governance';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-		
-		<div id="TextArea">
-			
 			<h1><?php echo "$PageName";?></h1>
+			
 			<p class="content1"><a href="#introduction">Introduction</a></p>
 			<p class="content1"><a href="#programscope">Program Scope</a></p>
 			<p class="content1"><a href="#programstructure">Program Structure</a></p>
@@ -66,10 +41,7 @@ $PageName = "Governance";
 
 			<h2><a name="programstructure"></a>Program Structure</h2>
 			<p>The Localisation Program consists of <em>Qualified Members</em> for the Localisation Program, <em>Localisation Program Committee</em> (LPC) and <em>Local openEHR Representative</em>(s) and <em>Organisations</em>. In addition, individuals that are enthusiastic about openEHR who work with the openEHR Representative(s) (most probably affiliated with Local Organisations if any) are also recognised as Local Members.</p>
-			
-			<br/>
-			<p style="text-align:center;"><img src="../../files/programs/LocProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
-			<br/>
+			<p style="text-align:center;"><img src="/files/programs/localisation/LocProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
 			
 			<p><em>Qualified Membership (QM):</em> local openEHR activity will happen through qualified members where individuals can join from any country or region (can be a specific territory, language group etc. depending on what local needs are). Acceptance will be based on relevant experience and skills required for localisation activities. It is this group that will do most of the work&#33;</p>
 			<p><em>Localisation Program Committee (LPC):</em> consists of up to nine (minimum of 5) individuals with appropriate background and skills for the localisation work. LPC will decide about who can be qualified members in this arena. Main focus of this Committee is to work with the Community and Board, and to describe how to establish local presence, what processes are required to getting activity in that country and eventually having an affiliated organisation that takes on local representation. LPC has up to 2 co-chairs and the Program Lead acts as the interim chair during initial establishment.</p>
@@ -267,22 +239,6 @@ $PageName = "Governance";
 			<h2><a name="evolution"></a>Evolution of these Terms of Reference</h2>
 			<p>The governance structures and procedures described above will inevitably need to change over time. QM through LPC will convey any amendments to the openEHR Board for approval.</p>
 
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

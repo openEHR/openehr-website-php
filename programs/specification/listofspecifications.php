@@ -1,40 +1,14 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'List of Specifications';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-
-		<div id="TextArea">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -151,108 +125,92 @@ $PageName = 'List of Specifications';
 			<table class="TableMain">
 			<tbody>
 				<tr>
-				<th class="TableMainT"> Component  </th>
-				<th class="TableMainT"> Documentary Specification  </th>
-				<th class="TableMainT"> Description  </th>
+					<th class="TableMainT"> Component  </th>
+					<th class="TableMainT"> Documentary Specification  </th>
+					<th class="TableMainT"> Description  </th>
 				</tr>
 				<tr>
-				<td class="TableMainC" colspan=3> <b>Implementation</b>  </td>
+					<td class="TableMainC" colspan=3> <b>Implementation</b>  </td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> XML  </td>
-				<td class="TableMainC"> XML development guide  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> XML  </td>
+					<td class="TableMainC"> XML development guide  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> TDS (XSD) specification </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> TDS (XSD) specification </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> Java </td>
-				<td class="TableMainC"> Java development guide  </td>
-				<td class="TableMainC"> Guide to java implementation of openEHR.</td>
+					<td class="TableMainC"> Java </td>
+					<td class="TableMainC"> Java development guide  </td>
+					<td class="TableMainC"> Guide to java implementation of openEHR.</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> TDO specification </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> TDO specification </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Lightweight JSON specification </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Lightweight JSON specification </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> .Net  </td>
-				<td class="TableMainC"> .Net development guide  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> .Net  </td>
+					<td class="TableMainC"> .Net development guide  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> TDO specification </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> TDO specification </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> Form languages  </td>
-				<td class="TableMainC"> Form generation specification  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Form languages  </td>
+					<td class="TableMainC"> Form generation specification  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> User interface specifications  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> User interface specifications  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC" colspan=3> <b>Education</b>  </td>
+					<td class="TableMainC" colspan=3> <b>Education</b>  </td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> Software Development </td>
-				<td class="TableMainC"> TBD  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Software Development </td>
+					<td class="TableMainC"> TBD  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC" colspan=3> <b>Standards Interfaces</b>  </td>
+					<td class="TableMainC" colspan=3> <b>Standards Interfaces</b>  </td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> ISO 13606  </td>
-				<td class="TableMainC"> standardised mapping / converged model  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> ISO 13606  </td>
+					<td class="TableMainC"> standardised mapping / converged model  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> HL7v2  </td>
-				<td class="TableMainC"> Standard openEHR template library for message interfacing  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> HL7v2  </td>
+					<td class="TableMainC"> Standard openEHR template library for message interfacing  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> HL7 CDA  </td>
-				<td class="TableMainC"> Transformationalgorithms  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> HL7 CDA  </td>
+					<td class="TableMainC"> Transformationalgorithms  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-				<td class="TableMainC"> ASTM CCR  </td>
-				<td class="TableMainC"> Standard archetype / template expression.  </td>
-				<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> ASTM CCR  </td>
+					<td class="TableMainC"> Standard archetype / template expression.  </td>
+					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 			</tbody>
 			</table>
 		
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>	
-	</div>
-	
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

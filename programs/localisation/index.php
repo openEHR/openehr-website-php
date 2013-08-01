@@ -1,43 +1,17 @@
-<?php
-$PageName = "Localisation Program";
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
+$PageName = 'Localisation Program';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-		
-		<div id="TextArea">
-			
 			<h1><?php echo "$PageName";?></h1>
-			<br/>
+			
 			<p>The Localisation Programme is aimed at reaching out and supporting local openEHR communities worldwide in order to bring about more effective and concerted dissemination of the openEHR vision and methods. Work typically involves translation and adaptation of specifications and related artifacts or creating of their extensions as well as development of new content. The Programme also includes activities related to promotion, education and training, research and seeking funding. </p>
 			
 			
@@ -65,23 +39,6 @@ $PageName = "Localisation Program";
 			<br/>
 			<p>The details of the Programme is given in the <a href="governance">Governance Page</a>.</p>
 			
-		</div>
-			
-
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-	
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

@@ -1,42 +1,17 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Change Process';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-		
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-
-		<div id="TextArea">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
+			
 			<p class="content1"><a href="#introduction">Introduction</a></p>
 				<p class="content2"><a href="#status">Status</a></p>
 				<p class="content2"><a href="#changelog">Change Log</a></p>
@@ -61,7 +36,8 @@ $PageName = 'Change Process';
 
 			<h3><a name="changelog"></a>Change Log</h3>
 			
-			<table class='TableMain'><tbody>
+			<table class='TableMain'>
+			<tbody>
 			<tr>
 				<th class='TableMainT'> Version <br class="atl-forced-newline" /> </th>
 				<th class='TableMainT'> Change description <br class="atl-forced-newline" /> </th>
@@ -94,7 +70,7 @@ $PageName = 'Change Process';
 			<p>All specification artefacts, both documentary and computable follow a lifecycle, from inception (or accession, in the case of donated works) to stability to obsolescence. The following formal lifecycle states are recognised: Development, Trial, Stable, Obsolete and Superseded. For specifications developed from scratch within openEHR (i.e. not donated), the management is as follows:</p>
 			<ul>
 				<li><em>Development state</em>: agile development by project group, no formal change management, visibility of documentation and experimental software. By the end of development, an open source reference implementation must be available.</li>
-				<li><em>Trial state</em>: during this period, the specification is managed in a formal way. Issues are reported on an online tracker; changes are recorded on a separate dedicated tracker, ensuring every change to the specification is recorded; version changes follow the <a href="http://semver.org" class="external-link" rel="nofollow">semver.org</a> rules;</li>
+				<li><em>Trial state</em>: during this period, the specification is managed in a formal way. Issues are reported on an online tracker; changes are recorded on a separate dedicated tracker, ensuring every change to the specification is recorded; version changes follow the <a href="http://semver.org" target="_blank">semver.org</a> rules;</li>
 				<li><em>Stable state</em>: in stable state, the specification is published in a high-quality format. Proposed changes are assessed based on impact to existing implementations.</li>
 			</ul>
 			<p>The intention is to be lightweight when needed, and to manage specifications carefully if and when they gain widespread use.</p>
@@ -102,7 +78,8 @@ $PageName = 'Change Process';
 			<br/>
 			<p>The following table describes the lifecycle states in detail:</p>
 			
-			<table class='TableMain'><tbody>
+			<table class='TableMain'>
+			<tbody>
 			<tr>
 				<th class='TableMainT'> Lifecycle State</th>
 				<th class='TableMainT'> Period</th>
@@ -161,8 +138,7 @@ $PageName = 'Change Process';
 			</tbody>
 			</table>
 
-			<p>&#42; Versioning obeys rules of <a href="http://semver.org" class="external-link" rel="nofollow">semver.org</a>; note that version 0.x.y versions do not follow any strict rules.</p>
-			<br/>
+			<p>&#42; Versioning obeys rules of <a href="http://semver.org" target="_blank">semver.org</a>; note that version 0.x.y versions do not follow any strict rules.</p>
 			
 			<table class='TableMain'>
 			<tbody>
@@ -211,7 +187,6 @@ $PageName = 'Change Process';
 			</tbody>
 			</table>
 
-			<br/>
 			<p><font color="#ff0000">TBD: Possible variants:</font></p>
 			<ul>
 				<li><font color="#ff0000">publish in durable format for Trial period; wiki is truly bad - non-standard, very poor display quality, and editing on most wikis in WSIWYG is truly abysmal.</font></li>
@@ -221,8 +196,7 @@ $PageName = 'Change Process';
 			<p>For reference, other lifecycle management specifications:</p>
 			<ul>
 				<li>IHTSDO's <a href="/wiki/download/attachments/32505867/IHTSDO_+Procedure_Standards_20110407_v2.0-1.pdf?version=1&amp;modificationDate=1333282106000">Development, Approval, Maintenance and Review of IHTSDO Technical Reports, Guidelines and Standards</a></li>
-				<li><a href="http://www.openehr.org/specifications/specs_governance.html" class="external-link" rel="nofollow">Current openEHR lifecycle</a>;</li>
-				<li>openEHR's existing <a href="http://www.openehr.org/svn/specification/TRUNK/publishing/CM/CM_plan.pdf" class="external-link" rel="nofollow">Change Management Plan</a>.</li>
+				<li><a href="governance">Current openEHR lifecycle</a>.</li>
 			</ul>
 
 			<h3><a name="promotion"></a>Promotion of Specifications</h3>
@@ -246,7 +220,7 @@ $PageName = 'Change Process';
 			<p>CRs need to be a) prioritised in importance and b) allocated to releases. A pre-requisite therefore is to define one or more future releases, each with an identifier and expected date of delivery.</p>
 
 			<h4>Creation</h4>
-			<p>New CRs are created by the EC on the <a href="http://www.openehr.org/issues/browse/SPEC">SPEC CR tracker</a>. The following information is initially required:</p>
+			<p>New CRs are created by the EC on the <a href="http://www.openehr.org/issues/browse/SPEC" target="_blank">SPEC CR tracker</a>. The following information is initially required:</p>
 			<ul>
 				<li>a short description (i.e. title)</li>
 				<li>a description of the problem(s) it addresses, and/or references to relevant PRs</li>
@@ -318,7 +292,7 @@ $PageName = 'Change Process';
 			<h2><a name="creation"></a>Creation of New Specifications</h2>
 
 			<h3><a name="process"></a>Process</h3>
-			<p>New specifications can be proposed by any member of the openEHR community. Formally this is done via either a PR on the SPEC PR tracker, or if the proposer is a Program member, a CR on the <a href="http://www.openehr.org/issues/browse/SPEC">SPEC project tracker</a> . If the initial need is described in a PR, it will be reviewed by the EC which may decide to create a CR for it. If this happens, the CR will cover the initial period of establishment of the specification, including its identification and setting of scope.</p>
+			<p>New specifications can be proposed by any member of the openEHR community. Formally this is done via either a PR on the SPEC PR tracker, or if the proposer is a Program member, a CR on the <a href="http://www.openehr.org/issues/browse/SPEC" target="_blank">SPEC project tracker</a> . If the initial need is described in a PR, it will be reviewed by the EC which may decide to create a CR for it. If this happens, the CR will cover the initial period of establishment of the specification, including its identification and setting of scope.</p>
 			<p>New  specifications need to be compatible with the existing structure and  roadmap of the specification library. For a new specification to be  added, it has to have an identifier, be located within the existing  structure (a new category of specification may require a new location to  be defined), and have a scope defined that is consistent with existing  specifications. These are issued by the Editorial Committee prior to the creation of the initial CR for the specification. The  new specification could potentially replace one or more existing  specifications, in which case the structure and roadmap may be modified; the CR will also document these changes.</p>
 			<p>Internationalisation and localisation aspects should also be described.</p>
 			<p>A successful application to add a new specification results in the following being decided by the Editorial Committee:</p>
@@ -390,23 +364,6 @@ $PageName = 'Change Process';
 			<h3>Who decides which changes are in the next release of openEHR?</h3>
 			<p>The Specification Program Editorial Committee in concert with the openEHR Operational Group.</p>
 			
-		</div>
-			
-
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../panel/bottompanel.php' ?>	
-	</div>
-	
-</div>
-
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

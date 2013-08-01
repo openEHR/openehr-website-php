@@ -1,41 +1,15 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Obtaining Solutions';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-		<div class="nav">
-			<?php include '../../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-		<?php include 'menu.php' ?>
-		</div>
-		
-		<div id="TextArea">
-			
 			<h1><?php echo "$PageName";?></h1>
 			
 			<p>These pages provide an index to known usable solutions, both commercial and academic. The criterion for inclusion is availability of a demonstrable 'solution' with existing reference deployment and/or online demonstrator.</p>
@@ -44,9 +18,7 @@ $PageName = 'Obtaining Solutions';
 			
 			<h2>openEHR Ecosystem</h2>
 			<p>The following diagram illustrates a standard view of any software ecosystem based on the openEHR methodology.</p>
-			<br/>
 			<p style="padding-left:100px;"><img src="../../files/entry_points/ehrecosystem.png" alt="openEHR Ecosystem" style="border: solid 1px #CCCCCC;"></p>	
-			<br/>
 			
 			<h3><a name="MT"></a>Modelling Tools</h3>
 			<p>openEHR systems are based on domain models, i.e. archetypes, templates, and terminology subsets. This part of the ecosystem includes tools capable of producing and/or analysing such models, including editors, compilers and validators.</p>
@@ -69,22 +41,6 @@ $PageName = 'Obtaining Solutions';
 			<h4><a name="Hdp"></a>Health system persistence</h4>
 			<p>This category includes components that provide large-scale persistence for health data, including EHR and demographics, as well as terminology and other knowledge persistence services.</p>
 			
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-	<?php include '../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-	<?php include '../../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-	
-<?php include '../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

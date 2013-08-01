@@ -14,9 +14,9 @@
 				
        			<li><span>Entry Points</span>
             		 <ul>
-               			<li><?php include "$root/entry_points/getting_started/menu.php"?>
+               			<li><a href="/entry_points/getting_started">&nbsp; Getting Started</a>
 						</li>
-						<li><?php include "$root/entry_points/i_am_working_on/menu.php"?>
+						<li><a href="/entry_points/i_am_working_on">&nbsp; I am working on</a>
 						</li>
             		 </ul>
        			</li>

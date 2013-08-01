@@ -1,35 +1,11 @@
 <?php
-session_start();
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Welcome to openEHR';
-//Connect to the database
-require_once ('../con_real.php');
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_top.php');
 ?>
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include 'panel/headpanelhome.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include 'panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include 'menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
 
 	<div id="MainArea" style="height:740px">
 
@@ -84,14 +60,13 @@ require_once ('../con_real.php');
 		<div id="BigFrame">
 		
 			<div id="TwitterFrame">
-				<div style="position: absolute; top:5px; padding-left:1px; padding-right:4px; word-wrap:break-word; ">
+				<div style="position: relative; top:5px; padding-left:1px; padding-right:4px; word-wrap:break-word; height:360px; ">
 					<a class="twitter-timeline" href="https://twitter.com/search?q=%23openehr" 
 						data-widget-id="347727645871570946" 
-						data-tweet-limit="1" 
-						width="190" 
-						height="250" 
+						width="200" 
+						height="360" 
 						lang="EN"
-						data-chrome="nofooter noborders transparent noscrollbar">openEHR Talk</a>
+						data-chrome="nofooter">openEHR Talk</a>
 					<script>
 						!function(d,s,id) {var js, fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
 							if(!d.getElementById(id))
@@ -104,7 +79,7 @@ require_once ('../con_real.php');
 					</script>
 				</div>
 			</div>
-			
+<?php require_once ('../con_real.php');?>
 			<div id="IndustryFrame">
 				<div id="LinksFrame">
 					<a href="news_events/industry_news" style="color:#023670;"><h2>Industry News</h2></a>
@@ -120,7 +95,7 @@ require_once ('../con_real.php');
 							
 							//Fetch and print all releases:
 							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
-								echo '<a href="news_events/industry_news/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+								echo '<a href="news_events/industry_news.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
 									. $row['dr'] . '</h6><br/>';
 							}
 							mysqli_free_result ($r); //Free up the resources
@@ -143,7 +118,7 @@ require_once ('../con_real.php');
 							
 							//Fetch and print all releases:
 							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
-								echo '<a href="news_events/community_news/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+								echo '<a href="news_events/community_news.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
 									. $row['dr'] . '</h6><br/>';
 							}
 							mysqli_free_result ($r); //Free up the resources
@@ -170,7 +145,7 @@ require_once ('../con_real.php');
 							
 							//Fetch and print all releases:
 							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
-								echo '<a href="news_events/foundation_news/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+								echo '<a href="news_events/foundation_news.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
 									. $row['dr'] . '</h6><br/>';
 							}
 							mysqli_free_result ($r); //Free up the resources
@@ -193,7 +168,7 @@ require_once ('../con_real.php');
 							
 							//Fetch and print all releases:
 							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
-								echo '<a href="news_events/events/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+								echo '<a href="news_events/events.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
 									. $row['coordinates'] . '</h6><br/>';
 							}
 							mysqli_free_result ($r); //Free up the resources
@@ -220,7 +195,7 @@ require_once ('../con_real.php');
 							
 							//Fetch and print all releases:
 							while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
-								echo '<a href="news_events/releases/index.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+								echo '<a href="news_events/releases.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
 									. $row['dr'] . '</h6><br/>';
 							}
 							mysqli_free_result ($r); //Free up the resources
@@ -229,29 +204,11 @@ require_once ('../con_real.php');
 							echo '<p>There are currently no releases.</p>';
 						} 
 					?>
-					
-					<?php 
-					mysqli_close($conx);
-					?>
+<?php mysqli_close($conx);?>
+
 				</div>
+				
 			</div>	 
 				
 		</div>
-		
-	</div>
-
-	<div id="BottomMenu">
-		<?php include 'menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include 'panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include 'panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

@@ -1,58 +1,32 @@
-<?php
-$PageName = 'Releases';
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
+$PageName = 'Release 0.95';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../../../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../../../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../../../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include '../menu.php' ?>
-		</div>
-
-		<div id="TextArea">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>Release 0.95</h2>
-			
-			<h3>Overview</h3>
+			<h2>Overview</h2>
 			<p>The following table provides access to the deliverables of the openEHR specification project and indicates the current status of each. There are three groups of deliverables, as follows: </p>
 			<ul>
 				<li><em>Stable</em>: specifications that have been tested in software and are in use in the community;</li>
 				<li><em>Trial</em>: specifications that have been worked on by a design group and validated in test software to the point where they are ready for community use on a trial basis;</li>
 				<li><em>Development</em>: draft forms of specification documents, made available for the purposes of review, input and experimental use.</li>
 			</ul>
-			<p><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10016">Release notes</a> for this release. The rules for change management between releases are given in the <a href="../releasestrategy">Release Strategy</a>.</p>
+			<p><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10016" target="_blank">Release notes</a> for this release. The rules for change management between releases are given in the <a href="releasestrategy">Release Strategy</a>.</p>
 
-			<h3>Reading Documents</h3>
-			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them, we suggest upgrading to the <a href="http://www.adobe.com/products/acrobat/readstep2.html">latest Acrobat Reader</a>. If you still experience problems with reading PDF files, your browser configuration may need to be adjusted. See the <a href="http://www.adobe.com/support/products/acrreader.html">Adobe Acrobat support page</a> for more help.</p>
 			
-			<h3>Core</h3>
+			<h2>Reading Documents</h2>
+			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them, we suggest upgrading to the <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">latest Acrobat Reader</a>. If you still experience problems with reading PDF files, your browser configuration may need to be adjusted. See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
+			
+			
+			<h2>Core</h2>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -161,10 +135,9 @@ $PageName = 'Releases';
 			</tr>
 			</tbody>
 			</table>
+
 			
-			<br/>
-			
-			<h3>Non-core</h3>
+			<h2>Non-core</h2>
 			<table class="TableMain">
 			<tbody>
 			<tr style="background-color:#F3F8FA;">
@@ -194,26 +167,8 @@ $PageName = 'Releases';
 			</tbody>
 			</table>
 			
-			<br/>
-			<br/>
-			<a href="../releases">>> Back to Releases</a>
+			<a href="index">>> Back to Releases</a>
 		
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../../../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../../../panel/bottompanel.php' ?>	
-	</div>
-	
-</div>
-
-<?php include '../../../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

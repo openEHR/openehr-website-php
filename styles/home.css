@@ -1,6 +1,6 @@
 /*Headings, paragraph*/
 h1 {font-size:17px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-bottom:0.3em;}
-h2 {font-size:16px; font-weight:900; line-height:150%; color:#023760; text-decoration:none; margin-top:0.9em; margin-bottom:0.6em; font-style:italic;}
+h2 {font-size:16px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-top:0.9em; margin-bottom:0.6em; font-style:italic;}
 h3 {font-size:14px; font-weight:900; line-height:150%; color:#023760; text-decoration:none;
 margin-top:1.5em; margin-bottom:0.1em; font-style:italic;}
 h4 {font-size:14px; font-weight:900; line-height:150%; color:#023760; text-decoration:none; margin-bottom:0.5em;}
@@ -8,7 +8,7 @@ h5 {font-size:12px; font-weight:900; line-height:150%; color:#023760; text-decor
 margin-top:1.5em; margin-bottom:0.1em}
 h6 {font-size:10px; font-weight:500; line-height:120%; color:#666666; text-decoration:none; margin-top:0.1em; margin-bottom:0.1em;}
 
-p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
+p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.8em; }
 
 
 #MainArea {
@@ -24,6 +24,20 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
 #MainArea a:hover {
  color:#3386AE;
  text-decoration:underline;
+}
+
+#Content p {
+ line-height:130%;
+ text-align:justify;
+}
+
+#Content h2 {
+ margin-top:1.5em;
+}
+
+#Content em {
+ color:#023760;
+ font-weight:900;
 }
 
 #WhatFrame {
@@ -125,34 +139,4 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.5em; }
  padding-bottom:10px;
 }
 
-#SpecificationFrame {
- position:absolute;
- top:275px;
- left:40px;
- height:300px;
- width:230px;
-}
 
-#ModelsFrame {
- position:absolute;
- top:275px;
- left:280px;
- height:300px;
- width:230px;
-}
-
-#SoftwareFrame {
- position:absolute;
- top:275px;
- left:520px;
- height:300px;
- width:230px;
-}
-
-#LocalisationFrame {
- position:absolute;
- top:275px;
- left:760px; 
- height:290px;
- width:230px;
-}

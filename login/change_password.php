@@ -126,6 +126,7 @@ $PageName = 'Password Change';
 							}
 							
 							//Include the footer and quit the script
+							echo "\n\t\t".'</div>';
 							include ('../templates/_footer.php');
 							exit();
 							

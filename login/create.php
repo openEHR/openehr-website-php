@@ -65,7 +65,7 @@ $PageName = 'Create News and Events';
 		
 		<div id="TextArea" style="left:0px; width:900px; ">
 		
-			<h1>Create News and Events</h1>
+			<h1><?php echo $PageName;?></h1>
 			<br/>
 				<?php
 				//Check if form has been submitted
@@ -77,7 +77,7 @@ $PageName = 'Create News and Events';
 					//Initialise an error array
 					$errors = array(); 
 
-					//Check for the first name
+					//Check for the category
 					if (empty($_POST['category'])) {
 						$errors[] = 'You forgot to set the category.';
 					}
@@ -119,7 +119,6 @@ $PageName = 'Create News and Events';
 						$tx = mysqli_real_escape_string($dbc, $tnx);
 					}
 					
-					
 					//Check for the other resources
 					if (empty($_POST['resources'])) {
 						$rs = '';
@@ -130,6 +129,16 @@ $PageName = 'Create News and Events';
 						$rns = str_replace($char1old, $char1new, $rns);
 						$rns = str_replace($char2old, $char2new, $rns);
 						$rs = mysqli_real_escape_string($dbc, $rns);
+					}
+					
+					//Check for the coordinates
+					if (empty($_POST['coordinates'])) {
+						$co = '';
+					}
+					else {
+						$cno = trim ($_POST['coordinates']);
+						$cno = htmlentities($cno);
+						$co = mysqli_real_escape_string($dbc, $cno);
 					}
 					
 					//Check for the author id
@@ -150,7 +159,7 @@ $PageName = 'Create News and Events';
 						//Insert news in the database
 
 						//Make query
-						$q = "INSERT INTO news_items (category, title, summary, text, date, user_id, resources) VALUES ('$ct', '$tl', '$su', '$tx', NOW(), '$id', '$rs')";
+						$q = "INSERT INTO news_items (category, title, summary, text, date, user_id, resources, coordinates) VALUES ('$ct', '$tl', '$su', '$tx', NOW(), '$id', '$rs', '$co')";
 						$r = @mysqli_query ($dbc, $q); //Run the query
 
 						if ($r) { 
@@ -160,7 +169,8 @@ $PageName = 'Create News and Events';
 							echo '<h2>System error</h2> <p>Your news have not been inserted due system error. We apologize for any inconvenience. Please try again later or contact site administrator.</p>';
 							echo '<p>' . mysqli_error($dbc) . '<br>Query: ' . $p . '</p>';
 						}
-						include ('../templates/_footer.php');
+						echo "\n\t\t".'</div>';
+						include '../templates/_footer.php';
 						exit();
 						
 					}
@@ -179,13 +189,14 @@ $PageName = 'Create News and Events';
 				} //End of main submit conditional
 				?>
 	
-				<form action="create.php" method="post">
+				<form id="news_form" action="create.php" method="post">
 				<p>News category: <select name="category"><option value="foundation_news">Foundation News</option><option value="community_news">Community News</option><option value="industry_news">Industry News</option><option value="events">Events</option><option value="releases">Releases</option></select></p>
 				<p>&#42; News title: <input type="text" name="title" size="20" maxlength="80" class="input" value="<?php if(isset($_POST['title'])) echo $_POST['title']; ?>" /></p>
 				<p>&#42; News summary: <input type="text" name="summary" size="40" maxlength="300" class="input" value="<?php if(isset($_POST['summary'])) echo $_POST['summary']; ?>" /></p>
 				<p>&#42; News text: <textarea id="elm1" name="text" rows="20" cols="80"><?php if(isset($_POST['text'])) echo $_POST['text']; ?></textarea></p>
 				<p>Other resources: <textarea name="resources" rows="5" cols="80"><?php if(isset($_POST['resources'])) echo $_POST['resources']; ?></textarea></p>
-				<p><input type="submit" name="submit" value="Insert" /></p>
+				<p>Date and place: <input type="text" name="coordinates" size="40" maxlength="300" class="input" value="<?php if(isset($_POST['coordinates'])) echo $_POST['coordinates']; ?>" /></p>
+				<!--<p><input type="submit" name="submit" value="Insert" /></p>-->
 				<input type="hidden" name="user_id" value="<?php echo $usr_id;?>" />
 				<input type="hidden" name="submitted" value="TRUE" />
 				</form>
@@ -208,7 +219,7 @@ $PageName = 'Create News and Events';
 </div>
 
 <?php include '../panel/scriptpanel.php' ?>
-
+<script type ="text/javascript" src="submit.js"></script>
 </body>
 
 </html>

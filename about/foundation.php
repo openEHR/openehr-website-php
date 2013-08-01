@@ -1,46 +1,21 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Foundation';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-		
-		<div id="TextArea">
-			
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2><a name="status"></a>Legal Status</h2>
 			<p>The openEHR Foundation is currently a not-for-profit company, limited by guarantee. Its founders were University College London, UK and Ocean Informatics Pty Ltd, Australia. It is regulated under the UK Companies Acts 1985 and 1989. The name 'openEHR' has been registered internationally as a Trade Mark.</p>
-			<p>As part of the new governance, the Foundation will be recreated as a new not-for-profit company, possibly in the form of a <a href="http://en.wikipedia.org/wiki/Community_Interest_Company">UK Community Interest Company</a>, or else in the form of a Private company limited by guarantee (the same as the current form), commonly used for non-profits in the UK. The new organisation will be created by consultation  of the interim board and prospective organisational members.</p>
+			<p>As part of the new governance, the Foundation will be recreated as a new not-for-profit company, possibly in the form of a <a href="http://en.wikipedia.org/wiki/Community_Interest_Company" target="_blank">UK Community Interest Company</a>, or else in the form of a Private company limited by guarantee (the same as the current form), commonly used for non-profits in the UK. The new organisation will be created by consultation  of the interim board and prospective organisational members.</p>
+			
 			
 			<h2><a name="vision"></a>openEHR Vision</h2>
 			<p>The openEHR Foundation vision is of a world in which healthcare routinely obtains benefit from ICT, in particular:</p>
@@ -49,28 +24,29 @@ $PageName = 'Foundation';
 				<li>computing on EHRs to improve the quality of health care and research.</li>
 			</ul>
 			
+			
 			<h2><a name="mission"></a>openEHR Mission</h2>
 			<p>The Foundation is proceeding on the basis of three principles: rigour, engagement and trust. These correspond to the key activities of the Foundation, organised under the four Programs:</p>
 			<ul>
-				<li><a href="../programs/specification/">Specification Program</a>:
+				<li><a href="/programs/specification/">Specification Program</a>:
 					<ul>
 						<li>developing rigorous, open specifications, validated by implementation;</li>
 						<li>participating in international standards development;</li>
 					</ul>
 				</li>
-				<li><a href="../programs/clinicalmodels/">Clinical Models Program</a>: 
+				<li><a href="/programs/clinicalmodels/">Clinical Models Program</a>: 
 					<ul>
 						<li>developing clinical models (archetypes and templates), terminology interfaces;</li>
 						<li>engaging in clinical implementation projects;</li>
 					</ul>
 				</li>
-				<li><a href="../programs/software/">Software Program</a>: 
+				<li><a href="/programs/software/">Software Program</a>: 
 					<ul>
 						<li>developing open-source software and tools;</li>
 						<li>participating in connectathons and implementation trials;</li>
 					</ul>
 				</li>
-				<li><a href="../programs/localisation/">Localisation Program</a>: 
+				<li><a href="/programs/localisation/">Localisation Program</a>: 
 					<ul>
 						<li>advocacy and locale-based education and dissemination;</li>
 						<li>working with national standards organisations;</li>
@@ -98,22 +74,6 @@ $PageName = 'Foundation';
 			<h3>Finally...</h3>
 			<p>The openEHR Foundation will continue to proceed based on its usual 3 key activities ... implementation, implementation, implementation.</p>
 			
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-	
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

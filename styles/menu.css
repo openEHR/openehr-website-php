@@ -85,11 +85,13 @@
  background:none;
  color:#00355f;
  height:22px;
- padding-top:8px}
+ padding-top:8px;
+ }
  
 .menu ul ul {
  left:160px;
- top:0}
+ top:0px;
+ }
  
 .menu li.submenu {
  font-weight:bold}

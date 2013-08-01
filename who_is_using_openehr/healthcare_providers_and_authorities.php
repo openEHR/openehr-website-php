@@ -1,45 +1,19 @@
-<?php
+﻿<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+
+//Change page name here:
 $PageName = 'Healthcare Providers and Authorities';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-	</div> 
-
-	<div id="MainArea">
-	
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-	
-		<div id="TextArea">
-			
 			<h1><?php echo "$PageName";?></h1>
-			<p>The following&nbsp; table indicates known current and contracted future deployments of openEHR solutions into production healthcare 
-			delivery settings and operational secondary use contexts, including medical research and public health. 
-			Please <a href="about/contacts">contact us</a>, to notify of other openEHR deployments.</p>
+			
+			<p>The following table indicates known current and contracted future deployments of openEHR solutions into production healthcare delivery settings and operational secondary use contexts, including medical research and public health. Please <a href="/about/contacts">contact us</a>, to notify of other openEHR deployments.</p>
+			
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -50,7 +24,7 @@ $PageName = 'Healthcare Providers and Authorities';
 				<th class="TableMainT"><p>Status</p></th>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="australia_flag" title="australia_flag" src="../files/basic/australia.gif"></p><p>Australia</p></td>
+				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="australia_flag" title="australia_flag" src="/files/who_is_using_openehr/australia.gif"></p><p>Australia</p></td>
 				<td class="TableMainC"><a href="http://www.health.qld.gov.au/">Queensland Health</a><br/>Australian state health authority responsible for the providing public health 4.5m consumers; Centre for Healthcare Related Infection Surveillance and Prevention (CHRISP)</td>
 				<td class="TableMainC">Infection Control system, Multiprac, for 22 large hospitals in Queensland based on the Ocean OceanEHR platform</td>
 				<td class="TableMainC"><a href="http://www.oceaninformatics.com/">Ocean Informatics, Australia</a></td>
@@ -75,7 +49,7 @@ $PageName = 'Healthcare Providers and Authorities';
 				<td class="TableMainC">Deployed December 2012</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="../files/basic/brazil_S.gif"></p><p>Brazil</p></td>
+				<td class="TableMainC" rowspan="2"><p><img width="80px" alt="brazil_flag" title="brazil_flag" src="/files/who_is_using_openehr/brazil_S.gif"></p><p>Brazil</p></td>
 				<td class="TableMainC">Around 3,000 health professionals including doctors (primarily ophthalmologists - Brazilian College of Ophthalmologists), physiotherapists, nurses and receptionists.</td>
 				<td class="TableMainC">Web-based ambulatory care EHR system</td>
 				<td class="TableMainC"><a href="http://www.p2d.com.br/">P2D, Brazil</a></td>
@@ -88,7 +62,7 @@ $PageName = 'Healthcare Providers and Authorities';
 				<td class="TableMainC">Deployed June 2012</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="netherlands_flag" title="netherlands_flag" src="../files/basic/netherlands.gif"></p><p>The Netherlands</p></td>
+				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="netherlands_flag" title="netherlands_flag" src="/files/who_is_using_openehr/netherlands.gif"></p><p>The Netherlands</p></td>
 				<td class="TableMainC"><a href="http://www.ggznhn.nl">GGZ Noord Holland Noord</a><br/>Mental health organisation</td>
 				<td class="TableMainC">MedPlus24 medication viewer (openEHR 1.0.2), to view all prescribed medication for a specific patient. The information 
 				is digitally collected from all the surrounding city pharmacies in the region.</td>
@@ -109,14 +83,14 @@ $PageName = 'Healthcare Providers and Authorities';
 				<td class="TableMainC"><a href="http://www.code24.nl/">Code24, The Netherlands</a></td>
 				<td class="TableMainC">Deployed November 2012</td>
 			</tr>
-				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="portugal_flag" title="portugal_flag" src="../files/basic/portugal_flag.jpg"></p><p>Portugal</p></td>
+				<td class="TableMainC" rowspan="1"><p><img width="80px" alt="portugal_flag" title="portugal_flag" src="/files/who_is_using_openehr/portugal_flag.jpg"></p><p>Portugal</p></td>
 				<td class="TableMainC"><a href="http://www.idealmed.pt/index.php/en/idealmed/uhc-unidade-hospitalar-de-coimbra#/como-chegar">IdealMed, Coimbra, Portugal</a><br/>Large private hospital covering all medical specialties and settings including inpatient, outpatient, surgery, emergency, Medical Training, Clinical Research and Clinical Trials</td>
 				<td class="TableMainC">Clinical Repository &amp; Clinical Trials Management System</td>
 				<td class="TableMainC"><a href="http://solutions.criticalsoftware.com/health/">Critical Software S.A., Portugal</a></td>
 				<td class="TableMainC">Deployed May 2011</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="russia_flag" title="russia_flag" src="../files/basic/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
+				<td class="TableMainC" rowspan="4"><p><img width="80px" alt="russia_flag" title="russia_flag" src="/files/who_is_using_openehr/Flag_of_Russia.svg.png"></p><p>Russia</p></td>
 				<td class="TableMainC"><a name="IBS_Moscow"><a href="http://www.mos.ru/en/authority/dit/">Moscow City Department of Information Technologies</a><br/>Authority responsible for e-health solutions for Moscow's 12 million, and 130,000 users in 780 facilities.</td>
 				<td class="TableMainC">The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow, including all primary health centres and city hospitals, using the Marand Think!Med EHR platform.</td>
 				<td class="TableMainC">Prime: <a href="http://www.ibs.ru/">IBS, Moscow</a><br/>
@@ -146,7 +120,7 @@ $PageName = 'Healthcare Providers and Authorities';
 				<td class="TableMainC">Deployed 2011</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="../files/basic/slovenia.gif"></p><p>Slovenia</p></td>
+				<td class="TableMainC" rowspan="3"><p><img width="80px" alt="slovenia_flag" title="slovenia_flag" src="/files/who_is_using_openehr/slovenia.gif"></p><p>Slovenia</p></td>
 				<td class="TableMainC"><a href="http://www4.kclj.si/ang/index.php">University Medical Center Ljubljana, Slovenia</a><br/>UMCL is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
 				<td class="TableMainC">The Children's Hospital has been using the Marand Think!Med Clinical applications over the Think!Med EHR platform for two years. The system is being expanded to other departments such as Radiology, Nuclear Medicine, Cardio Surgery and Infectious Diseases.</td>
 				<td class="TableMainC"><a href="http://www.marand-thinkmed.com/">Marand, Slovenia</a></td>
@@ -169,24 +143,7 @@ $PageName = 'Healthcare Providers and Authorities';
 			</tr>
 			</tbody>
 			</table>
-			<br/><br/>
-
-		</div>
-		
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+			
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
