@@ -40,7 +40,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td>The Archetype Editor is currently the main tool in use for authoring openEHR ADL 1.4 archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Russian, Spanish, Swedish and Turkish.</td>
 				<td>Microsoft VB.NET</td>
 				<td><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/></td>
-				<td><a href="https://github.com/openEHR/arch_ed-dotneti" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
+				<td><a href="https://github.com/openEHR/arch_ed-dotnet" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
+			</tr>
+			<tr>
+				<td><em>Template Designer</em></td>
+				<td>The Template Designer is based on the open .oet format in use with ADL 1.4 archetypes.</td>
+				<td>.Net; Windows.</td>
+				<td><br/><a href="/downloads/TemplateDesigner/TemplateDesignerSetup_2.6.1213.3.exe">TemplateDesignerSetup_2.6.1213.3.exe (EN)</a><br/></td>
+				<td>(Open source Git repo coming soon)</td>
 			</tr>
 			<tr>
 				<td><em>LinkEHR Editor</em></td>
