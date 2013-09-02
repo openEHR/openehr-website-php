@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -26,6 +26,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h2>Building Hospital Information Systems</h2>
 			<p>Using an implementation of the openEHR platform as the back-end of a large system provides many advantages. Rather than having to constantly maintain a proprietary database structure, using the openEHR back-end will make the system applications much easier to manage and evolve. Integration with other systems is likely to be easier via the standard formats supported by the platform, including CEN EN13606, HL7 CDA, HL7v2.x and others.</p>
 			
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

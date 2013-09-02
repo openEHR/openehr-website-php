@@ -46,7 +46,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h3>Environment</h3>
 			<p>The adlc utility will run on any Windows or Linux/Unix/Macos platform. On Windows, it can be run from cygwin or from within a standard Windows command shell. In the examples below, the command prompt and comments are in the standard Unix/Linux form, i.e. using '$' and '#'. On Windows this will of course be something like "C:\&gt;" and "::" or "REM".</p>
 			<h3>Initial configuration</h3>
-			<p>The adlc utility relies on a configuration file being in place, either by previous execution of adl_workbench on the same machine, or else by manual construction of the .cfg text file. See <a href="./tool_configuration">here</a> for how to do this.</p>
+			<p>The adlc utility relies on a configuration file being in place, either by previous execution of adl_workbench on the same machine, or else by manual construction of the .cfg text file. See <a href="tool_configuration">here</a> for how to do this.</p>
 </pre>
 			<h3>Typical tasks</h3>
 			<p>In the following the command line is shown using both the standard 'verbose' form of switches and options (using '--') and the short form. The short form is typically used for manual entry at the command line, but the long form is recommended for use in scripts for better readability. Most invocations use the '-q' (quiet) switch to reduce verbose output.</p>

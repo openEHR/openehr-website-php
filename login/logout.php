@@ -22,63 +22,21 @@
 
 <?php
 $PageName = 'Logut';
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_top.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
+	<div id="MainArea" style="margin-left:60px; margin-top:35px; margin-bottom:100px; width:900px;">
 	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:400px;">
-		
-		<div id="TextArea" style="left:0px; width:900px; height:400px; ">
+		<div id="Content">
 		
 			<h1>Logout</h1>
 			<br/>
-				<?php
-				// Print a customized message:
-				echo "<p>You are now logged out!</p>
-				<p>You can <a href=\"/login\">log in</a> again.</p>";
-	
-				?>
+			<?php
+			// Print a customized message:
+			echo "<p>You are now logged out!</p>
+			<p>You can <a href=\"/login\">log in</a> again.</p>";
+			?>
 			
-		</div>
-		
-	</div>
-	
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

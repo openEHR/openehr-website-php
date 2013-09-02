@@ -249,47 +249,47 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 
 			<h3>11 Aug 2010 ADL 1.5 beta Release 1 (<a href="https://github.com/openEHR/adl-tools/commit/569646fc6480548311e33a9a16d2bc4e12c94597">Git commit 569646fc6480548311e33a9a16d2bc4e12c94597 (was SVN rev 1105)</a>):</h3>
 			<ul>
-				<li value="0">Improved validation, with code-based error messages matching ADL and AOM 1.5 <a href="http://www.openehr.org/programs/specification/releases/currentbaseline">draft&nbsp;specifications</a> (see bottom of page);</li>
-				<li value="0">Support for referencing from one archetype to another without slots;</li>
-				<li value="0">Support for ADL 1.5 templates, including slot-filling and exclusions;</li>
-				<li value="0">Separate explorers for archetypes and templates;</li>
-				<li value="0">Multiple RM schemas can be loaded and managed in the options dialog;</li>
-				<li value="0">Archetype files can now be arranged anywhere on the file-system; compiler uses RM and specialisation relationships to build directory in tool;</li>
-				<li value="0">Repositories are now defined / selected using profiles;</li>
-				<li value="0">Archetype search facility;</li>
-				<li value="0">An initial 13606 schema is available, allowing validation of EN 13606 archetypes.</li>
-				<li value="0">Test function changed to prevent any .adl file overwriting; instead, outputs files for viewing
+				<li>Improved validation, with code-based error messages matching ADL and AOM 1.5 <a href="http://www.openehr.org/programs/specification/releases/currentbaseline">draft&nbsp;specifications</a> (see bottom of page);</li>
+				<li>Support for referencing from one archetype to another without slots;</li>
+				<li>Support for ADL 1.5 templates, including slot-filling and exclusions;</li>
+				<li>Separate explorers for archetypes and templates;</li>
+				<li>Multiple RM schemas can be loaded and managed in the options dialog;</li>
+				<li>Archetype files can now be arranged anywhere on the file-system; compiler uses RM and specialisation relationships to build directory in tool;</li>
+				<li>Repositories are now defined / selected using profiles;</li>
+				<li>Archetype search facility;</li>
+				<li>An initial 13606 schema is available, allowing validation of EN 13606 archetypes.</li>
+				<li>Test function changed to prevent any .adl file overwriting; instead, outputs files for viewing
 				in diff tools.</li>
 			</ul>
 
 			<h3>22 Mar 2009 ADL 1.5 Preview Release 1.5.0 (<a href="https://github.com/openEHR/adl-tools/commit/f9aa528c92824cf363a358930c4740a5190f3b7b">Git commit f9aa528c92824cf363a358930c4740a5190f3b7b (was SVN rev 851)</a>):</h3>
 			<ul>
-				<li value="0">performs stricter validation than previous versions, now reporting 40 syntax errors, 47
+				<li>performs stricter validation than previous versions, now reporting 40 syntax errors, 47
 				validity errors, and 4 validity warnings.</li>
-				<li value="0">Errors are more clearly differentiated into the following categories:</li>
-				<li style="LIST-STYLE-TYPE: none; DISPLAY: inline" value="0">
+				<li>Errors are more clearly differentiated into the following categories:</li>
+				<li style="LIST-STYLE-TYPE: none; DISPLAY: inline">
 				<ul>
-					<li value="0">syntax error: the file is not valid ADL - shown in red</li>
-					<li value="0">validity error: the archetype semantics are not valid when validated against parent
+					<li>syntax error: the file is not valid ADL - shown in red</li>
+					<li>validity error: the archetype semantics are not valid when validated against parent
 					archetypes and the reference model - shown in orange</li>
-					<li value="0">validity warning: the semantics are valid, but there are redundant elements or other small
+					<li>validity warning: the semantics are valid, but there are redundant elements or other small
 					issues to correct - shown in yellow</li>
-					<li value="0">passed - shown in green</li>
+					<li>passed - shown in green</li>
 				</ul>
 				</li>
-				<li value="0">improved error reporting.</li>
-				<li value="0">it now uses the reference model (RM) to validate all archetypes. The reference model is
+				<li>improved error reporting.</li>
+				<li>it now uses the reference model (RM) to validate all archetypes. The reference model is
 				currently expressed in a custom meta-model format which is much simpler than UML 2 based meta-models, e.g.
 				XMI (<a href=
 				"http://www.openehr.org/wiki/display/dev/Machine-readable+model+representations+of+openEHR">why</a>?). The
 				meta-model can be found <a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/BMM">here</a>. Both the
 				location of this file, and its design may change in the future, and its current format should not be taken as
 				normative for openEHR.</li>
-				<li value="0">RM attributes are now shown in the node map visualisation (<a href=
+				<li>RM attributes are now shown in the node map visualisation (<a href=
 				"images/rm_differential.png">differential form</a>, <a href="images/rm_flat.png">flattened form</a>). In the
 				differential view, only attributes defined on the concrete class mentioned in the archetype are shown; in the
 				flat view, all inherited attributes are shown.</li>
-				<li value="0">A new&nbsp;test has been added to the test page that allows original ADL fles to be overwritten
+				<li>A new&nbsp;test has been added to the test page that allows original ADL fles to be overwritten
 				with the result of the flattening operation on archetypes. THIS IS EXPERIMENTAL and should be used with care
 				- it will really overwrite ADL files, so be sure to use it in a version-controlled context, such as SVN
 				(where you can conveniently then see diffs of the files). For this reason, both the &#39;Save ADL&#39; and
@@ -300,55 +300,55 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 
 			<h3>02 Apr 2008 Release 1.4.1 (<a href="https://github.com/openEHR/adl-tools/commit/5c0fdaf3f1f065028a93ba936ccb8f292aad31cf">Git commit 5c0fdaf3f1f065028a93ba936ccb8f292aad31cf (was SVN rev 599 / TAG Release-1.4.1)</a>)</h3>
 			<ul>
-				<li value="0">The Archetype workbench now functions as a compiler over the entire archteype
+				<li>The Archetype workbench now functions as a compiler over the entire archteype
 				&#39;directory&#39; (the merged result of the reference and work repositories). With a single command
 				(F7; build repository), all archetypes are compiled, and an error report built up which can be perused at
 				any time. Slot relationships between archetypes are now shown, as are statistics for the
 				repositories.</li>
-				<li value="0">user history of archetypes visited;</li>
-				<li value="0">The workbench now works using two kinds of files: differential &#39;source&#39; files
+				<li>user history of archetypes visited;</li>
+				<li>The workbench now works using two kinds of files: differential &#39;source&#39; files
 				(.adls extension) and flat files (.adl extension). Previously, .adl files were treated as the source of
 				all archetypes. There are now two kinds of files:
 				<ul>
-					<li value="0"><span style="FONT-WEIGHT: bold">.adls file</span>: this will become the
+					<li><span style="FONT-WEIGHT: bold">.adls file</span>: this will become the
 					&#39;source&#39; file type for all archetypes.&nbsp;</li>
-					<li value="0"><span style="FONT-WEIGHT: bold">.adl file</span>: this will become the file type
+					<li><span style="FONT-WEIGHT: bold">.adl file</span>: this will become the file type
 					for&nbsp;the &#39;flat&#39; &nbsp;view of an archetype. In the future, .adl files will no longer be
 					stored, but will be generated on the fly.</li>
 				</ul>
 				</li>
-				<li value="0">for existing archetype repositories consisting of .adl files, the .adl file will be treated
+				<li>for existing archetype repositories consisting of .adl files, the .adl file will be treated
 				as the initial source. A .adls file will be generated once only for each .adl file, and from then on, the
 				.adls file will be used as the source.</li>
-				<li value="0">slot and used-by maps;</li>
-				<li value="0">repository statistics;</li>
-				<li value="0">numerous GUI improvements;</li>
-				<li value="0">repository export to HTML.</li>
+				<li>slot and used-by maps;</li>
+				<li>repository statistics;</li>
+				<li>numerous GUI improvements;</li>
+				<li>repository export to HTML.</li>
 			</ul>
 
 			<h3>09 Apr 2007 Release 1.4.0 (<a href="https://github.com/openEHR/adl-tools/commit/f96c0eae57e6bb075e29fcc73937e5edb1799bd4">Git commit f96c0eae57e6bb075e29fcc73937e5edb1799bd4 (was SVN rev 203)</a>):</h3>
 			<ul>
-				<li value="0">Unicode support (see test/family_history archetype example in farsi);</li>
-				<li value="0">improve speed of GUI display;</li>
-				<li value="0">correct bugs with icon loading.</li>
+				<li>Unicode support (see test/family_history archetype example in farsi);</li>
+				<li>improve speed of GUI display;</li>
+				<li>correct bugs with icon loading.</li>
 			</ul>
 
 			<h3>05 Mar 2007 bug fix release&nbsp;(<a href="https://github.com/openEHR/adl-tools/commit/9b902757ecc66b4ecb1d1fe81f948e86130fb576">Git commit 9b902757ecc66b4ecb1d1fe81f948e86130fb576 (was SVN rev 169)</a>):</h3>
 			<ul>
-				<li value="0">Support non-inclusive two-sided intervals (e.g. |0..&lt;1000|)</li>
-				<li value="0">correct bug in parsing text terms used in C_CODE_PHRASE with &#39;,&#39;</li>
+				<li>Support non-inclusive two-sided intervals (e.g. |0..&lt;1000|)</li>
+				<li>correct bug in parsing text terms used in C_CODE_PHRASE with &#39;,&#39;</li>
 			</ul>
 			
 			<h3>02 Mar&nbsp;2007 Release (<a href="https://github.com/openEHR/adl-tools/commit/1a997c27e546635dcd985ff8d64268cc1acf7809">Git commit 1a997c27e546635dcd985ff8d64268cc1acf7809 (was SVN rev 166)</a>)</h3>:
 			<ul>
-			  <li value="0">Upgrade ADL workbench to <span style="FONT-WEIGHT: bold">process ADL 1.4 languages section</span>, including translations - and display on &#39;description&#39; tab<br /></li>
-			  <li value="0">Performs various silent upgrades on strings to turn them into CODE_PHRASEs.</li>
+			  <li>Upgrade ADL workbench to <span style="FONT-WEIGHT: bold">process ADL 1.4 languages section</span>, including translations - and display on &#39;description&#39; tab<br /></li>
+			  <li>Performs various silent upgrades on strings to turn them into CODE_PHRASEs.</li>
 			</ul>
 
 			<h3>10 Jan 2007 Release (<a href="https://github.com/openEHR/adl-tools/commit/fbf7675841258413a3275e2ae738ccd65275c19b">Git commit fbf7675841258413a3275e2ae738ccd65275c19b (was SVN rev 152)</a>):</h3>
 			<ul>
-			  <li value="0">Repository merging - local and reference repositories can now be merged and viewed as one logical repository</li>
-			  <li value="0">Inheritance view - the node map now shows nodes as inherited, redefined or added.</li>
+			  <li>Repository merging - local and reference repositories can now be merged and viewed as one logical repository</li>
+			  <li>Inheritance view - the node map now shows nodes as inherited, redefined or added.</li>
 			</ul>
 
 			<h3>interim release subversion 89 - 24/aug/2006 - various small fixes</h3>

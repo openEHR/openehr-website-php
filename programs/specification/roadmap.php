@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -51,6 +51,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<br/>
 			<p>See also <a href="http://www.openehr.org/issues/browse/SPEC?report=com.atlassian.jira.plugin.system.project:roadmap-panel" target="_blank">Jira roadmap</a>.</p>
 		
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

@@ -36,31 +36,31 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 
 			<h3><a name="changelog"></a>Change Log</h3>
 			
-			<table class='TableMain'>
+			<table class='TableBasic'>
 			<tbody>
 			<tr>
-				<th class='TableMainT'> Version <br class="atl-forced-newline" /> </th>
-				<th class='TableMainT'> Change description <br class="atl-forced-newline" /> </th>
-				<th class='TableMainT'> Who <br class="atl-forced-newline" /> </th>
-				<th class='TableMainT'> Completed <br class="atl-forced-newline" /> </th>
+				<th> Version <br class="atl-forced-newline" /> </th>
+				<th> Change description <br class="atl-forced-newline" /> </th>
+				<th> Who <br class="atl-forced-newline" /> </th>
+				<th> Completed <br class="atl-forced-newline" /> </th>
 			</tr>
 			<tr>
-				<td class='TableMainC'> 0.6<br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> Changes due to review by Koray Atalag, NZ: added content to 'New Specifications' section, including 'localisation'. <br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> T Beale<br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> 28 Apr 2012<br class="atl-forced-newline" /> </td>
+				<td> 0.6<br class="atl-forced-newline" /> </td>
+				<td> Changes due to review by Koray Atalag, NZ: added content to 'New Specifications' section, including 'localisation'. <br class="atl-forced-newline" /> </td>
+				<td> T Beale<br class="atl-forced-newline" /> </td>
+				<td> 28 Apr 2012<br class="atl-forced-newline" /> </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> 0.5 <br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> Initial development <br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> T Beale <br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> 01 Apr 2012 <br class="atl-forced-newline" /> </td>
+				<td> 0.5 <br class="atl-forced-newline" /> </td>
+				<td> Initial development <br class="atl-forced-newline" /> </td>
+				<td> T Beale <br class="atl-forced-newline" /> </td>
+				<td> 01 Apr 2012 <br class="atl-forced-newline" /> </td>
 			</tr>
 			</tbody>
 			</table>
 
 			<h3><a name="aknowledgements"></a>Acknowledgements</h3>
-			<p class="par">This document has benefited from review by the following people.</p>
+			<p>This document has benefited from review by the following people.</p>
 			<ul>
 				<li><em>Koray Atalag</em>, university of Auckland, New Zealand</li>
 			</ul>
@@ -78,111 +78,111 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<br/>
 			<p>The following table describes the lifecycle states in detail:</p>
 			
-			<table class='TableMain'>
+			<table class='TableBasic'>
 			<tbody>
 			<tr>
-				<th class='TableMainT'> Lifecycle State</th>
-				<th class='TableMainT'> Period</th>
-				<th class='TableMainT'> Publication Format</th>
-				<th class='TableMainT'> Versioning&#42; &nbsp; </th>
-				<th class='TableMainT'> Change doc </th>
-				<th class='TableMainT'> Change Manager </th>
-				<th class='TableMainT'> Issue Reporting </th>
+				<th> Lifecycle State</th>
+				<th> Period</th>
+				<th> Publication Format</th>
+				<th> Versioning&#42; &nbsp; </th>
+				<th> Change doc </th>
+				<th> Change Manager </th>
+				<th> Issue Reporting </th>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Development</b></td>
-				<td class='TableMainC'> 18 months max</td>
-				<td class='TableMainC'> Wiki; PG writable</td>
-				<td class='TableMainC'> 0.y.z</td>
-				<td class='TableMainC'> Change Requests optional; otherwise informal</td>
-				<td class='TableMainC'> CMG or external development group </td>
-				<td class='TableMainC'> Informal </td>
+				<td> <b>Development</b></td>
+				<td> 18 months max</td>
+				<td> Wiki; PG writable</td>
+				<td> 0.y.z</td>
+				<td> Change Requests optional; otherwise informal</td>
+				<td> CMG or external development group </td>
+				<td> Informal </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Trial</b> </td>
-				<td class='TableMainC'> 2 years max</td>
-				<td class='TableMainC'> <em>Wiki??</em>; PG writable</td>
-				<td class='TableMainC'> <em>x.y.z</em> </td>
-				<td class='TableMainC'> <em>Change Requests</em></td>
-				<td class='TableMainC'> <em>CMG</em> </td>
-				<td class='TableMainC'> <em>Problem Reports</em> </td>
+				<td> <b>Trial</b> </td>
+				<td> 2 years max</td>
+				<td> <em>Wiki??</em>; PG writable</td>
+				<td> <em>x.y.z</em> </td>
+				<td> <em>Change Requests</em></td>
+				<td> <em>CMG</em> </td>
+				<td> <em>Problem Reports</em> </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Stable</b></td>
-				<td class='TableMainC'> unbounded </td>
-				<td class='TableMainC'> <em>Durable high</em> 
+				<td> <b>Stable</b></td>
+				<td> unbounded </td>
+				<td> <em>Durable high</em> 
 				<em>quality format</em>, e.g. PDF; published on standards web page / portal 
-				<td class='TableMainC'> x.y.z </td>
-				<td class='TableMainC'> Change Requests  </td>
-				<td class='TableMainC'> <em><b>CMG</em> </td>
-				<td class='TableMainC'> Problem Reports </td>
+				<td> x.y.z </td>
+				<td> Change Requests  </td>
+				<td> <em><b>CMG</em> </td>
+				<td> Problem Reports </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Obsolete</b></td>
-				<td class='TableMainC'> unbounded </td>
-				<td class='TableMainC'> Replaced by version marked as 'Obsolete' and relevant meta-data </td>
-				<td class='TableMainC'> frozen</td>
-				<td class='TableMainC'> n/a </td>
-				<td class='TableMainC'> EC </td>
-				<td class='TableMainC'> n/a </td>
+				<td> <b>Obsolete</b></td>
+				<td> unbounded </td>
+				<td> Replaced by version marked as 'Obsolete' and relevant meta-data </td>
+				<td> frozen</td>
+				<td> n/a </td>
+				<td> EC </td>
+				<td> n/a </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Superseded</b></td>
-				<td class='TableMainC'> unbounded </td>
-				<td class='TableMainC'> Replaced by version marked as 'Superseded' and relevant meta-data </td>
-				<td class='TableMainC'> frozen </td>
-				<td class='TableMainC'> n/a </td>
-				<td class='TableMainC'> EC </td>
-				<td class='TableMainC'> n/a </td>
+				<td> <b>Superseded</b></td>
+				<td> unbounded </td>
+				<td> Replaced by version marked as 'Superseded' and relevant meta-data </td>
+				<td> frozen </td>
+				<td> n/a </td>
+				<td> EC </td>
+				<td> n/a </td>
 			</tr>
 			</tbody>
 			</table>
 
 			<p>&#42; Versioning obeys rules of <a href="http://semver.org" target="_blank">semver.org</a>; note that version 0.x.y versions do not follow any strict rules.</p>
 			
-			<table class='TableMain'>
+			<table class='TableBasic'>
 			<tbody>
 			<tr>
-				<th class='TableMainT'> Lifecycle State</th>
-				<th class='TableMainT'> Formal Expression </th>
-				<th class='TableMainT'> Implementation Technology Specification(s)  </th>
-				<th class='TableMainT'> Implementations  </th>
-				<th class='TableMainT'> Conformance  </th>
+				<th> Lifecycle State</th>
+				<th> Formal Expression </th>
+				<th> Implementation Technology Specification(s)  </th>
+				<th> Implementations  </th>
+				<th> Conformance  </th>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Development</b></td>
-				<td class='TableMainC'> <em>One formal tool-based expression must exist</em>, in a widely recognised format, prior to promotion to trial state.  </td>
-				<td class='TableMainC'> <em>At least one ITS</em> must exist prior to promotion to trial state. </td>
-				<td class='TableMainC'> <em>one open source reference implementation</em> must exist prior to promotion to Trial state. </td>
-				<td class='TableMainC'> n/a </td>
+				<td> <b>Development</b></td>
+				<td> <em>One formal tool-based expression must exist</em>, in a widely recognised format, prior to promotion to trial state.  </td>
+				<td> <em>At least one ITS</em> must exist prior to promotion to trial state. </td>
+				<td> <em>one open source reference implementation</em> must exist prior to promotion to Trial state. </td>
+				<td> n/a </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Trial</b> </td>
-				<td class='TableMainC'> Tool-based expression maintained. </td>
-				<td class='TableMainC'> <em>Ideally two ITSs</em> should exist prior to promotion to stable state (where multiple technologies are in routine use). </td>
-				<td class='TableMainC'> Prior to promotion, at least <em>2 independent interoperating implementations</em>, preferably in different major technologies at end of period. These may be commercial or open source. </td>
-				<td class='TableMainC'> <em>Conformance levels &amp; criteria</em> developed, tested and published. </td>
+				<td> <b>Trial</b> </td>
+				<td> Tool-based expression maintained. </td>
+				<td> <em>Ideally two ITSs</em> should exist prior to promotion to stable state (where multiple technologies are in routine use). </td>
+				<td> Prior to promotion, at least <em>2 independent interoperating implementations</em>, preferably in different major technologies at end of period. These may be commercial or open source. </td>
+				<td> <em>Conformance levels &amp; criteria</em> developed, tested and published. </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Stable</b></td>
-				<td class='TableMainC'> Tool-based expression maintained. </td>
-				<td class='TableMainC'>&nbsp;</td>
-				<td class='TableMainC'> Reference implementation maintained. </td>
-				<td class='TableMainC'> Industry implementations recognised via conformance testing. </td>
+				<td> <b>Stable</b></td>
+				<td> Tool-based expression maintained. </td>
+				<td>&nbsp;</td>
+				<td> Reference implementation maintained. </td>
+				<td> Industry implementations recognised via conformance testing. </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Obsolete</b></td>
-				<td class='TableMainC'>&nbsp;</td>
-				<td class='TableMainC'>&nbsp;</td>
-				<td class='TableMainC'> Reference implementation still available but not maintained. </td>
-				<td class='TableMainC'>&nbsp;</td>
+				<td> <b>Obsolete</b></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td> Reference implementation still available but not maintained. </td>
+				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Superseded</b></td>
-				<td class='TableMainC'>&nbsp;</td>
-				<td class='TableMainC'>&nbsp;</td>
-				<td class='TableMainC'> Reference implementation still available but not maintained. </td>
-				<td class='TableMainC'>&nbsp;</td>
+				<td> <b>Superseded</b></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td> Reference implementation still available but not maintained. </td>
+				<td>&nbsp;</td>
 			</tr>
 			</tbody>
 			</table>

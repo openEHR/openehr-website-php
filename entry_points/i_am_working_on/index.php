@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -20,6 +20,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<li><a href="/entry_points/i_am_working_on/obtaining_solutions">Obtaining Solutions</a></li>
 			</ul>
 				
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

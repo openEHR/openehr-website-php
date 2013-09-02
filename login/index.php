@@ -1,7 +1,9 @@
 <?php
-session_start();
+	// The user is redirected here from login.php.
+	
+	session_start();
 
-// If value is present, redirect the user to user_home:
+	// If value is present, redirect the user to user_home:
 	if (isset($_SESSION['user_id'])) {
 
 		// Need the functions to create an absolute URL:
@@ -10,42 +12,18 @@ session_start();
 	}
 
 $PageName = 'Login';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_top.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
+	<div id="MainArea" style="margin-left:60px; margin-top:35px; margin-bottom:100px; width:900px;">
 	
-</head>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:400px;">
-		
-		<div id="TextArea" style="left:0px; width:900px; height:400px; ">
-		
-			<h1>Login</h1>
+			<h1><?php echo "$PageName";?></h1>
 			<br/>
 			<?php
-			
 			// Print any error messages, if they exist:
 			if (!empty($errors)) {
 				echo '<h1>Error!</h1>
@@ -55,7 +33,6 @@ $PageName = 'Login';
 				}
 				echo '</p><p>Please try again.</p>';
 			}
-
 			// Display the form:
 			?>
 			
@@ -66,22 +43,6 @@ $PageName = 'Login';
 				<input type="hidden" name="submitted" value="TRUE" />
 			</form>
 			
-		</div>
-		
-	</div>
-	
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

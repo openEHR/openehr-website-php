@@ -1,0 +1,6 @@
+User-agent:*
+Disallow: /login
+Disallow: /files
+Disallow: /gui
+Disallow: /functions
+Disallow: /templates

@@ -2,6 +2,7 @@
 	// The user is redirected here from user_home.php.
 
 	session_start();
+	
 	// If no session is present, redirect the user:
 	if (!isset($_SESSION['user_id'])) {
 
@@ -18,48 +19,22 @@
 ?>
 
 <?php
-$PageName = 'My News';
+$PageName = 'My News Items';
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-		
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea" style=" margin-left:30px; width:900px; ">
-		
-		<div id="TextArea" style="left:0px; width:900px; ">
-			
 			<h1><?php echo "$PageName";?></h1>
 			
 			<?php
 			//Connect to the database
-			require_once ('../../con_test.php');
+			require_once ('../../con_real.php');
 			
 			//Retrieve users news summary
 			$q = "SELECT item_id, category, title, summary, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE user_id='$usr_id' ORDER BY date DESC";
-			$r = @mysqli_query ($dbc, $q);
+			$r = @mysqli_query ($conx, $q);
 			
 			//Count the number of the rows
 			$num = mysqli_num_rows($r);
@@ -79,25 +54,9 @@ $PageName = 'My News';
 				echo '<p>You haven\'t created any news yet.</p>';
 			} 
 			
-			mysqli_close($dbc);
+			mysqli_close($conx);
 			?>
 					
-		</div>
-			
-	</div>
-
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>	
-	</div>
-
-</div>
-	
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

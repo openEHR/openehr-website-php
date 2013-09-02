@@ -16,40 +16,16 @@
 
 <?php
 $PageName = 'Editorial Policy';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
-	
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea" style=" margin-left:30px; width:900px;">
-		
-		<div id="TextArea" style="left:0px; width:900px;">
-		
 			<h1><?php echo $PageName;?></h1>
-			<p>Welcome! You have been given permission to create and edit the content in openEHR News &amp; Events section. To maintain the consistency of the content across the pages, please follow these guidelines.</p>
+			
+			<p>Welcome! You have been given permission to create and edit the content in openEHR News &amp; Events section. To maintain the consistency of the content across the pages, please follow these guidelines. Before you start creating and editing news items, make sure JavaScript is enabled in your browser.</p>
 			
 			<h2>News Categories</h2>
 			<p>You can add the content in the five categories:</p>
@@ -80,23 +56,6 @@ $PageName = 'Editorial Policy';
 			<h2>Updates of editorial policy</h2>
 			<p>This editorial policy can be updated in the future. You will be informed about the updates on you User Home page.</p>
 			
-			
-		</div>
-		
-	</div>
-	
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

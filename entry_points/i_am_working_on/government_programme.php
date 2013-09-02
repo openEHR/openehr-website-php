@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -44,6 +44,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 			<p>The openEHR framework is already in use by several governments, including <a href="http://www.openehr.org/who_is_using_openehr/governments">these</a>.</p>
 			
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

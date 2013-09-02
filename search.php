@@ -192,6 +192,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_top.php');
 				  
 			<br/><br/><br/>
 					
-		</div>
+
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

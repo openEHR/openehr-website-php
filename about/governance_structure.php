@@ -8,22 +8,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 			
 			<h1><?php echo "$PageName";?></h1>
 			
 			<p>The governance structure of the openEHR Foundation is based on the division of activities into four Programs: Specifications, Clinical models, Software and Localisation. Work is carried out in projects within these Programs by Contributing and Qualified members, with all Members having the right of access to work items and particpation in meetings. </p>
 			<p>A Program Coordination Board will coordinate and prioritise the work done by the Programs. A Foundation Office is responsible for administration and communicaions. A Foundation Board, elected by both the Individual and Organisational Membership sets the strategy according to stakeholder requirements. An Advisory Panel provides a way to formalise external expert input. The structure is shown below.</p>
-			<p style="text-align:center;"><img src="../files/about/OrganisationalStructure.png" alt="Foundation Governance Structure" title="Foundation Governance Structure" style="border: solid 1px #CCCCCC;" usemap="#orgstructure"></p>
+			<p style="text-align:center;"><img src="/files/about/OrganisationalStructure.png" alt="Foundation Governance Structure" title="Foundation Governance Structure" style="border: solid 1px #CCCCCC;" usemap="#orgstructure"></p>
 			<map name="orgstructure">
 				<area shape="rect" coords="180,45,300,100" href="#foundationboard"/>
 				<area shape="rect" coords="60,100,160,160" href="#advisorypanel"/>
 				<area shape="rect" coords="285,170,385,230" href="#foundationoffice"/>
 				<area shape="rect" coords="170,170,270,230" href="#programcoordinationboard"/>
-				<area shape="rect" coords="55,270,140,325" href="../programs/specification"/>
-				<area shape="rect" coords="150,270,235,325" href="../programs/clinicalmodels"/>
-				<area shape="rect" coords="245,270,330,325" href="../programs/software"/>
-				<area shape="rect" coords="340,270,425,325" href="../programs/localisation"/>
+				<area shape="rect" coords="55,270,140,325" href="/programs/specification"/>
+				<area shape="rect" coords="150,270,235,325" href="/programs/clinicalmodels"/>
+				<area shape="rect" coords="245,270,330,325" href="/programs/software"/>
+				<area shape="rect" coords="340,270,425,325" href="/programs/localisation"/>
 			</map> 
 			
 			
@@ -61,11 +61,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>See members of interim Foundation Board <a href="people_in_governance#foundationboard">here</a>.</p>
 			
 			
-			<h2><a name="advisorypanel"></a>Advisory Panel</h2>
+			<h2 id="advisorypanel">Advisory Panel</h2>
 			<p>Key experts will be appointed by the Board to join the Advisory Panel and advise the Board based on nominations by Members. Program Leads will be invited to attend the Advisory Panel meetings. The panel will elect a chair person and deputy (who will not be a Program Lead). The Advisory Panel will meet at least twice each year. The elected Chair of the Advisory Panel (or deputy if the Chair is not available) will be invited to attend Board meetings.</p>
 
 			
-			<h2><a name="foundationoffice"></a>Foundation Office</h2>
+			<h2 id="foundationoffice">Foundation Office</h2>
 			<p>The Foundation Office manages the day-to-day operation of the Foundation and has paid staff. The responsibilities are as follows;</p>
 			<ul>
 				<li>Routine administration as required by all parts of the Foundation</li>
@@ -77,7 +77,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 			
 				
-			<h2><a name="programcoordinationboard"></a>Program Coordination Board</h2>
+			<h2 id="programcoordinationboard">Program Coordination Board</h2>
 			<p>The Programme Coordination Board (PCB) exists to coordinate Programme activities, and ensure they are synchronised with the current priorities of the Foundation Board. Its membership consists of four Foundation Board members and the four Programme Leads.</p>
 			<p>PCB responsibilities include:</p>
 			<ul>
@@ -88,6 +88,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 			<p>See members of Program Coordination Board <a href="people_in_governance#programcoordinationboard">here</a>.</p>
 			
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

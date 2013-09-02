@@ -38,10 +38,5 @@
 			  }, true);
 			</script>
 
-			<style type="text/css">
-			input.gsc-input {border-color: #cccccc;}
-			input.gsc-search-button {border-color: #00355f; background-color: #00355f;}
-			</style>
-
 		</div>
 

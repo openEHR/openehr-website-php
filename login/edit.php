@@ -2,6 +2,7 @@
 	// The user is redirected here from user_home.php.
 
 	session_start();
+	
 	// If no session is present, redirect the user:
 	if (!isset($_SESSION['user_id'])) {
 
@@ -12,8 +13,17 @@
 		exit(); // Quit the script.
 	}
 	else {
-	$usr_id = (int)$_SESSION['user_id'];
+		$usr_id = (int)$_SESSION['user_id'];
+		if(!isset($_GET['nid']) && !isset($_POST['submitted'])) {
+		
+			// Need the functions to create an absolute URL:
+			require_once ('login_functions.php');
+			$url = absolute_url();
+			header("Location: $url");
+			exit(); // Quit the script.
+		}
 	}
+	
 	
 	//List of characters to get rid of
 	$new_line = array("<p>&nbsp;</p>","<p></p>");
@@ -24,18 +34,40 @@
 	$char2new = '&lt;/script&gt;';
 	
 ?>
-
 <?php
-$PageName = 'Edit News and Events';
+$PageName = 'Edit News Items';
 ?>
+<!DOCTYPE HTML>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
+<html lang="en">
 
 <head>
 
-	<?php include '../panel/headpanel.php' ?>
+	<title>openEHR - <?php echo "$PageName";?></title>
+	<meta charset="utf-8">	
+	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
+	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
+	<meta name="author" content="Sam Heard, Thomas Beale">
+	<meta name="designer" content="Adriana Danilakova">
+	<meta name="rating" content="nofollow">
+	<meta name="robots" content="All">
+	<meta name="revisit-after" content="15 days">
+	<meta name="viewport" content="1024">
+
+	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
+	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
+	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
+	
+	<link rel="shortcut icon" href="/gui/favicon.ico">
+	<link rel="home" href="http://www.openehr.org">
+	<link rel="index" href="/sitemap">
+
+	<script type="text/javascript" src="/menu/dropdown.js"></script> 
+	
+	<?php
+	$pageOn = basename($_SERVER['PHP_SELF']);
+	?>
+	
 	<script type="text/javascript" src="tinymce/tinymce.min.js"></script>
 	<script type="text/javascript">
 	tinymce.init({
@@ -64,10 +96,10 @@ $PageName = 'Edit News and Events';
 
 	<div id="MainArea" style=" margin-left:30px; width:900px; ">
 		
-		<div id="TextArea" style="left:0px; width:900px; ">
+		<div id="Content" style="left:0px; width:900px; ">
 		
 			<h1><?php echo $PageName;?></h1>
-			<br/>
+			
 				<?php
 				include 'getpost_functions.php';
 				
@@ -81,7 +113,7 @@ $PageName = 'Edit News and Events';
 				
 				elseif(isset($_POST['submitted'])) {
 					//Connect to the database
-					require_once('../../con_test.php'); 
+					require_once('../../con_real.php'); 
 					
 					//Initialise an error array
 					$errors = array(); 
@@ -93,7 +125,7 @@ $PageName = 'Edit News and Events';
 					else {
 						$cnt = trim($_POST['category']);
 						$cnt = htmlentities($cnt);
-						$ct = mysqli_real_escape_string($dbc, $cnt);
+						$ct = mysqli_real_escape_string($conx, $cnt);
 					}
 
 					//Check for the title
@@ -103,7 +135,7 @@ $PageName = 'Edit News and Events';
 					else {
 						$tnl = trim($_POST['title']);
 						$tnl = htmlentities($tnl);
-						$tl = mysqli_real_escape_string($dbc, $tnl);
+						$tl = mysqli_real_escape_string($conx, $tnl);
 					}
 
 					//Check for the summary
@@ -113,7 +145,7 @@ $PageName = 'Edit News and Events';
 					else {
 						$snu = trim ($_POST['summary']);
 						$snu = htmlentities($snu);
-						$su = mysqli_real_escape_string($dbc, $snu);
+						$su = mysqli_real_escape_string($conx, $snu);
 					}
 
 					//Check for the text
@@ -125,7 +157,7 @@ $PageName = 'Edit News and Events';
 						$tnx = str_replace($new_line, $empty, $tnx);
 						$tnx = str_replace($char1old, $char1new, $tnx);
 						$tnx = str_replace($char2old, $char2new, $tnx);
-						$tx = mysqli_real_escape_string($dbc, $tnx);
+						$tx = mysqli_real_escape_string($conx, $tnx);
 					}
 					
 					//Check for the other resources
@@ -137,7 +169,7 @@ $PageName = 'Edit News and Events';
 						$rns = str_replace($new_line, $empty, $rns);
 						$rns = str_replace($char1old, $char1new, $rns);
 						$rns = str_replace($char2old, $char2new, $rns);
-						$rs = mysqli_real_escape_string($dbc, $rns);
+						$rs = mysqli_real_escape_string($conx, $rns);
 					}
 					
 					//Check for the coordinates
@@ -147,7 +179,7 @@ $PageName = 'Edit News and Events';
 					else {
 						$cno = trim ($_POST['coordinates']);
 						$cno = htmlentities($cno);
-						$co = mysqli_real_escape_string($dbc, $cno);
+						$co = mysqli_real_escape_string($conx, $cno);
 					}
 					
 					//Check for the user id
@@ -157,7 +189,7 @@ $PageName = 'Edit News and Events';
 					else {
 						$ind = trim ($_POST['user_id']);
 						$ind = htmlentities($ind);
-						$id = mysqli_real_escape_string($dbc, $ind);
+						$id = mysqli_real_escape_string($conx, $ind);
 					}
 					
 					//Check for the user id
@@ -167,7 +199,7 @@ $PageName = 'Edit News and Events';
 					else {
 						$iind = trim ($_POST['item_id']);
 						$iind = htmlentities($iind);
-						$iid = mysqli_real_escape_string($dbc, $iind);
+						$iid = mysqli_real_escape_string($conx, $iind);
 					}
 					
 					//If everything is OK
@@ -188,14 +220,15 @@ $PageName = 'Edit News and Events';
 								user_id = '$id'
 							WHERE item_id='$iind'
 							";
-						$r = @mysqli_query ($dbc, $q); //Run the query
+						$r = @mysqli_query ($conx, $q); //Run the query
 
 						if ($r) { 
-							echo '<h2>Thank you!</h2> <p>Your news have been updated.<br><br></p>';
+							echo '<h2>Thank you!</h2> <p>Your news have been updated.</p><br/>';
+							echo '<p><a href="user_home">>> Back to User Home</a></p>';
 						}
 						else {
-							echo '<h2>System error</h2> <p>Your news have not been updated due system error. We apologize for any inconvenience. Please try again later or contact site administrator.</p>';
-							echo '<p>' . mysqli_error($dbc) . '<br>Query: ' . $p . '</p>';
+							echo '<h2>System error</h2> <p>Your news have not been updated due system error. We apologize for any inconvenience. Please try again later or contact site administrator.</p><br/>';
+							echo '<p><a href="user_home">>> Back to User Home</a></p>';
 						}
 						echo "\n\t\t".'</div>';
 						include ('../templates/_footer.php');
@@ -212,15 +245,9 @@ $PageName = 'Edit News and Events';
 						echo '<p>Please try again</p>';
 					}
 
-					mysqli_close($dbc);
+					mysqli_close($conx);
 				}
-				else{
-					// Need the functions to create an absolute URL:
-					require_once ('login_functions.php');
-					$url = absolute_url();
-					header("Location: $url");
-					exit(); // Quit the script. 
-				}
+
 				?>
 
 				<form id="news_form" action="edit.php" method="post">
@@ -238,6 +265,8 @@ $PageName = 'Edit News and Events';
 				
 				<br/>
 				<p><i>* Mandatory fields</i></p>
+				<br/>
+				<p><a href="user_home">>> Back to User Home</a></p>
 			
 		</div>
 		

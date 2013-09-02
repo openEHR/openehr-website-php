@@ -1,4 +1,5 @@
 <?php
+	// The user is redirected here from user_home.php.
 
 	session_start();  //Start the session
 	
@@ -13,75 +14,55 @@
 	}
 ?>
 
-
-
 <?php
 $PageName = 'Password Change';
+
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<head>
-
-	<?php include '../panel/headpanel.php' ?>
 	
-</head>
+		<div id="Content">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
-
-	<div id="MainArea" style=" margin-left:30px; width:900px; height:400px;">
-		
-		<div id="TextArea" style="left:0px; width:900px; height:400px; ">
-		
-			<h1>Password Change</h1>
-			<br/>
+			<h1><?php echo $PageName;?></h1>
 					
 			<?php
 			
 				//Connect to the database
-				require_once ('../../con_test.php');
+				require_once ('../../con_real.php');
 				
 				if (isset($_POST['submitted'])) {
 				
-					$errors = array(); //Initialise error array
+					//Initialise error array
+					$errors = array(); 
+					
+					//Trim all incomming data
+					$trimmed = array_map('trim', $_POST);
 				
 					//Check for the current password
-					if (empty($_POST['pass'])) {
+					if (empty($trimmed['pass'])) {
 						
 						$errors[] = 'You forgot to enter your current password.';
 					
 					} else {
 					
-						$p = mysqli_real_escape_string($dbc, trim($_POST['pass']));
+						$p = mysqli_real_escape_string($conx, $trimmed['pass']);
 					
 					}
 					
 					//Check the new password and match against the confirmed password	
-					if (!empty($_POST['pass1'])) {
+					if (!empty($trimmed['pass1'])) {
 					
-						if($_POST['pass1'] != $_POST['pass2']) {
+						if($trimmed['pass1'] != $trimmed['pass2']) {
 						
 							$errors[] = 'Your new password did not match the confirmed password.';
 						
 						} else {
 						
-							$np = mysqli_real_escape_string($dbc, trim($_POST['pass1']));
+							if(preg_match('/^\w{8,20}$/',$trimmed['pass1'])) {
+								$np = mysqli_real_escape_string($conx, $trimmed['pass1']);
+							} else {
+								$errors[] = 'Please enter a valid password. Valid password must be 8-20 characters long, containing only letters, numbers, and the underscore.';
+							}
 						
 						}
 					
@@ -91,14 +72,13 @@ $PageName = 'Password Change';
 					
 					}
 					
-					
 					//If everything ok
 					if (empty($errors)) {
 						
 						//Check that they've entered the right current password
 						$q = "SELECT user_id FROM users WHERE pass=SHA1('$p')";
 						
-						$r = mysqli_query($dbc, $q);
+						$r = mysqli_query($conx, $q);
 						
 						$num = mysqli_num_rows($r);
 						
@@ -110,10 +90,10 @@ $PageName = 'Password Change';
 							//Make the update query
 							$q = "UPDATE users SET pass=SHA1('$np') WHERE user_id=$row[0]";
 							
-							$r = mysqli_query($dbc, $q);
+							$r = mysqli_query($conx, $q);
 							
 							//If it ran ok
-							if (mysqli_affected_rows($dbc) == 1) {
+							if (mysqli_affected_rows($conx) == 1) {
 							
 								//Print a message 
 								echo '<p>Your password has been updated.</p>';
@@ -132,7 +112,7 @@ $PageName = 'Password Change';
 							
 						} else { //Invalid user_id/password combination
 						
-							echo 'The current password you have entered in the form does not your real current password.';
+							echo 'The current password you have entered in the form is not your real current password.';
 						
 						}
 					
@@ -149,7 +129,7 @@ $PageName = 'Password Change';
 				
 					}
 					
-					mysqli_close($dbc); //Close the database connection
+					mysqli_close($conx); //Close the database connection
 					
 				} //End of main submit conditional
 				
@@ -157,31 +137,14 @@ $PageName = 'Password Change';
 			
 			<form method="post">
 			<p>Current Password: <input type="password" name="pass" size="20" maxlength="20" class="input"/></p>
-			<p>New Password <sub>(max length 20)</sub>: <input type="password" name="pass1" size="20" maxlength="20" class="input" /></p>
+			<br/>
+			<p><i>Valid password must be 8-20 characters long, containing only letters, numbers, and the underscore.</i></p>
+			<p>New Password: <input type="password" name="pass1" size="20" maxlength="20" class="input" /></p>
 			<p>Confirm New Password: <input type="password" name="pass2" size="20" maxlength="20" class="input"/></p>
 			<input type="submit" name="submit" value="Change your password" />
 			<input type="hidden" name="submitted" value="TRUE" />
 			</form>
-			<br/>
 			
-		
-					
-		</div>
-		
-	</div>
-	
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../panel/scriptpanel.php' ?>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+		</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

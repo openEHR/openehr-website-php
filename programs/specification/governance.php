@@ -8,32 +8,41 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p class="content1"><a href="#introduction">Introduction</a></p>
-			<p class="content1"><a href="#programstructure">Program Structure</a></p>
-				<p class="content2"><a href="#editorialcommittee">Editorial Committee</a></p>
-				<p class="content2"><a href="#componentmaintainergroup">Component Maintainer Group</a></p>
-				<p class="content2"><a href="#standardsadvisorygroup">Standards Advisory Group</a></p>
-				<p class="content2"><a href="#size">Size</a></p>
-				<p class="content2"><a href="#fairness">Fairness</a></p>
-			<p class="content1"><a href="#groupmembership">Group Membership</a></p>
-				<p class="content2"><a href="#qualifyingcriteria">Qualifying Criteria</a></p>
-				<p class="content2"><a href="#candidature">Candidature</a></p>
-				<p class="content2"><a href="#process">Process</a></p>
-				<p class="content2"><a href="#lengthofmembership">Length of Membership</a></p>
-				<p class="content2"><a href="#resignation">Resignation</a></p>
-				<p class="content2"><a href="#termination">Termination</a></p>
-			<p class="content1"><a href="#communications">Communications</a></p>
-				<p class="content2"><a href="#otherprograms">With other Programs</a></p>
-				<p class="content2"><a href="#openehrcommunity">With the wider openEHR Community</a></p>
-			<p class="content1"><a href="#meetings">Meetings</a></p>
-			<p class="content1"><a href="#professionalconduct">Professional Conduct</a></p>
-			<p class="content1"><a href="#tor">Evolution of these Terms of Reference</a></p>
-			<p class="content1"><a href="#faq">Frequently Asked Questions</a></p>
-			
+			<span class="InvisibleList">
+			<ul>
+				<li><a href="#introduction">Introduction</a></li>
+				<li><a href="#programstructure">Program Structure</a></li>
+				<ul>
+					<li><a href="#editorialcommittee">Editorial Committee</a></li>
+					<li><a href="#componentmaintainergroup">Component Maintainer Group</a></li>
+					<li><a href="#standardsadvisorygroup">Standards Advisory Group</a></li>
+					<li><a href="#size">Size</a></li>
+					<li><a href="#fairness">Fairness</a></li>
+				</ul>
+				<li><a href="#groupmembership">Group Membership</a></li>
+				<ul>
+					<li><a href="#qualifyingcriteria">Qualifying Criteria</a></li>
+					<li><a href="#candidature">Candidature</a></li>
+					<li><a href="#process">Process</a></li>
+					<li><a href="#lengthofmembership">Length of Membership</a></li>
+					<li><a href="#resignation">Resignation</a></li>
+					<li><a href="#termination">Termination</a></li>
+				</ul>
+				<li><a href="#communications">Communications</a></li>
+				<ul>
+					<li><a href="#otherprograms">With other Programs</a></li>
+					<li><a href="#openehrcommunity">With the wider openEHR Community</a></li>
+				</ul>
+				<li><a href="#meetings">Meetings</a></li>
+				<li><a href="#professionalconduct">Professional Conduct</a></li>
+				<li><a href="#tor">Evolution of these Terms of Reference</a></li>
+				<li><a href="#faq">Frequently Asked Questions</a></li>
+			</ul>
+			</span>
 			
 			<h2><a name="introduction"></a>Introduction</h2>
 			<p>Following section describes the terms of reference (ToR) for the activities of the openEHR Specification Program. The Specification Program has members drawn from the wider openEHR membership. Ideally the membership of the Program will include individuals from multiple language groups, cultures as well as with a diversity of technical, clinical and informatics backgrounds.</p>
@@ -301,6 +310,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h3>What stops one company / organisation having undue influence?</h3>
 			<p>Any number of people from a given organisation can participate in the Specification Program. However, two rules are designed to ensure that no single organisation can have an inappropriate influence. The first is that no organisation can have a majority of the members on any given CMG or SAG; the second is that no more than 2 members from a single organisation can work on the EC simultaneously.</p>
 
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

@@ -18,22 +18,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			<h2>Configuration</h2>
 			<p>The only thing to configure for the test page is the location of the output files. These are various copies and serialisations of archetypes arranged to allow convenient diffing, so as to see the effect of round-trip compile-serialise cycle. To configure the location, select Tools &gt; Options, and set the diff files directory to your desired location. As shown <a href="images/test_diff_config.png">here</a>, the default location is under the platform standard user &#39;home&#39; location for the application, e.g. on Windows 7, /Users/$user/Local/$app_vendor/$app. If we denote the location you choose as $diff_test, the structure under this will be as follows:</p>
-			<ul>
+			<ul style="list-style:none;">
 				<li>$profile, i.e. names of your repository profiles, e.g. &#39;CKM&#39;, &#39;ADL_1.5_test&#39;, etc</li>
-				<li style="LIST-STYLE-TYPE: none; DISPLAY: inline" value="0">
-				<ul>
-					<li value="0">source</li>
-					<li style="LIST-STYLE-TYPE: none; DISPLAY: inline" value="0">
-					<ul>
-						<li value="0">orig</li>
-						<li value="0">new</li>
+				<li>
+				<ul style="list-style:none;">
+					<li>source</li>
+					<li>
+					<ul style="list-style:none;">
+						<li>orig</li>
+						<li>new</li>
 					</ul>
 					</li>
-					<li value="0">flat</li>
-					<li style="LIST-STYLE-TYPE: none; DISPLAY: inline" value="0">
-					<ul>
-						<li value="0">orig</li>
-						<li value="0">new</li>
+					<li>flat</li>
+					<li>
+					<ul style="list-style:none;">
+						<li>orig</li>
+						<li>new</li>
 					</ul>
 					</li>
 				</ul>

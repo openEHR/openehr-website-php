@@ -24,9 +24,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h2>Basic Configuration</h2>
 			
 			<h3>Setting RM Schemas</h3>
-			<p>At installation, the AWB is normally set up to point to a set of reference model schemas copied from the <a href="https://github.com/openEHR/reference-models">openEHR reference models Git repository</a>. You may want to check which Reference Model schemas are enabled initially. Choose RM Schemas &gt; Configure Schemas to do this. The dialog looks as follows.</p>
+			<p>At installation, the AWB is normally set up to point to a set of reference model schemas copied from the <a href="https://github.com/openEHR/reference-models" target="_blank">openEHR reference models Git repository</a>. You may want to check which Reference Model schemas are enabled initially. Choose RM Schemas &gt; Configure Schemas to do this. The dialog looks as follows.</p>
 			<p><a href="images/options_rm_schema_config.png"><img border="0" alt="Options dialog" src="images/tn_options_rm_schema_config.jpg" width="200" height="187"/> </a></p>
-			<p>You can check all RM schemas that apply to archetypes in any repository you might define. The only time you would leave a schema unchecked is if you have more than one version of the same schema and you want to choose a specific one. Several RM schemas are provided with the AWB, which are copies of the controlled versions found in the <a href="https://github.com/openEHR/adl-archetypes">openEHR/adl-archetypes GitHub repository</a>. See the <a href="tool_configuration#rmschemaconfiguration">Tool Configuration section</a> for details on configuring RM schemas.</p>
+			<p>You can check all RM schemas that apply to archetypes in any repository you might define. The only time you would leave a schema unchecked is if you have more than one version of the same schema and you want to choose a specific one. Several RM schemas are provided with the AWB, which are copies of the controlled versions found in the <a href="https://github.com/openEHR/adl-archetypes" target="_blank">openEHR/adl-archetypes GitHub repository</a>. See the <a href="tool_configuration#rmschemaconfiguration">Tool Configuration section</a> for details on configuring RM schemas.</p>
          
 			<h3>Setting and changing repository profiles</h3>
 			<p>The first time you start the tool if you are a new user, you will be asked for a repository. The screen will look like this:<br/></p>
@@ -139,37 +139,37 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h2>Artefact overview</h2>
 			<p>The ADL Workbench is designed to parse and validate archetypes. Technically speaking, 'archetypes' are any artefact conforming to the openEHR Archetype Definition Language (ADL) and Archetype Object Model (AOM) specifications (see lower part of the <a href="http://www.openehr.org/programs/specification/releases/currentbaseline">specifications page</a>), or the older EN13606-2 specification, which is a snapshot of the openEHR AOM 1.4 specification. The latest <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/aom1.5.pdf?raw=true">ADL 1.5 specification</a> defines 4 logical kinds of artefact. These include three kinds of archetype, and the 'operational template'. The latter is generated from a template, and is used as the basis for all further downstream transformations. The various artefact types and their file formats are shown below.</p>
             
-			<table class="TableMain">
+			<table class="TableBasic">
             <tbody>
 			<tr>
-				<th class="TableMainT">Artefact type</th>
-				<th class="TableMainT">Description</th>
-				<th class="TableMainT">Source file types</th>
-				<th class="TableMainT">Flat file type</th>
+				<th>Artefact type</th>
+				<th>Description</th>
+				<th>Source file types</th>
+				<th>Flat file type</th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <b>archetype</b> </td>
-				<td class="TableMainC">a theme-based definition of multiple data points/groups, using the archetype constraint formalism</td>
-				<td class="TableMainC">.adls (ADL 1.5)<br/>.adl (ADL 1.4)</td>
-				<td class="TableMainC">.adlf</td>
+				<td> <b>archetype</b> </td>
+				<td>a theme-based definition of multiple data points/groups, using the archetype constraint formalism</td>
+				<td>.adls (ADL 1.5)<br/>.adl (ADL 1.4)</td>
+				<td>.adlf</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <b>template</b> </td>
-				<td class="TableMainC">a use-case specific definition of content, consisting of data items from various archetypes</td>
-				<td class="TableMainC">.adls</td>
-				<td class="TableMainC"><br/></td>
+				<td> <b>template</b> </td>
+				<td>a use-case specific definition of content, consisting of data items from various archetypes</td>
+				<td>.adls</td>
+				<td><br/></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <b>template_component</b> </td>
-				<td class="TableMainC">a component of a template</td>
-				<td class="TableMainC">.adls</td>
-				<td class="TableMainC"><br/></td>
+				<td> <b>template_component</b> </td>
+				<td>a component of a template</td>
+				<td>.adls</td>
+				<td><br/></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <b>operational_template</b> </td>
-				<td class="TableMainC">the inheritance-flattened form of a template, used as the basis for all further transformations</td>
-				<td class="TableMainC"><br/></td>
-				<td class="TableMainC">.opt</td>
+				<td> <b>operational_template</b> </td>
+				<td>the inheritance-flattened form of a template, used as the basis for all further transformations</td>
+				<td><br/></td>
+				<td>.opt</td>
 			</tr>
             </tbody>
             </table>

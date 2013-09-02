@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 			
 			<h1><?php echo "$PageName";?></h1>
 		
@@ -151,6 +151,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>We need to focus on these opportunities for cross-governmental funding for openEHR, perhaps splitting the main open source and content standardisation roles of the foundation from a trading arm, owned by the Foundation, to develop revenue streams to support the goals of the Foundation.</p>
 			<p>At the same time, we have to remain firmly focused on our continuing pathway of keeping our teams together, expanding our partnerships and delivering the results needed to win the day!</p> 			
 			
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

@@ -40,7 +40,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<br/>
 				<?php include $_SERVER['DOCUMENT_ROOT'].'/entry_points/getting_started/menu.php' ?>
 				<br/>
-				<?php include $_SERVER['DOCUMENT_ROOT'].'/entry_points//i_am_working_on/menu.php' ?>
+				<?php include $_SERVER['DOCUMENT_ROOT'].'/entry_points/i_am_working_on/menu.php' ?>
 				<br/>
 			</div>
 			
@@ -60,10 +60,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				</ul>
 			<br/>
 			
-			<?php include $_SERVER['DOCUMENT_ROOT'].'/news_events//menu.php' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/news_events/menu.php' ?>
 			<br/>
 			
-			<?php include $_SERVER['DOCUMENT_ROOT'].'/about//menu.php' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/about/menu.php' ?>
 			<br/>
 			
 			Specifications (Quick Links)
@@ -87,13 +87,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				</ul>
 			<br/>
 				
-			<?php include $_SERVER['DOCUMENT_ROOT'].'/resources//menu.php' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/resources/menu.php' ?>
 			<br/>
 			
-			<?php include $_SERVER['DOCUMENT_ROOT'].'/community//menu.php' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/community/menu.php' ?>
 			<br/>
 		
-			<?php include $_SERVER['DOCUMENT_ROOT'].'/using_the_site//menu.php' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/using_the_site/menu.php' ?>
 			<br/>
 			</div>
 			

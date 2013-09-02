@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -26,6 +26,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>To date, openEHR at the international level has concentrated on the first category - international definitions of standard clinical information. Within national programmes, archetypes have been both developed and re-used as the basis for templates for national use.</p>
 			<p>As a clinician you can get involved in the first category purely on the basis of professional interest, and/or as part of a professional or national programme. To do this, you can join the openEHR community, joining the <a href="http://lists.openehr.org/mailman/listinfo/openehr-announce_lists.openehr.org">announcements</a> and <a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">clinical</a> mailing lists as a first step. There are more than 1000 people from 75+ countries already there. You can also join the openEHR <a href="http://www.openehr.org/knowledge/" target="_blank">Clinical Knowledge Manager</a> (CKM) as a contributor, and build archetypes for open international use. If you are a specialist, your expertise will be particularly valued. The CKM operates as an online community, with individuals discussing and working on archetypes in their interest area.</p>
 
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

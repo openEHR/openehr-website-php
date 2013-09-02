@@ -1,10 +1,33 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 
-<html>
+<html lang="en">
 
 <head>
+	
+	<title>openEHR - <?php echo "$PageName";?></title>
+	<meta charset="utf-8">	
+	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
+	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
+	<meta name="author" content="Sam Heard, Thomas Beale">
+	<meta name="designer" content="Adriana Danilakova">
+	<meta name="rating" content="General">
+	<meta name="robots" content="All">
+	<meta name="revisit-after" content="15 days">
+	<meta name="viewport" content="1024">
 
-	<?php include $_SERVER['DOCUMENT_ROOT'].'/panel/headpanel.php' ?>
+	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
+	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
+	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
+	
+	<link rel="shortcut icon" href="/gui/favicon.ico">
+	<link rel="home" href="http://www.openehr.org">
+	<link rel="index" href="/sitemap">
+
+	<script type="text/javascript" src="/menu/dropdown.js"></script> 
+	
+	<?php
+	$pageOn = basename($_SERVER['PHP_SELF']);
+	?>
 	
 </head>
 
@@ -17,11 +40,7 @@
 	</div>
 	
 	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include $_SERVER['DOCUMENT_ROOT'].'/menu/topmenu.php' ?>
-		</div>
-		
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/menu/topmenu.php' ?>
 	</div> 
 
 	<div id="MainArea">

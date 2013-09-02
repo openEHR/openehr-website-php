@@ -8,16 +8,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2><a name="status"></a>Legal Status</h2>
+			<h2>Legal Status</h2>
 			<p>The openEHR Foundation is currently a not-for-profit company, limited by guarantee. Its founders were University College London, UK and Ocean Informatics Pty Ltd, Australia. It is regulated under the UK Companies Acts 1985 and 1989. The name 'openEHR' has been registered internationally as a Trade Mark.</p>
 			<p>As part of the new governance, the Foundation will be recreated as a new not-for-profit company, possibly in the form of a <a href="http://en.wikipedia.org/wiki/Community_Interest_Company" target="_blank">UK Community Interest Company</a>, or else in the form of a Private company limited by guarantee (the same as the current form), commonly used for non-profits in the UK. The new organisation will be created by consultation  of the interim board and prospective organisational members.</p>
 			
 			
-			<h2><a name="vision"></a>openEHR Vision</h2>
+			<h2>openEHR Vision</h2>
 			<p>The openEHR Foundation vision is of a world in which healthcare routinely obtains benefit from ICT, in particular:</p>
 			<ul>
 				<li>life-long interoperable electronic health records (EHRs);</li>
@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 			
 			
-			<h2><a name="mission"></a>openEHR Mission</h2>
+			<h2>openEHR Mission</h2>
 			<p>The Foundation is proceeding on the basis of three principles: rigour, engagement and trust. These correspond to the key activities of the Foundation, organised under the four Programs:</p>
 			<ul>
 				<li><a href="/programs/specification/">Specification Program</a>:
@@ -74,6 +74,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h3>Finally...</h3>
 			<p>The openEHR Foundation will continue to proceed based on its usual 3 key activities ... implementation, implementation, implementation.</p>
 			
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

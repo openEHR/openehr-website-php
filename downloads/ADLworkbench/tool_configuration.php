@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>In order to work with the examples described below, the following configuration is advised. Experienced users may skip this step.</p>
 			
 			<a name="rmschemaconfiguration"></a><h3>RM Schema configuration</h3>
-			<p>Reference Model (RM) Schemas are used by the ADL Workbench to validate archetypes and templates. Schemas are expressed as dADL files and have a '.bmm' (basic meta-model) extension. The currently available RM schemas can be found <a href="https://github.com/openEHR/reference-models">here</a>. These schemas are defined in a nested way, with most files visible here being used as component schemas for a small number of top-level schemas representing the openEHR Reference Model, EN13606 model and so on.</p>
+			<p>Reference Model (RM) Schemas are used by the ADL Workbench to validate archetypes and templates. Schemas are expressed as dADL files and have a '.bmm' (basic meta-model) extension. The currently available RM schemas can be found <a href="https://github.com/openEHR/reference-models" target="_blank">here</a>. These schemas are defined in a nested way, with most files visible here being used as component schemas for a small number of top-level schemas representing the openEHR Reference Model, EN13606 model and so on.</p>
 			<p>You will need to have all the relevant RM schemas selected for the repository profiles described above to work. Assuming you have followed the above instructions, you do this as follows:</p>
 			<ul>
 				<li>Select the RM Schemas menu &gt; Configure Schemas...</li>

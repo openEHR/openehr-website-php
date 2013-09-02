@@ -9,191 +9,228 @@ article,aside,footer,header,hgroup,nav,section,figure,figcaption { display: bloc
 
 /* Main layout */
 body {
- background-color:#F3f8fa;
- color:#000000;
- font-family:Verdana, Arial, Helvetica, sans-serif;
- font-size:12px;
- line-height:120%;
-/* box-shadow: inset 0px 750px 50px 0px rgba(232,244,249,1);*/
- }
- 
+background-color:#f3f8fa;
+color:#000000;
 
-#MainFrame {
- background-color:#FFFFFF;
- margin:auto;
- position:relative;
- width:1024px;
- z-index: 3;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:120%;
 }
+ 
+#MainFrame {
+position:relative;
+z-index: 3;
+
+width:1024px;
+margin:auto;
+
+background-color:#ffffff;
+}
+
 
 /* Panels and menus */
 
 /* Top panel beginning */
 #TopPanel {
- background-color:#e7eff6;
- background-image: url("../gui/TopPanel.png"); 
- background-repeat:no-repeat;
- height:75px;
- position:relative;
- width:1024px;
+position:relative;
+
+height:75px;
+width:1024px;
+ 
+background-color:#e7eff6;
+background-image:url("../gui/TopPanel.png"); 
+background-repeat:no-repeat;
 }
 
 #Utilities {
- height:40px;
- width:350px;
- position: absolute;
- text-align:right;
- font-size:11px;
- top:10px;
- left:630px;
+position:absolute;
+left:630px;
+top:10px;
+
+height:40px;
+width:350px;
+
+font-size:11px;
+text-align:right;
 }
 
 #Utilities a {
- color:#023760;
- text-decoration:none;
+color:#023760;
+
+text-decoration:none;
 }
 
 #Utilities a:hover{
- color:#023760;
- text-decoration:underline;
+color:#023760;
+
+text-decoration:underline;
 }
 
 #Search {
- height:40px;
- width:250px;
- position: absolute;
- padding-top:0px;
- text-align:right;
- top:30px;
- left:750px;
+position:absolute;
+left:750px;
+top:30px;
+
+height:40px;
+width:250px;
+padding-top:0px;
+
+text-align:right;
 } 
 
 #Search span {
- color:#023760;
- font-weight:900; 
- font-size:12px;
- line-height:130%;
+color:#023760;
+
+font-size:12px;
+font-weight:900; 
+line-height:130%;
+}
+
+#Search input {
+border-color:#aaaaaa;
+}
+
+#Search input.gsc-search-button {
+background-color:#00355f;
+border-color:#003056;
 }
 
 #Logo {
- height:60px;
- width:180px;
- position:absolute;
- left:40px;
- top:8px;
+position:absolute;
+left:40px;
+top:8px;
+
+height:60px;
+width:180px;
 }
 
 #Logo a {
- text-decoration:none;
- display:block;
- height:60px;
- width:180px;
+display:block;
+height:60px;
+width:180px;
+
+text-decoration:none;
 }
 
 #Motto {
- height:30px;
- width:280px;
- position: absolute;
- padding-top:0px;
- text-align:left;
- top:23px;
- left:230px;
- color:#023670;
- font-size:13px;
- font-weight:100;
- font-style:italic;
- line-height:100%;
+position:absolute;
+left:230px;
+top:23px;
+
+height:30px;
+width:280px;
+padding-top:0px;
+
+color:#023670;
+
+font-size:13px;
+font-weight:100;
+font-style:italic;
+line-height:100%;
+text-align:left;
 }
 /* Top panel end */
 
+/* Top Menu */
 /* Rest is defined in Menu style file */
 #TopMenu{
- background-color:#edc172;
- background-image: url("../gui/TopMenu.png");
- height:30px;
- width:1024px;
- border-top:1px solid #eda656;
- border-bottom:1px solid #eda656;  
+height:30px;
+width:1024px;
+border-top:1px solid #eda656;
+border-bottom:1px solid #eda656; 
+ 
+background-color:#edc172;
+background-image: url("../gui/TopMenu.png");
 }
 
 /* Bottom menu beginning */
 #BottomMenu {
- background-color:#edc172;
- background-image: url("../gui/BottomMenu.png");
- height:190px;
- position:relative;
- width:1024px;
- padding-top:15px; 
- border-top:1px solid #eda656;
- border-bottom:1px solid #eda656;
+position:relative;
+
+height:190px;
+width:1024px;
+padding-top:15px; 
+border-top:1px solid #eda656;
+border-bottom:1px solid #eda656;
+
+background-color:#edc172;
+background-image: url("../gui/BottomMenu.png");
 }
 
-#BottomFrame {
- color:#00355f;
- height:190px;
- width:180px;
- position: absolute;
- padding-left:10px;
- padding-right:10px;
+.BottomMenuSection {
+position:absolute;
+
+height:190px;
+width:180px;
+padding-left:10px;
+padding-right:10px;
+
+color:#00355f;
 }
 
-#BottomFrame ul {
-list-style:none;
+.BottomMenuSection ul {
 line-height:200%;
-
+list-style:none;
 }
 
-#BottomFrame a {
- text-decoration:none;
- color:#00355f;
- font-weight:500;
+.BottomMenuSection a {
+color:#00355f;
+
+font-weight:500;
+text-decoration:none;
 }
 
-#BottomFrame a:hover {
- color:#00355f;
- font-weight:900;
+.BottomMenuSection a:hover {
+color:#00355f;
+
+font-weight:900;
 }
 
 .MenuHeading {
+margin-bottom:0.5em;
+
+color:#00355f; 
+
 font-size:14px;
 font-weight:900; 
 line-height:150%; 
-color:#00355f; 
 text-decoration:none; 
-margin-bottom:0.5em;
 }
 /* Bottom menu end */
 
-/*Bottom panel beginnig */
+/* Bottom panel beginnig */
 #BottomPanel {
- background-color:#6c9fc4;
- background-image: url("../gui/BottomPanel.png"); 
- background-repeat:no-repeat;
- height:15px;
- position:relative;
- width:1024px;
- padding-top:15px;
- padding-bottom:15px;
+position:relative;
+
+height:15px;
+width:1024px;
+padding-top:15px;
+padding-bottom:15px;
+
+background-color:#6c9fc4;
+background-image: url("../gui/BottomPanel.png"); 
+background-repeat:no-repeat;
 }
 
 #BottomPanel p {
- text-align:center;
+text-align:center;
 }
 
 #BottomPanel span {
-text-decoration:none;
-font-weight:900;
 color:#023760;
+
+font-weight:900;
+text-decoration:none;
 }
 
 #BottomPanel a {
-text-decoration:none;
-font-weight:900;
 color:#023760;
+
+font-weight:900;
+text-decoration:none;
 }
 
 #BottomPanel a:hover{
 text-decoration:underline;
 }
-
 /* Bottom panel end */

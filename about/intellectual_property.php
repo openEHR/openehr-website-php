@@ -8,34 +8,34 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 			
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Licence Overview</h2>
 			<p>The three areas of work that constitute the main Foundation IP will be licensed in the  following manner:</p>
 			
-			<table class="TableMain">
+			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th class="TableMainT">Asset</th>
-				<th class="TableMainT">Description</th>
-				<th class="TableMainT">Licence</th>
+				<th>Asset</th>
+				<th>Description</th>
+				<th>Licence</th>
 			</tr>
 			<tr>
-				<td class="TableMainC"><em>Specification</em></td>
-				<td class="TableMainC">Official specifications of the Foundation</td>
-				<td class="TableMainC">Copyright openEHR Foundation, licensed under Creative Commons CC-BY-ND. <a href="../programs/specification/iplicense">Details</a></td>
+				<td><em>Specification</em></td>
+				<td>Official specifications of the Foundation</td>
+				<td>Copyright openEHR Foundation, licensed under Creative Commons CC-BY-ND. <a href="/programs/specification/iplicense">Details</a></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><em>Clinical Models</em></td>
-				<td class="TableMainC">Archetypes, Templates and Terminology subsets developed by the community</td>
-				<td class="TableMainC">Creative Commons for organisational and individual use. CC-BY-(SA) The Share Alike (SA) is specifically applied to derived archatypes and templates only. <a href="../programs/clinicalmodels/iplicense">Details</a></td>
+				<td><em>Clinical Models</em></td>
+				<td>Archetypes, Templates and Terminology subsets developed by the community</td>
+				<td>Creative Commons for organisational and individual use. CC-BY-(SA) The Share Alike (SA) is specifically applied to derived archatypes and templates only. <a href="/programs/clinicalmodels/iplicense">Details</a></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"><em>Software</em></td>
-				<td class="TableMainC">Software with IP rights ascribed to the openEHR Foundation</td>
-				<td class="TableMainC">Apache 2 License. <a href="../programs/software/iplicense">Details</a></td>
+				<td><em>Software</em></td>
+				<td>Software with IP rights ascribed to the openEHR Foundation</td>
+				<td>Apache 2 License. <a href="/programs/software/iplicense">Details</a></td>
 			</tr>
 			</tbody>
 			</table>
@@ -54,6 +54,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<li>Have a formal agreement to use any terminology codes, value sets and reference sets where required.</li>
 			</ul>
 			
-<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

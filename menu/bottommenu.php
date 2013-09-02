@@ -1,4 +1,4 @@
-		<div id="BottomFrame" style="left:40px;">
+		<div class="BottomMenuSection" style="left:40px;">
 			<p class="MenuHeading">Specifications <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
 			<li><a href="/programs/specification/releases/1.0.2" title="Current official release of specifications">Current Release</a></li>
@@ -10,7 +10,7 @@
 			</ul>
 		</div>
 
-		<div id="BottomFrame" style="left:245px;">
+		<div class="BottomMenuSection" style="left:245px;">
 			<p class="MenuHeading">Clinical Models <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 			<ul>
 			<li><a href="/ckm/" title="Clinical Knowledge Manager">CKM</a></li>
@@ -21,7 +21,7 @@
 			</ul>
 		</div>
 		
-		<div id="BottomFrame" style="left:455px;">
+		<div class="BottomMenuSection" style="left:455px;">
 			<p class="MenuHeading">Resources <sup style="font-size:8px; font-style:italic;">Learn More</sup></p>
 			<ul>
 			<li><a href="/resources/learning_centre">Learning Centre</a></li>
@@ -32,7 +32,7 @@
 			</ul>
 		</div>
 
-		<div id="BottomFrame" style="left:635px;">
+		<div class="BottomMenuSection" style="left:635px;">
 			<p class="MenuHeading">Community <sup style="font-size:8px; font-style:italic;">Follow Us</sup></p>
 			<ul>
 			<li><a href="/wiki" target="_blank">Wiki</a></li>
@@ -44,7 +44,7 @@
 			</ul>
 		</div>
 		
-		<div id="BottomFrame" style="left:815px;">
+		<div class="BottomMenuSection" style="left:815px;">
 			<p class="MenuHeading">Using the Site <sup style="font-size:8px; font-style:italic;">Policies</sup></p>
 			<ul>
 			<li><a href="/using_the_site/terms_of_use">Terms of Use</a></li>

@@ -12,10 +12,11 @@ if (isset($_POST['submitted'])) {
 	require_once ('login_functions.php');
 	
 	// Need the database connection:
-	require_once ('../../con_test.php');
+	require_once ('../../con_real.php');
 		
 	// Check the login:
-	list ($check, $data) = check_login($dbc, $_POST['email'], $_POST['pass']);
+	
+	list ($check, $data) = check_login($conx, $_POST['email'], $_POST['pass']);
 	
 	if ($check) { // OK
 			
@@ -38,7 +39,7 @@ if (isset($_POST['submitted'])) {
 
 	}
 		
-	mysqli_close($dbc); // Close the database connection.
+	mysqli_close($conx); // Close the database connection.
 
 } // End of the main submit conditional.
 
@@ -47,4 +48,3 @@ if (isset($_POST['submitted'])) {
 include ('index.php');
 
 ?>
-

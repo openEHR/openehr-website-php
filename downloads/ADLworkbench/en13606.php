@@ -17,7 +17,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			
 			<h2>EN13606 schema for AWB</h2>
-			<p>An initial schema for EN13606-1 has been included in the set of RM schemas used by AWB. This was produced by Christoph Rinner (Medical University of Vienna) and Thomas Beale (Ocean Informatics). The definitive copy of this resides in the openEHR <a href="https://github.com/openEHR/reference-models/tree/master/models/ISO_13606/2008/BMM">openEHR reference-models GitHub repository</a>. If you are interested in being added to the committers list to work on this schema, please email webmaster@openehr.org.</p>
+			<p>An initial schema for EN13606-1 has been included in the set of RM schemas used by AWB. This was produced by Christoph Rinner (Medical University of Vienna) and Thomas Beale (Ocean Informatics). The definitive copy of this resides in the openEHR <a href="https://github.com/openEHR/reference-models/tree/master/models/ISO_13606/2008/BMM" target="_blank">openEHR reference-models GitHub repository</a>. If you are interested in being added to the committers list to work on this schema, please email webmaster@openehr.org.</p>
 			<a href="images/rm_schema_en13606.png"><img border="0" alt="RM Schema EN13606 schema view" src="images/rm_schema_en13606.png" width="150"/></a>
 			
 			
@@ -27,7 +27,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			
 			<h2>EN13606 archetypes</h2>
-			<p>Some initial 13606 archetypes have been created <a href="https://github.com/openEHR/adl-archetypes/tree/master/Example/EN13606">here</a> in the adl-archetypes Github repository. These are currently purely experimental and unreviewed.</p>
+			<p>Some initial 13606 archetypes have been created <a href="https://github.com/openEHR/adl-archetypes/tree/master/Example/EN13606" target="_blank">here</a> in the adl-archetypes Github repository. These are currently purely experimental and unreviewed.</p>
 
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
