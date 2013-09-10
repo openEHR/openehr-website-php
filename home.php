@@ -6,7 +6,6 @@ $PageName = 'Welcome to openEHR';
 
 require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_top.php');
 ?>
-
 	<div id="MainArea" style="height:740px">
 
 		<div id="WhatFrame">
