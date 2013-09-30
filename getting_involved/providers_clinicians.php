@@ -13,7 +13,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<p>Clinicians and their clients are what openEHR is about. The power to create life-long and future-proof health records that support health and health care across the full range of health care environments. By separating the specification of clinical information from the model on which the software operates, clinicians can go on extending their shared information requirements to meet evolving needs.</p>
-			
+			<p style="text-align:center;"><a href="/files/getting_involved/providers_clinicians.png"><img src="/files/getting_involved/providers_clinicians.png" alt="openEHR Ecosystem - Privders / Clinicians" title="openEHR Ecosystem - Privders / Clinicians" width="480px" style="border: solid 1px #CCCCCC;"></a></p>	
+		
 			
 			<h2>What can openEHR do for you</h2>
 			<p>As a clinician you are in the position to present your information requirements to the openEHR community and ensure that the specifications really do allow you to do what you need. These are specified as archetypes - allowing them to be shared across systems implementing the openEHR architecture.</p>
@@ -31,7 +32,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			
 			<h2>How you can get involved</h2>
-			<p>You can join the <a href="/community/mailinglists">mailing lists</a> as a first step. There are more than 1000 people from 75+ countries already there. You can also become part of openEHR as an Individual member. Find out more about <a href="/about/membership">membership</a>.</p>
+			<p>You can join the <a href="/community/mailinglists">mailing lists</a> as a first step. There are more than 1000 people from 75+ countries already there. You can also become part of openEHR as an Individual member. Find out more about <a href="/about/membership#individualmembership">membership</a>.</p>
 			
 			
 			<h2>How openEHR works for others</h2>

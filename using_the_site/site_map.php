@@ -35,13 +35,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<?php include $_SERVER['DOCUMENT_ROOT'].'/programs/localisation/menu.php' ?>
 				<br/>
 				
-			Entry Points
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/getting_involved/menu.php' ?>
 			<br/>
-				<br/>
-				<?php include $_SERVER['DOCUMENT_ROOT'].'/entry_points/getting_started/menu.php' ?>
-				<br/>
-				<?php include $_SERVER['DOCUMENT_ROOT'].'/entry_points/i_am_working_on/menu.php' ?>
-				<br/>
 			</div>
 			
 			<div style="position:absolute; left:400px; top:50px;">

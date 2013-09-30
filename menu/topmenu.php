@@ -12,11 +12,7 @@
 			</ul>
 			</li>
 			
-			<li><span>Entry Points</span>
-			<ul>
-				<li><a href="/entry_points/getting_started">&nbsp; Getting Started</a></li>
-				<li><a href="/entry_points/i_am_working_on">&nbsp; I am working on</a></li>
-			</ul>
+			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/getting_involved/menu.php'?>
 			</li>
 			
 			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/downloads/menu.php'?>
