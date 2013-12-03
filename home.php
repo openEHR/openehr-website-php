@@ -32,18 +32,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_top.php');
 			</div>
 		</div>
 
-		<div id="AboutFrame">
-			<img src="gui/AboutFrame.png" alt="About openEHR Foundation image" usemap="#about"/>
-			<map name="about">
-			  <area shape="rect" coords="0,0,220,150" href="about/foundation" alt="About openEHR Foundation" />
-			</map> 
-			<div class="TextFrame">
-				<h1>About openEHR<br/>Foundation</h1>
-				<p>openEHR Foundation is open for everybody to join and participate.
-				<br/><a href="about/foundation"  style="line-height:200%;">Learn more</a></p>
-			</div>
-		</div>
-			
 		<div id="ProgramsFrame">
 			<img src="gui/ProgramsFrame.png" alt="The openEHR programs image" usemap="#join"/>
 			<map name="join">
@@ -53,7 +41,33 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_top.php');
 				<h1>The openEHR<br/>Programs</h1>
 				<p>4 openEHR Programs: Specification, Clinical Models, Software, Localisation 
 				<br/><a href="openehr_programs" style="line-height:200%;">Learn more</a></p>
-			</div> 
+			</div>
+			<!--<img src="gui/AboutFrame.png" alt="About openEHR Foundation image" usemap="#about"/>
+			<map name="about">
+			  <area shape="rect" coords="0,0,220,150" href="about/foundation" alt="About openEHR Foundation" />
+			</map> 
+			<div class="TextFrame">
+				<h1>About openEHR<br/>Foundation</h1>
+				<p>openEHR Foundation is open for everybody to join and participate.
+				<br/><a href="about/foundation"  style="line-height:200%;">Learn more</a></p>
+			</div>-->
+		</div>
+			
+		<div id="PartnersFrame">
+			<div id="PartnersLogo">
+				<p><a href="/industry_partners/cambio_healthcare_systems"><img src="files/industry_partners/cambio_logo.png"></a></p>
+				<p><a href="/industry_partners/code24"><img src="files/industry_partners/code24_logo.png"></a></p>
+				<p><a href="/industry_partners/critical_software"><img src="files/industry_partners/critical_logo.png"></a></p>
+				<p><a href="/industry_partners/dips"><img src="files/industry_partners/dips_logo.png"></a></p>
+				<p><a href="/industry_partners/infinnity_solutions"><img src="files/industry_partners/infinnity_logo.png"></a></p>
+				<p><a href="/industry_partners/marand"><img src="files/industry_partners/marand_logo.png"></a></p>
+				<p><a href="/industry_partners/ocean_informatics"><img src="files/industry_partners/ocean_logo.png"></a></p>
+			</div>
+			<div class="TextFrame">
+				<h1>openEHR Industry<br/>Partners</h1>
+				<p>Find out about eHealth solutions developed by openEHR Industry Partners
+				<br/><a href="/industry_partners" style="line-height:200%;">Learn more</a></p>
+			</div>
 		</div>
 		
 		<div id="BigFrame">
@@ -210,4 +224,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_top.php');
 			</div>	 
 				
 		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+   		<script src="/functions/rotating_logos.js"></script>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

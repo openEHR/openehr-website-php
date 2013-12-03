@@ -68,7 +68,7 @@ height:300px;
 width:230px;
 }
 
-#AboutFrame {
+#ProgramsFrame {
 position:absolute;
 left:520px;
 top:125px;
@@ -77,13 +77,17 @@ height:300px;
 width:230px;
 }
 
-#ProgramsFrame {
+#PartnersFrame {
 position:absolute;
 left:760px;
 top:125px;
+z-index:10;
  
 height:290px;
 width:230px;
+
+background-image:url("../gui/PartnersFrame.png");
+background-repeat:no-repeat;
 }
 
 .TextFrame {
@@ -163,3 +167,25 @@ padding-right:25px;
 padding-bottom:10px;
 }
 /* End of big news frame */
+
+#PartnersLogo{
+background: white; 
+border: none; 
+display: block; 
+margin-top: 30px; 
+margin-left:30px;
+padding: 10px;
+width: 140px;
+}
+
+#PartnersLogo p{
+color: #333; 
+display: none; 
+font-weight: bold; 
+text-align: center;
+margin-bottom: 0px;
+}
+
+#PartnersLogo p:first-child{
+display: block;
+}

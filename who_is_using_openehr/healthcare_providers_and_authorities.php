@@ -142,6 +142,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td>Consoritum led by <a href="http://www.marand-thinkmed.com/">Marand, Slovenia</a></td>
 				<td>Contracted Sep 2012; initial deployment Q2 2013</td>
 			</tr>
+			<tr>
+				<td><img src="/files/who_is_using_openehr/uk_S.gif" alt="Flag of United Kingdom" title="Flag of United Kingdom" style="width:80px;"><p>UK</p></td>
+				<td><a href="http://www.leedsnorthccg.nhs.uk/about-us/leeds-care-record.htm" target="_blank">NHS Leeds North Clinical Commissioning Group</a></td>
+				<td>The Leeds Care Record is a city-wide community-based shared health records system that enables clinicians at Leeds Hospital to see GP records of admitted patients, and GPs to see other GP records (e.g. in case of patient move). It aims to support 'source of truth' key health data such as medications list, problem list and shared care plan. Based on established industry standards including openEHR.</td>
+				<td><a href="http://oceaninformatics.com/" target="_blank">Ocean Informatics UK</a></td>
+				<td>Pilot contracted Sep 2012; initial deployment October 2013</td>
+			</tr>
 			</tbody>
 			</table>
 			
