@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE HTML>
 
-<html lang="en">
+<html lang="es">
 
 <head>
 
 	<title><?php echo "$PageName";?></title>
 	<meta charset="utf-8">		
-	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
-	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
+	<meta name="description" content="openEHR provee especificaciones abiertas e implementaciones de referencia de código abierto para sistemas de HCE">
+	<meta name="keywords" content="arquetipos, historia clínica electróncia, registro clínico electrónico, Estándares de HCE, modelos clínicos, atención sanitaria, informática en salud, informática médica, software clínico">
 	<meta name="author" content="Sam Heard, Thomas Beale">
 	<meta name="designer" content="Adriana Danilakova">
 	<meta name="rating" content="General">
