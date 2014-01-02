@@ -14,17 +14,24 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			<a href="https://www.code24.nl/" target="_blank"><img src="/files/industry_partners/code24_logo.png" width="100px" style="padding:0px 20px 0px 0px; float:left;"></a>
 			
-			<p><em>Headquarters:</em> Netherlands</p>
-			<p><em>Branches:</em> no</p>
-			<p><em>Size:</em> ...</p>
-			<p><em>Trading since:</em> ...</p>
+			<p><em>Headquarters:</em> The Netherlands</p>
+			<p><em>Branches:</em> None</p>
+			<p><em>Size:</em> 7 employees</p>
+			<p><em>Trading since:</em> 2010</p>
 			<p><a href="https://www.code24.nl/" target="_blank">Code24 website</a></p>
 			
-			<h2>Solutions</h2>
-			<p>xxx</p>
+			<h2>Healthcare Services</h2>
+			<p><a href="http://www.code24.nl/consultancy" target="_blank">Consultancy</a></p>
+			<p><a href="http://www.code24.nl/training" target="_blank">Training</a></p>
 			
-			<h2>Customers</h2>
-			<p>xxx</p>
+			<h2>Healthcare Solutions</h2>
+			<p>mConsole - Care provider portal</p>
+			<p>Base24 - Database (based on the openEHR specifications)</p>
+			
+			<h2>Healthcare Customers</h2>
+			<p><a href="http://www.ggzfriesland.nl" target="_blank">GGZ Friesland</a></p>
+			<p><a href="http://www.ggz-nhn.nl/" target="_blank">GGZ Noord-Holland-Noord</a></p>
+			<p><a href="http://www.rkz.nl/" target="_blank">RKZ</a></p>
 		
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
