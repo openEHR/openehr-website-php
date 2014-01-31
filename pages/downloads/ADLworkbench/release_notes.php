@@ -14,6 +14,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			<h2>Release History</h2>
 			
+			<h3>15 October 2013 ADL 1.5 beta Release 10 (<a href="https://github.com/openEHR/adl-tools/tree/1.5beta10">Git tag 1.5beta10</a>) 
+				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10160">Jira</a>)</h3>
+				
 			<h3>9 April 2013 ADL 1.5 beta Release 9 (<a href="https://github.com/openEHR/adl-tools/tree/1.5beta9">Git tag 1.5beta9</a>) 
 				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10160">Jira</a>)</h3>
 				
