@@ -62,6 +62,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td> <a href="https://github.com/openEHR/downloads/blob/master/linux/adl_workbench/adl_workbench-linux.tar.bz2?raw=true">.tar bz2 archive</a></td>
 				<td> <a href="installation_notes#linux">here</a></td>
 			</tr>
+			<tr>
+				<td>Linux (32-bit Intel)<br/></td>
+				<td>beta 10</td>
+				<td> <a href="https://github.com/openEHR/downloads/blob/master/linux/adl_workbench/adl_workbench-linux-beta10.tar.bz2?raw=true">.tar bz2 archive</a></td>
+				<td> <a href="installation_notes#linux">here</a></td>
+			</tr>
 			</tbody>
             </table>
 			
