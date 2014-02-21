@@ -12,16 +12,16 @@
 			</ul>
 			</li>
 			
-			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/getting_involved/menu.php'?>
+			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/pages/getting_involved/menu.php'?>
 			</li>
 			
-			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/downloads/menu.php'?>
+			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/pages/downloads/menu.php'?>
 			</li>
 			
-			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/news_events/menu.php'?>
+			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/pages/news_events/menu.php'?>
 			</li>
 		
-			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/about/menu.php'?>
+			<li><?php include $_SERVER['DOCUMENT_ROOT'].'/pages/about/menu.php'?>
 			</li>
 
 		</ul>

@@ -7,12 +7,14 @@
 	</div>
 
 	<div id="BottomPanel">
-		<?php include $_SERVER['DOCUMENT_ROOT'].'/panel/bottompanel.php' ?>
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/bottompanel.php' ?>
 	</div>
 
 </div>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/panel/scriptpanel.php' ?>
+<script type="text/javascript">
+var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
 
 </body>
 

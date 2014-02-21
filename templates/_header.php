@@ -36,7 +36,7 @@
 <div id="MainFrame">
 	
 	<div id="TopPanel">
-		<?php include $_SERVER['DOCUMENT_ROOT'].'/panel/toppanel.php' ?>
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/toppanel.php' ?>
 	</div>
 	
 	<div id="TopMenu">

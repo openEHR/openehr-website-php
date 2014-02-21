@@ -1,4 +1,4 @@
-/* Resetting styles */
+﻿/* Resetting styles */
 html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,image,mark,meter,nav,output,progress,section,summary,time { margin: 0; padding: 0; border: 0;}
 h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption { font-size: 12px; font-weight: normal; font-style: normal;  font-family:Verdana, Arial, Helvetica, sans-serif; }
 fieldset,iframe { border: none; }
@@ -33,6 +33,7 @@ background-color:#ffffff;
 /* Top panel beginning */
 #TopPanel {
 position:relative;
+top:0px;
 
 height:75px;
 width:1024px;

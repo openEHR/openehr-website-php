@@ -37,62 +37,7 @@
 <?php
 $PageName = 'Edit News Items';
 ?>
-<!DOCTYPE HTML>
-
-<html lang="en">
-
-<head>
-
-	<title>openEHR - <?php echo "$PageName";?></title>
-	<meta charset="utf-8">	
-	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
-	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
-	<meta name="author" content="Sam Heard, Thomas Beale">
-	<meta name="designer" content="Adriana Danilakova">
-	<meta name="rating" content="nofollow">
-	<meta name="robots" content="All">
-	<meta name="revisit-after" content="15 days">
-	<meta name="viewport" content="1024">
-
-	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
-	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
-	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
-	
-	<link rel="shortcut icon" href="/gui/favicon.ico">
-	<link rel="home" href="http://www.openehr.org">
-	<link rel="index" href="/sitemap">
-
-	<script type="text/javascript" src="/menu/dropdown.js"></script> 
-	
-	<?php
-	$pageOn = basename($_SERVER['PHP_SELF']);
-	?>
-	
-	<script type="text/javascript" src="tinymce/tinymce.min.js"></script>
-	<script type="text/javascript">
-	tinymce.init({
-		selector: "textarea",
-		plugins: "link"
-	});
-	</script>
-
-</head>
-
-<body>
-
-<div id="MainFrame">
-	
-	<div id="TopPanel">
-		<?php include '../panel/toppanel.php' ?>
-	</div>
-	
-	<div id="TopMenu">
-	
-		<div class="nav">
-			<?php include '../menu/topmenu.php' ?>
-		</div>
-		
-	</div> 
+<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/_header_login.php' ?>
 
 	<div id="MainArea" style=" margin-left:30px; width:900px; ">
 		
@@ -268,23 +213,6 @@ $PageName = 'Edit News Items';
 				<br/>
 				<p><a href="user_home">>> Back to User Home</a></p>
 			
-		</div>
-		
-	</div>
-	
-	<div id="BottomMenu">
-		<?php include '../menu/bottommenu.php' ?>
-	</div>
-
-	<div id="BottomPanel">
-		<?php include '../panel/bottompanel.php' ?>
-	</div>
-
-</div>
-
-<?php include '../panel/scriptpanel.php' ?>
-<script type ="text/javascript" src="submit.js"></script>
-
-</body>
-
-</html>
+<!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
+			</div>	
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer_login.php');?>
