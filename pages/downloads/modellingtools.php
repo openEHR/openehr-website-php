@@ -46,7 +46,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td><em>Template Designer</em></td>
 				<td>The Template Designer is based on the open .oet format in use with ADL 1.4 archetypes.</td>
 				<td>.Net; Windows.</td>
-				<td><br/><a href="/downloads/TemplateDesigner/TemplateDesignerSetup_2.6.1213.3.exe">TemplateDesignerSetup_2.6.1213.3.exe (EN)</a><br/></td>
+				<td><br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.6.1213.3.exe">TemplateDesignerSetup_2.6.1213.3.exe (EN)</a><br/></td>
 				<td>(Open source Git repo coming soon)</td>
 			</tr>
 			<tr>
