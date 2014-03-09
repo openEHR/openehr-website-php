@@ -30,8 +30,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 
 
 			<h2>Download</h2>
-			<p><a href="https://github.com/openEHR/downloads/blob/master/windows/archetype_editor/ArchetypeEditorInstall.exe?raw=true">Download the installer</a>.</p>
-			<p>Archetype Editor is available for Windows only. .NET 2.0 is required.</p>
+			<p><a href="/download_files/archetype_editor/archetype_editor_installer_windows-32bit.exe">Download the installer</a>.</p>
+			<p>Archetype Editor is available for Windows only. .NET 2.0 or higher is required.</p>
 			
 			<h3>Source Code</h3>
 			<p>The source code can be accessed from the <a href="https://github.com/openEHR/arch_ed-dotnet/wiki" target="_blank">GitHub home page</a>.</p>
