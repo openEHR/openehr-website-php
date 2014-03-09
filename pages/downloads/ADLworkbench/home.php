@@ -47,19 +47,19 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<tr>
 						<td> Windows (32-bit)</td>
 						<td> beta 10</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_windows-32bit.exe">.exe installer</a></td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_1.5beta10-windows_32bit.exe">.exe installer</a></td>
 						<td><br/> </td>
 					</tr>
 					<tr>
 						<td> Mac OS X 10.9 (Mavericks)<br/></td>
 						<td> beta 10</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_macosx-mavericks.dmg">.dmg installer</a></td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_1.5beta10-macosx_mavericks.dmg">.dmg installer</a></td>
 						<td> <a href="installation_notes#mac">here</a> <br/></td>
 					</tr>
 					<tr>
 						<td>Linux (32-bit Intel)<br/></td>
 						<td>beta 10</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_linux-intel-32bit.tar.bz2">.tar.bz2 archive</a></td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_1.5beta10-linux_32bit.tar.bz2">.tar.bz2 archive</a></td>
 						<td> <a href="installation_notes#linux">here</a></td>
 					</tr>
 				</tbody>
