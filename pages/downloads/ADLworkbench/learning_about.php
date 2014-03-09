@@ -23,15 +23,24 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>One question you may have is: what if I am not interested in the ADL syntax? You might be using XML archetypes for example. It is important to understand the various roles of ADL, XML and the AOM. These are explained in some detail in the specifications (see below). Briefly, the ADL workbench performs most of its work using AOM structures. It also has an ADL parser and serialiser, and in the near future, will have a parser and serialiser for XML archetypes. Apart from some syntax basics, nearly all the validation carried out by the AWB is on AOM structures and has nothing to do with the ADL syntax. Additionally, ADL is a human readable syntax good for understanding the concepts and examples. However, it does not have to be used in archetype authoring or production systems - the XML form is completely equivalent.</p>
 
 			<h3>Specifications Status</h3>
-			<p>These specifications are currently in late draft (Aug 2010) and are expected to be released as Trial Specifications in the near future. Although most of the principal features have been determined and implemented, there remain a number of details which could be changed; these are indicated in the text below. Your feedback on any aspect of the specification is encouraged, and can be reported on the <a href="http://www.openehr.org/issues/browse/SPECPR" target="_blank">openEHR SPEC_PR Jira project</a>. Please create new issues with the 'ADL 1.5' component specified.</p>
+			<p>These specifications will be released in early 2014 as stable Trial Specifications. Although most of the principal features have been determined and implemented, there remain a number of details which could be changed; these are indicated in the text below. Your feedback on any aspect of the specification is encouraged, and can be reported on the <a href="http://www.openehr.org/issues/browse/SPECPR" target="_blank">openEHR SPEC_PR Jira project</a>. Please create new issues with the 'ADL 1.5' component specified.</p>
 			<p>The remainder of this page describes the configuration of the tool for viewing the examples, and then describes in turn each of the features of ADL/AOM 1.5 grouped in the categories 'New features' and
 			'Changes'.</p>
 
 			
 			<h2>ADL/AOM 1.5 - New features</h2>
 
-			<h3>Unconstrained specialisation identifiers</h3>
-			<p>The identifier of a specialised archetype (and by implication template) under ADL 1.4 had to adhere to a pattern whereby the concept part of the id was a concatenation of the concept parts of all of its parents in the lineage, with the final segment being the concept of the current archetype. This restriction has been removed and the identifier of a specialised archetype or template is now the same as for any other archetype, i.e. the concept part is freely chosen. This is in line with how object-oriented source files in programming languages work, and is more sustainable and simpler for tooling. Specialisation relationships between archetypes are now solely defined by the 'specialisation' statement in the source text, just as programming language files use an 'inherit', 'extends' or similar statement. See the <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/knowledge_id_system.pdf" target="_blank">draft openEHR Knowledge Identification System document</a> for more detailed discussions about this. The practical implications are twofold: archetype and template identifiers are easier to create and manage, and there is no longer a redundancy of how specialisation is defined.</p>
+			<h3>New internal coding system</h3>
+			<p>The coding system used in ADL 1.4 archetypes used at-codes to identify everything, apart from occasional ac-codes to identify external value sets. This has been replaced by a new coding system in which id-codes identify all archetype nodes, at-codes identify terminology values and ac-codes identify terminology value sets, internal and external. The new system is described <a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=49053703">here</a></p>
+
+			<h3>Tuples replace domain-specific syntax</h3>
+			<p>The syntax used to represent DV_QUANTITY, DV_ORDINAL and CODE_PHRASE constraints for openEHR archetypes is now replaced by a standard 'tuple' syntax that enables any co-varying constraint to be expressed, including the afore-mentioned types. Details <a href="http://www.openehr.org/wiki/display/spec/ADL+1.5+Power+Syntax+Proposals">here</a></p>
+
+			<h3>Terminology value-set constraints moved to terminology section</h3>
+			<p>Value sets used to be constrained inline. They are now moved to the terminology, in the form of a new 'value-set' construct, described <a href="http://www.openehr.org/wiki/display/spec/ADL+1.5+-+where+to+define+value+sets">here</a>.</p>
+
+			<h3>Terminology bindings are URIs</h3>
+			<p>All bindings from internal codes to external entities are done using IHTSDO-style URIs. This enables the archetype terminology bindings structure to be simplified into one list.</p>
 
 			<h3>artefact_type marker</h3>
 			<p>A new attribute has been added to the ARCHETYPE class to enable various instantiations of the AOM to be designated as having different design intention - 'archetype', 'template', 'template_component', 'operational_template'. This allows ADL/AOM being used for archetypes, and various forms of templates.</p>
@@ -216,16 +225,13 @@ annotations
 			<p>A single 'rules' section is now used to contain invariant and declaration statements, which define constraints over multiple nodes in the artefact. The formalism and model of rules has been substantially improved. Simplifies overall artefact structure; allows constraints to refer to external entities, such as patient data, time etc.</p>
 
 			<h3>Terminology_extract section added to Ontology (Not yet implemented)</h3>
-			<p>A terminology_extract sub-section is now included in the ontology section of an archetype, enabling codes &amp; rubrics from terminology to be included. Mostly used for templates. Templates can directly include small extracts of external terminologies, making them standalone for such value-sets.</p>
+			<p>A terminology_extract sub-section is now included in the terminology section of an archetype, enabling codes &amp; rubrics from terminology to be included. Mostly used for templates. Templates can directly include small extracts of external terminologies, making them standalone for such value-sets.</p>
 
 			<h3>Representation for ref set reference (Not yet implemented)</h3>
 			<p>A final addition is needed to either the AOM or the openEHR Profile model, of a class that defines how to represent a resolved reference to an external terminology; this class would replace a CONSTRAINT_REF node from a source template in an operational template. The benefit is that external ref-set references will be resolved in an operational template.</p>
 
 			<h3>Semantic slot type (Not yet implemented)</h3>
 			<p>See this sub-page for a discussion on the advanced semantics of slots, and how it simplifies templates.</p>
-
-			<h3>node ids for C_DV_QUANTITY in ADL (Not yet implemented)</h3>
-			<p>Currently we cannot put a node-id on a dADL node like a C_DV_QUANTITY, or a special syntax node, like C_DV_ORDINAL or C_CODE_PHRASE. This does not affect the AOM or XML serialised form.</p>
 
 			<h3>Rules syntax (Xpath-based) (TODO)</h3>
 			<p>TBD</p>

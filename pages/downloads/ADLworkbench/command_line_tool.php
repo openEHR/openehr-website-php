@@ -17,10 +17,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>The adlc tool allows you to perform many of the operations available in the ADL Workbench from the command line, enabling the development of scripts and batch processes. The adlc executable is included in the ADL Workbench delivery, in the smae location as the adl_workbench executable itself. Its usage is as follows:</p>
 <pre>
     USAGE:
-       adlc.exe -s [-q]
-       adlc.exe -p &lt;profile name&gt; -l [-q]
-       adlc.exe -p &lt;profile name&gt; -d [-q]
-       adlc.exe -p &lt;profile name&gt; [-flat] [-cfg &lt;file path&gt;] [-q] [-f &lt;format&gt;] -a &lt;action&gt; &lt;id_pattern&gt;
+       adlc -s [-q]
+       adlc -p &lt;profile name&gt; -l [-q]
+       adlc -p &lt;profile name&gt; -d [-q]
+       adlc &lt;id_pattern&gt; -p &lt;profile name&gt; [-flat] [-cfg &lt;file path&gt;] [-q] [-f &lt;format&gt;] -a &lt;action&gt;
 
     OPTIONS:
        Options should be prefixed with: '-' or '/'
@@ -33,11 +33,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
        -p --profile                    : profile to use
                                             &lt;profile name&gt;: profile name
        -f  --format                    : output format for generated files (Optional)
-                                            &lt;format&gt;: file formats: json, adl, dadl, yaml, xml (default = adl)
+                                            &lt;format&gt;: file formats: json | adl | odin | yaml | xml (default = adl)
            --cfg                          : output default configuration file location (Optional)
                                             &lt;file path&gt;: .cfg file path
        -a --action                     : action to perform
-                                             &lt;action&gt;: validate, serialise, serialize, list
+                                             &lt;action&gt;: validate | serialise | serialize | list
        -? --help                        : Display usage information. (Optional)
 
     NON-SWITCHED ARGUMENTS:

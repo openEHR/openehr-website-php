@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>The Archetype and Template Catalogues</h2>
-			<p>As soon as you have specified a profile (Repository &gt; Set repository), the left-hand side explorer controls will populate and you will initially see the explorer with the reference model (RM) class hierarchy. If you have selected 'Show entire ontology in explorer?' in the Options dialog, you will see all classes from all loaded RM schemas. This can be useful for understanding the reference models. Normally you will probably not use this option. At any time, you can select a class node in the explorer, and its Reference Model definition will be displayed in flat form, i.e. compressed through inheritance.</p>
+			<p>As soon as you have specified a profile (Repository &gt; Set repository), the left-hand side explorer controls will populate and you will initially see the explorer with the reference model (RM) class hierarchy. If you have selected 'Show entire terminology in explorer?' in the Options dialog, you will see all classes from all loaded RM schemas. This can be useful for understanding the reference models. Normally you will probably not use this option. At any time, you can select a class node in the explorer, and its Reference Model definition will be displayed in flat form, i.e. compressed through inheritance.</p>
 			<br/>
 
             <table style="BACKGROUND-COLOR: #ffffff" border="0" cellspacing="2" cellpadding="2" width="70%">
@@ -153,23 +153,23 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>The classifications of RM properties are defined in the reference model schemas and can be modified independently of the tool or any particular archetype.</p>
 			<table style="BACKGROUND-COLOR: #ffffff" border="0" cellspacing="2" cellpadding="0" width="70%">
 			<tbody>
-			<tr valign="top">
-				<td style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px">
-				<a href="images/rm_differential.png">
-					<img border="0" alt="RM properties, differential form" src="images/tn_rm_differential.jpg"/> </a>
-				<p><em>RM properties (differential form)</em></p>
-				</td>
-				<td style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; padding-left:4em;">
-				<a href="images/rm_flat.png">
-					<img border="0" alt="RM properties, flat form" src="images/tn_rm_flat.jpg"/> </a>
-				<p><em>RM properties (flat form)</em></p>
-				</td>
-			</tr>
+				<tr valign="top">
+					<td style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px">
+					<a href="images/rm_differential.png">
+						<img border="0" alt="RM properties, differential form" src="images/tn_rm_differential.jpg"/> </a>
+					<p><em>RM properties (differential form)</em></p>
+					</td>
+					<td style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; padding-left:4em;">
+					<a href="images/rm_flat.png">
+						<img border="0" alt="RM properties, flat form" src="images/tn_rm_flat.jpg"/> </a>
+					<p><em>RM properties (flat form)</em></p>
+					</td>
+				</tr>
 			</tbody>
 			</table>
 		  
-			<h3>Path map</h3>
-			<p>Archetype definitions are inherently hierarchical structures, and as a consequence a set of paths can be extracted from any archetype. This 'path map' is the basis for all queries written in AQL or a-path. Every node in an archetype is guaranteed to have a unique path. If you select the path map in the differential and flat forms, you will see the larger number of paths being extracted from the latter.</p>
+			<h3>Interface</h3>
+			<p>Archetype definitions are inherently hierarchical structures, and as a consequence various types of 'interface' can be extracted from any archetype. The most obvious is a 'path map', which is the basis for all queries written in AQL or a-path. Every node in an archetype is guaranteed to have a unique path. If you select the path map in the differential and flat forms, you will see the larger number of paths being extracted from the latter. There is also a tab for 'Interface tags', which shows a standard transform from paths to single string tags usable in XSDs and TDO APIs - in any language.</p>
 			<table style="BACKGROUND-COLOR: #ffffff" border="0" cellspacing="2" cellpadding="0" width="70%">
 			<tbody>
 			<tr valign="top">
@@ -204,7 +204,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>The columns of the display can be controlled using the check boxes on the right, and are as follows:</p>
 			<ul>
 				<li>physical paths: paths containing [atnnnn] codes, used by the software </li>
-				<li>logical paths: paths with [atnnnn] codes replaced by the human-readable values from the ontology </li>
+				<li>logical paths: paths with [atnnnn] codes replaced by the human-readable values from the terminology </li>
 				<li>RM Type: the Reference Model type constrained by the node corresponding to the displayed path </li>
 				<li>AOM Type: Archetype Object Model type - this is the type of the archetype node, usually only of interest to implementers </li>
 			</ul>
@@ -215,15 +215,30 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p><a href="images/slots_1.png"><img border="0" src="images/tn_slots_1.jpg" width="180" height="200"/> </a></p>
 			
 			<h3>Terminology</h3>
-			<p>All archetypes contain an internal terminology, consisting of one or more 'at-codes'. They may also include constraint codes ('ac-codes'), and bindings between both of these and external terminologies and other ontology resources. These elements are found in the 'ontology' section of the archetype, such as shown here.</p>
-			<p><a href="images/ontology.png"><img border="0" src="images/tn_ontology.jpg" width="200" height="116"/> </a></p>
+			<p>All archetypes contain an internal terminology, consisting of 'id-codes' (node identifiers), 'at-codes' (identifying coded values) and 'ac-codes' (identifying value sets). They may also include bindings between any of these and external terminologies and other terminology resources. These elements are found in the 'terminology' section of the archetype, such as shown here.</p>
+			<table style="BACKGROUND-COLOR: #ffffff" border="0" cellspacing="2" cellpadding="0" width="70%">
+				<tbody>
+					<tr valign="top">
+						<td style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px">
+						<a href="images/terminology.png">
+							<img border="0" alt="Terminology - id codes" width="240" src="images/terminology.png"/> </a>
+						<p><em>Terminology - id codes</em></p>
+						</td>
+						<td style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; padding-left:4em;">
+						<a href="images/terminology2.png">
+							<img border="0" alt="Terminology - at/ac codes and value sets" width="240" src="images/terminology2.png"/> </a>
+						<p><em>Terminology - at/ac codes and value sets</em></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
 			
-			<h3>Source view</h3>
-			<p>The source of an archetype can be viewed in the 'Source' tab, regardless of whether it has compiled successfully or not. This is mainly useful for debugging.</p>
+			<h3>ADL view</h3>
+			<p>The ADL source of an archetype can be viewed in the 'ADL' tab, regardless of whether it has compiled successfully or not. The 'ADL 1.4' and 'ADL 1.5' source sub-tabs are editable, and changes made can be saved using ctrl-S or the 'Save' button, which will cause an immediate re-compile.</p>
 			<p><a href="images/archetype_source_view.png"><img border="0" src="images/tn_archetype_source_view.jpg"/></a></p>
 			
-			<h3>Serialised views: ADL, dADL, XML, JSON</h3>
-			<p>Compiled archetypes can be viewed in various serialised formats, which can be used for testing ADL, XML, JSON and other software components. In both differential and flat forms, any compiled archetype can be viewed as ADL, dADL, XML and JSON. The dADL form is equivalent to a DOM tree in XML, but more regular.</p>
+			<h3>Serialised views: ADL, ODIN, XML, JSON</h3>
+			<p>Compiled archetypes can be viewed in various serialised formats, which can be used for testing ADL, XML, JSON and other software components. In both differential and flat forms, any compiled archetype can be viewed as ADL, ODIN, XML and JSON. The ODIN form is equivalent to a DOM tree in XML, but more regular.</p>
 			<p><a href="images/source_1.png"><img border="0" src="images/tn_source_1.jpg" width="200" height="173"/></a></p>
 			<p>The output in the XML view can be controlled by a set of rules accessible from the XML menu.</p>
 			
