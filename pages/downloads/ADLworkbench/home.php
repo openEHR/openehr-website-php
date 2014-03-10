@@ -16,7 +16,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p><a href="release_notes">Release notes</a> - <a href="http://www.openehr.org/issues/browse/AWBPR" target="_blank">Report an issue (Jira)</a> - <a href="http://www.openehr.org/issues/browse/AWB" target="_blank">Development Project (Jira)</a></p>
          
 			<h2>What is the Workbench?</h2>
-			<p>The ADL Workbench (AWB) is an compiler and IDE for working with the archteypes and templates written in the Achetype Definition Language (ADL). The latest version of ADL makes it <b>one of the most powerful domain modelling formalisms available</b>. Create models of clinical content (archetypes), data set definitions (templates) and then visualise and generate fully compiled output form in ADL, JSON, XML, YAML or ODIN.</p>
+			<p>The ADL Workbench (AWB) is a compiler and IDE for working with the archetypes and templates written in the Achetype Definition Language (ADL), and based on any reference model, including openEHR, ISO 13606 and CIMI. The <a href="http://www.openehr.org/programs/specification/releases/currentbaseline#ArchetypeModel">latest version of the archetype formalism</a> makes it <b>one of the most powerful domain modelling tools available</b>. Create models of clinical content (archetypes), data set definitions (templates), add terminology bindings and translations and then visualise and generate fully compiled output form in ADL, JSON, XML, YAML or ODIN.</p>
+
+			<p><a href="browsing_and_compiling">Screenshots</a></p>
 
 			<h2>News</h2>
 			<ul>
@@ -24,6 +26,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<li>New internal coding system uses id-codes, at-codes and ac-codes (<a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=49053703">wiki</a>)</li>
 				<li>Value sets now defined in archetype terminology (<a href="http://www.openehr.org/wiki/display/spec/ADL+1.5+-+where+to+define+value+sets">wiki</a>)</li>
 				<li>All code bindings are IHTSDO URIs</li>
+				<li>Standard lifecycle states (<a href="http://www.openehr.org/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">wiki</a>)</li>
 				<li>Fully independent of specific reference models - can load any RM</li>
 				<li>ADL 1.4 archetypes fully converted to 1.5, including with extraction and synthesis of value sets</li>
 				<li>Namespaced archetype identifiers (<a href="http://www.openehr.org/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">wiki</a>)</li>
