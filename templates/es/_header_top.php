@@ -13,12 +13,15 @@
 	<meta name="robots" content="All">
 	<meta name="revisit-after" content="15 days">
 	<meta name="viewport" content="1024">
+	
 	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
 	<link rel="stylesheet" href="/styles/home.css"  type="text/css"> 
 	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
+	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
 	<link rel="home" href="http://www.openehr.org">
 	<link rel="index" href="/sitemap">
+	
 	<script type="text/javascript" src="/menu/dropdown.js"></script> 
 	<?php $pageOn = basename($_SERVER['PHP_SELF']); ?>	
 	
@@ -48,7 +51,7 @@
 			if( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'],'logout.php')) ) { 
 				echo '<a href="/login/user_home">User Home</a> | <a href="/login/logout">Logout</a> |';
 			} 
-			?> <a href="/es/about_this_website">Sobre este sitio</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="http://www.openehr.org/knowledge">CKM</a>
+			?> <a href="/es/about_this_website">Sobre este Sitio</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="http://www.openehr.org/knowledge">CKM</a>
 		
 		</div>
 		

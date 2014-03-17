@@ -29,7 +29,7 @@
 	$pageOn = basename($_SERVER['PHP_SELF']);
 	?>
 	
-	<script type="text/javascript" src="tinymce/tinymce.min.js"></script>
+	<script type="text/javascript" src="/functions/tinymce/tinymce.min.js"></script>
 	<script type="text/javascript">
 	tinymce.init({
 		selector: "textarea",

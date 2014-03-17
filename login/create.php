@@ -33,6 +33,7 @@ $PageName = 'Create News Items';
 	<div id="MainArea" style=" margin-left:30px; width:900px; ">
 		
 		<div id="Content" style="left:0px; width:900px; ">
+<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo $PageName;?></h1>
 		

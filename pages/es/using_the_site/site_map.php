@@ -17,7 +17,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			<ul>
 				<li><a href="/es/home">Página Principal</a></li>
 				<li><a href="/es/what_is_openehr">¿Qué es openEHR?</a></li>
-				<li><a href="/es/aboutthiswebsite">Sobre este sitio</a></li>
+				<li><a href="/es/about_this_website">Sobre este sitio</a></li>
 				<li><a href="mailto:webmaster@openehr.org">Webmaster</a></li>
 				<li><?php include $_SERVER['DOCUMENT_ROOT'].'/pages/es/who_is_using_openehr/menu.php' ?></li>
 			</ul>

@@ -1,5 +1,5 @@
 <?php
-	// The user is redirected here from login.php.
+	// The user is redirected here from user_home.php.
 
 	session_start();  //Start the session
 	
@@ -17,7 +17,7 @@
 <?php
 $PageName = 'Editorial Policy';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 ?>
 
 		<div id="Content">
