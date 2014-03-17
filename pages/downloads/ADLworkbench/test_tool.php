@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
-			<p>The test page in the Workbench is accessible via the &#39;Test&#39; tab on the right hand side of the tool. It enables batch execution of test or other routines built into the tool archetypes, and is mainly a facility for debugging archetypes, as well as parser logic.</p>
+			<p>The test tool in the Workbench is accessible via the Tools&gt;Test Tool menu option, and exited by the 'Close' button on the test tool page. It enables batch execution of test or other routines built into the tool archetypes, and is mainly a facility for regression testing of archetypes.</p>
 
 			
 			<h2>Configuration</h2>

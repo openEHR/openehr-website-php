@@ -12,48 +12,47 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>The openeHR GitHub archetypes repository</h2>
+			<h2>The openEHR GitHub archetypes repository</h2>
 			<p>For first-time use of the ADL Workbench, you will need some archetypes. The standard location for test archetypes, as well as a snapshot copy of CKM is the <a href="https://github.com/openEHR/adl-archetypes" target="_blank">openEHR adl-archetypes Git repository</a>.</p>
 			<p>If you know how to use Git, make a clone of this repository in your openEHR work area, with the following command:</p>
-			<pre>git clone https://github.com/openEHR/adl-archetypes.git</pre>
-			<p>If you don't know how to use Git, or don't have Git installed, you can obtain a snapshot of the repository as a .zip file using <a href="https://github.com/openEHR/adl-archetypes/archive/master.zip">this link</a>.</p>
+<pre>
+
+git clone https://github.com/openEHR/adl-archetypes.git
+
+</pre>
 			<p>Once you have these archetypes, either as a Git repository or else snapshot, you will see various logical groups of archetypes, under the following sub-directories:</p>
 			<ul>
-				<li>ADL_1.5_reference: ADL 1.5 validity testing archetypes; </li>
-				<li>Reference
-				<ul>
-					<li>CKM_2012_08_08: snapshot of the contents of the openEHR CKM, with various validity-related fixes.</li>
-				</ul>
-				</li>
-				<li>Example
-				<ul>
-					<li>openEHR
-					<ul>
-						<li>ehr_extract_template: an ADL 1.5 template example based on the openEHR EHR Extract model.</li>
-						<li>demographic_template: an ADL 1.5 template example based on the openEHR dempgraphic model.</li>
-						<li>link_archeytpes: ADL 1.5 archetypes showing archetyping of the LINK type in the openEHR RM.</li>
-					</ul>
-					</li>
-				</ul>
-				</li>
-				<li>Development
-				<ul>
-					<li>CIMI: Clinical Information Model Initiative proof-of-concept archetypes based on a CIMI reference model;</li>
-				</ul>
-				</li>
+				<li>/ADL15-reference: ADL 1.5 validity testing archetypes; </li>
+				<li>/Reference/CKM_2013_12_09: snapshot of the contents of the openEHR CKM, with various validity-related fixes.</li>
+				<li>/Example/openEHR/ehr_extract_template: an ADL 1.5 template example based on the openEHR EHR Extract model.</li>
+				<li>/Example/openEHR/demographic_template: an ADL 1.5 template example based on the openEHR dempgraphic model.</li>
+				<li>/Example/openEHR/link_archeytpes: ADL 1.5 archetypes showing archetyping of the LINK type in the openEHR RM.</li>
 			</ul>
-			<p>Other directories will appear from time to time. Each of these directories should be treated as a separate 'repository' for the configuration steps below.</p>
+			<p>Other directories will appear from time to time. <b>Each of these directories should be treated as a separate 'repository'</b> for the ADL Workbench configuration steps below.</p>
+
+			<h3>Not using Git?</h3>
+			<p>You can obtain a snapshot of this repository as a .zip file using <a href="https://github.com/openEHR/adl-archetypes/archive/master.zip">this link</a>.</p>
+
+			<h2>The CIMI GitHub archetypes repository</h2>
+			<p>If you are interested in CIMI archetypes, using the CIMI reference model, you can find them at the <a href="https://github.com/opencimi/archetypes.git">CIMI archetypes Git repository</a>. The home page of this repository describes the contents.</p>
+
+			<h3>Not using Git?</h3>
+			<p>You can obtain a snapshot of this repository as a .zip file using <a href="https://github.com/opencimi/archetypes/archive/master.zip">this link</a>.</p>
 
 			<h2>Other places to find archetypes</h2>
 			<p>The following locations also provide archetypes:</p>
 			<ul>
-				<li><a href="http://www.openehr.org/ckm" target="_blank">openEHR CKM - most recent CKM archetypes</a></li>
+				<li><a href="https://github.com/openEHR/CKM-mirror.git" target="_blank">openEHR CKM mirror</a> - auto-updated from <a href="http://www.openehr.org/ckm" target="_blank">openEHR CKM</a></li>
 				<li><a href="http://dcm.nehta.org.au/ckm" target="_blank">Australian National (Nehta) CKM</a></li>
 				<li><a href="https://www.clinicalmodels.org.uk/" target="_blank">UK CKM</a></li>
-				<li><a href="https://ckm.nca.stuba.sk/" target="_blank">Slovak National (STUBA) CKM</a></li>
+				<li><a href="http://simickm.ru/" target="_blank">Moscow City CKM</a></li>
+				<li><a href="http://ukz.ezdrav.si/ckm/OKM_sl.html" target="_blank">Slovenian MoH CKM</a></li>
 			</ul>
 			 
-			<h3>Downloading from a Clinical Knowledge Manager (CKM) site</h3>
+			<h3>Downloading the openEHR.org Clinical Knowledge Manager (CKM) contents via Git</h3>
+			<p>The openEHR.org CKM dumps its contents to <a href="https://github.com/openEHR/CKM-mirror.git">this Git repo</a> on every change. You can use the normal git commands to create a copy on your own machine.</p>
+
+			<h3>Downloading directly from any Clinical Knowledge Manager (CKM) site</h3>
 			<p>You can obtain the latest snapshot of the contents of any CKM as follows:</p>
 			<ul>
 			  <li>Login to the repository at <a href="http://www.openehr.org/knowledge" target="_blank">http://www.openehr.org/knowledge</a>.</li>

@@ -14,6 +14,27 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			<h2>Release History</h2>
 			
+			<h3>05 March 2014 ADL 1.5 beta Release 10 (<a href="https://github.com/openEHR/adl-tools/tree/1.5beta10">Git tag 1.5beta10</a>) 
+				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10260">Jira</a>)</h3>
+			<ul>
+				<li><em>Archetype Object Model / compiler</em>:
+					<ul>
+						<li>All domain-specific AOM types for Quantities, Ordinals and Term-lists replaced by new <a href="http://www.openehr.org/wiki/display/spec/ADL+1.5+Power+Syntax+Proposals">AOM standard tuple representation</a></li>
+						<li>New <a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=49053703">internal coding system</a> - uses id-codes (node identification), at-codes (values) and ac-codes (value sets)</li>
+						<li>Dedicated ADL 1.4 =&gt; ADL 1.5 converter implemented, following <a href="http://www.openehr.org/wiki/display/spec/ADL+1.5.1+Archetype+Conversion+Summary">published conversion rules</a></li>
+						<li>Namespaced identifiers implemented as per openEHR <a href="http://www.openehr.org/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">Knowledge Artefact Specification</a></li>
+						<li>Terminology references are all URIs, following IHTSDO model</li>
+						<li>Value-sets are moved from archetype definition to archetype terminology</li>
+					</ul>
+				</li>
+				<li><em>Visualisation</em>:
+					<ul>
+						<li>Hierarchical, colourised terminology and value-set viewer</li>
+						<li>ADL source in various phases of conversion visible and editable</li>
+					</ul>
+				</li>
+			</ul>
+				
 			<h3>9 April 2013 ADL 1.5 beta Release 9 (<a href="https://github.com/openEHR/adl-tools/tree/1.5beta9">Git tag 1.5beta9</a>) 
 				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10160">Jira</a>)</h3>
 				
