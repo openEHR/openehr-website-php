@@ -11,9 +11,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			  <area shape="rect" coords="0,0,220,150" href="/pt/what_is_openehr" alt="What is openEHR" />
 			</map> 
 			<div class="TextFrame">
-				<h1>¿Qué es <br/>openEHR?</h1>
-				<p>openEHR is about enabling ICT to effectively support all aspects of healthcare.
-				<br/><a href="/pt/what_is_openehr" style="line-height:200%;">Aprender más</a></p>
+				<h1 class="HomeTitle">O que é openEHR?</h1>
+				<p>openEHR se refere a como tornar as TICs capazes de apoiar todos os aspectos dos cuidados em saúde de forma efetiva.
+				<br/><a href="/pt/what_is_openehr" style="line-height:200%;">Saber mais</a></p>
 			</div>
 		</div>
 		
@@ -23,9 +23,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			  <area shape="rect" coords="0,0,220,150" href="/pt/who_is_using_openehr" alt="Who is using openEHR" />
 			</map> 
 			<div class="TextFrame">
-				<h1>¿Quiénes utilizan <br/>openEHR?</h1>
-				<p>Companies, governments, universities, research centres all around the world.
-				<br/><a href="/pt/who_is_using_openehr" style="line-height:200%;">Aprender más</a></p>
+				<h1 class="HomeTitle">Quem está usando <br/>openEHR?</h1>
+				<p>Empresas, governos, universidades, centros de pesquisa em todo o mundo.
+				<br/><a href="/pt/who_is_using_openehr" style="line-height:200%;">Saber mais</a></p>
 			</div>
 		</div>
 
@@ -35,9 +35,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			  <area shape="rect" coords="0,0,220,150" href="/pt/about/foundation" alt="About openEHR Foundation" />
 			</map> 
 			<div class="TextFrame">
-				<h1>Sobre<br/>Fundación</h1>
-				<p>openEHR Foundation is open for everybody to join and participate.
-				<br/><a href="/pt/about/foundation"  style="line-height:200%;">Aprender más</a></p>
+				<h1 class="HomeTitle">Sobre a <br/>Fundação</h1>
+				<p>A Fundação openEHR é aberta à participação e adesão de todos interessados.
+				<br/><a href="/pt/about/foundation"  style="line-height:200%;">Saber mais</a></p>
 			</div>
 		</div>
 			
@@ -47,9 +47,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			  <area shape="rect" coords="0,0,220,150" href="/pt/openehr_programs" alt="openEHR Programs" />
 			</map> 
 			<div class="TextFrame">
-				<h1>openEHR<br/>Programas</h1>
-				<p>4 openEHR Programas: Especificación, Modelos Clínicos, Software, Localización
-				<br/><a href="/pt/openehr_programs" style="line-height:200%;">Aprender más</a></p>
+				<h1 class="HomeTitle">openEHR<br/>Programas</h1>
+				<p>4 openEHR Programas: Especificações, Modelos Clínicos, Aplicativos, Localização.
+				<br/><a href="/pt/openehr_programs" style="line-height:200%;">Saber mais</a></p>
 			</div> 
 		</div>
 		

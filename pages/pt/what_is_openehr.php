@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Qué es openEHR?';
+$PageName = 'O que é openEHR?';
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 ?>

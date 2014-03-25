@@ -14,7 +14,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			  <area shape="rect" coords="0,0,220,150" href="what_is_openehr" alt="What is openEHR" />
 			</map> 
 			<div class="TextFrame">
-				<h1>What is<br/>openEHR?</h1>
+				<h1 class="HomeTitle">What is<br/>openEHR?</h1>
 				<p>openEHR is about enabling ICT to effectively support all aspects of healthcare.
 				<br/><a href="what_is_openehr" style="line-height:200%;">Learn more</a></p>
 			</div>
@@ -26,7 +26,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			  <area shape="rect" coords="0,0,220,150" href="who_is_using_openehr" alt="Who is using openEHR" />
 			</map> 
 			<div class="TextFrame">
-				<h1>Who is using<br/>openEHR?</h1>
+				<h1 class="HomeTitle">Who is using<br/>openEHR?</h1>
 				<p>Companies, governments, universities, research centres all around the world.
 				<br/><a href="who_is_using_openehr" style="line-height:200%;">Learn more</a></p>
 			</div>
@@ -38,7 +38,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			  <area shape="rect" coords="0,0,220,150" href="about/foundation" alt="About openEHR Foundation" />
 			</map> 
 			<div class="TextFrame">
-				<h1>About openEHR<br/>Foundation</h1>
+				<h1 class="HomeTitle">About openEHR<br/>Foundation</h1>
 				<p>openEHR Foundation is open for everybody to join and participate.
 				<br/><a href="about/foundation"  style="line-height:200%;">Learn more</a></p>
 			</div>
@@ -50,7 +50,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			  <area shape="rect" coords="0,0,220,150" href="openehr_programs" alt="openEHR Programs" />
 			</map> 
 			<div class="TextFrame">
-				<h1>The openEHR<br/>Programs</h1>
+				<h1 class="HomeTitle">The openEHR<br/>Programs</h1>
 				<p>4 openEHR Programs: Specification, Clinical Models, Software, Localisation 
 				<br/><a href="openehr_programs" style="line-height:200%;">Learn more</a></p>
 			</div> 

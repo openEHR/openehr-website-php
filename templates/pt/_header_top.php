@@ -87,7 +87,7 @@
 				<li><a href="/pt/programs/specification">&nbsp; Especificações</a></li>
 				<li><a href="/pt/programs/clinicalmodels">&nbsp; Modelos Clínicos</a></li>
 				<li><a href="/pt/programs/software">&nbsp; Aplicativos</a></li>
-				<li><a href="/pt/programs/localisation">&nbsp; Localizaçãp</a></li>
+				<li><a href="/pt/programs/localisation">&nbsp; Localização</a></li>
 			</ul>
 			</li>
 			
