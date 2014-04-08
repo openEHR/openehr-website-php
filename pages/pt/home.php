@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			<div class="TextFrame">
 				<h1 class="HomeTitle">Quem está usando <br/>openEHR?</h1>
 				<p>Empresas, governos, universidades, centros de pesquisa em todo o mundo.
-				<br/><a href="/pt/who_is_using_openehr" style="line-height:200%;">Saber mais</a></p>
+				<br/><a href="/pt/who_is_using_openehr" style="line-height:200%;">Saiba mais</a></p>
 			</div>
 		</div>
 
@@ -37,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			<div class="TextFrame">
 				<h1 class="HomeTitle">Sobre a <br/>Fundação</h1>
 				<p>A Fundação openEHR é aberta à participação e adesão de todos interessados.
-				<br/><a href="/pt/about/foundation"  style="line-height:200%;">Saber mais</a></p>
+				<br/><a href="/pt/about/foundation"  style="line-height:200%;">Saiba mais</a></p>
 			</div>
 		</div>
 			
@@ -48,8 +48,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			</map> 
 			<div class="TextFrame">
 				<h1 class="HomeTitle">openEHR<br/>Programas</h1>
-				<p>4 openEHR Programas: Especificações, Modelos Clínicos, Aplicativos, Localização.
-				<br/><a href="/pt/openehr_programs" style="line-height:200%;">Saber mais</a></p>
+				<p>4 Programas openEHR: Especificações, Modelos Clínicos, Aplicativos, Localização.
+				<br/><a href="/pt/openehr_programs" style="line-height:200%;">Saiba mais</a></p>
 			</div> 
 		</div>
 		
