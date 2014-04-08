@@ -46,8 +46,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 				<td style="text-align:center;"><img src="/files/about/DKalra.png"></td>
 				<td width="650px">
 				<p>Dipak Kalra, PhD, FRCGP, britânico, é médico, professor  de Informática em Saúde do University College London, Reino Unido. Ele é o atual presidente do Instituto Europeu para os Registros de Saúde ( EuroRec ) e um dos diretores da Fundação openEHR.</p>
-				<p>Dipak desempenha um papel de liderança internacional em pesquisa e desenvolvimento de arquiteturas e sistemas , incluindo os requisitos e modelos necessários para assegurar a preservação robusta e  a longo prazo de significado da informaçãoclínica e a proteção da privacidade dos registros eletrônicos  de saúde (RES). Ele lidera o desenvolvimento de normas CEN e ISO sobre a interoperabilidade dos RES , registeos de saúde pessoais , os requisitos de RES , e contribuiu para vários padrões de segurança e confidencialidade do RES.</p>
-				<p>Dipak está envolvido na investigação europeia para certificação de qualidade dos sistemas de RES, interoperabilidade semântica e descoberta de conhecimento clínico. Ele lidera uma Rede Europeia de Excelência em interoperabilidade semântica  e um projeto para desenvolver um roteiro europeu em inovações de empoderamento do paciente. Ele lidera a entidade que administra um fundo de 16 milhões de euros,  para ser utilizado em inciativas inovadoras na área demde medicamentos inovadoras na área de medicamentos, a EHR4CR, cujo objetivo é a reutilização de informações do registro eletrônico de saúde na pesquisa clínica ,  ao lado de dez empresas farmacêuticas globais. Ele também participa de outro projeto da Industria Farmaceutica europeia ( EMIF), no desenvolvimento de uma plataforma de investigação clínica europeia para  realização de múltiplos estudos de saúde e de coorte populacional de forma distribuída.</p>
+				<p>Dipak desempenha um papel de liderança internacional em pesquisa e desenvolvimento de arquiteturas e sistemas , incluindo os requisitos e modelos necessários para assegurar a preservação robusta e  a longo prazo dos significado da informação clínica e a proteção da privacidade dos registros eletrônicos  de saúde (RES). Ele lidera o desenvolvimento de normas CEN e ISO sobre a interoperabilidade dos RES , registros de saúde pessoais , os requisitos de RES , e contribuiu para vários padrões de segurança e confidencialidade do RES.</p>
+				<p>Dipak está envolvido na investigação europeia para certificação de qualidade dos sistemas de RES, interoperabilidade semântica e descoberta de conhecimento clínico. Ele lidera a Rede Europeia de Excelência em Interoperabilidade Semântica  e um projeto para desenvolver um roteiro europeu de inovações para empoderamento do paciente. Ele lidera,em conjunto com dez grandes empresas farmaceuticas globais, a EHR4CR, entidade que administra um fundo de 16 milhões de euros destinado a financiar projetos de pesquisas clínicas que reutilizem as informações provenientes do RES. Ele também participa de outro projeto da Industria Farmaceutica europeia ( EMIF), no desenvolvimento de uma plataforma de investigação clínica europeia para  realização de múltiplos estudos de saúde e de coorte populacionais de forma distribuída.</p>
 				</td>
 			</tr>
 			</tbody>
@@ -89,6 +89,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<tbody>
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/DIngram.png"></td>
+		
 				<td width="650px">
 				<p>David Ingram é Professor Emérito de Informática em Saúde no UCL (University College of London), Presidente  da Fundação openEHR e dos administradores da Fundação OpenEyes. Ele foi nomeado para a primeira cadeira em Informática Médica no Reino Unido, em 1989, e criou,  em 1995, o Centro  de Informática em Saúde e Educação Multiprofissional da UCL (CHIME), no qual foi diretor até sua aposentadoria, em 2011.</p>
 				<p>David liderou, a partir de 1991, a pesquisa de arquitetura base do registro de saúde do Projeto GEHR (bom registro eletrônico de saúde), no âmbito da União Européia. A partir deste projeto e de outras colaborações  e projetos posteriores, surgiu a Fundação openEHR, da qual ele foi o Diretor Executivo fundador, de 2002 até 2012. David foi  um dos principais contribuidores, entre seus colegas da CHIME,  para as normas  CEN e ISO 13606.</p>
@@ -102,11 +103,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
-				<td style="text-align:center;"><img src="/files/about/DKalra.png"></td>
+			
+			
+				<td style="text-align:center;"><img src="/files/a
+				
+				bout/DKalra.png"></td>
 				<td width="650px">
-				<p>Dipak Kalra, PhD, FRCGP, British, is Clinical Professor of Health Informatics at University College London, United Kingdom. He is President of the European Institute for Health Records (EuroRec) and a Director of the openEHR Foundation.</p>
-				<p>Dipak plays a leading international role in research and development of electronic health record architectures and systems, including the requirements and models needed to ensure the robust long-term preservation of clinical meaning and protection of privacy. He leads the development of CEN and ISO standards on EHR interoperability, personal health records, EHR requirements, and has contributed to several EHR security and confidentiality standards.</p>
-				<p>Dipak is involved in European research on EHR system quality labelling, semantic interoperability and clinical knowledge discovery. He leads a EU Network of Excellence on semantic interoperability, and a project to develop a European roadmap on patient empowerment innovations. He leads the Managing Entity for a €16m Innovative Medicines Initiatives on the re-use of electronic health record information for clinical research, EHR4CR, alongside ten global pharmaceutical companies. He is also a partner in another IMI project, EMIF, on the development of a European clinical research platform federating multiple population health and cohort studies.</p>
+				<p>Dipak Kalra, PhD, FRCGP, britânico, é médico, professor  de Informática em Saúde do University College London, Reino Unido. Ele é o atual presidente do Instituto Europeu para os Registros de Saúde ( EuroRec ) e um dos diretores da Fundação openEHR.</p>
+				<p>Dipak desempenha um papel de liderança internacional em pesquisa e desenvolvimento de arquiteturas e sistemas , incluindo os requisitos e modelos necessários para assegurar a preservação robusta e  a longo prazo d
+				do significado da informação clínica e a proteção da privacidade dos registros eletrônicos  de saúde (RES). Ele lidera o desenvolvimento de normas CEN e ISO sobre a interoperabilidade dos RES , registrs de saúde pessoais , os requisitos de RES , e contribuiu para vários padrões de segurança e confidencialidade do RES.</p>
+				<p>Dipak está envolvido na investigação europeia para certificação de qualidade dos sistemas de RES, interoperabilidade semântica e descoberta de conhecimento clínico. Ele lidera a Rede Europeia de Excelência em Interoperabilidade Semântica  e um projeto para desenvolver um roteiro europeu de inovações para empoderamento do paciente. Ele lidera,em conjunto com dez grandes empresas farmaceuticas globais, a EHR4CR, entidade que administra um fundo de 16 milhões de euros destinado a financiar projetos de pesquisas clínicas que reutilizem as informações provenientes do RES. Ele também participa de outro projeto da Industria Farmaceutica europeia ( EMIF), no desenvolvimento de uma plataforma de investigação clínica europeia para  realização de múltiplos estudos de saúde e de coorte populacionais de forma distribuída.</p>
 				</td>
 			</tr>
 			</tbody>
