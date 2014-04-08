@@ -20,9 +20,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/SHeard.png"></td>
 				<td width="650px">
-				<p>O Dr Sam Heard (MBBS, MRCGP, FRACGP, Fachi) é um médico de família em atividade  que trabalhou toda a sua carreira em Londres 7 (Reino Unido) e do Território do Norte (Austrália) com padronização das informações de saúde para capacitar os médicos e seus pacientes a melhorar os cuidados e resultados de saúde
-				<p>Esse trabalho começou com o GEHR ( bom registro europeu de saúde), no início dos anos 90, continuou através de uma longa colaboração com Thomas Beale e o Instituto de informática de saúde do UCL( University College of London),  o estabelecimento da empresa Ocean Informatics como um veículo comercial para ajudar na visão  desse registro e que culminou na criação da Fundação openEHR em Londres, em 2002
-				<p> Seu trabalho continuou atuando como diretor da Fundação openEHR, Diretor Executivo até 2012 e atual presidente da Ocean Informatics e, mais recentemente,  como presidente da Fundação openEHR. Sam era uma base co-presidente do Comitê Técnico da do Registro Eletrônico de saúde do HL7 e trabalhou intensamente com os programas nacionais do  Reino Unido e da Austrália, para utilizar e aperfeiçoar o método openEHR.
+				<p>O Dr Sam Heard (MBBS, MRCGP, FRACGP, Fachi) é  médico de família em atividade  que trabalhou toda a sua carreira em Londres 7 (Reino Unido) e do Território do Norte (Austrália) com padronização das informações de saúde para capacitar os médicos e seus pacientes a melhorar os cuidados e resultados de saúde</p>
+				<p>Esse trabalho começou com o GEHR ( bom registro europeu de saúde), no início dos anos 90, continuou através de uma longa colaboração com Thomas Beale e o Instituto de informática de saúde do UCL( University College of London),  o estabelecimento da empresa Ocean Informatics como um veículo comercial para ajudar na visão  desse registro e que culminou na criação da Fundação openEHR em Londres, em 2002.</p>
+				<p> Seu trabalho continuou atuando como diretor da Fundação openEHR, Diretor Executivo até 2012 e atual presidente da Ocean Informatics e, mais recentemente,  como Diretor Executivo da Fundação openEHR. Sam era uma base co-presidente do Comitê Técnico da do Registro Eletrônico de saúde do HL7 e trabalhou intensamente com os programas nacionais do  Reino Unido e da Austrália, para utilizar e aperfeiçoar o método openEHR.</p>
 			</tr) da		</tbody>
 			</table>
 			
@@ -32,11 +32,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/DIngram.png"></td>
 				<td width="650px">
-				<p>David Ingram is Emeritus Professor of Health Informatics at UCL, President of the openEHR Foundation and a Trustee of the OpenEyes Charity. He was appointed to the first Chair in Medical Informatics in the UK, in 1989, and went on to establish the UCL Centre for Health Informatics and Multiprofessional Education, in 1995, of which he was Director until his retirement in 2011.</p>
-				<p>David led the foundational health record architecture research of the GEHR Project, within the EU, starting in 1991. From this and subsequent projects and collaborations emerged the openEHR Foundation - of which he was Founding Chair from 2002-2012 - and principal contributions of CHIME colleagues towards the CEN and ISO 13606 standards.</p>
-				<p>Since his retirement from academic life, he has been sailing, swimming, skiing and dancing more, and remains active in UCL spin out companies, including Charing Systems and Helicon Health, and as a PhD supervisor for CHIME students.</p>
-				</td>
-			</tr> 
+				<p>David Ingram é Professor Emérito de Informática em Saúde no UCL (University College of London), Presidente  da Fundação openEHR e dos administradores da Fundação OpenEyes. Ele foi nomeado para a primeira cadeira em Informática Médica no Reino Unido, em 1989, e criou,  em 1995, o Centro  de Informática em Saúde e Educação Multiprofissional da UCL (CHIME), no qual foi diretor até sua aposentadoria em 2011.</p> 
+				</ P> <p> David liderou, a partir de 1991, a pesquisa de arquitetura base do registro de saúde do Projeto GEHR (bom registro eletrônico de saúde), no âmbito da União Européia. A partir deste projeto e de outras colaborações  e projetos posteriores, surgiu a Fundação openEHR, da qual ele foi o Diretor Executivo fundador, de 2002 até 2012. David foi  um dos principais contribuidores entre seus principais contribuições de colegas da CHIME,  para as normas  CEN e ISO 13606 normas </ p> 
+				<p> Desde sua aposentadoria da vida acadêmica, ele tem aproveitado para nadar, velejar,esquiar e dançar mais, porém  permanece ativo nas empresas que surgiram  na incubadora de empresas  da UCL, incluindo   a Charing  Systems e Helicon Saúde, e como supervisor de doutorado para estudantes do UCL.</p>
+							</tr> 
 			</tbody>
 			</table>
 			
@@ -48,7 +47,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 				<td width="650px">
 				<p>Dipak Kalra, PhD, FRCGP, British, is Clinical Professor of Health Informatics at University College London, United Kingdom. He is President of the European Institute for Health Records (EuroRec) and a Director of the openEHR Foundation.</p>
 				<p>Dipak plays a leading international role in research and development of electronic health record architectures and systems, including the requirements and models needed to ensure the robust long-term preservation of clinical meaning and protection of privacy. He leads the development of CEN and ISO standards on EHR interoperability, personal health records, EHR requirements, and has contributed to several EHR security and confidentiality standards.</p>
-				<p>Dipak is involved in European research on EHR system quality labelling, semantic interoperability and clinical knowledge discovery. He leads a EU Network of Excellence on semantic interoperability, and a project to develop a European roadmap on patient empowerment innovations. He leads the Managing Entity for a €16m Innovative Medicines Initiatives on the re-use of electronic health record information for clinical research, EHR4CR, alongside ten global pharmaceutical companies. He is also a partner in another IMI project, EMIF, on the development of a European clinical research platform federating multiple population health and cohort studies.</p>
+				<p>Dipak is involved in European research on EHR system quality labelling, semantic interoperability and clinical knowledge discovery. He leads a EU Network of Excellence on semantic interoperability, and a project to develop a European roadmap on patient empowerment innovations. He leads the Managing Entity for a €16m Innovative  Medicines Initiatives on the re-use of electronic health record information for clinical research, EHR4CR, alongside ten global pharmaceutical companies. He is also a partner in another IMI project, EMIF, on the development of a European clinical research platform federating multiple population health and cohort studies.</p>
 				</td>
 			</tr>
 			</tbody>
