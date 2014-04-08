@@ -12,23 +12,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2 id="foundationboard">openEHR Foundation Board Members</h2>
+			<h2 id="foundationboard"> Diretoria atual da Fundação openEHR</h2>
 			
-			<h3 style="margin-left:1em;">Dr. Sam Heard - Chair of the Foundation Board (Australia)</h3>
+			<h3 style="margin-left:1em;">Dr. Sam Heard - Presidente (Australia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/SHeard.png"></td>
 				<td width="650px">
-				<p>Sam Heard (MBBS, MRCGP, FRACGP, FACHI) is a practicing clinician who has worked throughout his career in inner London (UK) and the Northern Territory (Australia) to assist the standardisation of health information to empower clinicians and their patients to improve health care and outcomes.</p>
-				<p>This work began with the Good European Health Record in the early 90s, continued through a long collaboration with Thomas Beale and CHIME at UCL, the establishment of Ocean Informatics as a commercial vehicle to assist in the vision and culminating in setting up the openEHR Foundation in London in 2002.</p>
-				<p>The work has continued as a Director of the openEHR Foundation, CEO until 2012 and now as Chairman of Ocean Informatics and most recently as Chairman of the openEHR Foundation. Sam was a foundation co-Chair of the HL7 EHR Technical Committee and has worked extensively with the UK and Australian national programs to utilise and refine the openEHR method.</p>
-				</td>
-			</tr>
-			</tbody>
+				<p>O Dr Sam Heard (MBBS, MRCGP, FRACGP, Fachi) é um médico de família em atividade  que trabalhou toda a sua carreira em Londres 7 (Reino Unido) e do Território do Norte (Austrália) com padronização das informações de saúde para capacitar os médicos e seus pacientes a melhorar os cuidados e resultados de saúde
+				<p>Esse trabalho começou com o GEHR ( bom registro europeu de saúde), no início dos anos 90, continuou através de uma longa colaboração com Thomas Beale e o Instituto de informática de saúde do UCL( University College of London),  o estabelecimento da empresa Ocean Informatics como um veículo comercial para ajudar na visão  desse registro e que culminou na criação da Fundação openEHR em Londres, em 2002
+				<p> Seu trabalho continuou atuando como diretor da Fundação openEHR, Diretor Executivo até 2012 e atual presidente da Ocean Informatics e, mais recentemente,  como presidente da Fundação openEHR. Sam era uma base co-presidente do Comitê Técnico da do Registro Eletrônico de saúde do HL7 e trabalhou intensamente com os programas nacionais do  Reino Unido e da Austrália, para utilizar e aperfeiçoar o método openEHR.
+			</tr) da		</tbody>
 			</table>
 			
-			<h3 style="margin-left:1em;">Professor David Ingram (United Kingdom)</h3>
+			<h3 style="margin-left:1em;">Professor David Ingram (Reino Unido)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
