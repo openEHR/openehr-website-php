@@ -39,7 +39,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			</tbody>
 			</table>
 			
-			<h3 style="margin-left:1em;">Professor Dipak Kalra (United Kingdom)</h3>
+			<h3 style="margin-left:1em;">Professor Dipak Kalra (Reino Unido)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
@@ -54,7 +54,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			</table>
 			
 			
-			<h2 id="managementboard">openEHR Management Board Members</h2>
+			<h2 id="managementboard"> Diretoria atual da Fundação openEHR</h2>
 		
 			<h3 style="margin-left:1em;">Dr. Sam Heard - Chair of the Foundation Board (Australia)</h3>
 			<table class="TableInvisible">
@@ -62,7 +62,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/SHeard.png"></td>
 				<td width="650px">
-				<p>O Dr Sam Heard (MBBS, MRCGP, FRACGP, Fachi) é  médico de família em atividade  que trabalhou toda a sua carreira em Londres (Reino Unido) e do Território do Norte (Austrália) com padronização das informações de saúde para capacitar os profisionais de saúde e seus pacientes a melhorar os cuidados e resultados de saúde.</p>
+				<p>Sam Heard (MBBS, MRCGP, FRACGP, Fachi) é  médico de família em atividade  que trabalhou toda a sua carreira em Londres (Reino Unido) e do Território do Norte (Austrália) com padronização das informações de saúde para capacitar os profisionais de saúde e seus pacientes a melhorar os cuidados e resultados de saúde.</p>
 				<p>Esse trabalho começou com o GEHR ( bom registro europeu de saúde), no início dos anos 90, continuou através de uma longa colaboração com Thomas Beale e o Instituto de informática de saúde do UCL( University College of London),  o estabelecimento da empresa Ocean Informatics como um veículo comercial para ajudar na visão  desse registro e que culminou na criação da Fundação openEHR em Londres, em 2002.</p>
 				<p>Seu trabalho continuou  como diretor da Fundação openEHR, Diretor Executivo, até 2012, e atual presidente da Ocean Informatics e, mais recentemente,  como Diretor Executivo da Fundação openEHR. Sam foi fundador e co-relator inicial do Comitê Técnico da do Registro Eletrônico de saúde do HL7 e trabalhou intensamente com os programas nacionais do  Reino Unido e da Austrália, para utilizar e aperfeiçoar o método openEHR.</p>
 				</td>
@@ -70,21 +70,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			</tbody>
 			</table>
 			
-			<h3 style="margin-left:1em;">Dr. Bill Aylward (United Kingdom)</h3>
+			<h3 style="margin-left:1em;">Dr. Bill Aylward (Reino Unido)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/BAylward.png"></td>
 				<td width="650px">
-				<p>Bill Aylward (MA MB BChir FRCS FRCOphth MD) is a senior Vitreoretinal Surgeon at Moorfields Eye Hospital. He has published over 100 peer-reviewed papers, and 9 book chapters. He is the lead author of the highly regarded Video Atlas of Vitreoretinal Surgery.</p>
-				<p>before writing his MD thesis following two and a half years in Sydney working with Professor Frank Billson. He obtained further residency training at Moorfields, trained as a fellow with Peter Leaver in vitreoretinal surgery, and then with Don Gass in Medical Retina at the Bascom Palmer Eye Institute in Miami.</p>
-				<p>He has been a consultant at Moorfields since 1994, and was Medical Director from 2002 to 2010. He is Chairman of the Informatics and Audit Committee of the Royal College of Ophthalmologists, and a member of their Professional Standards Committee. He is an international board member for the American Society of Retinal Specialists, and is Vice president of the Club Jules Gonin. He was a founder member of Euretina, and served as President from 2009 to 2011. He is currently director of the OpenEyes collaborative development of a state of the art electronic patient record for ophthalmology.</p>
+				<p>Bill Aylward (MA MB BChir FRCS FRCOphth MD) é um cirurgião vVitreoretinal senior do Hospital Oftamológico Moorfields. Ele publicou mas de 100 artigos revisado por pares e nove capítulos de livros. Ele é o editor do conceituado Video Atlas de Cirurgia Vitreo Retinal.</p>
+				<p> antes de obter se grau de doutor em medicina ele trabalhou em Sydney,Australia, por dois anos e meio com o Professor Frank Billson. Ele fez siua residência médica no Hospital Moorfields, fez um treinamento de cirugia viteroretinal com o  Dr Peter Leaver e depois, em Miami, se especializou em Medicina da Retina  com o Professor Don Gass do Instituto Otamológico Bascom Palmer.</p>
+				<p> Ele trabalha no Hospital Moorfields desde 1994, onde foi Diretor Médico no período de 2002 a 2010. Ele é o Presidente do Comitê de Informática e Auditoria do Colégio Real de Oftamalogistas, onde também é membro do comitê de padrões profissionais. Ele é membro da diretoria internacional da Sociedade Americana de Especialistas em Retina e é Vice-presidente do Clube Jules Gonin. Ele é membro fundador da Euretina, onde foi Presidente de 2009 a 2011.Atualmente ele  diretor do OpenEyes, uma iniciativa de coloboração para desenvolvimento  de um Registro Eletrônico de Saúde para Oftalmologia no estado da arte.</p>
 				</td>
 			</tr>
 			</tbody>
 			</table>
 			
-			<h3 style="margin-left:1em;">Professor David Ingram (United Kingdom)</h3>
+			<h3 style="margin-left:1em;">Professor David Ingram (Reino Unido)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
@@ -93,13 +93,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 				<td width="650px">
 				<p>David Ingram é Professor Emérito de Informática em Saúde no UCL (University College of London), Presidente  da Fundação openEHR e dos administradores da Fundação OpenEyes. Ele foi nomeado para a primeira cadeira em Informática Médica no Reino Unido, em 1989, e criou,  em 1995, o Centro  de Informática em Saúde e Educação Multiprofissional da UCL (CHIME), no qual foi diretor até sua aposentadoria, em 2011.</p>
 				<p>David liderou, a partir de 1991, a pesquisa de arquitetura base do registro de saúde do Projeto GEHR (bom registro eletrônico de saúde), no âmbito da União Européia. A partir deste projeto e de outras colaborações  e projetos posteriores, surgiu a Fundação openEHR, da qual ele foi o Diretor Executivo fundador, de 2002 até 2012. David foi  um dos principais contribuidores, entre seus colegas da CHIME,  para as normas  CEN e ISO 13606.</p>
-				<p>Desde sua aposentadoria da vida acadêmica, ele tem aproveitado para nadar, velejar,esquiar e dançar mais, porém  permanece ativo nas empresas que surgiram  na incubadora de empresas  da UCL, incluindo   a Charing  Systems e Helicon Saúde, e como supervisor de doutorado para estudantes do UCL.</p>
+				<p>Desde sua aposentadoria da vida acadêmica, ele tem aproveitado para nadar, velejar,esquiar e dançar mais, porém  permanece ativo nas empesas que surgiram  na incubadora de empresas  da UCL, incluindo   a Charing  Systems e Helicon Saúde, e como supervisor de doutorado para estudantes do UCL.</p>
 				</td>
 			</tr> 
 			</tbody>
 			</table>
 			
-			<h3 style="margin-left:1em;">Professor Dipak Kalra (United Kingdom)</h3>
+			<h3 style="margin-left:1em;">Professor Dipak Kalra (Reino Unido)/h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
@@ -118,25 +118,25 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			</tbody>
 			</table>
 			
-			<h3 style="margin-left:1em;">Dr. Ian McNicoll (United Kingdom)</h3>
+			<h3 style="margin-left:1em;">Dr. Ian McNicoll (Reino Unido)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/IMcnicoll.png"></td>
 				<td width="650px">
-				<p>Ian McNicoll was for many years a Glasgow GP and an Honorary Senior Research Associate with CHIME, UCL and an independent clinical informatics consultant, primarily working with Ocean Informatics on openEHR-based projects across Europe. He is a member of the NHS Scotland SCIMP Working Group and serves on the committee of the BCS Primary Health Care Specialist Group.</p>
+				<p>Ian McNicoll foi Medico Generalista  em Glasgow por muitos anos, pesquisador Senior Honorário do CHIME, UCL e consultor independente de Informática em Saúde, primariamente trabalhando para a Ocean Informatics em projetos baseados em openEHR em vaários paísea da Europa. Ele é membro do grupo de SCIMP ,de Informática Médica, no NHS da Escócia e atua no comitê de Especialistas em Atenção Primária na Sociedade de Informática Clínica do Reino Unido.</p>
 				</td>
 			</tr>
 			</tbody>
 			</table>
 			
-			<h3 style="margin-left:1em;">Dr. Jussara R&ouml;tzsch (Brazil)</h3>
+			<h3 style="margin-left:1em;">Dra Jussara Rötzsch (Brasil)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/JRotzsch.png"></td>
 				<td width="650px">
-				<p>Jussara R&ouml;tzsch is Master in psychatry and is specialized in health information systems. She is also a consultant of Brazil Ministry of Health in the national EHR project. She works as Business Analyst of the exchange content model of TISS project (Nationwide Electonic Health Information Exchange between health plans and healthcare providers).</p>
+				<p>Jussara Rötzsch é médica,  Mestre em psquiatria e é especializada em Gestão de Sistemas de Informação em Saúde. Ela atua, desde 2010 como consultora independente  Brazil Ministry of Health in the national EHR project. She works as Business Analyst of the exchange content model of TISS project (Nationwide Electonic Health Information Exchange between health plans and healthcare providers).</p>
 				<p>Jussara became personality of the year in the category Incentivating E-business of Brasilian Association of E-business in 2006 and awarded at WHIT'07 (World of Health IT Conference Award) in Vienna in 2007. Chair of National Committee for Health Information Standards and Interoperability within Private Health Insurance market (COPISS), from 2006 to 2009. Convener of WG 3- Semantic Content of HIT Commitee of Brazilian Standards Development Organization (ABNT) from 2007 to 2009.</p>
 				</td>
 			</tr>
@@ -163,7 +163,95 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<tbody>
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/RChen.png"></td>
-				<td width="650px">
+				<td width="650px">119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+                        </table>
+                        
+                        <h3 style="margin-left:1em;">Dr. Ian McNicoll (Reino Unido)</h3>
+                        <table class="TableInvisible">
+                        <tbody>
+                        <tr>
+                                <td style="text-align:center;"><img src="/files/about/IMcnicoll.png"></td>
+                                <td width="650px">
+                                <p>Ian McNicoll foi Medico Generalista  em Glasgow por muitos anos, pesquisador Senior Honorário do CHIME, UCL e consultor independente de Informática em Saúde, primariamente trabalhando para a Ocean Informatics em projetos baseados em openEHR em vaários paísea da Europa. Ele é membro do grupo de SCIMP ,de Informática Médica, no NHS da Escócia e atua no comitê de Especialistas em Atenção Primária na Sociedade de Informática Clínica do Reino Unido.</p>
+                                </td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        
+                        <h3 style="margin-left:1em;">Dra Jussara Rötzsch (Brasil)</h3>
+                        <table class="TableInvisible">
+                        <tbody>
+                        <tr>
+                                <td style="text-align:center;"><img src="/files/about/JRotzsch.png"></td>
+                            
+                                <td width="650px">
+                                <p>Jussara Rötzsch é médica,  Mestre em psquiatria e é especializada em Gestão de Sistemas de Informação em Saúde. Ela atua, desde 2010 como consultora independente  do Ministério da Saúde no projeto de Registro Eletrônico de saúde Nacional, onde lidera atualmente a equipe da Universidade de Brasília que está definindo os padrões de conteúdo, estrutura e representação semântica do RES Nacional, usando a metologia e modelo de referência openEHR.<p> 
+                                <p>Ela liderou a equipe que criou e implantou o protocolo de Troca de Informações em Saúde Suplementar da ANS (TISS)Por esse trabalho ela recebeu´, em 2007, o título de personalidade do ano na categoria Incentivo ao Comércio Eletrônico da Associação Brasileira de  e-Business e em Viena, 2007, recebeu um prêmio por seu trabalho a frente do COPISS.</p>
+                                <p> Ela foi fundadora e primeira Coordenadora do COPISS- comitê de padronização da ANS responsável pela evolução e governança do padrão TISS- no período de 2006 a 2009. Ela atua intensamente em atividades de padronização em saúde no país,tendo sido relatora de 2007 a 2009 do grupo de trabalho de representação semântica e atualmete é a vice-relatora do Grupo de Trabalho de Arquitetura da Comissão Especial de Estudos em Informática em Saúde da ABNT. Ela participou da tradução da terminologia de laborátorios LOINC para a língua portuguesa.<p>    
+                        </tr>
+                        </tbody>
+                        </table>
+                        
+                        <h3 style="margin-left:1em;">Joana Feijó (Portugal)</h3>
+                        <table class="TableInvisible">
+                        <tbody>
+                        <tr>
+                                <td style="text-align:center;"><img src="/files/about/JFeijo.png"></td>
+                                <td width="650px">
+                                <p>Joana Feijó é graduada em Microbiologia pela Universidade Católica de Potugal, e pós-graduada em Biologia Molecular e Doutora (PhD) em Ciências Biomédicas pel Instituto de Ciências Biomédicas Abel Salazar da Universidade do Porto.</p>
+                                <p>Joana trabalha como Gerente de Desenvolvimento de Negócios em Saúde na empresa Critical Software. Ela é responsável pelas áreas de conceituação, desenvolvimento e comercialização de produtos. Nos últimos três anos o foco  de seu trabalho é o desenvolvimento de um produto baseado em openEHR para gestão da Informação Clínica.</p>
+                                <p> Antes de se juntar ao grupo Critical, Joana trabalhou para a empresa ALERT Life Sciences Computing, S.A. como Diretora do Departamento de  Análise Funcional e Conteúdo Clínico. Durante seus três anos de trabalho na ALERT, Joana foi responsável pelos times nacional e internacional de especificação do aplicações e definição de Conteúdos Clínicos para os sistemas de informação clínica.Ela também era responsável pelogrupo de consultores médicos.</p>
+                                <p>Before ALERT Joana was an Associate Professor lecturing Biochemistry, Biophysics and Microbiology.</p>
+                                </td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        
+                        <h3 style="margin-left:1em;">Rong Chen (Suécia)</h3>
+jussararotzsch
+Commit changes
 				<p>Rong Chen, MD PhD, is the Chief Medical Informatics Officer and the head of Medical Informatics Group at Cambio Healthcare Systems, Sweden. <p>He’s responsible for the research and development in clinical decision support and knowledge management at Cambio.</p>
 				Rong holds a PhD degree in health informatics on the subject of EHR semantic interoperability from Linköping University, Sweden. He is an associated researcher at the Health Informatics Centre at Karolinska Institutet, where he lectures and supervises PhD and master students.</p>
 				<p>Rong has contributed to several core openEHR design specifications, and has for many years led the openEHR Reference Java Implementation of openEHR. Rong is the lead author of Guideline Definition Language (GDL), which is designed to express clinical logic for scalable decision support with openEHR underpinning.</p>
