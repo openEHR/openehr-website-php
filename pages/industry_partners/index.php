@@ -29,7 +29,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<tr>
 				<td><a href="/industry_partners/critical_software"><img src="/files/industry_partners/critical_logo.png"></a></td>
 				<td><h2>Critical Software</h2>
-				<p>Critical Software is a Portuguese company who create and deploy software solutions that guarantee support for key operational functions. Critical Software delivers software tools that protect personnel, monitor the safety of equipment and ensure that critical processes are conducted securely and efficiently. Working within a diverse array of market sectors Critical Software delivers high-quality, expert staff who help their customers achieve and sustain success in all their IT ventures.</p>
+				<p>CRITICAL Software is an international company, founded in 1998, which specialises in the delivery of reliable solutions, services and technologies for business-critical information systems, providing software solutions and technologies that protect individuals, provide valuable insights, monitor the safety of equipment and guarantee business-critical processes are carried out securely and efficiently. In the healthcare area, Critical Software developed a patient centric solution, focused on sharing relevant clinical information. Healthcare facilities have patient information generated from different IT solutions, our solution consolidate this information in a Clinical Repository, centered on the patient.</p>
 				<a href="/industry_partners/critical_software">Learn more</a></td>
 			</tr>
 			<tr>
