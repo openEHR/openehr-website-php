@@ -20,10 +20,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p><em>Trading since:</em> 1993</p>
 			<p><a href="http://www.cambiohealthcare.co.uk/" target="_blank">Cambio Healthcare Systems website</a></p>
 			
-			<h2>Solutions</h2>
+			<h2>Healthcare Services</h2>
+			xxx
+			
+			<h2>Healthcare Solutions</h2>
 			<p>xxx</p>
 			
-			<h2>Customers</h2>
+			<h2>Healthcare Customers</h2>
 			<p>xxx</p>
 			
 

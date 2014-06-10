@@ -20,7 +20,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p><em>Trading since:</em> 2006</p>
 			<p><a href="http://www.infinnity.ru/" target="_blank">Infinnity Solutions website</a></p>
 			
-			<h2>Healthcare Solutions</h2>
+			<h2>Healthcare Services</h2>
 			<p>Developing and supplying e-health solutions to a wide range of Healthcare organisations - from single clinics/GP practices to large federal healthcare providers.</p>
 			
 			<h2>Healthcare Solutions</h2>

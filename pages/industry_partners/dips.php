@@ -20,10 +20,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p><em>Trading since:</em> ...</p>
 			<p><a href="http://www.dips.no/?lang=eng" target="_blank">DIPS website</a></p>
 			
-			<h2>Solutions</h2>
+			<h2>Healthcare Services</h2>
+			
+			<h2>Healthcare Solutions</h2>
 			<p>xxx</p>
 			
-			<h2>Customers</h2>
+			<h2>Healthcare Customers</h2>
 			<p>xxx</p>
 		
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
