@@ -70,6 +70,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 						<td> <a href="installation_notes#mac">here</a> <br/></td>
 					</tr>
 					<tr>
+						<td> Mac OS X 10.9 (Mavericks)<br/></td>
+						<td> 1.5.1-beta11</td>
+						<td> 26 Jun 2014</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_1.5beta11-macosx_mavericks.dmg">.dmg installer</a></td>
+						<td> <a href="installation_notes#mac">here</a> <br/></td>
+					</tr>
+					<tr>
 						<td>Linux (32-bit Intel)<br/></td>
 						<td> 1.5.1-beta10</td>
 						<td> 10 Mar 2014</td>
