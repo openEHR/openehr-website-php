@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Propriedade Intelectual e Licenças';
+$PageName = 'IP e Licenciamento';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
@@ -12,35 +12,34 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>Copyright</h2>
-			<p>Artefacts produced by the Software Program are copyrighted to the openEHR Foundation. This establishes the Foundation to be the owner of the 'moral rights' to the artefacts, on behalf of all the contributors,
-			and for the safety of the user community.</p>
+			<h2>Direitos autorais</h2>
+			<p>Artefatos produzidos pelo Programa de Software são protegidos pelos direitos autorais da Fundação openEHR. Isso determina que a Fundação será a proprietária dos 'direitos morais' dos artefatos, em nome de todos os colaboradores e para a segurança da comunidade de usuários.</p>
 			
-			<h2>Attribution</h2>
-			<p>The contributors to an artefact are recognised in the contributor's list section in the license block.</p>
+			<h2>Atribuição</h2>
+			<p>Os contribuintes para um artefato são reconhecidos em uma seção no bloco de licença.</p>
 			
 			<table class="TableMain">
 			<tbody>
 			<tr>
-				<th class="TableMainT"> Artefact type</th>
-				<th class="TableMainT"> License for use</th>
-				<th class="TableMainT"> Comments</th>
+				<th class="TableMainT"> Tipo do artefato</th>
+				<th class="TableMainT"> Licença para uso</th>
+				<th class="TableMainT"> Comentários</th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <b>Source code</b> </td>
+				<td class="TableMainC"> <b>Código Fonte</b> </td>
 				<td class="TableMainC"> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
-										<a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2 License</a></td>
-				<td class="TableMainC"> <br/><br/>Computable artefacts are licensed in the same way as software, using the Apache license, which is widely accepted and industry friendly.<br/><br/></td>
+										<a href="http://www.apache.org/licenses/LICENSE-2.0">Licença Apache 2 </a></td>
+				<td class="TableMainC"> <br/><br/>Artefactos computáveis ​​são licenciados, da mesma forma que software, usando a licença do Apache, que é amplamente aceito e amigável a indústria.<br/><br/></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <b>Documentation</b> </td>
-				<td class="TableMainC"> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a
+				<td class="TableMainC"> <b>Documentação</b> </td>
+				<td class="TableMainC"> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> está licenciado sob
 										<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
-				<td class="TableMainC"> <br/><br/>Software documentation is intended for wide use, and improvement. Translation and re-use are encouraged. <br/><br/><br/> </td>
+				<td class="TableMainC"> <br/><br/>A documentação é destinada a ampla divulgação, e melhorias. Traduções e re-uso são incentivados.<br/><br/><br/> </td>
 			</tr>
 			</tbody>
 			</table>
 		
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
