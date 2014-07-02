@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Introdução</h2>
-			<p> O espaço de Modelos de Informação em Saúde se destina a discussões sobre modelos formalizados do domínio saúde> Na Framework openEHR existem um número de inovações que permitem especificar e compartilhar conteúdo clínico de forma linear. As bases para isso são os modelos clínicos, que consistem de arquétipos e templates.  Esses mpdelos requerem o uso de termninologias e finalmente esses modelos precisam apoiar o processo clínico automatizado, oferecer suporte à decisão clínica e sugerir opções para cuidados de boa qualidade na forma de linhas de cuidado computadorizadas.</p>
+			<p> O espaço de Modelos de Informação em Saúde se destina a discussões sobre modelos formalizados do domínio saúde> Na Framework openEHR existem um número de inovações que permitem especificar e compartilhar conteúdo clínico de forma linear. As bases para isso são os modelos clínicos, que consistem de arquétipos e templates.  Esses modelos requerem o uso de termninologias e finalmente esses modelos precisam apoiar o processo clínico automatizado, oferecer suporte à decisão clínica e sugerir opções para cuidados de boa qualidade na forma de linhas de cuidado computadorizadas.</p>
 			
 			
 			<		<h2>Modelos Clínicos</h2>
@@ -43,12 +43,12 @@ completa, discreta e o mais inclusiva possível, sempre em termos do modelo de r
 
 registros de informação em saúde (como quem, quando e onde) são cuidados e não precisam ser tratados para cada arquétipo. Posteriormente, o modelo de referência teve 5 
 
-diferente classes de entrada que proviam atributos e estruturas necessárias a toda e qualquer informação armazenada em um registro de saúde.</p>
+diferentes classes de entrada que proviam atributos e estruturas necessárias a toda e qualquer informação armazenada em um registro de saúde.</p>
 			<p>Arquétipos openEHR oferecem uma grande vantagem em relação aos modelos (templates) HL7 uma vez que dados complexos podem ser especificados 
 
 de forma que seja compreensível pelos profissionais de saúde e equipe de TI. É uma forma muito eficiente de gerenciar as especificações de informações que desejamos 
 
-compartilha entre os sistemas de saúde.</p>
+compartilhar entre os sistemas de saúde.</p>
 			
 			<h4>Modelos (Templates)</h4>
 			<p>Modelos (Templates) são um significado mais avançado na construção do modelos clínicos; estes são compostos de um ou mais arquétipos onde 
@@ -60,21 +60,21 @@ registrar o acompanhamento anual de uma pessoal diabética ou em uma consulta de
 para ‘acompanhamento de diabetes’ e ‘consulta pré-natal’.</p>
 			
 			
-			<h2>Terminologia</h2>
-			<p>Terminologia é tão antiga quanto os computadores em saúde. Inicialmente usada para minimizar espaço em disco, o uso de terminologias cresceu 
+			<h2>Terminologias</h2>
+			<p>Terminologias são tão antigas quanto os computadores em saúde. Inicialmente usadas para minimizar espaço em disco, o uso de terminologias cresceu 
 
-a ponto de classificar o cuidado em saúde ofertado e, mais recentemente, por meio do SNOME-CT (<a href="http://www.ihtsdo.org/" target="_blank">IHTSDO</a>) para apoiar 
+a ponto de classificar o cuidado em saúde ofertado e, mais recentemente, por meio do SNOMED-CT (<a href="http://www.ihtsdo.org/" target="_blank">IHTSDO</a>) para apoiar 
 
 processos clínicos automatizados. Arquétipos, e o openEHR nesta questão, são planejados para trabalhar com terminologia.</p>
 			
-			<h4>Arquétipos e Terminologia</h4>
+			<h4>Arquétipos e Terminologias</h4>
 			<p>Cada termo em um arquétipo pode ser unificado a uma terminologia para melhor compreensão da intenção do autor. Além disso, os arquétipos 
 
 permitem a expressão de subconjuntos para determinar os conjuntos de termos de valores mais adequados em um  ponto de dados específico. Isto é conhecido como 
 
 ‘definição de restrição’ e  é um espaço reservado  para um conjunto de valores que é oferecido ao usuário dentro da aplicação.</p>
 			
-			<h4>Modelos (Templates) and Terminologia</h4>
+			<h4>Modelos (Templates) and Terminologias</h4>
 			<p>Terminologias usadas no Cuidado à Saúde incluem <a href="http://www.who.int/classifications/icd/en/" target="_blank">ICD-10</a> (e seus  
 
 predecessores ICD-9), <a href="http://www.ihtsdo.org/snomed-ct/" target="_blank">SNOMED-CT</a>, <a href="http://loinc.org/" target="_blank">LOINC</a> e muitas 
@@ -97,23 +97,23 @@ Registros Eletrônicos em Saúde e a Interoperabilidade Semântica.</p>
 			
 			
 			<h2>Governança do Conhecimento Clínico (Clinical Knowledge Governance)</h2>
-			<p>O <a href="documentation">Clinical Knowledge Manager (CKM)</a> (disponível em <a href="http://www.openehr.org/ckm/" target="_blank">here</a>) 
+			<p>O <a href="documentation">O Gestor do Conhecimento Clínico (Clinical Knowledge Manager- CKM)</a> (disponível em <a href="http://www.openehr.org/ckm/" target="_blank">aqui</a>) 
 
-openEHR é uma aplicação on-line que suporta a governança do conhecimento dentro e através da corporação de Saúde. Na prática, é um sistema para desenvolvimento 
+openEHR é uma aplicação on-line que suporta a governança do conhecimento dentro e através das organizações de Saúde. Na prática, é um sistema para desenvolvimento 
 
 colaborativo, gerenciamento e publicação de um extenso conjunto de recursos de conhecimentos clínicos incluindo arquétipos, modelos (templates) e subconjuntos de 
 
 terminologia.</p>
 			
 			
-			<h2>Processo clínico incluindo orientações, fluxo de trabalho e os caminhos</h2>
+			<h2>Processo clínico incluindo orientações, fluxo de trabalho e linhas de atenção</h2>
 			<p>O objetivo de todo este trabalho é apoiar o processamento automatizado de informações em saúde para assistir pessoas e seus provedores de 
 
 cuidados de saúde em obter os melhores resultados de saúde possíveis. Um grande esforço de trabalho e pesquisa foi despendido no estabelecimento de maneiras de prover 
 
-esta assistência. Com o openEHR, é possível pela primeira vez expressar declarações de processos dependentes de informações em saúde (como tomar prednisolona 50mg por 
+essa assistência. Com o openEHR, é possível pela primeira vez expressar declarações de processos dependentes de informações em saúde (como tomar prednisolona 50mg por 
 
-dia, se a medida de pico de fluxo cai abaixo de 200 L / min em duas manhãs consecutives) usando termos formais. Isto é em virtude do openEHR possuir uma linguagem de 
+dia, se a medida de pico de fluxo cai abaixo de 200 L / min em duas manhãs consecutivas) usando termos formais. Isto é em virtude do openEHR possuir uma linguagem de 
 
 recuperação de registros que permite a construção de sentenças com base em arquétipos que especificam a informação.</p>
 			
