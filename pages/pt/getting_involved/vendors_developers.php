@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Desenvolvedores de Soluções';
+$PageName = 'Fornecedores / Desenvolvedores';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
@@ -12,29 +12,30 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>openEHR provides many advantages for health information system and application vendors. Because it is a standardised computing platform it enables many vendors to avoid re-inventing their own back-end for EHR, demographics, data integration and so on, and instead use one of the high-quality implementations becoming available. All of the API and service specifications are already or will soon be publicly available.</p>
-			<p>A prime source of efficiency when using the openEHR platform is the ability to use archetypes agreed formally elsewhere, ensuring genuine semantic interoperability of health records. This might be considered a form of cooperative clinical configuration. While such configuration is a source of income to vendors in the current environment, it is a waste for the health system as a whole and a source of many of the integration problems we are currently experiencing.</p>
-			<p style="text-align:center;"><a href="/files/getting_involved/vendors_developers.png"><img src="/files/getting_involved/vendors_developers.png" alt="openEHR Ecosystem - Vendors / Developers" title="openEHR Ecosystem - Vendors / Developers" width="480px" style="border: solid 1px #CCCCCC;"></a></p>	
+			<p>openEHR oferece muitas vantagens para sistemas de informação em saúde e para aplicativos de fornecedores. Por se tratar de uma plataforma computacional padronizada permite que muitos fornecedores evitem re-inventar seu próprio back-end para EHR, demografia, integração de dados e assim por diante, e em vez disso usem implementações de alta qualidade disponíveis. Todas as especificações de API e serviços já estão ou estarão em breve disponíveis publicamente.</p>
+
+			<p>A principal fonte de eficiência no uso da plataforma openEHR é a capacidade de usar os arquétipos aprovados oficialmente em outros lugares, garantindo uma verdadeira interoperabilidade semântica de registros de saúde. Isso pode ser considerado uma forma cooperativa de configuração clínica. Embora essa configuração seja uma fonte de renda para os fornecedores no ambiente atual, é um desperdício para o sistema de saúde como um todo e a raiz de muitos dos problemas de integração que estamos experimentando atualmente.</p>
+			<p style="text-align:center;"><a href="/files/getting_involved/vendors_developers.png"><img src="/files/getting_involved/vendors_developers.png" alt="openEHR Ecossistema - Fornecedores / Desenvolvedores" title="openEHR Ecossistema - Fornecedores / Desenvolvedores" width="480px" style="border: solid 1px #CCCCCC;"></a></p>	
 			
 			
-			<h2>What can openEHR do for you</h2>
+			<h2>O que openEHR pode fazer por você</h2>
 			
-			<h3>Application Vendors</h3>
-			<p>Vendors of applications such as clinical systems for general practice, hospital departments, decision support and many others can use the openEHR platform for all clinical and potentially demographic information, rather than having to provide their own implementation. The application interacts with the openEHR platform via the virtual EHR (vEHR) API, Archetype Query Language (AQL) and XML, regardless of which implementation is used. Larger implementations support secure high-performance, high-volume EHR repositories.</p>
-			<p>openEHR Templates can be effectively used to build data capture, viewing and querying forms for an application. The forms can be generated from openEHR Templates using a template-building tool, in e.g. Xform, .Net or other formats. This ensures that the semantics of archetypes ar preserved through the application stack.</p>
+			<h3>Fornecedores de aplicações</h3>
+			<p>Fornecedores de aplicações, tais como sistemas clínicos para a prática geral, departamentos hospitalares, apoio à decisão e muitos outros podem usar a plataforma openEHR para toda a informação clínica e demográfica, ao invés de ter que fornecer sua própria implementação. A aplicação interage com a plataforma openEHR via virtual EHR (vEHR) API, Linguagem de Consulta Arquetipada (Archetype Query Language - AQL) e XML, independentemente de qual implementação é utilizada. Suporte a implementações maiores garantindo alta-performance, alto-volume de repositórios EHR.</p>
+			<p>Os modelos openEHR podem ser efetivamente usado para construir a captura de dados, visualização e consulta dos formulários para uma aplicação. Os formulários podem ser gerados a partir do modelo openEHR usando uma ferramenta para construção de modelos, como por exemplo, o XFORM, .Net ou outros formatos. Isso garante que a semântica dos arquétipos serão preservadas através da pilha de aplicativos.</p>
+
+			<h3>Fornecedores de Integração</h3>
+			<p>Integração com outras fontes de dados é facilitada pelo uso dos modelos openEHR, que pode ser usado para acionar um mecanismo de integração que converte todos os tipos de fonte de dados e documentos em formato openEHR, onde o arquétipo pode ser tratado como parte de um prontuário centrado no paciente. Toda auditoria e sistema alimentadores de metadados (e.g. identificadores) são capturados na estrutura openEHR, garantindo que a associação com a fonte de dados sejam preservadas.</p>
+			<p>Dados a partir de fontes federadas, podem ser geradas em vários formatos, incluindo openEHR, CEN EN13606, HL7 CDA rel2, PDF, e vários XML e HTML.</p>
 			
-			<h3>Integration Vendors</h3>
-			<p>Integrating with other data sources is facilitated by the use of openEHR Templates, which can be used to drive an integration engine that converts all manner of source data and documents into openEHR form, where it is archetype-conformant and can treated as part of a patient-centric record. All audit trailing and feeder system meta-data (e.g. identifiers) is captured in openEHR structures, ensuring that links to source data are preserved.</p>
-			<p>Data from sources that are federated in this way can then be output in a number of formats, including openEHR, CEN EN13606, HL7 CDA rel2, PDF, and various XML and HTML.</p>
-			
-			<h3>Hospital Information System Vendors</h3>
-			<p>Using an implementation of the openEHR platform as the back-end of a large system provides many advantages. Rather than having to constantly maintain a proprietary database structure, using the openEHR back-end will make the system applications much easier to manage and evolve. Integration with other systems is likely to be easier via the standard formats supported by the platform, including CEN EN13606, HL7 CDA, HL7v2.x and others.</p>
+			<h3>Fornecedores de sistema de Informação Hospitalar</h3>
+			<p>Usando uma implementação da plataforma openEHR como o back-end de um grande sistema oferece muitas vantagens. Ao invés de ter que manter constantemente uma estrutura de banco de dados proprietária, usando o openEHR back-end as aplicações do sistema se torna muito mais fácil de gerenciar e evoluir. A integração com outros sistemas provavelmente será mais fácil através dos formatos padrões suportados pela plataforma, incluindo CEN EN13606, HL7 CDA, HL7v2.x e outros.</p>
 			
 			
-			<h2>How you can get involved</h2>
-			<p>You can become openEHR Partner through the Organisational membership as Industry Partner, or members of your team can become part of openEHR as the Individual members. Find out more about <a href="/pt/about/membership#industrypartner">membership</a>.</p>
+			<h2>Como você pode participar</h2>
+			<p>Você pode se tornar um Parceiro openEHR através da filiação organizacional, ou membros de sua equipe podem se tornar parte do openEHR como membros individuais. Saiba mais sobre<a href="/about/membership#industrypartner">associação</a>.</p>
 			
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
