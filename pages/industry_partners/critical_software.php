@@ -16,18 +16,23 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			<p><em>Headquarters:</em> Portugal</p>
 			<p><em>Branches:</em> USA, Brazil, UK, Mozambique, Singapore, Angola, Germany</p>
-			<p><em>Size:</em> ...</p>
+			<p><em>Size:</em> 200+ employees</p>
 			<p><em>Trading since:</em> 1998</p>
 			<p><a href="http://www.criticalsoftware.com/" target="_blank">Critical Software website</a></p>
 			
 			<h2>Healthcare Services</h2>
-			xxx
+			<p>CRITICAL Software's Safety Management services in the healthcare market cover three main areas:</p>
+			<ul>
+				<li>Improving reliability, availability, maintainability and safety analysis of medical devices</li>
+				<li>Verification and validation of safety-critical systems</li>
+				<li>Providing certification support against standards such as IEC 62304</li>
+			</ul>
 			
 			<h2>Healthcare Solutions</h2>
-			<p>xxx</p>
-			
-			<h2>Healthcare Customers</h2>
-			<p>xxx</p>
+			<p>CRITICAL Software's solutions provide reliable patient data aggregation, which, when combined with the company's data visualisation capabilities and predictive tools, supports consistent data analysis. </p>
+			<p>CRITICAL Software has developed a range of solutions for healthcare data and process management, including medication management, disease management, clinical trials and clinical research management.</p>
+
+	
 		
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
