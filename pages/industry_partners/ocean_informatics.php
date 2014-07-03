@@ -18,7 +18,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p><em>Branches:</em> United Kingdom</p>
 			<p><em>Size:</em> 35 employees</p>
 			<p><em>Trading since:</em> 1998</p>
-			<p><a href="http://oceaninformatics.com/" target="_blank">Informatics website</a></p>
+			<p><a href="http://oceaninformatics.com/" target="_blank">website</a></p>
 			
 			
 			<h2>Services</h2>
