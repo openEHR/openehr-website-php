@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<a href="https://www.code24.nl/" target="_blank"><img src="/files/industry_partners/code24_logo.png" width="100px" style="padding:0px 20px 0px 0px; float:left;"></a>
+			<a href="https://www.code24.nl/" target="_blank"><img src="/files/industry_partners/code24_logo.png" class="IndustryLogoImg"></a>
 			
 			<p><em>Headquarters:</em> The Netherlands</p>
 			<p><em>Branches:</em> None</p>

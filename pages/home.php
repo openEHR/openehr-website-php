@@ -65,9 +65,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<p><a href="/industry_partners/infinnity_solutions"><img src="files/industry_partners/infinnity_logo.png"></a></p>
 				<p><a href="/industry_partners/marand"><img src="files/industry_partners/marand_logo.png"></a></p>
 				<p><a href="/industry_partners/ocean_informatics"><img src="files/industry_partners/ocean_logo.png"></a></p>
+				<!--[if lt IE 7]><a href="/industry_partners"><img src="files/industry_partners/industry_logo.png"></a><![endif]-->
 			</div>
 			<div class="TextFrame">
-				<h1>openEHR Industry<br/>Partners</h1>
+				<h1 class="HomeTitle">openEHR Industry<br/>Partners</h1>
 				<p>Find out about eHealth solutions developed by openEHR Industry Partners
 				<br/><a href="/industry_partners" style="line-height:200%;">Learn more</a></p>
 			</div>
@@ -199,5 +200,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		</div>
 		<br class="clear">
 		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="/functions/rotating_logos.js"></script>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>

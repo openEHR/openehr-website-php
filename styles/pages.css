@@ -11,6 +11,10 @@ p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.8em; }
 .content1 {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.2em; margin-top:0.6em; }
 .content2 {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.2em; margin-left:2em }
 
+img {
+margin-top:15px;
+margin-bottom:15px;
+}
 
 #MainArea {
 width:1024px;
@@ -190,10 +194,7 @@ color:#023760;
 font-weight:900;
 }
 
-#Content img {
-margin-top:15px;
-margin-bottom:15px;
-}
+
 
 .input {
 border:1px solid #aaaaaa;
@@ -303,4 +304,12 @@ text-align:left;
 
 .TableMain em {
 font-size:11px;
+}
+
+.IndustryLogoImg {
+	width:150px;
+	padding:0px 20px 0px 0px;
+	float:left;
+	display:block;
+	margin:0;
 }

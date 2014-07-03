@@ -9,7 +9,7 @@ margin-top:1.5em; margin-bottom:0.1em}
 h6 {font-size:10px; font-weight:500; line-height:120%; color:#666666; text-decoration:none; margin-top:0.1em; margin-bottom:0.1em;}
 
 p {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.8em; }
-img{padding-left:10px;}
+img{padding-left:10px; display:block}
 
 .HomeTitle {font-size:16px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-bottom:0.3em;}
 
@@ -83,7 +83,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9e3fc', end
 width:190px;
 padding-bottom:5px;
 padding-left:15px;
-margin-top:-10px;
+margin-top:0px;
 }
 
 /* End of four frames */
@@ -120,20 +120,27 @@ padding:0 10px 10px 40px;
 background: white; 
 border: none; 
 display: block; 
-margin-top: 30px; 
-margin-left:30px;
-padding: 10px;
-width: 140px;
+margin: 30px 0 30px 25px; 
+width:70%;
+height:98px;
+padding:0 0 0 5px;
+
+border:1px #eda656 solid;
+border-radius:10px;
+box-shadow:
+  0 0 0 7px hsl(45, 80%, 80%),
+  0 0 0 9px hsl(210, 60%, 30%);
+/*box-shadow: 1px 1px 0px #444444;*/
 }
 
 #PartnersLogo p{
 color: #333; 
 display: none; 
 font-weight: bold; 
-text-align: center;
-margin-bottom: 0px;
+padding: 0;
+margin: 0;
 }
 
-#PartnersLogo p:first-child{
+#PartnersLogo p:first-child img{
 display: block;
 }
