@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Introdução</h2>
-			<p>O Programa de Especificação gera artefatos que se destinam a ser livremente utilizável por qualquer tipo de interessado (stakeholder), incluindo empresas comerciais. Os direitos autorais (copyright) são controlados por licenças de código e conteúdo aberto que contemplam esse objetivo.</p>
+			<p>O Programa de Especificação gera artefatos que se destinam a ser livremente utilizáveis por qualquer tipo de interessado (stakeholder), incluindo empresas comerciais. Os direitos autorais (copyright) são controlados por licenças de código e conteúdo aberto que contemplam esse objetivo.</p>
 			<p>As especificações openEHR e suas expressões computáveis ​​são publicadas abertamente e de uso livre para todas as categorias de uso, tanto comerciais como não-comerciais. Direitos autorais e licenças são usadas ​​para proteger esses artefatos garantindo uso livre e gratuito pela comunidade.</p>
 			
 			<h2>Categorias de artefatos</h2>
@@ -73,7 +73,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td class="TableMainC"> <em>Arquivos de documento de especificações publicados </em> </td>
 				<td class="TableMainC"> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Especificações openEHR</span> produzidas pela <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">Fundação openEHR</a> é licenciada sob a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissões além do escopo desta licença podem estar disponíveis <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">aqui</a>. </td>
 				<td class="TableMainC"> <p>O uso da licença CC-BY-ND permite o compartilhamento público, a republicação, e uso comercial sem restrições. Ele protege os usuários das especificações de modificações desconhecidos e / ou locais, adulteração etc sendo feito fora do próprio processo aberto da Fundação. Esta é a mesma coisa que o W3C faz com sua  <a href="http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231">licença documento</a>.</p>
-										<p>A opção CC 'SA' (Share-alike) também foi considerada, mas rejeitada por duas razões: <br> <ul><li>Em primeiro lugar, as especificações openEHR são consideradas obras definitivas da Fundação, e não interpretações de qualquer outra coisa. Seu conteúdo e evolução, portanto, precisa refletir corretamente os processos da própria comunidade openEHR.</li><li>Em segundo lugar, a integridade das especificações no qual o software e os sistemas de saúde são baseados diretamente é considerado de suma importância para os pacientes e os profissionais clínicos.</li></ul></p></td>
+										<p>A opção CC 'SA' (Share-alike) também foi considerada, mas rejeitada por duas razões: <br> <ul><li>Em primeiro lugar, as especificações openEHR são consideradas obras definitivas da Fundação, e não interpretações de qualquer outra coisa. Seu conteúdo e evolução, portanto, precisa refletir corretamente os processos da própria comunidade openEHR.</li><li>Em segundo lugar, a integridade das especificações no qual o software e os sistemas de saúde são baseados diretamente é considerada de suma importância para os pacientes e os profissionais clínicos.</li></ul></p></td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <em>Arquivos de origem do documento de especificação </em> </td>
@@ -84,7 +84,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td class="TableMainC"> <em>Especificação de artefatos computáveis</em> </td>
 				<td class="TableMainC"> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
 										<a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2 License</a></td>
-				<td class="TableMainC"> <br/><br/>Artefactos computáveis ​​são licenciados da mesma forma que software, ou seja, usando a licença Apache que é amplamente aceita e amigável a indústria.<br/><br/></td>
+				<td class="TableMainC"> <br/><br/>Artefatos computáveis são licenciados da mesma forma que software, ou seja, usando a licença Apache que é amplamente aceita e amigável a indústria.<br/><br/></td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <em>Artefatos educacionais</em> </td>
