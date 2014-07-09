@@ -7,20 +7,20 @@ $PageName = 'Sobre esse Sítio';
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 ?>
 
-	<div id="MainArea" style="margin-left:60px; margin-top:35px; margin-bottom:100px; width:900px;">
+	<div id="MainArea" estilo="margin-left:60px; margin-top:35px; margin-bottom:100px; width:900px;">
 	
 		<div id="Content">
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>This new website aims to be more representative of the openEHR community aims and activities and particularly what people are working on out there. Don't consider it as fixed, but rather as a living thing. We are interested in feedback on any aspect of the website. In the initial development phase, visual elements and style are 'draft', and we welcome ideas for improvement.</p>
-			<p>Note that the technical approach we have taken with this site is a totally manual one - that is, it is constructed from hand-built HTML, PHP, and Java-script. This gives more freedom than the controlled environment of a CMS. Moving to a CMS is not out of the question in the future, but for now, the current approach seems more maintainable. The website code is maintained on Github, and contributors can participate by providing material via that route.</p>
+			<p>Esse novo sítio internet pretende ser mais representativo dos objeticoe e atividades da comunidade openEHR e particularmente sobre o que se está trabalhando na comunidade no mundo real. Não deve ser considerado como uma estrutura fixa, mas uma coisa viva. Nós estamos interessados em ter feedback de qualquer aspecto desse sítio. Nessa fase inicial  os elementos visuais e estilos são um rascunho e são bem-vindas quaisquer ideias para aprimorá-los.</p>
+			<p>Observe que a abordagem técnica que nós adotamos nesse sítio é totalmente manual, isto é, ele está sendo construído utilizandp hand-built HTML, PHP, e Java-script. Isto dá mais liberdade do que usar uma ambiente controlado de um Sistema de Gerenciamento de Conteúdo. Não está fora de questão se utilizar no futuros um sistema para gerir automaticamente o conteúdo, mas a abordagem atual nos pareceu ser de mais facil manutenção no momento. O código desse  website é mantido no Github, e contribuidores podem participar da confecção desse sítio fornecendo material via Github.</p>
 			
 			
-			<h2>Providing feedback</h2>
-			<p>Please provide website design ideas/feedback <a href="http://www.openehr.org/wiki/display/oecom/2012+Website+-+feedback+page" target="_blank">here</a>.</p>
-			<p>Routine website problems/issues/requests <a href="https://github.com/openEHR/openehr-website/issues" target="_blank">here</a>.</p>
+			<h2>Enviando feedback</h2>
+			<p>Por favor envie feedback ou novas idéias de design <a href="http://www.openehr.org/wiki/display/oecom/2012+Website+-+feedback+page" target="_blank">aqui</a>.</p>
+			<p> Relatar problemas e requisições de mundança <a href="https://github.com/openEHR/openehr-website/issues" target="_blank">aqui</a>.</p>
 			<p>Email <a href="mailto:webmaster@openehr.org">webmaster</a>.</p>
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
