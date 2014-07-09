@@ -12,14 +12,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>A maioria dos projetos atuais de software relacionados com openEHR são entidades autônomas. Os princípios abaixo só governam o programa de software comuns da openEHR que fornece algum recurso (às vezes incluindo código doada à Fundação openEHR).</p>
+			<p>A maioria dos projetos atuais de software relacionados com openEHR são entidades autônomas. Os princípios abaixo só governam o programa de softwares comuns  openEHR que fornecem algum recurso (às vezes incluindo o código, doados à Fundação openEHR).</p>
 			<p>A estrutura de governança do programa / grupo de software openEHR é principalmente uma lista de email baseada e inspirada pela<a href="http://www.apache.org/foundation/" target="_blank">Fundação do Software Apache</a> e <a href="http://www.apache.org/foundation/how-it-works.html#management" target="_blank">a forma como ela funciona</a>. Isto é combinado em geral com a  <a href="/about/governance_structure"> estrutura de governança</a> da Fundação openEHR que requer tanto um <em>Comitê do Programa</em> quanto uma lista de <em>Membros Qualificados no Programa</em>.</p>
 			
 			
 			<h2>Comunidade,  incluindo os Membros Qualificados no Programa</h2>
-			<p>A maior parte das decisões de trabalho e software deve ser discutido<a href="/community/mailinglists.php">na lista de discussão openehr-implementers</a>onde qualquer um pode contribuir para o assunto em pauta (não é necessário ser um associado).</p>
+			<p>A maior parte das decisões de trabalho e software devem ser discutidos<a href="/community/mailinglists.php">na lista de discussão openehr-implementers</a>onde qualquer um pode contribuir para o assunto em pauta (não é necessário ser um associado).</p>
 			<p>Se a votação for necessária então votos dos<em>Membros Qualificados no Programa</em>serão avaliados usando <a href="http://www.apache.org/foundation/voting.html" target="_blank">o modelo de votação e interpretação do Apache</a>.</p>
-			<p>Associados Qualificados devem se basear na meritocracia e vontade de contribuir. Não há limite de tempo para Associados Qualificados. Associados Qualificados podem ser finalizados se houver uma solicitação a um membro para ser removido.</p>
+			<p>Associados Qualificados devem se basear na meritocracia e vontade de contribuir. Não há limite de tempo para Associados Qualificados. Associados Qualificados podem ser excluídos se houver uma solicitação a um membro para ser removido.</p>
 			<p>Se três <em>Membros Qualificados</em> independentes* concordarem em sugerir um novo membro e apresentar o candidato (incluindo méritos relacionados ao openEHR), então o<em>Comitê do Programa</em> deve discutir e considerar se o novo membro deve ser:</p>
 			<p>a) aprovado no momento ou</p>
 			<p>b) ser recomendado para primeiro adquirir mais experiência, a fim de mais tarde ser novamente sugerido.</p>
@@ -29,7 +29,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h3>Membros Qualificados no Programa Atual</h3>
 			<ul>
 				<li>David Moner</li>
-				<li>Diego Bosc&aacute;</li>
+				<li>Diego Boscá;</li>
 				<li>Erik Sundvall (coordinator)</li>
 				<li>Heath Frankel</li>
 				<li>Heather Leslie</li>
@@ -55,8 +55,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h3>Membros Qualificados no Programa Atual</h3>
 			<ul>
 				<li>Alan James</li>
-				<li>Diego Bosc&aacute;</li>
-				<li>Erik Sundvall (coordinator)</li>
+				<li>Diego Boscá (coordenador)</li>
 				<li>Pablo Pazos</li>
 				<li>Rong Chen</li>
 				<li>Seref Arikan</li>
