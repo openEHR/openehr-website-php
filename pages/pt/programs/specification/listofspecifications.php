@@ -25,11 +25,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<th class="TableMainT"> Descrição </th>
 				</tr>
 				<tr>
-					<td class="TableMainC" colspan=3> <b>Requerimentos</b> </td>
+					<td class="TableMainC" colspan=3> <b>Requisitos</b> </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Padrões de conformidade </td>
-					<td class="TableMainC"> ISO 18308 declaração de conformidade </td>
+					<td class="TableMainC"> Declaração de conformidade ISO 18308</td>
 					<td class="TableMainC"> Documento descrevendo a conformidade de arquitetura openEHR pela ISO TS 18308, &quot;Requisitos da arquitetura de Registro Eletrônico de Saúde (EHR). </td>
 				</tr>
 				<tr>
@@ -88,7 +88,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> AOM 1.5 </td>
-					<td class="TableMainC"> AOM 1.5 rascunho - a descrição AOM agora inclui identificadores unicos e condições formalmente testáveis e que permitem validação (adequado para execução em compiladores), tipos primitivos revisados, seção de ontologia melhorada e modelo de restrição estendido para representar arquétipos diferenciais. </td>
+					<td class="TableMainC"> AOM 1.5 rascunho - a descrição AOM agora inclui identificadores únicos e condições formalmente testáveis e que permitem validação (adequado para execução em compiladores), tipos primitivos revisados, seção de ontologia melhorada e modelo de restrição estendido para representar arquétipos diferenciais. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
@@ -155,7 +155,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> Lightweight JSON specification </td>
-					<td class="TableMainC"> Breve especificação JSON</td>
+					<td class="TableMainC"> Especificação JSON compacta</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> .Net  </td>
