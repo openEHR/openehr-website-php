@@ -57,8 +57,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (32-bit)</td>
-						<td> 1.5.1.2418-beta11</td>
-						<td> 26 June 2014</td>
+						<td> 1.5.1.2448-beta11</td>
+						<td> 21 July 2014</td>
 						<td> <a href="/download_files/adl_workbench/adl_workbench_1.5beta11-windows_32bit.exe">.exe installer</a></td>
 						<td><br/> </td>
 					</tr>
@@ -85,8 +85,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					</tr>
 					<tr>
 						<td>Linux (32-bit Intel)<br/></td>
-						<td> 1.5.1.2418-beta11</td>
-						<td> 26 Jun 2014</td>
+						<td> 1.5.1.2448-beta11</td>
+						<td> 21 Jul 2014</td>
 						<td> <a href="/download_files/adl_workbench/adl_workbench_1.5beta11-linux_32bit.tar.bz2">.tar.bz2 archive</a></td>
 						<td> <a href="installation_notes#linux">here</a></td>
 					</tr>
