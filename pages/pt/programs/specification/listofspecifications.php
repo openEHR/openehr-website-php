@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Lista de Especificações';
+$PageName = 'List of Specifications';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
@@ -12,108 +12,108 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>Overview</h2>
-			<p>The following tables define deliverables of Specification Program.</p>
+			<h2>Visão geral</h2>
+			<p>As tabelas a seguir definem resultados do Programa de Especificação.</p>
 			
 			
-			<h2>Core</h2>
+<h2>Núcleo</h2>
 			<table class="TableMain">
 			<tbody>
 				<tr>
-					<th class="TableMainT"> Component</th>
-					<th class="TableMainT"> Documentary Specification </th>
-					<th class="TableMainT"> Description </th>
+					<th class="TableMainT"> Componente</th>
+					<th class="TableMainT"> Documentação da Especificação </th>
+					<th class="TableMainT"> Descrição </th>
 				</tr>
 				<tr>
-					<td class="TableMainC" colspan=3> <b>Requirements</b> </td>
+					<td class="TableMainC" colspan=3> <b>Requisitos</b> </td>
 				</tr>
 				<tr>
-					<td class="TableMainC"> Standards conformance </td>
-					<td class="TableMainC"> ISO 18308 Conformance statement </td>
-					<td class="TableMainC"> Document describing conformance of openEHR architecture to ISO TS 18308, &quot;Requirements for EHR Architectures&quot;. </td>
+					<td class="TableMainC"> Padrões de conformidade </td>
+					<td class="TableMainC"> Declaração de conformidade ISO 18308</td>
+					<td class="TableMainC"> Documento descrevendo a conformidade de arquitetura openEHR pela ISO TS 18308, &quot;Requisitos da arquitetura de Registro Eletrônico de Saúde (EHR). </td>
 				</tr>
 				<tr>
-					<td class="TableMainC" colspan=3> <b>Architecture</b> </td>
+					<td class="TableMainC" colspan=3> <b>Arquitetura</b> </td>
 				</tr>
 				<tr>
-					<td class="TableMainC"> Architecture <br class="atl-forced-newline" /> </td>
-					<td class="TableMainC"> Architecture Overview <br class="atl-forced-newline" /> </td>
-					<td class="TableMainC"> &quot;Read me first&quot; document for the whole architecture. provides a summary of the reference, archetype and service models, and describes global semantics. </td>
+					<td class="TableMainC"> Arquitetura <br class="atl-forced-newline" /> </td>
+					<td class="TableMainC"> Visão geral da arquitetura <br class="atl-forced-newline" /> </td>
+					<td class="TableMainC"> O documento "Read me first" (Leia-me primeiro) em toda a arquitetura fornece um resumo dos modelos de referência, arquétipo e de serviços, e descreve a semântica global. </td>
 				</tr>
 				<tr>
-					<td class="TableMainC"> Reference Model</td>
+					<td class="TableMainC"> Modelo de Referência</td>
 					<td class="TableMainC"> EHR IM</td>
-					<td class="TableMainC"> The information model of the openEHR EHR. </td>
+					<td class="TableMainC"> O modelo de informações dO Registro Eletrônico de Saúde (do inglês, Eletronic Health Record - EHR) openEHR. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> EHR Extract IM</td>
-					<td class="TableMainC"> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
+					<td class="TableMainC"> O modelo de informação do extrator de EHR, que é uma serialização do conteúdo de um EHR. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> Common IM </td>
-					<td class="TableMainC"> Information model containing common concepts, including the archetype-enabling LOCATABLE class, party references, audits and attestations, change control, and authored resources. </td>
+					<td class="TableMainC"> Modelo de informação que contém conceitos comuns, incluindo a habilitação do arquétipo pela classe LOCATABLE, referências partidárias, auditorias e certificações, controle de alterações e os recursos de autoria. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> Data Structures IM </td>
-					<td class="TableMainC"> Information model of data structures, incuding a powerful model of HISTORY and EVENT. </td>
+					<td class="TableMainC"> Modelo de informação de estruturas de dados, incluindo um poderoso modelo de HISTORY e EVENT. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> Data Types IM </td>
-					<td class="TableMainC"> Information model of data types, including quantities, date/times, plain and coded text, time specification, multimedia and URIs. </td>
+					<td class="TableMainC"> Modelo de informação dos tipos de dados (datatypes), incluindo quantidades, data/hora, texto simples e codificado, especificações de tempo, multimídia e URIs. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> Support IM </td>
-					<td class="TableMainC"> Support model defining identifiers, assumed types, and terminology interface specification used in the rest of the specifications. </td>
+					<td class="TableMainC"> Modelo de suporte que define identificadores, tipos assumidos e especificação de interfaces terminológicas utilizadas no resto das especificações. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Archetype Model  </td>
 					<td class="TableMainC"> ADL 1.4  </td>
-					<td class="TableMainC"> Abstract syntax specification for archetypes 1.4 edition of language (used in ISO 13606-2). </td>
+					<td class="TableMainC"> O modelo de arquétipo é uma abstração da especificação de sintaxe da linguagem de arquétipos edição 1.4 (usado na ISO 13606-2). </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> AOM 1.4 </td>
-					<td class="TableMainC"> Object model of archetypes corresponding to ADL 1.4. </td>
+					<td class="TableMainC"> Modelo de objetos dos arquétipos correspondentes a ADL 1.4. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> ADL 1.5 </td>
-					<td class="TableMainC"> ADL 1.5 draft: ADL now includes dedicated section on specialisation, many  new examples, improved descriptions and corrections of errors. </td>
+					<td class="TableMainC"> ADL 1.5 rascunho: ADL agora inclui seção destacada na especialização, muitos exemplos novos, descrições melhoradas e correções de erros. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> AOM 1.5 </td>
-					<td class="TableMainC"> AOM 1.5 draft - the AOM description now includes uniquely identified  formally testable validity conditions (suitable for output by  compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
+					<td class="TableMainC"> AOM 1.5 rascunho - a descrição AOM agora inclui identificadores únicos e condições formalmente testáveis e que permitem validação (adequado para execução em compiladores), tipos primitivos revisados, seção de ontologia melhorada e modelo de restrição estendido para representar arquétipos diferenciais. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> Template model </td>
-					<td class="TableMainC"> Object model of templates. </td>
+					<td class="TableMainC"> Modelos de objetos de templates. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Service Model  </td>
-					<td class="TableMainC"> EHR Service, etc  </td>
+					<td class="TableMainC"> Serviços EHR, etc  </td>
 					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Terminology </td>
-					<td class="TableMainC"> openEHR Vocabulary  </td>
-					<td class="TableMainC"> Documentary form of the&nbsp;openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models. </td>
+					<td class="TableMainC"> Vocabulário openEHR  </td>
+					<td class="TableMainC"> Documentação formal da terminológia openEHR, que é um conjunto de vocabulários e conjuntos de códigos utilizados pelos modelos de referência e arquétipos. </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Querying  </td>
 					<td class="TableMainC"> Archetype Query Language, a-path  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Linguagem de consulta arquetipada.</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Guidelines and&nbsp; Decision Support </td>
 					<td class="TableMainC"> Guideline Definition Language (GDL) </td>
-					<td class="TableMainC"> A language for expressing computable guidelines for use with decision support components.</td>
+					<td class="TableMainC"> A linguagem para expressar diretrizes computáveis ​​para uso com componentes de apoio à decisão.</td>
 				</tr>
 				</tbody>
 			</table>
@@ -121,64 +121,64 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<br />
 			
 			
-			<h2>Non-core</h2>
+			<h2>Facilitadores</h2>
 			<table class="TableMain">
 			<tbody>
 				<tr>
-					<th class="TableMainT"> Component  </th>
-					<th class="TableMainT"> Documentary Specification  </th>
-					<th class="TableMainT"> Description  </th>
+					<th class="TableMainT"> Componentes  </th>
+					<th class="TableMainT"> Documentação da especificação  </th>
+					<th class="TableMainT"> Descrição  </th>
 				</tr>
 				<tr>
-					<td class="TableMainC" colspan=3> <b>Implementation</b>  </td>
+					<td class="TableMainC" colspan=3> <b>Implementação</b>  </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> XML  </td>
 					<td class="TableMainC"> XML development guide  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Guia de desenvolvimento XML</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> TDS (XSD) specification </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Especificação XSD</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Java </td>
 					<td class="TableMainC"> Java development guide  </td>
-					<td class="TableMainC"> Guide to java implementation of openEHR.</td>
+					<td class="TableMainC"> Guia para implementação openEHR em Java.</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> TDO specification </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Especificação TDO</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> Lightweight JSON specification </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Especificação JSON compacta</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> .Net  </td>
 					<td class="TableMainC"> .Net development guide  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> GUia de desenvolvimento .Net</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> TDO specification </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Especificação TDO</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Form languages  </td>
 					<td class="TableMainC"> Form generation specification  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Especificação para geração de formulários</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> &nbsp;</td>
 					<td class="TableMainC"> User interface specifications  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Especificação de interface de usuário</td>
 				</tr>
 				<tr>
-					<td class="TableMainC" colspan=3> <b>Education</b>  </td>
+					<td class="TableMainC" colspan=3> <b>Educação</b>  </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> Software Development </td>
@@ -186,31 +186,31 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 					<td class="TableMainC"> &nbsp;</td>
 				</tr>
 				<tr>
-					<td class="TableMainC" colspan=3> <b>Standards Interfaces</b>  </td>
+					<td class="TableMainC" colspan=3> <b>Interface padrão</b>  </td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> ISO 13606  </td>
 					<td class="TableMainC"> standardised mapping / converged model  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Mapeamento padronizado / modelo convergente</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> HL7v2  </td>
 					<td class="TableMainC"> Standard openEHR template library for message interfacing  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Biblioteca de modelos openEHR padrão para interface de mensagem</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> HL7 CDA  </td>
 					<td class="TableMainC"> Transformationalgorithms  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Algoritmos de transformação</td>
 				</tr>
 				<tr>
 					<td class="TableMainC"> ASTM CCR  </td>
 					<td class="TableMainC"> Standard archetype / template expression.  </td>
-					<td class="TableMainC"> &nbsp;</td>
+					<td class="TableMainC"> Expressão padrão para arquétipos/templates.</td>
 				</tr>
 			</tbody>
 			</table>
 		
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

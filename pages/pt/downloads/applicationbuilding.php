@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Desenvolvimento de Aplicativos';
+$PageName = 'Aplicações construídas';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
@@ -15,9 +15,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th>Project</th>
-				<th>Description</th>
-				<th>Technology</th>
+				<th>Projeto</th>
+				<th>Descrição</th>
+				<th>Tecnologia</th>
 				<th>Download</th>
 			</tr>	
 			<tr>
@@ -31,4 +31,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

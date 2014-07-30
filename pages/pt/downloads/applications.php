@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Aplicativos';
+$PageName = 'Aplicações';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
@@ -15,14 +15,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th>Project</th>
-				<th>Description</th>
-				<th>Technology</th>
+				<th>Projeto</th>
+				<th>Descrição</th>
+				<th>Tecnologia</th>
 				<th>Download</th>
 			</tr>	
 			<tr>
 				<td>GastrOS</td>
-				<td>GastrOS is an endoscopic reporting application based on open standards: openEHR and MST. GUI is driven by Archetypes/Templates. It is part of our research at the University of Auckland to investigate software maintainability and interoperability.</td>
+				<td>GastrOS é uma aplicação de relatórios endoscópicos baseado em padrões abertos: openEHR e MST. A GUI utiliza Arquétipos/Templates. É parte de nossa pesquisa na Universidade de Auckland para investigar manutenção de software e interoperabilidade.</td>
 				<td>C#, Microsoft .Net</td>
 				<td><a href="http://gastros.codeplex.com/">GastrOS codeplex homepage</a></td>
 			</tr>
@@ -31,4 +31,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

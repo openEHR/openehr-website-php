@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Roadmap';
+$PageName = 'Roteiro';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
@@ -12,45 +12,46 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>Having established a solid set of baseline specifications, the openEHR Foundation and community aims to build on these in order to provide more direct value to implementers, clinicians and users of health information systems. Community and vendor involvement is encouraged in all activities. </p>
-			<p>The following describes current goals.</p>
+			<p>Tendo estabelecido um sólido conjunto de especificações de referência, a Fundação openEHR e comunidade pretende construir sobre estes, a fim de fornecer mais valor direto para os implementadores, médicos e usuários de sistemas de informação de saúde. O envolvimento da comunidade e fornecedores é incentivada em todas as atividades. </p>
+			<p>A seguir são descritos os objetivos atuais.</p>
 			
 			
-			<h2>New and Enhanced Specification</h2>
+			<h2>Especificações novas e aprimoradas</h2>
 			
 			<h3>Template Model</h3>
-			<p>openEHR Templates have now been in use in the NHS for over a year, providing valuable implementation experience. This will be used to inform the development of open specifications and schemas for templates, including additions to the ADL language supporting specialisation and templating; the Template Definition Model (TDM; an object model of template definitions) and a Template Definition Model Schema (.xsd of the TDM).</p>
+			<p>Modelos openEHR já está em uso no NHS por mais de um ano, proporcionando valiosa experiência de implementação. Isso será usado para informar o desenvolvimento de especificações abertas e esquemas para os modelos, incluindo adições à linguagem ADL suporte a especialização da linguagem e de templates (formulários); o modelo de definição de templates (TDM; um modelo de objeto de definições de templates) e um Esquema para o Modelo de Definição de Templates (.xsd da TDM).</p>
 
-			<h3>openEHR / Snomed CT integration</h3>
-			<p>Active work is going on in openEHR and within UK NHS Connecting for Health to define technical binding approaches for Snomed CT and
-			openEHR archetypes and templates. This work is aimed at solving a number of challenges, including how to determine the correct set of attributes when designing coded data points in an archetype and how to map a post-coordinated code expression to a number of data points in an archetype.</p>
-			<p>A terminology subsetting language created by Ocean Informatics for its terminology server is being offered to IHTSDO as a basis for an open language used to define dynamic subsets. openEHR will adopt the result of this collaboration with IHTSDO as its terminology subset language, which will enable the creation of reusable subsets of Snomed CT and other terminologies.</p>
+			<h3>Integração openEHR e Snomed CT</h3>
+			<p>Trabalho permanente ocorre no openEHR e dentro da  Conect Health do  NHS do Reino Unido  a fim de definir abordagens técnicas que vincule arquétipos e modelos openEHR com SNOMED CT. Este trabalho destina-se a resolver uma série de desafios, incluindo como determinar o conjunto correto de atributos ao criar pontos de dados codificados em um arquétipo e como mapear uma expressão de código de pós-coordenada a uma série de pontos de dados em um arquétipo.</p>
+			<p>O subconjunto de linguagem terminológica criada pela Ocean Informatics para o servidor de  terminologia está sendo oferecido a IHTSDO como base para uma linguagem aberta usada para definir subconjuntos dinâmicos. openEHR adotará o resultado desta colaboração com IHTSDO como subconjunto de terminologias, o que permitirá a criação de subconjuntos reutilizáveis de SNOMED CT e outras terminologias.</p>
 
-			<h3>Virtual EHR (vEHR) and EHR Service Interfaces</h3>
-			<p>A number of interface definitions are available from industry for two important EHR-related interfaces. The vEHR API is a virtual EHR interface as might be used in a middleware component, and offers an integrated programming interface to back-end services for a clinical application. It provides access to the EHR, demographics, archetypes, templates, terminology, querying and identity
-			and security features.</p>
-			<p>The EHR Service Interface provides a coarse-grained interface to an EHR service, allowing access to EHR Compositions and other top-level EHR objects, as well as querying.</p>
+			<h3>Interface Virtual do RES  (vEHR) e Serviço de RES</h3>
+			<p>Várias definições de interface são disponibilizadas pela indústria, porém duas interfaces que contemplam o RES se destacam. A API vEHR é uma interface virtual que pode ser usado em um componente de middleware oferecendo uma interface de programação integrada (IDE) para serviços de back-end de uma aplicação clínica. Ele fornece acesso ao RES, demografia, arquétipos, templates, terminologia, consultas e contempla segurança de identidade.
 
-			<h3>Care Pathway Support</h3>
-			<p>With many base specifications in place and stable in openEHR, new work will concentrate on supporting distributed care pathways. This will provide a standardised way of finding and merging distributed medication orders and statuses, as well as enable the generation of a map of referrals, admissions, discharges and other transfer events.</p>
+</p>
+			<p>O  Interface de Serviço de RES fornece uma interface de alta granularidade a um serviço de RES, permitindo o acesso a composições do RES  e outros objetos  de alto nível do RES, bem como a consulta.</p>
 
-			<h3>Data Retrieval and Querying</h3>
-			<p>There is a growing emphasis on querying and data retrieval. <em>open</em>EHR has been designed from the outset to ensure that data is queryable based on archetype paths. Archetypes paths act like dependable identifiers for data values, while also providing direct implementation support, due to being Xpath-compatible. A new querying language, Archetype Query Language (AQL) has already been <a title="Publications on Archetypes" href="../resources/publications">described</a> in MedInfo 2007 (under its working name of EQL), and is already in extensive use in one openEHR implementation. Further development is planned in order to add the capability of terminology subset-based querying, so as to support proper inferential queries.</p>
+			<h3>Suporte a çinhas de cuidados</h3>
+			<p>Com muitas especificações e bases instituídas e estáveis em openEHR, um novo trabalho irá se concentrar no apoio a linhas de cuidados distribuídos. Isto irá fornecer uma maneira padronizada de encontrar e fundir ordens distribuídas de medicamentos e status, bem como permitir a geração de um mapa de referências, admissões, descartes (dispensação) e outros eventos de transferência.</p>
+
+			<h3>Consulta e recuperação de dados</h3>
+			<p>Há uma crescente ênfase na consulta e recuperação de dados. openEHR foi projetado desde o início para garantir que os dados sejam pesquisáveis com base em um caminho de arquétipos. Caminho de arquétipos atua como identificadores confiáveis para valores de dados, além de fornecer suporte à implementação direta, por ser compatível com XPath. Uma nova linguagem de consulta, linguagem de consulta arquetipada (do inglés, Archetype Query Language - AQL) já foi <a title="Publications on Archetypes" href="../resources/publications">descrita</a> no Medinfo 2007 (sob o trabalho intitulado EQL) , e já está em uso extensivo em uma implementação openEHR. O desenvolvimento está previsto, a fim de adicionar a capacidade de consulta à base do subconjunto terminológico, de modo a oferecer suporte a consultas adequadas e inferenciais.
+</p>
 
 
-			<h2>Implementation</h2>
+			<h2>Implementação</h2>
 			
-			<h3>Operational Templates</h3>
-			<p>An Operational Template in openEHR is generated by evaluating a Template Definition along with the archetypes and terminology it references, to produce a single resulting 'template', which is the equivalent of a single large archetype. This is used directly at runtime in openEHR systems as well as being the precursor for data capture forms (including using various XML formalisms such as XAML, XForms), and as the input of Template Data Schemas (see below).</p>
+			<h3>Templates operacionais</h3>
+			<p>Um template operacional openEHR é gerado através da avaliação de uma definição de templates junto com os arquétipos e terminologia que faz referência, para produzir uma única resultante 'template' que é o equivalente a um única e grande arquétipo. Isto é usado diretamente em tempo de execução em sistemas openEHR, além de ser o precursor para os formalismos de captura de dados (incluindo o uso de vários formalismos XML como XAML, XForms), e como a entrada do modelo de esquemas de dados (veja abaixo).</p>
 
-			<h3>Template Data Schema (TDS)</h3>
-			<p>The concept of the Template Data Schema is new in openEHR, and provides a greatly improved capability for integration. The standard approach to openEHR templates is to express them in a generic formalism, which has an associated generic XML schema. However with a single transform, a TDS can be generated for each template. The resulting schema is hard-wired to the template's contents, and suited for XML data transformation and communication, for example as a message. This allows data sources such as pathology laboratories to generate their content according to schemas directly describing their result types, without having to understand openEHR. The same logic follows for any kind of content. The TDS approach holds great promise for integration because any data that conforms to&nbsp; TDS .xsd in the standard XML fashion is guaranteed to be convertible to standard openEHR content format. The capability of producing TDSs from templates is effectively a facility for machine-generation of message definitions, replacing previous manual message definition approaches.</p>
+			<h3>Modelo de Esquema de Dados (do inglês, Template Data Schema - TDS)</h3>
+			<p>O conceito de Modelo de Esquema de Dados é novo no openEHR, e oferece uma capacidade muito melhor para a integração. A abordagem padrão para templates openEHR é expressá-los em um formalismo genérico, que tem um esquema XML genérico associado. No entanto, com uma simples transformação um TDS pode ser gerado para cada template. O esquema resultante é uma ligação chumbada (hard-wired) com o conteúdo dos templates e adaptado para transformação de dados XML e comunicação, por exemplo, como uma mensagem. Isso permite que as fontes de dados, tais como laboratórios de patologia possam gerar seu conteúdo de acordo com esquemas descrevendo diretamente seus tipos de resultados, sem ter que entender openEHR . A mesma lógica segue para qualquer tipo de conteúdo. A abordagem TDS é uma grande promessa para a integração, porque todos os dados que estão em conformidade com TDS .Xsd formato XML padrão é garantido porque pode ser convertido para o formato de conteúdo openEHR padrão. A capacidade de produzir TDSs a partir dos templates é efetivamente uma facilidade para geração por máquina de definições de mensagem, substituindo abordagens de definição de mensagem manuais anteriores.</p>
 
-			<h3>Template and Schema for the ASTM Continuity of Care Record (CCR)&nbsp; and HL7 CCD</h3>
-			<p>A template definition and schema will be created for the ASTM CCR, showing how convenient this is to model and use in openEHR systems.</p>
+			<h3>Templates e esquemas para o ASTM Continuity of Care Record (CCR)&nbsp; and HL7 CCD</h3>
+			<p>A definição de templates e esquemas será criado para o ASTM CCR, mostrando como este modelo é conveniente usado em sistemas openEHR.</p>
 			<br/>
-			<p>See also <a href="http://www.openehr.org/issues/browse/SPEC?report=com.atlassian.jira.plugin.system.project:roadmap-panel" target="_blank">Jira roadmap</a>.</p>
+			<p>Veja também <a href="http://www.openehr.org/issues/browse/SPEC?report=com.atlassian.jira.plugin.system.project:roadmap-panel" target="_blank">Roteiro Jira</a>.</p>
 		
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>

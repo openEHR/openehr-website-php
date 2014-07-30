@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Propriedade Intelectual e Licenças';
+$PageName = 'IP e Licenciamento';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
@@ -12,89 +12,90 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>Introduction</h2>
-			<p>The Specification Program generates artefacts which are intended to be freely usable by all stakeholder types, including commercial enterprises. Controlled copyright, and open source and content licenses are used to achieve these aims.</p>
-			<p>The openEHR specifications and their computable expressions are openly published and free to use for all categories of use, both commercial and non-commercial.Copyright and licenses are used to protect these artefacts for ongoing open and free use by the community.</p>
+			<h2>Introdução</h2>
+			<p>O Programa de Especificação gera artefatos que se destinam a ser livremente utilizáveis por qualquer tipo de interessado (stakeholder), incluindo empresas comerciais. Os direitos autorais (copyright) são controlados por licenças de código e conteúdo aberto que contemplam esse objetivo.</p>
+			<p>As especificações openEHR e suas expressões computáveis ​​são publicadas abertamente e de uso livre para todas as categorias de uso, tanto comerciais como não-comerciais. Direitos autorais e licenças são usadas ​​para proteger esses artefatos garantindo uso livre e gratuito pela comunidade.</p>
 			
-			<h2>Artefact Categories</h2>
-			<p>From the IP point of view, there are the following kinds of artefact:</p>
+			<h2>Categorias de artefatos</h2>
+			<p>Do ponto de vista da propriedade intelectual, existem os seguintes tipos de artefatos:</p>
 			<ul>
-				<li><em>Documentary specifications - published format</em>, in one or both of the following forms:
+				<li><em>Documentação das especificações - formato publicável</em>, em um ou ambos dos seguintes formatos:
 				<ul>
-					<li>HTML (rendered format on a wiki),</li>
-					<li>PDF or some other immediately viewable format;</li>
+					<li>HTML (formatado com layout wiki),</li>
+					<li>PDF ou algum tipo de visualização imediata;</li>
 				</ul>
 				</li>
-				<li><em>Documentary specifications - source format</em>: depending on the lifecycle stage:
+				<li><em>Documentação das especificações - formato fonte</em>: dependendo do estágio do ciclo de vida:
 				<ul>
-					<li>wiki source;</li>
-					<li>for the PDF format specifications, it is currently the FrameMaker source files (being converted to DITA format);</li>
+					<li>fonte wiki;</li>
+					<li>para as especificações no formato PDF, atualmente os arquivos são criados no FrameMaker (sendo convertidas para o formato DITA);</li>
 				</ul>
 				</li>
-				<li><em>Computable artefacts</em>: any recognised computable or formal artefact, including but not limited to:
+				<li><em>Artefatos computáveis</em>: qualquer artefacto computável ou formal reconhecido, incluindo, mas não se limitando a:
 				<ul>
-					<li>XMI files of UML models;</li>
-					<li>UML tool sources where feasible;</li>
-					<li>XSDs of the data view of relevant specifications;</li>
-					<li>WSDLs of service specifications;</li>
-					<li>code skeletons of APIs;</li>
-					<li>code examples.</li>
+					<li>Arquivos XMI de modelos UML;</li>
+					<li>Fontes de ferramentas UML sempre que possível;</li>
+					<li>XSDs de exibição de dados de especificações pertinentes;</li>
+					<li>WSDLs de especificações de serviço;</li>
+					<li>esqueletos de código de APIs;</li>
+					<li>códigos de exemplo.</li>
 				</ul> 
 				</li>
-				<li><em>Educational materials</em>: including:
+				<li><em>Materiais educacionais</em>: incluindo:
 				<ul>
-					<li>slideshow presentations in source (e.g. Microsoft .ppt, .pptx) format or published format, typically PDF</li>
-					<li>video presentations in a recognised movie format, typically a collection of files e.g. .swf, .mpeg, .html etc.</li>
+					<li>arquivos de apresentações de slides (ex. Microsoft .ppt, .pptx) ou formatos publicáveis, geralmente PDF</li>
+					<li>apresentações de vídeo em um formato de filme reconhecido, geralmente uma coleção de arquivos, por exemplo, .swf, .mpeg, .html, etc..</li>
 				</ul>
 				</li>
 			</ul>
 			
 			
-			<h2>IP Rights</h2>
-			<h3>Copyright</h3>
-			<p>Artefacts of all of the above types produced by the Specification Program are copyrighted to the openEHR Foundation. This establishes the Foundation to be the owner of the 'moral rights' to the artefacts, on behalf of all the contributors, and for the safety of the user community.</p>
+			<h2>Direitos de Propriedade Intelectual</h2>
+			<h3>Direitos autorais</h3>
+			<p>Artefatos de qualquer um dos tipos acima produzidos pelo Programa de Especificação são de direitos autorais da Fundação openEHR. Isso garante a Fundação ser proprietária dos "direitos morais" dos artefatos em nome de todos os colaboradores e para a segurança da comunidade de usuários.</p>
 			
-			<h3>Attribution</h3>
-			<p>The contributors to an artefact are recognised in an attribution section of the work. For documentary specifications, this is the revision history of every specification. For computable artefacts, this is the contributor's list section in the license block.</p>
+			<h3>Atribuição</h3>
+			<p>Os contribuintes de um artefato são reconhecidos numa seção de atribuição do trabalho. Para especificações documentais, isto está no histórico de revisões de cada especificação. Para artefatos computáveis​​, isto está na seção de lista do contribuinte no bloco de licença.</p>
 			
-			<h3>Licensing</h3>
-			<p>A standard license is attached to each artefact, explicitly defining rights for use. Without this, the definition of usage rights reverts directly to the copyright law of some jurisdiction, or one of the international copyright conventions.</p>
+			<h3>Licenciamento</h3>
+			<p>Uma licença padrão é anexada a cada artefato, definindo explicitamente os direitos de utilização. Quando isso não ocorre, a definição de direitos de utilização recai diretamente para a lei de direitos autorais de alguma jurisdição, ou uma das convenções internacionais de direitos autorais.</p>
 			<br/>
-			<p>The license assignments are as follows:</p>
+			<p>As atribuições de licença são as seguintes:</p>
 			
 			<table class="TableMain">
 			<tbody>
 			<tr>
-				<th class="TableMainT"> Artefact type</th>
-				<th class="TableMainT"> License for use</th>
-				<th class="TableMainT"> Comments</th>
+				<th class="TableMainT"> Tipos de artefatos</th>
+				<th class="TableMainT"> Licença de uso</th>
+				<th class="TableMainT"> Comentários</th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <em>Specification document published files </em> </td>
-				<td class="TableMainC"> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">openEHR Specifications</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">openEHR Foundation</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">here</a>. </td>
-				<td class="TableMainC"> <p>The use of the CC-BY-ND license allows for public sharing, republishing, and unencumbered commercial use. It protects users of the specifications from unknown and/or local modifications, tampering etc being made outside of the Foundation's own open processes. This is the same thing that W3C does with its <a href="http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231">document license</a>.</p>
-										<p>The CC 'SA' (Share-alike) option was also considered, but rejected for two reasons. Firstly the openEHR Specifications are considered definitive works of the Foundation, not interpretations of anything else. Their contents and evolution therefore accurately and correctly reflect the processes of the openEHR community itself. Secondly, the integrity of specifications on which healthcare software and systems are directly based is considered of paramount importance to patients and clinical professionals.</p></td>
+				<td class="TableMainC"> <em>Arquivos de documento de especificações publicados </em> </td>
+				<td class="TableMainC"> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Especificações openEHR</span> produzidas pela <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">Fundação openEHR</a> é licenciada sob a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissões além do escopo desta licença podem estar disponíveis <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">aqui</a>. </td>
+				<td class="TableMainC"> <p>O uso da licença CC-BY-ND permite o compartilhamento público, a republicação, e uso comercial sem restrições. Ele protege os usuários das especificações de modificações desconhecidos e / ou locais, adulteração etc sendo feito fora do próprio processo aberto da Fundação. Esta é a mesma coisa que o W3C faz com sua  <a href="http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231">licença documento</a>.</p>
+										<p>A opção CC 'SA' (Share-alike) também foi considerada, mas rejeitada por duas razões: <br> <ul><li>Em primeiro lugar, as especificações openEHR são consideradas obras definitivas da Fundação, e não interpretações de qualquer outra coisa. Seu conteúdo e evolução, portanto, precisa refletir corretamente os processos da própria comunidade openEHR.</li><li>Em segundo lugar, a integridade das especificações no qual o software e os sistemas de saúde são baseados diretamente é considerada de suma importância para os pacientes e os profissionais clínicos.</li></ul></p></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <em>Specification document source files </em> </td>
-				<td class="TableMainC"> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">openEHR Specifications</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">openEHR Foundation</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">here</a>. </td>
-				<td class="TableMainC"> <br/><br/><br/>ibid <br/><br/><br/></td>
+				<td class="TableMainC"> <em>Arquivos de origem do documento de especificação </em> </td>
+				<td class="TableMainC"> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Especificações openEHR</span> produzidos pela <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">Fundação openEHR</a> são licenciadas sob a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissões além do escopo desta licença podem estar disponíveis <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">aqui</a>. </td>
+				<td class="TableMainC"> <br/><br/><br/>idem <br/><br/><br/></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <em>Specification computable artefacts</em> </td>
+				<td class="TableMainC"> <em>Especificação de artefatos computáveis</em> </td>
 				<td class="TableMainC"> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
 										<a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2 License</a></td>
-				<td class="TableMainC"> <br/><br/>Computable artefacts are licensed in the same way as software, using the Apache license, which is widely accepted and industry friendly.<br/><br/></td>
+				<td class="TableMainC"> <br/><br/>Artefatos computáveis são licenciados da mesma forma que software, ou seja, usando a licença Apache que é amplamente aceita e amigável a indústria.<br/><br/></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <em>Educational artefacts </em> </td>
-				<td class="TableMainC"> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a
+				<td class="TableMainC"> <em>Artefatos educacionais</em> </td>
+				<td class="TableMainC"> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> é licenciado sob a
 										<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
-				<td class="TableMainC"> <br/><br/>Educational artefacts are intended for wide use, and improvement, translation and re-use is encouraged. <br/><br/><br/> </td>
+				<td class="TableMainC"> <br/><br/>Artefatos educacionais devem ser amplamente utilizados e a melhoria das traduções e a reutilização são incentivadas.<br/><br/><br/> </td>
 			</tr>
 			</tbody>
+			</table></body>
 			</table>
 			
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
