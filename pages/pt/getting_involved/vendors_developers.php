@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
 $PageName = 'Fornecedores / Desenvolvedores';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 ?>
 
 		<div id="Content">
@@ -33,9 +33,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			
 			<h2>Como você pode participar</h2>
-			<p>Você pode se tornar um Parceiro openEHR através da filiação organizacional, ou membros de sua equipe podem se tornar parte do openEHR como membros individuais. Saiba mais sobre<a href="/about/membership#industrypartner">associação</a>.</p>
+			<p>Você pode se tornar um Parceiro openEHR através da filiação organizacional, ou membros de sua equipe podem se tornar parte do openEHR como membros individuais. Saiba mais sobre <a href="/pt/about/membership#industrypartner">associação</a>.</p>
 			
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>

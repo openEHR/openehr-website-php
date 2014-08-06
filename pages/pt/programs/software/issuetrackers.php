@@ -1,13 +1,13 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Lista de Problemas';
+$PageName = 'Rastreadores de Problemas';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 ?>
 
-		<div id="Conteúdo">
+		<div id="Content">
 <!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
@@ -16,4 +16,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 		
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>

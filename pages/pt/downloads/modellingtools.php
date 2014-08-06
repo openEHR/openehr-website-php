@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
 $PageName = 'Feramentas de Modelagem';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 ?>
 
 		<div id="Content">
@@ -40,7 +40,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td>O Editor de Arquétipos é a principal ferramenta em uso atualmente para criação de arquétipos openEHR ADL 1.4 como os encontrados no Gerenciador de Conhecimento Clínico openEHR (CKM) e em outros lugares. É habilitado para Unicode e trabalha com arquétipos em qualquer idioma. Esta aplicação suporta várias línguas, incluindo Dinamarquês, Inglês, Farsi, alemão, japonês, russo, espanhol, sueco e turco.</td>
 				<td>Microsoft VB.NET</td>
 				<td><br/><a href="/downloads/archetypeeditor/home">Download e páginas de ajuda</a><br/></td>
-				<td><a href="https://github.com/openEHR/arch_ed-dotneti" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
+				<td><a href="https://github.com/openEHR/arch_ed-dotnet" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
 			</tr>
 			<tr>
 				<td><em>Template Designer</em></td>
@@ -86,4 +86,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>

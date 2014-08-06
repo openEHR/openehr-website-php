@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<p>Clinicians and their clients are what openEHR is about. The power to create life-long and future-proof health records that support health and health care across the full range of health care environments. By separating the specification of clinical information from the model on which the software operates, clinicians can go on extending their shared information requirements to meet evolving needs.</p>
-			<p style="text-align:center;"><a href="/files/getting_involved/providers_clinicians.png"><img src="/files/getting_involved/providers_clinicians.png" alt="openEHR Ecosystem - Privders / Clinicians" title="openEHR Ecosystem - Privders / Clinicians" width="480px" style="border: solid 1px #CCCCCC;"></a></p>	
+			<p style="text-align:center;"><a href="/files/getting_involved/providers_clinicians.png"><img src="/files/getting_involved/providers_clinicians.png" alt="openEHR Ecosystem - Privders / Clinicians" title="openEHR Ecosystem - Providers / Clinicians" width="480px" style="border: solid 1px #CCCCCC;"></a></p>	
 		
 			
 			<h2>What can openEHR do for you</h2>

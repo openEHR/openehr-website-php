@@ -2,7 +2,7 @@
 			<ul>
 				<li><a href="/pt/programs/specification/listofspecifications" <?php if($pageOn == 'listofspecifications.php'){?> class="active"<?php }?>>&nbsp; Lista de Especificações</a></li>
 				<li><a href="/programs/specification/releases" <?php if($PageName == 'Releases'){?> class="active"<?php }?>>&nbsp; Edições</a></li>
-				<li><a href="/pt/programs/specification/roadmap" <?php if($pageOn == 'roadmap.php'){?> class="active"<?php }?>>&nbsp; Roadmap</a></li>
+				<li><a href="/pt/programs/specification/roadmap" <?php if($pageOn == 'roadmap.php'){?> class="active"<?php }?>>&nbsp; Roteiro</a></li>
 				<li><a href="/pt/programs/specification/governance" <?php if($pageOn == 'governance.php'){?> class="active"<?php }?>>&nbsp; Governança</a></li>
 				<li><a href="/pt/programs/specification/changeprocess" <?php if($pageOn == 'changeprocess.php'){?> class="active"<?php }?>>&nbsp; Processo de Alterações</a></li>
 				<li><a href="/issues/browse/SPEC" target="_blank">&nbsp; Rastreador de Alterações</a></li>

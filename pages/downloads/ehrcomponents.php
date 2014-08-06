@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td>open EHR-Gen</td>
 				<td>A framework for generating medical record systems based on openEHR</td>
 				<td> Grails, Groovy, Java</td>
-				<td><a href="http://translate.google.com/translate?sl=es&tl=en&js=n&prev=_t&hl=es&ie=UTF-8&eotf=1&u=http%3A%2F%2Fcode.google.com%2Fp%2Fopen-ehr-gen-framework%2F">Download page</a></td>
+				<td><a href="http://code.google.com/p/open-ehr-gen-framework/">Download page</a></td>
 			</tr>
 			<tr>
 				<td>Java Reference Implementation of openEHR</td>
