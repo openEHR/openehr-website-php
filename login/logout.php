@@ -22,7 +22,7 @@
 
 <?php
 $PageName = 'Logut';
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english_top.php');
 ?>
 
 	<div id="MainArea" style="margin-left:60px; margin-top:35px; margin-bottom:100px; width:900px;">

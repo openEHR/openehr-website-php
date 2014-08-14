@@ -62,6 +62,7 @@ margin: 2px 0px 2px 10px;
 #SmallFrame {
 float:left;
 
+min-height:300px;
 width:220px;
 margin: 0px 18px 20px 0px;
 

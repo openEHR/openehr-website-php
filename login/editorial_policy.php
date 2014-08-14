@@ -17,7 +17,7 @@
 <?php
 $PageName = 'Editorial Policy';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
 
 		<div id="Content">

@@ -1,9 +1,7 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html lang="pt">
-
 <head>
-	
 	<title>openEHR - <?php echo "$PageName";?></title>
 	<meta charset="utf-8">	
 	<meta name="description" content="openEHR fornece especificações de código livre e implementações de referência para sistemas de Registro Eletrônico de Saúde (S-RES) à prova de futuro">
@@ -25,11 +23,12 @@
 
 	<script type="text/javascript" src="/menu/dropdown.js"></script> 
 	
-	<?php $pageOn = basename($_SERVER['PHP_SELF']); ?>
-	<?php $english = str_replace('/pt','',$_SERVER['PHP_SELF']);?>
+	<?php 
+	$pageOn = basename($_SERVER['PHP_SELF']); 
+	$english = str_replace('/pt','',$_SERVER['PHP_SELF']);
+	?>
 	
 </head>
-
 <body>
 
 <div id="MainFrame">

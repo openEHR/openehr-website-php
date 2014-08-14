@@ -20,7 +20,7 @@
 
 <?php
 $PageName = 'My News Items';
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
 
 		<div id="Content">

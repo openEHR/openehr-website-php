@@ -4,7 +4,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 //Change page name here:
 $PageName = 'Release 1.0';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 ?>
 
 		<div id="Content">
