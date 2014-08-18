@@ -49,6 +49,7 @@
 			<ul>
 			<li><a href="/using_the_site/terms_of_use">Terms of Use</a></li>
 			<li><a href="/using_the_site/privacy_policy">Privacy Policy</a></li>
+			<li><a href="/using_the_site/localisation">Localisation</a></li>
 			<li><a href="/using_the_site/syndication">Syndication</a></li>
 			<li><a href="/using_the_site/feedback">Feedback</a></li>
 			<li><a href="/using_the_site/site_map">Site Map</a></li>
