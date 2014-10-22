@@ -62,7 +62,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 		<li>A <strong>next generation </strong>
 		<strong>archetype tooling project </strong>
 		will be commenced.</li>
-		<ul><li>A technical group will develop an outline architecture and project proposal in the next 3 weeks.</li>
+		<ul><li>A technical group will develop an outline architecture and project proposal in the next 3 weeks. Erik Sundvall has set up <a href="http://www.openehr.org/wiki/display/dev/Online+archetype+and+template+tools">a wiki page for this project</a>.</li>
 		<li>The project will be open source, and be open to use by developers from any organisation using archetypes.</li>
 		<li>Most end users (e.g. clinicians) should be able to use main parts of the tooling via modern web-browsers, without needing to install extra software locally. (Some functionality might require access server-based components though.)</li>
 		<li>We will aim for a combined project that covers the needs of openEHR, 13606, CIMI and any other archetype user community.</li>
