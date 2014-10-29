@@ -17,22 +17,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<p>The second resource that must be configured is the 'profiles' that define where archetypes and templates are to be found.</p>
 			
 			
-			<h2>Download archetypes</h2>
-			<p>For first-time use, you will be asked to provide paths to archetypes. It helps to have already downloaded some archetypes! See <a href="obtaining_archetypes">here</a> how to do this.</p>
-			
-			
 			<h2>Basic Configuration</h2>
 			
 			<h3>Setting RM Schemas</h3>
 			<p>At installation, the AWB is normally set up to point to a set of reference model schemas copied from the <a href="https://github.com/openEHR/reference-models" target="_blank">openEHR reference models Git repository</a>. You may want to check which Reference Model schemas are enabled initially. Choose RM Schemas &gt; Configure Schemas to do this. The dialog looks as follows.</p>
-			<p><a href="images/options_rm_schema_config.png"><img border="0" alt="Options dialog" src="images/tn_options_rm_schema_config.jpg" width="200" height="187"/> </a></p>
+			<p><img border="0" alt="Options dialog" src="images/options_rm_schema_config.png"/></p>
 			<p>You can check all RM schemas that apply to archetypes in any repository you might define. The only time you would leave a schema unchecked is if you have more than one version of the same schema and you want to choose a specific one. Several RM schemas are provided with the AWB, which are copies of the controlled versions found in the <a href="https://github.com/openEHR/adl-archetypes" target="_blank">openEHR/adl-archetypes GitHub repository</a>. See the <a href="tool_configuration#rmschemaconfiguration">Tool Configuration section</a> for details on configuring RM schemas.</p>
          
-			<h3>Setting and changing repository profiles</h3>
-			<p>The first time you start the tool if you are a new user, you will be asked for a repository. The screen will look like this:<br/></p>
-			<p><a href="images/startup_repository.png"><img border="0" alt="Repository dialog at startup" src="images/tn_startup_repository.jpg" width="200" height="151"/> </a></p>
-			<p>The repository dialog is used to define the location of a repository of archetypes/templates. The 'profile' is a logical name for a 'reference' repository, and optionally, a 'work' repository. You can create as many profiles as you like. The 'reference' repository is a directory containing archetypes that you will use, but not modify, such as the CKM archetypes, or a national library. These archetypes will be shown with blue icons. The optional 'work' repository is to indicate the directory under which you have archetypes/templates you are working on. The latter can include specialisations of the archetypes found in the reference location. These archetypes will be shown with green icons.</p>
-			<p>The files in each repository area can be arranged in any manner - e.g. the traditional 'openEHR' structure, or even a single directory. When the files are read by the AWB, they are classified under the class structure of the reference model on which each archetype is based.</p>
+			<h3>Setting up archetype repositories</h3>
+			<p>The first time you start the tool if you are a new user, you will be asked for a repository. The following dialog will appear:<br/></p>
+		<p><img src="images/repositories_screen_1.png"></p>
+			<p><a href="obtaining_archetypes">This page</a> describes how to proceed.</p>
 		  
 		  
 			<h2>Using the Tool</h2>

@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
 
 //Change page name here:
-$PageName = 'About ADL 1.5';
+$PageName = 'About ADL 2';
 
 require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 ?>
@@ -13,22 +13,18 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
-			<p>The 1.5 release of the ADL (Archetype Definition Language) formalism, and its object model counterpart, the AOM (Archetype Object Model) is a major advance on the previous 1.4 release. It fixes a number of problems with ADL/AOM 1.4, provides a unified formalism for both archetypes and templates, and adds a number of useful new features. These help pages don't attempt to provide the pedagogic basis of the formalism, which can be found in the specifications, rather it illustrates each feature of the ADL/AOM 1.5 formalism with real examples you can see for yourself. The specifications are found in the following locations.</p>
-			<ul>
-				<li><a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/adl1.5.pdf" target="_blank">The Archetype Definition Language 1.5 (draft)</a></li>
-				<li><a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/aom1.5.pdf" target="_blank">The Archetype Object Model 1.5 (draft)</a></li>
-				<li><a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/dist_dev_model.pdf" target="_blank">openEHR Distributed Knowledge Development (draft)</a></li>
-				<li><a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/knowledge_id_system.pdf" target="_blank">openEHR Distributed Artefact Identification System (draft)</a></li>
-			</ul>
+			<p>Note: what has been known as the 'ADL 1.5' formalism has been renamed to 'ADL 2' at the Oslo working meeting September 2014, due to breaking changes with respect to ADL 1.4. Backwardly compatible versions such as 1.5, 1.6 may be introduced in the future, taking features from ADL 2, in order to provide an upgrade pathway for implementers.</p>
+
+			<p>The ADL (Archetype Definition Language) release 2 formalism, and its object model counterpart, the AOM (Archetype Object Model) is a major advance on the previous 1.4 release. It fixes a number of problems with ADL/AOM 1.4, provides a unified formalism for both archetypes and templates, and adds a number of useful new features. These help pages don't attempt to provide the pedagogic basis of the formalism, which can be found in the specifications, rather it illustrates each feature of the ADL/AOM 2 formalism with real examples you can see for yourself. The specifications are found <a href="http://www.openehr.org/programs/specification/releases/currentbaseline#ADL2">here</a>.</p>
 			<p>One question you may have is: what if I am not interested in the ADL syntax? You might be using XML archetypes for example. It is important to understand the various roles of ADL, XML and the AOM. These are explained in some detail in the specifications (see below). Briefly, the ADL workbench performs most of its work using AOM structures. It also has an ADL parser and serialiser, and in the near future, will have a parser and serialiser for XML archetypes. Apart from some syntax basics, nearly all the validation carried out by the AWB is on AOM structures and has nothing to do with the ADL syntax. Additionally, ADL is a human readable syntax good for understanding the concepts and examples. However, it does not have to be used in archetype authoring or production systems - the XML form is completely equivalent.</p>
 
 			<h3>Specifications Status</h3>
-			<p>These specifications will be released in early 2014 as stable Trial Specifications. Although most of the principal features have been determined and implemented, there remain a number of details which could be changed; these are indicated in the text below. Your feedback on any aspect of the specification is encouraged, and can be reported on the <a href="http://www.openehr.org/issues/browse/SPECPR" target="_blank">openEHR SPEC_PR Jira project</a>. Please create new issues with the 'ADL 1.5' component specified.</p>
-			<p>The remainder of this page describes the configuration of the tool for viewing the examples, and then describes in turn each of the features of ADL/AOM 1.5 grouped in the categories 'New features' and
+			<p>These specifications will be released in early 2014 as stable Trial Specifications. Although most of the principal features have been determined and implemented, there remain a number of details which could be changed; these are indicated in the text below. Your feedback on any aspect of the specification is encouraged, and can be reported on the <a href="http://www.openehr.org/issues/browse/SPECPR" target="_blank">openEHR SPEC_PR Jira project</a>. Please create new issues with the 'ADL 2' component specified.</p>
+			<p>The remainder of this page describes the configuration of the tool for viewing the examples, and then describes in turn each of the features of ADL/AOM 2 grouped in the categories 'New features' and
 			'Changes'.</p>
 
 			
-			<h2>ADL/AOM 1.5 - New features</h2>
+			<h2>ADL/AOM 2 - New features</h2>
 
 			<h3>New internal coding system</h3>
 			<p>The coding system used in ADL 1.4 archetypes used at-codes to identify everything, apart from occasional ac-codes to identify external value sets. This has been replaced by a new coding system in which id-codes identify all archetype nodes, at-codes identify terminology values and ac-codes identify terminology value sets, internal and external. The new system is described <a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=49053703">here</a></p>
@@ -81,8 +77,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<p>If you refer back to the problem-diagnosis example above in the <a href="images/problem-diagnosis_diff_view.png"> differential form</a>, you will see that the second two nodes include 'before' and 'after' markers respectively. The former is 'before [at0003]' and the latter 'after [at0031]', indicating the nodes from the parent archetype with respect to which the new nodes should be situated. If you now choose the Flat view, with RM visibility (radio buttons on the right) set to '+ class names', you will see that these two nodes are indeed situation in the correct positions with respect to the referenced nodes, as seen <a href="images/problem-diagnosis_flat+RM_view.png">here</a>.</p>
 
 			<h3>'generated' marker</h3>
-			<p>Used to indicate that the artefact was generated by software, rather than authored by hand. This flag will appear on any differential (.adls file extension) archetype converted from a legacy (pre-1.5) archetype (.adl extension). In addition, any generated flat form archetype (.adlf file) carries this marker. The flag primarily allows tools to detect that a source form archetype (i.e. any .adls file or its XML equivalent) was generated from a legacy file rather than an authored artefact.</p>
-			<p>Most archetypes in the CKM repository when viewed in their Differential Source form (Differential and Source tabs) include the 'generated' marked in the top line. By contrast, none of the archetypes in the ADL_1.5_test or openEHR_example repositories contain differential archetypes with the 'generated' marker.</p>
+			<p>Used to indicate that the artefact was generated by software, rather than authored by hand. This flag will appear on any differential (.adls file extension) archetype converted from a legacy (pre-ADL 2) archetype (.adl extension). In addition, any generated flat form archetype (.adlf file) carries this marker. The flag primarily allows tools to detect that a source form archetype (i.e. any .adls file or its XML equivalent) was generated from a legacy file rather than an authored artefact.</p>
+			<p>Most archetypes in the CKM repository when viewed in their Differential Source form (Differential and Source tabs) include the 'generated' marked in the top line. By contrast, none of the archetypes in the <a href="https://github.com/openEHR/adl-archetypes">ADL test repository</a> contain differential archetypes with the 'generated' marker.</p>
 
 			<h3>Exclusion of object constraints</h3>
 			<p>Object constraints can be excluded, enabling templates to choose which constraints to retain for the use case of the template. Exclusion is also legal for archetypes, but is likely to be unexpected, and it is recommended that tools either prevent it or include a very clear confirmation dialog for the author. There are three ways to effect exclusion. For the examples in the following, select the <em>openEHR_examples</em> profile in the usual manner.</p>
@@ -123,14 +119,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<h3>Archetype - archetype external reference</h3>
 			<p>The new C_ARCHETYPE_ROOT class in the AOM allows an archetype to refer to another archetype, without having to use a slot. To see an example, follow these steps:</p>
 			<ul>
-				<li>Select the ADL_1.5_test profile</li>
+				<li>Select the openEHR-ADLref archetype library</li>
 				<li>Navigate to and select the COMPOSITION.t_ext_ref template</li>
 				<li>Select Differential View, Definition tab, and you will see <a href="images/ext_ref_diff.png">this</a>, which shows the use of the use_archetype statement to select two archetypes to be used under the attribute /content</li>
 				<li>Now choose the Source view, and you will see <a href="images/ext_ref_source.png">this</a>, showing the ADL source expression. Note that the use_archetype statements mention archetype ids, but no slot identifiers (at-codes) because there was no slot defined at this point.</li>
 			</ul>
 
 			<h3>Slot redefinition semantics, including slot-filling</h3>
-			<p>The semantics of redefining archetype slots in specialised archetypes and templates is defined in ADL/AOM 1.5. Slot-filling is regarded as a part of redefinition within a specialised archetype or template. A slot can be redefined by any of the following:</p>
+			<p>The semantics of redefining archetype slots in specialised archetypes and templates is defined in ADL/AOM 2. Slot-filling is regarded as a part of redefinition within a specialised archetype or template. A slot can be redefined by any of the following:</p>
 			<ul>
 				<li>specify slot-fillers;</li>
 				<li>specialise the slot definition itself, for example, to reduce the set of allowable archetypes;</li>
@@ -237,7 +233,7 @@ annotations
 			<p>TBD</p>
 
 			<h3>Node_id optionality</h3>
-			<p>Currently node_id is specified as mandatory on all nodes. However, this is not semantically needed, andcreates unnecessarily long paths which don't map cleanly to the equivalent XML Xpaths. ADL 1.5 defines precise rules for when node_ids are mandatory.</p>
+			<p>Currently node_id is specified as mandatory on all nodes. However, this is not semantically needed, andcreates unnecessarily long paths which don't map cleanly to the equivalent XML Xpaths. ADL 2 defines precise rules for when node_ids are mandatory.</p>
 					
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	

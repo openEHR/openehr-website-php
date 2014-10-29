@@ -5,7 +5,7 @@
 				<li><a href="obtaining_archetypes" <?php if($pageOn == 'obtaining_archetypes.php'){?> class="active"<?php }?>>&nbsp; Obtaining Archetypes</a></li>
 				<li><a href="browsing_and_compiling" <?php if($pageOn == 'browsing_and_compiling.php'){?> class="active"<?php }?>>&nbsp; Browsing and Compiling</a></li>
 				<li><a href="tool_configuration" <?php if($pageOn == 'tool_configuration.php'){?> class="active"<?php }?>>&nbsp; Tool Configuration</a></li>
-				<li><a href="learning_about" <?php if($pageOn == 'learning_about.php'){?> class="active"<?php }?>>&nbsp; About ADL 1.5</a></li>
+				<li><a href="learning_about" <?php if($pageOn == 'learning_about.php'){?> class="active"<?php }?>>&nbsp; About ADL 2</a></li>
 				<li><a href="working_with_templates" <?php if($pageOn == 'working_with_templates.php'){?> class="active"<?php }?>>&nbsp; Working with Templates</a></li>
 				<li><a href="command_line_tool" <?php if($pageOn == 'command_line_tool.php'){?> class="active"<?php }?>>&nbsp; Command-line Tool</a></li>
 				<li><a href="test_tool" <?php if($pageOn == 'test_tool.php'){?> class="active"<?php }?>>&nbsp; The Test Tool</a></li>

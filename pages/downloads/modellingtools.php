@@ -22,16 +22,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<th>Dev project</th>
 			</tr>
 			<tr>
-				<td><em>ADL 1.5 workbench (AWB)</em></td>
-				<td>Reference model-driven visual IDE for parsing, compiling, analysing, converting and (Q1 2013) editing ADL 1.4 and ADL 1.5 archetypes and templates. Built on the reference ADL parser.</td>
-				<td>Source: Eiffel 7.2; builds available for Windows, Linux and Mac OSX.</td>
+				<td><em>ADL 2 workbench (AWB)</em></td>
+				<td>Reference model-driven visual IDE for parsing, compiling, analysing, converting and editing ADL 1.4 and ADL 2 archetypes and templates. Built on the reference ADL parser.</td>
+				<td>Source: Eiffel 14.05; builds available for Windows, Linux and Mac OSX.</td>
 				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
 				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
 			</tr>
 			<tr>
-				<td><em>ADL 1.5 command-line compiler (ADLC)</em></td>
+				<td><em>ADL 2 command-line compiler (ADLC)</em></td>
 				<td>A command-line version of the compiler used inside the ADL Workbench</td>
-				<td>Source: Eiffel 7.2; builds available for Windows, Linux and Mac OSX.</td>
+				<td>Source: Eiffel 14.05; builds available for Windows, Linux and Mac OSX.</td>
 				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
 				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
 			</tr>

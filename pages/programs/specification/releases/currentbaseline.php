@@ -113,15 +113,46 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 				<td class="TableMainC"> Model supporting expression of legacy data in a free form for further processing into and out of openEHR information structures. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
+
 			<tr style="background-color:#FFFFDD;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ArchetypeModel"><em>Archetype Model</em></a> </td>
+				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ArchetypeModel"><em>Archetype Model (general)</em></a> </td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/archetype_semantics.pdf" target="_blank">Archetype Semantics</a></td>
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> Overview of semantics of archetypes, including identifiers, specialisation, revision, versioning, composition, and conformance.</td>
 				<td class="TableMainC"> development</td>
 			</tr>
-			<tr style="background-color:#FFFFDD;">
+			<tr style="background-color:#F3F8FA;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/archetype_principles.pdf" target="_blank">Archetypes Principles</a></td>
+				<td class="TableMainC"> UML: <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
+				<td class="TableMainC"> Semantic principles of archetypes and templates.</td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+
+			<tr style="background-color:#F3F8FA;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ADL14"><em>ADL 1.4</em></a> </td>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/adl1.4.pdf" target="_blank">ADL 1.4</a></td>
+				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
+				<td class="TableMainC"> Abstract syntax specification for Archetype Definition Language (ADL), 1.4 edition of language (used in ISO 13606-2). </td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+			<tr style="background-color:#F3F8FA;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/aom1.4.pdf" target="_blank">AOM 1.4</a></td>
+				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
+				<td class="TableMainC"> Archetype Object Model (AOM) 1.4 - syntax-independent model of archetypes corresponding to ADL 1.4. </td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+			<tr style="background-color:#F3F8FA;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/openehr_archetype_profile.pdf" target="_blank">openEHR Archetype Profile (OAP)</a></td>
+				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
+				<td class="TableMainC"> openEHR plug-in additions to the generic archetype object model.</td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+
+			<tr style="background-color:#FFFFDD;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ADL2"><em>ADL 2</em></a> </td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/dist_dev_model.pdf" target="_blank">Model of Distributed Development</a></td>
 				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Description of distirbuted development and governance concepts of archetypes, templates and terminology subsets.</td>
@@ -134,53 +165,25 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 				<td class="TableMainC"> Formal model of identifiers, versioning and lifecycle for archetypes, templates and terminology subsets.</td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">dev page</a></td>
 			</tr>
-			<tr style="background-color:#F3F8FA;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/adl1.4.pdf" target="_blank">ADL 1.4</a></td>
-				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> Abstract syntax specification for Archetype Definition Language (ADL), 1.4 edition of language (used in ISO 13606-2). </td>
-				<td class="TableMainC"> stable</td>
-			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/adl1.5.pdf" target="_blank">ADL 1.5</a></td>
-				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> Archetype Definition Language (ADL) 1.5 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/adl2.pdf" target="_blank">ADL 2</a></td>
+				<td class="TableMainC"> </a></td>
+				<td class="TableMainC"> Archetype Definition Language (ADL) 2 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
 			</tr>
-			<tr style="background-color:#F3F8FA;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/aom1.4.pdf" target="_blank">AOM 1.4</a></td>
-				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> Archetype Object Model (AOM) 1.4 - syntax-independent model of archetypes corresponding to ADL 1.4. </td>
-				<td class="TableMainC"> stable</td>
-			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/aom1.5.pdf" target="_blank">AOM 1.5</a></td>
-				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> Archetype Object Model (AOM) 1.5 draft - the AOM description now includes uniquely identified formally testable validity conditions 
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/aom2.pdf" target="_blank">AOM 2</a></td>
+				<td class="TableMainC"> </a></td>
+				<td class="TableMainC"> Archetype Object Model (AOM) 2 draft - the AOM description now includes uniquely identified formally testable validity conditions 
 										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
-			</tr>
-			<tr style="background-color:#F3F8FA;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/openehr_archetype_profile.pdf" target="_blank">openEHR Archetype Profile (OAP)</a></td>
-				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> openEHR plug-in additions to the generic archetype object model.</td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-			<tr style="background-color:#F3F8FA;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/archetype_principles.pdf" target="_blank">Archetypes Principles</a></td>
-				<td class="TableMainC"> UML: <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
-				<td class="TableMainC"> Semantic principles of archetypes and templates.</td>
-				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/tom.pdf" target="_blank">Template Object Model</a></td>
-				<td class="TableMainC"> UML: <a href="/releases/1.0.2/architecture/UML">source files</a>, <a href="/wiki/display/spec/openEHR+1.0.2+UML+resources">online</a></td>
+				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Object model of templates. </td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
 			</tr>

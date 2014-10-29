@@ -14,6 +14,28 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			
 			<h2>Release History</h2>
 			
+			<h3>30 October 2015 ADL 2</h3>
+			<ul>
+				<li><em>Archetype Object Model / compiler</em>:
+					<ul>
+						<li>New flattener, with proper specialise-and-clone, numerous edge cases fixed.</li>
+						<li>Improvements in specialised archetype validation</li>
+					</ul>
+				</li>
+				<li><em>Tool functionality</em>:
+					<ul>
+						<li>New method of specifying archetype repositories uses self-describing repository/library structure</li>
+						<li>Git / Github integration</li>
+					</ul>
+				</li>
+				<li><em>Visualisation</em>:
+					<ul>
+						<li>One-click template creation</li>
+						<li>Lazy load template visualiser mode to handle very large template structures</li>
+					</ul>
+				</li>
+			</ul>
+				
 			<h3>05 March 2014 ADL 1.5 beta Release 10 (<a href="https://github.com/openEHR/adl-tools/tree/1.5beta10">Git tag 1.5beta10</a>) 
 				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10260">Jira</a>)</h3>
 			<ul>

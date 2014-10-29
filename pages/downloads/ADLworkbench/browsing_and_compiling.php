@@ -234,7 +234,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			</table>
 			
 			<h3>ADL view</h3>
-			<p>The ADL source of an archetype can be viewed in the 'ADL' tab, regardless of whether it has compiled successfully or not. The 'ADL 1.4' and 'ADL 1.5' source sub-tabs are editable, and changes made can be saved using ctrl-S or the 'Save' button, which will cause an immediate re-compile.</p>
+			<p>The ADL source of an archetype can be viewed in the 'ADL' tab, regardless of whether it has compiled successfully or not. The 'ADL 1.4' and 'ADL 2' source sub-tabs are editable, and changes made can be saved using ctrl-S or the 'Save' button, which will cause an immediate re-compile.</p>
 			<p><a href="images/archetype_source_view.png"><img border="0" src="images/tn_archetype_source_view.jpg"/></a></p>
 			
 			<h3>Serialised views: ADL, ODIN, XML, JSON</h3>

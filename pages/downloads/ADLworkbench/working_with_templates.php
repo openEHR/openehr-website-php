@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
-			<p>Templates are a key new feature in ADL/AOM 1.5. Contrary to what one might expect, they are technically achieved by small extensions to the 1.4 vintage of ADL and the AOM - in other words, they are implemented as a kind of archetype.</p> 
+			<p>Templates are a key new feature in ADL/AOM 2. Contrary to what one might expect, they are technically achieved by small extensions to the 1.4 vintage of ADL and the AOM - in other words, they are implemented as a kind of archetype.</p> 
 			<p>Here is a short primer on archetypes and templates...</p>
 			
 			<h3>Archetypes</h3>
@@ -67,7 +67,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 				</li>
 				<li>This kind of scheme would enable tools to easily generate template component identifiers, since they are not of direct interest to human users.</li>
 			</ul>
-			<p>The above template is pretty simple, having only one level of slot-filling, and including only minimal constraint refinement (in the template components). The key thing to understand is that all of the features of templates are actually just features of the archetype formalism. Many are explained in the <a href="learning_about">Learning ADL 1.5 page</a>. Remember however, as described in the primer above, the use of templates is different from archetypes. Tools for authoring archetypes and templates are likely to impose restrictions on what features are available in each kind of artefact, for example to only allow slot-filling and removals in templates.</p>
+			<p>The above template is pretty simple, having only one level of slot-filling, and including only minimal constraint refinement (in the template components). The key thing to understand is that all of the features of templates are actually just features of the archetype formalism. Many are explained in the <a href="learning_about">Learning ADL 2 page</a>. Remember however, as described in the primer above, the use of templates is different from archetypes. Tools for authoring archetypes and templates are likely to impose restrictions on what features are available in each kind of artefact, for example to only allow slot-filling and removals in templates.</p>
  
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	

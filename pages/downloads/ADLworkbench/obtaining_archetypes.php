@@ -12,81 +12,60 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>The openEHR GitHub archetypes repository</h2>
-			<p>For first-time use of the ADL Workbench, you will need some archetypes. The standard location for test archetypes, as well as a snapshot copy of CKM is the <a href="https://github.com/openEHR/adl-archetypes" target="_blank">openEHR adl-archetypes Git repository</a>.</p>
-			<p>If you know how to use Git, make a clone of this repository in your openEHR work area, with the following command:</p>
-<pre>
+		<h2><a name="user-content-repository-and-library-configuration" class="anchor" href="#repository-and-library-configuration"></a>Repository and Library Configuration</h2>
 
-git clone https://github.com/openEHR/adl-archetypes.git
+		<p>The ADL Workbench uses a system of 'repositories' and 'libraries' to locate archetypes. A 'repository' is a physical file system location, e.g. a Git or SVN checkout area, and archetypes are found below this, in individual 'libraries'. The root point is identified with a special _repo.idx file, and each library root point contains a _repo_lib.idx file. These files only have to be written once in the repository, and effectively make the repositories self-describing.</p>
 
-</pre>
-			<p>Once you have these archetypes, either as a Git repository or else snapshot, you will see various logical groups of archetypes, under the following sub-directories:</p>
-			<ul>
-				<li>/ADL15-reference: ADL 1.5 validity testing archetypes; </li>
-				<li>/Reference/CKM_2013_12_09: snapshot of the contents of the openEHR CKM, with various validity-related fixes.</li>
-				<li>/Example/openEHR/ehr_extract_template: an ADL 1.5 template example based on the openEHR EHR Extract model.</li>
-				<li>/Example/openEHR/demographic_template: an ADL 1.5 template example based on the openEHR dempgraphic model.</li>
-				<li>/Example/openEHR/link_archeytpes: ADL 1.5 archetypes showing archetyping of the LINK type in the openEHR RM.</li>
-			</ul>
-			<p>Other directories will appear from time to time. <b>Each of these directories should be treated as a separate 'repository'</b> for the ADL Workbench configuration steps below.</p>
+		<p>The user now only has to specify the repository root points, for existing repositories, and the libraries will be read by the tool. This is made easier by additions to the workbench which allow it to use DVCS tools like Git and Subversion to clone, update and read repositories on the user's computer. Further, the URLs of 3 well-known Git repositories are known by the tool to enable easy initial installation.</p>
 
-			<h3>Not using Git?</h3>
-			<p>You can obtain a snapshot of this repository as a .zip file using <a href="https://github.com/openEHR/adl-archetypes/archive/master.zip">this link</a>.</p>
+		<p>When a user first installs this new version of the tool, the following screen is seen:</p>
 
-			<h2>The CIMI GitHub archetypes repository</h2>
-			<p>If you are interested in CIMI archetypes, using the CIMI reference model, you can find them at the <a href="https://github.com/opencimi/archetypes.git">CIMI archetypes Git repository</a>. The home page of this repository describes the contents.</p>
+		<p><img src="images/repositories_screen_1.png"></p>
 
-			<h3>Not using Git?</h3>
-			<p>You can obtain a snapshot of this repository as a .zip file using <a href="https://github.com/opencimi/archetypes/archive/master.zip">this link</a>.</p>
+		<p>The three rows correspond to 2 openEHR and one CIMI repositories. Any of these repositories can be 'installed' by hitting the install link, which will result in the following dialog:</p>
 
-			<h2>Other places to find archetypes</h2>
-			<p>The following locations also provide archetypes:</p>
-			<ul>
-				<li><a href="https://github.com/openEHR/CKM-mirror.git" target="_blank">openEHR CKM mirror</a> - auto-updated from <a href="http://www.openehr.org/ckm" target="_blank">openEHR CKM</a></li>
-				<li><a href="http://dcm.nehta.org.au/ckm" target="_blank">Australian National (Nehta) CKM</a></li>
-				<li><a href="https://www.clinicalmodels.org.uk/" target="_blank">UK CKM</a></li>
-				<li><a href="http://simickm.ru/" target="_blank">Moscow City CKM</a></li>
-				<li><a href="http://ukz.ezdrav.si/ckm/OKM_sl.html" target="_blank">Slovenian MoH CKM</a></li>
-			</ul>
-			 
-			<h3>Downloading the openEHR.org Clinical Knowledge Manager (CKM) contents via Git</h3>
-			<p>The openEHR.org CKM dumps its contents to <a href="https://github.com/openEHR/CKM-mirror.git">this Git repo</a> on every change. You can use the normal git commands to create a copy on your own machine.</p>
+		<p><img src="images/repositories_screen_install.png"></p>
 
-			<h3>Downloading directly from any Clinical Knowledge Manager (CKM) site</h3>
-			<p>You can obtain the latest snapshot of the contents of any CKM as follows:</p>
-			<ul>
-			  <li>Login to the repository at <a href="http://www.openehr.org/knowledge" target="_blank">http://www.openehr.org/knowledge</a>.</li>
-			  <li>Go to Archetypes &gt; Bulk Export and select all archetypes for download; save in any convenient location. For the purposes of this documentation, we will refer to the location as $CKM for each of these CKM downloads (i.e. you will probably have directores like .../openEHR_CKM, .../Nehta_CKM, etc).</li>
-			</ul>
+		<p>There are two possibilities here:</p>
 
-			<h2>Setting and changing repository profiles</h2>
-			<p>The Configure Repositories dialog can be used to add further profiles, remove profiles, and edit the details of a profile. The latter includes being able to rename a profile and/or change its paths. The first time you start the tool if you are a new user, you will be asked for a repository. The screen will look like this:<br/></p>
-			<p><a href="images/startup_repository.png"><img border="0" alt="Repository dialog at startup" src="images/tn_startup_repository.jpg" width="200" height="151"/> </a></p>
-			<p>The repository dialog is used to define the location of a repository of archetypes/templates. The 'profile' is a logical name for a 'reference' repository, and optionally, a 'work' repository.	You can create as many profiles as you like. The 'reference' repository is a directory usually containing archetypes from an external online repository, downloaded as above. These archetypes will be shown with blue icons. The optional 'work' repository is to indicate a directory under which you have archetypes/templates you are working on, which you want to keep separate. The latter can include specialisations of the archetypes found in the reference location. These archetypes will be shown with green icons.</p>
-			<p>The files in each repository area can be arranged in any manner and have any filenames. When the files are read by the AWB, they are classified under the class structure of the reference model on which each archetype is based, and identified based on the identifiers found within the file content.</p>
-			<p>Follow these steps to configure any of the above repisitory locations on your computer as a 'profile' in the AWB. We refer to any of these locations on your system as '$repo_dir' in the below steps.</p>
-			<ul>
-				<li>In the AWB, select Repository &gt; Set Repository</li>
-				<li>On the dialog, use the large '+' button to add a new profile called 'xxx'.</li>
-				<li>Set the Reference repository to $repo_dir, as described above.</li>
-				<li>Save the new profile.</li>
-			</ul>
-			<p>Repeat this for as many repositores as you want to load. This configuration can be revisited and modified at any time, including profile renaming.</p>
-			<p>Configuring a 'work repository' as is done as follows, using the example of the openEHR example archetypes mentioned above.</p>
-			<ul>
-				<li>In the AWB, select Repository &gt; Configure Repositories.</li>
-				<li>On the dialog, use the Add button to add a new profile called 'ADL 1.5 test' or similar. A sub-dialog will appear on which the paths can be edited</li>
-				<li>Set the Reference repository path to $knowledge2/archetypes/ADL_1.5_test.</li>
-				<li>Hit OK to save the new profile.</li>
-				<li>Repeat the above steps and create another new profile called 'openEHR examples' or similar, with the following paths:
-				<ul>
-					<li>Set the Reference Repository to $knowledge2/archetypes/openEHR_examples/demographic_template/Reference.</li>
-					<li>Set the Work Repository to $knowledge2/archetypes/openEHR_examples/demographic_template/Working.</li>
-				</ul>
-				</li>
-				<li>Save the new profile.</li>
-			</ul>
-			
+		<ul>
+		<li>choose an existing checkout of the repository, which you may already have;</li>
+		<li>create a new clone of the repository, in which case choose a parent directory.</li>
+		</ul>
+
+		<p>Doing either with the 'adl-archetypes' reference repository enables the archetype libraries to be read in and used. They are shown on the repository dialog as follows:</p>
+
+		<p><img src="images/repositories_screen_installed.png" width="860"></p>
+
+		<p>You can add a completely new repository as well, by using the 'Browse' button at the bottom of the dialog. If you choose a directory that is not already set up as an Archetype repository, the workbench will create the necessary control files for you, and save them. The result of doing this looks as follows:</p>
+
+		<p><img src="images/repositories_add_new.png" width="860"></p>
+
+		<p>Hitting the icon in the 'edit' column results in the text editor being launched, and you can edit the new repository meta-data, e.g.:</p>
+
+		<p><img src="images/repositories_add_new_edit.png" width="860"></p>
+
+		<p>When you save and quit the editor, you will see the new repository details updated in the main dialog:</p>
+
+		<p><img src="images/repositories_add_new_edited.png" width="860"></p>
+
+		<p>The next step in this add-new case is to define some libraries below the repository root point. All you are doing in fact is asking the tool to create _repo_lib.idx control files. You can do this in two ways:</p>
+
+		<ul>
+		<li>just create one control file at the root - 'add new library here' option, OR</li>
+		<li>create one or more control files at various points below the root - 'add new library' option.</li>
+		</ul>
+
+		<p>These options are available on right click on the new repository node:</p>
+
+		<p><img src="images/repositories_add_new_lib.png"></p>
+
+		<p>Choosing either of these will result in a library row being added to the repository dialog view:</p>
+
+		<p><img src="images/repositories_new_lib_added.png" width="860"></p>
+
+		<p>Once repositories and libraries have been set up as desired, the repository dialog can be dismissed, and the library selector can be used as in previous versions to select the desired repository. The effect of the repository setup activities causes just the repository root directories to be recorded in the .cfg file (you can see this via Tools &gt; Options &gt; Edit file).</p>
+
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
