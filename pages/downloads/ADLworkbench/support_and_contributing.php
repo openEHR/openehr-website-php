@@ -28,7 +28,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 				</li>
 				<li>Discuss it on the openehr-clinical mailing list (<a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe here</a>, <a href="http://www.openehr.org/mailarchives/openehr-clinical/">list archive</a>) </li>
 			</ul>
-			<p>If it is an ADL 1.5 test archetype, create a problem report on the <a href="http://www.openehr.org/issues/browse/AWBPR">Jira AWB PR tracker</a>, with component set to 'Test archetypes'.</p>
+			<p>If it is an ADL 2 test archetype, create a problem report on the <a href="http://www.openehr.org/issues/browse/AWBPR">Jira AWB PR tracker</a>, with component set to 'Test archetypes'.</p>
 			
 			<h3>...with this online documentation</h3>
 			<p>If your problem is that you can't find an answer to what you are looking for, please report this on the <a href="http://www.openehr.org/issues/browse/AWBPR">Jira AWB PR tracker</a>, with component set to 'Documentation'. If you really need an answer, don't be afraid to post on the openehr-technical mailing list (<a href="http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org">subscribe here</a>, <a href="http://www.openehr.org/mailarchives/openehr-technical/">list archive</a>).</p>
@@ -42,8 +42,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<h3>I can help with clinical / demographic archetypes</h3>
 			<p>If your interest is in building and/or reviewing the CKM archetypes, or you want to offer new archetypes to CKM, please either login to CKM and join existing discussions, and/or contact the CKM editors and/or start a discussion on the openehr-clinical mailing list (<a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe here</a>, <a href="http://www.openehr.org/mailarchives/openehr-clinical/">list archive</a>).</p>
 			
-			<h3>I want to help improving ADL / AOM 1.5</h3>
-			<p>The single most useful thing you can do is to help build up the test archetype repository. This is a subversion repository, located <a href="https://github.com/openEHR/adl-archetypes">here</a>. We need more archetypes to test more ADL 1.5 use cases. Most of the validity conditions have at least one or two archetypes,	but some conditions can be triggered by different kinds of archetypes. If you see you can post a message on the openehr-technical mailing list(<a href="http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org">subscribe here</a>, <a href="http://www.openehr.org/mailarchives/openehr-technical/">list archive</a>).</p>
+			<h3>I want to help improving ADL / AOM 2</h3>
+			<p>The single most useful thing you can do is to help build up the test archetype repository. This is a subversion repository, located <a href="https://github.com/openEHR/adl-archetypes">here</a>. We need more archetypes to test more ADL 2 use cases. Most of the validity conditions have at least one or two archetypes,	but some conditions can be triggered by different kinds of archetypes. If you see you can post a message on the openehr-technical mailing list(<a href="http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org">subscribe here</a>, <a href="http://www.openehr.org/mailarchives/openehr-technical/">list archive</a>).</p>
 			<p>Another useful thing you can do is to review the draft specifications. TBC</p>
 			
 			<h3>I can help improving the tool</h3>
