@@ -12,6 +12,7 @@
 				<li><a href="en13606" <?php if($pageOn == 'en13606.php'){?> class="active"<?php }?>>&nbsp; EN 13606</a></li>
 				<li><a href="support_and_contributing" <?php if($pageOn == 'support_and_contributing.php'){?> class="active"<?php }?>>&nbsp; Support and Contributing</a></li>
 				<li><a href="installation_notes" <?php if($pageOn == 'installation_notes.php'){?> class="active"<?php }?>>&nbsp; Installation Notes</a></li>
+				<li><a href="external_tools" <?php if($pageOn == 'external_tools.php'){?> class="active"<?php }?>>&nbsp; External Tools</a></li>
 				<li><a href="release_notes" <?php if($pageOn == 'release_notes.php'){?> class="active"<?php }?>>&nbsp; Release Notes</a></li>
 			</ul>
 			<br/>

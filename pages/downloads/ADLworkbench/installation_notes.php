@@ -18,7 +18,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 		  
 			<h2><a name="linux"></a>Linux installation</h2>
 			<p>The Linux version of ADL Workbench requires GTK+ 2.4.0 or above. You can check by typing this command: <em>pkg-config --modversion gtk+-2.0</em> The command should succeed and the version number of GTK+ should appear. If it is not 2.4.0 or above then you need to install GTK+ 2.4.0.</p>
-			<p>After downloading, create a directory, extract the contents of the archive, and run <em>adl_workbench</em>.</p>
+			<p>After downloading, create a directory, extract the contents of the archive, and run <em>adl_workbench</em>. This is normally done as follows:</p>
+<pre>
+	$ mkdir awb 						# create a directory if never done before
+	$ cd awb
+	$ tar xvjf ../archive_file_name		# extract the files
+</pre>
 				
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	

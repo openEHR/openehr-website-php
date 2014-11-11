@@ -18,20 +18,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<ul>
 				<li><em>Archetype Object Model / compiler</em>:
 					<ul>
-						<li>New flattener, with proper specialise-and-clone, numerous edge cases fixed.</li>
+						<li>New flattener, with specialise-and-clone, numerous edge cases fixed.</li>
 						<li>Improvements in specialised archetype validation</li>
 					</ul>
 				</li>
 				<li><em>Tool functionality</em>:
 					<ul>
-						<li>New method of specifying archetype repositories uses self-describing repository/library structure</li>
-						<li>Git / Github integration</li>
+						<li><a href="http://www.openehr.org/downloads/ADLworkbench/obtaining_archetypes">New method</a> of specifying archetype repositories uses self-describing repository/library structure</li>
+						<li><a href="http://www.openehr.org/downloads/ADLworkbench/obtaining_archetypes">Git / Github integration</a></li>
+						<li>One-click template creation</li>
 					</ul>
 				</li>
 				<li><em>Visualisation</em>:
 					<ul>
-						<li>One-click template creation</li>
 						<li>Lazy load template visualiser mode to handle very large template structures</li>
+						<li>Improved colour / font scheme in inheritance visualisation mode</li>
 					</ul>
 				</li>
 			</ul>

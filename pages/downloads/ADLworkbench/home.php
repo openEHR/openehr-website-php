@@ -84,22 +84,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (32-bit)</td>
-						<td> 2.0.5.2599</td>
-						<td> 28 Oct 2014</td>
+						<td> 2.0.5.2614</td>
+						<td> 06 Nov 2014</td>
 						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5-windows_32bit.exe">.exe installer</a></td>
 						<td><br/> </td>
 					</tr>
 					<tr>
 						<td> Mac OS X 10.9 (Mavericks)<br/></td>
-						<td> 2.0.5.2586</td>
-						<td> 23 Oct 2014</td>
+						<td> 2.0.5.2614</td>
+						<td> 06 Nov 2014</td>
 						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5-macosx_mavericks.dmg">.dmg installer</a></td>
 						<td> <a href="installation_notes#mac">here</a> <br/></td>
 					</tr>
 					<tr>
 						<td>Linux (32-bit Intel)<br/></td>
-						<td> 2.0.5.2599</td>
-						<td> 28 Oct 2014</td>
+						<td> 2.0.5.2614</td>
+						<td> 06 Nov 2014</td>
 						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5-linux_32bit.tar.bz2">.tar.bz2 archive</a></td>
 						<td> <a href="installation_notes#linux">here</a></td>
 					</tr>
