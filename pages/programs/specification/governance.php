@@ -111,7 +111,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>Co-chair positions last 2 years. Elections are held every 12 months at a fixed date, or earlier in the case of resignation. A vacating   co-chair may not re-nominate for a successive term but may re-nominate   after at least one 12 month period since the previous term served.</p>
 			
 			<h3><a name="componentmaintainergroup"></a>Component Maintainer Group</h3>
-			<p>Most Program members are members of one or more component maintainer groups (CMGs),  where each <a href="/wiki/display/oecom/Specification+Progam+-+Deliverables" title="Specification Progam - Deliverables" target="_blank">component</a> has such a group.</p>
+			<p>Most Program members are members of one or more component maintainer groups (CMGs),  where each <a href="/programs/specification/releases/currentbaseline" title="Specification Progam - Deliverables" target="_blank">component</a> has such a group.</p>
 			
 			<h4><a name="cmgresponsibilities"></a>Responsibilities</h4>
 			<p>The responsibilities of a CMG are:</p>
