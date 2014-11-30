@@ -16,11 +16,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<p>In order to work with the examples described below, the following configuration is advised. Experienced users may skip this step.</p>
 			
 			<a name="rmschemaconfiguration"></a><h3>RM Schema configuration</h3>
-			<p>Reference Model (RM) Schemas are used by the ADL Workbench to validate archetypes and templates. Schemas are expressed as dADL files and have a '.bmm' (basic meta-model) extension. The currently available RM schemas can be found <a href="https://github.com/openEHR/reference-models" target="_blank">here</a>. These schemas are defined in a nested way, with most files visible here being used as component schemas for a small number of top-level schemas representing the openEHR Reference Model, EN13606 model and so on.</p>
-			<p>You will need to have all the relevant RM schemas selected for the repository libraries described above to work. Assuming you have followed the above instructions, you do this as follows:</p>
+			<p>Reference Model (RM) Schemas are used by the ADL Workbench to validate archetypes and templates. Schemas are expressed as ODIN (was 'dADL') files and have a '.bmm' (basic meta-model) extension. These schemas are defined in a nested way, with most files visible here being used as component schemas for a small number of top-level schemas representing the openEHR Reference Model, EN13606 model and so on. The ADL Workbench comes with schemas for various reference models bundled.</p>
+			<p>If you want access to RM schemas not yet bundled with the workbench, they can be found <a href="https://github.com/openEHR/reference-models" target="_blank">here</a>. Clone this repository in the normal way, and use the RM Schemas dialog to point to this location instead of the bundled schemas location.</p>
+			<p>Whether using the bundled or Github repository schemas, you will need to have all the relevant RM schemas selected within the workbench, for your archetypes to work. This is done as follows:</p>
 			<ul>
 				<li>Select the RM Schemas menu &gt; Configure Schemas...</li>
-				<li>Ensure that the openehr, adltest, and en13606 (if relevant) schemas are checked, as shown <a href="images/options_rm_schema_config.png">here</a>.</li>
+				<li>Ensure that the schemas you require are checked, as shown <a href="images/options_rm_schema_config.png">here</a>.</li>
 				<li>Save the configuration.</li>
 			</ul>
 			<p>You can use <a href="images/profile_combo.png">the profile combo selector above the archetype explorer</a> to switch between the libraries. The remaining sections below describe how to see the ADL/AOM 2 changes using the archetypes you have configured above.</p>
@@ -32,8 +33,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<h3>Location on various Platforms</h3>
 			<p>Options for the ADL workbench, and also the command line tool adlc are located in a .cfg file named after the particular tool e.g. adl_workbench.cfg, adlc.cfg. This file will be in the standard application configuration area for your operating system. For adl_workbench for example, it will be in a location like the following:</p>
 			<ul>
-				<li><em>Windows XP / Vista</em>: C:\Documents and Settings\%username%\AppData\Local\openEHR\adl_workbench\adl_workbench.cfg</li>
-				<li><em>Windows 7</em>: C:\Users\%username%\AppData\Local\openEHR\adl_workbench\adl_workbench.cfg</li>
+				<li><em>Windows XP / Vista</em>: <br/>C:\Documents and Settings\%username%\AppData\Local\openEHR\adl_workbench\adl_workbench.cfg</li>
+				<li><em>Windows 7 / 8</em>: C:\Users\%username%\AppData\Local\openEHR\adl_workbench\adl_workbench.cfg</li>
 				<li><em>Mac OSX</em>: $HOME/openEHR/adl_workbench/adl_workbench.cfg</li>
 				<li><em>Linux:</em> $HOME/openEHR/adl_workbench/adl_workbench.cfg</li>
 			</ul>

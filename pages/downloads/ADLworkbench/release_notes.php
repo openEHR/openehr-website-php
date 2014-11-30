@@ -14,12 +14,25 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			
 			<h2>Release History</h2>
 			
-			<h3>30 October 2015 ADL 2</h3>
+			<h3>25 November 2014 - ADL 2.0.5 (<a href="https://github.com/openEHR/adl-tools/tree/adl_2.0.5">Github tag adl_2.0.5</a>) 
+				(Jira - <a href="http://www.openehr.org/issues/issues/?jql=project%20%3D%20AWB%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">new features</a>; <a href="http://www.openehr.org/issues/issues/?jql=project%20%3D%20AWBPR%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">issues fixed</a>)</h3>
 			<ul>
 				<li><em>Archetype Object Model / compiler</em>:
 					<ul>
 						<li>New flattener, with specialise-and-clone, numerous edge cases fixed.</li>
 						<li>Improvements in specialised archetype validation</li>
+						<li>New meta-data items now supported:
+							<ul>
+								<li>rm_release=n.m.p - top-level meta-data</li>
+								<li>original_publisher: String - name of original publishing organisation</li>
+								<li>original_namespace: String - namespace of original publishing organisation</li>
+								<li>custodian_organisations: String - name of the current custodian organisation</li>
+								<li>custodian_namespace: String - namespace of current custodian organisation</li>
+								<li>licence: String - short text and URL pointing to licence under which this artefact is available</li>
+								<li>ip_acknowledgements: Map&lt;String, String&gt; - keyed list of 3rd party IP acknowledgements, each consisting of a single word key, and a short text and URL pointing to the online text describing how the IP available for this artefact.</li>
+								<li>conversion_details: Map&lt;String, String&gt; - keyed list of values indicating details of conversion from an external artefact, where applicable.</li>
+							</ul>
+						</li>
 					</ul>
 				</li>
 				<li><em>Tool functionality</em>:
@@ -33,6 +46,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 					<ul>
 						<li>Lazy load template visualiser mode to handle very large template structures</li>
 						<li>Improved colour / font scheme in inheritance visualisation mode</li>
+						<li>New Description / Governance sub-tab containing most of the above-mentioned meta-data.</li>
+						<li>New Clients/Suppliers top-level tab showing client (user) archetypes containing use_archetype references to the current archetype, and supplier archetypes, i.e. archetypes for which the current archetype has a use_archetype reference.</li>
 					</ul>
 				</li>
 			</ul>
