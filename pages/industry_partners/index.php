@@ -51,6 +51,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<a href="/industry_partners/marand">Learn more</a></td>
 			</tr>
 			<tr>
+				<td><a href="/industry_partners/nousco"><img src="/files/industry_partners/nousco_logo.png"></a></td>
+				<td><h2>Nousco</h2>
+				<p>Nousco is a Healthcare software vendor in South Korea. Nousco is developing an openEHR-based Health Information System with EHR, health information (HI) standards-based EHR Platform & PHR solutions. openEHR & HI standards-based EHR platform is the first innovative work of its kind in South Korea. In 2015, Nousco will launch products internationally.</p>
+				<a href="/industry_partners/nousco">Learn more</a></td>
+			</tr>
+			<tr>
 				<td><a href="/industry_partners/ocean_informatics"><img src="/files/industry_partners/ocean_logo.png"></a></td>
 				<td><h2>Ocean Informatics</h2>
 				<p>Ocean Informatics is a recognised leader in e-health strategy, semantic interoperability and the shared EHR. Founded in 1998, Ocean Informatics is a unique company, comprising an experienced engineering team with strong clinical expertise. Collectively the Ocean team has over 100 man-years of health informatics experience. Ocean's vision is fully integrated and highly computable health data organised around the patient care process, served from high-availability infrastructure to point of care, reporting and analytics applications.</p>

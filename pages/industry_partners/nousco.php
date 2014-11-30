@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<a href="http://nousco.com/" target="_blank"><img src="/files/industry_partners/nousco_ci.png" class="IndustryLogoImg"></a>
+			<a href="http://nousco.com/" target="_blank"><img src="/files/industry_partners/nousco_logo.png" class="IndustryLogoImg"></a>
 			
 			<p><em>Headquarters:</em> South Korea</p>
 			<p><em>Branches:</em> Seoul, South Korea</p>
@@ -46,7 +46,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 			
 			<h2>Customers</h2>
-			<p>Nousco's customers are general Hospitals, PHD(Personal Health Device) manufacturers, patients using PHR service, and researchers in healthcare field.</p>
+			<p>Nousco's customers are general Hospitals, PHD (Personal Health Device) manufacturers, patients using PHR service, and researchers in healthcare field.</p>
 		
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
