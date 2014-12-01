@@ -150,10 +150,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</tr>
 			<tr>
 				<td><a href="http://www.mz.gov.si">Ministry of Health, Slovenia</a><br/>The Slovenian Ministry of Health is responsible for the majority of all healthcare delivery institutions in the country.</td>
-				<td>National health information exchange network enabling sharing of clinical information among all healthcare stakeholders. Once completed, it will serve as the interoperability backbone providing 
+				<td>National health information exchange network enabling sharing of clinical information among all healthcare stakeholders. Provides the interoperability backbone providing 
 				services to eHealth applications such as eReferral, ePrescription as well as national health registries. Based on established industry standards including <a href = "http://www.ihe.net">IHE</a> and <a href = "http://www.openEHR.org">openEHR</a>.</td>
 				<td>Consoritum led by <a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
-				<td>Contracted Sep 2012; initial deployment Q2 2013</td>
+				<td>Contracted Sep 2012; deployed Q2 2013</td>
 			</tr>
 			<tr>
 				<td><img src="/files/who_is_using_openehr/uk_S.gif" alt="Flag of United Kingdom" title="Flag of United Kingdom" style="width:80px;"><p>UK</p></td>
