@@ -144,9 +144,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<tr style="background-color:#FFFFCC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"></td>
 				<td class="TableMainC"> Templating </td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/java-libs/tree/master/oet-parser/src/main/xsd">OET XSD</a>  </td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/java-libs/tree/master/oet-parser/src/main/xsd">OET XSD</a> <br class="atl-forced-newline" /><a href="https://github.com/openEHR/java-libs/tree/master/oet-parser">Java OET parser</a> </td>
 				<td class="TableMainC"> Simple XML format for templates.</td>
-				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="https://github.com/openEHR/java-libs/tree/master/oet-parser">Java OET parser</a></td>
+				<td class="TableMainC"> trial </td>
 			</tr>
 
 			<tr style="background-color:#FFFCDC;">
@@ -223,9 +223,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			<tr>
 				<td class="TableMainC"> <a name="Syntaxes"><em>Syntaxes</em></a> </td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/syntaxes/ODIN.pdf" target="_blank">Object Data Instance Notation (ODIN)</a> </td>
-				<td class="TableMainC"> </td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/odin">GitHub tooling project</a></td>
 				<td class="TableMainC"> Human-readable and computable object serialisation syntax, used in archetypes, BMM schemas, app config files...</td>
-				<td class="TableMainC"> stable; <a href="https://github.com/openEHR/odin">GitHub tooling project</a></td>
+				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
 				<td colspan=5 align="center"> <b>Conformance</b> </td>

@@ -19,7 +19,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<ul>
 					<li><a href="#editorialcommittee">Editorial Committee</a></li>
 					<li><a href="#componentmaintainergroup">Component Maintainer Group</a></li>
-					<li><a href="#standardsadvisorygroup">Standards Advisory Group</a></li>
 					<li><a href="#size">Size</a></li>
 					<li><a href="#fairness">Fairness</a></li>
 				</ul>
@@ -31,11 +30,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<li><a href="#lengthofmembership">Length of Membership</a></li>
 					<li><a href="#resignation">Resignation</a></li>
 					<li><a href="#termination">Termination</a></li>
-				</ul>
-				<li><a href="#communications">Communications</a></li>
-				<ul>
-					<li><a href="#otherprograms">With other Programs</a></li>
-					<li><a href="#openehrcommunity">With the wider openEHR Community</a></li>
 				</ul>
 				<li><a href="#meetings">Meetings</a></li>
 				<li><a href="#professionalconduct">Professional Conduct</a></li>
@@ -49,8 +43,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			
 			<h2><a name="programstructure"></a>Program Structure</h2>
-			<p>The Specification Program consists of an Editorial Committee (EC), and two kinds of Groups - Component Maintainer Groups (CMGs), and Standards Advisory Groups (SAGs). CMGs are classified as 'core' and 'implementation-related'. The Editorial Committee membership consists of 1 representative from each CMG and has up to 3 co-chairs.</p>
-			<p>The following chart illustrates the structure. Initial membership of the Program starts with membership of a CMG and/or SAG.</p>
+			<p>The Specification Program consists of an Editorial Committee (EC), and Component Maintainer Groups (CMGs). The Editorial Committee membership consists of 1 representative from each CMG and has up to 3 co-chairs.</p>
+			<p>The following chart illustrates the structure. Initial membership of the Program starts with membership of a CMG.</p>
 			<p style="text-align:center;"><img src="/files/programs/specification/SpecProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
 
 			<h3><a name="editorialcommittee"></a>Editorial Committee</h3>
@@ -60,31 +54,33 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>The responsibilities of the Editorial Committee are:</p>
 			<ul>
 				<li>maintaining the Roadmap:
-				<ul>
-					<li>the identification & creation of new specifications;</li>
-					<li>the definition of new releases;</li>
-					<li>the prioritisation of CRs,</li>
-					<li>the assignment of CRs to future releases;</li>
-				</ul>		
+					<ul>
+						<li>the identification &amp; creation of new specifications;</li>
+						<li>the definition of new releases;</li>
+						<li>the prioritisation of CRs,</li>
+						<li>the assignment of CRs to future releases;</li>
+					</ul>		
 				</li>
 				<li>PR/CR processing:
-				<ul>
-					<li>the review of PRs;</li>
-					<li>the raising of CRs either in response to PRs or de novo, according to perceived need;</li>
-					<li>promotion of specifications through lifecycle states;</li>
-				</ul>
+					<ul>
+						<li>the review of PRs;</li>
+						<li>the raising of CRs either in response to PRs or de novo, according to perceived need;</li>
+						<li>promotion of specifications through lifecycle states;</li>
+					</ul>
 				</li>
 				<li>communication to the wider openEHR community of:
-				<ul>
-					<li>roadmap changes;</li>
-					<li>CR reviews;</li>
-					<li>completed CRs;</li>
-					<li>new Releases.</li>
-				</ul>
+					<ul>
+						<li>roadmap changes;</li>
+						<li>CR reviews;</li>
+						<li>completed CRs;</li>
+						<li>new Releases;</li>
+						<li>changes to governance documents;</li>
+						<li>changes to Editorial Committee and CMG membership.</li>
+					</ul>
 				</li>
 				<li>publishing of the specifications and other materials.</li>
 			</ul>
-			<p>In addition, the openEHR Operational Group may advise of requirements for releases and prioritisation of work.</p>
+			<p>In addition, the openEHR Management Board may advise of requirements for releases and prioritisation of work.</p>
 			<p>The responsibilities of the co-chairs are as follows:</p>
 			<ul>
 				<li>to run EC meetings;</li>
@@ -101,12 +97,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<li>The results of the community review will be the basis of a further round of discussions within the EC aimed at finding a consensus decsion;</li>
 				<li>If this still fails, a formal 2/3 majority  vote will be taken, unless objections to this route are voiced from within the EC.</li>
 			</ul>
-			<p>Where there is any outstanding dispute, it can be by the EC co-hairs to referred to the openEHR  Operational Group for resolution. This may require an extraordinary meeting / conference.</p>
+			<p>Where there is any outstanding dispute, it can be by the EC co-hairs to referred to the openEHR  Management Board for resolution. This may require an extraordinary meeting / conference.</p>
 			
 			<h4><a name="ecmembership"></a>Membership</h4>
-			<p>The EC membership consists of one representative from each CMG and each SAG. Each CMG and SAG must have a <em>distinct</em> representative on the EC, in order to ensure that a dedicated person  takes responsibility for representing the relevant interests.</p>
+			<p>The EC membership consists of one representative from each CMG. Each CMG must have a <em>distinct</em> representative on the EC, in order to ensure that a dedicated person  takes responsibility for representing the relevant interests.</p>
 			<p>Up to three, and preferably at least two, EC members are elected as <em>co-chairs</em> by the Program membership.</p>
-			<p>Membership  of the Editorial Committee is for 2 years. New members come from nominations among the Program membership. At least one candidate is required from each CMG and SAG. Candidates are elected to the EC by the whole Program membership voting for each CMG / SAG position on the EC from among the candidates for that position.</p>
+			<p>Membership  of the Editorial Committee is for 2 years. New members come from nominations among the Program membership. At least one candidate is required from each CMG. Candidates are elected to the EC by the whole Program membership voting for each CMG position on the EC from among the candidates for that position.</p>
 			<p>Elections are held every 12 months, at a fixed  date, or earlier in the case of resignation. At election time,  the  positions of all EC members who have spent 2 years in the position  come  up for re-election by the whole Program membership. Members who are not co-chairs may re-nominate directly for EC membership.</p>
 			<p>Co-chair positions last 2 years. Elections are held every 12 months at a fixed date, or earlier in the case of resignation. A vacating   co-chair may not re-nominate for a successive term but may re-nominate   after at least one 12 month period since the previous term served.</p>
 			
@@ -116,96 +112,44 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h4><a name="cmgresponsibilities"></a>Responsibilities</h4>
 			<p>The responsibilities of a CMG are:</p>
 			<ul>
-				<li>to perform the execution of changes  in CRs accepted by the Editorial Committee for that component, either directly, or by obtaining external expertise where agreed with the  Editorial Committee;</li>
-				<li><font color="#ff0000">(any external communications needed?)</font></li>
+				<li>to perform the execution of changes  in CRs accepted by the Editorial Committee for that component, either directly, or by obtaining external expertise as required;</li>
+				<li>to maintain the relevant issue trackers so as to reflect the current status of all work;</li>
+				<li>to provide notifications to the community of all releases.</li>
 			</ul>
 
 			<h4><a name="cmgmembership"></a>Membership</h4>
-			<p>A Program member can be in one or more CMGs, according to breadth of expertise. Each core CMG requires a minimum of 3 members. Non-core CMGs must have at least 1 member.</p>
+			<p>A Program member can be in one or more CMGs, according to breadth of expertise. Each CMG requires a minimum of 1 member.</p>
 			<p>Each member must be sufficiently technically qualified to understand  the relevant specifications / artefacts, and be able to participate  actively in the processing of changes to the artefacts in that  component.</p>
 			<p>The membership of each CMG is recorded online at the <a href="http://www.openehr.org/issues/browse/SPEC" target="_blank">SPEC tracker location</a> .</p>
 			<p>There is no limit on the duration of CMG membership, as long as the   participation and competence are maintained, and the Program Fairness Rules are not broken.</p>
 			
 			<h4><a name="cmgcreation"></a>Creation</h4>
-			<p>A new core CMG is created by the EC, based on the requirement for a new specification component. It must be created with at least 3 members.</p>
-			<p>A new non-core CMG is created based on a successful proposal by any Program member to the EC, which details:</p>
+			<p>A new CMG is created by the EC by majority vote, based on the requirement for a new specification component. The proposed new CMG must be documented with:</p>
 			<ul>
-				<li>the purpose of the CMG;</li>
-				<li>the relevance to openEHR and the wider community;</li>
-				<li>the initial membership (at least one member must be proposed).</li>
+				<li>description of purpose;</li>
+				<li>relevance to openEHR and the wider community;</li>
+				<li>initial membership (at least one member must be proposed).</li>
 			</ul>
-			
-			<h3><a name="standardsadvisorygroup"></a>Standards Advisory Groups</h3>
-			<p>In addition to the EC and CMGs, there are Standards Advisory Groups (SAGs) for interfacing with <em>de jure</em> standards development organisations (SDOs). The SAGs exist to address the existing gaps between SDO offerings (and those of non-SDOs like  openEHR), which are a critical problem that needs to be resolved for major  stakeholders, such as national e-health programmes and major vendors,  because it prevents the individual offerings, no matter how good, from  being easily adopted.</p>
-			<p>Each SAG is constituted for a particular standard or group of related  standards managed by an official standards organisation, e.g. ISO 13606,  SNOMED CT, etc.</p>
-
-			<h4><a name="sagresponsibilities"></a>Responsibilities</h4>
-			<p>The responsibilities of a SAG are as follows:</p>
-			<ul>
-				<li>To <em>track the relevant standard</em> and to advise if there are features that might affect openEHR specifications, e.g. should be incorporated, should be aligned to, or might require transformational tools;</li>
-				<li>To <em>offer relevant openEHR specifications</em> to the standards body, either as input to standards development, or as a formal standards proposal. (Finalising such a proposal would be an openEHR board decision and generally would involve an organisation - organisation MOU and legal advice);</li>
-				<li>To work on <em>diminishing, removing and bridging the philosophical and engineering differences</em> between specifications of openEHR and other SDOs. Practical efforts here may include:&nbsp;
-				<ul>
-					<li>aligning jargon in documentation and other published material;</li>
-					<li>making sure that openEHR specifications have a defined relationship to extant SDO standards;</li>
-					<li>providing educational materials;</li>
-					<li>proposing specifications that support data conversion,</li>
-					<li>proposing specifications that support software interoperation and other integration approaches.</li>
-				</ul>
-				</li>
-				<li>To act as the <em>openEHR official liaison</em> to the relevant SDO of subgroup thereof.</li>
-			</ul>
-
-			<h4><a name="sagmembership"></a>Membership</h4>
-			<p>Each Standards Advisory Group includes members from the Specification Program who are knowledgeable about the standard and/or are directly involved in the relevant organisation's work. Each SAP elects one member as the representative to the EC. The Standards Advisory Groups do not create openEHR specifications, rather they create formal proposals for a) change to openEHR specifications - ultimately resulting in CRs and b) the target SDOs.</p>
-			<p>The membership of each SAG is recorded online at the <a href="http://www.openehr.org/issues/browse/SPEC">SPEC tracker location</a>.</p>
-
-			<h4><a name="sagcreation"></a>Creation</h4>
-			<p>A new SAG is created based on a successful proposal by any Program member to the EC, which details:</p>
-			<ul>
-				<li>what particular SDO or SDO standards are proposed as the basis for the SAG;</li>
-				<li>the relevance to openEHR and the wider community;</li>
-				<li>how the SAG responsibilities will be performed</li>
-				<li>the initial membership (at least one member must be proposed).</li>
-			</ul>
-
-			<h3><a name="size"></a>Size</h3>
-			<p>There is no maximum number of members of the Program. In the future it may well be possible that with say 8 core CMGs, 4 non-core CMGs and 4 SAGs, the membership could be as high as 50. The minimum number of members is that required to satisfy the 3 member-per-Component Maintainer Group rule (below). Since a Program member can be a member of more than one maintainer group, the actual total membership is variable.</p>
-
-			<h3><a name="fairness"></a>Fairness</h3>
-			<p>To ensure fairness and representativeness of the Program, the following rules are provided.</p>
-			<ul>
-				<li>Core CMGs must have at least 3 members.</li>
-				<li>The EC must have one representative from each core CMG.</li>
-				<li>The EC must have at least 2 co-chairs.</li>
-				<li>The EC can have no more than two members from a single organisation, i.e.   company, university, government agency, NGO or other enterprise.</li>
-			</ul>
-			<p>If any of the above rules is broken by resignation, change of  employer or other events, the appropriate election or other action will  be taken.</p>
-			
 			
 			<h2><a name="groupmembership"></a>Group Membership</h2>
-			<p>This section describes the conditions for membership in CMGs and SAGs.</p>
+			<p>This section describes the conditions for membership in CMGs.</p>
 
 			<h3><a name="qualifyingcriteria"></a>Qualifying Criteria</h3>
-			<p>New members of the Specifications Program join as a member of one or more CMGs and/or SAGs. New nominations may be made in the following situations:</p>
+			<p>New members of the Specifications Program join as a member of one or more CMGs. New nominations may be made in the following situations:</p>
 			<ul>
 				<li>The Specification Program advertises within the community for a new member, e.g. due to a resignation, or need for more human resource;</li>
-				<li>Positions being available within the CMGs and SAGs, due to the CMG/SAG being too small (1 or 2 members), or the CMG/SAG requesting more members.</li>
+				<li>Positions being available within the CMGs, due to the CMG being too small (1 or 2 members), or the CMG requesting more members.</li>
 			</ul>
-			<p>Note that the membership status of the CMGs and SAGs will be posted at all times, including vacancies / requests for participation.</p>
-			<p>A prospective new Specification Program candidate self-nominates as a member of one or more CMGs and/or SAGs. The nomination requires the support of two existing Program members. The candidate must satisfy the following criteria.</p>
+			<p>Note that the membership status of the CMGs will be posted at all times, including vacancies / requests for participation.</p>
+			<p>A prospective new Specification Program candidate self-nominates as a member of one or more CMGs. The nomination requires the support of two existing Program members. The candidate must satisfy the following criteria.</p>
 
 			<h4><a name="qualification"></a>Qualifications</h4>
 			<ul>
 				<li>An understanding of the overall openEHR mission.</li>
 				<li><em>Health informatics background</em>: a demonstrable knowledge of key health informatics issues such as EHR, interoperability, terminology, clinical environments, public health, medical research.</li>
-				<li><em>Technical competency</em>: a knowledge of the modelling / language formalisms relevant to the proposed CMGs and/or SAGs.</li>
+				<li><em>Technical competency</em>: a knowledge of the modelling / language formalisms relevant to the proposed CMGs.</li>
 				<li><em>openEHR experience</em>: at least 1 year of active participation in the openEHR community and
-				<ul>
-					<li>for CMGs: at least 1 year direct involvement in an openEHR implementation;</li>
-					<li>for SAGs: at least 1 year involvement in a <em>de jure</em> standards body.</li>
-				</ul>
-				</li>
+				<li>for CMGs: at least 1 year direct involvement in an openEHR implementation.</li>
 			</ul>
 			
 			<h4><a name="commitment"></a>Commitment</h4>
@@ -223,7 +167,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h3><a name="candidature"></a>Candidature</h3>
 			<p>The candidate should supply a CV and other qualifying information  describing:</p>
 			<ul>
-				<li>which CMGs and/or SAGs the candidate proposes to work on (at least one);</li>
+				<li>which CMGs the candidate proposes to work on (at least one);</li>
 				<li>statement of interest in working on the Specification Program;</li>
 				<li>statement of commitment of time &amp; availability;</li>
 				<li>statement of qualifications, according to the above list;</li>
@@ -250,7 +194,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h3><a name="resignation"></a>Resignation</h3>
 			<p>An existing Program member may resign at any time from the EC, and additionally from all involvement. In either case, the fact and effective date of resignation will be published, and the published Program membership updated accordingly.</p>
 			<p>If the resignation is of an EC co-chair, nominations for a new co-chair are called for, and the EC rules for co-chair election described above followed.</p>
-			<p>If the resignation is of any EC member, another member of the resignee's CMG or SAG are invited to fill the position on the EC.</p>
+			<p>If the resignation is of any EC member, another member of the resignee's CMG are invited to fill the position on the EC.</p>
 			<p>If the  departure leaves a CMG (see below) with less than 3 members then a new  volunteer for the relevant component is sought initially from within the Program . If none is found, a new nomination is sought from the general membership.</p>
 
 			<h3><a name="termination"></a>Termination</h3>
@@ -258,31 +202,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>Where termination leaves a vacancy, the same rules as for resignations are followed.</p>
 
 			
-			<h2><a name="communications"></a>Communications</h2>
-			
-			<h3><a name="otherprograms"></a>With other Programs</h3>
-			<p>The Specification Program needs to maintain communications with the other openEHR Programs on a fairly constant basis. Necessary communications include:</p>
-			<ul>
-				<li>Clinical Models Program: TBD</li>
-				<li>Software Program: TBD</li>
-				<li>Localisation Program: TBD</li>
-			</ul>
-			<p><font color="#ff0000">Do we need official liaisons? How should other Programs be represented on the Spec Program (they need to be, since specifications affect everyone)?</font></p>
-
-			<h3><a name="openehrcommunity"></a>With the wider openEHR Community</h3>
-			<p>In order to keep the openEHR community at large informed about events in the Specification Program, regular and visible communications is needed. These include the following:</p>
-			<ul>
-				<li>All governance documents are posted on the openEHR web.</li>
-				<li>The current membership of the Program, including Editorial Committee, CMGs and SAGs is posted and maintained on a wiki page.</li>
-				<li>The current roadmap of future releases and proposed Change Requests is posted in a visible place.</li>
-				<li>A way of clearly communicating completed Change Requests and new releases of openEHR is available.</li>
-			</ul>
-
-			
 			<h2><a name="meetings"></a>Meetings</h2>
 			<p>At least one face to face meeting, open to the Program membership is required per year. Ideally elections would be held at this meeting.</p>
 			<p>Online meetings of the Editorial Committee are held by teleconference at least once a quarter, in order to discuss pending PRs and CRs.</p>
-
 			
 			<h2><a name="professionalconduct"></a>Professional Conduct</h2>
 			<p>In order for the SpecP development and decision-making processes to occur efficiently, and to provide an enjoyable experience for participants, contributions should follow the following guidelines:</p>
@@ -296,7 +218,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h2><a name="tor"></a>Evolution of these Terms of Reference</h2>
 			<p>The governance structures and procedures described above will inevitably need to change over time. The process for proposing and executing changes is as follows:</p>
 			<ul>
-				<li>A change can be proposed by anyone within the Program, or by the openEHR board. This request should include a statement of the problem being experienced with the current governance.</li>
+				<li>A change can be proposed by anyone within the Program, or by the Management board. This request should include a statement of the problem being experienced with the current governance.</li>
 				<li>The EC co-chairs undertake to refine the request into a specific change in the rules that addresses the problem.</li>
 				<li>This is then published within the EC for review for a stated period, e.g. 4 weeks.</li>
 				<li>Further refinement may be carried out on the back of the review.</li>
@@ -308,7 +230,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h2><a name="faq"></a>Frequently Asked Questions</h2>
 			
 			<h3>What stops one company / organisation having undue influence?</h3>
-			<p>Any number of people from a given organisation can participate in the Specification Program. However, two rules are designed to ensure that no single organisation can have an inappropriate influence. The first is that no organisation can have a majority of the members on any given CMG or SAG; the second is that no more than 2 members from a single organisation can work on the EC simultaneously.</p>
+			<p>Any number of people from a given organisation can participate in the Specification Program. However, two rules are designed to ensure that no single organisation can have an inappropriate influence. The first is that no organisation can have a majority of the members on any given CMG; the second is that no more than 2 members from a single organisation can work on the EC simultaneously.</p>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
