@@ -53,7 +53,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<tr>
 				<td><a href="/industry_partners/nousco"><img src="/files/industry_partners/nousco_logo.png"></a></td>
 				<td><h2>Nousco</h2>
-				<p>Nousco is a Healthcare software vendor in South Korea. Nousco is developing an openEHR-based Health Information System with EHR, health information (HI) standards-based EHR Platform & PHR solutions. openEHR & HI standards-based EHR platform is the first innovative work of its kind in South Korea. In 2015, Nousco will launch products internationally.</p>
+				<p>Nousco is a Healthcare software vendor in South Korea. Nousco is developing an openEHR-based Hospital Information System with EHR, health information (HI) standards-based EHR Platform & PHR solutions. openEHR & HI standards-based EHR platform is the first innovative work of its kind in South Korea. In 2015, Nousco will launch products internationally.</p>
 				<a href="/industry_partners/nousco">Learn more</a></td>
 			</tr>
 			<tr>

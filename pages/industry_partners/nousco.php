@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>Healthcare technology:</p>
 			<ul>
 				<li>EHR Platform (based on openEHR & HI standards)</li>
-				<li>HIS (Health Information System) incorporating openEHR-based EHR</li>
+				<li>HIS (Hospital Information System) incorporating openEHR-based EHR</li>
 				<li>PHR service with EHR platform</li>
 				<li>Health information Exchange</li>
 				<li>Services of hospital logistics</li>
