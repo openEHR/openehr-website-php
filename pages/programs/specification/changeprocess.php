@@ -8,14 +8,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p class="content1"><a href="#introduction">Introduction</a></p>
-				<p class="content2"><a href="#status">Status</a></p>
-				<p class="content2"><a href="#changelog">Change Log</a></p>
-				<p class="content2"><a href="#aknowledgements">Aknowledgements</a></p>
 			<p class="content1"><a href="#lifecycle">Specification Lifecycle</a></p>
 				<p class="content2"><a href="#promotion">Promotion of Specifications</a></p>
 			<p class="content1"><a href="#changemanagement">Change Management</a></p>
@@ -27,54 +23,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<p class="content2"><a href="#changes">Changes to Existing Trial and Stable Specofocations</a></p>
 			<p class="content1"><a href="#faq">Frequently Asled Questions</a></p>
 				
-				
 			<h2><a name="introduction"></a>Introduction</h2>
-			<p>This document describes the Change Management Plan of the openEHR Specification Program.</p>
-
-			<h3><a name="status"></a>Status</h3>
-			<p>This document is currently in pre-version 1.0 development.</p>
-
-			<h3><a name="changelog"></a>Change Log</h3>
-			
-			<table class='TableMain'>
-			<tbody>
-			<tr>
-				<th class='TableMainT'> Version <br class="atl-forced-newline" /> </th>
-				<th class='TableMainT'> Change description <br class="atl-forced-newline" /> </th>
-				<th class='TableMainT'> Who <br class="atl-forced-newline" /> </th>
-				<th class='TableMainT'> Completed <br class="atl-forced-newline" /> </th>
-			</tr>
-			<tr>
-				<td class='TableMainC'> 0.6<br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> Changes due to review by Koray Atalag, NZ: added content to 'New Specifications' section, including 'localisation'. <br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> T Beale<br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> 28 Apr 2012<br class="atl-forced-newline" /> </td>
-			</tr>
-			<tr>
-				<td class='TableMainC'> 0.5 <br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> Initial development <br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> T Beale <br class="atl-forced-newline" /> </td>
-				<td class='TableMainC'> 01 Apr 2012 <br class="atl-forced-newline" /> </td>
-			</tr>
-			</tbody>
-			</table>
-
-			<h3><a name="aknowledgements"></a>Acknowledgements</h3>
-			<p class="par">This document has benefited from review by the following people.</p>
-			<ul>
-				<li><em>Koray Atalag</em>, university of Auckland, New Zealand</li>
-			</ul>
-
+			<p>This document describes the Change Management Plan of the openEHR Specification Program. Specifications are divided into major Components (identified in the 'Component' column of the <a href="/programs/specification/releases/currentbaseline">current baseline</a>). They are managed by the <a href="/programs/specification/governance">Specifications Editorial Committee (SEC)</a>, according to the process described here. All change and release management is <a href="https://openehr.atlassian.net/browse/SPEC">visible online</a>.</p>
 
 			<h2><a name="lifecycle"></a>Specification Lifecycle</h2>
-			<p>All specification artefacts, both documentary and computable follow a lifecycle, from inception (or accession, in the case of donated works) to stability to obsolescence. The following formal lifecycle states are recognised: Development, Trial, Stable, Obsolete and Superseded. For specifications developed from scratch within openEHR (i.e. not donated), the management is as follows:</p>
+			<p>All specification artefacts, both documentary and computable follow a lifecycle, from inception (or accession, in the case of donated works) to stability to obsolescence. The following formal lifecycle states are recognised: Planning, Development, Trial, Stable, and Retired. For specifications developed from scratch within openEHR (i.e. not donated), the management is as follows:</p>
 			<ul>
+				<li><em>Planning state</em>: development of description and scope of new specification, along with relevance and utility.</li>
 				<li><em>Development state</em>: agile development by project group, no formal change management, visibility of documentation and experimental software. By the end of development, an open source reference implementation must be available.</li>
-				<li><em>Trial state</em>: during this period, the specification is managed in a formal way. Issues are reported on an online tracker; changes are recorded on a separate dedicated tracker, ensuring every change to the specification is recorded; version changes follow the <a href="http://semver.org" target="_blank">semver.org</a> rules;</li>
+				<li><em>Trial state</em>: during this period, the specification is managed in a formal way. Issues are reported on an online tracker; changes are recorded on a separate dedicated tracker, ensuring every change to the specification is recorded;</li>
 				<li><em>Stable state</em>: in stable state, the specification is published in a high-quality format. Proposed changes are assessed based on impact to existing implementations.</li>
+				<li><em>Retired state</em>: some specifications inevitably become obsolete, or irrelevant for other reasons, and are promoted to the Retired state.</li>
 			</ul>
-			<p>The intention is to be lightweight when needed, and to manage specifications carefully if and when they gain widespread use.</p>
-			<p>Specifications created based on existing software, widespread existing practices etc can enter the lifecycle at the Trial or Stable states if they meet the criteria.</p>
+			<p>The intention is to be lightweight when needed, and to manage specifications carefully as they gain widespread use.</p>
+			<p>Specifications created based on existing software, widespread existing practices etc can enter the lifecycle at the Trial or Stable states if they meet the relevant criteria.</p>
 			<br/>
 			<p>The following table describes the lifecycle states in detail:</p>
 			
@@ -90,49 +52,48 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<th class='TableMainT'> Issue Reporting </th>
 			</tr>
 			<tr>
+				<td class='TableMainC'> <b>Planning</b></td>
+				<td class='TableMainC'> 6 months max</td>
+				<td class='TableMainC'> Wiki</td>
+				<td class='TableMainC'> 0.y.z</td>
+				<td class='TableMainC'> informal</td>
+				<td class='TableMainC'> external development group </td>
+				<td class='TableMainC'> Informal </td>
+			</tr>
+			<tr>
 				<td class='TableMainC'> <b>Development</b></td>
 				<td class='TableMainC'> 18 months max</td>
-				<td class='TableMainC'> Wiki; PG writable</td>
+				<td class='TableMainC'> Wiki</td>
 				<td class='TableMainC'> 0.y.z</td>
 				<td class='TableMainC'> Change Requests optional; otherwise informal</td>
-				<td class='TableMainC'> CMG or external development group </td>
+				<td class='TableMainC'> SEC or external development group </td>
 				<td class='TableMainC'> Informal </td>
 			</tr>
 			<tr>
 				<td class='TableMainC'> <b>Trial</b> </td>
 				<td class='TableMainC'> 2 years max</td>
-				<td class='TableMainC'> <em>Wiki??</em>; PG writable</td>
-				<td class='TableMainC'> <em>x.y.z</em> </td>
+				<td class='TableMainC'> <em>PDF + computable</em></td>
+				<td class='TableMainC'> <em>x.y.z</em> (x >= 1)</td>
 				<td class='TableMainC'> <em>Change Requests</em></td>
-				<td class='TableMainC'> <em>CMG</em> </td>
+				<td class='TableMainC'> <em>SEC</em> </td>
 				<td class='TableMainC'> <em>Problem Reports</em> </td>
 			</tr>
 			<tr>
 				<td class='TableMainC'> <b>Stable</b></td>
 				<td class='TableMainC'> unbounded </td>
-				<td class='TableMainC'> <em>Durable high</em> 
-				<em>quality format</em>, e.g. PDF; published on standards web page / portal 
+				<td class='TableMainC'> <em>PDF + computable</em></td>
 				<td class='TableMainC'> x.y.z </td>
 				<td class='TableMainC'> Change Requests  </td>
 				<td class='TableMainC'> <em><b>CMG</em> </td>
 				<td class='TableMainC'> Problem Reports </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Obsolete</b></td>
+				<td class='TableMainC'> <b>Retired</b></td>
 				<td class='TableMainC'> unbounded </td>
-				<td class='TableMainC'> Replaced by version marked as 'Obsolete' and relevant meta-data </td>
+				<td class='TableMainC'> Replaced by version marked as 'Retired' and relevant meta-data </td>
 				<td class='TableMainC'> frozen</td>
 				<td class='TableMainC'> n/a </td>
-				<td class='TableMainC'> EC </td>
-				<td class='TableMainC'> n/a </td>
-			</tr>
-			<tr>
-				<td class='TableMainC'> <b>Superseded</b></td>
-				<td class='TableMainC'> unbounded </td>
-				<td class='TableMainC'> Replaced by version marked as 'Superseded' and relevant meta-data </td>
-				<td class='TableMainC'> frozen </td>
-				<td class='TableMainC'> n/a </td>
-				<td class='TableMainC'> EC </td>
+				<td class='TableMainC'> SEC </td>
 				<td class='TableMainC'> n/a </td>
 			</tr>
 			</tbody>
@@ -159,7 +120,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<tr>
 				<td class='TableMainC'> <b>Trial</b> </td>
 				<td class='TableMainC'> Tool-based expression maintained. </td>
-				<td class='TableMainC'> <em>Ideally two ITSs</em> should exist prior to promotion to stable state (where multiple technologies are in routine use). </td>
+				<td class='TableMainC'> An ITS should exist for the major technologies in use.</td>
 				<td class='TableMainC'> Prior to promotion, at least <em>2 independent interoperating implementations</em>, preferably in different major technologies at end of period. These may be commercial or open source. </td>
 				<td class='TableMainC'> <em>Conformance levels &amp; criteria</em> developed, tested and published. </td>
 			</tr>
@@ -171,56 +132,38 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td class='TableMainC'> Industry implementations recognised via conformance testing. </td>
 			</tr>
 			<tr>
-				<td class='TableMainC'> <b>Obsolete</b></td>
+				<td class='TableMainC'> <b>Retired</b></td>
 				<td class='TableMainC'>&nbsp;</td>
 				<td class='TableMainC'>&nbsp;</td>
 				<td class='TableMainC'> Reference implementation still available but not maintained. </td>
 				<td class='TableMainC'>&nbsp;</td>
-			</tr>
-			<tr>
-				<td class='TableMainC'> <b>Superseded</b></td>
-				<td class='TableMainC'>&nbsp;</td>
-				<td class='TableMainC'>&nbsp;</td>
-				<td class='TableMainC'> Reference implementation still available but not maintained. </td>
-				<td class='TableMainC'>&nbsp;</td>
-			</tr>
 			</tbody>
 			</table>
 
-			<p><font color="#ff0000">TBD: Possible variants:</font></p>
-			<ul>
-				<li><font color="#ff0000">publish in durable format for Trial period; wiki is truly bad - non-standard, very poor display quality, and editing on most wikis in WSIWYG is truly abysmal.</font></li>
-			</ul>
-			<p>Problem Reports (PRs) can be raised by anyone, and are designed to capture reports of problems and issues, including new requirements. Change Requests (CRs) can be created
-			only by the Specifications group, and are used to document changes undertaken to the specifications. No change can be made to the specifications without a CR.</p>
-			<p>For reference, other lifecycle management specifications:</p>
-			<ul>
-				<li>IHTSDO's <a href="/wiki/download/attachments/32505867/IHTSDO_+Procedure_Standards_20110407_v2.0-1.pdf?version=1&amp;modificationDate=1333282106000">Development, Approval, Maintenance and Review of IHTSDO Technical Reports, Guidelines and Standards</a></li>
-				<li><a href="governance">Current openEHR lifecycle</a>.</li>
-			</ul>
+			<p>Problem Reports (PRs) can be raised by anyone, and are designed to capture reports of problems and issues, including new requirements. Change Requests (CRs) can be created only by the Specifications group, and are used to document changes undertaken to the specifications. No change can be made to the specifications without a CR.</p>
 
-			<h3><a name="promotion"></a>Promotion of Specifications</h3>
-			<p>Specifications are promoted to the next lifecycle state when the appropriate time-limit is reached for the current state. A review is held by the EC 3 months prior to the putative promotion date to determine if the criteria documented above are satisfied. If so, a CR is raised to document the promotion of the artefact(s) on the relevant date, including all changes to documentation, publishing format and actual publication.</p>
+			<h3><a name="promotion"></a>Promotion of Specifications throught the Lifecycle</h3>
+			<p>Specifications are promoted to the next lifecycle state when the appropriate time-limit is reached for the current state. A review is held by the SEC 3 months prior to the putative promotion date to determine if the criteria documented above are satisfied. If so, a CR is raised to document the promotion of the artefact(s) on the relevant date, including all changes to documentation, publishing format and actual publication.</p>
 			<p>If the criteria are not met, the owning CMG is asked to ensure that the specification is worked on to ensure that it will meet the promotion criteria. This may require them communicating with teams in the Software Program or elsewhere in order to ensure adequate implementation has been achieved.</p>
-			<p>If on the due date of promotion, the promotion criteria are still not met, the owning CMG is asked to provide a report indicating if it is likely that the conditions can be met in 3 months or less, and outlining what steps will be taken to achieve them. The EC may accept this and provide a 3 month extension. Alternatively it may reject it, and the specification is then demoted to 'obsolete' state.</p>
-			<p>After one extension period, the EC again reviews the specfication, and either accepts it for promotion or rejects it, leading to demotion to 'obsolete' state.</p>
+			<p>If on the due date of promotion, the promotion criteria are still not met, the owning CMG is asked to provide a report indicating if it is likely that the conditions can be met in 3 months or less, and outlining what steps will be taken to achieve them. The SEC may accept this and provide a 3 month extension. Alternatively it may reject it, and the specification is then demoted to 'obsolete' state.</p>
+			<p>After one extension period, the SEC again reviews the specfication, and either accepts it for promotion or rejects it, leading to demotion to 'obsolete' state.</p>
 			
 
 			<h2><a name="changemanagement"></a>Change Management</h2>
-			<p>Seen as a whole, the specification library will normally have a  number of Problem Reports (PRs) and Change Requests (CRs) outstanding against it.The processing of PRs and the creation, acceptance and final approval or rejection of CRs is performed by the Program Editorial Committee (EC), formed of representatives from all CMGs.</p>
+			<p>Seen as a whole, the specification library will normally have a  number of Problem Reports (PRs) and Change Requests (CRs) outstanding against it.The processing of PRs and the creation, acceptance and final approval or rejection of CRs is performed by the Specifications Editorial Committee, formed of representatives from all CMGs.</p>
 			
 			<h3><a name="problemreports"></a>Problem Reports</h3>
-			<p>PRs raised on the public SPEC tracker are reviewed on a regular basis, and where appropriate,  CRs raised. PR review is carried out online by the Editorial Committee either when a new PR is raised, or at least every 3 months.</p>
+			<p>PRs raised on the <a href="https://openehr.atlassian.net/browse/SPECPR/">public SPECPR tracker</a> are reviewed on a regular basis by the SEC, and where appropriate,  CRs raised. PR review is carried out online by the SEC either when a new PR is raised, or at least every 3 months.</p>
 			<p>PR review can lead to a number of possibilities. The PR may be rejected, in which case it is resolved as such and closed. For PRs that are accepted, one or more CRs may be created, or the PR may be linked to an existing PR.</p>
 			<p>PRs that create CRs are referenced by the relevant CRs. When the latter are completed, the relevant PRs are resolved according to the resolutions of the related CRs.</p>
 			<p>CRs are not created for specifications still in development phase; instead, changes are added to the CR used at creation of the specification.</p>
 
 			<h3><a name="changerequests"></a>Change Requests</h3>
-			<p>CRs are generally raised in response to PRs. However, CRs may also be raised separately by the Editorial Committee, based on a consensus discussion or a 2/3 vote.</p>
+			<p>CRs are generally raised in response to PRs. However, CRs may also be raised separately by SEC members.</p>
 			<p>CRs need to be a) prioritised in importance and b) allocated to releases. A pre-requisite therefore is to define one or more future releases, each with an identifier and expected date of delivery.</p>
 
 			<h4>Creation</h4>
-			<p>New CRs are created by the EC on the <a href="http://www.openehr.org/issues/browse/SPEC" target="_blank">SPEC CR tracker</a>. The following information is initially required:</p>
+			<p>New CRs are created by the SEC on the relevant <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">Component Change tracker</a> for the relevant Component. The following information is initially required:</p>
 			<ul>
 				<li>a short description (i.e. title)</li>
 				<li>a description of the problem(s) it addresses, and/or references to relevant PRs</li>
@@ -228,10 +171,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<li>the raiser</li>
 				<li>Other key fields such as id, date etc are created automatically.</li>
 			</ul>
-			<p><font color="#ff0000">TBD: we don't actually do this  now; currently, more than one component can be affected by one CR. This  is actually better CM practice...</font></p>
 
 			<h4>Acceptance</h4>
-			<p>Every CR has to initially be accepted or rejected by the EC. This primarily means determining if:</p>
+			<p>Every CR has to initially be accepted or rejected by the SEC. This primarily means determining if:</p>
 			<ul>
 				<li>the CR responds to a real need</li>
 				<li>if the CR is compatible with the current specification library.</li>
@@ -249,7 +191,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<li>detailed description of proposed changes;</li>
 				<li>revised classification if necessary.</li>
 			</ul>
-			<p>The EC reviews the CR again. If the impact is deemed acceptable, the CR is allocated to a release.</p>
+			<p>The SEC reviews the CR again. If the impact is deemed acceptable, the CR is allocated to a release.</p>
 			<ul>
 				<li>for larger CRs, the addition of more assignees from the CMG may be required. The CO manages this.</li>
 			</ul>
@@ -276,7 +218,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<ul>
 					<li>an open review is conducted during a defined period, e.g.  30 days, seeking comments from the openEHR membership, including the Program members.</li>
 					<li>At the end of this period, the assignee(s) have 2 weeks to re-present the work, taking into account the review feedback.</li>
-					<li>A 2/3 majority of the EC is required to approve the final presentation of the work, incorporating review responses.
+					<li>A 2/3 majority of the SEC is required to approve the final presentation of the work, incorporating review responses.
 					<ul>
 						<li>Ideally, concerns (e.g. that the changes are acceptable but  insufficient) of dissenting members should be addressed through further  CRs, if appropriate.</li>
 					</ul>
@@ -292,25 +234,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h2><a name="creation"></a>Creation of New Specifications</h2>
 
 			<h3><a name="process"></a>Process</h3>
-			<p>New specifications can be proposed by any member of the openEHR community. Formally this is done via either a PR on the SPEC PR tracker, or if the proposer is a Program member, a CR on the <a href="http://www.openehr.org/issues/browse/SPEC" target="_blank">SPEC project tracker</a> . If the initial need is described in a PR, it will be reviewed by the EC which may decide to create a CR for it. If this happens, the CR will cover the initial period of establishment of the specification, including its identification and setting of scope.</p>
-			<p>New  specifications need to be compatible with the existing structure and  roadmap of the specification library. For a new specification to be  added, it has to have an identifier, be located within the existing  structure (a new category of specification may require a new location to  be defined), and have a scope defined that is consistent with existing  specifications. These are issued by the Editorial Committee prior to the creation of the initial CR for the specification. The  new specification could potentially replace one or more existing  specifications, in which case the structure and roadmap may be modified; the CR will also document these changes.</p>
+			<p>New specifications can be proposed by any member of the openEHR community. Formally this is done via either a PR on the SPEC PR tracker, or if the proposer is a Program member, a CR on a <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">Component Change tracker</a> . If the initial need is described in a PR, it will be reviewed by the SEC which may decide to create a CR for it. If this happens, the CR will cover the initial period of establishment of the specification, including its identification and setting of scope.</p>
+			<p>New  specifications need to be compatible with the existing structure and  roadmap of the specification library. For a new specification to be  added, it has to have an identifier, be located within the existing  structure (a new category of specification may require a new location to  be defined), and have a scope defined that is consistent with existing  specifications. These are issued by the SpecificationsEditorial Committee prior to the creation of the initial CR for the specification. The  new specification could potentially replace one or more existing  specifications, in which case the structure and roadmap may be modified; the CR will also document these changes.</p>
 			<p>Internationalisation and localisation aspects should also be described.</p>
-			<p>A successful application to add a new specification results in the following being decided by the Editorial Committee:</p>
+			<p>A successful application to add a new specification results in the following being decided by the SEC:</p>
 			<ul>
 				<li>an identifier</li>
 				<li>a title</li>
-				<li>the affected component, e.g. Reference Model, Archetype Model, Service Model, Query Languages, etc
-				<ul>
-					<li>if a new component is needed, a new CMG will also have to be created;</li>
-				</ul>
-				</li>
+				<li>the affected Component, e.g. Reference Model, Archetype Model, Service Model, Query Languages, etc, or a new Component may be required;</li>
 				<li>a new wiki page where the development form of the specification can be created</li>
 				<li>an announcement of the new specification.</li>
 			</ul>
 			<p>New specifications can be created in two ways.</p>
 			<ul>
-				<li>There may already be a  well-developed document or computable artefact that is being offered to the Specification  Program. In this case, the EC would assess the specification for maturity according to the lifecycle described below, and publish it in an appropriate way. A specification meeting the  'Trial' or even 'Stable' state criteria may be commenced in that state if the EC agrees.</li>
-				<li>Alternatively, the need for a completely new  specification might be identified, and a fresh development commenced within the  EC.</li>
+				<li>There may already be a  well-developed document or computable artefact that is being offered to the Specification  Program. In this case, the SEC would assess the specification for maturity according to the lifecycle described below, and publish it in an appropriate way. A specification meeting the  'Trial' or even 'Stable' state criteria may be commenced in that state if the SEC agrees.</li>
+				<li>Alternatively, the need for a completely new  specification might be identified, and a fresh development commenced within the  SEC.</li>
 			</ul>
 
 			<h3><a name="proforma"></a>Specification Pro-forma</h3>
@@ -353,16 +291,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h2><a name="faq"></a>Frequently Asked Questions</h2>
 			
 			<h3>Who can report a problem or propose a change to a specification?</h3>
-			<p>Anyone. This is done by creating a Problem Report (PR) on the <a href="http://www.openehr.org/issues/browse/SPECPR">SPEC PR public issue tracker</a>. The Specification Program Editorial Committee reviews these on a  regular basis and may decide to create a Change Request on the specification library based on the PR.</p>
+			<p>Anyone. This is done by creating a Problem Report (PR) on the <a href="https://openehr.atlassian.net/browse/SPECPR/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel10190">SPEC PR public issue tracker</a>. The (SEC) reviews these on a  regular basis and may decide to create a Change Request on the specification library based on the PR.</p>
 
 			<h3>Who decides if a change will be performed or rejected?</h3>
-			<p>A change to the specifications proposed on the SPEC PR public tracker will be reviewed by the Editorial Committee, and may cause a CR to be  created. CRs are performed by Specification Program members, and will  result in change(s) to the specifications. Sometimes CRs may be rejected  during processing, in which case no change will be made.</p>
+			<p>A change to the specifications proposed on the SPEC PR public tracker will be reviewed by the SEC, and may cause a CR to be  created. CRs are performed by SEC members, and will  result in change(s) to the specifications. Sometimes CRs may be rejected  during processing, in which case no change will be made.</p>
 
 			<h3>Who prioritises the changes?</h3>
-			<p>The Specification Program Editorial Committee in concert with the openEHR Operational Group.</p>
+			<p>The Specifications Editorial Committee in concert with the openEHR Management Board.</p>
 
 			<h3>Who decides which changes are in the next release of openEHR?</h3>
-			<p>The Specification Program Editorial Committee in concert with the openEHR Operational Group.</p>
+			<p>The Specifications Editorial Committee in concert with the openEHR Management Board.</p>
 			
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	

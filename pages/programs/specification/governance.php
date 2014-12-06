@@ -14,9 +14,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			<h2><a name="introduction"></a>Introduction</h2>
 			<p>This page describes the terms of reference (ToR) for the openEHR Specification Program. The Specification Program has members drawn from the wider openEHR membership, particularly openEHR solution vendors and other implementers for whom the specifications are of concrete importance. Ideally the membership of the Program will include individuals from multiple language groups, cultures as well as with a diversity of technical, clinical and informatics backgrounds.</p>
+			<p>The sections below describe in detail how the Specifications Program functions. The essentials are as follows:</p>
+				<ul>
+					<li>A Specifications Editorial Committee (SEC) is the governing body and has between 5 and 40 members, representing major stakeholders, particularly implementers;</li>
+					<li>The specifications are change-managed and released as separate Components, e.g. 'Reference Model', 'Conformance' etc, each of which has its own visible <a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">online Change Tracker</a>, enabling community and public involvement possible at all stages;</li>
+					<li>A global <a href="https://openehr.atlassian.net/browse/SPECPR/">Problem Tracker</a> is available to the whole community for reporting issues with the specifications;</li>
+					<li>Decision-making is normally based on consensus, with wider consultation and then formal voting used when no agreement is available.</li>
+				</ul>		
+			<p>The governance provisions here are intended to be as lightweight and transparent as possible, with progress depending primarily on a) the experience and goodwill of the members, and b) on high quality tool support for efficient e-working.</p>
+			<p>The following diagram illustrates the Specifications Program.</p>
+			<p style="text-align:center;"><img src="/files/programs/specification/SpecProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
 			
 			<h2><a name="specifications"></a>The Specifications</h2>
-			<p>The specifications under management by the Program are identified in terms of Specifications Components, each consisting of one or more concrete Specifications relating to a topic area. <em>A Component is defined as being something that is separately releasable</em>.</p>
+			<p>The specifications under management by the Program are identified in terms of Specifications Components, each consisting of one or more concrete Specifications relating to a topic area. <em>A Component is defined as being something that is separately releasable</em>. In openEHR, Components include the Reference Model, the Archetype Model, Querying, Conformance and CDS.</p>
+			<p>The definitive list of Components at any time is shown in the 'Component' column of the <a href="/programs/specification/releases/currentbaseline">current baseline specifications page.</a></p>
 			<p>Each logical Specification within a Component consists of:</p>
 				<ul>
 					<li>a definitive publishable documentary form, typically in PDF and/or HTML format;</li>
@@ -25,17 +36,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<li>formal educational materials accompanying the specification, including example uses and files.</li>
 				</ul>		
 			<p>At any point in time, a Specification is in one of the lifecycle states: Planned, Development, Trial, Stable, or Retired.</p>
-
-			<h2><a name="programstructure"></a>Program Structure</h2>
-			<p>The Specification Program is managed by the Specifications Editorial Committee (SEC). The SEC membership consists of community members who are qualified and who have an interest in maintaining the specifications into the future on behalf of the community.</p>
-			<p>Each Specifications Component has a designated Maintainer from among the SEC mambers, who is responsible for making and committing changes agreed by the SEC. Over time, the number of Component Maintainers will be a small minority of the overall SEC membership.</p>
-			<p>The following illustrates the Specifications Program structure.</p>
-			<p style="text-align:center;"><img src="/files/programs/specification/SpecProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
+			<p>Each specifications Component has a dedicated <a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Change Tracker</a>.</li>
 
 			<h2><a name="sec"></a>Specifications Editorial Committee (SEC)</h2>
-			<p>The Specifications Editorial Committee (SEC) is the formal body for management of the specifications. Primarily the work of the SEC consists of change management and publishing (i.e. releasing). Change Management is tool-based, and the change history, current state and projected state of the specifications are always visible online.</p>
+			<p>The Specification Program is managed by the Specifications Editorial Committee (SEC). The SEC membership consists of community members who are qualified and who have an interest in maintaining the specifications into the future on behalf of the community. The SEC aims to be as representative as possible of the interests of major stakeholders, including vendors, healthcare professionals and government, with implementers having a certain precedence, since it is software products that are directly based on the specifications.</p>
+			<p>Primarily the work of the SEC consists of change management and publishing (i.e. releasing) of the specifications. Change Management is tool-based, and the change history, current state and projected state of the specifications are always visible online.</p>
+			<p>A subset of the SEC membership act as designated Component Maintainers, one for each Component, and are responsible for a) managing the relevant Component Change Tracker and b) making and committing changes agreed by the SEC to the specifications.</p>
+			<p>Between one and three members of the SEC are elected as co-chairs and perform a facilitation role.</p>
+
 			<p>Changes are formally documented using Change Requests (CRs), which are uniquely numbered and visible online. A CR has a lifecycle, and if not rejected, will define specific changes to the specification(s) it relates to.</p>
-			<p>Issues with the specifications can also be formally raised; these are known as Problem Reports (PRs). The change management process aims to resolve all PRs.</p>
+			<p>Issues with the specifications can also be formally raised; these are known as Problem Reports (PRs).</p>
+			<p>The change management process aims to resolve all CRs and PRs within a planned series of releases.</p>
 			
 			<h3><a name="sec_responsibilities"></a>Responsibilities</h3>
 			<p>The responsibilities of the Specification Editorial Committee are:</p>
@@ -44,8 +55,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<ul>
 						<li>the identification &amp; creation of new specifications;</li>
 						<li>the definition of new releases;</li>
-						<li>the prioritisation of CRs;</li>
-						<li>the assignment of CRs to future releases;</li>
+						<li>the prioritisation of CRs and PRs;</li>
+						<li>the assignment of CRs  and PRs to future releases;</li>
 					</ul>		
 				</li>
 				<li>PR/CR processing:
@@ -67,20 +78,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 						<li>changes to Specification Editorial Committee.</li>
 					</ul>
 				</li>
-				<li>publishing of the specifications and other materials.</li>
+				<li>publishing of the specifications and related materials.</li>
 			</ul>
+			<p>These processes are described in detail in the <a href="changeprocess" title="Specification Program Change Process">Change process</a>.</p>
 			<p>In addition, the openEHR Management Board may advise of requirements for releases and prioritisation of work.</p>
 
 			<h3><a name="sec_structure"></a>Structure</h3>
-			<p>The Specifications Editorial Committee has two elected co-chairs, who facilitate the work of the committee. The responsibilities of the co-chairs are as follows:</p>
+			<p>The Specifications Editorial Committee has 1-3 elected co-chairs, who facilitate the work of the committee. The exact number is based on practical needs, and will normally increase with the growth of committee numbers. The responsibilities of the co-chairs are as follows:</p>
 			<ul>
 				<li>to run SEC meetings;</li>
-				<li>to facilitate the execution of the work of the SEC;</li>
+				<li>to facilitate the execution of the work of the SEC, mainly by managing completion of modification of task deadlines;</li>
+				<li>to report progress and issues to the openEHR Management board;</li>
 				<li>to arbitrate in case of disputes.</li>
 			</ul>
-			<p>These processes are described in detail in the <a href="changeprocess" title="Specification Program Change Management Plan">Change Management Plan</a>.</p>
 
-			<p>In addition, a number of SEC members are designated to act as Component Maintainers. This role is to ensure that each Component has at least one member capable of implementing changes on it, as required by the committee. A member becomes a Component Maintainer by volunteering, and may resign from the responsibility at any time.</p>
+			<p>In addition, a number of SEC members agree to act as Component Maintainers. This role is to ensure that each Component has at least one member capable of implementing changes determined by the change process on it. A member becomes a Component Maintainer by volunteering, and may resign from the responsibility at any time.</p>
 			
 			<h2><a name="sec_membership"></a>Membership</h2>
 			<p>The minimum membership of the Specification Editorial Committee is determined by the following needs:</p>
@@ -89,11 +101,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<li>to have sufficient members from the openEHR Industry Partners to be representative of the interests of implementers;</li>
 					<li>to have two or more members with health informatics / clinical expertise, who perform clinical safety review.</li>
 				</ul>
-			<p>Beyond this, it is intended that there are members representing:</p>
+			<p>An absolute minimum of five (5) is required. Beyond this, it is intended that there are members representing:</p>
 				<ul>
 					<li>other major openEHR implementations (including academic).</li>
+					<li>other major stakeholders, particularly government e-health programmes, and the healthcare sector.</li>
 				</ul>
-			<p>Membership is created initially by the Specifications Program lead, and changes as follows:</p>
+			<p>SEC Membership is created initially with the inception of the Specifications Program, and progresses as follows:</p>
 				<ul>
 					<li>New members come from nominations openEHR community which are voted on by the SEC.</li>
 					<li>Members leave by natural attrition (i.e. resignation).</li>
@@ -105,16 +118,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p>Membership of the SEC is by nomination. New nominations may be made in the following situations:</p>
 			<ul>
 				<li>The Specification Program advertises within the community for a new member, e.g. due to a resignation, or need for more human resource;</li>
-				<li>Community members, typically representing a newly joined vendor or institution may nominate at any time.</li>
+				<li>Community members, typically representing a newly joined organisation may nominate at any time.</li>
 			</ul>
 			<p>A new nomination must satisfy the following criteria.</p>
 
 			<h4><a name="qualification"></a>Qualifications</h4>
 			<ul>
-				<li>An understanding of the overall openEHR mission.</li>
-				<li><em>Health informatics background</em>: a demonstrable knowledge of key health informatics issues such as EHR, interoperability, terminology, clinical environments, public health, medical research.</li>
+				<li>An understanding of the overall <a href="index">openEHR mission</a>.</li>
+				<li><em>Health informatics background</em>: a demonstrable knowledge of key health informatics areas such as EHR, interoperability, terminology, clinical environments, public health, medical research.</li>
 				<li><em>Technical competency</em>: a knowledge of the modelling / language formalisms used in the specifications.</li>
-				<li><em>openEHR experience</em>: at least 1 year of active participation in the openEHR community and
+				<li><em>openEHR experience</em>: at least 1 year of active participation in the openEHR community.
 			</ul>
 			
 			<h4><a name="commitment"></a>Commitment</h4>
@@ -129,7 +142,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 
 			<h3><a name="candidature"></a>Candidature</h3>
-			<p>The candidate should supply a CV and other qualifying information  describing:</p>
+			<p>The candidate should supply a short CV and other qualifying information describing:</p>
 			<ul>
 				<li>statement of interest in working on the Specification Program;</li>
 				<li>statement of commitment of time &amp; availability;</li>
@@ -140,36 +153,35 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h3><a name="process"></a>Process</h3>
 			<p>The process is as follows:</p>
 			<ul>
-				<li>A new nomination is sent to any co-chair of the Specification Editorial Committee, who will publish it to the current Program membership.</li>
-				<li>A period of up to 4 weeks may follow to allow for assessment by the membership. During this period:
+				<li>A new nomination is sent to the co-chairs of the Specification Editorial Committee, who will publish it to the committee.</li>
+				<li>A period of up to 4 weeks may follow to allow for assessment by the current membership. During this period:
 				<ul>
 					<li>the candidate may be asked for more information;</li>
 					<li>the candidate may be asked to participate in an online or face to face interview;</li>
 					<li>the nomination may be rejected on formal grounds, such as lack of qualification;</li>
 				</ul>
 				</li>
-				<li>If the nomination is not rejected, a formal vote is taken, in which the new member is accepted into the Program based on a 2/3 majority vote of the existing&nbsp; members.</li>
+				<li>If the nomination is not rejected, a formal vote is taken, in which the new member is accepted into the Program based on a simple majority vote of the existing&nbsp; members, with no objections.</li>
 			</ul>
 
 			<h3><a name="lengthofmembership"></a>Length of membership</h3>
-			<p>There is no limit on duration of membership of the Program, as long as the participation and competence are maintained, and the Program membership rules are not broken. Membership of the SEC and co-chair positions are limited to 2 years and are filled by election (described in the relevant section above).</p>
+			<p>There is no limit on duration of membership in the SEC.</p>
 
 			<h3><a name="resignation"></a>Resignation</h3>
-			<p>An existing Program member may resign at any time from the SEC, and additionally from all involvement. In either case, the fact and effective date of resignation will be published, and the published Program membership updated accordingly.</p>
-			<p>If the resignation is of an SEC co-chair, nominations for a new co-chair are called for, and the SEC rules for co-chair election described above followed.</p>
+			<p>An existing Program member may resign at any time from the SEC. In this case, the fact and effective date of resignation will be published, and the published Program membership updated accordingly.</p>
+			<p>If the resignation is of an SEC co-chair, nominations for a new co-chair are called for, and the SEC rules for co-chair election described below followed.</p>
 			<p>If the departure is of a Component Maintainer, the SEC solicits a volunteer to take on the Component.</p>
 
 			<h3><a name="termination"></a>Termination</h3>
 			<p>An existing member who has been referred to the  openEHR board by the Specification Editorial Committee for disruptive or other  unprofessional behaviour may be removed by he openEHR board following an appeal process, if all attempts at arbitration fail.</p>
 			<p>Where termination leaves a vacancy, the same rules as for resignations are followed.</p>
-
 			
 			<h3><a name="cochair_elections"></a>Co-chair Elections</h3>
-			<p>Elections are held every 12 months, at a fixed  date, or earlier in the case of resignation. At election time,  the  positions of all SEC members who have spent 2 years in the position come up for re-election by the whole Program membership. Members who are not co-chairs may re-nominate directly for SEC membership.</p>
+			<p>Elections are held every 12 months, at a fixed  date, or earlier in the case of resignation. At election time,  the  positions of members who have spent 2 years in the position come up for re-election by the whole Program membership. Members who are not co-chairs may re-nominate directly for SEC membership.</p>
 			<p>Co-chair positions last 2 years. Elections are held every 12 months at a fixed date, or earlier in the case of resignation. A vacating co-chair may re-nominate for a successive term.</p>
 			<h2><a name="sec_decisionmaking"></a>Decision-making</h2>
 			<h3><a name="sec_consensus"></a>Consensus Process</h3>
-			<p>Decisions are primarily made by consensus, i.e. agreement of a quorum of members with no serious objections voiced. Where there are objections, the following process will be used:</p>
+			<p>Decisions on change and release management are primarily made by consensus, i.e. agreement of a quorum of members with no serious objections voiced. Where there are objections, the following process will be used:</p>
 			<ul>
 				<li>the co-chairs will manage a more formal round of discussions which seek to expose the points of difference and disagreement;</li>
 				<li>If this fails to result in consensus, the cochairs will facilitate an open community review of the issue with a fixed timeline;</li>
@@ -182,29 +194,28 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<ul>
 				<li>a motion is tabled;</li>
 				<li>the motion is seconded;</li>
-				<li>votes are gathered, with a maximum of one vote per company or institution;</li>
-				<li>individuals who are not connected to a company or institution may vote for themselves;</li>
+				<li>votes are gathered, with a maximum of one vote per company, institution or other individual;</li>
 				<li>vote by proxy is allowed, supported by a written confirmation (e.g. email) from the absent voter;</li>
-				<li>the motion is considered passed if a 2/3 majority of the SEC membership is obtained.</li>
+				<li>the motion is considered passed if a simple majority (50% + 1) of the SEC membership is obtained.</li>
 			</ul>
 			
 			<h2><a name="meetings"></a>Meetings</h2>
+			<p>Most work of the SEC is performed via teleconferences, and asynchronously (primarily via the online issue tracker). Online meetings of the SEC are held by teleconference at least once a quarter.</p>
 			<p>At least one face to face meeting, open to the Program membership is required per year. Ideally elections would be held at this meeting.</p>
-			<p>Online meetings of the Specification Editorial Committee are held by teleconference at least once a quarter, in order to discuss pending PRs and CRs.</p>
 			
 			<h2><a name="professionalconduct"></a>Professional Conduct</h2>
-			<p>In order for the SpecP development and decision-making processes to occur efficiently, and to provide an enjoyable experience for participants, contributions should follow the following guidelines:</p>
+			<p>In order for the SEC development and decision-making processes to occur efficiently, and to provide an enjoyable experience for participants, contributions should follow the following guidelines:</p>
 			<ul>
 				<li>contributions to discussions and debates should be based on considerations (e.g. technical, clinical) relevant to the matter at hand;</li>
-				<li>debates (online and face to face) should be conducted in a professional manner, without emotion, with a willingness to follow the governance principles stated here, and in cases of dispute, to accept   the outcome of arbitration.</li>
+				<li>debates (online and face to face) should be conducted in a professional manner, without emotion, with a willingness to follow the governance principles stated here, and in cases of dispute, to accept the outcome of arbitration.</li>
 			</ul>
-			<p>In the unlikely event of a member's participation causing problems,   the matter should be referred to in the first instance to the chair of   the Specification Editorial Committee, and if necessary, an extraordinary meeting or  meetings  called for the purpose of arbitration. Arbitration will  proceed with the Specification Editorial Committee. If an agreement cannot be reached  this way, the matter will be  referred to the openEHR Management Board.</p>
+			<p>In the unlikely event of a member's participation causing problems, the matter should be referred to in the first instance to the chair of the Specification Editorial Committee, and if necessary, an extraordinary meeting or  meetings  called for the purpose of arbitration. Arbitration will  proceed with the Specification Editorial Committee. If an agreement cannot be reached  this way, the matter will be  referred to the openEHR Management Board.</p>
 			
 			
 			<h2><a name="tor"></a>Evolution of these Terms of Reference</h2>
 			<p>The governance structures and procedures described above will inevitably need to change over time. The process for proposing and executing changes is as follows:</p>
 			<ul>
-				<li>A change can be proposed by anyone within the Program, or by the Management board. This request should include a statement of the problem being experienced with the current governance.</li>
+				<li>A change can be proposed by anyone within the Program, or by the openEHR Management board. This request should include a statement of the problem being experienced with the current governance.</li>
 				<li>The SEC co-chairs undertake to refine the request into a specific change in the rules that addresses the problem.</li>
 				<li>This is then published within the SEC for review for a stated period, e.g. 4 weeks.</li>
 				<li>Further refinement may be carried out on the back of the review.</li>
@@ -214,7 +225,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 
 
 			<h2><a name="faq"></a>Frequently Asked Questions</h2>
-			
 			<h3>What stops one organisation having undue influence?</h3>
 			<p>Where decisions go to a formal vote, each organisation gets only one vote.</p>
 
