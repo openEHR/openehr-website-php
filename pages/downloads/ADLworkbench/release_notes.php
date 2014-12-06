@@ -14,8 +14,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			
 			<h2>Release History</h2>
 			
-			<h3>25 November 2014 - ADL 2.0.5 (<a href="https://github.com/openEHR/adl-tools/tree/adl_2.0.5">Github tag adl_2.0.5</a>) 
-				(Jira - <a href="http://www.openehr.org/issues/issues/?jql=project%20%3D%20AWB%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">new features</a>; <a href="http://www.openehr.org/issues/issues/?jql=project%20%3D%20AWBPR%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">issues fixed</a>)</h3>
+			<h3>04 December 2014 - ADL 2.0.5 (<a href="https://github.com/openEHR/adl-tools/tree/adl_2.0.5">Github tag adl_2.0.5</a>) 
+				(Jira - <a href="http://www.openehr.org/issues/?jql=project%20%3D%20AWB%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">new features</a>; <a href="http://www.openehr.org/issues/?jql=project%20%3D%20AWBPR%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">issues fixed</a>)</h3>
 			<ul>
 				<li><em>Archetype Object Model / compiler</em>:
 					<ul>
@@ -40,20 +40,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 						<li><a href="http://www.openehr.org/downloads/ADLworkbench/obtaining_archetypes">New method</a> of specifying archetype repositories uses self-describing repository/library structure</li>
 						<li><a href="http://www.openehr.org/downloads/ADLworkbench/obtaining_archetypes">Git / Github integration</a></li>
 						<li>One-click template creation</li>
+						<li>Automatic conversion of ADL 1.4 'other_details' meta-data to ADL 2 form</li>
 					</ul>
 				</li>
 				<li><em>Visualisation</em>:
 					<ul>
 						<li>Lazy load template visualiser mode to handle very large template structures</li>
 						<li>Improved colour / font scheme in inheritance visualisation mode</li>
-						<li>New Description / Governance sub-tab containing most of the above-mentioned meta-data.</li>
+						<li>New Description / Governance sub-tab containing ADL 2 meta-data.</li>
 						<li>New Clients/Suppliers top-level tab showing client (user) archetypes containing use_archetype references to the current archetype, and supplier archetypes, i.e. archetypes for which the current archetype has a use_archetype reference.</li>
 					</ul>
 				</li>
 			</ul>
 				
 			<h3>05 March 2014 ADL 1.5 beta Release 10 (<a href="https://github.com/openEHR/adl-tools/tree/1.5beta10">Git tag 1.5beta10</a>) 
-				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10260">Jira</a>)</h3>
+				(<a href="https://openehr.atlassian.net/issues/?jql=fixVersion%20%3D%20%22ADL%201.5%20beta%2010%22%20AND%20project%20%3D%20AWB">Jira</a>)</h3>
 			<ul>
 				<li><em>Archetype Object Model / compiler</em>:
 					<ul>
@@ -74,10 +75,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			</ul>
 				
 			<h3>9 April 2013 ADL 1.5 beta Release 9 (<a href="https://github.com/openEHR/adl-tools/tree/1.5beta9">Git tag 1.5beta9</a>) 
-				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10160">Jira</a>)</h3>
+				(<a href="https://openehr.atlassian.net/issues/?jql=fixVersion%20%3D%20%22ADL%201.5%20beta%209%22%20AND%20project%20%3D%20AWB">Jira</a>)</h3>
 				
 			<h3>2 Aug 2012 ADL 1.5 beta Release 8 (<a href="https://github.com/openEHR/adl-tools/commit/4e6b696d1ad31a8269aa71e85aca4fee38172eef">Git commit 4e6b696d1ad31a8269aa71e85aca4fee38172eef (was SVN rev 1826)</a>) 
-				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10151">Jira</a>)</h3>
+				(<a href="https://openehr.atlassian.net/issues/?jql=fixVersion%20%3D%20%22ADL%201.5%20beta%208%22%20AND%20project%20%3D%20AWB">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -123,7 +124,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			</ul>
 
 			<h3>29 Jun 2012 ADL 1.5 beta Release 7 (<a href="https://github.com/openEHR/adl-tools/commit/fc5e9b292bb83a5d725074c53f16ad4b3ccc25b6">Git commit fc5e9b292bb83a5d725074c53f16ad4b3ccc25b6 (was SVN rev 1757)</a>) 
-				(<a href="http://www.openehr.org/issues/browse/AWB/fixforversion/10140">Jira</a>)</h3>
+				(<a href="https://openehr.atlassian.net/issues/?jql=fixVersion%20%3D%20%22ADL%201.5%20beta%207%22%20AND%20project%20%3D%20AWB">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -143,7 +144,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 				</li>
 			</ul>
 
-			<h3>29 Mar 2012 ADL 1.5 beta Release 6 (<a href="https://github.com/openEHR/adl-tools/commit/50c1ac7d62407ed79b12a932b6a5ce613219f599">Git commit 50c1ac7d62407ed79b12a932b6a5ce613219f599 (was SVN rev 1677)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10110">Jira</a>)</h3>
+			<h3>29 Mar 2012 ADL 1.5 beta Release 6 (<a href="https://github.com/openEHR/adl-tools/commit/50c1ac7d62407ed79b12a932b6a5ce613219f599">Git commit 50c1ac7d62407ed79b12a932b6a5ce613219f599 (was SVN rev 1677)</a>) (<a href="https://openehr.atlassian.net/issues/?jql=fixVersion%20%3D%20%22ADL%201.5%20beta%206%22%20AND%20project%20%3D%20AWB">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -167,7 +168,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 				</li>
 			</ul>
 
-			<h3>29 Nov 2011 ADL 1.5 beta Release 5 (<a href="https://github.com/openEHR/adl-tools/commit/740a0d96eee071077b3e5a250c9c0686184ab446">Git commit 740a0d96eee071077b3e5a250c9c0686184ab446 (was SVN rev 1656)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10120">Jira</a>)</h3>
+			<h3>29 Nov 2011 ADL 1.5 beta Release 5 (<a href="https://github.com/openEHR/adl-tools/commit/740a0d96eee071077b3e5a250c9c0686184ab446">Git commit 740a0d96eee071077b3e5a250c9c0686184ab446 (was SVN rev 1656)</a>) (<a href="https://openehr.atlassian.net/issues/?jql=fixVersion%20%3D%20%22ADL%201.5%20beta%205%22%20AND%20project%20%3D%20AWB">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -189,7 +190,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			</ul>
 		
 			<h3>8 Sep 2011 ADL 1.5 beta Release 4 (<a href="https://github.com/openEHR/adl-tools/commit/a835702bca29da3a7349cc3a09118913b2625cd9">Git commit a835702bca29da3a7349cc3a09118913b2625cd9 (was SVN rev 1603)</a>) 
-				(<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10080">Jira</a>)</h3>
+				(<a href="https://openehr.atlassian.net/issues/?jql=fixVersion%20%3D%20%22ADL%201.5%20beta%204%22%20AND%20project%20%3D%20AWB">Jira</a>)</h3>
 			<ul>
 				<li><em>GUI changes</em>:
 				<ul>
@@ -245,7 +246,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 				<li>Source code: tools upgraded to Eiffel 6.8 GPL.</li>
 			</ul>
 		
-			<h3>14 Jan 2011 ADL 1.5 beta Release 3 (<a href="https://github.com/openEHR/adl-tools/commit/65afe78825f9e2dc2d5e7865d6c649debe205d07">Git commit 65afe78825f9e2dc2d5e7865d6c649debe205d07 (was SVN rev 1405)</a>) (<a href="http://www.openehr.org/issues/secure/IssueNavigator.jspa?reset=true&mode=hide&sorter/order=DESC&sorter/field=priority&resolution=-1&pid=10070&fixfor=10073">Jira</a>)</h3>
+			<h3>14 Jan 2011 ADL 1.5 beta Release 3 (<a href="https://github.com/openEHR/adl-tools/commit/65afe78825f9e2dc2d5e7865d6c649debe205d07">Git commit 65afe78825f9e2dc2d5e7865d6c649debe205d07 (was SVN rev 1405)</a>) (<a href="https://openehr.atlassian.net/issues/?jql=fixVersion%20%3D%20%22ADL%201.5%20beta%203%22%20AND%20project%20%3D%20AWB">Jira</a>)</h3>
 			<ul>
 				<li>Archetype annotations implemented:
 				<ul>
