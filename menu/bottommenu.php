@@ -3,7 +3,7 @@
 			<ul>
 			<li><a href="/programs/specification/releases/1.0.2" title="Current official release of specifications">Current Release</a></li>
 			<li><a href="/programs/specification/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
-			<li><a href="/issues/browse/SPECPR" target="_blank" title="Specifications issue tracker (Jira)">Issue Tracker</a></li>
+			<li><a href="https://openehr.atlassian.net/browse/SPEC" target="_blank" title="Specifications issue tracker (Jira)">Issue Tracker</a></li>
 			<li><a href="/releases/1.0.2/reference-models/openEHR/XSD" target="_blank" title="Reference Model XML Schemas (current release)">XML Schemas</a></li>
 			<li>RM UML<a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.1]</a>, <a href="/releases/1.0.2/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.2]</a></li>
 			<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (dADL format object model schemas)">RM BMM Schemas</a></li>
