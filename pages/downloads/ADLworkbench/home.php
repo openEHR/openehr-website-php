@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>ADL Workbench release 2.0.5, 4 Dec 2014</h2>
-			<p><a href="release_notes">Release notes</a> - <a href="https://github.com/openEHR/adl-tools/issues" target="_blank">Report an issue (GitHub)</a> - <a href="https://openehr.atlassian.net/browse/AWB/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="_blank">Development Project (Jira)</a></p>
+			<p><a href="release_notes">Release notes</a> - <a href="https://openehr.atlassian.net/browse/AWBPR" target="_blank">Report an issue</a> - <a href="https://openehr.atlassian.net/browse/AWB/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="_blank">Development Project (Jira)</a></p>
          
 			<h2>What is the Workbench?</h2>
 			<p>The ADL Workbench (AWB) is a compiler and IDE for working with the archetypes and templates written in the Achetype Definition Language (ADL), and based on any reference model, including openEHR, ISO 13606 and CIMI. The <a href="http://www.openehr.org/programs/specification/releases/currentbaseline#ADL2">latest version of the archetype formalism</a> makes it one of the most powerful domain modelling tools available. Create models of clinical content (archetypes), data set definitions (templates), add terminology bindings and translations and then visualise and generate fully compiled output form in ADL, JSON, XML, YAML or ODIN.</p>
@@ -81,6 +81,40 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5-linux_32bit.tar.bz2">.tar.bz2 archive</a></td>
 						<td> <a href="installation_notes#linux">here</a></td>
 						<td> MD5: 7f0c23068a9c439fbf79bdb73292643c<br/> SHA1: 3bd53ee3732666e497746fb57f6207d152812fb2</td>
+					</tr>
+				</tbody>
+            </table>
+			
+			<h3 id="latest_build">Latest Builds</h3>
+            <table class="TableBasic">
+				<tbody>
+					<tr>
+						<th> Platform </th>
+						<th> Build</th>
+						<th> Date</th>
+						<th> Executable</th>
+						<th> Notes</th>
+					</tr>
+					<tr>
+						<td> Windows (32-bit)</td>
+						<td> 2.0.5.2725</td>
+						<td> 9 Dec 2014</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5.2725-windows_32bit.exe">.exe installer</a></td>
+						<td> 4x faster on CIMI archetypes; 2x faster on openEHR archetypes</td>
+					</tr>
+					<tr>
+						<td> Mac OS X 10.9 (Mavericks)<br/></td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td>Linux (32-bit Intel)<br/></td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
 					</tr>
 				</tbody>
             </table>

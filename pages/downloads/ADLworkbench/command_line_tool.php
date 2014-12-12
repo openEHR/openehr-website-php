@@ -14,7 +14,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			
 			<h2>adlc</h2>
 			<h3>Overview</h3>
-			<p>The adlc tool allows you to perform many of the operations available in the ADL Workbench from the command line, enabling the development of scripts and batch processes. The adlc executable is included in the ADL Workbench delivery, in the smae location as the adl_workbench executable itself. Its usage is as follows:</p>
+			<p>The adlc tool allows you to perform many of the operations available in the ADL Workbench from the command line, enabling the development of scripts and batch processes. The adlc executable is included in the ADL Workbench delivery, in the same location as the adl_workbench executable itself. Its usage is as follows:</p>
 <pre>
     USAGE:
        adlc -s [-q]
