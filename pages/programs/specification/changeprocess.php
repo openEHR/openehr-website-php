@@ -20,7 +20,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p class="content1"><a href="#creation">Creation of New Specification</a></p>
 				<p class="content2"><a href="#process">Process</a></p>
 				<p class="content2"><a href="#proforma">Specification Pro-forma</a></p>
-				<p class="content2"><a href="#changes">Changes to Existing Trial and Stable Specofocations</a></p>
+				<p class="content2"><a href="#changes">Changes to Existing Trial and Stable Specifications</a></p>
 			<p class="content1"><a href="#faq">Frequently Asled Questions</a></p>
 				
 			<h2><a name="introduction"></a>Introduction</h2>
@@ -84,7 +84,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<td class='TableMainC'> <em>PDF + computable</em></td>
 				<td class='TableMainC'> x.y.z </td>
 				<td class='TableMainC'> Change Requests  </td>
-				<td class='TableMainC'> <em><b>CMG</em> </td>
 				<td class='TableMainC'> Problem Reports </td>
 			</tr>
 			<tr>
@@ -140,17 +139,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</tbody>
 			</table>
 
-			<p>Problem Reports (PRs) can be raised by anyone, and are designed to capture reports of problems and issues, including new requirements. Change Requests (CRs) can be created only by the Specifications group, and are used to document changes undertaken to the specifications. No change can be made to the specifications without a CR.</p>
+			<p>Problem Reports (PRs) can be raised by anyone, and are designed to capture reports of problems and issues, including new requirements. Change Requests (CRs) can be created only by the Specifications Editorial Committee, and are used to document changes undertaken to the specifications. No change can be made to the specifications without a CR.</p>
 
 			<h3><a name="promotion"></a>Promotion of Specifications throught the Lifecycle</h3>
 			<p>Specifications are promoted to the next lifecycle state when the appropriate time-limit is reached for the current state. A review is held by the SEC 3 months prior to the putative promotion date to determine if the criteria documented above are satisfied. If so, a CR is raised to document the promotion of the artefact(s) on the relevant date, including all changes to documentation, publishing format and actual publication.</p>
-			<p>If the criteria are not met, the owning CMG is asked to ensure that the specification is worked on to ensure that it will meet the promotion criteria. This may require them communicating with teams in the Software Program or elsewhere in order to ensure adequate implementation has been achieved.</p>
-			<p>If on the due date of promotion, the promotion criteria are still not met, the owning CMG is asked to provide a report indicating if it is likely that the conditions can be met in 3 months or less, and outlining what steps will be taken to achieve them. The SEC may accept this and provide a 3 month extension. Alternatively it may reject it, and the specification is then demoted to 'obsolete' state.</p>
+			<p>If the criteria are not met, the Component Maintainer is asked to ensure that the specification is worked on to ensure that it will meet the promotion criteria. This may require them communicating with teams in the Software Program or elsewhere in order to ensure adequate implementation has been achieved.</p>
+			<p>If on the due date of promotion, the promotion criteria are still not met, the Component Maintainer is asked to provide a report indicating if it is likely that the conditions can be met in 3 months or less, and outlining what steps will be taken to achieve them. The SEC may accept this and provide a 3 month extension. Alternatively it may reject it, and the specification is then demoted to 'obsolete' state.</p>
 			<p>After one extension period, the SEC again reviews the specfication, and either accepts it for promotion or rejects it, leading to demotion to 'obsolete' state.</p>
 			
 
 			<h2><a name="changemanagement"></a>Change Management</h2>
-			<p>Seen as a whole, the specification library will normally have a  number of Problem Reports (PRs) and Change Requests (CRs) outstanding against it.The processing of PRs and the creation, acceptance and final approval or rejection of CRs is performed by the Specifications Editorial Committee, formed of representatives from all CMGs.</p>
+			<p>Seen as a whole, the specification library will normally have a  number of Problem Reports (PRs) and Change Requests (CRs) outstanding against it.The processing of PRs and the creation, acceptance and final approval or rejection of CRs is performed by the Specifications Editorial Committee.</p>
 			
 			<h3><a name="problemreports"></a>Problem Reports</h3>
 			<p>PRs raised on the <a href="https://openehr.atlassian.net/browse/SPECPR/">public SPECPR tracker</a> are reviewed on a regular basis by the SEC, and where appropriate,  CRs raised. PR review is carried out online by the SEC either when a new PR is raised, or at least every 3 months.</p>
@@ -182,10 +181,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<ul>
 				<li>planned date of completion;</li>
 				<li>estimated  of number of days' work;</li>
-				<li>assignment of a member from the relevant CMG who acts as the Change  Owner (CO) (who becomes an 'assignee' on the CR). The CO's  responsibility is to manage the CR to completion (which  occasionally  will be an obsolete state) - essentially this means  ensuring the  process is followed and the actual work is done on time;</li>
+				<li>assignment of an SEC member by the relevant Component Maintainer, who acts as the Change  Owner (CO) (who becomes an 'assignee' on the CR). The CO's  responsibility is to manage the CR to completion (which  occasionally  will be an obsolete state) - essentially this means  ensuring the  process is followed and the actual work is done on time;</li>
 				<li>classification as minor, major, critical, reflecting the size of change and impact to users.</li>
 			</ul>
-			<p>The Change Owner is now responsible for obtaining the following information from the CMG:</p>
+			<p>The Change Owner is now responsible for obtaining the following information from the SEC:</p>
 			<ul>
 				<li>impact assessment;</li>
 				<li>detailed description of proposed changes;</li>
@@ -193,7 +192,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 			<p>The SEC reviews the CR again. If the impact is deemed acceptable, the CR is allocated to a release.</p>
 			<ul>
-				<li>for larger CRs, the addition of more assignees from the CMG may be required. The CO manages this.</li>
+				<li>for larger CRs, the addition of more assignees from the SEC may be required. The CO manages this.</li>
 			</ul>
 
 			<h4>Performing the work</h4>
@@ -205,7 +204,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<ul>
 				<li>for <em>minor changes</em>, the changes are reviewed by inspection of  the relevant document(s) and/or inspection of the changed computable  artefact in a relevant tool.
 				<ul>
-					<li>Approval requires the unanimous vote of the CMG members.
+					<li>Approval requires review by the Component Maintainer.
 					<ul>
 						<li>If passed, the change is committed to the specification library.</li>
 						<li>If not, the assignee has one week to re-present the change, when it will re-enter review.</li>
@@ -284,7 +283,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 
 			<h3><a name="changes"></a>Changes to Existing Trial and Stable Specifications</h3>
-			<p><em>Minor changes</em> to specification documents are normally executed by a CMG member making an agreed small change. Validation is performed by internal review, as described above under CR Lifecycle.</p>
+			<p><em>Minor changes</em> to specification documents are normally executed by the Component Maintainer making an agreed small change. Validation is performed by internal review, as described above under CR Lifecycle.</p>
 			<p><em>Major changes</em>, typically leading to a new major release of a specification, may be performed by a team, although they can just as easily be performed by a single person. Validation is performed via community-wide open review with a published time limit. Review feedback is posted as comments on the CR. See the Acceptance section above under CR lifecycle.</p>
 
 			

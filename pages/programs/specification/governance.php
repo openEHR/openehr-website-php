@@ -22,6 +22,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<li>Decision-making is normally based on consensus, with wider consultation and then formal voting used when no agreement is available.</li>
 				</ul>		
 			<p>The governance provisions here are intended to be as lightweight and transparent as possible, with progress depending primarily on a) the experience and goodwill of the members, and b) on high quality tool support for efficient e-working.</p>
+			<p>The Specifications Program will work closely with the other programs to ensure coherence with outputs of the Clinical Modelling Program, implementability for the Software program, and usability in terms of the Localisation Program.</p>
 			<p>The following diagram illustrates the Specifications Program.</p>
 			<p style="text-align:center;"><img src="/files/programs/specification/SpecProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
 			
@@ -112,7 +113,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<li>Members leave by natural attrition (i.e. resignation).</li>
 				</ul>
 			<p>Maximum membership is limited to 40.</p>
-			<p>The SEC current membership will be openly posted oneline at all times.</p>
+			<p>The SEC current membership will be openly posted online at all times.</p>
 
 			<h3><a name="qualifyingcriteria"></a>Qualifying Criteria</h3>
 			<p>Membership of the SEC is by nomination. New nominations may be made in the following situations:</p>
