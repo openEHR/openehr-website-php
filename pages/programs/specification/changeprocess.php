@@ -12,19 +12,32 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p class="content1"><a href="#lifecycle">Specification Lifecycle</a></p>
-				<p class="content2"><a href="#promotion">Promotion of Specifications</a></p>
-			<p class="content1"><a href="#changemanagement">Change Management</a></p>
-				<p class="content2"><a href="#problemreports">Problem Reports</a></p>
-				<p class="content2"><a href="#changerequests">Change Requests</a></p>
-			<p class="content1"><a href="#creation">Creation of New Specification</a></p>
-				<p class="content2"><a href="#process">Process</a></p>
-				<p class="content2"><a href="#proforma">Specification Pro-forma</a></p>
-				<p class="content2"><a href="#changes">Changes to Existing Trial and Stable Specifications</a></p>
-			<p class="content1"><a href="#faq">Frequently Asled Questions</a></p>
-				
+			<h2><a name="revision_history"></a>Revision History</h2>
+			<table class='TableMain'>
+			  <tr>
+				<th class='TableMainT'> Issue</th>
+				<th class='TableMainT'> Description</th>
+				<th class='TableMainT'> Who</th>
+				<th class='TableMainT'> Accepted</th>
+				<th class='TableMainT'> Date</th>
+			  </tr>
+			  <tr>
+				<td class='TableMainC'> 1.0.0</td>
+				<td class='TableMainC'> Initial Writing</td>
+				<td class='TableMainC'> T Beale</td>
+				<td class='TableMainC'> 
+					K Atalag MD (University of Auckland), <br/>
+					R Chen MD (Cambio Health Systems, Sweden), <br/>
+					G Klein MD (Örebro University School of Business), <br/>
+					I McNicoll MD (FreshEhr), <br/>
+					T Nordheim Alme MD (DIPS asa Norway), <br/>
+					S Iancu (Code24, Netherlands)</td>
+				<td class='TableMainC'> 19 Dec 2014</td>
+			  </tr>
+			</table>
+
 			<h2><a name="introduction"></a>Introduction</h2>
-			<p>This document describes the Change Management Plan of the openEHR Specification Program. Specifications are divided into major Components (identified in the 'Component' column of the <a href="/programs/specification/releases/currentbaseline">current baseline</a>). They are managed by the <a href="/programs/specification/governance">Specifications Editorial Committee (SEC)</a>, according to the process described here. All change and release management is <a href="https://openehr.atlassian.net/browse/SPEC">visible online</a>.</p>
+			<p>This document describes the Change Management of the openEHR Specification Program, and is part of the <a href="/programs/specification/governance">governance Terms of Reference</a> for the program. Specifications are divided into major Components (identified in the 'Component' column of the <a href="/programs/specification/releases/currentbaseline">current baseline</a>). They are managed by the <a href="/programs/specification/governance#sec">Specifications Editorial Committee (SEC)</a>, according to the process described here. All change and release management is <a href="https://openehr.atlassian.net/browse/SPEC">visible online</a>.</p>
 
 			<h2><a name="lifecycle"></a>Specification Lifecycle</h2>
 			<p>All specification artefacts, both documentary and computable follow a lifecycle, from inception (or accession, in the case of donated works) to stability to obsolescence. The following formal lifecycle states are recognised: Planning, Development, Trial, Stable, and Retired. For specifications developed from scratch within openEHR (i.e. not donated), the management is as follows:</p>
@@ -149,17 +162,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 
 			<h2><a name="changemanagement"></a>Change Management</h2>
-			<p>Seen as a whole, the specification library will normally have a  number of Problem Reports (PRs) and Change Requests (CRs) outstanding against it.The processing of PRs and the creation, acceptance and final approval or rejection of CRs is performed by the Specifications Editorial Committee.</p>
+			<p>Seen as a whole, the specification library consists of a number of components, each of which is separately releasable. The canges that can be made to specifications in any component are driven by Problem Reports (PRs) and Change Requests (CRs). The processing of PRs and the creation, acceptance and final approval or rejection of CRs is performed by the Specifications Editorial Committee.</p>
 			
+			<h3><a name="releases"></a>Release Definition</h3>
+			<p>Releases are defined for each Component, as the organising structure for changes. They are normally defined pragmataically, depending on the needs and interests of the community, as understood by the SEC. For example various 'easy' changes may be already described in PRs or CRs, that could be allocated to a release scheduled soon, whereas other changes might be spread over a programme of other releases.</p>
+
 			<h3><a name="problemreports"></a>Problem Reports</h3>
 			<p>PRs raised on the <a href="https://openehr.atlassian.net/browse/SPECPR/">public SPECPR tracker</a> are reviewed on a regular basis by the SEC, and where appropriate,  CRs raised. PR review is carried out online by the SEC either when a new PR is raised, or at least every 3 months.</p>
-			<p>PR review can lead to a number of possibilities. The PR may be rejected, in which case it is resolved as such and closed. For PRs that are accepted, one or more CRs may be created, or the PR may be linked to an existing PR.</p>
+			<p>PR review can lead to a number of possibilities. The PR may be rejected, in which case it is resolved as such and closed. For PRs that are accepted, one or more CRs may be created on the relevant Component CR tracker, or the PR may be linked to an existing PR.</p>
 			<p>PRs that create CRs are referenced by the relevant CRs. When the latter are completed, the relevant PRs are resolved according to the resolutions of the related CRs.</p>
 			<p>CRs are not created for specifications still in development phase; instead, changes are added to the CR used at creation of the specification.</p>
 
 			<h3><a name="changerequests"></a>Change Requests</h3>
 			<p>CRs are generally raised in response to PRs. However, CRs may also be raised separately by SEC members.</p>
-			<p>CRs need to be a) prioritised in importance and b) allocated to releases. A pre-requisite therefore is to define one or more future releases, each with an identifier and expected date of delivery.</p>
+			<p>CRs need to be a) prioritised in importance and b) allocated to releases. A pre-requisite therefore is to define one or more future releases, each with an identifier and expected date of delivery. Allocation to a release may be done at any time, and changed as deemed necessary by the SEC.</p>
 
 			<h4>Creation</h4>
 			<p>New CRs are created by the SEC on the relevant <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">Component Change tracker</a> for the relevant Component. The following information is initially required:</p>
@@ -215,7 +231,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				</li>
 				<li>for <em>major changes</em>:
 				<ul>
-					<li>an open review is conducted during a defined period, e.g.  30 days, seeking comments from the openEHR membership, including the Program members.</li>
+					<li>an open review is conducted during a defined period, e.g.  30 days, seeking comments from the openEHR membership.</li>
 					<li>At the end of this period, the assignee(s) have 2 weeks to re-present the work, taking into account the review feedback.</li>
 					<li>A 2/3 majority of the SEC is required to approve the final presentation of the work, incorporating review responses.
 					<ul>
@@ -234,7 +250,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 
 			<h3><a name="process"></a>Process</h3>
 			<p>New specifications can be proposed by any member of the openEHR community. Formally this is done via either a PR on the SPEC PR tracker, or if the proposer is a Program member, a CR on a <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">Component Change tracker</a> . If the initial need is described in a PR, it will be reviewed by the SEC which may decide to create a CR for it. If this happens, the CR will cover the initial period of establishment of the specification, including its identification and setting of scope.</p>
-			<p>New  specifications need to be compatible with the existing structure and  roadmap of the specification library. For a new specification to be  added, it has to have an identifier, be located within the existing  structure (a new category of specification may require a new location to  be defined), and have a scope defined that is consistent with existing  specifications. These are issued by the SpecificationsEditorial Committee prior to the creation of the initial CR for the specification. The  new specification could potentially replace one or more existing  specifications, in which case the structure and roadmap may be modified; the CR will also document these changes.</p>
+			<p>New  specifications need to be compatible with the existing structure and  roadmap of the specification library. For a new specification to be  added, it has to have an identifier, be located within the existing  structure (a new category of specification may require a new location to  be defined), and have a scope defined that is consistent with existing  specifications. These are issued by the Specifications Editorial Committee prior to the creation of the initial CR for the specification. The  new specification could potentially replace one or more existing  specifications, in which case the structure and roadmap may be modified; the CR will also document these changes.</p>
 			<p>Internationalisation and localisation aspects should also be described.</p>
 			<p>A successful application to add a new specification results in the following being decided by the SEC:</p>
 			<ul>
@@ -286,7 +302,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p><em>Minor changes</em> to specification documents are normally executed by the Component Maintainer making an agreed small change. Validation is performed by internal review, as described above under CR Lifecycle.</p>
 			<p><em>Major changes</em>, typically leading to a new major release of a specification, may be performed by a team, although they can just as easily be performed by a single person. Validation is performed via community-wide open review with a published time limit. Review feedback is posted as comments on the CR. See the Acceptance section above under CR lifecycle.</p>
 
-			
 			<h2><a name="faq"></a>Frequently Asked Questions</h2>
 			
 			<h3>Who can report a problem or propose a change to a specification?</h3>

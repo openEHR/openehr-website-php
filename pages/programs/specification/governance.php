@@ -12,8 +12,32 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
+			<h2><a name="revision_history"></a>Revision History</h2>
+			<table class='TableMain'>
+			  <tr>
+				<th class='TableMainT'> Issue</th>
+				<th class='TableMainT'> Description</th>
+				<th class='TableMainT'> Who</th>
+				<th class='TableMainT'> Accepted</th>
+				<th class='TableMainT'> Date</th>
+			  </tr>
+			  <tr>
+				<td class='TableMainC'> 1.0.0</td>
+				<td class='TableMainC'> Initial Writing</td>
+				<td class='TableMainC'> T Beale</td>
+				<td class='TableMainC'> 
+					K Atalag MD (University of Auckland), <br/>
+					R Chen MD (Cambio Health Systems, Sweden), <br/>
+					G Klein MD (Örebro University School of Business), <br/>
+					I McNicoll MD (FreshEhr), <br/>
+					T Nordheim Alme MD (DIPS asa Norway), <br/>
+					S Iancu (Code24, Netherlands)</td>
+				<td class='TableMainC'> 19 Dec 2014</td>
+			  </tr>
+			</table>
+
 			<h2><a name="introduction"></a>Introduction</h2>
-			<p>This page describes the terms of reference (ToR) for the openEHR Specification Program. The Specification Program has members drawn from the wider openEHR membership, particularly openEHR solution vendors and other implementers for whom the specifications are of concrete importance. Ideally the membership of the Program will include individuals from multiple language groups, cultures as well as with a diversity of technical, clinical and informatics backgrounds.</p>
+			<p>This page and the associated <a href = "/programs/specification/changeprocess">Change Process page</a> constitute the terms of reference (ToR) for the openEHR Specification Program. The Specification Program has members drawn from the wider openEHR membership, particularly openEHR solution vendors and other implementers for whom the specifications are of concrete importance. Ideally the membership of the Program will include individuals from multiple language groups, cultures as well as with a diversity of technical, clinical and informatics backgrounds.</p>
 			<p>The sections below describe in detail how the Specifications Program functions. The essentials are as follows:</p>
 				<ul>
 					<li>A Specifications Editorial Committee (SEC) is the governing body and has between 5 and 40 members, representing major stakeholders, particularly implementers;</li>
@@ -22,6 +46,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 					<li>Decision-making is normally based on consensus, with wider consultation and then formal voting used when no agreement is available.</li>
 				</ul>		
 			<p>The governance provisions here are intended to be as lightweight and transparent as possible, with progress depending primarily on a) the experience and goodwill of the members, and b) on high quality tool support for efficient e-working.</p>
+			<p>Heavy used is made of modern project and issue tracking tools, in order to automate the great majority of the process described here.</p>
 			<p>The Specifications Program will work closely with the other programs to ensure coherence with outputs of the Clinical Modelling Program, implementability for the Software program, and usability in terms of the Localisation Program.</p>
 			<p>The following diagram illustrates the Specifications Program.</p>
 			<p style="text-align:center;"><img src="/files/programs/specification/SpecProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
@@ -100,7 +125,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<ul>
 					<li>to have one member acting as the Maintainer of each Specifications Component;</li>
 					<li>to have sufficient members from the openEHR Industry Partners to be representative of the interests of implementers;</li>
-					<li>to have two or more members with health informatics / clinical expertise, who perform clinical safety review.</li>
+					<li>to have two or more members with health informatics / clinical expertise, who perform clinical impact review.</li>
 				</ul>
 			<p>An absolute minimum of five (5) is required. Beyond this, it is intended that there are members representing:</p>
 				<ul>

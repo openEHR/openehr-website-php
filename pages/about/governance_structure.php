@@ -48,18 +48,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</ul>
 			<p>See members of openEHR Management Board <a href="people_in_governance#managementboard">here</a>.</p>
 			
-			<h2 id="webcommittee">Web Committee</h2>
-			<p>The Web Committee is responsible for the e-presence of openEHR, undertaking the following tasks:</p>
-			<ul>
-				<li>Design & manage the online resources, including website, educational resources, and social media;</li>
-				<li>Respond to and implement board directives relating to online communications.</li>
-			</ul>
-
-			<h2 id="instrastructureadmin">Infrastructure Administration</h2>
-			<p>The Infrastructure admin group is responsible for the computing infrastructure of openEHR, including all online services, hosting etc.</p>
-
-			<h2 id="foundationoffice">Foundation Office</h2>
-			<p>The Foundation Office manages the day-to-day operation of the Foundation and has paid staff. The responsibilities are as follows;</p>
+			<h2 id="administration">Administration</h2>
+			<h3 id="foundationoffice">Foundation Office</h3>
+			<p>The Foundation Office manages the day-to-day operation of the Foundation and has paid staff. The responsibilities are as follows:</p>
 			<ul>
 				<li>Routine administration as required by all parts of the Foundation;</li>
 				<li>Managing communications between the various parts of the Foundation;</li>
@@ -68,10 +59,24 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<li>Running an annual openEHR community conference;</li>
 				<li>Book-keeping and liaising with accountants.</li>
 			</ul>
-			
-			<h2>openEHR Representatives</h2>
-			<p>openEHR Representatives refer to individuals given the capacity by the openEHR Foundation Board to formally represent the openEHR Foundation on openEHR matters, and lead localisation activities in respective locales (e.g. countries, group of countries or language/culture bound groups with one or more jurisdictions). This is part of the <a href="/programs/localisation/governance">Localisation Programme governance structure</a>. The Representatives need to be nominated by the Localisation Programme Committee (LPC) and approved by the Board.</p>
-			
+			<h3 id="webcommittee">Web Committee</h3>
+			<p>The Web Committee is responsible for the e-presence of openEHR, undertaking the following tasks:</p>
+			<ul>
+				<li>Design & manage the online resources, including website, educational resources, and social media;</li>
+				<li>Respond to and implement board directives relating to online communications.</li>
+			</ul>
+			<h3 id="instrastructuregroup">Infrastructure</h3>
+			<p>The Infrastructure admin group is responsible for the computing infrastructure of openEHR, including all online services, hosting etc.</p>
+
+			<h2 id="programs">Programs</h2>
+			<p>Each Program has its own governance Terms of Reference, as follows:</p>
+			<ul>
+				<li><a href="/programs/specification/governance">Specification Program</li>
+				<li><a href="/programs/clinicalmodels/governance">Clinical Program</li>
+				<li><a href="/programs/software/governance">Software Program</li>
+				<li><a href="/programs/localisation/governance">Localisation Program</a></li>
+			</ul>
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
