@@ -158,6 +158,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/archetype_technical_overview.pdf" target="_blank">Archetypes - Technical Overview</a></td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> Technical overview of archetypes, basic semantics, types of artefact, parsing, compiling etc.</td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
+			</tr>
+			<tr style="background-color:#FFFCDC;">
+				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/knowledge_id_system.pdf" target="_blank">Knowledge Artefact identification</a></td>
 				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Formal model of identifiers, versioning and lifecycle for archetypes, templates and terminology subsets.</td>
