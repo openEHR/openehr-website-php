@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<ul>
 				<li><a href="what_is_openehr"  style="line-height:200%">What is openEHR?</a></li>
 				<li><a href="who_is_using_openehr"  style="line-height:200%">Who is using openEHR?</a></li>
-				<li class="progs"><a href="/programs/specification"  style="line-height:200%">openEHR Specifications</a></li>
+				<li class="progs"><a href="/programs/specification/releases"  style="line-height:200%">openEHR Specifications</a></li>
 				<li class="progs"><a href="/programs/clinicalmodels"  style="line-height:200%">openEHR Clinical Models</a></li>
 				<li class="progs"><a href="/programs/software"  style="line-height:200%">openEHR Software</a></li>
 			</ul>
