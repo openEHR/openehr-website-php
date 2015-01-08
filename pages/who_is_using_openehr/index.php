@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<ul>
-				<li><a href="healthcare_providers_and_authorities">Healthcare Providers and Authorities</a></li>
+				<li><a href="healthcare_providers_and_authorities">Deployed Solutions</a></li>
 				<li><a href="funded_research_projects">Funded Research Projects</a></li>
 				<li><a href="nonprofit_and_open_source_organisation">Non-profit and Open Source Organisations</a></li>
 				<li><a href="governments">Governments</a></li>
