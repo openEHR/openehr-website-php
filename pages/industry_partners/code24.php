@@ -11,26 +11,27 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
-			
-			<a href="https://www.code24.nl/" target="_blank"><img src="/files/industry_partners/code24_logo.png" class="IndustryLogoImg"></a>
+			<a href="http://www.code24.nl/en/Home" target="_blank"><img src="/files/industry_partners/code24_logo.jpg" class="IndustryLogoImg"></a>
 			
 			<p><em>Headquarters:</em> The Netherlands</p>
 			<p><em>Size:</em> 7 employees</p>
 			<p><em>Trading since:</em> 2010</p>
-			<p><a href="https://www.code24.nl/" target="_blank">website</a></p>
+			<p><a href="http://www.code24.nl/en/Home" target="_blank">website</a></p>
 			
-			<h2>Services</h2>
-			<p><a href="http://www.code24.nl/consultancy" target="_blank">Consultancy</a></p>
-			<p><a href="http://www.code24.nl/training" target="_blank">Training</a></p>
-			
-			<h2>Solutions</h2>
-			<p>mConsole - Care provider portal</p>
-			<p>Base24 - Clinical Data Repository, based on the openEHR specifications release 1.0.2</p>
+			<h2><a href="http://www.code24.nl/en/Home/Services">Services</a></h2>
+			<p><em>Consultancy</em>: The people behind Code24 have many years of experience within the healthcare sector and are aware of the IT needs that exist within healthcare organisations in the area of medical information. We provide consultancy to assist organisations in setting up the most effective IT architecture and Electronic Health Record environment.</p>
+			<p><em>Training</em>: Code24 provides its courses tailor-made, in line with the needs and preferences of the care organisation concerned. A variety of workshops and training courses about openEHR can be provded.</p>
+
+			<h2><a href="http://www.code24.nl/en/Home/Medische-database">Solutions</a></h2>
+			<p>Code24 offers a wide selection of different solutions for health care organisations. Our two main stream solutions are:</p>
+			<ol>
+			<li>Base24 - a highly advanced Clinical Data Repository that functions as an inexhaustible source of health data, based on the openEHR specifications.</li>
+			<li>mConsole suite - a care provider portal for access to the complete EHR-landscape enriched with a wide variaty of modules.</li>
+			</ol>
+			<p>For a complete overview of the solutions of Code24 please visit <a href="http://www.code24.nl/" target="_blank">our website</a>.</p>
 			
 			<h2>Customers</h2>
-			<p><a href="http://www.ggzfriesland.nl" target="_blank">GGZ Friesland mental health solution</a></p>
-			<p><a href="http://www.ggz-nhn.nl/" target="_blank">GGZ Noord-Holland-Noord e-pharmacy / e-medications solution</a></p>
-			<p><a href="http://www.rkz.nl/" target="_blank">RKZ e-referrals solution</a></p>
+			<p>A wide range and growing number of healthcare institutions are now using solutions produced by Code24 and if their responses are anything to go by, they are certainly satisfied with their choice. See <a href="http://www.code24.nl/en/Home/Referenties" target="_blank">our website</a> for a complete and actual overview of our customers.</p>
 		
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	

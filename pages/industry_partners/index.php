@@ -21,9 +21,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 				<a href="/industry_partners/cambio_healthcare_systems">Learn more</a></td>
 			</tr>
 			<tr>
-				<td><a href="/industry_partners/code24"><img src="/files/industry_partners/code24_logo.png"></a></td>
+				<td><a href="/industry_partners/code24"><img src="/files/industry_partners/code24_logo.jpg"></a></td>
 				<td><h2>Code24</h2>
-				<p>Code24 B.V. is an innovative Dutch established software development company with its main office located in The Netherlands. Code24 has a great passion for IT and the health care environment and is specialised in providing smart and easy to use web based solutions for careproviders, which provides one patient overview even across different health care systems.</p>
+				<p>Code24 B.V. is an innovative software development company located in Alkmaar in the Netherlands. Driven by great passion and dedication, our efforts are devoted entirely to the development of IT applications that can be used in the healthcare sector. We specialise in providing smart, web-based solutions for care providers that are also easy to use. Thanks to those solutions, they are able to rely upon a single, manageable and comprehensive overview of all of their patient's and client's health details, even if that information originates from a variety of systems.</p>
 				<a href="/industry_partners/code24">Learn more</a></td>
 			</tr>
 			<tr>
