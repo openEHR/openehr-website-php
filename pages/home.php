@@ -32,6 +32,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<br/>
 				<br/>
 				<a href="http://members.openehr.org/nominations" target="_blank">Board elections page</a>
+				<br/>
+				<br/>
+				<a href="http://members.openehr.org/2015-Management-Board-Nominees" target="_blank">Current nominations</a>
 				</p>
 				<p><img src="/files/home/membership.jpg"><span class="HomeSubtitle">Membership</span>
 				<br/>
