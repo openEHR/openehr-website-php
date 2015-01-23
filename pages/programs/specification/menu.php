@@ -2,6 +2,7 @@
 			<ul>
 				<li><a href="/programs/specification/releases" <?php if($PageName == 'Releases'){?> class="active"<?php }?>>&nbsp; Releases</a></li>
 				<li><a href="/programs/specification/releases/currentbaseline" <?php if($PageName == 'Current Baseline'){?> class="active"<?php }?>>&nbsp; List of Specifications</a></li>
+				<li><a href="/programs/specification/editorialcommittee" <?php if($PageName == 'Editorial Committee'){?> class="active"<?php }?>>&nbsp; Editorial Committee</a></li>
 				<li><a href="/programs/specification/governance" <?php if($PageName == 'Governance'){?> class="active"<?php }?>>&nbsp; Governance</a></li>
 				<li><a href="/programs/specification/changeprocess" <?php if($PageName == 'Change Process'){?> class="active"<?php }?>>&nbsp; Change Process</a></li>
 				<li><a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">&nbsp; Issue Trackers</a></li>
