@@ -12,13 +12,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>The openEHR Foundation is governed in terms of legal and fiduciary responsibilities by a small number Directors appointed by University College London (UCL) to the openEHR Foundation Board.</p>
+			<p>The openEHR Foundation is governed in terms of legal and fiduciary responsibilities by a small number Directors appointed by University College London (UCL) to the openEHR Board of Governors.</p>
 			<p>Strategic and operational decisions are made by a larger Management Board, representative of the wider community, which includes Members appointed by the various interest groups that make up the openEHR community.</p>
 			<p>The organisational structure below this is based on a division of activities into four Programs: Specifications, Clinical models, Software and Localisation. Work is carried out in projects within these Programs by Program leads and members.</p>
 			<p>The structure is shown below.</p>
 			<p style="text-align:center;"><img src="/files/about/OrganisationalStructure.png" alt="Foundation Governance Structure" title="Foundation Governance Structure" style="border: solid 1px #CCCCCC;" usemap="#orgstructure"></p>
 			<map name="orgstructure">
-				<area shape="rect" coords="206,8,300,62" href="#foundationboard"/>
+				<area shape="rect" coords="206,8,300,62" href="#boardofgovernors"/>
 				<area shape="rect" coords="206,105,300,160" href="#managementboard"/>
 				<area shape="rect" coords="70,208,150,250" href="/programs/specification"/>
 				<area shape="rect" coords="160,208,250,250" href="/programs/clinicalmodels"/>
@@ -27,18 +27,26 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</map> 
 			
 			
-			<h2><a name="foundationboard"></a>Foundation Board</h2>
-			<p>The openEHR Foundation Board oversees the proper functioning of the openEHR Foundation with respect to its charter and status as a not-for-profit organisation. The Foundation Board appoints the Chair and one other Member of the Management Board from the openEHR Foundation Board, to ensure close cooperation and mutual understanding between these two governance groups.</p>
-			<p>The openEHR Foundation Board responsibilities include:</p>
+			<h2><a name="boardofgovernors"></a>Board of Governors</h2>
+			<p>The openEHR Board of Governors oversees the proper functioning of the openEHR Foundation with respect to its charter and status as a not-for-profit organisation. The Board of Governors appoints the Chair and one other Member of the Management Board from the openEHR Board of Governors, to ensure close cooperation and mutual understanding between these two governance groups.</p>
+			<p>The openEHR Board of Governors responsibilities include:</p>
 			<ul>
 				<li>Ensure the organisation remains 'on mission';</li>
 				<li>Maintain strategic connections to the e-health sector;</li>
 				<li>Develop strategy and determine overall priorities for use of funds.</li>
 			</ul>
-			<p>See members of the Foundation Board <a href="people_in_governance#foundationboard">here</a>.</p>
 			
 			<h2 id="managementboard">Management Board</h2>
-			<p>The openEHR Management Board exists to coordinate Programme activities, and ensure they are synchronised with the current priorities of the Foundation Board. Its membership consists of the Chair and one other Member of the Foundation Board. A further five Members of the Management Board are elected; two by Qualified Members working within the 4 Program Areas (Specification, Software, Clinical Modelling, Localisation), two by the Industry Partners Group and 1 by the Academic Partners Group. A further two Management Board positions are available to be appointed by the Management Board, to extend its skill base. The Management Board Chair is entitled to invite additional individuals to attend, as required for specific purposes.</p>
+			<p>The openEHR Management Board exists to coordinate Programme activities, and ensure they are synchronised with the current priorities of the Board of Governors. Its membership consists of five members, with up to three further co-opted positions:
+			<ul>
+				<li>One position appointed by the Board of Governors, from the Board of Governors;</li>
+				<li>Two positions elected by Individual Members;</li>
+				<li>Two positions elected by the Industry Partner Members.</li>
+				<li>Up to three further Individual Members may be co-opted to extend the skill base, where agreed unanimously by the Management Board.</li>
+			</ul>
+			
+			<p>The Management Board Chair is entitled to invite additional individuals to attend, as required for specific purposes.</li>
+			<p>The terms for members of the Management Board will be three years.  Individual Members may stand for a total of three terms.</p>
 			<p>The openEHR Management Board responsibilities include:</p>
 			<ul>
 				<li>Manage requirements gathering and documentation;</li>

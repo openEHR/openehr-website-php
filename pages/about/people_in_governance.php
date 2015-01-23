@@ -12,9 +12,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2 id="foundationboard">Foundation Board</h2>
+			<h2 id="foundationboard">Board of Governors</h2>
 			
-			<h3 style="margin-left:1em;">Dr. Sam Heard - Chair of the Foundation Board (Australia)</h3>
+			<h3 style="margin-left:1em;">Dr. Sam Heard - Chair of the Board (Australia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
