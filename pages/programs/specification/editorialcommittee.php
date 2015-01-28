@@ -49,7 +49,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/DiegoTomasBosca.png"></td>
 				<td width="650px">
-				<p>Diego Boscá received his M. Sc. in Computer Science from Universitat Politècnica de Valencia (UPV) and is currently a predoctoral research fellow at the Biomedical Informatics Group (IBIME) at the ITACA Institute of UPV. He has been involved in the implementation and deployment of health information systems and use of health standards in the real world for over eight years.</p>
+				<p>Diego Boscá received his M. Sc. in Computer Science from Universitat Politècnica de Valencia (UPV) and is currently a predoctoral research fellow at the <a href="http://www.ibime.upv.es/">Biomedical Informatics Group (IBIME) at the ITACA Institute of UPV</a>. He has been involved in the implementation and deployment of health information systems and use of health standards in the real world for over eight years.</p>
 				<p>His experience covers the analysis, design, implementation and deployment of semantically interoperable health information systems using standards such as openEHR, ISO 13606, HL7 CDA. He is a certified HL7 CDA Specialist. He has participated as external advisor at the European epSOS project and as an external expert in the SemanticHealthNet European project. He has worked in the development and governance of the archetypes for the Spanish national shared EHR project. He has participated in several research projects and co-authored more than 30 papers about data integration and standardization of the EHR. Diego is one of the authors of LinkEHR software for archetype-based data integration.</p>
 				<p>Member since: 1 Feb 2015</p>
 				</td>
@@ -79,7 +79,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/HeathFrankel.png"></td>
 				<td width="650px">
-				<p>(HF bio)</p>
+				<p>Heath Frankel is Health Informatics Consultant with 15 years experience in design and development of clinical information systems with an emphasis on shared health records, system interoperability and electronic referrals. In the past, Heath has specialised in Health Level 7 (HL7) clinical messaging and its relationship to Electronic Health Records (EHRs). </p>
+				<p>Heath joined <a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics</a> in 2004 as head of software development. He has designed and overseen the development of Ocean's openEHR clinical modelling tools and EHR application software components and contibutes to the openEHR specification development.</p>
+				<p>Specialties:archetype-based and openEHR application development and integration, HL7 messaging, UML, Software Architecture</p>
 				<p>Member since: 1 Feb 2015</p>
 				</td>
 			</tr>
@@ -119,7 +121,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/ShinjiKobayashi.png"></td>
 				<td width="650px">
-				<p>Shinji KOBAYASHI is senior lecturer of the EHR research unit, Kyoto University. He has worked as a clinical hematology/oncologist and researched clinical informatics. He launched openEHR.jp and leads openEHR localisation in Japan as well as the Ruby implementation of openEHR. This localisation work is now propagating to Asia.</p>
+				<p>Shinji KOBAYASHI is senior lecturer of the <a href="http://ehr.design.kyoto-u.ac.jp/index.en.html">EHR research unit, Kyoto University</a>. He has worked as a clinical hematology/oncologist and researched clinical informatics. He launched openEHR.jp and leads openEHR localisation in Japan as well as the Ruby implementation of openEHR. This localisation work is now propagating to Asia.</p>
 				<p>Member since: 1 Feb 2015</p>
 				</td>
 			</tr>
@@ -132,7 +134,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/BostjanLah.png"></td>
 				<td width="650px">
-				<p>(BL bio)</p>
+				<p>Since joining <a href="http://www.openehr.org/industry_partners/marand">Marand</a>, Bostjan has been involved as lead developer in the design, development and implementation of Think!EHR Platform as health data platform based on openEHR standards designed for real-time, transactional health data storage, query, retrieve and exchange. He leads a team of developers that deliver high quality, cost effective solutions with the focus of adding value for developers, participants and other end users by making the most of new and established technologies.</p>
 				<p>Member since: 1 Feb 2015</p>
 				</td>
 			</tr>
@@ -145,7 +147,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/IMcnicoll.png"></td>
 				<td width="650px">
-				<p>Ian McNicoll was for many years a Glasgow GP and an Honorary Senior Research Associate with CHIME, UCL and an independent clinical informatics consultant, primarily working with Ocean Informatics on openEHR-based projects across Europe. He is acknowledged as one of the UK's leading health infomatics experts. He is a member of the NHS Scotland SCIMP Working Group and serves on the committee of the BCS Primary Health Care Specialist Group.</p>
+				<p>Ian McNicoll was for many years a Glasgow GP and an Honorary Senior Research Associate with CHIME, UCL and an independent clinical informatics consultant, primarily working with <a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics</a> on openEHR-based projects across Europe. He is acknowledged as one of the UK's leading health infomatics experts. He is a member of the NHS Scotland SCIMP Working Group and serves on the committee of the BCS Primary Health Care Specialist Group.</p>
 				<p>Member since: 1 Feb 2015</p>
 				</td>
 			</tr>
