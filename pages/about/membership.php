@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			<p style="text-align:center;"><img src="/files/about/MembershipStructure.png" width="400" alt="openEHR Foundation membership categories" title="openEHR Foundation membership categories"></p>	
 		
 			
-			<h2 id="individualmembership">Individual Participation and Membership</h2>
+			<h2 id="individualmembership">Individual Membership</h2>
 			<p>Individual participation in openEHR is free, and includes access to all openEHR published resources and specifications. Paid membership enables an individual to participate in Foundation elections, nominate for a board position and take part in formal processes. <a href="http://members.openehr.org">Membership site</a>.</p>
 			<table class="TableBasic">
 			<tbody>
@@ -55,7 +55,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</table>
 			
 			
-			<h2>Organisational Membership</h2>
+			<h2>Organisations</h2>
 			<p>Organisational membership currently relates to vendor companies. The openEHR Foundation is interested in proposals from public sector and academic organisations on an equivalent basis for institutional membership.</p>
 			<table class="TableBasic">
 			<tbody>
@@ -91,6 +91,26 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			</tbody>
 			</table>
 				
+			
+			<h2>Frequently Asked Questions</h2>
+			<ul>
+				<li>Q: if my employer is an Industry Partner, does that make me an openEHR Individual Member?
+					<ul>
+						<li>A: No. As an employee of an Industry Partner you can be a member of Program project groups and Editorial Committees but you cannot vote as an Individual Member in Management Board elections or be nominated for a Management Board position. You are, of course, free to register separately as an Individual Member and your employer may pay for your membership, if they wish.</li>
+					</ul>
+				</li>
+				<li>Q: if my employer is an Industry Partner, can I nominate for an Industry Partner position on the Management Board?
+					<ul>
+						<li>A: You will need to be registered as an Individual Member first.</li>
+					</ul>
+				</li>
+				<li>Q: do I need to be an openEHR Member to be on the Editorial Committee of one of the oenEHR programs?
+					<ul>
+						<li>A: No. If your company is an Industry Partner you are entitled to be on the Editorial Committee of one of the openEHR programs.</li>
+					</ul>
+				</li>
+			</ul>
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
