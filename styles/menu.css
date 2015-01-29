@@ -1,104 +1,55 @@
 ﻿.menu {
- list-style:none;
- font:14px Arial,Verdana;
- text-align:center;
- width:960px;
- margin:0 auto}
+width:960px;
+margin:0 auto;
 
+text-align:center;
+font-weight:900;
+}
  
 .menu ul {
- display:none; 
- position:absolute; 
- font:normal 11px Arial,Verdana;
- top:30px;
- left:0px;
- background:#edc172;
- display:none;
- list-style:none;}
+position:absolute;
+top:30px;
+left:0px;
+display:none; 
+
+list-style:none;
+}
 
 .menu li {
- position:relative;
- float:left;
- width:160px;
- z-index:1000;
- }
+position:relative;
+float:left;
+}
  
-.menu a {
- float:left;
- color:#00355f;
- font-weight:900;
- text-decoration:none;
- width:160px;
- height:24px;
- padding-top:6px;
- }
- 
-.menu li span {
- float:left;
- color:#00355f;
- font-weight:900;
- text-decoration:none;
- width:160px;
- height:24px;
- padding-top:6px;
- }
+.menu a, .menu span {
+float:left;
+width:160px;
+height:23px;
+padding-top:7px;
 
- li.menuhover span, li.menuhover li.menuhover span {
- color:#ffffff;
- background:#00355f;}
- 
-.menu ul li {
- float:none;
- border-top:1px solid #eda858;
- width:192px;
- text-align:left;
- height:30px;}
+color:#00355f;
+
+text-decoration:none;
+font-size:14px;
+}
  
 .menu ul li a {
- float:left;
- color:#00355f;
- font-weight:900;
- text-decoration:none;
- width:192px;
- height:24px;
- padding-top:6px;
- }
- 
-.menu ul li a, li.menuhover li a {
- float:none;
- display:block;
- background:none;
- height:22px;
- padding-top:8px;
- color:#00355f;
- }
- 
- li.menuhover li.menuhover li a {
- height:22px;
- padding-top:8px;
- background:#edc172;
- color:#00355f;
- }
- 
-.menu ul li a:hover, li.menuhover li a:hover, li.menuhover li.menuhover li a:hover {
- background:#00355f;
- color:#fff}
- 
-.menu ul li span, li.menuhover li span, li.menuhover li.menuhover li span {
- float:none;
- display:block;
- background:none;
- color:#00355f;
- height:22px;
- padding-top:8px;
- }
- 
-.menu ul ul {
- left:200px;
- top:0px;
- }
+float:none;
+display:block;
+width:192px;
+height:22px;
+padding: 8px 0 0 0;
 
-li.menuhover a
- {color:#fff;
- background:#00355f;}
+color:#00355f;
+background: none;
+border-top: 1px solid #eda858;
+background-color:rgba(249,200,115,0.95);
 
+text-decoration:none;
+text-align:left;
+font-size:12px;
+}
+ 
+li.menuhover a, li.menuhover span, .menu ul li a:hover  {
+background:#00355f;
+color:#ffffff;
+}

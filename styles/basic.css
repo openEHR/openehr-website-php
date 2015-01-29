@@ -1,6 +1,6 @@
 ﻿/* Resetting styles */
 html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,image,mark,meter,nav,output,progress,section,summary,time { margin: 0; padding: 0; border: 0;}
-h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption { font-size: 12px; font-weight: normal; font-style: normal;  font-family:Verdana, Arial, Helvetica, sans-serif; }
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption { font-size: 12px; font-weight: normal; font-style: normal;  font-family:"Trebuchet MS", Helvetica, sans-serif; }
 fieldset,iframe { border: none; }
 ol,ul {list-style: none;}
 caption,th { text-align: left; }
@@ -12,8 +12,9 @@ body {
 background-color:#f3f8fa;
 color:#000000;
 
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:12px;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+/*Verdana, Arial, Helvetica, sans-serif;*/
+font-size:13px;
 line-height:120%;
 }
  

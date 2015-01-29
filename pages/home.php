@@ -13,9 +13,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<ul>
 				<li><a href="what_is_openehr"  style="line-height:200%">What is openEHR?</a></li>
 				<li><a href="who_is_using_openehr"  style="line-height:200%">Who is using openEHR?</a></li>
-				<li class="progs"><a href="/programs/specification/releases"  style="line-height:200%">openEHR Specifications</a></li>
-				<li class="progs"><a href="/programs/clinicalmodels"  style="line-height:200%">openEHR Clinical Models</a></li>
-				<li class="progs"><a href="/programs/software"  style="line-height:200%">openEHR Software</a></li>
+				<li class="progs"><a href="/programs/specification/releases"  style="line-height:200%">Specifications</a></li>
+				<li class="progs"><a href="/programs/clinicalmodels"  style="line-height:200%">Clinical Models</a></li>
+				<li class="progs"><a href="/programs/software"  style="line-height:200%">Software</a></li>
 			</ul>
 		
 		</div>
@@ -23,7 +23,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<div id="MiddleFrame">
 			
 			<div id="NewsImage">
-				<p><img src="/files/home/board.jpg"><span class="HomeSubtitle">Management Board Election Feb 2015</span>
+				<p><img src="/files/home/board.png"><span class="HomeSubtitle">Management Board Election Feb 2015</span>
 				<br/>
 				Nominate now!
 				<br/>
@@ -36,7 +36,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<br/>
 				<a href="http://members.openehr.org/2015-Management-Board-Nominees" target="_blank">Current nominations</a>
 				</p>
-				<p><img src="/files/home/membership.jpg"><span class="HomeSubtitle">Membership</span>
+				<p><img src="/files/home/membership.png"><span class="HomeSubtitle">Membership</span>
 				<br/>
 				Become an openEHR member!
 				<br/>
@@ -50,9 +50,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		</div>
 		
 		<div id="SmallFrame">
-
-			<h1 class="HomeTitle">Industry Partners</h1>
+			<div id="Membership">
+				<a href="/about/membership"><span class="HomeSubtitle2">Membership</span></a>
+				
+				<div id="MembershipFrame">
+					<a href="http://members.openehr.org/join-us" target="_blank">Join Us</a>
+				</div>
+				
+			</div>
+			
 			<div id="PartnersLogo">
+				<a href="/industry_partners"><span class="HomeSubtitle2">Industry Partners</span></a>
 				<p><a href="/industry_partners/cambio_healthcare_systems"><img src="files/industry_partners/cambio_logo.png"></a></p>
 				<p><a href="/industry_partners/code24"><img src="files/industry_partners/code24_logo.png"></a></p>
 				<p><a href="/industry_partners/critical_software"><img src="files/industry_partners/critical_logo.png"></a></p>
