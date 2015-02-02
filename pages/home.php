@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<div id="NewsImage">
 				<p><img src="/files/home/board.png"><span class="HomeSubtitle">Management Board Election Feb 2015</span>
 				<br/>
-				Nominations Closed
+				Voting open until 28 Feb
 				<br/>
 				<br/>
 				<a href="/about/governance_structure">What is the Management Board?</a>
@@ -34,7 +34,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<a href="http://members.openehr.org/page-7745" target="_blank">Board elections page</a>
 				<br/>
 				<br/>
-				<a href="http://members.openehr.org/2015-Management-Board-Nominees" target="_blank">Current nominations</a>
+				<a href="http://members.openehr.org/2015-Management-Board-Nominees" target="_blank">The nominees</a>
 				</p>
 				<p><img src="/files/home/membership.png"><span class="HomeSubtitle">Membership</span>
 				<br/>
