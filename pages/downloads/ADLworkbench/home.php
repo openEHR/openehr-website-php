@@ -103,6 +103,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 						<td> 6x faster on CIMI archetypes; 2x faster on openEHR archetypes; faster startup</td>
 					</tr>
 					<tr>
+						<td> Windows (32-bit)</td>
+						<td> 2.0.6.2784-alpha</td>
+						<td> 02 Feb 2015</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2784-alpha-windows_32bit.exe">.exe installer</a></td>
+						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates.</td>
+					</tr>
+					<tr>
 						<td> Mac OS X 10.9 (Mavericks)<br/></td>
 						<td> 2.0.5.2736</td>
 						<td> 18 Dec 2014</td>
@@ -110,11 +117,25 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 						<td> 6x faster on CIMI archetypes; 2x faster on openEHR archetypes; faster startup</td>
 					</tr>
 					<tr>
+						<td> Mac OS X 10.9 (Mavericks)<br/></td>
+						<td> 2.0.6.2784-alpha</td>
+						<td> 02 Feb 2015</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2784-alpha-macosx_mavericks.dmg">.dmg installer</a></td>
+						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates.</td>
+					</tr>
+					<tr>
 						<td>Linux (32-bit Intel)<br/></td>
 						<td> 2.0.5.2736</td>
 						<td> 18 Dec 2014</td>
 						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5.2736-linux_32bit.tar.bz2">.tar.bz2 archive</a></td>
 						<td> 6x faster on CIMI archetypes; 2x faster on openEHR archetypes; faster startup</td>
+					</tr>
+					<tr>
+						<td>Linux (32-bit Intel)<br/></td>
+						<td> 2.0.6.2784-alpha</td>
+						<td> 02 Feb 2015</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2784-alpha-linux_32bit.tar.bz2">.tar.bz2 archive</a></td>
+						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates.</td>
 					</tr>
 				</tbody>
             </table>
