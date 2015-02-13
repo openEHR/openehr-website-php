@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
 $PageName = 'Modelling Tools';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 ?>
 
 		<div id="Content">
@@ -86,4 +86,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header.php');
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>

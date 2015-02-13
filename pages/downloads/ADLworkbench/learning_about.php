@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
 $PageName = 'About ADL 2';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
 
 		<div id="Content">
@@ -244,4 +244,4 @@ annotations
 					
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>

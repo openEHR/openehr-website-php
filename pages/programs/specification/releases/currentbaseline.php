@@ -1,10 +1,10 @@
 ﻿<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
 $PageName = 'Current Baseline';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
 
 		<div id="Content">
@@ -285,4 +285,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
