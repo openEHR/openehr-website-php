@@ -12,15 +12,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>The current working baseline is <a href="currentbaseline">here</a>.</p>
-			<br/>
-			
 			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Release </th>
 				<th class="TableMainT"> Date</th>
 				<th class="TableMainT"> Description </th>
+			</tr>
+			<tr>
+				<td class="TableMainC"> <a href="currentbaseline">Current baseline</a></td>
+				<td class="TableMainC"> (latest) </td>
+				<td class="TableMainC"> </td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <a href="/releases/1.0.2">Release 1.0.2</a></td>
@@ -40,17 +42,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<tr>
 				<td class="TableMainC"> <em>Release 0.96</em></td>
 				<td class="TableMainC"> 01 August 2005 </td>
-				<td class="TableMainC"> Error correction release. 12 Change Requests </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10017">Release notes.</a></td>
+				<td class="TableMainC"> Error correction release. <br/>12 Change Requests </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10017">Release notes.</a></td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <a href="/releases/0.95"><b>Release 0.95</b></a></td>
 				<td class="TableMainC"> 15 March 2005 </td>
-				<td class="TableMainC"> Basic modelling changes. 17 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10016">Release notes.</a></td>
+				<td class="TableMainC"> Basic modelling changes. <br/>17 Change Requests. </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10016">Release notes.</a></td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <a href="/releases/0.9"><b>Release 0.9</b></a></td>
 				<td class="TableMainC"> 04 May 2004 </td>
-				<td class="TableMainC"> First complete release of openEHR. 84 Change Requests </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10015">Release notes.</a></td>
+				<td class="TableMainC"> First complete release of openEHR. <br/>84 Change Requests </br><a href="http://www.openehr.org/issues/browse/SPEC/fixforversion/10015">Release notes.</a></td>
 			</tr>
 			</tbody>
 			</table>
