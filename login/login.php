@@ -12,7 +12,7 @@ if (isset($_POST['submitted'])) {
 	require_once ('login_functions.php');
 	
 	// Need the database connection:
-	require_once ('../../con_real.php');
+	require_once ($_SERVER['DOCUMENT_ROOT'].'/functions/meta_db_conn.php');
 		
 	// Check the login:
 	

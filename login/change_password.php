@@ -28,7 +28,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<?php
 			
 				//Connect to the database
-				require_once ('../../con_real.php');
+				require_once ('../../db_conn.php');
 				
 				if (isset($_POST['submitted'])) {
 				

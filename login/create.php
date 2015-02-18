@@ -42,7 +42,7 @@ $PageName = 'Create News Items';
 				if (isset($_POST['submitted'])) {
 					
 					//Connect to the database
-					require_once('../../con_real.php'); 
+					require_once ($_SERVER['DOCUMENT_ROOT'].'/functions/meta_db_conn.php');
 					
 					//Initialise an error array
 					$errors = array(); 

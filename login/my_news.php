@@ -30,7 +30,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			
 			<?php
 			//Connect to the database
-			require_once ('../../con_real.php');
+			require_once ($_SERVER['DOCUMENT_ROOT'].'/functions/meta_db_conn.php');
 			
 			//Retrieve users news summary
 			$q = "SELECT item_id, category, title, summary, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE user_id='$usr_id' ORDER BY date DESC";
