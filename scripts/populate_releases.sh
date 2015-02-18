@@ -74,7 +74,7 @@ git tag | grep Release | while read tagname; do
 		do_cmd "mv $dest_parent_dir/$git_repo_pub_dir $targ_dir"
 
 		# now copy some specific web page files to overwrite some old (ugly) index files
-		do_cmd "cp $sites_root$site/pages/programs/specification/releases/$tagid.php $targdir/index.php"
+		do_cmd "cp $sites_root$site/pages/programs/specification/releases/$tagid.php $targ_dir/index.php"
 	else
 		echo $targ_dir already extracted
 	fi
