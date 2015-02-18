@@ -98,6 +98,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 			
 			<?php 
+				$db_conn = "";
 				if ($_SERVER['DOCUMENT_ROOT'] == "www.openehr.org") {
 					$db_conn .= "db_conn.php";
 				}
