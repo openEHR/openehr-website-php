@@ -97,7 +97,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				</div>
 			</div>
 			
-			<?php require_once ('../../con_real.php');?>
+			<?php 
+				if ($_SERVER['DOCUMENT_ROOT'] == "www.openehr.org") {
+					$db_conn .= "db_conn.php";
+				}
+				else {
+					$db_conn .= "db_conn_test.php";
+				}
+				require_once ("../../$db_conn");
+			?>
 			<div id="NewsFrame">
 				<a href="news_events/industry_news" style="color:#023670;"><h1 class="HomeTitle">Industry News</h1></a>
 				<?php
