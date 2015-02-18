@@ -71,7 +71,10 @@ git tag | grep Release | while read tagname; do
 		do_cmd "$git_archive_cmd $tagname $git_repo_pub_dir | tar -x -C $dest_parent_dir"
 
 		# now rename the output dir to its release tag name
-		do_cmd="mv $dest_parent_dir/$git_repo_pub_dir $targ_dir"
+		do_cmd "mv $dest_parent_dir/$git_repo_pub_dir $targ_dir"
+
+		# now copy some specific web page files to overwrite some old (ugly) index files
+		do_cmd "cp $sites_root$site/pages/programs/specification/releases/$tagid.php $targdir/index.php"
 	else
 		echo $targ_dir already extracted
 	fi
@@ -88,3 +91,4 @@ if [ -d $targ_dir ]; then
 fi
 do_cmd "$git_archive_cmd master $git_repo_pub_dir | tar -x -C $dest_parent_dir"
 do_cmd "mv $dest_parent_dir/$git_repo_pub_dir $targ_dir"
+
