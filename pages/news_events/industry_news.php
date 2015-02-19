@@ -14,7 +14,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<?php
 			//Connect to the database
-			require_once ('../../../con_real.php');
+			require_once ($_SERVER['DOCUMENT_ROOT'].'/functions/meta_db_conn.php');
 			
 			if ( (isset($_GET['id'])) && (is_numeric($_GET['id'])) ) {
 				$news_id = intval($_GET['id']);
