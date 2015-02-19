@@ -28,7 +28,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<?php
 			
 				//Connect to the database
-				require_once ('../../db_conn.php');
+				require_once ($_SERVER['DOCUMENT_ROOT'].'/functions/meta_db_conn.php');
 				
 				if (isset($_POST['submitted'])) {
 				
@@ -107,7 +107,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							
 							//Include the footer and quit the script
 							echo "\n\t\t".'</div>';
-							include ('../templates/_footer.php');
+							include ($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');
 							exit();
 							
 						} else { //Invalid user_id/password combination
@@ -147,4 +147,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>

@@ -141,7 +141,7 @@ $PageName = 'Create News Items';
 							echo '<p><a href="user_home">>> Back to User Home</a></p>';
 						}
 						echo "\n\t\t".'</div>';
-						include '../templates/_footer.php';
+						include $_SERVER['DOCUMENT_ROOT'].'/templates/_footer_login.php';
 						exit();
 						
 					}
@@ -179,4 +179,4 @@ $PageName = 'Create News Items';
 			
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 			</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer_login.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer_login.php');?>

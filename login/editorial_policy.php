@@ -58,4 +58,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
