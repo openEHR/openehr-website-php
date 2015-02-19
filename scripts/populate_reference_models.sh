@@ -79,5 +79,5 @@ eval $git_repo_find_cmd | while read repo_dir; do
 	elif [ ! -d $targ_parent_dir ]; then
 		mkdir -p $targ_parent_dir
 	fi
-	do_cmd "cp -r $src_dir $targ_parent_dir"
+	do_cmd "cp -rup $src_dir $targ_parent_dir"
 done
