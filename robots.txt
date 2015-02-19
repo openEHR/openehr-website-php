@@ -4,3 +4,5 @@ Disallow: /files
 Disallow: /gui
 Disallow: /functions
 Disallow: /templates
+Disallow: /scripts
+Disallow: /styles
