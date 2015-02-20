@@ -11,9 +11,10 @@
 #
 # ============== Definitions =============
 #
+domain=openehr.org
 git_repo=reference-models
 git_repo_clone_dir=/var/www/git/$git_repo
-sites_root=/var/www/vhosts/openehr.org/
+sites_root=/var/www/vhosts/$domain/
 git_repo_find_cmd="find . -maxdepth 4 -type d -wholename './models/*/Release-*/*'"
 git_remove_local_changes="git clean -d -f"
 git_pull_cmd="git pull"
@@ -39,7 +40,7 @@ do_cmd () {
 #
 site=${PWD#$sites_root}
 site=${site%%/*}
-echo "------ exporting $t_repo Git repo to site $site"
+echo "------ exporting $git_repo Git repo to site $site"
 
 
 echo "checking existence of $release_dir"

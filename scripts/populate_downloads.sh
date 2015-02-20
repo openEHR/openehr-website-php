@@ -14,7 +14,7 @@ src_build_domain_root=$src_build_root$domain/
 download_files_dir=download_files
 src_domain_files_root=$src_build_domain_root$download_files_dir
 
-sites_root=/var/www/vhosts/$domain
+sites_root=/var/www/vhosts/$domain/
 
 #
 # ============== functions =============
