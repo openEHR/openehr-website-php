@@ -176,6 +176,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h3><a name="changerequests"></a>Change Requests</h3>
 			<p>CRs are generally raised in response to PRs. However, CRs may also be raised separately by SEC members.</p>
 			<p>CRs need to be a) prioritised in importance and b) allocated to releases. A pre-requisite therefore is to define one or more future releases, each with an identifier and expected date of delivery. Allocation to a release may be done at any time, and changed as deemed necessary by the SEC.</p>
+			<p>The lifecycle of a CR is shown below.</p>
+			<p style="text-align:center;"><img src="/files/programs/specification/CR_workflow.png" alt="CR Workflow" style="border: solid 1px #CCCCCC;"></p>
 
 			<h4>Creation</h4>
 			<p>New CRs are created by the SEC on the relevant <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">Component Change tracker</a> for the relevant Component. The following information is initially required:</p>
@@ -196,11 +198,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>For every CR accepted, the following information is added:</p>
 			<ul>
 				<li>planned date of completion;</li>
-				<li>estimated  of number of days' work;</li>
-				<li>assignment of an SEC member by the relevant Component Maintainer, who acts as the Change  Owner (CO) (who becomes an 'assignee' on the CR). The CO's  responsibility is to manage the CR to completion (which  occasionally  will be an obsolete state) - essentially this means  ensuring the  process is followed and the actual work is done on time;</li>
-				<li>classification as minor, major, critical, reflecting the size of change and impact to users.</li>
+				<li>estimate: estimation of number of days' work;</li>
+				<li>assignee: allocation of an SEC member by the relevant Component Maintainer, who acts as the Change  Owner (CO) (who becomes an 'assignee' on the CR). The CO's  responsibility is to manage the CR to completion (which  occasionally  will be an obsolete state) - essentially this means  ensuring the  process is followed and the actual work is done on time;</li>
+				<li>priority: minor, major, critical, reflecting the size of change and impact to users.</li>
 			</ul>
-			<p>The Change Owner is now responsible for obtaining the following information from the SEC:</p>
+			<p>The Change Owner (assignee) is now responsible for developing the following:</p>
 			<ul>
 				<li>impact assessment;</li>
 				<li>detailed description of proposed changes;</li>
@@ -235,10 +237,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<li>At the end of this period, the assignee(s) have 2 weeks to re-present the work, taking into account the review feedback.</li>
 					<li>A 2/3 majority of the SEC is required to approve the final presentation of the work, incorporating review responses.
 					<ul>
-						<li>Ideally, concerns (e.g. that the changes are acceptable but  insufficient) of dissenting members should be addressed through further  CRs, if appropriate.</li>
+						<li>Ideally, concerns (e.g. that the changes are acceptable but insufficient) of dissenting members should be addressed through further  CRs, if appropriate.</li>
 					</ul>
 					</li>
-					<li>If passed, the change is committed to the specification library.</li>
+					<li>If accepted, the change is committed to the specification library.</li>
 					<li>If not, the review process is re-entered.</li>
 					<li>If a change is not approved in 3 rounds of review, it is rejected and closed.</li>
 				</ul>
