@@ -32,30 +32,23 @@ do_cmd () {
 #
 site=${PWD#$sites_root}
 site=${site%%/*}
-echo "------ copying $src_domain_files_root to $sites_root/$site"
+site_dir=$sites_root$site
+echo "------ copying $src_domain_files_root to $site_dir/$download_files_dir"
 
 
 echo "checking existence of $download_files_dir"
-site_dir=$sites_root$site
 cd $site_dir
 if [ ! -d $download_files_dir ]; then
 	mkdir $download_files_dir
 	echo "created $download_files_dir in $site_dir"
 fi
 
-dest_parent_dir=$site_dir/$download_files_dir
-echo "Target location: $dest_parent_dir"
-
 #
 # ============= get build up to date ============
 #
 
 #
-# ============= Do the extraction =============
-# convert a repo source directory like 
-#	./models/<publisher>/Release-<release>/<formalism>
-# to a terget directory like:
-# 	releases/<release>/reference_models/<publisher>/<formalism>
+# ============= Do the copy =============
 #
 
 do_cmd "cp -rup $src_domain_files_root/* $download_files_dir"
