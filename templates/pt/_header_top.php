@@ -55,7 +55,7 @@
 			if( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'],'logout.php')) ) { 
 				echo '<a href="/login/user_home">User Home</a> | <a href="/login/logout">Logout</a> |';
 			} 
-			?> <a href="/pt/about_this_website">Sobre esse Sítio</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="http://www.openehr.org/ckm">CKM</a>
+			?> <a href="/pt/about_this_website">About this Website</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="/issues" target="_blank">Jira</a> | <a href="http://www.openehr.org/ckm">CKM</a>
 		
 		</div>
 		
