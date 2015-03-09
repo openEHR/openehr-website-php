@@ -1,4 +1,5 @@
 <?php
+header('Content-type: text/html; charset=utf-8');
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
@@ -47,14 +48,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</table>
 			<br/>
 			
-			<h3 style="margin-left:1em;">Tomaž Gornik (Slovenia)</h3>
+			<h3 style="margin-left:1em;">TomaÂž Gornik (Slovenia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/TomazGornik.png"></td>
 				<td width="650px">
-				<p>Tomaž is the co-founder of Marand d.o.o. (Slovenia), and is a director and experienced manager of a large group of developers building world-class software products for more than 20 years. He is always challenging his team to build better software using state-of-the-art technology, architectures and processes. He has a deep understanding of software platforms, architecture, deployment and business models.</p>
-				<p>Tomaž has a proven track record delivering innovative turn-key solutions for large clients in telecommunications, finance and healthcare. He has been speaker at conferences including TeleManagement Forum, HIMSS and Health 2.0.</p>
+				<p>TomaÂž is the co-founder of Marand d.o.o. (Slovenia), and is a director and experienced manager of a large group of developers building world-class software products for more than 20 years. He is always challenging his team to build better software using state-of-the-art technology, architectures and processes. He has a deep understanding of software platforms, architecture, deployment and business models.</p>
+				<p>TomaÂž has a proven track record delivering innovative turn-key solutions for large clients in telecommunications, finance and healthcare. He has been speaker at conferences including TeleManagement Forum, HIMSS and Health 2.0.</p>
 				<p>Elected Feb 2015.</p>
 				</td>
 			</tr>
