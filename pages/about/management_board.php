@@ -85,7 +85,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/IMcnicoll.png"></td>
 				<td width="650px">
-				<p>Ian McNicoll was for many years a Glasgow GP and an Honorary Senior Research Associate with CHIME, UCL and an independent clinical informatics consultant, primarily working with Ocean Informatics on openEHR-based projects across Europe. He is a member of the NHS Scotland SCIMP Working Group and serves on the committee of the BCS Primary Health Care Specialist Group.</p>
+				<p>Ian is a former Scottish GP,  and has been involved in healthcare informatics for nearly 30 years, working with and promoting openEHR technologies for the last 8 years, initially through his role in Ocean Informatics and latterly as an independent consultant.</p>
+				<p>His current focus is on the promotion of an open e-health platform ecosystem, with openEHR at its core, and the development of the related <a href="http://handihealth.org/introducing-handi-open-platform-demonstrator-handi-hopd/">HANDIhealth Development Platform</a>, adopted by NHS England as a key part of their Code4Health initiative.</p>
 				<p>Elected Feb 2015.</p>
 				</td>
 			</tr>
