@@ -27,7 +27,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tbody>
 			</table>
 			
-			<h3 style="margin-left:1em;">Thomas Beale FBCS CITP (United Kingdom)</h3>
+			<h3 style="margin-left:1em;">Thomas Beale FBCS CITP (United Kingdom) [PROGRAM LEAD]</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

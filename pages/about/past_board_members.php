@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
-$PageName = 'People in Governance';
+$PageName = 'Past Board Members';
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 ?>
@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2 id="foundationboard">Board of Governors</h2>
+			<h2 id="foundationboard">Board of Governors 2012 - Feb 28 2015</h2>
 			
 			<h3 style="margin-left:1em;">Dr. Sam Heard - Chair of the Board (Australia)</h3>
 			<table class="TableInvisible">
@@ -58,7 +58,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</table>
 			
 			
-			<h2 id="managementboard">Management Board</h2>
+			<h2 id="managementboard">Management Board 2012 - Feb 28 2015</h2>
 		
 			<h3 style="margin-left:1em;">Dr. Sam Heard (Australia)</h3>
 			<table class="TableInvisible">
@@ -170,60 +170,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tbody>
 			</table>
 			<br/>
-			
-			<h2 id="programleaders">Program Leads</h2>
-			
-			<h3 style="margin-left:1em;">Thomas Beale - Specification Program (United Kingdom)</h3>
-			<table class="TableInvisible">
-			<tbody>
-			<tr>
-				<td style="text-align:center;"><img src="/files/about/TBeale.png"></td>
-				<td width="650px">
-				<p>Thomas's academic background is in Electrical Engineering (communications) and Computer Science. Since 1998, he has worked on EHR architectures and archetypes, and participated in international standards work (OMG HDTF, HL7, CEN TC/251). He is one of the founders of the openEHR Foundation, and designed the archetype formalism (ADL) and object model (AOM), now an ISO standard. He has published a number of <a href="http://wolandscat.net/publications/">papers in health informatics</a>. He has also presented widely on EHRs, e-Health and archetypes.</p>
-				<p><a href="http://wolandscat.net/">Blog</a>.</p>
-				</td>
-			</tr>
-			</tbody>
-			</table>
-
-			<h3 style="margin-left:1em;">Dr. Heather Leslie - Clinical Models Program (Australia)</h3>
-			<table class="TableInvisible">
-			<tbody>
-			<tr>
-				<td style="text-align:center;"><img src="/files/about/HLeslie.png"></td>
-				<td width="650px">
-				<p>Heather Leslie (MBBS, FRACGP, FACHI) is a General Practitioner and has participated in high-level health IT strategy development, as well as taking a hands-on role in creating software applications for use by Australian primary care clinicians and consumers. She was a leader in Personal Health Record development in Australia, supporting consumers to take a more active role in their health care, and this remains a strong personal interest. Heather joined Ocean Informatics in 2005, taking on a lead role in the authoring, review and governance of openEHR archetypes and templates.</p>
-				<p><a href="http://omowizard.wordpress.com/">Blog</a>.</p>
-				</td>
-			</tr>
-			</tbody>
-			</table>
-			
-			<h3 style="margin-left:1em;">Erik Sundvall MSc - Software Program (Sweden)</h3>
-			<table class="TableInvisible">
-			<tbody>
-			<tr>
-				<td style="text-align:center;"><img src="/files/about/ESundvall"></td>
-				<td width="650px">
-				<p>Erik Sundvall has an MSc in Information Technology, and PhD in Medical informatics from Link&ouml;ping University, Sweden. Recent activities focus on trying to tie things together via implementation of an openEHR based educational EHR system (LiU EEE) enabling reusable patient overview system at the same time as it is a test platform for a scalable REST based openEHR component/service design that aims to make it easier to deploy openEHR based systems by putting together components from different projects/vendors/platforms. Erik has also supervised several student projects and MSc thesis, e.g. one leading to the first openEHR Archetype editor in Java.</p>
-				<p> <a href="http://www.imt.liu.se/~erisu/">Research page</a>.</p>
-				</td>
-			</tr>
-			</tbody>
-			</table>
-			
-			<h3 style="margin-left:1em;">Dr. Koray Atalag - Localisation Program (New Zealand)</h3>
-			<table class="TableInvisible">
-			<tbody>
-			<tr>
-				<td style="text-align:center;"><img src="/files/about/KAtalag"></td>
-				<td width="650px">
-				<p>Having trained in Medicine and completing PhD in Information Systems, Koray's main focus is on Electronic Health Records (EHR). He has led development of a number of successful applications. The most prominent one is the <a href="http://pathos-web.sourceforge.net">PATHOS-WEB Project</a> for reporting and analysis in anatomical pathology. Installed in some 25 large laboratories in Turkey, more than two million records have been collected since 1996. In order for health informatics to be recognised as an academic discipline he played a key role during establishment of the Department of Medical Education and Informatics at Hacettepe University. Koray then led work for the development of health informatics curriculum and a graduate program in health informatics.</p>
-				<p><a href="http://openehrnz.wordpress.com/author/atalagk/">Blog</a>.</p>
-				</td>
-			</tr>
-			</tbody>
-			</table>
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
