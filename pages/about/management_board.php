@@ -38,10 +38,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tr>
 				<td style="text-align:center;"><img src="/files/about/RChen.png"></td>
 				<td width="650px">
-				<p>Rong Chen is the Chief Medical Informatics Officer and the head of Medical Informatics Group at Cambio Healthcare Systems, Sweden. <p>He’s responsible for the research and development in clinical decision support and knowledge management at Cambio.</p>
-				Rong holds a PhD degree in health informatics on the subject of EHR semantic interoperability from Linköping University, Sweden. He is an associated researcher at the Health Informatics Centre at Karolinska Institutet, where he lectures and supervises PhD and master students.</p>
-				<p>Rong has contributed to several core openEHR design specifications, and has for many years led the openEHR Reference Java Implementation of openEHR. Rong is the lead author of Guideline Definition Language (GDL), which is designed to express clinical logic for scalable decision support with openEHR underpinning.</p>
+				<p> Rong Chen is the Chief Medical Informatics Officer and the head of Medical Informatics Group at Cambio Healthcare Systems, Sweden. He’s responsible for the research and development in clinical decision support and knowledge management at Cambio.</p>
+				<p>Rong holds a PhD degree in health informatics on the subject of EHR semantic interoperability from Linköping University, Sweden, and he has bachelor degree of clinical medicine from Shanghai Medical University. He is an associated researcher at the Health Informatics Centre at Karolinska Institutet, where he lectures and supervises PhD and master students.</p>
+				<p>Rong has contributed to several core openEHR design specifications, and has for many years led the openEHR Reference Java Implementation of openEHR. Rong is the lead author of Guideline Definition Language (GDL), which is formal language designed to express clinical logic for sharable decision support applications across languages and technical barriers.</p>
 				<p>Elected Feb 2015.</p>
+				<p> 
+					<a href="http://se.linkedin.com/in/ronch"><img src="/gui/social/linkedin-icon.png"/></a>
+					<a href="https://twitter.com/chenron"><img src="/gui/social/twitter-icon.png"/></a>
+				</p>
 				</td>
 			</tr>
 			</tbody>
