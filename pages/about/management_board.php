@@ -43,8 +43,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Rong has contributed to several core openEHR design specifications, and has for many years led the openEHR Reference Java Implementation of openEHR. Rong is the lead author of Guideline Definition Language (GDL), which is formal language designed to express clinical logic for sharable decision support applications across languages and technical barriers.</p>
 				<p>Elected Feb 2015.</p>
 				<p> 
-					<a href="http://se.linkedin.com/in/ronch"><img src="/gui/social/linkedin-icon.png"/></a>
-					<a href="https://twitter.com/chenron"><img src="/gui/social/twitter-icon.png"/></a>
+					<a href="http://se.linkedin.com/in/ronch"><img height="24" width="24" src="/gui/social/linkedin-icon.png"/></a>
+					<a href="https://twitter.com/chenron"><img height="24" width="24" src="/gui/social/twitter-icon.png"/></a>
 				</p>
 				</td>
 			</tr>
