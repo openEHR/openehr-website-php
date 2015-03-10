@@ -84,7 +84,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td style="text-align:center;"><img src="/files/about/KAtalag"></td>
 				<td width="650px">
 				<p>Having trained in Medicine and completed PhD in Information Systems, Koray's main focus is on Electronic Health Records (EHR). He has led development of a number of successful applications. The most prominent one is the <a href="http://pathos-web.sourceforge.net">PATHOS-WEB Project</a> for reporting and analysis in anatomical pathology. Installed in some 25 large laboratories in Turkey, more than two million records have been collected since 1996. In order for health informatics to be recognised as an academic discipline he played a key role during establishment of the Department of Medical Education and Informatics at Hacettepe University. Koray then led work for the development of health informatics curriculum and a graduate program in health informatics.</p>
-				<p><a href="http://openehrnz.wordpress.com/author/atalagk/">Blog</a>.</p>
 				<p>Elected Feb 2015.</p>
 				<p> 
 					<a href="http://openehrnz.wordpress.com/author/atalagk/" target="_blank"><img height="24" width="24" src="/gui/social/wordpress-icon.png"/></a>
