@@ -25,6 +25,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>This work began with the Good European Health Record in the early 90s, continued through a long collaboration with Thomas Beale and CHIME at UCL, the establishment of Ocean Informatics as a commercial vehicle to assist in the vision and culminating in setting up the openEHR Foundation in London in 2002.</p>
 				<p>The work has continued as a Director of the openEHR Foundation, CEO until 2012 and now as Chairman of Ocean Informatics and most recently as Chairman of the openEHR Foundation. Sam was a foundation co-Chair of the HL7 EHR Technical Committee and has worked extensively with the UK and Australian national programs to utilise and refine the openEHR method.</p>
 				<p>Member since Feb 2015.</p>
+				<p> 
+					<a href="http://www.linkedin.com/pub/sam-heard/1/49a/4b1" target="_blank"><img height="24" width="24" src="/gui/social/linkedin-follow.png"/></a>
+					<a href="http://twitter.com/samheardoi" target="_blank"><img height="24" width="24" src="/gui/social/twitter-follow.png"/></a>
+				</p>
 				</td>
 			</tr>
 			</tbody>
@@ -43,8 +47,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Rong has contributed to several core openEHR design specifications, and has for many years led the openEHR Reference Java Implementation of openEHR. Rong is the lead author of Guideline Definition Language (GDL), which is formal language designed to express clinical logic for sharable decision support applications across languages and technical barriers.</p>
 				<p>Elected Feb 2015.</p>
 				<p> 
-					<a href="http://se.linkedin.com/in/ronch" target="_blank"><img height="24" width="24" src="/gui/social/linkedin-icon.png"/></a>
-					<a href="https://twitter.com/chenron" target="_blank"><img height="24" width="24" src="/gui/social/twitter-icon.png"/></a>
+					<a href="http://se.linkedin.com/in/ronch" target="_blank"><img height="24" width="24" src="/gui/social/linkedin-follow.png"/></a>
+					<a href="http://twitter.com/chenron" target="_blank"><img height="24" width="24" src="/gui/social/twitter-follow.png"/></a>
 				</p>
 				</td>
 			</tr>
@@ -61,6 +65,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Tomaž is the co-founder of Marand d.o.o. (Slovenia), and is a director and experienced manager of a large group of developers building world-class software products for more than 20 years. He is always challenging his team to build better software using state-of-the-art technology, architectures and processes. He has a deep understanding of software platforms, architecture, deployment and business models.</p>
 				<p>Tomaž has a proven track record delivering innovative turn-key solutions for large clients in telecommunications, finance and healthcare. He has been speaker at conferences including TeleManagement Forum, HIMSS and Health 2.0.</p>
 				<p>Elected Feb 2015.</p>
+				<p> 
+					<a href="http://si.linkedin.com/pub/tomaz-gornik/2/70b/473/en" target="_blank"><img height="24" width="24" src="/gui/social/linkedin-follow.png"/></a>
+					<a href="http://twitter.com/marandlab" target="_blank"><img height="24" width="24" src="/gui/social/twitter-follow.png"/></a>
+				</p>
 				</td>
 			</tr>
 			</tbody>
@@ -78,6 +86,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Having trained in Medicine and completed PhD in Information Systems, Koray's main focus is on Electronic Health Records (EHR). He has led development of a number of successful applications. The most prominent one is the <a href="http://pathos-web.sourceforge.net">PATHOS-WEB Project</a> for reporting and analysis in anatomical pathology. Installed in some 25 large laboratories in Turkey, more than two million records have been collected since 1996. In order for health informatics to be recognised as an academic discipline he played a key role during establishment of the Department of Medical Education and Informatics at Hacettepe University. Koray then led work for the development of health informatics curriculum and a graduate program in health informatics.</p>
 				<p><a href="http://openehrnz.wordpress.com/author/atalagk/">Blog</a>.</p>
 				<p>Elected Feb 2015.</p>
+				<p> 
+					<a href="http://openehrnz.wordpress.com/author/atalagk/" target="_blank"><img height="24" width="24" src="/gui/social/wordpress-icon.png"/></a>
+					<a href="http://www.linkedin.com/pub/koray-atalag/0/5aa/b32" target="_blank"><img height="24" width="24" src="/gui/social/linkedin-follow.png"/></a>
+					<a href="http://twitter.com/atalagk" target="_blank"><img height="24" width="24" src="/gui/social/twitter-follow.png"/></a>
+				</p>
 				</td>
 			</tr>
 			</tbody>
@@ -92,6 +105,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Ian is a former Scottish GP,  and has been involved in healthcare informatics for nearly 30 years, working with and promoting openEHR technologies for the last 8 years, initially through his role in Ocean Informatics and latterly as an independent consultant.</p>
 				<p>His current focus is on the promotion of an open e-health platform ecosystem, with openEHR at its core, and the development of the related <a href="http://handihealth.org/introducing-handi-open-platform-demonstrator-handi-hopd/">HANDIhealth Development Platform</a>, adopted by NHS England as a key part of their Code4Health initiative.</p>
 				<p>Elected Feb 2015.</p>
+				<p> 
+					<a href="http://uk.linkedin.com/in/ianmcnicoll/" target="_blank"><img height="24" width="24" src="/gui/social/linkedin-follow.png"/></a>
+					<a href="http://twitter.com/ianmcnicoll" target="_blank"><img height="24" width="24" src="/gui/social/twitter-follow.png"/></a>
+				</p>
 				</td>
 			</tr>
 			</tbody>
