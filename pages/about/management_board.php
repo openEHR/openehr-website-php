@@ -15,7 +15,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h2 id="bogrep">Board of Governors representative</h2>
 
-			<h3 style="margin-left:1em;">Sam Heard MD, FRACGP, MRCGP, FACHI (Australia) [CHAIR]</h3>
+			<h3 style="margin-left:1em;">Sam Heard MD, FRACGP, MRCGP, FACHI (Australia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
@@ -77,7 +77,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h2 id="memberreps">Membership representatives</h2>
 
-			<h3 style="margin-left:1em;">Koray Atalag MD, PhD - Localisation Program (New Zealand)</h3>
+			<h3 style="margin-left:1em;">Koray Atalag MD, PhD (New Zealand)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
