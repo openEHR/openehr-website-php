@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<div id="NewsImage">
 				<p><img src="/files/home/board.png"><span class="HomeSubtitle">Management Board Election Feb 2015</span>
 				<br/> Voting completed 28 Feb <br/>
-				<br/> <a href="/about/news_events/community_news.php?id=120">Election Results</a> <br/>
+				<br/> <a href="/news_events/community_news.php?id=120">Election Results</a> <br/>
 				<br/> <a href="/about/management_board">New Management Board</a> <br/>
 				</p>
 
