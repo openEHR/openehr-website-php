@@ -160,6 +160,39 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>Contracted Sep 2012; deployed Q2 2013</td>
 			</tr>
 			<tr>
+				<td rowspan="1"><img src="/files/who_is_using_openehr/sweden_flag.png" alt="Flag of Sweden" title="Flag of Sweden" style="width:80px;"><p>Sweden</p></td>
+				<td>Cambio COSMIC customers in Europe including: 
+					<p>Sweden:</p>
+						<ul>
+							<li>Capio St Göran Hospital (Stockholm)</li>
+							<li>Region Jönköpings Län</li>
+							<li>Region Östergötland</li>
+							<li>Landstinget i Karmar Län</li>
+							<li>Region Kronoberg</li>
+							<li>Landstinget Västmanland</li>
+							<li>Landstignet i Värmland</li>
+							<li>Landstinget i Uppsala Län</li>
+							<li>Region Jämtland</li>
+						</ul>
+					<p>Denmark:</p>
+						<ul>
+							<li>South Region</li>
+						</ul>
+					<p>United Kingdom:</p>
+						<ul>
+							<li><a href="http://www.pah.nhs.uk/">Princess Alexandra Hospital - NHS trust</a></li>
+							<li><a href="http://www.inhealthgroup.com/">InHealth UK</a></li>
+							<li><a href="http://www.ramsayhealth.co.uk/">Ramsay Healthcare UK</a></li>
+						</ul>
+				</td>
+				<td>
+					<p>The openEHR archetype-based Cambio COSMIC 8.1 s being rolled out to 8 regions (30% of Swedish EHR market) in 2015 and onwards. Some of these deployments are among the largest in Europe covering more than half million population with one instance that covers entire healthcare delivery across primary care centres, regional hospitals and University hospital.</p>
+					<p>The new COSMIC Clinical Decision Support (CDS) product line is built entirely based on openEHR archetypes and <a href="https://github.com/openEHR/gdl-tools/wiki">Guideline Definition Language (GDL)</a>. In 2014, the Cambio Stroke Prevention CDS application was tested successfully at 5 clinics in Östergötland. The CDS products will be gradually deployed to the Cambio Swedish region  customersfrom this 2015.</p>
+				</td>
+				<td><a href="http://www.openehr.org/industry_partners/cambio">Cambio Healthcare, Sweden</a></td>
+				<td>Deploying 2014, 2015, ...</td>
+			</tr>
+			<tr>
 				<td><img src="/files/who_is_using_openehr/uk_S.gif" alt="Flag of United Kingdom" title="Flag of United Kingdom" style="width:80px;"><p>UK</p></td>
 				<td><a href="http://www.leedsnorthccg.nhs.uk/about-us/leeds-care-record.htm" target="_blank">NHS Leeds North Clinical Commissioning Group</a></td>
 				<td>The Leeds Care Record is a city-wide community-based shared health records system that enables clinicians at Leeds Hospital to see GP records of admitted patients, and GPs to see other GP records (e.g. in case of patient move). It aims to support 'source of truth' key health data such as medications list, problem list and shared care plan. Based on established industry standards including openEHR.</td>
