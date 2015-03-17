@@ -91,10 +91,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 			<tr>
 				<td><img src="/files/who_is_using_openehr/Flag_of_Norway.png" alt="Flag of Norway" title="Flag of Norway" style="width:80px;"><p>Norway</p></td>
-				<td>The DIPS EPR solution is in use in over 70% of Norwegian hospitals, in 3 of the 4 regions in Norway.</td>
-				<td>DIPS Arena, based on openEHR archetypes and release 1.0.2 is being rolled out across the country to DIPS hospitals using the existing DIPS 'classic' system. Components include Electronica Patient Record / Hospital Information System / GP communications</td>
+				<td>The DIPS EPR solution is in use in 3 of the 4 regions in Norway, corresponding to about 85% of beds.</td>
+				<td>
+					<p>DIPS Arena, based on openEHR archetypes and release 1.0.2 is being rolled out across the country from 2014 - 2018 to DIPS hospitals using the existing DIPS 'classic' system. The first production version of DIPS Arena was put in production at Oslo University Hospital on October 2014 alongside the current DIPS Classic. As of now the trauma center and the orthopedic ER are using archetypes for documentation. OUS are expanding the use of Arena to other areas, first up is a large clinic for STDs where archetypes are now under development and will support both clinical notes and patient self registrations which are used both for the clinicians and for public health reporting. During 2015 the medication solution will be converte to be fully archetype based, and similarly the CPOE-modules.</p>
+					<p>The two other regions are in different stages of planning. The Nordic region will start using our surgery planning system which is fully archetype based in September and will receive modules for psychiatry by the end of the year. Similarly the western regions plan to start implementation projects for outpatient clinics this fall, with projected startup January 2016.</p>
+					<p>DIPS also cooperates on the national ICT archetype development project, utilising the <a href="http://arketyper.no/ckm/">Norwegian CKM</a>.</p>
+				</td>
 				<td><a href="http://www.openehr.org/industry_partners/dips">DIPS asa</a></td>
-				<td>Deploying since June 2013</td>
+				<td>Deploying since 2014</td>
 			</tr>
 			<tr>
 				<td><img src="/files/who_is_using_openehr/portugal_flag.jpg" alt="Flag of Portugal" title="Flag of Portugal" style="width:80px;"><p>Portugal</p></td>
