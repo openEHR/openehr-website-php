@@ -186,7 +186,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						</ul>
 				</td>
 				<td>
-					<p>The openEHR archetype-based Cambio COSMIC 8.1 s being rolled out to 8 regions (30% of Swedish EHR market) in 2015 and onwards. Some of these deployments are among the largest in Europe covering more than half million population with one instance that covers entire healthcare delivery across primary care centres, regional hospitals and University hospital.</p>
+					<p>The openEHR archetype-based Cambio COSMIC 8.1 is being rolled out to 8 regions (30% of Swedish EHR market) in 2015 and onwards. Some of these deployments are among the largest in Europe covering more than half million population with one instance that covers entire healthcare delivery across primary care centres, regional hospitals and University hospital.</p>
 					<p>The new COSMIC Clinical Decision Support (CDS) product line is built entirely based on openEHR archetypes and <a href="https://github.com/openEHR/gdl-tools/wiki">Guideline Definition Language (GDL)</a>. In 2014, the Cambio Stroke Prevention CDS application was tested successfully at 5 clinics in Östergötland. The CDS products will be gradually deployed to the Cambio Swedish region  customersfrom this 2015.</p>
 				</td>
 				<td><a href="http://www.openehr.org/industry_partners/cambio">Cambio Healthcare, Sweden</a></td>
