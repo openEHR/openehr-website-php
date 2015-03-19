@@ -12,6 +12,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
+			<h2>openEHR Academic Citations library</h2>
+			<p><a href="https://www.zotero.org/groups/openehr/items">Zotero library</a> (curator Koray Atalag)</p>
+
 			<h2>openEHR Primers</h2>
 			<iframe width="400" height="300" src="http://www.youtube.com/embed/videoseries?list=PLhWi0RtmG26WRld2BF3BM2sdqrCBT5f3C" frameborder="0" allowfullscreen></iframe>
 			<br/>
