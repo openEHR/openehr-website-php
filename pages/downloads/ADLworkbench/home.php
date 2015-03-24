@@ -118,9 +118,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Mac OS X 10.9 (Mavericks)<br/></td>
-						<td> 2.0.6.2784-alpha</td>
-						<td> 02 Feb 2015</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2784-alpha-macosx_mavericks.dmg">.dmg installer</a></td>
+						<td> 2.0.6.2803-alpha</td>
+						<td> 23 Mar 2015</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2803-alpha-macosx_mavericks.dmg">.dmg installer</a></td>
 						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates.</td>
 					</tr>
 					<tr>
