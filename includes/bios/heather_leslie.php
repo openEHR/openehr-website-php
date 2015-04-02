@@ -1,4 +1,4 @@
-﻿			<h3 style="margin-left:1em;">Heather Leslie MD, FRACGP, FACHI - Clinical Models Program (Australia)</h3>
+﻿			<h3>Heather Leslie MD, FRACGP, FACHI - Clinical Models Program (Australia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

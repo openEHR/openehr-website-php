@@ -1,4 +1,4 @@
-﻿			<h3 style="margin-left:1em;">Thomas Beale FBCS CITP (United Kingdom)</h3>
+﻿			<h3>Thomas Beale FBCS CITP (United Kingdom)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
