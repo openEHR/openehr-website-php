@@ -114,7 +114,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</table>
 			
 			<h2 id="invitedspecialists">Invited specialist members</h2>
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.html');?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	

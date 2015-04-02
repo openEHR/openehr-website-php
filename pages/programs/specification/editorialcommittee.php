@@ -27,7 +27,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tbody>
 			</table>
 			
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.html');?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
 
 			<h3 style="margin-left:1em;">Diego Tomas Boscá (Spain)</h3>
 			<table class="TableInvisible">
