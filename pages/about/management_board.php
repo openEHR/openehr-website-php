@@ -28,9 +28,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/ian_mcnicoll.php');?>
 				<p>Elected Feb 2015.</p>
 			
-			<h2 id="invitedspecialists">Invited specialist members</h2>
+			<h2 id="cooptedspecialists">Co-opted members</h2>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
-				<p>Accepted Mar 2015.</p>
+				<p>Co-opted Mar 2015.</p>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
