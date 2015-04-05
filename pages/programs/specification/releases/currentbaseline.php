@@ -180,7 +180,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/aom2.pdf" target="_blank">AOM 2</a></td>
-				<td class="TableMainC"> </a></td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/tree/master/ITS/AOM2/XML-schema">XML-schemas</a></td>
 				<td class="TableMainC"> Archetype Object Model (AOM) 2 draft - the AOM description now includes uniquely identified formally testable validity conditions 
 										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
