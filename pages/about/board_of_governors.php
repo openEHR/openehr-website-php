@@ -17,6 +17,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h2>Members</h2>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/david_ingram.php');?>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sam_heard.php');?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/jussara_rotzsch.php');?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/bill_aylward.php');?>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/dipak_kalra.php');?>
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
