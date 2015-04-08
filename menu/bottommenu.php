@@ -5,7 +5,7 @@
 			<li><a href="/programs/specification/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
 			<li><a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank" title="Specifications issue trackers (Jira)">Specs (Jira)</a></li>
 			<li><a href="/releases/1.0.2/reference-models/openEHR/XSD" target="_blank" title="Reference Model XML Schemas (current release)">XML Schemas</a></li>
-			<li>RM UML<a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">1.0.1</a>,<a href="http://www2.openehr.org/releases/trunk/UML/#Diagrams___18_1_83e026d_1423485599937_29309_4372" target="_blank" title="Reference Model UML">1.0.2/latest</a></li>
+			<li>RM UML<a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">1.0.1</a>,<a href="/releases/trunk/UML/#Diagrams___18_1_83e026d_1423485599937_29309_4372" target="_blank" title="Reference Model UML">1.0.2/latest</a></li>
 			<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (dADL format object model schemas)">RM BMM Schemas</a></li>
 			</ul>
 		</div>
