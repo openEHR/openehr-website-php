@@ -10,7 +10,7 @@
 				<p> 
 					<a href="http://www.linkedin.com/pub/sam-heard/1/49a/4b1" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/linkedin-follow.png"/></a>
 					<a href="http://twitter.com/samheardoi" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/twitter-follow.png"/></a>
-					<a href="http://drsamheard.com/" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/wordpress-icon.png"/><span>Blog</span></a>
+					<a href="http://drsamheard.com/" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/wordpress-icon.png"/> Blog</a>
 				</p>
 				</td>
 			</tr>

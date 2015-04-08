@@ -11,7 +11,7 @@
 				<p> 
 					<a href="http://uk.linkedin.com/in/thomasbeale" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/linkedin-follow.png"/></a>
 					<a href="http://twitter.com/wolands_cat" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/twitter-follow.png"/></a>
-					<a href="http://wolandscat.net" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/wordpress-icon.png"/><span>Health IT blog</span></a>
+					<a href="http://wolandscat.net" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/wordpress-icon.png"/> Blog</a>
 				</p>
 				</td>
 			</tr>

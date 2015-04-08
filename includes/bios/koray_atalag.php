@@ -9,7 +9,7 @@
 				<p> 
 					<a href="http://www.linkedin.com/pub/koray-atalag/0/5aa/b32" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/linkedin-follow.png"/></a>
 					<a href="http://twitter.com/atalagk" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/twitter-follow.png"/></a>
-					<a href="http://openehrnz.wordpress.com/author/atalagk/" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/wordpress-icon.png"/><span>Blog</span></a>
+					<a href="http://openehrnz.wordpress.com/author/atalagk/" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/wordpress-icon.png"/> Blog</a>
 				</p>
 				</td>
 			</tr>

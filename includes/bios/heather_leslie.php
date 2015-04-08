@@ -8,7 +8,7 @@
 				<p> 
 					<a href="http://au.linkedin.com/in/heatherleslie/en" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/linkedin-follow.png"/></a>
 					<a href="http://twitter.com/omowizard" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/twitter-follow.png"/></a>
-					<a href="http://omowizard.wordpress.com/" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/wordpress-icon.png"/>Blog</a>
+					<a href="http://omowizard.wordpress.com/" target="_blank"><img class="middle" height="20" width="20" src="/gui/social/wordpress-icon.png"/> Blog</a>
 				</p>
 				</td>
 			</tr>
