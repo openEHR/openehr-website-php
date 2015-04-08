@@ -9,10 +9,10 @@
 				<p>He has published a number of <a href="http://wolandscat.net/publications/">papers in health informatics</a> and has also presented widely on EHRs, e-Health and archetypes.</p>
 				<p>He is CTO at <a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics</a>.</p>
 				<p> 
-					<a href="http://uk.linkedin.com/in/thomasbeale" target="_blank"><img height="20" width="20" src="/gui/social/linkedin-follow.png"/></a>
-					<a href="http://twitter.com/wolands_cat" target="_blank"><img height="20" width="20" src="/gui/social/twitter-follow.png"/></a>
-					<a href="http://wolandscat.net" target="_blank"><img height="20" width="20" src="/gui/social/wordpress-icon.png"/></a>
-					<a href="http://wolandscat.net" target="_blank">Health IT blog</a>
+					<a href="http://uk.linkedin.com/in/thomasbeale" target="_blank"><img height="20" width="20" vertical-align="middle" src="/gui/social/linkedin-follow.png"/></a>
+					<a href="http://twitter.com/wolands_cat" target="_blank"><img height="20" width="20" vertical-align="middle" src="/gui/social/twitter-follow.png"/></a>
+					<a href="http://wolandscat.net" target="_blank"><img height="20" width="20" vertical-align="middle" src="/gui/social/wordpress-icon.png"/>
+					<span>Health IT blog</span></a>
 				</p>
 				</td>
 			</tr>

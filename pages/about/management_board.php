@@ -29,7 +29,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sam_heard.php');?>
 				<p>Board of Governors representative since Mar 2015.</p>
 
-			<p><a href="mailto:mgtboard@openehr.org">contact Management Board</a>.</p>			
+			<h2 id="contact">Contact</h2>
+			<p><a href="mailto:mgtboard@openehr.org">Contact Management Board</a>.</p>			
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
