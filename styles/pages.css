@@ -12,8 +12,11 @@ p {text-align:left; line-height:120%; margin-bottom:0.8em; }
 .content2 {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.2em; margin-left:2em }
 
 img {
-margin-top:15px;
-margin-bottom:15px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.middle {
+	vertical-align: middle;
 }
 
 #MainArea {
