@@ -17,13 +17,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/rong_chen.php');?>
 				<p>Elected Feb 2015.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/tomaz_gornik.php');?>
-				<p>Elected Feb 2015.(Co-chair)</p>
+				<p>Elected Feb 2015. <em>(Co-chair)</em></p>
 			
 			<h2 id="memberreps">Membership representatives</h2>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/koray_atalag.php');?>
 				<p>Elected Feb 2015.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/ian_mcnicoll.php');?>
-				<p>Elected Feb 2015.(Co-chair)</p>
+				<p>Elected Feb 2015. <em>(Co-chair)</em></p>
 			
 			<h2 id="cooptedspecialists">Co-opted members</h2>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>

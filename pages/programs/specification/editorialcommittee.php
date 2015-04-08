@@ -15,11 +15,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/koray_atalag.php');?>
 				<p>Member since 1 Feb 2015.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
-				<p>Member since 1 Feb 2015. Joint Program Lead</p>
+				<p>Member since 1 Feb 2015. <em>Joint Program Lead</em></p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/diego_bosca.php');?>
 				<p>Member since 1 Feb 2015.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/rong_chen.php');?>
-				<p>Member since 1 Feb 2015. Joint Program Lead</p>
+				<p>Member since 1 Feb 2015. <em>Joint Program Lead</em></p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/heath_frankel.php');?>
 				<p>Member since 1 Feb 2015.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sebastian_iancu.php');?>
