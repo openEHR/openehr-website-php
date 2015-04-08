@@ -32,6 +32,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h2 id="bogrep">Board of Governors representative</h2>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sam_heard.php');?>
 
+			<p><a href="mailto:mgtboard@openehr.org">contact Management Board</a>.</p>			
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>

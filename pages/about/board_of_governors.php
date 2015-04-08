@@ -21,6 +21,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/bill_aylward.php');?>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/dipak_kalra.php');?>
 			
+			<p><a href="mailto:govboard@openehr.org">contact Board of Governors</a>.</p>
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
