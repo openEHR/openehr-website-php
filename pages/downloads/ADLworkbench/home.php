@@ -104,9 +104,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (32-bit)</td>
-						<td> 2.0.6.2808-alpha</td>
-						<td> 12 Apr 2015</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2808-alpha-windows_32bit.exe">.exe installer</a></td>
+						<td> 2.0.6.2809-alpha</td>
+						<td> 15 Apr 2015</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2809-alpha-windows_32bit.exe">.exe installer</a></td>
 						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates; improved adlc command-line; fixed various bugs in XML output.</td>
 					</tr>
 					<tr>
