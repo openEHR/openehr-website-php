@@ -97,24 +97,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (32-bit)</td>
-						<td> 2.0.5.2736</td>
-						<td> 18 Dec 2014</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5.2736-windows_32bit.exe">.exe installer</a></td>
-						<td> 6x faster on CIMI archetypes; 2x faster on openEHR archetypes; faster startup</td>
-					</tr>
-					<tr>
-						<td> Windows (32-bit)</td>
-						<td> 2.0.6.2809-alpha</td>
-						<td> 15 Apr 2015</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2809-alpha-windows_32bit.exe">.exe installer</a></td>
+						<td> 2.0.6.2813-alpha</td>
+						<td> 22 Apr 2015</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2813-alpha-windows_32bit.exe">.exe installer</a></td>
 						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates; improved adlc command-line; fixed various bugs in XML output.</td>
-					</tr>
-					<tr>
-						<td> Mac OS X 10.9 (Mavericks)<br/></td>
-						<td> 2.0.5.2736</td>
-						<td> 18 Dec 2014</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5.2736-macosx_mavericks.dmg">.dmg installer</a></td>
-						<td> 6x faster on CIMI archetypes; 2x faster on openEHR archetypes; faster startup</td>
 					</tr>
 					<tr>
 						<td> Mac OS X 10.9 (Mavericks)<br/></td>
@@ -122,13 +108,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<td> 23 Mar 2015</td>
 						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2803-alpha-macosx_mavericks.dmg">.dmg installer</a></td>
 						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates.</td>
-					</tr>
-					<tr>
-						<td>Linux (32-bit Intel)<br/></td>
-						<td> 2.0.5.2736</td>
-						<td> 18 Dec 2014</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5.2736-linux_32bit.tar.bz2">.tar.bz2 archive</a></td>
-						<td> 6x faster on CIMI archetypes; 2x faster on openEHR archetypes; faster startup</td>
 					</tr>
 					<tr>
 						<td>Linux (32-bit Intel)<br/></td>
