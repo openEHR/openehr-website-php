@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Archetype Editor 2.2.905 beta release, 27 February 2013</h2>
-			<p><a href="release_notes">Release notes</a> - <a href="http://www.openehr.org/issues/browse/AEPR" target="_blank">Report an issue (Jira)</a></p>
+			<p><a href="release_notes">Release notes</a> - <a href="https://openehr.atlassian.net/projects/AEPR" target="_blank">Report an issue (Jira)</a></p>
 
 			<br/>
 			<p><em>The Archetype Editor facilitates authoring of openEHR clinical and administrative archetypes in ADL 1.4 and XML format.</em></p>
@@ -34,7 +34,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<p>Archetype Editor is available for Windows only. .NET 2.0 or higher is required.</p>
 			
 			<h3>Source Code</h3>
-			<p>The source code can be accessed from the <a href="https://github.com/openEHR/arch_ed-dotnet/wiki" target="_blank">GitHub home page</a>.</p>
+			<p>The source code can be accessed from the <a href="https://github.com/openEHR/arch_ed-dotnet" target="_blank">GitHub home page</a>.</p>
 			
 			<h3>Archetypes</h3>
 			<p>You need archetypes. Where you can get them:</p>
@@ -62,7 +62,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<h2>Reporting Issues</h2>
-			<p>Please report issues on the openEHR <a href="http://www.openehr.org/issues/browse/AEPR" target="_blank">Archetype Editor problem report tracker (Jira)</a>.
+			<p>Please report issues on the openEHR <a href="https://openehr.atlassian.net/projects/AEPR" target="_blank">Archetype Editor problem report tracker (Jira)</a>.
 			It really helps us to help you if you report a problem! Please try to note down the steps taken to reproduce the problem, which will greatly help us in fixing it.</p>
 				
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
