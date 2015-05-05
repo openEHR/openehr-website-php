@@ -161,7 +161,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/archetype_technical_overview.pdf" target="_blank">Archetypes - Technical Overview</a></td>
 				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Technical overview of archetypes, basic semantics, types of artefact, parsing, compiling etc.</td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
+				<td class="TableMainC"> development </td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
