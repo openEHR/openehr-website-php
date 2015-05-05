@@ -57,10 +57,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<td>openehr-technical</td>
 			<td>This list is for technical discussions about any aspect of modelling, archetypes, software building relevant to the openEHR architecture and specifications.<br/>
 			All reviews and discussions relating to new specifications and changes to existing specifications will be flagged on this list by the Specifications Program editorial committee.</td>
-			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org">subscribe<br/>
-			unsubscribe</a><br/>
+			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org">subscribe<br/> unsubscribe</a><br/>
 			<a href="mailto:openehr-technical@lists.openehr.org">post</a><br/>
-			<a href="http://lists.openehr.org/pipermail/openehr-technical_lists.openehr.org/">archive</a></td>
+			<a href="https://www.mail-archive.com/openehr-technical@lists.openehr.org/">web archive</a></br>
+			<a href="http://lists.openehr.org/pipermail/openehr-technical_lists.openehr.org/">(raw archive)</a></td>
 			<td>No</td>
 			<td></td>
 		</tr>
@@ -98,7 +98,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe<br/>
 			unsubscribe</a><br/>
 			<a href="mailto:openehr-clinical@lists.openehr.org">post</a><br/>
-			<a href="http://lists.openehr.org/pipermail/openehr-clinical_lists.openehr.org/">archive</a></td>
+			<a href="https://www.mail-archive.com/openehr-clinical@lists.openehr.org/">web archive</a></br>
+			<a href="http://lists.openehr.org/pipermail/openehr-clinical.openehr.org/">(raw archive)</a></td>
 			<td>No</td>
 			<td></td>
 		</tr>
