@@ -154,7 +154,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/dist_dev_model.pdf" target="_blank">Model of Distributed Development</a></td>
 				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Description of distirbuted development and governance concepts of archetypes, templates and terminology subsets.</td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">dev page</a></td>
+				<td class="TableMainC"> development</td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
@@ -180,7 +180,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/aom2.pdf" target="_blank">AOM 2</a></td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/tree/master/ITS/AOM2/XML-schema">XML-schemas</a></td>
+				<td class="TableMainC"> 
+					UML <a href="http://www2.openehr.org/releases/trunk/UML/#Diagrams___18_1_83e026d_1422971258847_792963_30335">online</a>;
+					<a href="https://github.com/openEHR/specifications/tree/master/architecture/computable/UML/MagicDraw_18">XMI source</a>;
+
+					<a href="https://github.com/openEHR/specifications/tree/master/ITS/AOM2/XML-schema">XML-schemas</a>
+				</td>
 				<td class="TableMainC"> Archetype Object Model (AOM) 2 draft - the AOM description now includes uniquely identified formally testable validity conditions 
 										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
@@ -189,8 +194,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/tom.pdf" target="_blank">openEHR Templates</a></td>
 				<td class="TableMainC"> </td>
-				<td class="TableMainC"> Description of using templates.</td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
+				<td class="TableMainC"> Use of templates.</td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+templates+as+single+artefacts">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ServiceModel"><em>Service Model</em></a> </td>
