@@ -168,14 +168,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/knowledge_id_system.pdf" target="_blank">Knowledge Artefact identification</a></td>
 				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Formal model of identifiers, versioning and lifecycle for archetypes, templates and terminology subsets.</td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">dev page</a></td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/Knowledge+Artefact+Identification">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/adl2.pdf" target="_blank">ADL 2</a></td>
 				<td class="TableMainC"> </a></td>
 				<td class="TableMainC"> Archetype Definition Language (ADL) 2 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
-				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
+				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
@@ -183,14 +183,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/tree/master/ITS/AOM2/XML-schema">XML-schemas</a></td>
 				<td class="TableMainC"> Archetype Object Model (AOM) 2 draft - the AOM description now includes uniquely identified formally testable validity conditions 
 										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/tom.pdf" target="_blank">Template Object Model</a></td>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/tom.pdf" target="_blank">openEHR Templates</a></td>
 				<td class="TableMainC"> </td>
-				<td class="TableMainC"> Object model of templates. </td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="/wiki/pages/viewpage.action?pageId=196633">dev page</a></td>
+				<td class="TableMainC"> Description of using templates.</td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC" style="background-color:#FFFFFF;"> <a name="ServiceModel"><em>Service Model</em></a> </td>
