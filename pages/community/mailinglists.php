@@ -29,12 +29,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<th>Announce list (read-only)</th>
 			<td>openehr-announce</p></td>
 			<td>This list is used to inform participants about key events, releases, changes in openEHR. openehr-announce is a <em>low-traffic list for announcements only</em>. All other material should be the subject of a message to one of the other lists, typically openehr-technical or openehr-clinical. Anyone interested in openEHR should subscribe to at least this list.</td>
-			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-announce_lists.openehr.org">subscribe<br/>
-			unsubscribe</a><br/>
+			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-announce_lists.openehr.org">subscribe<br/>unsubscribe</a><br/>
 			<a href="http://lists.openehr.org/pipermail/openehr-announce_lists.openehr.org/">archive</a>
 			</td>
 			<td>Yes</td>
-			<td></td>
+			<td>Ian McNicoll, Thomas Beale</td>
 		</tr>
 		</tbody>
 		</table>
@@ -62,18 +61,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<a href="https://www.mail-archive.com/openehr-technical@lists.openehr.org/">web archive</a></br>
 			<a href="http://lists.openehr.org/pipermail/openehr-technical_lists.openehr.org/">(raw archive)</a></td>
 			<td>No</td>
-			<td></td>
+			<td>Seref Arikan, Thomas Beale</td>
 		</tr>
 		<tr>
 		<th>ISO 13606 list</th>
 			<td>openehr-13606</td>
 			<td>This list is for discussions about the use of openEHR methods and technology for current and future revisions of the ISO 13606 standard.</td>
-			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-13606_lists.openehr.org">subscribe<br/>
-			unsubscribe</a><br/>
+			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-13606_lists.openehr.org">subscribe<br/>unsubscribe</a><br/>
 			<a href="mailto:openehr-13606@lists.openehr.org">post</a><br/>
 			<a href="http://lists.openehr.org/pipermail/openehr-13606_lists.openehr.org/">archive</a></td>
 			<td>No</td>
-			<td></td>
+			<td>Seref Arikan, Thomas Beale</td>
 		</tr>
 		</tbody>
 		</table>
@@ -95,13 +93,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<th>Clinical list</th>
 			<td>openehr-clinical</td>
 			<td>This list is for discussions about any clinical aspect of the EHR, including clinical design of archetypes.</td>
-			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe<br/>
-			unsubscribe</a><br/>
+			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe<br/>unsubscribe</a><br/>
 			<a href="mailto:openehr-clinical@lists.openehr.org">post</a><br/>
 			<a href="https://www.mail-archive.com/openehr-clinical@lists.openehr.org/">web archive</a></br>
 			<a href="http://lists.openehr.org/pipermail/openehr-clinical.openehr.org/">(raw archive)</a></td>
 			<td>No</td>
-			<td></td>
+			<td>Ian McNicoll, Thomas Beae</td>
 		</tr>
 		</tbody>
 		</table>
@@ -149,12 +146,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<th>Implementers<br> list</th>
 			<td>openehr-implementers</td>
 			<td>This list is for those implementing openEHR to discuss low-level technicalities in detail, including methods of programming, tools, schemas and so on.</td>
-			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-implementers_lists.openehr.org">subscribe<br/>
-			unsubscribe</a><br/>
+			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-implementers_lists.openehr.org">subscribe<br/>unsubscribe</a><br/>
 			<a href="mailto:openehr-implementers@lists.openehr.org">post</a><br/>
 			<a href="http://lists.openehr.org/pipermail/openehr-implementers_lists.openehr.org/">archive</a></td>
 			<td>No</td>
-			<td></td>
+			<td>Seref arikan, Thomas Beale</td>
 		</tr>
 		<tr>
 			<th>Eiffel implementation list</th>
@@ -165,7 +161,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<a href="mailto:ref_impl_eiffel@lists.openehr.org">post</a><br/>
 			<a href="http://lists.openehr.org/pipermail/ref_impl_eiffel_lists.openehr.org/">archive</a></td>
 			<td>No</td>
-			<td></td>
+			<td>Seref arikan, Thomas Beale</td>
 		</tr>
 		<tr>
 			<th>Java implementation list</th>
@@ -176,7 +172,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<a href="mailto:ref_impl_java@lists.openehr.org">post</a><br/>
 			<a href="http://lists.openehr.org/pipermail/ref_impl_java_lists.openehr.org/">archive</a></td>
 			<td>No</td>
-			<td></td>
+			<td>Seref arikan, Rong Chen</td>
 		</tr>
 		</tbody>
 		</table>
