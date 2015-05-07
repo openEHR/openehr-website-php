@@ -104,9 +104,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Mac OS X 10.9 (Yosemite)<br/></td>
-						<td> 2.0.6.2813-alpha</td>
-						<td> 23 Apr 2015</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2813-alpha-macosx_yosemite.dmg">.dmg installer</a></td>
+						<td> 2.0.6.2820-alpha</td>
+						<td> 07 May 2015</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2820-alpha-macosx_yosemite.dmg">.dmg installer</a></td>
 						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates; improved adlc command-line; XSD-validating XML output; new style annotations section.</td>
 					</tr>
 					<tr>
