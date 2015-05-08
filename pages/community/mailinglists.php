@@ -40,7 +40,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<th>Announce list (read-only)</th>
 			<td>openehr-announce</p></td>
 			<td><p>This list is used to inform participants about key events, releases, changes in openEHR. openehr-announce is a <em>low-traffic list for announcements only</em>. All other material should be the subject of a message to one of the other lists, typically openehr-technical or openehr-clinical. Anyone interested in openEHR should subscribe to at least this list.</p>
-			<p style="center">
+			<p class="center">
 				<a href="http://lists.openehr.org/mailman/listinfo/openehr-announce_lists.openehr.org">subscribe/unsubscribe</a> | 
 				<a href="http://lists.openehr.org/pipermail/openehr-announce_lists.openehr.org/">raw archive</a>
 			</p>
@@ -67,7 +67,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<th>Technical list</th>
 			<td>openehr-technical</td>
 			<td><p>This list is for technical discussions about any aspect of modelling, archetypes, software building relevant to the openEHR architecture and specifications.  All reviews and discussions relating to new specifications and changes to existing specifications will be flagged on this list by the Specifications Program editorial committee.</p>
-			<p style="center">
+			<p class="center">
 				<a href="http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org">subscribe/unsubscribe</a> | 
 				<a href="mailto:openehr-technical@lists.openehr.org">post</a> | 
 				<a href="https://www.mail-archive.com/openehr-technical@lists.openehr.org/">web archive</a> | 
@@ -81,7 +81,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		<th>ISO 13606 list</th>
 			<td>openehr-13606</td>
 			<td><p>This list is for discussions about the use of openEHR methods and technology for current and future revisions of the ISO 13606 standard.</p>
-			<p style="center">
+			<p class="center">
 				<a href="http://lists.openehr.org/mailman/listinfo/openehr-13606_lists.openehr.org">subscribe/unsubscribe</a> | 
 				<a href="mailto:openehr-13606@lists.openehr.org">post</a> | 
 				<a href="http://lists.openehr.org/pipermail/openehr-13606_lists.openehr.org/">raw archive</a>
@@ -109,7 +109,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<th>Clinical list</th>
 			<td>openehr-clinical</td>
 			<td><p>This list is for discussions about any clinical aspect of the EHR, including clinical design of archetypes.</p>
-			<p style="center">
+			<p class="center">
 				<a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe/unsubscribe</a> | 
 				<a href="mailto:openehr-clinical@lists.openehr.org">post</a> | 
 				<a href="https://www.mail-archive.com/openehr-clinical@lists.openehr.org/">web archive</a> | 
@@ -138,7 +138,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<th>Implementers<br> list</th>
 			<td>openehr-implementers</td>
 			<td><p>This list is for those implementing openEHR to discuss low-level technicalities in detail, including methods of programming, tools, schemas and so on.</p>
-			<p style="center">
+			<p class="center">
 				<a href="http://lists.openehr.org/mailman/listinfo/openehr-implementers_lists.openehr.org">subscribe/unsubscribe</a> | 
 				<a href="mailto:openehr-implementers@lists.openehr.org">post</a> | 
 				<a href="http://lists.openehr.org/pipermail/openehr-implementers_lists.openehr.org/">raw archive</a>
@@ -151,7 +151,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<th>Java implementation list</th>
 			<td>ref_impl_java</td>
 			<td><p>This list is for those implementing openEHR in Java and Java-related technologies.</p>
-			<p style="center">
+			<p class="center">
 				<a href="http://lists.openehr.org/mailman/listinfo/ref_impl_java_lists.openehr.org">subscribe/unsubscribe</a> | 
 				<a href="mailto:ref_impl_java@lists.openehr.org">post</a> | 
 				<a href="https://www.mail-archive.com/ref_impl_java@lists.openehr.org/">web archive</a> | 
