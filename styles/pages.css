@@ -10,6 +10,7 @@ h6 {font-size:10px; font-weight:500; line-height:120%; color:#666666; text-decor
 p {text-align:left; line-height:120%; margin-bottom:0.8em; }
 .content1 {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.2em; margin-top:0.6em; }
 .content2 {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.2em; margin-left:2em }
+.center {text-align:center; line-height:120%; font-size:12px; margin-bottom:0.8em }
 
 img {
 	margin-top:15px;
