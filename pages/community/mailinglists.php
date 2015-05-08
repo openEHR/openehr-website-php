@@ -96,7 +96,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe<br/>unsubscribe</a><br/>
 			<a href="mailto:openehr-clinical@lists.openehr.org">post</a><br/>
 			<a href="https://www.mail-archive.com/openehr-clinical@lists.openehr.org/">web archive</a></br>
-			<a href="http://lists.openehr.org/pipermail/openehr-clinical.openehr.org/">(raw archive)</a></td>
+			<a href="http://lists.openehr.org/pipermail/openehr-clinical_lists.openehr.org/">(raw archive)</a></td>
 			<td>No</td>
 			<td>Ian McNicoll, Thomas Beae</td>
 		</tr>
