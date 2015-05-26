@@ -29,7 +29,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
 			
 			<h2>Reference Model (RM)</h2>
-			<h3><a href="https://openehr.atlassian.net/browse/SPECRM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">Jira project</a></h3>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECRM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECRM Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECRM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECRM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:changelog-panel">(Historical)</a>
+			</p>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -97,12 +102,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<h2>Archetype Model (AM)</h2>
-			<h3><a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">Jira project</a></h3>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECAM Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:changelog-panel">(Historical)</a>
+			</p>
 			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
+				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
@@ -150,24 +160,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td colspan=4 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/dist_dev_model.pdf" target="_blank">Model of Distributed Development</a></td>
-				<td class="TableMainC"> </td>
-				<td class="TableMainC"> Description of distirbuted development and governance concepts of archetypes, templates and terminology subsets.</td>
-				<td class="TableMainC"> development</td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/archetype_technical_overview.pdf" target="_blank">Archetypes - Technical Overview</a></td>
-				<td class="TableMainC"> </td>
-				<td class="TableMainC"> Technical overview of archetypes, basic semantics, types of artefact, parsing, compiling etc.</td>
-				<td class="TableMainC"> development </td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/knowledge_id_system.pdf" target="_blank">Knowledge Artefact identification</a></td>
-				<td class="TableMainC"> </td>
-				<td class="TableMainC"> Formal model of identifiers, versioning and lifecycle for archetypes, templates and terminology subsets.</td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/Knowledge+Artefact+Identification">dev page</a></td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/adl2.pdf" target="_blank">ADL 2</a></td>
 				<td class="TableMainC"> </a></td>
 				<td class="TableMainC"> Archetype Definition Language (ADL) 2 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
@@ -191,17 +183,39 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> Use of templates.</td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+templates+as+single+artefacts">dev page</a></td>
 			</tr>
+			<tr style="background-color:#FFFCDC;">
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/dist_dev_model.pdf" target="_blank">Model of Distributed Development</a></td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> Description of distirbuted development and governance concepts of archetypes, templates and terminology subsets.</td>
+				<td class="TableMainC"> development</td>
+			</tr>
+			<tr style="background-color:#FFFCDC;">
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/archetype_technical_overview.pdf" target="_blank">Archetypes - Technical Overview</a></td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> Technical overview of archetypes, basic semantics, types of artefact, parsing, compiling etc.</td>
+				<td class="TableMainC"> development </td>
+			</tr>
+			<tr style="background-color:#FFFCDC;">
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/knowledge_id_system.pdf" target="_blank">Knowledge Artefact identification</a></td>
+				<td class="TableMainC"> </td>
+				<td class="TableMainC"> Formal model of identifiers, versioning and lifecycle for archetypes, templates and terminology subsets.</td>
+				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/Knowledge+Artefact+Identification">dev page</a></td>
+			</tr>
 			</tbody>
 			</table>
 
 
 			<h2>Service Model (SM)</h2>
-			<h3><a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">Jira project</a></h3>
 			<table class="TableMain">
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECSM Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
+			</p>
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
+				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
@@ -222,12 +236,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<h2>Terminology</h2>
-			<h3><a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">Jira project</a></h3>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECTERM Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
+			</p>
 			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
+				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
@@ -243,12 +261,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<h2>Querying</h2>
-			<h3><a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">Jira project</a></h3>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECQRY Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
+			</p>
 			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
+				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
@@ -263,12 +285,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<h2>Clinical Decision Support (CDS)</h2>
-			<h3><a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">Jira project</a></h3>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECCDS Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
+			</p>
 			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
+				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
@@ -283,12 +309,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<h2>Implementation Technology Specification (ITS)</h2>
-			<h3><a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">Jira project</a></h3>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECITS Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
+			</p>
 			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
+				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
@@ -309,12 +339,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 		
 			<h2>Conformance</h2>
-			<h3><a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">Jira project</a></h3>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECCNF Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
+			</p>
 			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
+				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
@@ -345,7 +379,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
+				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
