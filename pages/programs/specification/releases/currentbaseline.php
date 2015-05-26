@@ -97,6 +97,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> Model supporting expression of legacy data in a free form for further processing into and out of openEHR information structures. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
+			<tr>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/iso18308_conformance.pdf" target="_blank">ISO 18308 Conformance Statement</a></td>
+				<td class="TableMainC"> &nbsp;</td>
+				<td class="TableMainC"> Document describing conformance of openEHR architecture to ISO TS 18308, &quot;Requirements for EHR Architectures&quot;. </td>
+				<td class="TableMainC"> stable</td>
+			</tr>
 			</tbody>
 			</table>
 
@@ -363,12 +369,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> &nbsp;</td>
 				<td class="TableMainC"> Conformance profiles for EHR system components. </td>
 				<td class="TableMainC"> planning<br/><a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market">wiki page</a></td>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/iso18308_conformance.pdf" target="_blank">ISO 18308 Conformance Statement</a></td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Document describing conformance of openEHR architecture to ISO TS 18308, &quot;Requirements for EHR Architectures&quot;. </td>
-				<td class="TableMainC"> stable</td>
 			</tr>
 			</tbody>
 			</table>
