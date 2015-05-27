@@ -256,7 +256,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Status </th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a name="Terminology"><em>Terminology</em></a> </td>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/terminology.pdf" target="_blank">openEHR Vocabulary</a> </td>
 				<td class="TableMainC"> <a href="/releases/1.0.2/architecture/UML">XML source file</a> </td>
 				<td class="TableMainC"> Documentary form of the&nbsp;openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models. </td>
