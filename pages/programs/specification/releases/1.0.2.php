@@ -36,12 +36,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tbody>
 			</table>
 
-			<ul>
-				<li><em>Stable</em>: specifications that have been tested in software and are in use in the community;</li>
-				<li><em>Trial</em>: specifications that have been worked on by a design group and validated in test software to the point where they are ready for community use on a trial basis;</li>
-				<li><em>Development</em>: draft forms of specification documents, made available for the purposes of review, input and experimental use.</li>
-			</ul>
-			<p><a href="/issues/browse/SPEC/fixforversion/10030" target="_blank">Release notes</a> for this release. The rules for change management between releases are given in the <a href="releasestrategy">Release Strategy</a>.</p>
+			<p><a href="https://openehr.atlassian.net/browse/SPEC/fixforversion/10030/?selectedTab=com.atlassian.jira.plugins.jira-development-integration-plugin:release-report-tabpanel" target="_blank">Release notes</a> for this release. </p>
 
 			<h2>Reading Documents</h2>
 			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them, we suggest upgrading to the <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">latest Acrobat Reader</a>. If you still experience problems with reading PDF files, your browser configuration may need to be adjusted. See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
