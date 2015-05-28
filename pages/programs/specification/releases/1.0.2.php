@@ -12,6 +12,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
+			<p><a href="https://openehr.atlassian.net/browse/SPEC/fixforversion/10030/?selectedTab=com.atlassian.jira.plugins.jira-development-integration-plugin:release-report-tabpanel" target="_blank">Release notes</a> </p>
+
 			<h2>Overview</h2>
 			<p>This page provides access to the Release 1.0.2 deliverables of the openEHR specification project and indicates the current status (lifecycle state) of each. The lifecycle states are as follows: </p>
 			<p>The lifecycle states are as follows: </p>
@@ -35,8 +37,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			</tbody>
 			</table>
-
-			<p><a href="https://openehr.atlassian.net/browse/SPEC/fixforversion/10030/?selectedTab=com.atlassian.jira.plugins.jira-development-integration-plugin:release-report-tabpanel" target="_blank">Release notes</a> for this release. </p>
 
 			<h2>Reading Documents</h2>
 			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them, we suggest upgrading to the <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">latest Acrobat Reader</a>. If you still experience problems with reading PDF files, your browser configuration may need to be adjusted. See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
