@@ -14,15 +14,41 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			
 			<h2>Overview</h2>
 			<p>The following table provides access to the deliverables of the openEHR specification project and indicates the current status of each. There are three groups of deliverables, as follows: </p>
-			<ul>
-				<li><em>Stable</em>: specifications that have been tested in software and are in use in the community;</li>
-				<li><em>Trial</em>: specifications that have been worked on by a design group and validated in test software to the point where they are ready for community use on a trial basis;</li>
-				<li><em>Development</em>: draft forms of specification documents, made available for the purposes of review, input and experimental use.</li>
-				<li><em>Planning</em>: new specification under active planning.</li>
-			</ul>
+
+
+
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"> Lifecycle State </th>
+				<th class="TableMainT"> Description </th>
+			</tr>
+			<tr style="background-color:#DDFCFF;">
+				<td class="TableMainC"> planning</td>
+				<td class="TableMainC"> development of description and scope of new specification, along with relevance and utility.</td>
+			</tr>
+			<tr style="background-color:#FFFCDC;">
+				<td class="TableMainC"> development</td>
+				<td class="TableMainC"> agile development by project group, no formal change management, visibility of documentation and experimental software. By the end of development, an open source reference implementation must be available</td>
+			</tr>
+			<tr style="background-color:#FFFFCC;">
+				<td class="TableMainC"> trial </td>
+				<td class="TableMainC"> during this period, the specification is managed in a formal way. Issues are reported on an online tracker; changes are recorded on a separate dedicated tracker, ensuring every change to the specification is recorded </td>
+			</tr>
+			<tr>
+				<td class="TableMainC"> stable </td>
+				<td class="TableMainC"> specifications that have been tested in software and are in use in the community.</td>
+			</tr>
+			<tr style="background-color:#FEFEFE;">
+				<td class="TableMainC"> retired </td>
+				<td class="TableMainC"> some specifications inevitably become obsolete, or irrelevant for other reasons, and are promoted to the Retired state.</td>
+			</tr>
+			</tbody>
+			</table>
+
 			<p>If you are looking for a specific release, go <a href="index">here</a>.</p>
 			
-			<h2>Reading Documents</h2>
+			<h3>Reading Documents</h3>
 			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them,
 			we suggest upgrading to the <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">latest Acrobat Reader</a>.
 			If you still experience problems with reading PDF files, your browser configuration may need to be adjusted.
@@ -144,7 +170,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
-				<td colspan=4 align="center"> <a name="ADL1.4"><b>ADL 1.4</b></a> </td>
+				<td colspan=3 align="center"> <a name="ADL1.4"><b>ADL 1.4</b></a> </td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/adl1.4.pdf" target="_blank">ADL 1.4</a></td>
@@ -163,11 +189,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 
 			<tr>
-				<td colspan=4 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
+				<td colspan=3 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/am/adl2.pdf" target="_blank">ADL 2</a></td>
-				<td class="TableMainC"> </a></td>
 				<td class="TableMainC"> Archetype Definition Language (ADL) 2 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
 			</tr>
@@ -218,7 +243,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<h2>Service Model (SM)</h2>
-			<table class="TableMain">
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECSM Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
@@ -226,22 +250,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</p>
 
 			<h3>Specifications</h3>
+			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable expressions </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC"> EHR Service Model</td>
-				<td class="TableMainC"> </td>
 				<td class="TableMainC"> Definition of the openEHR coarse-grained interface EHR service interface.</td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="/wiki/display/spec/openEHR+Service+Model">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC"> vEHR API</td>
-				<td class="TableMainC"> </td>
 				<td class="TableMainC"> API for the openEHR virtual EHR service.</td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="/wiki/display/spec/vEHR+Service+Specification">dev page</a></td>
 			</tr>
@@ -361,6 +383,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
 			</p>
+
 			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
