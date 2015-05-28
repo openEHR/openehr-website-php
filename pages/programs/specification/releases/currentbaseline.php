@@ -13,10 +13,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
-			<p>The following table provides access to the deliverables of the openEHR specification project and indicates the current status of each. There are three groups of deliverables, as follows: </p>
-
-
-
+			<p>This page provides access to the current working deliverables of the openEHR specification project and indicates the current status (lifecycle state) of each. If you are looking for a specific release, <a href="index">here</a>.</p>
+			<p>The lifecycle states are as follows: </p>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -39,14 +37,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> stable </td>
 				<td class="TableMainC"> specifications that have been tested in software and are in use in the community.</td>
 			</tr>
-			<tr style="background-color:#FBFBFB;">
+			<tr style="background-color:#F9F9F9;">
 				<td class="TableMainC"> retired </td>
 				<td class="TableMainC"> some specifications inevitably become obsolete, or irrelevant for other reasons, and are promoted to the Retired state.</td>
 			</tr>
 			</tbody>
 			</table>
 
-			<p>If you are looking for a specific release, go <a href="index">here</a>.</p>
 			
 			<h3>Reading Documents</h3>
 			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them,
@@ -88,7 +85,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<tr style="background-color:#FFFFCC;">
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/rm/ehr_extract_im.pdf" target="_blank">EHR Extract IM</a></td>
 				<td class="TableMainC"> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
-				<td class="TableMainC"> Trial <br class="atl-forced-newline" /><a href="/wiki/display/spec/openEHR+EHR+Extract">dev page</a></td>
+				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="/wiki/display/spec/openEHR+EHR+Extract">dev page</a></td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/rm/common_im.pdf" target="_blank">Common IM</a></td>
