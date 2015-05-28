@@ -39,7 +39,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> stable </td>
 				<td class="TableMainC"> specifications that have been tested in software and are in use in the community.</td>
 			</tr>
-			<tr style="background-color:#FEFEFE;">
+			<tr style="background-color:#FBFBFB;">
 				<td class="TableMainC"> retired </td>
 				<td class="TableMainC"> some specifications inevitably become obsolete, or irrelevant for other reasons, and are promoted to the Retired state.</td>
 			</tr>
