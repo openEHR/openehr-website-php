@@ -9,15 +9,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 	<div id="MainArea">
 	
 		<div id="ButtonsFrame">
-		
-			<ul>
-				<li><a href="what_is_openehr"  style="line-height:200%">What is openEHR?</a></li>
-				<li><a href="who_is_using_openehr"  style="line-height:200%">Who is using openEHR?</a></li>
-				<li class="progs"><a href="/programs/specification/"  style="line-height:200%">Specifications</a></li>
-				<li class="progs"><a href="/programs/clinicalmodels"  style="line-height:200%">Clinical Models</a></li>
-				<li class="progs"><a href="/programs/software"  style="line-height:200%">Software</a></li>
-			</ul>
-		
+			<a href="what_is_openehr" class="button1 org">What is openEHR?</a>
+			<a href="who_is_using_openehr" class="button1 org">Who is using openEHR?</a>
+			<a href="/programs/specification/" class="button3 progs">Specifications</a>
+			<a href="http://www.openehr.org/releases/trunk/UML/#Diagrams___18_1_83e026d_1423485599937_29309_4372" class="button4 progs" target="_blank">UML</a>
+			<a href=" http://www.openehr.org/releases/1.0.2/reference-models/openEHR/XSD/" class="button4 progs" target="_blank">XSD</a>
+			<a href="/programs/clinicalmodels" class="button3 progs">Clinical Models</a>
+			<a href="http://www.openehr.org/ckm/" class="button4 progs" target="_blank">CKM</a>
+			<a href="https://github.com/openEHR/CKM-mirror" class="button_git" target="_blank"><img src="/files/home/git_hub.png"/></a>
+			<a href="/programs/software" class="button2 progs">Software</a>
+			<a href="https://github.com/openEHR" class="button_git" target="_blank"><img src="/files/home/git_hub.png"/></a>
 		</div>
 		
 		<div id="MiddleFrame">
@@ -35,6 +36,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<br/> <a href="http://members.openehr.org/join-us" target="_blank">Membership sign-up page</a>
 				</p>
 			</div>	
+			
 		</div>
 		
 		<div id="SmallFrame">
