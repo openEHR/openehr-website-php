@@ -53,7 +53,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><em>LinkEHR Editor</em></td>
 				<td>The LinkEHR AOM 1.4 Editor works with multiple reference models and languages. Reference models can be plugged in in XML-schema or openEHR BMM (basic meta-model) format.</td>
 				<td>Java; all platforms.</td>
-				<td><br/><a href="http://pangea.upv.es/linkehr/" target="_blank">Download and help pages</a><br/></td>
+				<td><br/><a href="http://linkehr.com/" target="_blank">Download and help pages</a><br/></td>
 				<td></td>
 			</tr>
 			<tr>
