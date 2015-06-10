@@ -67,11 +67,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<div id="BigFrame">
 		
 			<div id="TwitterFrame">
-				<div style="position: relative; top:5px; padding-left:1px; padding-right:4px; word-wrap:break-word; height:360px; ">
+				<div style="position: relative; top:5px; padding-left:1px; padding-right:4px; word-wrap:break-word; height:410px; ">
 					<a class="twitter-timeline" href="https://twitter.com/search?q=%23openehr" 
 						data-widget-id="347727645871570946" 
 						width="200" 
-						height="420" 
+						height="470" 
 						lang="EN"
 						data-chrome="nofooter">openEHR Talk</a>
 					<script>
@@ -94,7 +94,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<a href="news_events/industry_news" style="color:#023670;"><h1 class="HomeTitle">Industry News</h1></a>
 				<?php
 					//Retrieve industry news
-					$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='industry_news' ORDER BY date DESC LIMIT 6";
+					$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='industry_news' ORDER BY date DESC LIMIT 7";
 					$r = @mysqli_query ($conx, $q);
 					
 					//Count the number of the rows
@@ -119,7 +119,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<a href="news_events/community_news" style="color:#023670;"><h1 class="HomeTitle">Community News</h1></a>
 				<?php
 					//Retrieve community news
-					$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='community_news' ORDER BY date DESC LIMIT 3";
+					$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='community_news' ORDER BY date DESC LIMIT 4";
 					$r = @mysqli_query ($conx, $q);
 					
 					//Count the number of the rows
@@ -164,10 +164,33 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 					
 			<div id="NewsFrame">
+				<a href="news_events/foundation_news" style="color:#023670;"><h1 class="HomeTitle">Foundation News</h1></a>
+				<?php
+					//Retrieve releases
+					$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='foundation_news' ORDER BY date DESC LIMIT 4";
+					$r = @mysqli_query ($conx, $q);
+					
+					//Count the number of the rows
+					$num = mysqli_num_rows($r);
+					
+					if ($num > 0) { //everything went ok, display results
+						
+						//Fetch and print all releases:
+						while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
+							echo '<a href="news_events/foundation_news.php?id=' . $row['item_id'] . '">'.$row['title'].'</a><br/><h6>'
+								. $row['dr'] . '</h6><br/>';
+						}
+						mysqli_free_result ($r); //Free up the resources
+					}
+					else { //if it didnt run ok
+						echo '<p>There are currently no foundation news.</p>';
+					} 
+				?>
+				
 				<a href="news_events/releases" style="color:#023670;"><h1 class="HomeTitle">Releases</h1></a>
 				<?php
 					//Retrieve releases
-					$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='releases' ORDER BY date DESC LIMIT 7";
+					$q = "SELECT item_id, title, DATE_FORMAT(date, '%M %d, %Y') AS dr FROM news_items WHERE category='releases' ORDER BY date DESC LIMIT 4";
 					$r = @mysqli_query ($conx, $q);
 					
 					//Count the number of the rows

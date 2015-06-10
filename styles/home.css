@@ -270,7 +270,7 @@ border:1px #D2E9F7 solid;
 #TwitterFrame {
 float:left;
 
-height:420px;
+height:470px;
 width:23%;
 padding:10px 0 20px 15px;
 margin: 0 0 0 0;
@@ -279,7 +279,7 @@ background-color:#f3f8fa;
 
 #NewsFrame {
 float:left;
-min-height: 430px;
+min-height: 480px;
 width:23%;
 padding: 0 10px 10px 10px;
 margin: 0 0 0 0;
