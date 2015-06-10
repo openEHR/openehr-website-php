@@ -24,6 +24,7 @@
 		<div class="BottomMenuSection" style="left:455px;">
 			<p class="MenuHeading">Resources <sup style="font-size:8px; font-style:italic;">Learn More</sup></p>
 			<ul>
+			<li><a href="http://www.slideshare.net/search/slideshow?searchfrom=header&q=openehr">Slideshare</a></li>
 			<li><a href="/resources/learning_centre">Learning Centre</a></li>
 			<li><a href="/resources/publications">Publications</a></li>	
 			<li><a href="/wiki/display/resources/FAQs+-+Frequently+Asked+Questions" target="_blank">FAQs</a></li>
