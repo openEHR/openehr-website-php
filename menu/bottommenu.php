@@ -28,7 +28,7 @@
 			<li><a href="/resources/learning_centre">Learning Centre</a></li>
 			<li><a href="/resources/publications">Publications</a></li>	
 			<li><a href="/wiki/display/resources/FAQs+-+Frequently+Asked+Questions" target="_blank">FAQs</a></li>
-			<li><a href="http://www.ihtsdo.org/fileadmin/user_upload/doc/tig/" title="SNOMED CT Technical Implementation Guide" target="_blank">SNOMED CT TIG</a></li>
+			<li><a href="http://ihtsdo.org/fileadmin/user_upload/doc/en_us/tig.html" title="SNOMED CT Technical Implementation Guide" target="_blank">SNOMED CT TIG</a></li>
 			<li><a href="/resources/related_projects">Related Projects</a></li>
 			</ul>
 		</div>
