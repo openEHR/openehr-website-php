@@ -2,7 +2,7 @@
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
-				<td style="text-align:center;"><img height="150" src="/files/about/iago_corbal.png>"></td>
+				<td style="text-align:center;"><img height="150" src="/files/about/iago_corbal.png"></td>
 				<td width="650px">
 				<p>xxx</p>
 				</td>
