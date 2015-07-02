@@ -1,4 +1,4 @@
-﻿			<h3 style="margin-left:1em;">Diego Tomas Boscá (Spain)</h3>
+﻿			<h3 style="margin-left:1em;"><a name="diego_tomas_bosca"></a>Diego Tomas Boscá (Spain)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

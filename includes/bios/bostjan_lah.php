@@ -1,4 +1,4 @@
-﻿			<h3 style="margin-left:1em;">Bostjan Lah (Slovenia)</h3>
+﻿			<h3 style="margin-left:1em;"><a name="bostjan_lah"></a>Bostjan Lah (Slovenia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

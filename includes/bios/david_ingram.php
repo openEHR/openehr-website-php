@@ -1,4 +1,4 @@
-﻿			<h2 style="margin-left:1em;">Professor Emeritus David Ingram (United Kingdom)</h2>
+﻿			<h2 style="margin-left:1em;"><a name="david_ingram"></a>Professor Emeritus David Ingram (United Kingdom)</h2>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

@@ -1,4 +1,4 @@
-			<h3 style="margin-left:1em;">Sam Heard MD, FRACGP, MRCGP, FACHI (Australia)</h3>
+			<h3 style="margin-left:1em;"><a name="sam_heard"></a>Sam Heard MD, FRACGP, MRCGP, FACHI (Australia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

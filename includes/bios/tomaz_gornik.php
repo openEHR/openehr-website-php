@@ -1,4 +1,4 @@
-			<h3 style="margin-left:1em;">Tomaž Gornik (Slovenia)</h3>
+			<h3 style="margin-left:1em;"><a name="tomaz_gornik"></a>Tomaž Gornik (Slovenia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

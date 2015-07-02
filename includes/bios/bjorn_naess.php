@@ -1,4 +1,4 @@
-﻿			<h3 style="margin-left:1em;">Bjørn Næss, MSc (Norway)</h3>
+			<h3 style="margin-left:1em;"><a name="bjorn_naess"></a>Bjørn Næss, MSc (Norway)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
