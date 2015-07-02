@@ -2,7 +2,7 @@
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
-				<td style="text-align:center;"><img height="150" src="https://media.licdn.com/media/p/2/000/0bb/280/24cdc7a.jpg"></td>
+				<td style="text-align:center;"><img height="150" src="/files/about/sebastian_garde.png>"></td>
 				<td width="650px">
 				<p>xxx</p>
 				</td>
