@@ -34,8 +34,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<h2>Localisation Program</h2>
             <ul>
-                <li><a href="gustavo_bacelar">Gustavo Bacelar</a></li>
-                <li><a href="shinji_kobayashi">Shinji Kobayashi</a></li>
+                <li><a href="#gustavo_bacelar">Gustavo Bacelar</a></li>
+                <li><a href="#shinji_kobayashi">Shinji Kobayashi</a></li>
             </ul>
             
 			<h2>Program Lead Bios</h2>
