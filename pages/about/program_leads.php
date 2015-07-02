@@ -39,16 +39,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
             </ul>
             
 			<h2>Program Lead Bios</h2>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/gustavo_bacelar.php');?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/silje_ljosland_bakke.php');?>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/rong_chen.php');?>
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/heather_leslie.php');?>
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/silje_ljosland_bakke.php');?>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/iago_corbal.php');?>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sebastian_garde.php');?>
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/bostjan_lah.php');?>
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/erik_sundvall.php');?>
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/gustavo_bacelar.php');?>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/shinji_kobayashi.php');?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/bostjan_lah.php');?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/heather_leslie.php');?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/erik_sundvall.php');?>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
