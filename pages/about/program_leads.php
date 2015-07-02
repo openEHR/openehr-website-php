@@ -14,22 +14,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h2>Specifications Program</h2>
             <ul>
-                <li><a href="thomas_beale">Thomas Beale</a></li>
-                <li><a href="rong_chen">Rong Chen</a></li>
+                <li><a href="#thomas_beale">Thomas Beale</a></li>
+                <li><a href="#rong_chen">Rong Chen</a></li>
             </ul>
 
 			<h2>Clinical Program</h2>
             <ul>
-                <li><a href="heather_leslie">Heather Leslie</a></li>
-                <li><a href="silje_ljosland_bakke">Silje Ljosland Bakke</a></li>
+                <li><a href="#heather_leslie">Heather Leslie</a></li>
+                <li><a href="#silje_ljosland_bakke">Silje Ljosland Bakke</a></li>
             </ul>
 
 			<h2>Software Program</h2>
             <ul>
-                <li><a href="iago_corbal">Iago Corbal</a></li>
-                <li><a href="sebastian_garde">Sebastian Garde</a></li>
-                <li><a href="bostjan_lah">Bostjan Lah</a></li>
-                <li><a href="erik_sundvall">Erik Sundvall</a></li>
+                <li><a href="#iago_corbal">Iago Corbal</a></li>
+                <li><a href="#sebastian_garde">Sebastian Garde</a></li>
+                <li><a href="#bostjan_lah">Bostjan Lah</a></li>
+                <li><a href="#erik_sundvall">Erik Sundvall</a></li>
             </ul>
 
 			<h2>Localisation Program</h2>
