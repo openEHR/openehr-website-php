@@ -28,7 +28,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
             <ul>
                 <li><a href="iago_corbal">Iago Corbal</a></li>
                 <li><a href="sebastian_garde">Sebastian Garde</a></li>
-                <li><a href="bostjan_lah"></a>Bostjan Lah</li>
+                <li><a href="bostjan_lah">Bostjan Lah</a></li>
                 <li><a href="erik_sundvall">Erik Sundvall</a></li>
             </ul>
 
