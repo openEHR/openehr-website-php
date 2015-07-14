@@ -39,7 +39,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				</p>
 
 				<p><img src="http://area51.stackexchange.com/ads/proposal/87508.png"><span class="HomeSubtitle">openEHR.StackExchange.com</span>
-				<br/>Proposed Q&A site for people and organisations developing and using the openEHR open health computing platform.
+				<br/>Proposed Q&amp;A site for people and organisations developing and using the openEHR open health computing platform.
 				<br/>
 				<br/> Phase 2: committers - <a href="http://area51.stackexchange.com/proposals/87508/openehr?referrer=w4Wq6VpjyxQPC4BojQudOA2">Commit here</a>
 				</p>
