@@ -54,7 +54,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<!-- ------------------------------------------- BASE ------------------------------------------------- -->
 			<h2>Base Models (BASE)</h2>
 
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -63,8 +62,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Status </th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/BASE/architecture_overview.html" target="_blank">Architecture Overview</a></td>
+				<td class="TableMainC"> <a href="/releases/BASE/dev/architecture_overview.html" target="_blank">Architecture Overview</a></td>
 				<td class="TableMainC"> &quot;Read me first&quot; document for the overall architecture. Provides a summary of the reference, archetype and service models, and describes global semantics. </td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+			<tr>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/iso18308_conformance.pdf" target="_blank">ISO 18308 Conformance Statement</a></td>
+				<td class="TableMainC"> Document describing conformance of openEHR architecture to ISO TS 18308, &quot;Requirements for EHR Architectures&quot;. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			</tbody>
@@ -80,18 +84,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:changelog-panel">(Historical)</a>
 			</p>
 
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
 				<th class="TableMainT"> Documentary Specification </th>
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/BASE/architecture_overview.html" target="_blank">Architecture Overview</a></td>
-				<td class="TableMainC"> &quot;Read me first&quot; document for the overall architecture. Provides a summary of the reference, archetype and service models, and describes global semantics. </td>
-				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <a href="/releases/RM/dev/ehr.html" target="_blank">EHR IM</a></td>
@@ -102,11 +100,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> <a href="/releases/RM/dev/demographic.html" target="_blank">Demographic IM</a></td>
 				<td class="TableMainC"> The openEHR demographic model. </td>
 				<td class="TableMainC"> stable</td>
-			</tr>
-			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> <a href="/releases/RM/dev/ehr_extract.html" target="_blank">EHR Extract IM</a></td>
-				<td class="TableMainC"> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
-				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="/wiki/display/spec/openEHR+EHR+Extract">dev page</a></td>
 			</tr>
 			<tr>
 				<td class="TableMainC"> <a href="/releases/RM/dev/common.html" target="_blank">Common IM</a></td>
@@ -128,14 +121,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> Support model defining identifiers, assumed types, and terminology interface specification used in the rest of the specifications. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
+			<tr style="background-color:#FFFFCC;">
+				<td class="TableMainC"> <a href="/releases/RM/dev/ehr_extract.html" target="_blank">EHR Extract IM</a></td>
+				<td class="TableMainC"> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
+				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="/wiki/display/spec/openEHR+EHR+Extract">dev page</a></td>
+			</tr>
 			<tr>
 				<td class="TableMainC"> <a href="/releases/RM/dev/integration.html" target="_blank">Integration IM</a></td>
 				<td class="TableMainC"> Model supporting expression of legacy data in a free form for further processing into and out of openEHR information structures. </td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/RM/dev.html" target="_blank">ISO 18308 Conformance Statement</a></td>
-				<td class="TableMainC"> Document describing conformance of openEHR architecture to ISO TS 18308, &quot;Requirements for EHR Architectures&quot;. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 
@@ -168,7 +161,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:changelog-panel">(Historical)</a>
 			</p>
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -251,7 +243,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
 			</p>
 
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -280,7 +271,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
 			</p>
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -315,7 +305,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
 			</p>
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -361,7 +350,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
 			</p>
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -386,7 +374,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
 			</p>
 
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
@@ -430,7 +417,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
 			</p>
-			<h3>Specifications</h3>
 			<table class="TableMain">
 			<tbody>
 			<tr>
