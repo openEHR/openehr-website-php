@@ -333,7 +333,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<tr style="background-color:#FFFFCC;">
 				<td class="TableMainC"> Archetype Query Language (AQL) </td>
 				<td class="TableMainC"> Query language based on archetype paths and pattern matching.</td>
-				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="/wiki/display/spec/AQL-+Archetype+Query+Language">dev page</a></td>
+				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="/releases/QUERY/dev/AQL.html">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFFCC;">
 				<td class="TableMainC"> a-path </td>
