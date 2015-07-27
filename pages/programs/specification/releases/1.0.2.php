@@ -176,7 +176,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			<tr>
 				<td class="TableMainC"> UML </td>
-				<td class="TableMainC"> <a href="/releases/1.0.2/reference-models/openEHR/UML/">source files (XMI)</a> | <a href="/releases/trunk/UML/">website</a> 
+				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/tree/master/computable/UML">source files (XMI)</a> | <a href="/releases/trunk/UML/">website</a> 
 				</td>
 			</tr>
 			<tr>

@@ -11,7 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<div id="ButtonsFrame">
 			<a href="what_is_openehr" class="button1 org">What is openEHR?</a>
 			<a href="who_is_using_openehr" class="button1 org">Who is using openEHR?</a>
-			<a href="/programs/specification/" class="button3 progs">Specifications</a>
+			<a href="/programs/specification/releases/currentbaseline" class="button3 progs">Specifications</a>
 			<a href="http://www.openehr.org/releases/trunk/UML/#Diagrams___18_1_83e026d_1423485599937_29309_4372" class="button4 progs" target="_blank">UML</a>
 			<a href=" http://www.openehr.org/releases/1.0.2/reference-models/openEHR/XSD/" class="button4 progs" target="_blank">XSD</a>
 			<a href="/programs/clinicalmodels" class="button3 progs">Clinical Models</a>
