@@ -88,14 +88,15 @@ done
 #
 # Now the same thing, but for the repo HEAD version. Note - we already wipe out
 # a previous extract in this case, since it's the top (changing) version
+# NOTE: this is only for the software engineering portal, i.e. UML website.
 #
-#targ_dir=$dest_parent_dir/trunk
-#if [ -d $targ_dir ]; then
-#   echo "------ Wiping out existing $targ_dir"
-#   rm -rf $targ_dir
-#fi
-#do_cmd "$git_archive_cmd master $git_repo_pub_dir | tar -x -C $dest_parent_dir"
-#do_cmd "mv $dest_parent_dir/$git_repo_pub_dir $targ_dir"
+targ_dir=$dest_parent_dir/trunk
+if [ -d $targ_dir ]; then
+   echo "------ Wiping out existing $targ_dir"
+   rm -rf $targ_dir
+fi
+do_cmd "$git_archive_cmd master $git_repo_pub_dir | tar -x -C $dest_parent_dir"
+do_cmd "mv $dest_parent_dir/$git_repo_pub_dir $targ_dir"
 
 #
 # ============= Do the extraction from 'specifications-*' repos =============
