@@ -331,9 +331,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Status </th>
 			</tr>
 			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> Archetype Query Language (AQL) </td>
+				<td class="TableMainC"> <a href="/releases/QUERY/dev/AQL.html">Archetype Query Language (AQL)</a> </td>
 				<td class="TableMainC"> Query language based on archetype paths and pattern matching.</td>
-				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="/releases/QUERY/dev/AQL.html">dev page</a></td>
+				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/spec/Archetype+Query+Language+Description">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFFCC;">
 				<td class="TableMainC"> a-path </td>
