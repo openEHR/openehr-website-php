@@ -291,7 +291,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			<tr>
 				<td class="TableMainC"> XML </td>
-				<td class="TableMainC"> <a href="/releases/1.0.2/architecture/UML">XML source file</a></td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM/RM/Release-1.0.2">XML source file</a></td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			</tbody>

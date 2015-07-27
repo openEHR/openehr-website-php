@@ -50,7 +50,7 @@ dest_parent_dir=$site_dir/$release_dir
 echo "Target location: $dest_parent_dir"
 
 #
-# ============= get Git repo up to date ============
+# ============= get specifcations Git repo up to date ============
 #
 cd $git_repo_clone_dir
 do_cmd "$git_remove_local_changes"
@@ -104,6 +104,12 @@ cd $git_root
 
 ls -d specifications-* | while read git_component_repo; do
     cd $git_component_repo
+
+	# get Git repo up to date
+	do_cmd "$git_remove_local_changes"
+	do_cmd "$git_pull_cmd"
+
+	# create any directories if this is the first time
     component=${git_component_repo##specifications-}
     echo "Component: $component"
 
