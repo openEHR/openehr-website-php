@@ -67,8 +67,26 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
+				<td class="TableMainC"> <a href="/releases/BASE/dev/odin.html" target="_blank">Object Data Instance Notation (ODIN).</a></td>
+				<td class="TableMainC">  This is the JSON-like notation used to express various sections of ADL archetypes including description, terminology and annotations, and also BMM files.</td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+			<tr>
 				<td class="TableMainC"> <a href="/releases/trunk/architecture/iso18308_conformance.pdf" target="_blank">ISO 18308 Conformance Statement</a></td>
 				<td class="TableMainC"> Document describing conformance of openEHR architecture to ISO TS 18308, &quot;Requirements for EHR Architectures&quot;. </td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+
+			<tr>
+				<th class="TableMainT"> Computable Expression </th>
+				<th class="TableMainT"> Description </th>
+				<th class="TableMainT"> Status </th>
+			</tr>
+			<tr>
+				<td class="TableMainC"> UML </td>
+				<td class="TableMainC"> <a href="http://www.openehr.org/releases/BASRE/dev/UML/openEHR_UML-Base.mdzip">source files / XMI</a> | 
+										<a href="http://www.openehr.org/releases/trunk/UML/">website</a> 
+				</td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			</tbody>
@@ -139,7 +157,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			<tr>
 				<td class="TableMainC"> UML </td>
-				<td class="TableMainC"> <a href="https://www.openehr.org/releases/RM/dev/UML/openEHR_UML-RM.mdzip">source files / XMI</a> | 
+				<td class="TableMainC"> <a href="http://www.openehr.org/releases/RM/dev/UML/openEHR_UML-RM.mdzip">source files / XMI</a> | 
 										<a href="http://www.openehr.org/releases/trunk/UML/">website</a> 
 				</td>
 				<td class="TableMainC"> stable</td>
@@ -226,7 +244,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			<tr>
 				<td class="TableMainC"> UML </td>
-				<td class="TableMainC"> <a href="https://www.openehr.org/releases/AM/dev/UML/openEHR_UML-AM.mdzip">source files / XMI</a> | 
+				<td class="TableMainC"> <a href="http://www.openehr.org/releases/AM/dev/UML/openEHR_UML-AM.mdzip">source files / XMI</a> | 
 										<a href="http://www.openehr.org/releases/trunk/UML/#Diagrams___18_1_83e026d_1422971258847_792963_30335">website</a> 
 				</td>
 				<td class="TableMainC"> development </td>
