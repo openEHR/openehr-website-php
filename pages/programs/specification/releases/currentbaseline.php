@@ -62,12 +62,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Status </th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/BASE/dev/architecture_overview.html" target="_blank">Architecture Overview</a></td>
+				<td class="TableMainC"> <a href="/releases/BASE/latest/architecture_overview.html" target="_blank">Architecture Overview</a></td>
 				<td class="TableMainC"> &quot;Read me first&quot; document for the overall architecture. Provides a summary of the reference, archetype and service models, and describes global semantics. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/BASE/dev/odin.html" target="_blank">Object Data Instance Notation (ODIN).</a></td>
+				<td class="TableMainC"> <a href="/releases/BASE/latest/odin.html" target="_blank">Object Data Instance Notation (ODIN).</a></td>
 				<td class="TableMainC">  This is the JSON-like notation used to express various sections of ADL archetypes including description, terminology and annotations, and also BMM files.</td>
 				<td class="TableMainC"> stable</td>
 			</tr>
@@ -84,7 +84,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			<tr>
 				<td class="TableMainC"> UML </td>
-				<td class="TableMainC"> <a href="/releases/BASE/dev/UML/openEHR_UML-Base.mdzip">source files / XMI</a> | 
+				<td class="TableMainC"> <a href="/releases/BASE/latest/UML/openEHR_UML-Base.mdzip">source files / XMI</a> | 
 										<a href="/releases/trunk/UML/">website</a> 
 				</td>
 				<td class="TableMainC"> stable</td>
@@ -110,42 +110,42 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Status </th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/RM/dev/ehr.html" target="_blank">EHR IM</a></td>
+				<td class="TableMainC"> <a href="/releases/RM/latest/ehr.html" target="_blank">EHR IM</a></td>
 				<td class="TableMainC"> The information model of the openEHR EHR. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/RM/dev/demographic.html" target="_blank">Demographic IM</a></td>
+				<td class="TableMainC"> <a href="/releases/RM/latest/demographic.html" target="_blank">Demographic IM</a></td>
 				<td class="TableMainC"> The openEHR demographic model. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/RM/dev/common.html" target="_blank">Common IM</a></td>
+				<td class="TableMainC"> <a href="/releases/RM/latest/common.html" target="_blank">Common IM</a></td>
 				<td class="TableMainC"> Information model containing common concepts, including the archetype-enabling LOCATABLE class, party references, audits and attestations, change control, and authored resources. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/RM/dev/data_structures.html" target="_blank">Data Structures IM</a></td>
+				<td class="TableMainC"> <a href="/releases/RM/latest/data_structures.html" target="_blank">Data Structures IM</a></td>
 				<td class="TableMainC"> Information model of data structures, incuding a powerful model of HISTORY and EVENT. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/RM/dev/data_types.html" target="_blank">Data Types IM</a></td>
+				<td class="TableMainC"> <a href="/releases/RM/latest/data_types.html" target="_blank">Data Types IM</a></td>
 				<td class="TableMainC"> Information model of data types, including quantities, date/times, plain and coded text, time specification, multimedia and URIs. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/RM/dev/support.html" target="_blank">Support IM</a></td>
+				<td class="TableMainC"> <a href="/releases/RM/latest/support.html" target="_blank">Support IM</a></td>
 				<td class="TableMainC"> Support model defining identifiers, assumed types, and terminology interface specification used in the rest of the specifications. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
 			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> <a href="/releases/RM/dev/ehr_extract.html" target="_blank">EHR Extract IM</a></td>
+				<td class="TableMainC"> <a href="/releases/RM/latest/ehr_extract.html" target="_blank">EHR Extract IM</a></td>
 				<td class="TableMainC"> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
 				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="/wiki/display/spec/openEHR+EHR+Extract">dev page</a></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/RM/dev/integration.html" target="_blank">Integration IM</a></td>
+				<td class="TableMainC"> <a href="/releases/RM/latest/integration.html" target="_blank">Integration IM</a></td>
 				<td class="TableMainC"> Model supporting expression of legacy data in a free form for further processing into and out of openEHR information structures. </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
@@ -157,7 +157,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			<tr>
 				<td class="TableMainC"> UML </td>
-				<td class="TableMainC"> <a href="/releases/RM/dev/UML/openEHR_UML-RM.mdzip">source files / XMI</a> | 
+				<td class="TableMainC"> <a href="/releases/RM/latest/UML/openEHR_UML-RM.mdzip">source files / XMI</a> | 
 										<a href="/releases/trunk/UML/">website</a> 
 				</td>
 				<td class="TableMainC"> stable</td>
@@ -188,7 +188,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/dev/Overview.html" target="_blank">Archetypes - Technical Overview</a></td>
+				<td class="TableMainC"> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetypes - Technical Overview</a></td>
 				<td class="TableMainC"> Technical overview of archetypes, basic semantics, types of artefact, parsing, compiling etc.</td>
 				<td class="TableMainC"> development </td>
 			</tr>
@@ -197,23 +197,23 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td colspan=3 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/dev/ADL2.html" target="_blank">ADL 2</a></td>
+				<td class="TableMainC"> <a href="/releases/AM/latest/ADL2.html" target="_blank">ADL 2</a></td>
 				<td class="TableMainC"> Archetype Definition Language (ADL) 2 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/dev/AOM2.html" target="_blank">AOM 2</a></td>
+				<td class="TableMainC"> <a href="/releases/AM/latest/AOM2.html" target="_blank">AOM 2</a></td>
 				<td class="TableMainC"> Archetype Object Model (AOM) 2 draft - the AOM description now includes uniquely identified formally testable validity conditions 
 										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/dev/Identification.html" target="_blank">Archetype identification and Versioning</a></td>
+				<td class="TableMainC"> <a href="/releases/AM/latest/Identification.html" target="_blank">Archetype identification and Versioning</a></td>
 				<td class="TableMainC"> Formal model of identifiers, versioning and lifecycle for archetypes, templates and terminology subsets.</td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/Knowledge+Artefact+Identification">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/dev/tom.pdf" target="_blank">openEHR Templates</a></td>
+				<td class="TableMainC"> <a href="/releases/AM/latest/tom.pdf" target="_blank">openEHR Templates</a></td>
 				<td class="TableMainC"> Use of templates.</td>
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+templates+as+single+artefacts">dev page</a></td>
 			</tr>
@@ -244,7 +244,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			<tr>
 				<td class="TableMainC"> UML </td>
-				<td class="TableMainC"> <a href="/releases/AM/dev/UML/openEHR_UML-AM.mdzip">source files / XMI</a> | 
+				<td class="TableMainC"> <a href="/releases/AM/latest/UML/openEHR_UML-AM.mdzip">source files / XMI</a> | 
 										<a href="/releases/trunk/UML/#Diagrams___18_1_83e026d_1422971258847_792963_30335">website</a> 
 				</td>
 				<td class="TableMainC"> development </td>
@@ -331,7 +331,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Status </th>
 			</tr>
 			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> <a href="/releases/QUERY/dev/AQL.html">Archetype Query Language (AQL)</a> </td>
+				<td class="TableMainC"> <a href="/releases/QUERY/latest/AQL.html">Archetype Query Language (AQL)</a> </td>
 				<td class="TableMainC"> Query language based on archetype paths and pattern matching.</td>
 				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/spec/Archetype+Query+Language+Description">dev page</a></td>
 			</tr>

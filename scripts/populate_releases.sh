@@ -121,7 +121,7 @@ ls -d specifications-* | while read git_component_repo; do
     fi
 
     # do checkout of working baseline into 'dev'
-    work_area=$site_component_dir/dev
+    work_area=$site_component_dir/latest
     if [ ! -d $work_area ]; then
         mkdir $work_area
         echo "created $work_area"
