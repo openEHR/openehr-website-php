@@ -376,7 +376,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Status </th>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/blob/master/proposals/GDL/GuideDefinitionLanguage_v0.9.pdf?raw=true">Guideline Definition Language (GDL)</a> </td>
+				<td class="TableMainC"> <a href="/releases/CDS/latest/GDL.html">Guideline Definition Language (GDL)</a> </td>
 				<td class="TableMainC"> Guideline language based on ADL syntax with extensions.</td>
 				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://github.com/openEHR/gdl-tools/wiki">dev page</a></td>
 			</tr>			
