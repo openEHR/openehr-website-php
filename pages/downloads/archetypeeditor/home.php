@@ -30,7 +30,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<h2>Download</h2>
-			<p><a href="/download_files/archetype_editor/archetype_editor_installer_windows-32bit.exe">Download the installer</a>.</p>
+
+			<ul>
+				<li><a href="/download_files/archetype_editor/archetype_editor_2.8.972.1-windows_32bit.exe">Latest release - 2.8.972.1 - 22 Aug 2015</a>.</li>
+				<li><a href="/download_files/archetype_editor/archetype_editor_installer_windows-32bit.exe">Previous release - 2.2.905 - 27 Feb 2013</a>.</li>
+			</ul>
+
 			<p>Archetype Editor is available for Windows only. .NET 2.0 or higher is required.</p>
 			
 			<h3>Source Code</h3>

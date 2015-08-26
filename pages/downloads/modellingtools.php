@@ -22,6 +22,23 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Dev project</th>
 			</tr>
 			<tr>
+				<td><em>Archetype Editor (AE)</em></td>
+				<td>The Archetype Editor is currently the main tool in use for authoring openEHR ADL 1.4 archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Russian, Spanish, Swedish and Turkish.</td>
+				<td>Microsoft VB.NET</td>
+				<td><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/></td>
+				<td><a href="https://github.com/openEHR/arch_ed-dotnet" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
+			</tr>
+			<tr>
+				<td><em>Template Designer</em></td>
+				<td>The Template Designer is based on the open .oet format in use with ADL 1.4 archetypes.</td>
+				<td>.Net; Windows.</td>
+				<td>
+					<br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.6.1213.3.exe">TemplateDesignerSetup_2.6.1213.3.exe (EN)</a><br/>
+					<br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.8.94.2.exe">TemplateDesignerSetup_2.8.94.2.exe (EN)</a><br/>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
 				<td><em>ADL 2 workbench (AWB)</em></td>
 				<td>Reference model-driven visual IDE for parsing, compiling, analysing, converting and editing ADL 1.4 and ADL 2 archetypes and templates. Built on the reference ADL parser.</td>
 				<td>Source: Eiffel 14.05; builds available for Windows, Linux and Mac OSX.</td>
@@ -34,20 +51,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>Source: Eiffel 14.05; builds available for Windows, Linux and Mac OSX.</td>
 				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
 				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
-			</tr>
-			<tr>
-				<td><em>Archetype Editor (AE)</em></td>
-				<td>The Archetype Editor is currently the main tool in use for authoring openEHR ADL 1.4 archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Russian, Spanish, Swedish and Turkish.</td>
-				<td>Microsoft VB.NET</td>
-				<td><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/></td>
-				<td><a href="https://github.com/openEHR/arch_ed-dotnet" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
-			</tr>
-			<tr>
-				<td><em>Template Designer</em></td>
-				<td>The Template Designer is based on the open .oet format in use with ADL 1.4 archetypes.</td>
-				<td>.Net; Windows.</td>
-				<td><br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.6.1213.3.exe">TemplateDesignerSetup_2.6.1213.3.exe (EN)</a><br/></td>
-				<td>(Open source Git repo coming soon)</td>
 			</tr>
 			<tr>
 				<td><em>LinkEHR Editor</em></td>

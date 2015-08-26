@@ -9,44 +9,33 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 		<div id="Content">
 <!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
-
+		
 			<h1><?php echo "$PageName";?></h1>
+			
+			<h2><a name="ArchetypeEditorReleases-CurrentBetaRelease"></a>Current Beta Release</h2>
 
-			<h1><a name="ArchetypeEditorReleases-CurrentBetaRelease"></a>Current Beta Release</h1>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.8"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet" rel="nofollow">Archetype Editor 2.8.972.1</a></span> 22 August 2015</h3>
 
-			<h2><a name="ArchetypeEditorReleases-ArchetypeEditor2.8"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet" rel="nofollow">Archetype Editor 2.8.972</a></span> 19 August 2015</h2>
-
-			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
-				<li>ADL Parser is slow loading first Archetype file.</li>
-				<li>When saving to XML, if the option to save ADL automatically is on, then the ADL definition section is deleted.</li>
-				<li>The Help documentation is out of date.</li>
-			</ul>
-
-
-			<h4><a name="ArchetypeEditorReleases-ReleaseChanges"></a>Release Changes</h4>
-			<ul>
-				<li>Allow <b>v0</b> archetype ids.</li>
-				<li>On creating a new archetype, the version defaults to <b>v0</b> instead of <b>v1</b>.</li>
-				<li>Added <b>namespacing and revision</b> to the other_details archetype attribute.</li>
-				<li><b>Cluster specialisation</b> now clones by copy rather than by reference.</li>
-				<li>Allow editing of the child element of a <b>cloned cluster</b> if the original child has already been specialised.</li>
+				<li>Allow v0 archetype ids.</li>
+				<li>On creating a new archetype, the version defaults to v0 instead of v1.</li>
+				<li>Added namespacing and revision to the other_details archetype attribute.</li>
+				<li>Cluster specialisation now clones by copy rather than by reference.</li>
+				<li>Allow editing of the child element of a cloned cluster if the original child has already been specialised.</li>
 				<li>Make sure that unused term and constraint codes are removed from the ontology in ADL archetypes.</li>
 				<li>When viewing XML on the Display tab, make sure that unused term and constraint codes are removed from the ontology.</li>
-				<li>Delete the <b>recovery file</b> immediately after the user opens it.</li>
-				<li>Removed the Transitions option from the Pathway Specification in <b>ACTION</b> archetypes.</li>
+				<li>Delete the recovery file immediately after the user opens it.</li>
+				<li>Removed the Transitions option from the Pathway Specification in ACTION archetypes.</li>
 				<li>Fixed garbled text on the Header and Display tabs in some languages.</li>
-				<li>Fixed the replacement of translations of a term definitions in XML archetypes.</li>
-				<li>Fixed <b>annotations</b>, which did not work except in the primary language.</li>
-				<li>Fixed serialisation of persistent compositions to prevent <b>participations</b> from being serialised to the ADL or XML.</li>
+				<li>Fixed the replacement of translations of term definitions in XML archetypes.</li>
+				<li>Fixed annotations, which did not work except in the primary language.</li>
+				<li>Fixed serialisation of persistent compositions to prevent participations from being serialised to the ADL or XML.</li>
 				<li>Fixed various other bugs introduced in the beta releases since version 2.1.</li>
 			</ul>
-			<br/>
 
+			<h2><a name="ArchetypeEditor-PreviousReleases"></a>Previous releases</h2>
 
-			<h1><a name="ArchetypeEditorReleases-PreviousBetaRelease"></a>Previous Beta Release</h1>
-
-			<h2><a name="ArchetypeEditorReleases-ArchetypeEditor2.2"></a><span><a href="http://www.openehr.org/svn/knowledge_tools_dotnet/TRUNK/ArchetypeEditor" rel="nofollow">Archetype Editor 2.2.905</a></span> 27 February 2013</h2>
+			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.2"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet" rel="nofollow">Archetype Editor 2.2.905</a></span> 27 February 2013</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
 			<ul>
@@ -55,97 +44,94 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<li>The Help documentation is out of date.</li>
 			</ul>
 
-
 			<h4><a name="ArchetypeEditorReleases-ReleaseChanges"></a>Release Changes</h4>
 			<ul>
-				<li>An <b><i>open</i>EHR installer</b> is now available. (Previous releases were only available from Ocean Informatics.)</li>
-				<li>The option to report an issue goes to the problem tracker on <i>open</i>EHR rather than Ocean Informatics.</li>
-				<li>The <b>Help</b> is now online as well as being installed.</li>
+				<li>An <em>openEHR installer</em> is now available. (Previous releases were only available from Ocean Informatics.)</li>
+				<li>The option to report an issue goes to the problem tracker on openEHR rather than Ocean Informatics.</li>
+				<li>The <em>Help</em> is now online as well as being installed.</li>
 				<li>Archetypes can be copied to and from ADL and XML, in batch mode from the command line.</li>
 				<li>On creating a new archetype, the 'short concept label' is inserted as the default 'Concept' label.</li>
 				<li>On creating a new archetype, an appropriate structure is preselected (usually 'Tree').</li>
-				<li><b>&lt;Ctrl+F6&gt;</b> and <b>&lt;Ctrl+Shift+F6&gt;</b> keyboard shortcuts move between the main tabs.</li>
-				<li>Exporting to <b>XML</b> now formats nicely with newlines and indenting.</li>
-				<li>The <b>Display</b> tab no longer has its own "Save" button.</li>
-				<li>The <b>Display</b> tab can now search for text.</li>
-				<li>A new <b>Display</b> menu improves the usability of the Display tab.</li>
-				<li>The <b>uid</b> attribute is now loaded and saved in archetypes where it is present.</li>
+				<li><em>&lt;Ctrl+F6&gt;</em> and <em>&lt;Ctrl+Shift+F6&gt;</em> keyboard shortcuts move between the main tabs.</li>
+				<li>Exporting to <em>XML</em> now formats nicely with newlines and indenting.</li>
+				<li>The <em>Display</em> tab no longer has its own "Save" button.</li>
+				<li>The <em>Display</em> tab can now search for text.</li>
+				<li>A new <em>Display</em> menu improves the usability of the Display tab.</li>
+				<li>The <em>uid</em> attribute is now loaded and saved in archetypes where it is present.</li>
 				<li>The proportion constraint control hides the denominator for unitary and percentage types.</li>
 				<li>Data value choices are restricted to those that are unique.</li>
-				<li>The default <b>cardinality of clusters and sections</b> is 1..*.</li>
-				<li><b>ACTION</b> archetypes now show the <b>Planned</b> state, not <b>Initial</b> which was not truly a state.</li>
-				<li>In <b>ACTION</b> archetypes, <b>ISM_TRANSITION</b> now has an at-code.</li>
-				<li>Allow re-ordering of care flow steps within a state of <b>ACTION</b> archetypes.</li>
-				<li>Allow <b>annotations</b>, i.e. non-standard ontology items in addition to "text", "description" and "comment".</li>
-				<li>Allow <b>specialising of events</b> in OBSERVATION archetypes.</li>
-				<li>Allow multiple constraints on <b>maths_functions</b>.</li>
-				<li>Allow the order of <b>internal codes</b> to be changed.</li>
-				<li>Allow <b>internal codes</b> to be copied and pasted.</li>
-				<li>Allow an individual <b>internal code</b> to be copied in a format like 'local::at0071::meconium'.</li>
-				<li>Allow <b>constraint bindings</b> to be edited directly at the node definition.</li>
-				<li>Allow <b>constraint bindings</b> and <b>term bindings</b> to use and browse any terminology.</li>
-				<li>Allow <b>assumed value</b> to be set in any data, not just on patient state.</li>
-				<li>Allow <b>assumed value</b> to be deleted.</li>
-				<li>Allow each <b>contributor</b> to be edited.</li>
-				<li>Allow the <b>copyright</b> to be edited.</li>
-				<li>Allow the <b>current contact</b> to be recorded.</li>
-				<li>Allow <b>DV_PARSABLE</b> to be viewed on the Interface tab.</li>
-				<li>Named <b>slots</b> now show the Details tab, allowing comments, annotations and bindings to be added.</li>
-				<li>The active <b>language</b> is now displayed in the title bar.</li>
-				<li>The at-code and description of <b>internal codes</b> are now shown.</li>
-				<li>HTML displays the <b>copyright</b> from the archetype.</li>
-				<li>The <b>Authorship</b> date defaults to YYYY-MM-DD format.</li>
+				<li>The default <em>cardinality of clusters and sections</em> is 1..*.</li>
+				<li><em>ACTION</em> archetypes now show the <em>Planned</em> state, not <em>Initial</em> which was not truly a state.</li>
+				<li>In <em>ACTION</em> archetypes, <em>ISM_TRANSITION</em> now has an at-code.</li>
+				<li>Allow re-ordering of care flow steps within a state of <em>ACTION</em> archetypes.</li>
+				<li>Allow non-standard ontology items in addition to "text", "description" and "comment".</li>
+				<li>Allow <em>specialising of events</em> in OBSERVATION archetypes.</li>
+				<li>Allow multiple constraints on <em>maths_functions</em>.</li>
+				<li>Allow the order of <em>internal codes</em> to be changed.</li>
+				<li>Allow <em>internal codes</em> to be copied and pasted.</li>
+				<li>Allow an individual <em>internal code</em> to be copied in a format like 'local::at0071::meconium'.</li>
+				<li>Allow <em>constraint bindings</em> to be edited directly at the node definition.</li>
+				<li>Allow <em>constraint bindings</em> and <em>term bindings</em> to use and browse any terminology.</li>
+				<li>Allow <em>assumed value</em> to be set in any data, not just on patient state.</li>
+				<li>Allow <em>assumed value</em> to be deleted.</li>
+				<li>Allow each <em>contributor</em> to be edited.</li>
+				<li>Allow the <em>copyright</em> to be edited.</li>
+				<li>Allow the <em>current contact</em> to be recorded.</li>
+				<li>Allow <em>DV_PARSABLE</em> to be viewed on the Interface tab.</li>
+				<li>Named <em>slots</em> now show the Details tab, allowing comments, annotations and bindings to be added.</li>
+				<li>The active <em>language</em> is now displayed in the title bar.</li>
+				<li>The at-code and description of <em>internal codes</em> are now shown.</li>
+				<li>HTML displays the <em>copyright</em> from the archetype.</li>
+				<li>The <em>Authorship</em> date defaults to YYYY-MM-DD format.</li>
 				<li>Prevent changing the structure of specialised archetypes.</li>
 				<li>Prevent editing of non-specialised nodes on the Definition tab of specialised archetypes.</li>
 				<li>When specialising a multiple-occurrence node, the node is cloned only if the user requests.</li>
 				<li>When specialising a cluster by cloning, all of the cluster's children are copied too.</li>
 				<li>Changing the data type of elements at the same specialisation level as the archetype is always allowed.</li>
-				<li>Specialised <b>XML</b> archetypes preserve all term codes inherited from the parent archetype.</li>
+				<li>Specialised <em>XML</em> archetypes preserve all term codes inherited from the parent archetype.</li>
 				<li>Added g/m2.7 and 10^x property units.</li>
-				<li>Added <b>Rate of Change - Pressure</b> property units (daPa/s).</li>
-				<li>Added <b>Rate of Change - Frequency</b> property units (Hz/s).</li>
-				<li>Added more <b>Japanese</b> translations.</li>
-				<li>Added <b>Russian</b> translations.</li>
+				<li>Added <em>Rate of Change - Pressure</em> property units (daPa/s).</li>
+				<li>Added <em>Rate of Change - Frequency</em> property units (Hz/s).</li>
+				<li>Added more <em>Japanese</em> translations.</li>
+				<li>Added <em>Russian</em> translations.</li>
 				<li>Internationalised many parts of the user interface, ready for translation into other languages.</li>
 				<li>Fixed the file recovery dialog to appear when appropriate during start-up.</li>
-				<li>Fixed specialising of <b>XML</b> archetypes.</li>
-				<li>Fixed saving name constraints of <b>XML ELEMENT</b> archetypes.</li>
-				<li>Fixed several exceptions with <b>XML</b> archetypes.</li>
+				<li>Fixed specialising of <em>XML</em> archetypes.</li>
+				<li>Fixed saving name constraints of <em>XML ELEMENT</em> archetypes.</li>
+				<li>Fixed several exceptions with <em>XML</em> archetypes.</li>
 				<li>Fixed specialising of of a node more than 10 times in ADL archetypes.</li>
-				<li>Fixed drag and drop in <b>SECTION</b> archetypes.</li>
-				<li>Fixed action patterns in <b>XML INSTRUCTION</b> archetypes.</li>
-				<li>Fixed loading math_function, width, fixed interval and offset in <b>OBSERVATION</b> archetypes.</li>
-				<li>Fixed loading occurrences of sub-sections in <b>SECTION</b> archetypes.</li>
-				<li>Fixed error when loading an empty <b>resource_package_uri</b> from ADL.</li>
-				<li>Fixed errors when loading <b>term bindings</b> and <b>constraint bindings</b>.</li>
-				<li>Fixed some problems editing the <b>Term Bindings</b> Complex tab.</li>
-				<li>Fixed displaying <b>URI</b> constraints within a <b>choice</b> element.</li>
-				<li>Fixed usability problems with <b>assumed value</b> for <b>DV_QUANTITY</b>.</li>
+				<li>Fixed drag and drop in <em>SECTION</em> archetypes.</li>
+				<li>Fixed action patterns in <em>XML INSTRUCTION</em> archetypes.</li>
+				<li>Fixed loading math_function, width, fixed interval and offset in <em>OBSERVATION</em> archetypes.</li>
+				<li>Fixed loading occurrences of sub-sections in <em>SECTION</em> archetypes.</li>
+				<li>Fixed error when loading an empty <em>resource_package_uri</em> from ADL.</li>
+				<li>Fixed errors when loading <em>term bindings</em> and <em>constraint bindings</em>.</li>
+				<li>Fixed some problems editing the <em>Term Bindings</em> Complex tab.</li>
+				<li>Fixed displaying <em>URI</em> constraints within a <em>choice</em> element.</li>
+				<li>Fixed usability problems with <em>assumed value</em> for <em>DV_QUANTITY</em>.</li>
 				<li>Fixed changing the data type of an element to a slot.</li>
-				<li>Fixed saving a <b>choice</b> with an interval of date or time.</li>
-				<li>Fixed saving a <b>choice</b> with a slot.</li>
-				<li>Fixed saving a <b>Single</b> or <b>Table</b> structure with a slot.</li>
-				<li>Fixed saving of <b>assumed value</b> for <b>DV_CODED_TEXT</b> internal codes.</li>
-				<li>Fixed saving of <b>assumed value</b> for <b>DV_PROPORTION</b>.</li>
-				<li>Fixed saving of <b>assumed value</b> for <b>DV_DURATION</b>.</li>
-				<li>Fixed saving of <b>DV_QUANTITY</b> or <b>DV_PROPORTION</b> with a non-zero precision.</li>
-				<li>Fixed saving to XML of <b>is_integral</b> for <b>DV_PROPORTION</b>.</li>
-				<li>Fixed saving <b>COMPOSITION</b> archetypes with a <b>Table</b> structure.</li>
-				<li>Fixed saving <b>Participation</b> occurrences in <b>COMPOSITION</b> archetypes.</li>
+				<li>Fixed saving a <em>choice</em> with an interval of date or time.</li>
+				<li>Fixed saving a <em>choice</em> with a slot.</li>
+				<li>Fixed saving a <em>Single</em> or <em>Table</em> structure with a slot.</li>
+				<li>Fixed saving of <em>assumed value</em> for <em>DV_CODED_TEXT</em> internal codes.</li>
+				<li>Fixed saving of <em>assumed value</em> for <em>DV_PROPORTION</em>.</li>
+				<li>Fixed saving of <em>assumed value</em> for <em>DV_DURATION</em>.</li>
+				<li>Fixed saving of <em>DV_QUANTITY</em> or <em>DV_PROPORTION</em> with a non-zero precision.</li>
+				<li>Fixed saving to XML of <em>is_integral</em> for <em>DV_PROPORTION</em>.</li>
+				<li>Fixed saving <em>COMPOSITION</em> archetypes with a <em>Table</em> structure.</li>
+				<li>Fixed saving <em>Participation</em> occurrences in <em>COMPOSITION</em> archetypes.</li>
 				<li>Fixed invalid occurrences of embedded archetypes.</li>
-				<li>Fixed mistranslations in the <b>Japanese</b> terminology.</li>
-				<li>Fixed errors that occurred when the computer's language is <b>Norwegian</b>.</li>
+				<li>Fixed mistranslations in the <em>Japanese</em> terminology.</li>
+				<li>Fixed errors that occurred when the computer's language is <em>Norwegian</em>.</li>
 				<li>Fixed saving of edits done on the Terminology tab.</li>
-				<li>Fixed saving the correct order of <b>internal reference</b> elements.</li>
-				<li>Fixed "Person State with Event Series" to be initially enabled in <b>OBSERVATION</b> archetypes.</li>
+				<li>Fixed saving the correct order of <em>internal reference</em> elements.</li>
+				<li>Fixed "Person State with Event Series" to be initially enabled in <em>OBSERVATION</em> archetypes.</li>
 				<li>Fixed the "-" button to be enabled whenever appropriate to remove cluster and slot elements.</li>
 				<li>Fixed garbled text on the Header and Display tabs in some languages.</li>
 			</ul>
 			<br/>
 
-
-			<h2><a name="ArchetypeEditorReleases-CurrentStableRelease"></a>Current Stable Release</h2>
-
+			
 			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.1.583"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/tree/BlueChina" rel="nofollow">Archetype Editor 2.1.583</a></span> 2 July 2009</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
@@ -189,9 +175,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</ul>
 			<br/>
 
-
-			<h2><a name="ArchetypeEditorReleases-PreviousReleases"></a>Previous Releases</h2>
-
+			
 			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor2.0.582"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/tree/Nitrogen" rel="nofollow">Archetype Editor 2.0.582</a></span> 2 July 2009</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
@@ -251,7 +235,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				</li>
 			</ul>
 
-
+			
 			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1248"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/commit/8b240c79cba195ced3463823a5af104597363015" rel="nofollow">Archetype Editor 1.0.1248.332</a></span> 12 May 2008</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
@@ -273,7 +257,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<li>Fixed wrong image being displayed for Clusters.</li>
 			</ul>
 
-
+			
 			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1247"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/commit/6457065e019d174145ec120279559eebd05a1877" rel="nofollow">Archetype Editor 1.0.1247.327</a></span> 6 May 2008</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
@@ -298,7 +282,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<li>Fixed several "Unhandled Exception" error messages.</li>
 			</ul>
 
-
+			
 			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1246"></a><span><a href="https://github.com/openEHR/arch_ed-dotnet/commit/61598f0d47401c43d6352bb985bbc11ef1f0f6ce" rel="nofollow">Archetype Editor 1.0.1246.315</a></span> 29 April 2008</h3>
 
 			<h4><a name="ArchetypeEditorReleases-KnownIssues"></a>Known Issues</h4>
@@ -449,7 +433,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.1240"></a>Archetype Editor 1.0.1240 11 May 2007</h3>
 
-
+			
 			<h3><a name="ArchetypeEditorReleases-ArchetypeEditor1.0.123819March2007"></a>Archetype Editor 1.0.1238 19 March 2007</h3>
 
 			<h4><a name="ArchetypeEditorReleases-ReleaseChanges"></a>Release Changes</h4>
@@ -645,7 +629,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<li>Minor bug fixes with translation of ordinals.</li>
 				<li>Added ability to edit description of ordinal terms.</li>
 			</ul>
-
+        
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
-		</div>
+		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
