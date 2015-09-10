@@ -94,7 +94,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		
 			<div id="TwitterFrame">
 				<div style="position: relative; top:5px; padding-left:1px; padding-right:4px; word-wrap:break-word; height:410px; ">
-					<a class="twitter-timeline" href="https://twitter.com/search?q=%23openehr%20OR%20from%3A%40openehr" 
+					<a class="twitter-timeline" href="https://twitter.com/search?q=%23openehr%20OR%20from%3A%40openehr%20-RT" 
 						data-widget-id="347727645871570946" 
 						width="200" 
 						height="470" 
