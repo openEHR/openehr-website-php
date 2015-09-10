@@ -50,8 +50,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				</td>
 			</tr>
 			<tr>
-				<td span="3">
+				<td span="3" align="center">
 					<p><a href="https://openehr.atlassian.net/wiki/display/resources/MEDINFO+2015+-+Sao+Paulo%2C+Brazil">All openEHR MedInfo 2015 presentations</a></p>
+					<p/> <a href="http://ebooks.iospress.nl/volume/medinfo-2015-ehealth-enabled-health-proceedings-of-the-15th-world-congress-on-health-and-biomedical-informatics">Full Conference Proceedings</a> </p>
 				</td>
 			</tr>
 		</tbody>

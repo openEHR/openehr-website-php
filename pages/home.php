@@ -27,8 +27,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				
 				<!-- MedInfo 2015 --!>
 				<p><img src="/files/home/openehr_medinfo_2015.png"><span class="HomeSubtitle">MedInfo 2015</span>
-					<br/> openEHR @ MedInfo 2015  <br/>
-					<br/> <a href="/news_events/conference_reports/2015-08-19_medinfo_2015">Reflections, photos, links</a> <br/>
+					<br/> openEHR @ MedInfo 2015 <a href="/news_events/conference_reports/2015-08-19_medinfo_2015">Reflections, photos, links</a> <br/>
+					<br/> <a href="https://openehr.atlassian.net/wiki/display/resources/MEDINFO+2015+-+Sao+Paulo%2C+Brazil">All openEHR presentations</a> <br/>
+					<br/> <a href="http://ebooks.iospress.nl/volume/medinfo-2015-ehealth-enabled-health-proceedings-of-the-15th-world-congress-on-health-and-biomedical-informatics">Full Conference Proceedings</a> <br/>
 				</p>
 
 				<!-- Forthcoming Releases --!>
