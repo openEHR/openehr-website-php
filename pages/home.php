@@ -25,29 +25,40 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			
 			<div id="NewsImage">
 				
+				<!-- MedInfo 2015 --!>
+				<p><img src="/files/home/openehr_medinfo_2015.png"><span class="HomeSubtitle">MedInfo 2015</span>
+					<br/> openEHR @ MedInfo 2015  <br/>
+					<br/> <a href="/news_events/conference_reports/2015-08-19_medinfo_2015">Reflections, photos, links</a> <br/>
+				</p>
+
+				<!-- Forthcoming Releases --!>
 				<p><img src="/files/home/blueprint.png"><span class="HomeSubtitle">Forthcoming Releases</span>
-				<br/> <a href="https://openehr.atlassian.net/projects/SPECPR?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">Release roadmap</a>.<br/>
-				<br/><a href="https://openehr.atlassian.net/projects/SPECRM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">RM releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/projects/SPECAM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ADL releases</a><br/>
-				<a href="https://openehr.atlassian.net/projects/SPECITS?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ITS releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/wiki/display/spec/openEHR+REST+APIs" target="_blank">REST APIs page</a><br/>
-				<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
+					<br/> <a href="https://openehr.atlassian.net/projects/SPECPR?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">Release roadmap</a>.<br/>
+					<br/><a href="https://openehr.atlassian.net/projects/SPECRM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">RM releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/projects/SPECAM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ADL releases</a><br/>
+					<a href="https://openehr.atlassian.net/projects/SPECITS?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ITS releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/wiki/display/spec/openEHR+REST+APIs" target="_blank">REST APIs page</a><br/>
+					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
 				</p>
 				
+				<!-- Industry Sprint --!>
 				<p><img src="/files/home/sprint.jpg"><span class="HomeSubtitle">Industry Sprint</span>
-				<br/> OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'<br/>
-				<br/> <a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a> <br/>
-				<br/> Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a> <br/>
+					<br/> OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'<br/>
+					<br/> <a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a> <br/>
+					<br/> Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a> <br/>
 				</p>
 
+				<!-- StackExchange progress item
 				<p><img src="http://area51.stackexchange.com/ads/proposal/87508.png"><span class="HomeSubtitle">openEHR.StackExchange.com</span>
-				<br/>Proposed Q&amp;A site for people and organisations developing and using the openEHR open health computing platform.
-				<br/>
-				<br/> Phase 2: committers - <a href="http://area51.stackexchange.com/proposals/87508/openehr?referrer=w4Wq6VpjyxQPC4BojQudOA2">Commit here</a>
+					<br/>Proposed Q&amp;A site for people and organisations developing and using the openEHR open health computing platform.
+					<br/>
+					<br/> Phase 2: committers - <a href="http://area51.stackexchange.com/proposals/87508/openehr?referrer=w4Wq6VpjyxQPC4BojQudOA2">Commit here</a>
 				</p>
+				--!>
 
+				<!-- Membership --!>
 				<p><img src="/files/home/membership.png"><span class="HomeSubtitle">Membership</span>
-				<br/> Become an openEHR member!  <br/>
-				<br/> <a href="/about/membership">How does openEHR membership work?</a> <br/>
-				<br/> <a href="http://members.openehr.org/join-us" target="_blank">Membership sign-up page</a>
+					<br/> Become an openEHR member!  <br/>
+					<br/> <a href="/about/membership">How does openEHR membership work?</a> <br/>
+					<br/> <a href="http://members.openehr.org/join-us" target="_blank">Membership sign-up page</a>
 				</p>
 			</div>	
 			
