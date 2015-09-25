@@ -22,6 +22,18 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Download</th>
 			</tr>	
 			<tr>
+				<td>EhrScape</td>
+				<td>openEHR health data platform, providing a rich service framework that allows you to build innovative health apps in a web friendly environment.</td>
+				<td> Java</td>
+				<td><a href="https://www.ehrscape.com/">EhrScape.com</a></td>
+			</tr>
+			<tr>
+				<td>adl2-core</td>
+				<td>A reference implementation of openEHR reference model, archetype model and other core ADL/AOM 2 semantics. This library is the core of ADL2 Java implementations of openEHR.</td>
+				<td> Java</td>
+				<td><a href="https://github.com/openEHR/adl2-core/">adl2-core@GitHub</a></td>
+			</tr>
+			<tr>
 				<td>open EHR-Gen</td>
 				<td>A framework for generating medical record systems based on openEHR</td>
 				<td> Grails, Groovy, Java</td>
