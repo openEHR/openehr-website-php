@@ -36,7 +36,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<li>Delete the <b>recovery file</b> immediately after the user opens it.</li>
 				<li>Removed the Transitions option from the Pathway Specification in <b>ACTION</b> archetypes.</li>
 				<li>Fixed garbled text on the Header and Display tabs in some languages.</li>
-				<li>Fixed the replacement of translations of a term definitions in XML archetypes.</li>
+				<li>Fixed the replacement of translations of term definitions in XML archetypes.</li>
 				<li>Fixed <b>annotations</b>, which did not work except in the primary language.</li>
 				<li>Fixed serialisation of persistent compositions to prevent <b>participations</b> from being serialised to the ADL or XML.</li>
 				<li>Fixed various other bugs introduced in the beta releases since version 2.1.</li>

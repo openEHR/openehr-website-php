@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>Archetype Editor 2.2.905 beta release, 27 February 2013</h2>
+			<h2>Archetype Editor 2.8.972 beta release, 19 August 2015</h2>
 			<p><a href="release_notes">Release notes</a> - <a href="https://openehr.atlassian.net/projects/AEPR" target="_blank">Report an issue (Jira)</a></p>
 
 			<br/>
@@ -22,17 +22,18 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			
 			<h2>News</h2>
 			<ul>
-				<li>Changing the data type of elements at the same specialisation level as the archetype is always allowed.</li>
-				<li>Specialised XML archetypes preserve all term codes inherited from the parent archetype.</li>
-				<li>The uid attribute is now loaded and saved in archetypes where it is present.</li>
-				<li>Non-standard constraint definition items are now loaded and saved where they are present.</li>
+				<li>On creating a new archetype, the version defaults to <b>v0</b> instead of <b>v1</b>.</li>
+				<li>Archetypes now have <b>namespacing and revision</b> details.</li>
+				<li><b>Cluster specialisation</b> now clones by copy rather than by reference.</li>
+				<li>Editing of the child element of a <b>cloned cluster</b> is allowed if the original child has already been specialised.</li>
+				<li>Unused term and constraint codes are removed from the ontology.</li>
 			</ul>
 
 
 			<h2>Download</h2>
 
 			<ul>
-				<li><a href="/download_files/archetype_editor/archetype_editor_2.8.972.1-windows_32bit.exe">Latest release - 2.8.972.1 - 22 Aug 2015</a>.</li>
+				<li><a href="/download_files/archetype_editor/archetype_editor_2.8.972.1-windows_32bit.exe">Latest release - 2.8.972 - 19 Aug 2015</a>.</li>
 				<li><a href="/download_files/archetype_editor/archetype_editor_installer_windows-32bit.exe">Previous release - 2.2.905 - 27 Feb 2013</a>.</li>
 			</ul>
 
