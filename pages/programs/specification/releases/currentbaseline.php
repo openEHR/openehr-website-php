@@ -196,16 +196,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<tr>
 				<td colspan=3 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
 			</tr>
-			<tr style="background-color:#FFFCDC;">
+			<tr style="background-color:#FFFFCC;">
 				<td class="TableMainC"> <a href="/releases/AM/latest/ADL2.html" target="_blank">ADL 2</a></td>
 				<td class="TableMainC"> Archetype Definition Language (ADL) 2 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
-				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
+				<td class="TableMainC"> trial<br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
 			</tr>
-			<tr style="background-color:#FFFCDC;">
+			<tr style="background-color:#FFFFCC;">
 				<td class="TableMainC"> <a href="/releases/AM/latest/AOM2.html" target="_blank">AOM 2</a></td>
 				<td class="TableMainC"> Archetype Object Model (AOM) 2 draft - the AOM description now includes uniquely identified formally testable validity conditions 
 										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
+				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC"> <a href="/releases/AM/latest/Identification.html" target="_blank">Archetype identification and Versioning</a></td>
@@ -213,9 +213,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/Knowledge+Artefact+Identification">dev page</a></td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/latest/tom.pdf" target="_blank">openEHR Templates</a></td>
-				<td class="TableMainC"> Use of templates.</td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+templates+as+single+artefacts">dev page</a></td>
+				<td class="TableMainC"> <a href="/releases/AM/latest/OPT2.html" target="_blank">Operational Template (OPT)</a></td>
+				<td class="TableMainC"> Specificaion of the Operational Template format.</td>
+				<td class="TableMainC"> development </td>
 			</tr>
 
 			<tr>
