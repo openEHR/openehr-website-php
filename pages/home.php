@@ -34,7 +34,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				</p>
 
 				<!-- Digital Health World Forum 2015 --!>
-				<p><img src="/files/home/dhwf_300x250.jpg"><span class="HomeSubtitle">Digital Health World Forum</span>
+				<p><img src="/files/home/dhwf.jpg"><span class="HomeSubtitle">Digital Health World Forum</span>
 					<br/> openEHR presenting 8 Dec 2015<br/>
 					<br/> <a href="http://www.digitalhealthevent.com/conference/speakers/110-ian-mcnicoll" target="_blank">Presentation page</a><br/>
 				</p>
