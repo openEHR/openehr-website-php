@@ -27,12 +27,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				
 				<!-- White paper 2015 --!>
 				<p><img src="/files/home/white_paper_word_cloud.png"><span class="HomeSubtitle">New White Paper</span>
+					<br/> Why we need an open platform<br/>
+					<br/> - avoid lock-in<br/>
+					<br/> - control your data<br/>
 					<br/> <a href="http://www.openehr.org/resources/white_paper_docs/openEHR_vendor_independent_platform.pdf" target="_blank">openEHR 2015 White Paper</a><br/>
 				</p>
 
 				<!-- Digital Health World Forum 2015 --!>
-				<p><img src="/files/home/DHWF logo_300x250.jpg"><span class="HomeSubtitle">openEHR @ Digital Health World Forum 8 Dec 2015</span>
-					<br/> <a href="http://www.digitalhealthevent.com/conference/speakers/110-ian-mcnicoll" target="_blank">openEHR Presentation</a><br/>
+				<p><img src="/files/home/DHWF_logo_300x250.jpg"><span class="HomeSubtitle">Digital Health World Forum</span>
+					<br/> openEHR presenting 8 Dec 2015<br/>
+					<br/> <a href="http://www.digitalhealthevent.com/conference/speakers/110-ian-mcnicoll" target="_blank">Presentation page</a><br/>
 				</p>
 
 				<!-- Industry Sprint --!>
