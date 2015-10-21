@@ -25,6 +25,23 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			
 			<div id="NewsImage">
 				
+				<!-- White paper 2015 --!>
+				<p><img src="/files/home/white_paper_word_cloud.png"><span class="HomeSubtitle">New White Paper</span>
+					<br/> <a href="http://www.openehr.org/resources/white_paper_docs/openEHR_vendor_independent_platform.pdf" target="_blank">openEHR 2015 White Paper</a><br/>
+				</p>
+
+				<!-- Digital Health World Forum 2015 --!>
+				<p><img src="/files/home/DHWF logo_300x250.jpg"><span class="HomeSubtitle">openEHR @ Digital Health World Forum 8 Dec 2015</span>
+					<br/> <a href="http://www.digitalhealthevent.com/conference/speakers/110-ian-mcnicoll" target="_blank">openEHR Presentation</a><br/>
+				</p>
+
+				<!-- Industry Sprint --!>
+				<p><img src="/files/home/sprint.jpg"><span class="HomeSubtitle">Industry Sprint</span>
+					<br/> OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'<br/>
+					<br/> <a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a> <br/>
+					<br/> Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a> <br/>
+				</p>
+
 				<!-- MedInfo 2015 --!>
 				<p><img src="/files/home/openehr_medinfo_2015.png"><span class="HomeSubtitle">MedInfo 2015</span>
 					<br/> openEHR @ MedInfo 2015 <a href="/news_events/conference_reports/2015-08-19_medinfo_2015">Reflections, photos, links</a> <br/>
@@ -40,13 +57,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
 				</p>
 				
-				<!-- Industry Sprint --!>
-				<p><img src="/files/home/sprint.jpg"><span class="HomeSubtitle">Industry Sprint</span>
-					<br/> OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'<br/>
-					<br/> <a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a> <br/>
-					<br/> Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a> <br/>
-				</p>
-
 				<!-- StackExchange progress item
 				<p><img src="http://area51.stackexchange.com/ads/proposal/87508.png"><span class="HomeSubtitle">openEHR.StackExchange.com</span>
 					<br/>Proposed Q&amp;A site for people and organisations developing and using the openEHR open health computing platform.
