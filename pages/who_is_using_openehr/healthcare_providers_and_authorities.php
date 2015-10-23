@@ -24,7 +24,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Status</th>
 			</tr>
 			<tr>
-				<td rowspan="5"><img src="/files/who_is_using_openehr/australia.gif" alt="Flag of Australia" title="Flag of Australia" style="width:80px;"><p>Australia</p></td>
+				<td rowspan="6"><img src="/files/who_is_using_openehr/australia.gif" alt="Flag of Australia" title="Flag of Australia" style="width:80px;"><p>Australia</p></td>
 				<td><a href="http://www.health.qld.gov.au/">Queensland Health</a><br/>Australian state health authority responsible for the providing public health 4.5m consumers; Centre for Healthcare Related Infection Surveillance and Prevention (CHRISP).</td>
 				<td>Infection Control system, Multiprac, for 140+ hospitals in Queensland based on the Ocean OceanEHR platform. <a href="http://oceaninformatics.com/case_studies/queensland_health">Case study</a></td>
 				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a></td>
