@@ -31,8 +31,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>Deployed Aug 2012</td>
 			</tr>
 			<tr>
-				<td><a href="http://www.health.nt.gov.au/">Western Sydney Medicare Local</a><br/>Community health organisation</td>
-				<td>Community Health record for 50 GP clinics in Western Sydney. <a href="http://oceaninformatics.com/case_studies/western_sydney">Case study</a></td>
+				<td><a href="http://www.wentwest.com.au/">Western Sydney Primary Healthcare Network & Western Sydney local Health District</a><br/>Community health organisation</td>
+				<td>Integrate care project between acute care and primary care for NSW health. </td>
+				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a><br/></td>
+				<td>Deployed June 2015</td>
+			</tr>
+			<tr>
+				<td><a href="http://www.wentwest.com.au/">Western Sydney Medicare Local</a><br/>Community health organisation</td>
+				<td>Community Health record for 350 GP clinics in Western Sydney. <a href="http://oceaninformatics.com/case_studies/western_sydney">Case study</a></td>
 				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a><br/></td>
 				<td>Deployed December 2013</td>
 			</tr>
