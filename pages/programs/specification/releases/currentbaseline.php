@@ -52,7 +52,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
 			
 			<!-- ------------------------------------------- BASE ------------------------------------------------- -->
-			<h2>Base Models (BASE)</h2>
+			<h2><a name="BASE"></a>Base Models (BASE)</h2>
 
 			<table class="TableMain">
 			<tbody>
@@ -94,7 +94,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<!-- ------------------------------------------- RM ------------------------------------------------- -->
-			<h2>Reference Model (RM)</h2>
+			<h2><a name="RM"></a>Reference Model (RM)</h2>
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECRM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECRM Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECRM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
@@ -172,7 +172,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<!-- ------------------------------------------- AM ------------------------------------------------- -->
-			<h2>Archetype Model (AM)</h2>
+			<h2><a name="AM"></a>Archetype Model (AM)</h2>
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECAM Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
@@ -254,7 +254,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<!-- ------------------------------------------- SM ------------------------------------------------- -->
-			<h2>Service Model (SM)</h2>
+			<h2><a name="SM"></a>Service Model (SM)</h2>
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECSM Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
@@ -283,7 +283,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<!-- ------------------------------------------- Terminology ------------------------------------------------- -->
-			<h2>Terminology</h2>
+			<h2><a name="TERM"></a>Terminology</h2>
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECTERM Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
@@ -317,7 +317,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<!-- ------------------------------------------- Querying ------------------------------------------------- -->
-			<h2>Querying</h2>
+			<h2><a name="QUERY"></a>Querying</h2>
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECQRY Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
@@ -362,7 +362,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<!-- ------------------------------------------- CDS ------------------------------------------------- -->
-			<h2>Clinical Decision Support (CDS)</h2>
+			<h2><a name="CDS"></a>Clinical Decision Support (CDS)</h2>
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECCDS Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
@@ -385,7 +385,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<!-- ------------------------------------------- ITS ------------------------------------------------- -->
-			<h2>Implementation Technology Specification (ITS)</h2>
+			<h2><a name="ITS"></a>Implementation Technology Specification (ITS)</h2>
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECITS Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
@@ -429,7 +429,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 		
 			<!-- ------------------------------------------- CONF ------------------------------------------------- -->
-			<h2>Conformance</h2>
+			<h2><a name="CONF"></a>Conformance</h2>
 			<p>
 				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECCNF Jira project</a> | 
 				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
