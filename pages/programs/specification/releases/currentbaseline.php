@@ -187,15 +187,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Status </th>
 			</tr>
 
+			<tr>
+				<td colspan=3 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
+			</tr>
 			<tr style="background-color:#FFFCDC;">
 				<td class="TableMainC"> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetypes - Technical Overview</a></td>
 				<td class="TableMainC"> Technical overview of archetypes, basic semantics, types of artefact, parsing, compiling etc.</td>
 				<td class="TableMainC"> development </td>
 			</tr>
 
-			<tr>
-				<td colspan=3 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
-			</tr>
 			<tr style="background-color:#FFFFCC;">
 				<td class="TableMainC"> <a href="/releases/AM/latest/ADL2.html" target="_blank">ADL 2</a></td>
 				<td class="TableMainC"> Archetype Definition Language (ADL) 2 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
@@ -282,40 +282,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</table>
 
 
-			<!-- ------------------------------------------- Terminology ------------------------------------------------- -->
-			<h2><a name="TERM"></a>Terminology</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECTERM Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
-			</p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/terminology.pdf" target="_blank">openEHR Vocabulary</a> </td>
-				<td class="TableMainC"> Documentary form of the&nbsp;openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models. </td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-
-			<tr>
-				<th class="TableMainT"> Computable Expression </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> XML </td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM/RM/Release-1.0.2">XML source file</a></td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-			</tbody>
-			</table>
-
-
 			<!-- ------------------------------------------- Querying ------------------------------------------------- -->
 			<h2><a name="QUERY"></a>Querying</h2>
 			<p>
@@ -359,29 +325,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tbody>
 			</table>
 
-
-
-			<!-- ------------------------------------------- CDS ------------------------------------------------- -->
-			<h2><a name="CDS"></a>Clinical Decision Support (CDS)</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECCDS Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
-			</p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/CDS/latest/GDL.html">Guideline Definition Language (GDL)</a> </td>
-				<td class="TableMainC"> Guideline language based on ADL syntax with extensions.</td>
-				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://github.com/openEHR/gdl-tools/wiki">dev page</a></td>
-			</tr>			
-			</tbody>
-			</table>
 
 
 			<!-- ------------------------------------------- ITS ------------------------------------------------- -->
@@ -428,6 +371,63 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</table>
 
 		
+			<!-- ------------------------------------------- Terminology ------------------------------------------------- -->
+			<h2><a name="TERM"></a>Terminology</h2>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECTERM Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
+			</p>
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"> Documentary Specification </th>
+				<th class="TableMainT"> Description </th>
+				<th class="TableMainT"> Status </th>
+			</tr>
+			<tr>
+				<td class="TableMainC"> <a href="/releases/trunk/architecture/terminology.pdf" target="_blank">openEHR Vocabulary</a> </td>
+				<td class="TableMainC"> Documentary form of the&nbsp;openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models. </td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+
+			<tr>
+				<th class="TableMainT"> Computable Expression </th>
+				<th class="TableMainT"> Description </th>
+				<th class="TableMainT"> Status </th>
+			</tr>
+			<tr>
+				<td class="TableMainC"> XML </td>
+				<td class="TableMainC"> <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM/RM/Release-1.0.2">XML source file</a></td>
+				<td class="TableMainC"> stable</td>
+			</tr>
+			</tbody>
+			</table>
+
+
+			<!-- ------------------------------------------- CDS ------------------------------------------------- -->
+			<h2><a name="CDS"></a>Clinical Decision Support (CDS)</h2>
+			<p>
+				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECCDS Jira project</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
+				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
+			</p>
+			<table class="TableMain">
+			<tbody>
+			<tr>
+				<th class="TableMainT"> Documentary Specification </th>
+				<th class="TableMainT"> Description </th>
+				<th class="TableMainT"> Status </th>
+			</tr>
+			<tr style="background-color:#FFFCDC;">
+				<td class="TableMainC"> <a href="/releases/CDS/latest/GDL.html">Guideline Definition Language (GDL)</a> </td>
+				<td class="TableMainC"> Guideline language based on ADL syntax with extensions.</td>
+				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://github.com/openEHR/gdl-tools/wiki">dev page</a></td>
+			</tr>			
+			</tbody>
+			</table>
+
+
 			<!-- ------------------------------------------- CONF ------------------------------------------------- -->
 			<h2><a name="CONF"></a>Conformance</h2>
 			<p>
