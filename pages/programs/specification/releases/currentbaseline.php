@@ -191,8 +191,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td colspan=3 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
 			</tr>
 			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetypes - Technical Overview</a></td>
-				<td class="TableMainC"> Technical overview of archetypes, basic semantics, types of artefact, parsing, compiling etc.</td>
+				<td class="TableMainC"> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetypes - Technology Overview</a></td>
+				<td class="TableMainC"> Overview of archetype technology, basic semantics, types of artefact, parsing, compiling etc.</td>
 				<td class="TableMainC"> development </td>
 			</tr>
 
