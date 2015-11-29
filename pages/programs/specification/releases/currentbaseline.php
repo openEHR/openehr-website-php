@@ -222,7 +222,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td colspan=3 align="center"> <a name="ADL1.4"><b>ADL 1.4</b></a> </td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <a href="/releases/1.0.2/architecture/am/adl.pdf" target="_blank">ADL 1.4</a></td>
+				<td class="TableMainC"> <a href="/releases/AM/latest/ADL1.4.html" target="_blank">ADL 1.4</a></td>
 				<td class="TableMainC"> Abstract syntax specification for Archetype Definition Language (ADL), 1.4 edition of language (used in ISO 13606-2). </td>
 				<td class="TableMainC"> stable</td>
 			</tr>
