@@ -25,19 +25,27 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			
 			<div id="NewsImage">
 				
+				<!-- Forthcoming Releases --!>
+				<p><img src="/files/home/blueprint.png"><span class="HomeSubtitle">RM Release 1.0.3 imminent</span>
+					<br/> <a href="https://openehr.atlassian.net/projects/SPECPR?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">Release roadmap</a>.<br/>
+					<br/><a href="https://openehr.atlassian.net/issues/?jql=project%20%3D%20SPECRM%20AND%20fixVersion%20%3D%20%22Release%201.0.3%22%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC" target="_blank">RM releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/projects/SPECAM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ADL releases</a><br/>
+					<a href="https://openehr.atlassian.net/projects/SPECITS?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ITS releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/wiki/display/spec/openEHR+REST+APIs" target="_blank">REST APIs page</a><br/>
+					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
+				</p>
+				
+				<!-- Industry Sprint --!>
+				<p><img src="/files/home/sprint.jpg"><span class="HomeSubtitle">Industry Sprint</span>
+					<br/> OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'<br/>
+					<br/> <a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a> <br/>
+					<br/> Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a> <br/>
+				</p>
+
 				<!-- White paper 2015 --!>
 				<p><img src="/files/home/white_paper_word_cloud.png"><span class="HomeSubtitle">New White Paper</span>
 					<br/> Why we need an open platform<br/>
 					<br/> - avoid lock-in<br/>
 					<br/> - control your data<br/>
 					<br/> <a href="http://www.openehr.org/resources/white_paper_docs/openEHR_vendor_independent_platform.pdf" target="_blank">openEHR 2015 White Paper</a><br/>
-				</p>
-
-				<!-- Industry Sprint --!>
-				<p><img src="/files/home/sprint.jpg"><span class="HomeSubtitle">Industry Sprint</span>
-					<br/> OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'<br/>
-					<br/> <a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a> <br/>
-					<br/> Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a> <br/>
 				</p>
 
 				<!-- MedInfo 2015 --!>
@@ -47,14 +55,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<br/> <a href="http://ebooks.iospress.nl/volume/medinfo-2015-ehealth-enabled-health-proceedings-of-the-15th-world-congress-on-health-and-biomedical-informatics">Full Conference Proceedings</a> <br/>
 				</p>
 
-				<!-- Forthcoming Releases --!>
-				<p><img src="/files/home/blueprint.png"><span class="HomeSubtitle">RM Release 1.0.3 imminent</span>
-					<br/> <a href="https://openehr.atlassian.net/projects/SPECPR?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">Release roadmap</a>.<br/>
-					<br/><a href="https://openehr.atlassian.net/issues/?jql=project%20%3D%20SPECRM%20AND%20fixVersion%20%3D%20%22Release%201.0.3%22%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC" target="_blank">RM releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/projects/SPECAM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ADL releases</a><br/>
-					<a href="https://openehr.atlassian.net/projects/SPECITS?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ITS releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/wiki/display/spec/openEHR+REST+APIs" target="_blank">REST APIs page</a><br/>
-					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
-				</p>
-				
 				<!-- StackExchange progress item
 				<p><img src="http://area51.stackexchange.com/ads/proposal/87508.png"><span class="HomeSubtitle">openEHR.StackExchange.com</span>
 					<br/>Proposed Q&amp;A site for people and organisations developing and using the openEHR open health computing platform.
