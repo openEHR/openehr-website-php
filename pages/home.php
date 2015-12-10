@@ -33,12 +33,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<br/> <a href="http://www.openehr.org/resources/white_paper_docs/openEHR_vendor_independent_platform.pdf" target="_blank">openEHR 2015 White Paper</a><br/>
 				</p>
 
-				<!-- Digital Health World Forum 2015 --!>
-				<p><img src="/files/home/dhwf.jpg"><span class="HomeSubtitle">Digital Health World Forum</span>
-					<br/> openEHR presenting 8 Dec 2015<br/>
-					<br/> <a href="http://www.digitalhealthevent.com/conference/speakers/110-ian-mcnicoll" target="_blank">Presentation page</a><br/>
-				</p>
-
 				<!-- Industry Sprint --!>
 				<p><img src="/files/home/sprint.jpg"><span class="HomeSubtitle">Industry Sprint</span>
 					<br/> OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'<br/>
@@ -54,9 +48,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				</p>
 
 				<!-- Forthcoming Releases --!>
-				<p><img src="/files/home/blueprint.png"><span class="HomeSubtitle">Forthcoming Releases</span>
+				<p><img src="/files/home/blueprint.png"><span class="HomeSubtitle">RM Release 1.0.3 imminent</span>
 					<br/> <a href="https://openehr.atlassian.net/projects/SPECPR?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">Release roadmap</a>.<br/>
-					<br/><a href="https://openehr.atlassian.net/projects/SPECRM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">RM releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/projects/SPECAM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ADL releases</a><br/>
+					<br/><a href="https://openehr.atlassian.net/issues/?jql=project%20%3D%20SPECRM%20AND%20fixVersion%20%3D%20%22Release%201.0.3%22%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC" target="_blank">RM releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/projects/SPECAM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ADL releases</a><br/>
 					<a href="https://openehr.atlassian.net/projects/SPECITS?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ITS releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/wiki/display/spec/openEHR+REST+APIs" target="_blank">REST APIs page</a><br/>
 					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
 				</p>
