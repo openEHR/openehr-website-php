@@ -52,7 +52,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
 			
 			<!-- ------------------------------------------- BASE ------------------------------------------------- -->
-			<h2><a name="BASE"></a>Base Models (BASE)</h2>
 			<h2><a name="BASE"></a><a href="/releases/BASE/latest/docs/index">Base Models (BASE)</a></h2>
 
 			<!-- ------------------------------------------- RM ------------------------------------------------- -->
