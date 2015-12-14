@@ -52,12 +52,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
 			
 			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
-			<h2><a name="BASE"></a><a href="/releases/BASE/latest/docs/index">Base Models (BASE)</a></h2>
-			<h2><a name="RM"></a><a href="/releases/RM/latest/docs/index">Reference Model (RM)</a></h2>
-			<h2><a name="AM"></a><a href="/releases/AM/latest/docs/index">Archetype Model (AM)</a></h2>
-			<h2><a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index">Querying Languages (QUERY)</a></h2>
-			<h2><a name="SM"></a><a href="/releases/SM/latest/docs/index">Service Model (SM)</a></h2>
-			<h2><a name="CDS"></a><a href="/releases/CDS/latest/docs/index">Clinical Decision Support (CDS)</a></h2>
+			<h2>Specifications pages</h2>
+			<h3><a name="BASE"></a><a href="/releases/BASE/latest/docs/index">Base Models (BASE)</a></h3>
+			<h3><a name="RM"></a><a href="/releases/RM/latest/docs/index">Reference Model (RM)</a></h3>
+			<h3><a name="AM"></a><a href="/releases/AM/latest/docs/index">Archetype Model (AM)</a></h3>
+			<h3><a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index">Querying Languages (QUERY)</a></h3>
+			<h3><a name="TERM"></a><a href="/releases/TERM/latest/docs/index">openEHR Terminology</a></h3>
+			<h3><a name="SM"></a><a href="/releases/SM/latest/docs/index">Service Model (SM)</a></h3>
+			<h3><a name="CDS"></a><a href="/releases/CDS/latest/docs/index">Clinical Decision Support (CDS)</a></h3>
 
 			<!-- ------------------------------------------- ITS ------------------------------------------------- -->
 			<h2><a name="ITS"></a>Implementation Technology Specification (ITS)</h2>
@@ -103,40 +105,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</table>
 
 		
-			<!-- ------------------------------------------- Terminology ------------------------------------------------- -->
-			<h2><a name="TERM"></a>Terminology</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECTERM Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
-			</p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/terminology.pdf" target="_blank">openEHR Vocabulary</a> </td>
-				<td class="TableMainC"> Documentary form of the&nbsp;openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models. </td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-
-			<tr>
-				<th class="TableMainT"> Computable Expression </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> XML </td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM/RM/Release-1.0.2">XML source file</a></td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-			</tbody>
-			</table>
-
-
 			<!-- ------------------------------------------- CONF ------------------------------------------------- -->
 			<h2><a name="CONF"></a>Conformance</h2>
 			<p>
