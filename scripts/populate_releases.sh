@@ -122,7 +122,7 @@ ls -d specifications-* | while read git_component_repo; do
         echo "created $site_component_dir"
     fi
 
-    # do checkout of working baseline into 'dev'
+    # do checkout of working baseline into 'latest'
     work_area=$site_component_dir/latest
     if [ ! -d $work_area ]; then
         mkdir $work_area
@@ -134,11 +134,8 @@ ls -d specifications-* | while read git_component_repo; do
     # cycle through all releases and check out into release dirs
     git tag | grep Release | while read tagname; do
 
-        # convert tagname like "Releaes-0.9" into targ dir name like "0.9"
-        tagid=${tagname#Release-}
-
         # don't bother if it is already there
-        targ_dir=$site_component_dir/$tagid
+        targ_dir=$site_component_dir/$tagname
         if [ ! -d $targ_dir ]; then
             mkdir $targ_dir
             do_cmd "$git_archive_cmd $tagname | tar -x -C $targ_dir"
