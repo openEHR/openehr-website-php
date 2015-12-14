@@ -31,9 +31,6 @@ release_dir=releases
 do_cmd () {
     echo "------ Running: $1"
     eval $1 2>&1
-	if [ $? -ne 0 ]; then
-		echo "    FAILED - error code $?"
-	fi
 }
 
 #
@@ -74,7 +71,7 @@ do_cmd "$git_merge_cmd"
 #
 git tag | grep Release | while read tagname; do
 
-    # convert tagname like "Releaes-0.9" into targ dir name like "0.9"
+    # convert tagname like "Release-0.9" into targ dir name like "0.9"
     tagid=${tagname#Release-}
 
     # don't bother if it is already there
@@ -97,13 +94,13 @@ done
 # a previous extract in this case, since it's the top (changing) version
 # NOTE: this is only for the software engineering portal, i.e. UML website.
 #
-targ_dir=$dest_parent_dir/trunk
-if [ -d $targ_dir ]; then
-   echo "------ Wiping out existing $targ_dir"
-   rm -rf $targ_dir
-fi
-do_cmd "$git_archive_cmd master $old_specs_git_repo_pub_dir | tar -x -C $dest_parent_dir"
-do_cmd "mv $dest_parent_dir/$old_specs_git_repo_pub_dir $targ_dir"
+#targ_dir=$dest_parent_dir/trunk
+#if [ -d $targ_dir ]; then
+#   echo "------ Wiping out existing specifications $targ_dir"
+#   rm -rf $targ_dir
+#fi
+#do_cmd "$git_archive_cmd master $old_specs_git_repo_pub_dir | tar -x -C $dest_parent_dir"
+#do_cmd "mv $dest_parent_dir/$old_specs_git_repo_pub_dir $targ_dir"
 
 #
 # ============= Do the extraction from 'specifications-*' repos =============
