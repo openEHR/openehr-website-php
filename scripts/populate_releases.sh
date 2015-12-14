@@ -108,17 +108,18 @@ done
 cd $git_root
 
 ls -d specifications-* | while read git_component_repo; do
-    cd $git_component_repo
+
+    component=${git_component_repo##specifications-}
+    echo 
+    echo "================ Component: $component ================"
 
 	# get Git repo up to date
+    cd $git_component_repo
 	do_cmd "$git_remove_local_changes"
 	do_cmd "$git_fetch_cmd"
 	do_cmd "$git_merge_cmd"
 
 	# create any directories if this is the first time
-    component=${git_component_repo##specifications-}
-    echo "Component: $component"
-
     site_component_dir=$dest_parent_dir/$component
     if [ ! -d $site_component_dir ]; then
         mkdir $site_component_dir
