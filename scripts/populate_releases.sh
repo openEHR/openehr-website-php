@@ -15,7 +15,8 @@ sites_root=/var/www/vhosts/openehr.org/
 spec_resources_repo=spec-publish-asciidoc
 
 git_remove_local_changes="git clean -d -f"
-git_pull_cmd="git pull"
+git_fetch_cmd="git fetch --tags"
+git_merge_cmd="git merge FETCH_HEAD"
 git_archive_cmd="git archive"
 git_checkout_cmd="git --work-tree=work_area checkout -f"
 
@@ -30,6 +31,9 @@ release_dir=releases
 do_cmd () {
     echo "------ Running: $1"
     eval $1 2>&1
+	if [ $? -ne 0 ]; then
+		echo "    FAILED - error code $?"
+	fi
 }
 
 #
@@ -56,7 +60,8 @@ echo "Target location: $dest_parent_dir"
 #
 cd $old_specs_git_repo_clone_dir
 do_cmd "$git_remove_local_changes"
-do_cmd "$git_pull_cmd"
+do_cmd "$git_fetch_cmd"
+do_cmd "$git_merge_cmd"
 
 #
 # ============= Do the extraction from 'specifications' repo =============
@@ -110,7 +115,8 @@ ls -d specifications-* | while read git_component_repo; do
 
 	# get Git repo up to date
 	do_cmd "$git_remove_local_changes"
-	do_cmd "$git_pull_cmd"
+	do_cmd "$git_fetch_cmd"
+	do_cmd "$git_merge_cmd"
 
 	# create any directories if this is the first time
     component=${git_component_repo##specifications-}
@@ -156,7 +162,8 @@ cd $spec_resources_repo
 
 # get Git repo up to date
 do_cmd "$git_remove_local_changes"
-do_cmd "$git_pull_cmd"
+do_cmd "$git_fetch_cmd"
+do_cmd "$git_merge_cmd"
 
 # create any directories if this is the first time
 echo "Repo: $spec_resources_repo"
