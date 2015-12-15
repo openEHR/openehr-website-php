@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
-			<p>This page provides access to the current working deliverables of the openEHR specification project and indicates the current status (lifecycle state) of each. If you are looking for a specific release, <a href="index">see here</a>.</p>
+			<p>This page provides access to the current working deliverables of the openEHR specification project. If you are looking for a specific release, <a href="index">see here</a>.</p>
 			
 			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
 			<h2>Specifications</h2>
