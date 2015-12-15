@@ -16,14 +16,45 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<p>This page provides access to the current working deliverables of the openEHR specification project and indicates the current status (lifecycle state) of each. If you are looking for a specific release, <a href="index">see here</a>.</p>
 			
 			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
-			<h2>Specifications pages</h2>
-			<h3><a name="BASE"></a><a href="/releases/BASE/latest/docs/index">Base Models (BASE)</a></h3>
-			<h3><a name="RM"></a><a href="/releases/RM/latest/docs/index">Reference Model (RM)</a></h3>
-			<h3><a name="AM"></a><a href="/releases/AM/latest/docs/index">Archetype Model (AM)</a></h3>
-			<h3><a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index">Querying Languages (QUERY)</a></h3>
-			<h3><a name="TERM"></a><a href="/releases/TERM/latest/docs/index">openEHR Terminology</a></h3>
-			<h3><a name="SM"></a><a href="/releases/SM/latest/docs/index">Service Model (SM)</a></h3>
-			<h3><a name="CDS"></a><a href="/releases/CDS/latest/docs/index">Clinical Decision Support (CDS)</a></h3>
+			<h2>Specifications</h2>
+			<table class="TableMain">
+				<tbody>
+					<tr>
+						<th class="TableMainT"> Component </th>
+						<th class="TableMainT"> Description </th>
+					</tr>
+
+					<tr>
+						<td class="TableMainC"> <a name="BASE"></a><a href="/releases/BASE/latest/docs/index">BASE</a></td>
+						<td class="TableMainC"> Base models and specifications - globally applicable semantics used by other specifications.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="RM"></a><a href="/releases/RM/latest/docs/index">RM</a></td>
+						<td class="TableMainC"> Reference Model - the core information models of the EHR, Demographics and EHR Extract</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="AM"></a><a href="/releases/AM/latest/docs/index">AM</a></td>
+						<td class="TableMainC"> Archetype Model - the Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and identification specifications.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index">QUERY</a></td>
+						<td class="TableMainC"> Query language specifications, including AQL.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index">Terminology</a></td>
+						<td class="TableMainC"> openEHR support terminology, used by the RM and other components.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="SM"></a><a href="/releases/SM/latest/docs/index">SM</a></td>
+						<td class="TableMainC"> Service Model - service and application programming interface (API) specifications.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index">CDS</a></td>
+						<td class="TableMainC"> Clinical Decision Support - specifications for guidelines and related languages.</td>
+					</tr>
+				</tbody>
+			</table>
+			
 
 			<!-- ------------------------------------------- ITS ------------------------------------------------- -->
 			<h2><a name="ITS"></a>Implementation Technology Specification (ITS)</h2>
