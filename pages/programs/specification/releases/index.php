@@ -29,12 +29,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					<tr>
 						<td class="TableMainC"> <a href="/releases/RM/Release-1.0.3/docs/index">RM Release 1.0.3</a></td>
 						<td class="TableMainC"> 15 December 2015 </td>
-						<td class="TableMainC"> <a href="https://openehr.atlassian.net/projects/SPECRM/versions/10860">23 Changes made.</a>; <a href="https://openehr.atlassian.net/projects/SPECPR/versions/10060">29 Problems fixed</a></td>
+						<td class="TableMainC"> <a href="https://openehr.atlassian.net/projects/SPECRM/versions/10860">23 Changes made</a>; <a href="https://openehr.atlassian.net/projects/SPECPR/versions/10060">29 Problems fixed</a></td>
 					</tr>
 					<tr>
 						<td class="TableMainC"> <a href="/releases/BASE/Release-1.0.3/docs/index">BASE Release 1.0.3</a></td>
 						<td class="TableMainC"> 15 December 2015 </td>
-						<td class="TableMainC"> <a href="https://openehr.atlassian.net/projects/SPECBASE/versions/11360">2 Changes made.</a>; <a href="https://openehr.atlassian.net/issues/?jql=project%20%3D%20SPECPR%20AND%20status%20%3D%20Closed%20AND%20fixVersion%20%3D%20%22RM%20Release%201.0.3%22%20AND%20text%20~%20%22overview%22%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC">5 Problems fixed</a></td>
+						<td class="TableMainC"> <a href="https://openehr.atlassian.net/projects/SPECBASE/versions/11360">2 Changes made</a>; <a href="https://openehr.atlassian.net/issues/?jql=project%20%3D%20SPECPR%20AND%20status%20%3D%20Closed%20AND%20fixVersion%20%3D%20%22RM%20Release%201.0.3%22%20AND%20text%20~%20%22overview%22%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC">5 Problems fixed</a></td>
 					</tr>
 				</tbody>
 			</table>
