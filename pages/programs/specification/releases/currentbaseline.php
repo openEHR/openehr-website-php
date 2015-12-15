@@ -14,42 +14,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			
 			<h2>Overview</h2>
 			<p>This page provides access to the current working deliverables of the openEHR specification project and indicates the current status (lifecycle state) of each. If you are looking for a specific release, <a href="index">see here</a>.</p>
-			<p>The lifecycle states are as follows: </p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Lifecycle State </th>
-				<th class="TableMainT"> Description </th>
-			</tr>
-			<tr style="background-color:#DDFCFF;">
-				<td class="TableMainC"> planning</td>
-				<td class="TableMainC"> development of description and scope of new specification, along with relevance and utility.</td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> development</td>
-				<td class="TableMainC"> agile development by project group, no formal change management, visibility of documentation and experimental software. By the end of development, an open source reference implementation must be available</td>
-			</tr>
-			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> trial </td>
-				<td class="TableMainC"> during this period, the specification is managed in a formal way. Issues are reported on an online tracker; changes are recorded on a separate dedicated tracker, ensuring every change to the specification is recorded </td>
-			</tr>
-			<tr>
-				<td class="TableMainC"> stable </td>
-				<td class="TableMainC"> specifications that have been tested in software and are in use in the community.</td>
-			</tr>
-			<tr style="background-color:#F9F9F9;">
-				<td class="TableMainC"> retired </td>
-				<td class="TableMainC"> some specifications inevitably become obsolete, or irrelevant for other reasons, and are promoted to the Retired state.</td>
-			</tr>
-			</tbody>
-			</table>
-
-			
-			<h3>Reading Documents</h3>
-			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them,
-			we suggest upgrading to the <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">latest Acrobat Reader</a>.
-			If you still experience problems with reading PDF files, your browser configuration may need to be adjusted.
-			See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
 			
 			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
 			<h2>Specifications pages</h2>
