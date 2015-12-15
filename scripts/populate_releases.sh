@@ -16,7 +16,7 @@ spec_resources_repo=spec-publish-asciidoc
 
 git_remove_local_changes="git clean -d -f"
 git_fetch_cmd="git fetch --tags"
-git_merge_cmd="git merge FETCH_HEAD"
+git_merge_cmd="git pull"
 git_archive_cmd="git archive"
 git_checkout_cmd="git --work-tree=work_area checkout -f"
 
