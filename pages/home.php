@@ -26,10 +26,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<div id="NewsImage">
 				
 				<!-- Forthcoming Releases --!>
-				<p><img src="/files/home/blueprint.png"><span class="HomeSubtitle">RM Release 1.0.3 imminent</span>
-					<br/> <a href="https://openehr.atlassian.net/projects/SPECPR?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">Release roadmap</a>.<br/>
-					<br/><a href="https://openehr.atlassian.net/issues/?jql=project%20%3D%20SPECRM%20AND%20fixVersion%20%3D%20%22Release%201.0.3%22%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC" target="_blank">RM releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/projects/SPECAM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ADL releases</a><br/>
-					<a href="https://openehr.atlassian.net/projects/SPECITS?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ITS releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/wiki/display/spec/openEHR+REST+APIs" target="_blank">REST APIs page</a><br/>
+				<p><img src="/files/home/release103.png"><span class="HomeSubtitle">RM Release 1.0.3 published</span>
+					<br/> <a href="http://www.openehr.org/releases/RM/Release-1.0.3/docs/index" target="_blank">RM Release 1.0.3</a>.<br/>
+					<br/><a href="http://www.openehr.org/releases/BASE/Release-1.0.3/docs/index" target="_blank">BASE Release 1.0.3</a><br/>
 					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
 				</p>
 				
