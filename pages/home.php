@@ -27,7 +27,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				
 				<!-- Forthcoming Releases --!>
 				<p><img src="/files/home/release103.png"><span class="HomeSubtitle">RM Release 1.0.3 published</span>
-					<br/> <a href="http://www.openehr.org/releases/RM/Release-1.0.3/docs/index" target="_blank">RM Release 1.0.3</a>.<br/>
+					<br/> <a href="http://www.openehr.org/releases/RM/Release-1.0.3/docs/index" target="_blank">RM Release 1.0.3</a><br/>
 					<br/><a href="http://www.openehr.org/releases/BASE/Release-1.0.3/docs/index" target="_blank">BASE Release 1.0.3</a><br/>
 					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
 				</p>
