@@ -2,13 +2,23 @@
 		
 	</div>
 	
-	<div id="BottomMenu">
-		<?php include $_SERVER['DOCUMENT_ROOT'].'/menu/bottommenu.php' ?>
+	</div>
+	
+	<div id = "BottomMenuContainer">
+	
+		<div id="BottomMenu">
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/menu/bottommenu.php' ?>
+		</div>
+		
 	</div>
 
-	<div id="BottomPanel">
-		<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/bottompanel.php' ?>
-	</div>
+	<div id = "BottomPanelContainer">
+	
+		<div id="BottomPanel">
+			<p><span style="color:#023760;">Copyright &copy; <?php echo date("Y");?> openEHR Foundation. All rights reserved | <a href="mailto:webmaster@openehr.org">Webmaster</a></span></p>
+		</div>
+		
+	</div>	
 
 </div>
 

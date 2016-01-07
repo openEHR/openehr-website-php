@@ -7,7 +7,7 @@ $PageName = 'About this website';
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 ?>
 
-	<div id="MainArea" style="margin-left:60px; margin-top:35px; margin-bottom:100px; width:900px;">
+	<div id="MainArea">
 	
 		<div id="Content">
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->

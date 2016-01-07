@@ -21,6 +21,8 @@ img {
 }
 
 #MainArea {
+margin: auto;
+
 width:1024px;
  
 background-color:#ffffff;

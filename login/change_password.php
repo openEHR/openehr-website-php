@@ -17,7 +17,7 @@
 <?php
 $PageName = 'Password Change';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_login.php');
 ?>
 	
 		<div id="Content">

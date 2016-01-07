@@ -28,7 +28,7 @@
 <?php
 $PageName = 'Create News Items';
 ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/_header_login.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/_header_login_edit.php' ?>
 
 	<div id="MainArea" style=" margin-left:30px; width:900px; ">
 		

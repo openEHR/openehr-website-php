@@ -15,8 +15,9 @@ hr {color:#023760;}
 .HomeTitle {font-size:16px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-top:0.8em; margin-bottom:0.3em;}
 
 #MainArea {
-width:984px;
-padding:20px 0px 20px 40px;
+margin: auto;
+width:944px;
+padding:25px 40px 25px 40px;
 background-color:#ffffff;
 }
 
@@ -65,7 +66,8 @@ margin: 2px 0px 2px 10px;
 float:left;
 
 min-height:185px;
-width:209px;
+/*width:209px;*/
+width: 22.2%;
 margin: 0 26px 10px 0;
 padding: 0 0 0 0;
 }
@@ -134,7 +136,7 @@ padding: 0;
 float:left;
 
 height:168px;
-width:469px;
+width:48.8%;
 margin: 0 26px 10px 0;
 padding: 0 0 15px 0;
 
@@ -178,7 +180,8 @@ float: left;
 float:left;
 
 min-height:185px;
-width:209px;
+/*width:202px;*/
+width: 22.2%;
 margin: 0 10px 10px 0;
 padding: 0 0 0 0;
 }
@@ -261,7 +264,7 @@ display: block;
 /* Big news frame */
 #BigFrame {
 float:left;
-width:96%;
+width:100%;
 
 background-color:#f3f8fa;
 border:1px #D2E9F7 solid;
@@ -271,7 +274,7 @@ border:1px #D2E9F7 solid;
 float:left;
 
 height:470px;
-width:23%;
+width:22%;
 padding:10px 0 20px 15px;
 margin: 0 0 0 0;
 background-color:#f3f8fa;
@@ -280,7 +283,7 @@ background-color:#f3f8fa;
 #NewsFrame {
 float:left;
 min-height: 480px;
-width:23%;
+width:22%;
 padding: 0 10px 10px 10px;
 margin: 0 0 0 0;
 } 

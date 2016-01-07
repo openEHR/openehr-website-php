@@ -9,48 +9,51 @@ article,aside,footer,header,hgroup,nav,section,figure,figcaption { display: bloc
 
 /* Main layout */
 body {
-background-color:#f3f8fa;
+
 color:#000000;
 
 font-family:"Trebuchet MS", Helvetica, sans-serif;
-/*Verdana, Arial, Helvetica, sans-serif;*/
 font-size:13px;
 line-height:120%;
 }
  
 #MainFrame {
 position:relative;
-z-index: 3;
 
-width:1024px;
-margin:auto;
-
-background-color:#ffffff;
 }
 
 
 /* Panels and menus */
 
 /* Top panel beginning */
+#TopPanelContainer {
+width: 100%;
+height: 75px;
+
+background: #edf2fc; /* Old browsers */
+background: -moz-linear-gradient(top, #edf2fc 0%, #bfdaff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #edf2fc 0%,#bfdaff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #edf2fc 0%,#bfdaff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf2fc', endColorstr='#bfdaff',GradientType=0 ); /* IE6-9 */
+}
+
 #TopPanel {
 position:relative;
 top:0px;
 
+margin:auto;
+padding: 0 30px 0 30px;
 height:75px;
-width:1024px;
- 
-background-color:#e7eff6;
-background-image:url("../gui/TopPanel.png"); 
-background-repeat:no-repeat;
+width:95%;
+
 }
 
 #Utilities {
-position:absolute;
-left:630px;
-top:10px;
+float: right;
 
+margin: 10px 0 0 0;
 height:40px;
-width:350px;
+width:34%;
 
 font-size:11px;
 text-align:right;
@@ -69,41 +72,31 @@ text-decoration:underline;
 }
 
 #Search {
-position:absolute;
-left:750px;
-top:30px;
+display: inline;
 
-height:40px;
-width:250px;
-padding-top:0px;
-
-text-align:right;
-} 
-
-#Search span {
-color:#023760;
-
-font-size:12px;
-font-weight:900; 
-line-height:130%;
+width: 150px;
 }
 
 #Search input {
 border-color:#aaaaaa;
+width: 150px;
 }
 
 #Search input.gsc-search-button {
 background-color:#00355f;
 border-color:#003056;
+width: 60px;
 }
 
 #Logo {
 position:absolute;
-left:40px;
-top:8px;
+top:10px;
 
 height:60px;
-width:180px;
+width:170px;
+
+background-image:url("../gui/Logo.png"); 
+background-repeat:no-repeat;
 }
 
 #Logo a {
@@ -116,11 +109,11 @@ text-decoration:none;
 
 #Motto {
 position:absolute;
-left:230px;
+left:200px;
 top:23px;
 
 height:30px;
-width:340px;
+width:26%;
 padding-top:0px;
 
 color:#023670;
@@ -136,28 +129,51 @@ text-align:left;
 /* Top Menu */
 
 /* Rest is defined in Menu style file */
-#TopMenu{
-height:30px;
-width:1024px;
+#TopMenuContainer {
+width: 100%;
+
 border-top:1px solid #eda656;
 border-bottom:1px solid #eda656; 
- 
 background-color:#edc172;
 background-image: url("../gui/TopMenu.png");
 }
 
-/* Bottom menu beginning */
-#BottomMenu {
-position:relative;
+#TopMenu{
+position: relative;
+margin: auto;
 
-height:200px;
+height:30px;
 width:1024px;
-padding-top:15px; 
+}
+
+/* Main area container */
+#MainAreaContainer {
+width: 100%;
+
+background: #f3f8fa;
+}
+
+/* Bottom menu beginning */
+#BottomMenuContainer {
+width: 100%;
+
+background: #f3f8fa;
+
 border-top:1px solid #eda656;
 border-bottom:1px solid #eda656;
 
 background-color:#edc172;
 background-image: url("../gui/BottomMenu.png");
+}
+
+#BottomMenu {
+position:relative;
+margin: auto;
+
+height:200px;
+width:1024px;
+padding-top:15px; 
+
 }
 
 .BottomMenuSection {
@@ -202,17 +218,20 @@ text-decoration:none;
 /* Bottom menu end */
 
 /* Bottom panel beginnig */
+#BottomPanelContainer {
+width: 100%;
+
+background:#aec9ee;
+}
+
 #BottomPanel {
 position:relative;
+margin: auto;
 
 height:15px;
 width:1024px;
 padding-top:15px;
 padding-bottom:15px;
-
-background-color:#6c9fc4;
-background-image: url("../gui/BottomPanel.png"); 
-background-repeat:no-repeat;
 }
 
 #BottomPanel p {
@@ -237,3 +256,26 @@ text-decoration:none;
 text-decoration:underline;
 }
 /* Bottom panel end */
+
+/*
+@media (max-width:921px) {
+
+	#TopPanel {
+		width:1024px;
+	}
+
+}
+
+@media (min-width:992px){
+	#TopPanel {
+		width:1024px;
+	}
+
+}
+
+@media (min-width:1200px) {
+	#TopPanel {
+		width:1024px;
+	}
+}
+*/

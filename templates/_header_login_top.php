@@ -3,9 +3,9 @@
 <html lang="en">
 
 <head>
-	
-	<title>openEHR - <?php echo "$PageName";?></title>
-	<meta charset="utf-8">	
+
+	<title><?php echo "$PageName";?></title>
+	<meta charset="utf-8">		
 	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
 	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
 	<meta name="author" content="Sam Heard, Thomas Beale">
@@ -16,7 +16,7 @@
 	<meta name="viewport" content="1024">
 
 	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
-	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
+	<link rel="stylesheet" href="/styles/home.css"  type="text/css"> 
 	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
@@ -35,8 +35,9 @@
 
 <div id="MainFrame">
 	
-	<div id="TopPanelContainer">
 	
+	<div id="TopPanelContainer">
+		
 		<div id="TopPanel">
 			
 			<div id="Logo">
@@ -52,15 +53,15 @@
 			</div>
 			
 			<div id="Utilities">
-
+				
 				<?php
 				if( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'],'logout.php')) ) { 
 					echo '<a href="/login/user_home">User Home</a> | <a href="/login/logout">Logout</a> |';
 				} 
 				?> <a href="/about_this_website">About this Website</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="/issues" target="_blank">Jira</a> | <a href="http://www.openehr.org/ckm">CKM</a>
-				
+			
 				<div id="Search">
-					
+			
 					<div id="cse-search-form" style="width: 100%;">Loading</div>
 					
 					<script src="http://www.google.com/jsapi" type="text/javascript"></script>
@@ -75,7 +76,7 @@
 						customSearchControl.draw('cse-search-form', options);
 					  }, true);
 					</script>
-					
+
 				</div>
 			
 			</div>
@@ -93,10 +94,3 @@
 	</div>
 	
 	<div id = "MainAreaContainer">
-	
-	<div id="MainArea">
-		
-		<div id="SideMenu">
-			<?php include 'menu.php' ?>
-		</div>
-		
