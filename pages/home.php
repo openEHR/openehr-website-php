@@ -12,8 +12,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<a href="what_is_openehr" class="button1 org">What is openEHR?</a>
 			<a href="who_is_using_openehr" class="button1 org">Who is using openEHR?</a>
 			<a href="/programs/specification/releases/currentbaseline" class="button3 progs">Specifications</a>
-			<a href="http://www.openehr.org/releases/trunk/UML/#Diagrams___18_1_83e026d_1423485599937_29309_4372" class="button4 progs" target="_blank">UML</a>
-			<a href=" http://www.openehr.org/releases/1.0.2/reference-models/openEHR/XSD/" class="button4 progs" target="_blank">XSD</a>
+			<a href="/releases/trunk/UML/#Diagrams___18_1_83e026d_1423485599937_29309_4372" class="button4 progs" target="_blank">UML</a>
+			<a href="/releases/trunk/its/XML-schema/" class="button4 progs" target="_blank">XSD</a>
 			<a href="/programs/clinicalmodels" class="button3 progs">Clinical Models</a>
 			<a href="http://www.openehr.org/ckm/" class="button4 progs" target="_blank">CKM</a>
 			<a href="https://github.com/openEHR/CKM-mirror" class="button_git" target="_blank"><img src="/files/home/git_hub.png"/></a>
@@ -26,10 +26,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<div id="NewsImage">
 				
 				<!-- Forthcoming Releases --!>
-				<p><img src="/files/home/blueprint.png"><span class="HomeSubtitle">RM Release 1.0.3 imminent</span>
-					<br/> <a href="https://openehr.atlassian.net/projects/SPECPR?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">Release roadmap</a>.<br/>
-					<br/><a href="https://openehr.atlassian.net/issues/?jql=project%20%3D%20SPECRM%20AND%20fixVersion%20%3D%20%22Release%201.0.3%22%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC" target="_blank">RM releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/projects/SPECAM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ADL releases</a><br/>
-					<a href="https://openehr.atlassian.net/projects/SPECITS?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page" target="_blank">ITS releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openehr.atlassian.net/wiki/display/spec/openEHR+REST+APIs" target="_blank">REST APIs page</a><br/>
+				<p><img src="/files/home/release103.png"><span class="HomeSubtitle">RM Release 1.0.3 published</span>
+					<br/> <a href="http://www.openehr.org/releases/RM/Release-1.0.3/docs/index" target="_blank">RM Release 1.0.3</a><br/>
+					<br/><a href="http://www.openehr.org/releases/BASE/Release-1.0.3/docs/index" target="_blank">BASE Release 1.0.3</a><br/>
 					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
 				</p>
 				

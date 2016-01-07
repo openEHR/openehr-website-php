@@ -13,205 +13,48 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Overview</h2>
-			<p>This page provides access to the current working deliverables of the openEHR specification project and indicates the current status (lifecycle state) of each. If you are looking for a specific release, <a href="index">see here</a>.</p>
-			<p>The lifecycle states are as follows: </p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Lifecycle State </th>
-				<th class="TableMainT"> Description </th>
-			</tr>
-			<tr style="background-color:#DDFCFF;">
-				<td class="TableMainC"> planning</td>
-				<td class="TableMainC"> development of description and scope of new specification, along with relevance and utility.</td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> development</td>
-				<td class="TableMainC"> agile development by project group, no formal change management, visibility of documentation and experimental software. By the end of development, an open source reference implementation must be available</td>
-			</tr>
-			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> trial </td>
-				<td class="TableMainC"> during this period, the specification is managed in a formal way. Issues are reported on an online tracker; changes are recorded on a separate dedicated tracker, ensuring every change to the specification is recorded </td>
-			</tr>
-			<tr>
-				<td class="TableMainC"> stable </td>
-				<td class="TableMainC"> specifications that have been tested in software and are in use in the community.</td>
-			</tr>
-			<tr style="background-color:#F9F9F9;">
-				<td class="TableMainC"> retired </td>
-				<td class="TableMainC"> some specifications inevitably become obsolete, or irrelevant for other reasons, and are promoted to the Retired state.</td>
-			</tr>
-			</tbody>
-			</table>
-
+			<p>This page provides access to the current working deliverables of the openEHR specification project. If you are looking for a specific release, <a href="index">see here</a>.</p>
 			
-			<h3>Reading Documents</h3>
-			<p>Most links in the table below are to Adobe PDF files. All files are in colour. If you do not see them in colour or have other problems reading them,
-			we suggest upgrading to the <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">latest Acrobat Reader</a>.
-			If you still experience problems with reading PDF files, your browser configuration may need to be adjusted.
-			See the <a href="http://www.adobe.com/support/products/acrreader.html" target="_blank">Adobe Acrobat support page</a> for more help.</p>
+			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
+			<h2>Specifications</h2>
+			<table class="TableMain">
+				<tbody>
+					<tr>
+						<th class="TableMainT"> Component </th>
+						<th class="TableMainT"> Description </th>
+					</tr>
+
+					<tr>
+						<td class="TableMainC"> <a name="BASE"></a><a href="/releases/BASE/latest/docs/index">BASE</a></td>
+						<td class="TableMainC"> Base models and specifications - globally applicable semantics used by other specifications.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="RM"></a><a href="/releases/RM/latest/docs/index">RM</a></td>
+						<td class="TableMainC"> Reference Model - the core information models of the EHR, Demographics and EHR Extract</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="AM"></a><a href="/releases/AM/latest/docs/index">AM</a></td>
+						<td class="TableMainC"> Archetype Model - the Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and identification specifications.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index">QUERY</a></td>
+						<td class="TableMainC"> Query language specifications, including AQL.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index">Terminology</a></td>
+						<td class="TableMainC"> openEHR support terminology, used by the RM and other components.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="SM"></a><a href="/releases/SM/latest/docs/index">SM</a></td>
+						<td class="TableMainC"> Service Model - service and application programming interface (API) specifications.</td>
+					</tr>
+					<tr>
+						<td class="TableMainC"> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index">CDS</a></td>
+						<td class="TableMainC"> Clinical Decision Support - specifications for guidelines and related languages.</td>
+					</tr>
+				</tbody>
+			</table>
 			
-			<!-- ------------------------------------------- BASE ------------------------------------------------- -->
-			<h2><a name="BASE"></a><a href="/releases/BASE/latest/docs/index">Base Models (BASE)</a></h2>
-
-			<!-- ------------------------------------------- RM ------------------------------------------------- -->
-			<h2><a name="RM"></a><a href="/releases/RM/latest/docs/index">Reference Model (RM)</a></h2>
-
-			<!-- ------------------------------------------- AM ------------------------------------------------- -->
-			<h2><a name="AM"></a>Archetype Model (AM)</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECAM Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECAM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:changelog-panel">(Historical)</a>
-			</p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-
-			<tr>
-				<td colspan=3 align="center"> <a name="ADL2"><b>ADL 2</b></a> </td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetypes - Technology Overview</a></td>
-				<td class="TableMainC"> Overview of archetype technology, basic semantics, types of artefact, parsing, compiling etc.</td>
-				<td class="TableMainC"> development </td>
-			</tr>
-
-			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> <a href="/releases/AM/latest/ADL2.html" target="_blank">ADL 2</a></td>
-				<td class="TableMainC"> Archetype Definition Language (ADL) 2 draft: ADL now includes dedicated section on specialisation, many new examples, improved descriptions and corrections of errors. </td>
-				<td class="TableMainC"> trial<br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
-			</tr>
-			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> <a href="/releases/AM/latest/AOM2.html" target="_blank">AOM 2</a></td>
-				<td class="TableMainC"> Archetype Object Model (AOM) 2 draft - the AOM description now includes uniquely identified formally testable validity conditions 
-										(suitable for output by compilers), revised primitive types, improved ontology section, and constraint model extended to represent differential archetypes. </td>
-				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/ADL+2+Specifications">dev page</a></td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/latest/Identification.html" target="_blank">Archetype identification and Versioning</a></td>
-				<td class="TableMainC"> Formal model of identifiers, versioning and lifecycle for archetypes, templates and terminology subsets.</td>
-				<td class="TableMainC"> development <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/ADL/Knowledge+Artefact+Identification">dev page</a></td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/AM/latest/OPT2.html" target="_blank">Operational Template (OPT)</a></td>
-				<td class="TableMainC"> Specificaion of the Operational Template format.</td>
-				<td class="TableMainC"> development </td>
-			</tr>
-
-			<tr>
-				<td colspan=3 align="center"> <a name="ADL1.4"><b>ADL 1.4</b></a> </td>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/AM/latest/ADL1.4.html" target="_blank">ADL 1.4</a></td>
-				<td class="TableMainC"> Abstract syntax specification for Archetype Definition Language (ADL), 1.4 edition of language (used in ISO 13606-2). </td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/1.0.2/architecture/am/aom.pdf" target="_blank">AOM 1.4</a></td>
-				<td class="TableMainC"> Archetype Object Model (AOM) 1.4 - syntax-independent model of archetypes corresponding to ADL 1.4. </td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/1.0.2/architecture/am/openehr_archetype_profile.pdf" target="_blank">openEHR Archetype Profile (OAP)</a></td>
-				<td class="TableMainC"> openEHR plug-in additions to the generic archetype object model.</td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-
-			<tr>
-				<th class="TableMainT"> Computable Expression </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> UML </td>
-				<td class="TableMainC"> <a href="/releases/AM/latest/UML/openEHR_UML-AM.mdzip">source files / XMI</a> | 
-										<a href="/releases/trunk/UML/#Diagrams___18_1_83e026d_1422971258847_792963_30335">website</a> 
-				</td>
-				<td class="TableMainC"> development </td>
-			</tr>
-			</tbody>
-			</table>
-
-
-			<!-- ------------------------------------------- SM ------------------------------------------------- -->
-			<h2><a name="SM"></a>Service Model (SM)</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECSM Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECSM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
-			</p>
-
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> EHR Service Model</td>
-				<td class="TableMainC"> Definition of the openEHR coarse-grained interface EHR service interface.</td>
-				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="/wiki/display/spec/openEHR+Service+Model">dev page</a></td>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> vEHR API</td>
-				<td class="TableMainC"> API for the openEHR virtual EHR service.</td>
-				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="/wiki/display/spec/vEHR+Service+Specification">dev page</a></td>
-			</tr>
-			</tbody>
-			</table>
-
-
-			<!-- ------------------------------------------- Querying ------------------------------------------------- -->
-			<h2><a name="QUERY"></a>Querying</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECQRY Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECQRY/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
-			</p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> <a href="/releases/QUERY/latest/AQL.html">Archetype Query Language (AQL)</a> </td>
-				<td class="TableMainC"> Query language based on archetype paths and pattern matching.</td>
-				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="https://openehr.atlassian.net/wiki/display/spec/Archetype+Query+Language+Description">dev page</a></td>
-			</tr>
-			<tr style="background-color:#FFFFCC;">
-				<td class="TableMainC"> a-path </td>
-				<td class="TableMainC"> Xpath-inspired pattern matching language based on archetype paths.</td>
-				<td class="TableMainC"> trial <br class="atl-forced-newline" /><a href="/wiki/display/spec/A-path+-+Archetype+Path+Language">dev page</a></td>
-			</tr>
-
-			<tr>
-				<th class="TableMainT"> Computable Expression </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> Grammar </td>
-				<td class="TableMainC"> <a href="/wiki/display/spec/ANTLR+AQL+grammar">AQL Antlr Grammar</a></td>
-				<td class="TableMainC"> trial</td>
-			</tr>
-			<tr>
-				<td class="TableMainC"> Grammar </td>
-				<td class="TableMainC"> <a href="/wiki/pages/viewpage.action?pageId=4915236">EBNF a-path Grammar</a></td>
-				<td class="TableMainC"> trial</td>
-			</tr>
-			</tbody>
-			</table>
-
-
 
 			<!-- ------------------------------------------- ITS ------------------------------------------------- -->
 			<h2><a name="ITS"></a>Implementation Technology Specification (ITS)</h2>
@@ -257,63 +100,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</table>
 
 		
-			<!-- ------------------------------------------- Terminology ------------------------------------------------- -->
-			<h2><a name="TERM"></a>Terminology</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECTERM Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECTERM/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
-			</p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> <a href="/releases/trunk/architecture/terminology.pdf" target="_blank">openEHR Vocabulary</a> </td>
-				<td class="TableMainC"> Documentary form of the&nbsp;openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models. </td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-
-			<tr>
-				<th class="TableMainT"> Computable Expression </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr>
-				<td class="TableMainC"> XML </td>
-				<td class="TableMainC"> <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM/RM/Release-1.0.2">XML source file</a></td>
-				<td class="TableMainC"> stable</td>
-			</tr>
-			</tbody>
-			</table>
-
-
-			<!-- ------------------------------------------- CDS ------------------------------------------------- -->
-			<h2><a name="CDS"></a>Clinical Decision Support (CDS)</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel">SPECCDS Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECCDS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">Issues</a>
-			</p>
-			<table class="TableMain">
-			<tbody>
-			<tr>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
-			</tr>
-			<tr style="background-color:#FFFCDC;">
-				<td class="TableMainC"> <a href="/releases/CDS/latest/GDL.html">Guideline Definition Language (GDL)</a> </td>
-				<td class="TableMainC"> Guideline language based on ADL syntax with extensions.</td>
-				<td class="TableMainC"> development<br class="atl-forced-newline" /><a href="https://github.com/openEHR/gdl-tools/wiki">dev page</a></td>
-			</tr>			
-			</tbody>
-			</table>
-
-
 			<!-- ------------------------------------------- CONF ------------------------------------------------- -->
 			<h2><a name="CONF"></a>Conformance</h2>
 			<p>
