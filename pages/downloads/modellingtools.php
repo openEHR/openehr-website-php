@@ -28,8 +28,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>The tool allows visual authoring of ADL 2 archetypes and templates including full archetype parsing, validation, flattening and serialisation. Backward compatibility for existing ADL 1.4 archetypes and export to Operational Template (1.4 OPT) is also supported</td>
 				<td>ADL 2 archetypes,<br/>templates,<br/>ADL 2 OPTs,<br/>ADL 1.4 OPTs</td>
 				<td>web (JavaScript, HTML etc)</td>
-				<td><a href="http://ehrscape.marand.si/designer/archetype-editor.html">Archetype Designer</a><br/>
-					<a href="http://ehrscape.marand.si/designer/template-editor.html">Template Designer</a>
+				<td><a href="http://ehrscape.marand.si/designer/">Archetype Designer</a><br/>
+					<a href="http://ehrscape.marand.si/designer/">Template Designer</a>
 				</td>
 				<td><a href="https://github.com/openEHR/adl-designer" target="_blank">ADL-designer@Github</a></td>
 				<td>Supported</td>
