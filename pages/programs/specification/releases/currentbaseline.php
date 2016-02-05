@@ -12,9 +12,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>Overview</h2>
-			<p>This page provides access to the current working deliverables of the openEHR specification project. If you are looking for a specific release, <a href="index">see here</a>.</p>
-			
 			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
 			<h2>Specifications</h2>
 			<table class="TableMain">
@@ -84,13 +81,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<td class="TableMainC"> XML schema 1.0 expression of ADL/AOM 1.4.</td>
 				<td class="TableMainC"> stable</td>
 			</tr>
-			<tr style="background-color:#FFFFCC;">
+			<tr>
 				<td class="TableMainC"> Templating (OET based) </td>
 				<td class="TableMainC"> <a href="https://github.com/openEHR/java-libs/tree/master/oet-parser/src/main/xsd">OET XSD</a> | <a href="https://github.com/openEHR/java-libs/tree/master/oet-parser">Java OET parser</a> </td>
 				<td class="TableMainC"> Simple XML format for templates.</td>
 				<td class="TableMainC"> trial </td>
 			</tr>
-			<tr style="background-color:#FFFCDC;">
+			<tr>
 				<td class="TableMainC"> Archetype Model 2.x </td>
 				<td class="TableMainC"> <a href="https://github.com/openEHR/specifications/tree/master/ITS/AOM2/XML-schema">XSDs</a> </td>
 				<td class="TableMainC"> XML schema 1.1 expression of ADL/AOM 2.</td>
@@ -114,15 +111,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<th class="TableMainT"> Description </th>
 				<th class="TableMainT"> Status </th>
 			</tr>
-			<tr style="background-color:#DDFCFF;">
+			<tr>
 				<td class="TableMainC">  Archetype tooling </td>
 				<td class="TableMainC"> Conformance profiles for Archetype tooling. </td>
-				<td class="TableMainC"> planning<br/><a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market">wiki page</a></td>
+				<td class="TableMainC"> <a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market">wiki page</a></td>
 			</tr>
-			<tr style="background-color:#DDFCFF;">
+			<tr>
 				<td class="TableMainC"> EHR Systems </td>
 				<td class="TableMainC"> Conformance profiles for EHR system components. </td>
-				<td class="TableMainC"> planning<br/><a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market">wiki page</a></td>
+				<td class="TableMainC"> <a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market">wiki page</a></td>
 			</tr>
 			</tbody>
 			</table>
