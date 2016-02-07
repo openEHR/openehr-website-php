@@ -23,7 +23,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 					<tr>
 						<td class="TableMainC"> <a name="BASE"></a><a href="/releases/BASE/latest/docs/index">BASE</a></td>
-						<td class="TableMainC"> Base models and specifications - globally applicable semantics used by other specifications.</td>
+						<td class="TableMainC"> Base models and languages underpinning other specifications; includes BMM, ODIN.</td>
 					</tr>
 					<tr>
 						<td class="TableMainC"> <a name="RM"></a><a href="/releases/RM/latest/docs/index">RM</a></td>
@@ -31,14 +31,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					</tr>
 					<tr>
 						<td class="TableMainC"> <a name="AM"></a><a href="/releases/AM/latest/docs/index">AM</a></td>
-						<td class="TableMainC"> Archetype Model - the Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and identification specifications.</td>
+						<td class="TableMainC"> Archetype Model (1.4 and 2) - the Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and identification specifications.</td>
 					</tr>
 					<tr>
 						<td class="TableMainC"> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index">QUERY</a></td>
 						<td class="TableMainC"> Query language specifications, including AQL.</td>
 					</tr>
 					<tr>
-						<td class="TableMainC"> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index">Terminology</a></td>
+						<td class="TableMainC"> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index">TERM</a></td>
 						<td class="TableMainC"> openEHR support terminology, used by the RM and other components.</td>
 					</tr>
 					<tr>
