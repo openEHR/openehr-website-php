@@ -18,7 +18,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<p>The openEHR Foundation has published a <a href="/programs/specification/releases/currentbaseline">set of specifications</a> defining a health information <em>reference model</em>, a language for building 'clinical models', or <em>archetypes</em>, which are separate from the software, and a query language. The architecture is designed to make use of external health terminologies, such as SNOMED CT, LOINC and ICDx. Components and systems conforming to openEHR are 'open' in terms of data (they obey the published openEHR XML Schemas), models (they are driven by archetypes, written in the published ADL formalism) and APIs. They share the key openEHR innovation of adaptability, due to the archetypes being external to the software, and significant parts of the software being machine-derived from the archetypes.</p>
 			<p>The essential outcome is systems and tools for computing with health information at a semantic level, thus enabling true analytic functions like decision support, and research querying.</p>
 
-
+			<h2>A Health Computing Platform for Connected World</h2>
+			<p>Strategically, the openEHR approach enables a <em>platform-based e-health software market</em>, in which vendors and developers of back-end and front-end solutions interface via standardised information models, content models, terminologies and service interfaces. This gives procurement stakeholders new choices, enabling them to:</p>
+			<ul>
+				<li>avoid product and vendor lock-in;</li>
+				<li>retain ownership of the data for secondary use;</li>
+				<li>let their clinical experts be directly involved in solution development, via archetype authoring.</li>
+			</ul>
+ 			<p>It also allows app developers to concentrate on their apps, and simply plug in to a reliable back-end.</p>
+ 			<p><a href="/resources/white_paper_docs/openEHR_vendor_independent_platform.pdf">The openEHR White Paper</a> provides a more detailed discussion of the advantages of an open, extensible health computing platform.</p>
+			
 			<h2>Technical Architecture</h2>
 			<p><a href="/files/what_is_openehr/multi_level_modelling.png"> <img src="/files/what_is_openehr/multi_level_modelling.png" alt="Multi level modelling image" title="Click to enlarge" width="240" style="margin-right:30px; margin-bottom:20px; border: solid 1px #CCCCCC; float:left;"/></a>
 			The openEHR technical approach is <em>multi-level modelling</em> within a service-oriented software architecture, in which models built by domain experts are in their own layer.</p>
@@ -36,10 +45,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<p>In clinical terms, health professionals are now for the first time experiencing direct involvement in the construction and ongoing development of EHR systems. This means that <em>the quality of the data is better</em> - they designed it, and it also enables applications that work for them to be built.</p>
 			
 
-			<h2>An App Platform for an App World</h2>
-			<p>Strategically, the openEHR approach enables a <em>platform-based e-health software market</em>, in which vendors and developers of back-end and front-end solutions interface via standardised information, standardised content models and terminology, and standardised service interfaces. This gives procurement stakeholders new choices. It also allows app developers to concentrate on their apps, and simply plug in to a reliable back-end.</p>
-			
-			
 			<h2>Getting Involved</h2>
 			<p>This website will give you information on how it all works, and how to become a <a href="/about/membership">member of openEHR</a>. Are you a clinical professional? You can help creating and reviewing the <a href="http://www.openehr.org/ckm/" target="_blank">archetypes</a>. Are you a message designer? You may want to get involved in building template-based message specifications, based on the archetypes. Are you a software developer? You can help build the new generation of EHR tools. If you are a researcher, you can get involved in specifying how openEHR querying, published terminologies and standards like CDISC can be used to improve how longitudinal data-based studies are done. Maybe you want to obtain tools and solutions? You will find <a href = "/industry_partners/">vendor solutions</a>, as well as <a href="/programs/software">open source components</a>.</p>
 		
