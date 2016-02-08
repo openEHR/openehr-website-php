@@ -1,4 +1,4 @@
-﻿/*Headings, paragraph*/
+/*Headings, paragraph*/
 h1 {font-size:17px; font-weight:900; color:#023760; text-decoration:none; margin-bottom:0.3em;}
 h2 {font-size:16px; font-weight:900; color:#023760; text-decoration:none; margin-top:0.9em; margin-bottom:0.6em; font-style:italic;}
 h3 {font-size:14px; font-weight:900; line-height:150%; color:#023760; text-decoration:none;
@@ -42,6 +42,28 @@ text-decoration:underline;
 #Content p {
 line-height:130%;
 text-align:justify;
+}
+
+#Content ul {
+padding-left:20px;
+margin-top:0em;
+margin-bottom:0.8em;
+
+list-style:disc;
+list-style-position:outside;
+}
+
+#Content ul li {
+margin-bottom:0.2em;
+}
+
+#Content ul ul{
+padding-left:20px;
+margin-top:0.2em;
+margin-bottom:0px;
+
+list-style:disc;
+list-style-position:outside;
 }
 
 #Content h2 {
