@@ -26,9 +26,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<div id="NewsImage">
 				
 				<!-- Forthcoming Releases --!>
-				<p><img src="/files/home/release103.png"><span class="HomeSubtitle">RM Release 1.0.3 published</span>
-					<br/> <a href="http://www.openehr.org/releases/RM/Release-1.0.3/docs/index" target="_blank">RM Release 1.0.3</a><br/>
-					<br/><a href="http://www.openehr.org/releases/BASE/Release-1.0.3/docs/index" target="_blank">BASE Release 1.0.3</a><br/>
+				<p><img src="/files/home/release104.png"><span class="HomeSubtitle">RM Release 1.0.4, AM 2.x, ITS underway</span>
+					<br/> <a href="https://openehr.atlassian.net/issues/?filter=10820" target="_blank">RM Release 1.0.4</a><br/>
+					<br/> <a href="https://openehr.atlassian.net/issues/?filter=10721" target="_blank">AM Release 2.0.0</a><br/>
 					<br/><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a>
 				</p>
 				
@@ -37,21 +37,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<br/> OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'<br/>
 					<br/> <a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a> <br/>
 					<br/> Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a> <br/>
-				</p>
-
-				<!-- White paper 2015 --!>
-				<p><img src="/files/home/white_paper_word_cloud.png"><span class="HomeSubtitle">New White Paper</span>
-					<br/> Why we need an open platform<br/>
-					<br/> - avoid lock-in<br/>
-					<br/> - control your data<br/>
-					<br/> <a href="http://www.openehr.org/resources/white_paper_docs/openEHR_vendor_independent_platform.pdf" target="_blank">openEHR 2015 White Paper</a><br/>
-				</p>
-
-				<!-- MedInfo 2015 --!>
-				<p><img src="/files/home/openehr_medinfo_2015.png"><span class="HomeSubtitle">MedInfo 2015</span>
-					<br/> openEHR @ MedInfo 2015 <a href="/news_events/conference_reports/2015-08-19_medinfo_2015">Reflections, photos, links</a> <br/>
-					<br/> <a href="https://openehr.atlassian.net/wiki/display/resources/MEDINFO+2015+-+Sao+Paulo%2C+Brazil">All openEHR presentations</a> <br/>
-					<br/> <a href="http://ebooks.iospress.nl/volume/medinfo-2015-ehealth-enabled-health-proceedings-of-the-15th-world-congress-on-health-and-biomedical-informatics">Full Conference Proceedings</a> <br/>
 				</p>
 
 				<!-- StackExchange progress item
