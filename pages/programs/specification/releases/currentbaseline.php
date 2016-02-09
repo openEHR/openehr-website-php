@@ -132,7 +132,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<table class="TableInvisible">
 			<tbody>
 				<tr>
-					<td> 
+					<td valign="top">
 						<ul>
 							<li> <em>Overviews</em> </li>
 							<li> <a href="/releases/BASE/latest/architecture_overview.html">openEHR Architecture</a> </li>
@@ -145,7 +145,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 						</ul>
 					</td>
 
-					<td>
+					<td valign="top">
 						<ul>
 							<li> <em>Core Models &amp; Languages</em> </th>
 							<li> <a href="/releases/RM/latest/ehr.html">EHR IM</a> </li>
@@ -157,6 +157,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							<li> <a href="/releases/RM/latest/integration.html">Integration IM</a> </li>
 							<li> <a href="/releases/RM/latest/ehr_extract.html">EHR Extract IM</a> </li>
 						</ul>
+					</td>
+
+					<td valign="top">
 						<ul>
 							<li> <em>Archetype technology</em> </li>
 							<li> <a href="/releases/AM/latest/ADL2.html">ADL 2</a></li>
@@ -166,10 +169,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							<li> <a href="/releases/AM/latest/ADL1.4.html">ADL 1.4</a></li>
 							<li> <a href="/releases/AM/latest/AOM1.4.html">AOM 1.4</a></li>
 						</ul>
-
 					</td>
 
-					<td>
+					<td valign="top">
 						<ul>
 							<li> <em>Data Access &amp; Use</em> </th>
 							<li> <a href="/releases/QUERY/latest/AQL.html">AQL</a> </li>
