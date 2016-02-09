@@ -124,7 +124,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tbody>
 			</table>
 
-
 			<a href="index">>> Back to Releases</a>
 
 			<!-- ------------------------------------------- index ------------------------------------------------- -->
@@ -133,8 +132,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<tbody>
 				<tr>
 					<td valign="top">
+						<p> <em>Overviews</em> </p>
 						<ul>
-							<li> <em>Overviews</em> </li>
 							<li> <a href="/releases/BASE/latest/architecture_overview.html">openEHR Architecture</a> </li>
 							<li> <a href="/releases/AM/latest/Overview.html">Archetype Technology</a> </li>
 						</ul>
@@ -146,8 +145,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					</td>
 
 					<td valign="top">
+						<p> <em>Core Models &amp; Languages</em> </p>
 						<ul>
-							<li> <em>Core Models &amp; Languages</em> </th>
 							<li> <a href="/releases/RM/latest/ehr.html">EHR IM</a> </li>
 							<li> <a href="/releases/RM/latest/demographic.html">Demographic IM</a> </li>
 							<li> <a href="/releases/RM/latest/common.html">Common IM</a> </li>
@@ -160,8 +159,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					</td>
 
 					<td valign="top">
+						<p> <em>Archetype technology</em> </p>
 						<ul>
-							<li> <em>Archetype technology</em> </li>
 							<li> <a href="/releases/AM/latest/ADL2.html">ADL 2</a></li>
 							<li> <a href="/releases/AM/latest/AOM2.html">AOM 2</a></li>
 							<li> <a href="/releases/AM/latest/OPT2.html">OPT 2</a></li>
@@ -172,8 +171,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					</td>
 
 					<td valign="top">
+						<p> <em>Data Access &amp; Use</em> </p>
 						<ul>
-							<li> <em>Data Access &amp; Use</em> </th>
 							<li> <a href="/releases/QUERY/latest/AQL.html">AQL</a> </li>
 							<li> <a href="/releases/CDS/latest/GDL.html">GDL</a> </li>
 						</ul>
