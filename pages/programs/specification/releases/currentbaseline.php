@@ -31,7 +31,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					</tr>
 					<tr>
 						<td class="TableMainC"> <a name="AM"></a><a href="/releases/AM/latest/docs/index">AM</a></td>
-						<td class="TableMainC"> Archetype Model (1.4 and 2) - the Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and identification specifications.</td>
+						<td class="TableMainC"> Archetype Model (1.4 and 2) - Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and Identification.</td>
 					</tr>
 					<tr>
 						<td class="TableMainC"> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index">QUERY</a></td>
@@ -126,6 +126,60 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 
 			<a href="index">>> Back to Releases</a>
+
+			<!-- ------------------------------------------- index ------------------------------------------------- -->
+			<h2><a name="index"></a>Global Specification Index</h2>
+			<table class="TableInvisible">
+			<tbody>
+				<tr>
+					<td> 
+						<ul>
+							<li> <em>Overviews</em> </li>
+							<li> <a href="/releases/BASE/latest/architecture_overview.html">openEHR Architecture</a> </li>
+							<li> <a href="/releases/AM/latest/Overview.html">Archetype Technology</a> </li>
+						</ul>
+						<ul>
+							<li> <em>Generic technology</em> </li>
+							<li> <a href="/releases/BASE/latest/odin.html">ODIN</a></li>
+							<li> <a href="/releases/BASE/latest/bmm.html">BMM</a></li>
+						</ul>
+					</td>
+
+					<td>
+						<ul>
+							<li> <em>Core Models &amp; Languages</em> </th>
+							<li> <a href="/releases/RM/latest/ehr.html">EHR IM</a> </li>
+							<li> <a href="/releases/RM/latest/demographic.html">Demographic IM</a> </li>
+							<li> <a href="/releases/RM/latest/common.html">Common IM</a> </li>
+							<li> <a href="/releases/RM/latest/data_structures.html">Data Structures IM</a> </li>
+							<li> <a href="/releases/RM/latest/data_types.html">Data Types IM</a> </li>
+							<li> <a href="/releases/RM/latest/support.html">Support IM</a> </li>
+							<li> <a href="/releases/RM/latest/integration.html">Integration IM</a> </li>
+							<li> <a href="/releases/RM/latest/ehr_extract.html">EHR Extract IM</a> </li>
+						</ul>
+						<ul>
+							<li> <em>Archetype technology</em> </li>
+							<li> <a href="/releases/AM/latest/ADL2.html">ADL 2</a></li>
+							<li> <a href="/releases/AM/latest/AOM2.html">AOM 2</a></li>
+							<li> <a href="/releases/AM/latest/OPT2.html">OPT 2</a></li>
+							<li> <a href="/releases/AM/latest/Identification.html">Archetype Identification</a></li>
+							<li> <a href="/releases/AM/latest/ADL1.4.html">ADL 1.4</a></li>
+							<li> <a href="/releases/AM/latest/AOM1.4.html">AOM 1.4</a></li>
+						</ul>
+
+					</td>
+
+					<td>
+						<ul>
+							<li> <em>Data Access &amp; Use</em> </th>
+							<li> <a href="/releases/QUERY/latest/AQL.html">AQL</a> </li>
+							<li> <a href="/releases/CDS/latest/GDL.html">GDL</a> </li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+
 
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
