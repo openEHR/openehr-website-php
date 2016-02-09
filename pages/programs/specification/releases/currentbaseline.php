@@ -143,7 +143,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					</td>
 
 					<td valign="top">
-						<p> <em>Core Models &amp; Languages</em> </p>
+						<p> <em>Core</em> </p>
 						<ul>
 							<li> <a href="/releases/RM/latest/ehr.html">EHR IM</a> </li>
 							<li> <a href="/releases/RM/latest/demographic.html">Demographic IM</a> </li>
@@ -157,7 +157,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					</td>
 
 					<td valign="top">
-						<p> <em>Archetype technology</em> </p>
+						<p> <em>Archetypes</em> </p>
 						<ul>
 							<li> <a href="/releases/AM/latest/ADL2.html">ADL 2</a></li>
 							<li> <a href="/releases/AM/latest/AOM2.html">AOM 2</a></li>
