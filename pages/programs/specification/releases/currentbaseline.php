@@ -135,6 +135,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							<li> <a href="/releases/BASE/latest/architecture_overview.html">openEHR Architecture</a> </li>
 							<li> <a href="/releases/AM/latest/Overview.html">Archetype Technology</a> </li>
 						</ul>
+						<p> </p>
 						<p> <em>Generic technology</em> </p>
 						<ul>
 							<li> <a href="/releases/BASE/latest/odin.html">ODIN</a></li>
