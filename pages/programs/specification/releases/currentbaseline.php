@@ -124,8 +124,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tbody>
 			</table>
 
-			<a href="index">>> Back to Releases</a>
-
 			<!-- ------------------------------------------- index ------------------------------------------------- -->
 			<h2><a name="index"></a>Global Specification Index</h2>
 			<table class="TableInvisible">
@@ -137,8 +135,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							<li> <a href="/releases/BASE/latest/architecture_overview.html">openEHR Architecture</a> </li>
 							<li> <a href="/releases/AM/latest/Overview.html">Archetype Technology</a> </li>
 						</ul>
+						<p> <em>Generic technology</em> </p>
 						<ul>
-							<li> <em>Generic technology</em> </li>
 							<li> <a href="/releases/BASE/latest/odin.html">ODIN</a></li>
 							<li> <a href="/releases/BASE/latest/bmm.html">BMM</a></li>
 						</ul>
@@ -164,7 +162,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							<li> <a href="/releases/AM/latest/ADL2.html">ADL 2</a></li>
 							<li> <a href="/releases/AM/latest/AOM2.html">AOM 2</a></li>
 							<li> <a href="/releases/AM/latest/OPT2.html">OPT 2</a></li>
-							<li> <a href="/releases/AM/latest/Identification.html">Archetype Identification</a></li>
+							<li> <a href="/releases/AM/latest/Identification.html">Identification</a></li>
 							<li> <a href="/releases/AM/latest/ADL1.4.html">ADL 1.4</a></li>
 							<li> <a href="/releases/AM/latest/AOM1.4.html">AOM 1.4</a></li>
 						</ul>
