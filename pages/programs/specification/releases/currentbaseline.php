@@ -79,14 +79,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 					<tr>
 						<td class="TableMainC"> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index">CDS</a></td>
-						<td class="TableMainC"> Clinical Decision Support - specifications for guidelines and related languages.</td>
+						<td class="TableMainC"> Clinical Decision Support - specifications for guidelines and related languages, including GDL.</td>
 					</tr>
 					<tr>
 						<td class="TableMainC"> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index">QUERY</a></td>
 						<td class="TableMainC"> Query language specifications, including AQL.</td>
 					</tr>
 					<tr>
-						<td class="TableMainC"> <a name="INTG"></a><a href="/releases/INTG/latest/docs/index">QUERY</a></td>
+						<td class="TableMainC"> <a name="INTG"></a><a href="/releases/INTG/latest/docs/index">INTG</a></td>
 						<td class="TableMainC"> Integration specifications, including TDS and TDO.</td>
 					</tr>
 					<tr>
