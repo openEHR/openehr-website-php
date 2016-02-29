@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<!-- ----------------------------------------- Global index ----------------------------------------------- -->
-			<h2><a name="index"></a>Global Specification Index</h2>
+			<h2><a name="index"></a>Global Index</h2>
 			<table class="TableInvisible">
 			<tbody>
 				<tr>
@@ -22,12 +22,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 						<ul>
 							<li> <a href="/releases/BASE/latest/architecture_overview.html">openEHR Architecture</a> </li>
 							<li> <a href="/releases/AM/latest/Overview.html">Archetype Technology</a> </li>
-						</ul>
-						<p> </p>
-						<p> <em>Generic technology</em> </p>
-						<ul>
-							<li> <a href="/releases/BASE/latest/odin.html">ODIN</a></li>
-							<li> <a href="/releases/BASE/latest/bmm.html">BMM</a></li>
 						</ul>
 					</td>
 
@@ -62,6 +56,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 						<ul>
 							<li> <a href="/releases/QUERY/latest/AQL.html">AQL</a> </li>
 							<li> <a href="/releases/CDS/latest/GDL.html">GDL</a> </li>
+						</ul>
+					</td>
+
+					<td valign="top">
+						<p> <em>Generic</em> </p>
+						<ul>
+							<li> <a href="/releases/BASE/latest/odin.html">ODIN</a></li>
+							<li> <a href="/releases/BASE/latest/bmm.html">BMM</a></li>
 						</ul>
 					</td>
 				</tr>
