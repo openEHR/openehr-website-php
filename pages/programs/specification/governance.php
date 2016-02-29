@@ -49,7 +49,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>Heavy used is made of modern project and issue tracking tools, in order to automate the great majority of the process described here.</p>
 			<p>The Specifications Program will work closely with the other programs to ensure coherence with outputs of the Clinical Modelling Program, implementability for the Software program, and usability in terms of the Localisation Program.</p>
 			<p>The following diagram illustrates the Specifications Program.</p>
-			<p style="text-align:center;"><img src="/files/programs/specification/SpecProgStr.png" width="400" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
+			<p style="text-align:center;"><img src="/files/programs/specification/SpecProgStr.png" width="650" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
 			
 			<h2><a name="specifications"></a>The Specifications</h2>
 			<p>The specifications under management by the Program are identified in terms of Specifications Components, each consisting of one or more concrete Specifications relating to a topic area. <em>A Component is defined as being something that is separately releasable</em>. In openEHR, Components include the Reference Model, the Archetype Model, Querying, Conformance and CDS.</p>
