@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
@@ -13,24 +13,48 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>Universities and research centres have a number of basic priorities with respect to health research:</p>
-			<ul>
-				<li>being able to reuse the information in different stages of research and for different purposes</li>
-				<li>being able to share the information across systems</li>
-				<li>being able to share some of the information with other research partners</li>
-				<li>being able to compute with the health information they create</li>
-				<li>being able to integrate multiple software applications and packages without losing meaning - preferably avoiding vendor lock-in</li>
-			</ul>
-			<p style="text-align:center;"><a href="/files/getting_involved/universities_research.png"><img src="/files/getting_involved/universities_research.png" alt="openEHR Ecosystem - Universities / Research" title="openEHR Ecosystem - Universities / Research" width="480px" style="border: solid 1px #CCCCCC;"></a></p>	
+			<h2>What openEHR Research exists today?</h2>
+			<p>Numerous papers and dissertations have been published that relate to and/or use openEHR.</p>
+			<p><a href="https://www.zotero.org/groups/openehr/items">Full openEHR Research Library (Zotero)</a></p>
+
+			<p>PhD Dissertations</p>
+            <ul>
+                <li>Nadim Anani. Exploring openEHR-Based Clinical Guidelines in Acute Stroke Care and Research. Karolinska Institutet, 2016.  <a href="https://www.zotero.org/groups/openehr/items/itemKey/???">Ref</a>.</li>
+                <li>Erik Sundvall. Scalability and Semantic Sustainability in Electronic Health Record Systems. Linköping University, 2013.  <a href="https://www.zotero.org/groups/openehr/items/itemKey/???">Ref</a>.</li>
+                <li>Sistine Barretto. Designing Guideline-based Workflow-integrated Electronic Health Records. University South Australia, 2005.  <a href="https://www.zotero.org/groups/openehr/items/itemKey/???">Ref</a>.</li>
+                <li>Eric Browne. Workflow Modelling of Coordinated Inter-Health-Provider Care Plans. University Adelaide, 2005</li>
+                <li>Rong Chen. Towards Interoperable and Knowledge-Based Electronic Health Records Using Archetype Methodology. Linköping University, Sweden, 2011.  <a href="https://www.zotero.org/groups/openehr/items/itemKey/???">Ref</a>.</li>
+                <li>Rahil Qamar. Semantic Mapping Of Clinical Model Data To Biomedical Terminologies To Facilitate Interoperability. U Manchester 2008.  <a href="https://www.zotero.org/groups/openehr/items/itemKey/???">Ref</a>.</li>
+                <li>Koray Atalag. Archetype based Domain Modelling for Health Information Systems. METU, Turkey 2007.  <a href="https://www.zotero.org/groups/openehr/items/itemKey/???">Ref</a>.</li>
+            </ul>
+   
+            <p>Masters Dissertations</p>
+
+			<p>Foundational papers</p>
+            <ul>
+                <li>Kalra D et al. Design and Implementation of a Federated Health Record Server. TEHRE 2001. <a href="https://www.zotero.org/groups/openehr/items/itemKey/???">Ref</a></li>
+                <li>Kalra D. Clinical foundations and information architecture for the implementation of a federated health record service. PhD thesis UCL 2006. <a href="https://www.zotero.org/groups/openehr/items/itemKey/???">Ref</a></li>
+                <li>Beale T, Heard S. An ontology-based model of clinical information. MedInfo 2007. <a href="https://www.zotero.org/groups/openehr/items/itemKey/VZA5C2G4">Ref</a></li>
+                <li>Beale T. Archetypes: Constraint-based domain models for future-proof information systems. OOPSLA 2002.<a href="https://www.zotero.org/groups/openehr/items/itemKey/TFUGIEKR">Ref</a></li>
+                <li>Archetypes - An Interoperable Knowledge Methodology for Future-proof Information Systems.<a href="https://www.zotero.org/groups/openehr/items/itemKey/I3HV2UFV">Ref</a></li>
+            </ul>
+			<h2>Research networks</h2>
+
+			<h2>Research opportunities</h2>
+			<p>Below are some of the areas that represent good opportunities for academic research.</p>
+
+            <h3>Clinical Gudelines </h3>
 			
-			<h2>What can openEHR do for you</h2>
-			<p>openEHR offers various advantages to universities and research centres. Firstly, it provides a health computing platform for creating, storing, querying and sharing clinical and demographic information. Implementations (commercial, open source) of the openEHR platform can provide a high-performance, high-volume health record for use by any number of applications. Applications interface is via the published virtual EHR (vEHR) API. Initially, within the most research will be used a number of existing systems, many of which do not communicate or for which only expensive one-off integrations are made. The openEHR platform provides a disciplined way to integrate such data, using openEHR Templates (FAQ) to model the legacy data structures, while using normal openEHR archetypes (FAQ) to define the data points. This approach means that differnet data can be brought together in a patient-centric fashion. This shared data can then be reflected back to existing systems. It can also be queried via the vEHR interface, and new applications can start to use it directly.</p>
-			<p>Over time, as uptake of the openEHR platform increases, the cost of managing clinical information should decrease, while its utilisation and quality increase. Procurement is likely to have more freedom to purchase applications, since any application that is compliant to openEHR, CEN EN13606, HL7 CDA rel 2, HL7v2.x can easily be integrated. Universities and centres that write their own applications will be able to use Template tools for building GUI forms, and Query building tools to build reusable queries.</p>
-			
-			
-			<h2>How you can get involved</h2>
-			<p>You can become openEHR Partner through the Organisational membership, or members of your team can become part of openEHR as the Individual members. Find out more about <a href="/about/membership#academicpartner">membership</a>.</p>
-			
+            <h3>Querying in archetype-based systems </h3>
+
+            <h3>Generating software artefacts from ADL templates </h3>
+
+            <h3>Efficient Persistence </h3>
+
+            <h3>Legacy Data Integration </h3>
+
+            <h3>REST Interfaces to archetyped data </h3>
+
 			<h2>How openEHR works for others</h2>
 			<p>For list of universities and centres which are working and contributing to openEHR see <a href="/who_is_using_openehr/academic_research">who is using openEHR</a></p>
 					
