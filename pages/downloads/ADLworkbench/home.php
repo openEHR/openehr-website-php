@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- ------------------------------------------- Content starts here ------------------------------------------------ -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -97,9 +97,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (32-bit)</td>
-						<td> 2.0.5.2830</td>
-						<td> 13 Jan 2016</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.5.2830-windows_32bit.exe">.exe installer</a></td>
+						<td> 2.0.6.2844</td>
+						<td> 27 Mar 2016</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2844-alpha-windows_32bit.exe">.exe installer</a></td>
 						<td> Various bug fixes.</td>
 					</tr>
 					<tr>
