@@ -24,7 +24,7 @@
 			<ul>
 			<li><a href="http://www.slideshare.net/search/slideshow?searchfrom=header&q=openehr">Slideshare</a></li>
 			<li><a href="/resources/learning_centre">Learning Centre</a></li>
-			<li><a href="/resources/publications">Publications</a></li>	
+			<li><a href="https://www.zotero.org/groups/openehr/items">Publications</a></li>	
 			<li><a href="/wiki/display/resources/FAQs+-+Frequently+Asked+Questions" target="_blank">FAQs</a></li>
 			<li><a href="/resources/white_papers">White Papers</a></li>
 			<li><a href="/resources/related_projects">Related Projects</a></li>

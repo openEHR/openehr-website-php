@@ -12,9 +12,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>openEHR Academic Citations library</h2>
-			<p><a href="https://www.zotero.org/groups/openehr/items">Zotero library</a> (curator Koray Atalag)</p>
-
 			<h2>openEHR Presentations</h2>
 			<p><a href="http://www.slideshare.net/search/slideshow?searchfrom=header&q=openehr">Slideshare</a></p>
 
