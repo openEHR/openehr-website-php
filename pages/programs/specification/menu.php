@@ -1,7 +1,7 @@
 ﻿<span style="line-height:150%;"><a href="/programs/specification" <?php if($PageName == 'Specification Program'){?> class="active"<?php }?> style="font-weight:900;">Specification<br/>Program</a></span>
 	<ul>
 		<li><a href="/programs/specification/releases" <?php if($PageName == 'Releases'){?> class="active"<?php }?>>&nbsp; Releases</a></li>
-		<li><a href="/programs/specification/editorialcommittee" <?php if($PageName == 'Editorial Committee'){?> class="active"<?php }?>>&nbsp; Editorial Committee</a></li>
+		<li><a href="/programs/specification/editorialcommittee" <?php if($PageName == 'Specifications Editorial Committee (SEC)'){?> class="active"<?php }?>>&nbsp; Spec Ed Committee (SEC)</a></li>
 		<li><a href="/programs/specification/governance" <?php if($PageName == 'Governance'){?> class="active"<?php }?>>&nbsp; Governance</a></li>
 		<li><a href="/programs/specification/changeprocess" <?php if($PageName == 'Change Process'){?> class="active"<?php }?>>&nbsp; Change Process</a></li>
 		<li><a href="/programs/specification/releasestrategy" <?php if($PageName == 'Release Strategy'){?> class="active"<?php }?>>&nbsp; Release Strategy</a></li>
