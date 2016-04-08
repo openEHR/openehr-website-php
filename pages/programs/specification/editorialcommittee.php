@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Editorial Committee';
+$PageName = 'Specifications Editorial Committee (SEC)';
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 ?>
@@ -12,6 +12,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h1><?php echo "$PageName";?></h1>
 			
+			<h2>Meeting Reports</h2>
+			Meeting proceedings are available <a href="https://openehr.atlassian.net/wiki/display/spec/Specifications+Editorial+Committee+%28SEC%29+Work+area">here</a>.
+			A community-wide <a href="/news_events/meetings">roadmap meeting</a> was held in 2014.
+
+			<h2>Members</h2>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/koray_atalag.php');?>
 				<p>Member since 1 Feb 2015.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
