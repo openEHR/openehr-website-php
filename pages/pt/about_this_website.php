@@ -7,7 +7,7 @@ $PageName = 'Sobre esse Sítio';
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 ?>
 
-	<div id="MainArea" style="margin-left:40px; margin-top:35px; margin-bottom:100px; width:880px;">
+	<div id="MainArea">
 	
 		<div id="Content">
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->

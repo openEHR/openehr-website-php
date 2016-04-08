@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<tbody>
 			<tr>
 				<td><a href="/industry_partners/cambio_healthcare_systems"><img src="/files/industry_partners/cambio_logo.png"></a></td>
-				<td width="550px"><h2>Cambio Healthcare Systems</h2>
+				<td><h2>Cambio Healthcare Systems</h2>
 				<p>Cambio Healthcare Systems is an e-Health company with approximately 370 employees who provide the Cambio COSMIC healthcare system for comprehensive, easy-to-use solutions to meet the healthcare needs of all patients. Since 1993, Cambio has worked tirelessly to develop open, flexible and comprehensive IT support for healthcare. Development has taken place in constant close co-operation with those who work in health care - doctors, nurses, administrators and IT-technichians.</p>
 				<a href="/industry_partners/cambio_healthcare_systems">Learn more</a></td>
 			</tr>
@@ -49,6 +49,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 				<td><h2>Marand</h2>
 				<p>Marand is one of the leading Slovenian company in the field of information and communication technologies and information support business processes. Marand is a customer-centric solution provider in healthcare offering products including Think!Med Clinical&trade;, Think!Med EHR Platform and Think!Med Preventive. All these solutions are based on state of the art technology and industry standards.</p>
 				<a href="/industry_partners/marand">Learn more</a></td>
+			</tr>
+			<tr>
+				<td><a href="/industry_partners/nousco"><img src="/files/industry_partners/nousco_logo.png"></a></td>
+				<td><h2>Nousco</h2>
+				<p>Nousco is a Healthcare software vendor in South Korea. Nousco is developing an openEHR-based Hospital Information System with EHR, health information (HI) standards-based EHR Platform & PHR solutions. openEHR & HI standards-based EHR platform is the first innovative work of its kind in South Korea. In 2015, Nousco will launch products internationally.</p>
+				<a href="/industry_partners/nousco">Learn more</a></td>
 			</tr>
 			<tr>
 				<td><a href="/industry_partners/ocean_informatics"><img src="/files/industry_partners/ocean_logo.png"></a></td>

@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<a href="http://oceaninformatics.com/" target="_blank"><img src="/files/industry_partners/ocean_logo.png" class="IndustryLogoImg"></a>
+			<a href="http://oceaninformatics.com/" target="_blank"><img src="/files/industry_partners/ocean_logo.png" class="IndustryLogo"></a>
 			
 			<p><em>Headquarters:</em> Australia</p>
 			<p><em>Branches:</em> United Kingdom</p>

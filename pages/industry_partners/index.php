@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tbody>
 			<tr>
 				<td><a href="/industry_partners/cambio_healthcare_systems"><img src="/files/industry_partners/cambio_logo.png"></a></td>
-				<td width="550px"><h2>Cambio Healthcare Systems</h2>
+				<td><h2>Cambio Healthcare Systems</h2>
 				<p>Cambio Healthcare Systems is an e-Health company with approximately 370 employees who provide the Cambio COSMIC healthcare system for comprehensive, easy-to-use solutions to meet the healthcare needs of all patients. Since 1993, Cambio has worked tirelessly to develop open, flexible and comprehensive IT support for healthcare. Development has taken place in constant close co-operation with those who work in health care - doctors, nurses, administrators and IT-technichians.</p>
 				<a href="/industry_partners/cambio_healthcare_systems">Learn more</a></td>
 			</tr>

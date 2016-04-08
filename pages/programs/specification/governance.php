@@ -13,26 +13,26 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2><a name="revision_history"></a>Revision History</h2>
-			<table class='TableMain'>
+			<table class='TableBasic'>
 			  <tr>
-				<th class='TableMainT'> Issue</th>
-				<th class='TableMainT'> Description</th>
-				<th class='TableMainT'> Who</th>
-				<th class='TableMainT'> Accepted</th>
-				<th class='TableMainT'> Date</th>
+				<th> Issue</th>
+				<th> Description</th>
+				<th> Who</th>
+				<th> Accepted</th>
+				<th> Date</th>
 			  </tr>
 			  <tr>
-				<td class='TableMainC'> 1.0.0</td>
-				<td class='TableMainC'> Initial Writing</td>
-				<td class='TableMainC'> T Beale</td>
-				<td class='TableMainC'> 
+				<td> 1.0.0</td>
+				<td> Initial Writing</td>
+				<td> T Beale</td>
+				<td> 
 					K Atalag MD (University of Auckland), <br/>
 					R Chen MD (Cambio Health Systems, Sweden), <br/>
 					G Klein MD (Örebro University School of Business), <br/>
 					I McNicoll MD (FreshEhr), <br/>
 					T Nordheim Alme MD (DIPS asa Norway), <br/>
 					S Iancu (Code24, Netherlands)</td>
-				<td class='TableMainC'> 19 Dec 2014</td>
+				<td> 19 Dec 2014</td>
 			  </tr>
 			</table>
 

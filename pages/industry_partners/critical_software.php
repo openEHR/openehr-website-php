@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<a href="http://www.criticalsoftware.com/" target="_blank"><img src="/files/industry_partners/critical_logo.png" class="IndustryLogoImg"></a>
+			<a href="http://www.criticalsoftware.com/" target="_blank"><img src="/files/industry_partners/critical_logo.png" class="IndustryLogo"></a>
 			
 			<p><em>Headquarters:</em> Portugal</p>
 			<p><em>Branches:</em> USA, Brazil, UK, Mozambique, Singapore, Angola, Germany</p>

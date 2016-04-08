@@ -13,17 +13,20 @@
 	<meta name="rating" content="General">
 	<meta name="robots" content="All">
 	<meta name="revisit-after" content="15 days">
-	<meta name="viewport" content="1024">
 
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
 	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
 	<link rel="stylesheet" href="/styles/home.css"  type="text/css"> 
-	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
 	<link rel="home" href="http://www.openehr.org">
 	<link rel="index" href="/sitemap">
 
 	<script type="text/javascript" src="/menu/dropdown.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="/functions/js/bootstrap.js"></script>
 	
 	<?php
 	$pageOn = basename($_SERVER['PHP_SELF']);

@@ -26,7 +26,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
          
 			<h3>Setting up archetype repositories</h3>
 			<p>The first time you start the tool if you are a new user, you will be asked for a repository. The following dialog will appear:<br/></p>
-		<p><img src="images/repositories_screen_1.png"></p>
+			<p><img src="images/repositories_screen_1.png"></p>
 			<p><a href="obtaining_archetypes">This page</a> describes how to proceed.</p>
 		  
 		  

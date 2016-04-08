@@ -31,7 +31,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					//Formating the information
 					echo '<h2>' . $row['title'] . '</h2>' . "\n\t\t\t";
 					echo '<h6>' . $row['dr'] . '&nbsp; | &nbsp;from: ' . $row['first_name']. ' ' . $row['surname']. '</h6><br/>' . "\n\t\t\t";
-					echo '<div class="news_article">' . "\n\t\t\t\t" . $row['text'] . '<br/>';
+					echo '<div class="newsArticle">' . "\n\t\t\t\t" . $row['text'] . '<br/>';
 					if ($row['resources'] != '') {
 						echo "\n\t\t\t\t" . '<p><em>Other resources:</em> ' . $row['resources']. '</p><br/>';
 					}

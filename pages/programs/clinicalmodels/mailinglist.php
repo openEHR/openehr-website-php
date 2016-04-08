@@ -14,27 +14,27 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<p>The openEHR mailing lists are sited at <a href="http://www.mailmanhost.com/" target="_blank">dot.list</a>, a mailing list hoster run by one of the developers of the mailman software.</p>
 			
-			<table class="TableMain">
+			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th class="TableMainT">List</th>
-				<th class="TableMainT">Name</th>
-				<th class="TableMainT">Description</th>
-				<th class="TableMainT">Access</th>
-				<th class="TableMainT">Moderated</th>
-				<th class="TableMainT">Admins</th>
+				<th>List</th>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Access</th>
+				<th>Moderated</th>
+				<th>Admins</th>
 			</tr>
 			<tr>
-				<th class="TableMainT">Clinical list</th>
-				<td class="TableMainC">openehr-clinical</td>
-				<td class="TableMainC">This list is for discussions about any clinical aspect of the EHR. including clinical design of archetypes.</td>
-				<td class="TableMainC">
+				<th>Clinical list</th>
+				<td>openehr-clinical</td>
+				<td>This list is for discussions about any clinical aspect of the EHR. including clinical design of archetypes.</td>
+				<td>
 				<a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe<br/>
 				unsubscribe</a><br/>
 				<a href="mailto:openehr-clinical@lists.openehr.org">post</a><br/>
 				<a href="http://lists.openehr.org/pipermail/openehr-clinical_lists.openehr.org/">archive</a></td>
-				<td class="TableMainC">No</td>
-				<td class="TableMainC"></td>
+				<td>No</td>
+				<td></td>
 			</tr>
 			</tbody>
 			</table>

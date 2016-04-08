@@ -13,11 +13,11 @@
 	<meta name="rating" content="General">
 	<meta name="robots" content="All">
 	<meta name="revisit-after" content="15 days">
-	<meta name="viewport" content="1024">
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 
 	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
 	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
-	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
 	<link rel="home" href="http://www.openehr.org">

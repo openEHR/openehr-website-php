@@ -5,10 +5,10 @@
 			
 			<li><a href="/openehr_programs">Programs</a>
 			<ul>
-				<li><a href="/programs/specification">&nbsp; Specification Program</a></li>
-				<li><a href="/programs/clinicalmodels">&nbsp; Clinical Models Program</a></li>
-				<li><a href="/programs/software">&nbsp; Software Program</a></li>
-				<li><a href="/programs/localisation">&nbsp; Localisation Program</a></li>
+				<li><a href="/programs/specification">Specification Program</a></li>
+				<li><a href="/programs/clinicalmodels">Clinical Models Program</a></li>
+				<li><a href="/programs/software">Software Program</a></li>
+				<li><a href="/programs/localisation">Localisation Program</a></li>
 			</ul>
 			</li>
 			
@@ -25,4 +25,6 @@
 			</li>
 
 		</ul>
+		
+		<br class="clear">
 

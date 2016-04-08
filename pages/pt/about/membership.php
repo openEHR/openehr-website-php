@@ -137,4 +137,4 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'templates/pt/_footer.php');?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_footer.php');?>

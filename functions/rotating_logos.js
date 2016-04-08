@@ -1,6 +1,6 @@
 $(document).ready(function(){ 
 	
-	$("#PartnersLogo p:first").css("display", "block");
+	$("#LogoImage p:first").css("display", "block");
 	
 	jQuery.fn.timer = function() {
 		if(!$(this).children("p:last-child").is(":visible")){
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	} // timer function end
 	
 	window.setInterval(function() {
-		$("#PartnersLogo").timer();
+		$("#LogoImage").timer();
 	}, 3000);
 	
 });

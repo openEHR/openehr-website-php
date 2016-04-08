@@ -1,321 +1,249 @@
-﻿/*Headings, paragraph*/
-h1 {font-size:18px; font-weight:900; line-height:120%; color:#023760; text-decoration:none;  margin-bottom:1em;}
-h2 {font-size:16px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-top:1.5em; margin-bottom:0.2em; font-style:italic;}
-h3 {font-size:14px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-top:1.5em; margin-bottom:0.2em;}
-h4 {font-size:12px; font-weight:900; line-height:120%; color:#023760; text-decoration:none; margin-top:1.5em; margin-bottom:0.3em; font-style:italic;}
-h5 {font-size:12px; font-weight:900; line-height:150%; color:#023760; text-decoration:none;
-margin-top:1.5em; margin-bottom:0.1em}
-h6 {font-size:10px; font-weight:500; line-height:120%; color:#666666; text-decoration:none; margin-top:0.1em; margin-bottom:0.1em;}
+﻿/* Basic elements and classes */
+h1, h2, h3, h4, h5 {font-weight:600; line-height:120%; color:#023760; text-decoration:none;}
 
-p {text-align:left; line-height:120%; margin-bottom:0.8em; }
-.content1 {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.2em; margin-top:0.6em; }
-.content2 {text-align:left; line-height:120%; font-size:12px; margin-bottom:0.2em; margin-left:2em }
-.center {text-align:center; line-height:120%; font-size:12px; margin-bottom:0.8em }
+h1 {font-size:24px; margin: 0 0 1em 0;}
+h2 {font-size:20px; margin: 1.2em 0 0.2em 0;}
+h3 {font-size:16px; margin: 1.2em 0 0.2em 0; font-style:italic}
+h4 {font-size:15px; margin: 1.2em 0 0.2em 0;}
+h5 {font-size:13px; margin: 1.2em 0 0.2em 0;}
+h6 {font-size:11px; font-weight:500; line-height:120%; color:#666; text-decoration:none; margin-top:0.1em; margin-bottom:0.1em;}
 
-img {
-	margin-top:15px;
-	margin-bottom:15px;
+p {text-align: left; margin-bottom: 0.8em;}
+
+img {margin: 10px 0 10px 0;}
+
+.newsArticle {padding-bottom: 30px;}
+
+.IndustryLogo {
+	width: 150px;
+	padding: 0px 20px 0px 0px;
+	float: left;
+	display: block;
+	margin: 0;
 }
-.middle {
-	vertical-align: middle;
-}
 
+.content1 {display: block; margin: 0;}
+.content2 {display: block; margin: 0 0 0 2em;}
+
+/*Main content area*/
 #MainArea {
-margin: auto;
+	margin: auto;
 
-width:1024px;
+	width: 90%;
+	max-width: 1350px;
+	padding: 30px 0 30px 0;
  
-background-color:#ffffff;
+	background-color: #fff;
 }
 
 #MainArea a {
-color:#3386ae;
+	color: #3386ae;
  
-font-weight:900;
-text-decoration:none;
+	text-decoration: none;
 } 
 
 #MainArea a:hover {
-color:#3386ae;
+	color: #3386ae;
 
-font-weight:900;
-text-decoration:underline;
+	text-decoration: underline;
 }
 
 #SideMenu {
-position:absolute;
-top:107px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	width: 20%;
+	padding: 10px 20px 20px 10px;
 
-width:170px;
-height:400px;
-padding-left:10px;
-padding-right:10px;
-padding-top:15px;
+	background-color: #f7f5e7;
+	color: #220e10;
 
-background-image:url(../gui/SideMenu.png);
-background-repeat:repeat-x;
-color:#023760;
-
-font-size:11px;
-font-weight:normal;
+	font-size: 12px;
+	font-weight: normal;
 }
 
 #SideMenu a {
-display:inline-block;
+	display: inline-block;
 
-width:170px;
+	width: 170px;
 
-color:#023760;
+	color: #220e10;
 
-font-weight:500;
-text-decoration:none;
+	font-weight: 500;
+	text-decoration: none;
 }
 
 #SideMenu a:hover{
-display:block;
+	display: block;
 
-background-color:#b4d5e5;
-color:#023760;
+	color: #db572f;
 
-font-weight:500;
-text-decoration:none;
+	font-weight: 500;
+	text-decoration: underline;
 } 
 
 #SideMenu .active {
-width:170px;
+	width: 170px;
 
-color:#cc9900;
+	color: #db572f;
 
-font-weight:900;
+	font-weight: 500;
 }
 
 #SideMenu .active:hover{
-background-color:transparent;
-color:#cc9900;
+	color: #db572f;
 
-font-weight:900;
-text-decoration:none;
+	font-weight: 500;
+	text-decoration: none;
 }
 
 #SideMenu .active a {
-color:#cc9900;
+	color: #db572f;
 
-font-weight:900;
+	font-weight: 900;
 }
 
 #SideMenu .active a:hover{
-background-color:transparent;
-color:#CC9900;
+	color: #db572f;
 
-font-weight:900;
-text-decoration:none;
+	font-weight: 500;
+	text-decoration: none;
 }
 
 #SideMenu ul {
-line-height:200%;
-}
-
-#SideMenu ul li {
-border-top:1px solid #9fd0e7;
+	line-height: 200%;
 }
 
 #SideMenu span {
-display:inline-block;
+	display: inline-block;
 
-width:145px;
-padding-right:10px;
-padding-left:6px;
-padding-bottom:6px;
+	width: 145px;
+	padding-right: 10px;
+	padding-bottom: 6px;
 
-color:#023760;
+	color: #220e10;
 
-font-size:14px;
-font-weight:900;
-line-height:200%; 
-text-decoration:none; 
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 200%; 
+	text-decoration: none; 
 }
 
 /* Content style */
 #Content {
-position:relative;
-left:200px;
-top:0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	overflow: auto;
+	width: 80%;
+	padding: 10px 20px 70px 20px;
 
-overflow:auto;
-width:770px;
-padding-top:35px;
-padding-left:20px;
-padding-right:20px;
-padding-bottom:120px;
+	background:#fff;
 
-background-color:#FFFFFF;
-
-line-height:130%;
-text-align:justify;
+	text-align:justify;
 }
 
 #Content ul {
-padding-left:20px;
-margin-top:0em;
-margin-bottom:0.8em;
+	padding-left: 20px;
+	margin: 0 0 0.8em 0;
 
-list-style:disc;
-list-style-position:outside;
-}
-
-#Content ul li {
-margin-bottom:0.2em;
+	list-style: disc;
+	list-style-position: outside;
 }
 
 #Content ul ul{
-padding-left:20px;
-margin-top:0.2em;
-margin-bottom:0px;
+	padding-left: 20px;
+	margin: 0 0 0.8em 0;
 
-list-style:disc;
-list-style-position:outside;
+	list-style: circle;
+	list-style-position: outside;
 }
 
 #Content ol {
-padding-left:20px;
+	padding-left: 20px;
 
-list-style-type: decimal;
-list-style-position:outside;
-}
-
-#Content p {
-line-height:130%;
-text-align:justify;
-}
-
-#Content em {
-color:#023760;
-
-font-weight:900;
-}
-
-#Content strong {
-color:#023760;
-
-font-weight:900;
-}
-
-
-
-.input {
-border:1px solid #aaaaaa;
-margin: 2px 0px 2px 10px;
-}
-
-.news_article {
-padding-bottom:30px;
+	list-style-type: decimal;
+	list-style-position: outside;
 }
 
 #Content .InvisibleList ul{
-padding-left:0px;
-margin-top:0em;
-margin-bottom:0.8em;
+	padding: 0;
+	margin: 0 0 0.8em 0;
 
-list-style:none;
+	list-style:none;
 }
 
 #Content .InvisibleList ul li {
-margin-bottom:0.2em;
+	margin: 0 0 0.2em 0;
 }
 
 #Content .InvisibleList ul ul {
-padding-left:20px;
+	padding: 0 0 0 20px;
 }
+
+
 
 /* Tables style */
 .TableBasic {
-border:1px solid #cccccc;
+	border: 1px solid #ccc;
 
-margin-top:15px;
-margin-bottom:35px;
+	margin-top: 15px;
+	margin-bottom: 35px;
 }
 
 .TableBasic th {
-padding: 3px 5px 3px 5px;
-border:1px solid #cccccc;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #ccc;
 
-background-color:#bedfef;
-color:#023760;
+	background: #d2e9f4;
+	color: #023760;
 
-font-weight:900;
-font-size:11px;
+	font-weight:900;
+	font-size: 13px;
 }
 
 .TableBasic td {
-padding: 3px 5px 3px 5px;
-border:1px solid #cccccc;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #ccc;
 
-font-size:11px;
-text-align:left;
+	text-align: left;
+	font-size: 13px;
 }
 
-.TableBasic em {
-font-size:11px;
-}
 
 .TableInvisible {
-border:1px solid #ffffff;
+	border: none;
 }
 
 .TableInvisible th {
-padding: 3px 5px 3px 5px;
-border:1px solid #ffffff;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #fff;
 
-background-color:#ebf0f0;
-color:#023760;
+	background-color: #ebf0f0;
+	color: #023760;
 
-font-size:12px;
-font-weight:900;
+	font-weight: 900;
 }
 
 .TableInvisible td {
-padding: 3px 5px 3px 5px;
-border:1px solid #ffffff;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #fff;
 
-font-size:12px;
-text-align:justify;
+	text-align: justify;
+	vertical-align: top;
 }
 
 
-.TableMain {
-border:1px solid #cccccc;
 
-margin-top:15px;
-margin-bottom:35px;
-}
-
-.TableMainT {
-padding: 3px 5px 3px 5px;
-border:1px solid #cccccc;
-
-background-color:#bedfef;
-color:#023760;
-
-font-weight:900;
-font-size:11px;
-}
-
-.TableMainC {
-padding: 3px 5px 3px 5px;
-border:1px solid #cccccc;
-
-font-size:11px;
-text-align:left;
-}
-
-.TableMain em {
-font-size:11px;
-}
-
-.IndustryLogoImg {
-	width:150px;
-	padding:0px 20px 0px 0px;
-	float:left;
-	display:block;
-	margin:0;
+/*Fluid layout*/
+@media (max-width:860px) {
+	#SideMenu {
+		width: 100%;
+	}
+	
+	#Content {
+		width: 100%;
+	}
 }

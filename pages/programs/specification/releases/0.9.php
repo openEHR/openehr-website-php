@@ -27,121 +27,121 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			
 			
 			<h2>Core</h2>
-			<table class="TableMain">
+			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th class="TableMainT"> Component</th>
-				<th class="TableMainT"> Documentary Specification </th>
-				<th class="TableMainT"> Computable / formal expressions </th>
-				<th class="TableMainT"> Description </th>
-				<th class="TableMainT"> Status </th>
+				<th> Component</th>
+				<th> Documentary Specification </th>
+				<th> Computable / formal expressions </th>
+				<th> Description </th>
+				<th> Status </th>
 			</tr>
 			<tr>
-				<td class="TableMainC" colspan=5> <b>Requirements</b> </td>
+				<td colspan=5> <b>Requirements</b> </td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> Standards conformance </td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/requirements/iso18308_conformance.pdf" target="_blank">ISO 18308 Conformance Statement</a></td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Document describing conformance of openEHR architecture to ISO TS 18308, &quot;Requirements for EHR Architectures&quot;. </td>
-				<td class="TableMainC"> stable</td>
+				<td style="background-color:#FFFFFF;"> Standards conformance </td>
+				<td> <a href="http://www.openehr.org/releases/0.9/requirements/iso18308_conformance.pdf" target="_blank">ISO 18308 Conformance Statement</a></td>
+				<td> &nbsp;</td>
+				<td> Document describing conformance of openEHR architecture to ISO TS 18308, &quot;Requirements for EHR Architectures&quot;. </td>
+				<td> stable</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" colspan=5> <b>Architecture</b> </td>
+				<td colspan=5> <b>Architecture</b> </td>
 			</tr>
 			<tr style="background-color:#FFEECC;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> Reference Model</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/rm/ehr_im.pdf" target="_blank">EHR IM</a> </td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> The information model of the openEHR EHR. </td>
-				<td class="TableMainC"> trial</td>
+				<td style="background-color:#FFFFFF;"> Reference Model</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/rm/ehr_im.pdf" target="_blank">EHR IM</a> </td>
+				<td> &nbsp;</td>
+				<td> The information model of the openEHR EHR. </td>
+				<td> trial</td>
 			</tr>
 			<tr style="background-color:#FFEECC;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/rm/demographic_im.pdf" target="_blank">Demographic IM</a> </td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> The openEHR demographic model. </td>
-				<td class="TableMainC"> trial</td>
+				<td style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/rm/demographic_im.pdf" target="_blank">Demographic IM</a> </td>
+				<td> &nbsp;</td>
+				<td> The openEHR demographic model. </td>
+				<td> trial</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/rm/ehr_extract_im.pdf" target="_blank">EHR Extract IM</a> </td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
-				<td class="TableMainC"> development</td>
+				<td style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/rm/ehr_extract_im.pdf" target="_blank">EHR Extract IM</a> </td>
+				<td> &nbsp;</td>
+				<td> The information model of the EHR Extract, which is a serilialisation of content from an EHR. </td>
+				<td> development</td>
 			</tr>
 			<tr style="background-color:#FFEECC;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/rm/common_im.pdf" target="_blank">Common IM</a> </td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Information model containing common concepts, including the archetype-enabling LOCATABLE class, party references, audits and attestations, change control, and authored resources. </td>
-				<td class="TableMainC"> trial</td>
+				<td style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/rm/common_im.pdf" target="_blank">Common IM</a> </td>
+				<td> &nbsp;</td>
+				<td> Information model containing common concepts, including the archetype-enabling LOCATABLE class, party references, audits and attestations, change control, and authored resources. </td>
+				<td> trial</td>
 			</tr>
 			<tr style="background-color:#FFEECC;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/rm/data_structures_im.pdf" target="_blank">Data Structures IM</a> </td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Information model of data structures, incuding a powerful model of HISTORY and EVENT. </td>
-				<td class="TableMainC"> trial</td>
+				<td style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/rm/data_structures_im.pdf" target="_blank">Data Structures IM</a> </td>
+				<td> &nbsp;</td>
+				<td> Information model of data structures, incuding a powerful model of HISTORY and EVENT. </td>
+				<td> trial</td>
 			</tr>
 			<tr style="background-color:#FFEECC;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/rm/data_types_im.pdf" target="_blank">Data Types IM</a></td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Information model of data types, including quantities, date/times, plain and coded text, time specification, multimedia and URIs. </td>
-				<td class="TableMainC"> trial</td>
+				<td style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/rm/data_types_im.pdf" target="_blank">Data Types IM</a></td>
+				<td> &nbsp;</td>
+				<td> Information model of data types, including quantities, date/times, plain and coded text, time specification, multimedia and URIs. </td>
+				<td> trial</td>
 			</tr>
 			<tr style="background-color:#FFEECC;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/rm/support_im.pdf" target="_blank">Support IM</a> </td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Support model defining identifiers, assumed types, and terminology interface specification used in the rest of the specifications. </td>
-				<td class="TableMainC"> trial</td>
+				<td style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/rm/support_im.pdf" target="_blank">Support IM</a> </td>
+				<td> &nbsp;</td>
+				<td> Support model defining identifiers, assumed types, and terminology interface specification used in the rest of the specifications. </td>
+				<td> trial</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> Archetype Model  </td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/am/archetype_system.pdf" target="_blank">Archetype System</a></td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Description of system of archetype management and governance. This document will change as a result of current work on archetype ontologies, governance, and logistical management.</td>
-				<td class="TableMainC"> development</td>
+				<td style="background-color:#FFFFFF;"> Archetype Model  </td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/am/archetype_system.pdf" target="_blank">Archetype System</a></td>
+				<td> &nbsp;</td>
+				<td> Description of system of archetype management and governance. This document will change as a result of current work on archetype ontologies, governance, and logistical management.</td>
+				<td> development</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/am/adl.pdf" target="_blank">Archetype Definition Language 1.1 (ADL)</a></td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Abstract syntax specification for archetypes 1.1 edition of language (used in ISO 13606-2). </td>
-				<td class="TableMainC"> development</td>
+				<td style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/am/adl.pdf" target="_blank">Archetype Definition Language 1.1 (ADL)</a></td>
+				<td> &nbsp;</td>
+				<td> Abstract syntax specification for archetypes 1.1 edition of language (used in ISO 13606-2). </td>
+				<td> development</td>
 			</tr>
 			<tr style="background-color:#FFFFDD;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/architecture/am/archetype_principles.pdf" target="_blank">Archetypes Principles</a></td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Semantic principles of archetypes and templates.</td>
-				<td class="TableMainC"> development</td>
+				<td style="background-color:#FFFFFF;"> &nbsp;</td>
+				<td> <a href="http://www.openehr.org/releases/0.9/architecture/am/archetype_principles.pdf" target="_blank">Archetypes Principles</a></td>
+				<td> &nbsp;</td>
+				<td> Semantic principles of archetypes and templates.</td>
+				<td> development</td>
 			</tr>
 			</tbody>
 			</table>
 			
 			
 			<h2>Non-core</h2>
-			<table class="TableMain">
+			<table class="TableBasic">
 			<tbody>
 			<tr style="background-color:#F3F8FA;">
-				<th class="TableMainT"> Component  </th>
-				<th class="TableMainT"> Documentary Specification  </th>
-				<th class="TableMainT"> Computable / formal expressions  </th>
-				<th class="TableMainT"> Description  </th>
+				<th> Component  </th>
+				<th> Documentary Specification  </th>
+				<th> Computable / formal expressions  </th>
+				<th> Description  </th>
 				<td class="TableMainT"> Status</td>
 			</tr>
 			<tr>
-				<td class="TableMainC" colspan=5> <b>General</b>  </td>
+				<td colspan=5> <b>General</b>  </td>
 			</tr>
 			<tr style="background-color:#F3F8FA;">
-				<td class="TableMainC" style="background-color:#FFFFFF;"> Specification Management </td>
-				<td class="TableMainC"> <a href="http://www.openehr.org/releases/0.9/CM/CM_plan.pdf">CM Plan</a> </td>
-				<td class="TableMainC"> &nbsp;</td>
-				<td class="TableMainC"> Technical document describing how versioning, changes, and releases are made. Describes the workflow of the Architectural Review Board (ARB).</td>
-				<td class="TableMainC"> stable</td>
+				<td style="background-color:#FFFFFF;"> Specification Management </td>
+				<td> <a href="http://www.openehr.org/releases/0.9/CM/CM_plan.pdf">CM Plan</a> </td>
+				<td> &nbsp;</td>
+				<td> Technical document describing how versioning, changes, and releases are made. Describes the workflow of the Architectural Review Board (ARB).</td>
+				<td> stable</td>
 			</tr>
 			</tbody>
 			</table>

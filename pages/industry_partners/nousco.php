@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<a href="http://nousco.com/" target="_blank"><img src="/files/industry_partners/nousco_logo.png" class="IndustryLogoImg"></a>
+			<a href="http://nousco.com/" target="_blank"><img src="/files/industry_partners/nousco_logo.png" class="IndustryLogo"></a>
 			
 			<p><em>Headquarters:</em> South Korea</p>
 			<p><em>Branches:</em> Seoul, South Korea</p>

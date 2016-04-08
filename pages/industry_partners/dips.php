@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<a href="http://www.dips.no/?lang=eng" target="_blank"><img src="/files/industry_partners/dips_logo.png" class="IndustryLogoImg"></a>
+			<a href="http://www.dips.no/?lang=eng" target="_blank"><img src="/files/industry_partners/dips_logo.png" class="IndustryLogo"></a>
 			
 			<p><em>Headquarters:</em> Norway</p>
 			<p><em>Size:</em> 150 employees</p>

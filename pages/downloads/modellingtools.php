@@ -21,7 +21,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Technology</th>
 				<th>Download/Access</th>
 				<th>Dev project</th>
-				<th>Status</th>
 			</tr>
 			<tr>
 				<th><em>ADL Designer</em></th>
@@ -32,7 +31,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<a href="http://ehrscape.marand.si/designer/template-editor.html">Template Designer</a>
 				</td>
 				<td><a href="https://github.com/openEHR/adl-designer" target="_blank">ADL-designer@Github</a></td>
-				<td>Supported</td>
 			</tr>
 			<tr>
 				<th><em>Archetype Editor (AE)</em></th>
@@ -41,7 +39,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>Microsoft VB.NET</td>
 				<td><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/></td>
 				<td><a href="https://github.com/openEHR/arch_ed-dotnet" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
-				<td>Supported</td>
 			</tr>
 			<tr>
 				<th><em>Template Designer</em></th>
@@ -49,11 +46,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>.oet templates;<br/>ADL 1.4 OPTs;<br/>ADL 1.4 archetypes.</td>
 				<td>.Net; Windows.</td>
 				<td>
-					<br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.6.1213.3.exe">TemplateDesignerSetup_2.6.1213.3.exe (EN)</a><br/>
-					<br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.8.94.2.exe">TemplateDesignerSetup_2.8.94.2.exe (EN)</a><br/>
+					<br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.6.1213.3.exe">TemplateDesignerSetup_ 2.6.1213.3.exe (EN)</a><br/>
+					<br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.8.94.2.exe">TemplateDesignerSetup_ 2.8.94.2.exe (EN)</a><br/>
 				</td>
 				<td></td>
-				<td>Supported</td>
 			</tr>
 			<tr>
 				<th><em>ADL 2 workbench (AWB)</em></th>
@@ -62,7 +58,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>Windows, Linux and Mac OSX.</td>
 				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
 				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
-				<td>Supported</td>
 			</tr>
 			<tr>
 				<th><em>ADL 2 command-line compiler (ADLC)</em></th>
@@ -71,7 +66,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>Windows, Linux and Mac OSX.</td>
 				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
 				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
-				<td>Supported</td>
 			</tr>
 			<tr>
 				<th><em>LinkEHR Editor</em></th>
@@ -80,7 +74,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>Java; all platforms.</td>
 				<td><br/><a href="http://linkehr.com/" target="_blank">Download and help pages</a><br/></td>
 				<td></td>
-				<td>Supported</td>
 			</tr>
 			<tr>
 				<th><em>ADL Text Editor Modes</em></th>
@@ -89,10 +82,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>All platforms</td>
 				<td><a href="http://www.openehr.org/wiki/display/dev/ADL+Text+Editors" target="_blank">Download and help page</a></td>
 				<td></td>
-				<td></td>
 			</tr>
 			<tr>
-				<th><em>LiU Archetype Editor</em></th>
+				<th><em>LiU Archetype Editor*</em></th>
 				<td>Part of the Link&ouml;ping University Project to build openEHR tools and demonstrators</td>
 				<td>ADL 1.4 archetypes</td>
 				<td>Java</td>
@@ -109,10 +101,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				</td>
 				<td>For further information about support mailing lists, source code, other versions etc see: <a href="http://www.imt.liu.se/mi/ehr/tools/" target="_blank">LiU tools page</a>
 				</td>
-				<td>Unsupported</td>
 			</tr>
 			</tbody>
 			</table>
+			<p>* Status: unsupported</p>
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	

@@ -62,35 +62,35 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<br/>
 			<p>The license assignments are as follows:</p>
 			
-			<table class="TableMain">
+			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th class="TableMainT"> Artefact type</th>
-				<th class="TableMainT"> License for use</th>
-				<th class="TableMainT"> Comments</th>
+				<th> Artefact type</th>
+				<th> License for use</th>
+				<th> Comments</th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <em>Specification document published files </em> </td>
-				<td class="TableMainC"> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">openEHR Specifications</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">openEHR Foundation</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">here</a>. </td>
-				<td class="TableMainC"> <p>The use of the CC-BY-ND license allows for public sharing, republishing, and unencumbered commercial use. It protects users of the specifications from unknown and/or local modifications, tampering etc being made outside of the Foundation's own open processes. This is the same thing that W3C does with its <a href="http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231">document license</a>.</p>
+				<td> <em>Specification document published files </em> </td>
+				<td> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">openEHR Specifications</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">openEHR Foundation</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">here</a>. </td>
+				<td> <p>The use of the CC-BY-ND license allows for public sharing, republishing, and unencumbered commercial use. It protects users of the specifications from unknown and/or local modifications, tampering etc being made outside of the Foundation's own open processes. This is the same thing that W3C does with its <a href="http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231">document license</a>.</p>
 										<p>The CC 'SA' (Share-alike) option was also considered, but rejected for two reasons. Firstly the openEHR Specifications are considered definitive works of the Foundation, not interpretations of anything else. Their contents and evolution therefore accurately and correctly reflect the processes of the openEHR community itself. Secondly, the integrity of specifications on which healthcare software and systems are directly based is considered of paramount importance to patients and clinical professionals.</p></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <em>Specification document source files </em> </td>
-				<td class="TableMainC"> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">openEHR Specifications</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">openEHR Foundation</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">here</a>. </td>
-				<td class="TableMainC"> <br/><br/><br/>ibid <br/><br/><br/></td>
+				<td> <em>Specification document source files </em> </td>
+				<td> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">openEHR Specifications</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openEHR.org" property="cc:attributionName" rel="cc:attributionURL">openEHR Foundation</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available <a xmlns:cc="http://creativecommons.org/ns#" href="/programs/specification/iplicense" rel="cc:morePermissions">here</a>. </td>
+				<td> <br/><br/><br/>ibid <br/><br/><br/></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <em>Specification computable artefacts</em> </td>
-				<td class="TableMainC"> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
+				<td> <em>Specification computable artefacts</em> </td>
+				<td> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
 										<a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2 License</a></td>
-				<td class="TableMainC"> <br/><br/>Computable artefacts are licensed in the same way as software, using the Apache license, which is widely accepted and industry friendly.<br/><br/></td>
+				<td> <br/><br/>Computable artefacts are licensed in the same way as software, using the Apache license, which is widely accepted and industry friendly.<br/><br/></td>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <em>Educational artefacts </em> </td>
-				<td class="TableMainC"> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a
+				<td> <em>Educational artefacts </em> </td>
+				<td> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a
 										<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
-				<td class="TableMainC"> <br/><br/>Educational artefacts are intended for wide use, and improvement, translation and re-use is encouraged. <br/><br/><br/> </td>
+				<td> <br/><br/>Educational artefacts are intended for wide use, and improvement, translation and re-use is encouraged. <br/><br/><br/> </td>
 			</tr>
 			</tbody>
 			</table>

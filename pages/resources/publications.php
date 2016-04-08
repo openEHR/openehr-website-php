@@ -31,7 +31,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h3><a name="workflowinhealthcare"></a>Workflow in Healthcare</h3>
 	
 			<h4>Designing Guideline-based Workflow-integrated Electronic Health Records (<a href="/files/resources/publications/workflow/Barretto_PhD_Thesis_2005.zip">zipped PDF</a>)</h4>
-			<p><b>Sistine Ann Barretto</b></p>
+			<p><strong>Sistine Ann Barretto</strong></p>
 			<p><i>PhD thesis submitted to the department of Information Technology (Research), University of South Australia. June 2005.</i></p>
 			<p><em>Abstract:</em> The recent trend in health care has been on the development and implementation of clinical guidelines to support and comply with evidence-based care. Evidence-based care is established with a view to improve the overall quality of care for patients, reduce costs, and address medico-legal issues. One of the main questions addressed by this thesis is how to support guideline-based care. It is recognised that this is better achieved by taking into consideration the provider workflow. However, workflow support remains a challenging (and hence rarely seen) accomplishment in practice, particularly in the context of chronic disease management (CDM).</p>
 			<p>Our view is that guidelines can be knowledge-engineered into four main artefacts: electronic health record (EHR) content, computer-interpretable guideline (CiG), workflow and hypermedia. The next question is then how to coordinate and make use of these artefacts in a health information system (HIS). We leverage the EHR since we view this as the core component to any HIS.</p>
@@ -41,7 +41,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>Our research has implications on various stakeholders. The extended EHR architecture allows the application designer to choose a usable balance of compliance encouragement and human judgment. The ability to track healthcare process steps within the EHR content is also of medico-legal significance. It is envisioned that extensible EHR recording allows the EHR to serve as the basis for care coordination, and potentially improve communication amongst providers and even improve patient health outcomes. Our open framework can be used to further explore the problem of effective support for CDM (such as presentation of hypermedia), and can inform a range of standards bodies (such as HL7), researchers (such as clinical guideline representation and workflow) and vendors about specific requirements for integrating EHR, workflow and guideline-based decision support.</p>
 	
 			<h4>Workflow Modelling of Coordinated Inter-Health-Provider Care Plans (<a href="/files/resources/publications/workflow/Eric_Browne_WF_thesis_2005.pdf">PDF</a>)</h4>
-			<p><b>Eric Browne</b></p>
+			<p><strong>Eric Browne</strong></p>
 			<p><i>PhD thesis submitted to the Division of Information Technology, Engineering and the Environment. January 2005.</i></p>
 			<p><em>Abstract:</em> Workflow in healthcare, particularly for the shared and coordinated management of chronic illnesses, is very difficult to model. It is also difficult to support via current Clinical Information Systems and current information technologies. This dissertation contributes significant enhancements to the current methodologies for designing and implementing Workflow Management Systems (Wf MSs ) suitable for healthcare. The contribution comprises three interrelated aspects of workflow system architecture as follows:</p>
 			<ul>
@@ -56,7 +56,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>The author's prototype is tested using the current local work practices for treating Non-Insulin Dependent Diabetes Mellitus involving shared care plans based on Australian guidelines. The dissertation concludes with an assessment of the implications of goalbased, self-modifying, redundancy-reducing workflow models for developers and implementors of Wf MSs as well as for implementors of future Health Information Networks employing such complex workflow solutions.</p>
 				
 			<h4>Event-Oriented Dynamic Adaptation of Workflows: Model, Architecture, and Implementation (<a href="http://www.imn.htwk-leipzig.de/%7Emueller/references/diss.pdf" target="_blank">PDF</a>)</h4>
-			<p><b>Robert M&uuml;ller</b></p>
+			<p><strong>Robert M&uuml;ller</strong></p>
 			<p><i>PhD thesis submitted to Fakult&auml;t f&uuml;r Mathematik und Informatik at the Universit&auml;t Leipzig, 2003.</i></p>
 			<p><em>Abstract:</em> Workflow management is widely accepted as a core technology to support long-term business processes in heterogeneous and distributed environments. However, conventional workflow management systems do not provide sufficient flexibility support to cope with the broad range of failure situations that may occur during workflow execution. In particular, most systems do not allow to dynamically adapt a workflow due to a failure situation, e.g., to dynamically drop or insert execution steps.</p>
 			<p>As a contribution to overcome these limitations, this dissertation introduces the agent-based workflow management system AGENTWORK. AGENTWORK supports the definition, the execution and, as its main contribution, the event-oriented and semi-automated dynamic adaptation of workflows. Two strategies for automatic workflow adaptation are provided. Predictive adaptation adapts workflow parts affected by a failure in advance (predictively), typically as soon as the failure is detected. This is advantageous in many situations and gives enough time to meet organizational constraints for adapted workflow parts. Reactive adaptation is typically performed when predictive adaptation is not possible. In this case, adaptation is performed when the affected workflow part is to be executed, e.g., before an activity is executed it is checked whether it is subject to a workflow adaptation such as dropping, postponement or replacement. In particular, the following contributions are provided by AGENTWORK.</p>
@@ -70,7 +70,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h3><a name="thesesanddisertations"></a>PhD Theses and other Dissertations about openEHR Archetypes</h3>
 			
 			<h4>Towards Interoperable and Knowledge-Based Electronic Health Records Using Archetype Methodology (<a href="https://docs.google.com/open?id=0BywkVxKayXoSSVEzQVBHTWxMVzg" target="_blank">PDF</a>)</h4>
-			<p><b>Rong Chen</b></p>
+			<p><strong>Rong Chen</strong></p>
 			<p><i>PhD thesis (som f&ouml;r avl&auml;ggande av filosofie doktorsexamen vid Link&ouml;pings universitet och tekniska h&ouml;gskola kommer att offentligt f&ouml;rsvaras i Eken, Campus US ing&aring;ng 65, Link&ouml;ping, torsdagen 5 november 2009, kl. 9.00)</i></p>
 			<p><em>Abstract:</em> The use of Electronic Health Records (EHR) is wide spread in healthcare today. EHRs are not only used to support daily care but also used to support important secondary uses, e.g. clinical research, quality assurance and education. Although considered advantageous compared to paper-based records, EHRs still have a long way to go in realizing its full potential as an integral part of a safe, effective and efficient health care system.</p>
 			<p>Making EHRs interoperable is a prerequisite to support increasingly distributed and diverse healthcare. Bringing up-to-date knowledge into EHRs for decision support is a critical step to foster evidence based care. EHR data from different sources need to be analyzed in research in order to find new evidence for improvement of the current practice. Knowledge in the form of guidelines needs to be disseminated and applied in practice through continuous education.</p>
@@ -81,20 +81,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>The key contribution of the thesis can be summarized as the validation and further improvement of the openEHR archetype formalism through software implementation and the explorations on clinical guidelines, shared care plans and legacy EHR content models in relation to archetype-based EHR framework.</p>
 		
 			<h4>Introducing an openEHR-Based Electronic Health Record System in a Hospital (<a href="/files/resources/publications/archetypes/goek-masters-thesis_2008.pdf">PDF</a>)</h4>
-			<p><b>Murat G&ouml;k</b></p>
+			<p><strong>Murat G&ouml;k</strong></p>
 			<p><i>Masters Thesis submitted to Department of Medical Informatics, University of G&ouml;ttingen, Germany, May 2008</i></p>
 			<p><em>Abstract:</em> this thesis reports a case study of an openEHR system at the Emergency Department, Austin Health, Melbourne, and arose from the collaboration with Austin Health, the Austin Centre for Applied Clinical Informatics (ACACI), the Nursing Informatics Group, the Biomedical Engineering Department, the Emergency Department, the Central Queensland University Health Informatics Research Group, Ocean Informatics, and the Department of Medical Informatics (University of G&ouml;ttingen).</p>
 			<p>The aim of this thesis is to provide a roadmap for the introduction of an electronic health record system based on the openEHR (http://www.openehr.org) approach for a health service within a public hospital in Australia. The idea of electronic health records (EHRs) was born approximately 40 years ago [GL96] and consequently several concepts were developed. One of these approaches is the &rdquo;Good European Health Record&rdquo; (GEHR) project on which the openEHR Foundation builds.</p>
 			<p>Over time the openEHR approach has matured, however, there is still a lack of knowledge on how to introduce an openEHR-based system (implementation and migration strategies). To tackle this problem, the thesis gives an overview of the openEHR approach by presenting the history, architecture, and relations to other standards in electronic health care. The patient flow in an emergency department (ED) of a public hospital (Austin Health) is then analysed in regards to the information produced and documented. This thesis investigates how the data items in the ED can be gathered and mapped to openEHR archetypes, thus formally representing the clinical knowledge. The reusable archetypes cover more than 70% of all archetypes needed in the ED. This figure may vary for other departments. It also points at the development of openEHR templates (a combination of archetypes) through utilising mind maps. Using an example of a ventilation system, data can be migrated from proprietary systems and transferred to an openEHR-based data storage. An explanation is given for an openEHR architecture based EHR system, providing the foundation for the implementation of an openEHRbased prototype.</p> <p>The thesis shows how an openEHR architecture based EHR system can be introduced in practical terms and how this could lead to interoperability within a department.</p>
 			
 			<h4>Semantic Mapping Of Clinical Model Data To Biomedical Terminologies To Facilitate Interoperability (<a href="/files/resources/publications/archetypes/RQamar-PhD-Thesis-Mar2008.pdf">PDF</a>)</h4>
-			<p><b>Rahil Qamar</b></p>
+			<p><strong>Rahil Qamar</strong></p>
 			<p><i>Submitted to the University of Manchester for the degree of Doctor of Philosophy in the Faculty of Engineering and Physical Sciences, Mar 2008, Supervisor: Prof Alan Rector</i></p>
 			<p><em>Abstract:</em> The thesis presents and evaluates, the Model Standardisation using Terminology Systems (MoST) methodology, for integrating the clinical content in data models and terminology models. The MoST system developed for the purpose, aims to find semantically equivalent SNOMED terminology codes to map to archetype data model fragments. The two key stages of MoST include, (i) term finding, and (ii) data mapping. While the term finding procedure is completely automated, the data mapping procedure is assisted by clinical experts. The research recognises the significance of human intervention in ensuring the quality of the terminology codes being mapped to the data model fragments. Ensuring the quality of the mappings, helps maintain accuracy and unambiguity of coded data. The evaluation of the MoST system shows the importance of incorporating linguistic and semantic procedures, in addition to lexical lookups, to increase the chances of finding semantic matches. </p>
 			<p>A significant contribution of the thesis is the description of the issues with current Archetype and SNOMED models with regards to the information needed to achieve effective model integration at content level. These issues were highlighted by the qualitative analysis of the evaluation. The issues point to semantic gaps in both the data and terminology models, which inhibit automated systems, such as MoST, from making intelligent inferences on the semantic appropriateness of the content. Suggestions for resolving these issues are detailed, where appropriate. A final contribution of the thesis is the set of guidelines that are suggested to the two modeling (Archetype and SNOMED) communities, to improve the quality of their model content. The hypothesis is that an increase in the content compatibility of the two models will increase the likelihood of the overall integration of the models, to achieve interoperability</p> 
 			
 			<h4>Archetype based Domain Modelling for Health Information Systems (<a href="/files/resources/publications/archetypes/KorayAtalag-THESIS_Final.pdf">PDF</a>)</h4>
-			<p><b>Koray Atalag</b></p>
+			<p><strong>Koray Atalag</strong></p>
 			<p><i>Submitted to Department of Information Systems, Middle East Technical University (METU), July 2007, Supervisor: Prof. Dr. Semih Bilgen</i></p>
 			<p><em>Abstract:</em> A major problem to be solved in health informatics is high quality, structured and timely data collection. Standard terminologies and uniform domain conceptual models are important steps to alleviate this problem which are also proposed to enable interoperability among systems. With the aim of contributing to the solution of this problem, this study proposes novel features for the Archetypes and multi-level modeling technique in health information and knowledge modeling. The study consists of the development of a research prototype for endoscopic data management, and based on that experience, the extension of Minimal Standard Terminology in Digestive Endoscopy (MST). </p>
 			<p>A major contribution of the study consists of significant extensions to the modeling formalism. The proposed modeling approach may be used in the design and development of health information systems based on archetypes for structured data collection, validation and dynamic user interface creation. The thesis work is aimed to make considerable contribution to the emerging Electronic Health Records (EHR) standards and specifications.</p> 
@@ -105,7 +105,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li>
 				<h4>Generic screen representations for future-proof systems, is it possible? There is more to a GUI than meets the eye. (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19368989" target="_blank">PDF</a>)</h4>
-				<p><b>Helma van der Linden</b>(a,&lowast;), <b>Tony Austin</b>(b), <b>Jan Talmon</b>(a)</p>
+				<p><strong>Helma van der Linden</strong>(a,&lowast;), <strong>Tony Austin</strong>(b), <strong>Jan Talmon</strong>(a)</p>
 				<p><i>(a) School for Public Health and Primary Care: Caphri, Maastricht University, Maastricht, The Netherlands<br/>
 				(b) CHIME, University College London, United Kingdom<br/>
 				&lowast; Corresponding author at: Medical Informatics, Maastricht, University, POBOX 616, 6200 MD Maastricht, The Netherlands.<br/>
@@ -124,7 +124,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li>
 				<h4>EHR Query Language (EQL) &ndash; a query language for archetype-based health records (<a href="/files/resources/publications/archetypes/MedInfo_2007_EQL_MA.pdf">PDF</a>)</h4>
-				<p><b>Chunlan Ma, Heath Frankel, Thomas Beale, Sam Heard</b></p>
+				<p><strong>Chunlan Ma, Heath Frankel, Thomas Beale, Sam Heard</strong></p>
 				<p><i>Ocean Informatics<br/>
 				pp 397-401 Proceedings of MedInfo 2007, K. Kuhn et al. (Eds), IOS publishing, 2007.</i></p>
 				<p><em>Abstract:</em> OpenEHR specifications have been developed to standardise the representation of an international electronic health record (EHR). The language used for querying EHR data is not as yet part of the specification. To fill in this gap, Ocean Informatics has developed a query language currently known as EHR Query Language (EQL), a declarative language supporting queries on EHR data. EQL is neutral to EHR systems, programming languages and system environments and depends only on the openEHR archetype model and semantics.</p>
@@ -136,7 +136,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li>
 				<h4>Archetype-based semantic mediation: Incremental provisioning of data services (<a href="http://www.dtic.upf.edu/~jbisbal/publications/Bisbal-155-CBMS2010.pdf" target="_blank">PDF</a>)</h4>
-				<p><b>Jesus Bisbal, Gerhard Engelbrecht, and Alejandro Frangi</b></p>
+				<p><strong>Jesus Bisbal, Gerhard Engelbrecht, and Alejandro Frangi</strong></p>
 				<p><i>CISTIB - Universitat Pompeu Fabra, and CIBER-BBN, Barcelona, Spain<br/>
 				23RD IEEE International Symposium on Computer-Based Medical Systems
 				(<a href="http://www.cbms2010.curtin.edu.au/" target="_blank">http://www.cbms2010.curtin.edu.au/</a>).</i></p>
@@ -146,7 +146,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				
 				<li>
 				<h4>Combining OpenEHR archetype definitions with SWRL rules &ndash; a translation approach (<a href="http://www.springerlink.com/content/k706u20xg1176042/" target="_blank">Springer link</a>)</h4>
-				<p><b>Lezcano, L., Sicilia, M.A. and Serrano-Balazote, P.</b></p>
+				<p><strong>Lezcano, L., Sicilia, M.A. and Serrano-Balazote, P.</strong></p>
 				<p><i>In Proceedings of the First World Summit on the Knowledge Society (WSKS'08),
 				Springer Lecture Notes in Artificial Intelligence, 52880, pp. 80-89.</i></p>
 				<p><em>Abstract:</em>The interoperability of electronic healthcare information systems is critical for a more effective healthcare management. Several specifications and standards have been created for facilitating such interoperability at different levels. Among them, the OpenEHR initiative emphasizes the sharing of flexible specifications of healthcare information pieces in the form of archetypes. However, the OpenEHR ADL language does not provide support for rules and inference which are important pieces of clinical knowledge. </p>
@@ -155,7 +155,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 				<li>
 				<h4>Expressing Clinical Data Sets with openEHR Archetypes: A Solid Basis for Ubiquitous Computing (<a href="http://dx.doi.org/10.1016/j.ijmedinf.2007.02.004" target="_blank">IJMI link</a>)</h4>
-				<p><b>Garde S, Hovenga E, Buck J, Knaup P</b></p>
+				<p><strong>Garde S, Hovenga E, Buck J, Knaup P</strong></p>
 				<p><i>International Journal of Medical Informatics. 76 (S3): S334-S341.</i></p>
 				<p><em>Abstract:</em></p>
 				<p>Purpose: The purpose of this paper is to analyse the feasibility and usefulness of expressing clinical data sets (CDSs) as openEHR archetypes. For this, we present an approach to transform CDS into archetypes, and outline typical problems with CDS and analyse whether some of these problems can be overcome by the use of archetypes.</p>
@@ -165,7 +165,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				
 				<li>
 				<h4>Semantic Issues in Integrating Data from Different Models to Achieve Data Interoperability (<a href="/files/resources/publications/archetypes/Medinfo_2007_QamarRector.pdf">PDF</a>)</h4>
-				<p><b>Rahil Qamar, Alan Rector </b></p>
+				<p><strong>Rahil Qamar, Alan Rector </strong></p>
 				<p><i>Medical Informatics Group, University of Manchester, Manchester, U.K.<br/>
 				pp 674-678 Proceedings of MedInfo 2007, K. Kuhn et al. (Eds), IOS publishing, 2007.</i></p>
 				<p><em>Abstract:</em> Matching clinical data to codes in controlled terminologies is the first step towards achieving standardisation of data for safe and accurate data interoperability. The MoST automated system was used to generate a list of candidate SNOMED CT code mappings. The paper discusses the semantic issues which arose when generating&nbsp; lexical and semantic matches of terms from the archetype model to relevant SNOMED codes. It also discusses some of the solutions that were developed to address the issues.</p>
@@ -174,7 +174,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				
 				<li>
 				<h4>Framework for Clinical Data Standardization Based on Archetypes (<a href="/files/resources/publications/archetypes/Medinfo_2007_JAM.pdf">PDF</a>)</h4>
-				<p><b>Jose A. Maldonado</b> (a), <b>David Moner</b> (a), <b>Diego Tom&aacute;s</b> (a), <b>Carlos &Aacute;ngulo</b> (a), <b>Montserrat Robles</b> (a), <b>Jesualdo T. Fern&aacute;ndez</b> (b)</p>
+				<p><strong>Jose A. Maldonado</strong> (a), <strong>David Moner</strong> (a), <strong>Diego Tom&aacute;s</strong> (a), <strong>Carlos &Aacute;ngulo</strong> (a), <strong>Montserrat Robles</strong> (a), <strong>Jesualdo T. Fern&aacute;ndez</strong> (b)</p>
 				<p><i>(a) Biomedical Informatics Group, ITACA Institute, Technical University of Valencia, Spain<br/>
 				(b) Departamento de Inform&aacute;tica y Sistemas, University of Murcia, Spain<br/>
 				pp 454-458 Proceedings of MedInfo 2007, K. Kuhn et al. (Eds), IOS Press, 2007</i></p>
@@ -184,20 +184,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 				<li>
 				<h4>Exploiting ebXML registry semantic constructs for handling archetype metadata in healthcare informatics (<a href="/files/resources/publications/archetypes/IJMSO_dogac_et_al_2006.pdf">PDF</a>)</h4>
-				<p><b>Dogac, A., Laleci, G.B., Kabak, Y., Unal, S., Beale, T., Heard, S., Elkin, P.L., Najmi, F., Mattocks, C., Weber, D. and Kernberg, M.</b></p>
+				<p><strong>Dogac, A., Laleci, G.B., Kabak, Y., Unal, S., Beale, T., Heard, S., Elkin, P.L., Najmi, F., Mattocks, C., Weber, D. and Kernberg, M.</strong></p>
 				<p><i>Int. J. Metadata, Semantics and Ontologies, Vol. 1, No. 1, pp.21&ndash;36.</i></p>
 				</li>
 				
 				<li>
 				<h4>Archetype-Based Semantic Integration and Standardization of Clinical Data</h4>
-				<p><b>Moner, D. Maldonado, J.A. Bosca, D. Fernandez, J.T. Angulo, C. Crespo, P. Vivancos, P.J. Robles, M.</b></p>
+				<p><strong>Moner, D. Maldonado, J.A. Bosca, D. Fernandez, J.T. Angulo, C. Crespo, P. Vivancos, P.J. Robles, M.</strong></p>
 				<p><i>In: <a href="http://ieeexplore.ieee.org/xpl/RecentCon.jsp?punumber=4028925" target="_blank">Engineering
 				in Medicine and Biology Society, 2006. EMBS '06. 28th Annual International Conference of the IEEE</a>. Aug. 2006. pp 5141-5144.</i></p>
 				</li>
 				
 				<li>
 				<h4>Integration of Tools for Binding Archetypes to SNOMED CT (<a href="http://www.hiww.org/smcs2006/proceedings/12SundvallSMCS2006final.pdf" target="_blank">PDF</a>)</h4>
-				<p><b>Erik Sundvall, Rahil Qamar, Mikael Nystr&ouml;m, Mattias Forss, H&aring;kan Petersson, Hans &Aring;hlfeldt, Alan Rector.</b></p>
+				<p><strong>Erik Sundvall, Rahil Qamar, Mikael Nystr&ouml;m, Mattias Forss, H&aring;kan Petersson, Hans &Aring;hlfeldt, Alan Rector.</strong></p>
 				<p><i>Semantic Mining Conference 2006.</i></p>
 				</li>
 			</ul>
@@ -206,13 +206,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li>
 				<h4>Towards Semantic Interoperability for Electronic Health Records: Domain Knowledge Governance for openEHR Archetypes (<a href="http://healthinformatics.cqu.edu.au/downloads/Garde_openEHR_Methods_2007.pdf" target="_blank">PDF</a>)</h4>
-				<p><b>Garde S, Knaup P, Hovenga EJS, Heard S</b></p>
+				<p><strong>Garde S, Knaup P, Hovenga EJS, Heard S</strong></p>
 				<p><i>Methods of Information in Medicine. 46(3): 332-343. (doi:10.1160/ME5001).</i></p>
 				</li>
 				
 				<li>
 				<h4>Nursing Constraint Models for Electronic Health Records: a vision for domain knowledge governance (<a href="http://dx.doi.org/10.1016/j.ijmedinf.2005.07.013" target="_blank">PDF</a>)</h4>
-				<p><b>Hovenga E, Garde S, Heard S</b></p>
+				<p><strong>Hovenga E, Garde S, Heard S</strong></p>
 				<p><i>Int J Med Inform. 74(11-12): pp886-898.</i></p>
 				</li>
 			</ul>
@@ -221,13 +221,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li>
 				<h4>Importing Clinical Data into Electronic Health Records - Lessons Learnt from the First Australian GEHR Trials (<a href="/files/resources/publications/archetypes/HIC2002_bird_goodchild_heard.pdf">PDF</a>)</h4>
-				<p><b>Bird L, Goodchild A, Heard S</b></p>
+				<p><strong>Bird L, Goodchild A, Heard S</strong></p>
 				<p><i>Proceedings HIC 2002 conference.</i></p>
 				</li>
 	
 				<li>
 				<h4>Experiences with a Two-Level Modelling Approach to Electronic Health Records (<a href="http://www.jrpit.acs.org.au/jrpit/JRPITVolumes/JRPIT35/JRPIT35.2.121.pdf" target="_blank">PDF</a>)</h4>
-				<p><b>L. Bird, A. Goodchild, Z. Tun</b></p>
+				<p><strong>L. Bird, A. Goodchild, Z. Tun</strong></p>
 				<p><i>Journal of Research and Practice in Information Technology 35 (2003).</i></p>
 				</li>
 			</ul>
@@ -236,13 +236,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li>
 				<h4>Templates and Archetypes: how do we know what we are talking about? (<a href="/files/resources/publications/archetypes/templates_and_archetypes_heard_et_al.pdf">PDF</a>)</h4>
-				<p><b>S. Heard, T. Beale, G. Freriks, A. Rossi-Mori, O. Pishev.</b></p>
+				<p><strong>S. Heard, T. Beale, G. Freriks, A. Rossi-Mori, O. Pishev.</strong></p>
 				<p><i>HL7 internal paper, 2003.</i></p>
 				</li>
 				
 				<li>
 				<h4>Archetypes: Constraint-based domain models for future-proof information systems (<a href="/files/resources/publications/archetypes/archetypes_beale_oopsla_2002.pdf">PDF</a>)</h4>
-				<p><b>Beale T.</b></p>
+				<p><strong>Beale T.</strong></p>
 				<p><i>In: Eleventh OOPSLA Workshop on Behavioral Semantics: Serving the Customer
 				(Seattle, Washington, USA, November 4, 2002). Edited by Kenneth Baclawski and
 				Haim Kilov. Northeastern University, Boston, 2002, pp. 16-32.</i></p>
@@ -250,7 +250,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				
 				<li>
 				<h4>Archetypes - An Interoperable Knowledge Methodology for Future-proof Information Systems (<a href="/files/resources/publications/archetypes/archetypes_beale_web_2000.pdf">PDF</a>)</h4>
-				<p><b>Beale T.</b></p>
+				<p><strong>Beale T.</strong></p>
 				<p><i>Published on the internet in 2000.</i></p>
 				</li>
 			</ul>
@@ -261,7 +261,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li>
 				<p><h4>Knowledge Mobilization: Architectures, Models and Applications (<a href="http://hera.ugr.es/tesisugr/17611404.pdf" target="_blank">PDF</a>)</h4></p>
-				<p><b>Juan G&oacute;mez Romero</b></p>
+				<p><strong>Juan G&oacute;mez Romero</strong></p>
 				<p><i>2008 Doctoral thesis, Universidad de Granada, Technical School of Engineering Informatics, Department of Science and Computing</i></p>
 				<p>This thesis mentions openEHR archetypes in the context of mobilising knowledge in the health sector.</p>
 				</li>
@@ -272,7 +272,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li>
 				<p><h4>Logical Foundations of Object-Oriented and FrameBased Languages (<a href="http://www.cs.sunysb.edu/%7Ekifer/dood/papers.html" target="_blank">PDF</a>)</h4></p>
-				<p><b>Kifer M, Lausen G, Wu J</b></p>
+				<p><strong>Kifer M, Lausen G, Wu J</strong></p>
 				<p><i>JACM May 1995.</i></p>
 				<p>The Archetype cADL syntax and semantics are formally speaking a synthesis of F-logic queries with terminology (the node encoding).</p>
 				</li>
@@ -283,7 +283,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h3><a name="decision_support"></a>Decision Support</h3>
 			
 			<h4>Evaluation of the Guideline Definition Language (GDL) in the clinical area of severe sepsis and septic shock (<a href="/files/resources/publications/health_ict/KonstantinosKalliamvakos-Final-thesis-report-v3.pdf">PDF</a>)</h4>
-			<p><b>Author: Konstantinos Kalliamvakos</b></p>
+			<p><strong>Author: Konstantinos Kalliamvakos</strong></p>
 			<p>Master's Programme in Health Informatics, 2013<br/>
 			Examiner: Sabine Koch PhD, dept of LIME, Karolinska Institutet</p>
 			<p><em>Abstract:</em></p>
@@ -300,7 +300,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h4>Towards Sustainability of Health Information Systems: How Can We Define, Measure and Achieve It?
 			(<a href="/files/resources/publications/health_ict/Medinfo2007-sustainability-Garde.pdf">PDF</a>)</h4>
-			<p><b>Sebastian Garde</b> (a, b), <b>Carola M. Hullina</b> (b), <b>Rong Chen</b> (c), <b>Thilo Schuler</b> (d), <b>Jana Gr&auml;nz</b> (a, e), <b>Petra Knaup</b> (f), <b>Evelyn J.S. Hovenga</b> (a)</p>
+			<p><strong>Sebastian Garde</strong> (a, b), <strong>Carola M. Hullina</strong> (b), <strong>Rong Chen</strong> (c), <strong>Thilo Schuler</strong> (d), <strong>Jana Gr&auml;nz</strong> (a, e), <strong>Petra Knaup</strong> (f), <strong>Evelyn J.S. Hovenga</strong> (a)</p>
 			<p><i>(a) Health Informatics Research Group, Central Queensland University, Melbourne VIC &amp; Rockhampton, QLD, Australia<br/>
 			(b) Austin Centre for Applied Clinical Informatics, Austin Health, Heidelberg VIC, Australia<br/>
 			(c) Department of Biomedical Engineering, Link&ouml;ping University, Sweden<br/>
@@ -315,17 +315,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h3><a name="openehr"></a>openEHR</h3>
 			
 			<h4>Towards a comprehensive electronic patient record to support an innovative individual care concept for premature infants using the openEHR approach (<a href="http://linkinghub.elsevier.com/retrieve/pii/S1386505609000380" target="_blank">Elsevier pub site</a>)</h4>
-			<p><b>Buck J, Garde S, Kohl C, Knaup-Gregori P</b></p>
+			<p><strong>Buck J, Garde S, Kohl C, Knaup-Gregori P</strong></p>
 			<p><i>International Journal of Medical Informatics. 78(8): 521-531, 2009</i></p>
 				
 			<h4>Graphical Overview and Navigation of Electronic Health Records in a prototyping environment using Google Earth and openEHR Archetypes (<a href="/files/resources/publications/health_ict/MedInfo2007-graphicalEHR-Sundvall.pdf">PDF</a>)</h4>
-			<p><b>Erik Sundvall, Mikael Nystr&ouml;m, Mattias Forss, Rong Chen, H&aring;kan Petersson, Hans &Aring;hlfeldt</b></p>
+			<p><strong>Erik Sundvall, Mikael Nystr&ouml;m, Mattias Forss, Rong Chen, H&aring;kan Petersson, Hans &Aring;hlfeldt</strong></p>
 			<p><i>Link&ouml;ping University, Sweden<br/>
 			pp1043-1047 Proceedings MedInfo 2007, K. Kuhn et al. (Eds), IOS Publishing 2007.</i></p>
 			<p><em>Abstract:</em> This paper describes selected earlier approaches to graphically relating events to each other and to time; some new combinations are also suggested. These are then combined into a unified prototyping environment for visualization and navigation of electronic health records. Google Earth (GE) is used for handling display and interaction of clinical information stored using openEHR data structures and &lsquo;archetypes&rsquo;. The strength of the approach comes from GE&rsquo;s sophisticated handling of detail levels, from coarse overviews to fine-grained details that has been combined with linear, polar and region-based views of clinical events related to time. The system should be easy to learn since all the visualization styles can use the same navigation.</p>
 			<p>The structured and multifaceted approach to handling time that is possible with archetyped openEHR data lends itself well to visualizing and integration with openEHR components is provided in the environment.</p> 	
 			<h4>The openEHR Java Reference Implementation Project (<a href="/files/resources/publications/health_ict/Medinfo2007-openehr_java-ChenKlein.pdf">PDF</a>)</h4>
-			<p><b>Rong Chen</b> (a), <b>Gunnar O Klein</b> (b)</p>
+			<p><strong>Rong Chen</strong> (a), <strong>Gunnar O Klein</strong> (b)</p>
 			<p><i>(a) Department of Biomedical Engineering, Link&ouml;ping University, Sweden<br/>
 			(b) Department of Medicine, Karolinska Institutet, Sweden
 			pp 58-62 Proceedings MedInfo 2007, K. Kuhn et al. (Eds), IOS Publishing 2007
@@ -335,7 +335,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>The early Java implementation experience has also led to the publication of the openEHR Java Implementation Technology Specification. A number of design changes to the specifications and important minor corrections have been directly initiated by the implementation project over the last two years. The Java Implementation has been important for the validation and improvement of the openEHR design specifications and provides building blocks for future EHR systems.</p> 
 
 			<h4>Generic screen representations for future proof systems</h4>
-			<p><b>Helma van der Linden</b> (a), <b>Thilo Schuler </b>(b), <b>Rong Chen</b> (c), <b>Jan Talmon</b> (a)</p>
+			<p><strong>Helma van der Linden</strong> (a), <strong>Thilo Schuler </strong>(b), <strong>Rong Chen</strong> (c), <strong>Jan Talmon</strong> (a)</p>
 			<p><i>(a) Medical Informatics, University Maastricht, The Netherlands<br/>
 			(b) Department of Medical Informatics, University of Freiburg, Germany<br/>
 			(c) Department of Biomedical Engineering, Link&ouml;ping University, Sweden<br/>
@@ -344,21 +344,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>This approach leads to a flexible GUI that can adapt not only to information structures that are not predefined within the receiving system and display them in a meaningful way, but also to novel ways of displaying the in-formation.We are working on a proof of concept implementation to vali-date the approach.</p> 
 			
 			<h4>Julius &ndash; a template based supplementary electronic health record system (<a href="http://www.biomedcentral.com/1472-6947/7/10" target="_blank">Biomed Central link</a>)</h4>
-			<p><b>Rong Chen, G&ouml;sta Enberg, Gunnar O Klein</b></p>
+			<p><strong>Rong Chen, G&ouml;sta Enberg, Gunnar O Klein</strong></p>
 			<p><i>BMC Medical Informatics and Decision Making 2007,<br/>7:10 doi:10.1186/1472-6947-7-10</i></p>
 			
 			
 			<h3><a name="regionalhealth"></a>Regional Health</h3>
 			
 			<h4>Regional Health Economies and ICT Services: the PICNIC Experience (<a href="http://www.iospress.nl/loadtop/load.php?isbn=158603538x" target="_blank">IOS Press page for this book</a>)</h4>
-			<p><b>Niilo Saranummi, David Piggott, DG Katehakis, M Tsiknakis, Knut Bernstein (Eds.)<br/>Includes a chapter by Dipak Kalra, Thomas Beale, Sam Heard on openEHR.</b></p>
+			<p><strong>Niilo Saranummi, David Piggott, DG Katehakis, M Tsiknakis, Knut Bernstein (Eds.)<br/>Includes a chapter by Dipak Kalra, Thomas Beale, Sam Heard on openEHR.</strong></p>
 			<p><i>Volume 115 in Health Technology and Informatics series. IOS Press 2005.</i></p>
 
 			
 			<h3><a name="architecture"></a>Health Information System Architecture</h3>
 			
 			<h4>A flexible model for the delivery of multi-facet information in patient&ndash;centric Healthcare Information Systems (<a href="http://www.ejeta.org/specialMay07-issue/ejeta-special-07may-3.pdf" target="_blank">PDF pub link</a>)</h4>
-			<p><b>Iraklis Varlamis (varlamis AT aueb.gr)</b></p>
+			<p><strong>Iraklis Varlamis (varlamis AT aueb.gr)</strong></p>
 			<p><i>Athens University of Economics and Business, Department of Computer Science<br/>
 			published in eJETA.org
 			<a href="http://www.ejeta.org/specialMay07-issue.php" target="_blank">Special Issue</a> on Interoperability &amp; Security in Medical Information Systems, May 2007</i></p>
@@ -368,25 +368,25 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h3><a name="healthrecords"></a>Health Records</h3>
 			
 			<h4>An Ontology-based Model of Clinical Information (<a href="/files/resources/publications/health_ict/MedInfo2007-BealeHeard.pdf">PDF</a>)</h4>
-			<p><b>Thomas Beale</b> (a), <b>Sam Heard</b> (b)</p>
+			<p><strong>Thomas Beale</strong> (a), <strong>Sam Heard</strong> (b)</p>
 			<p><i>(a) CTO Ocean Informatics, visiting Senior Research Fellow, University College London<br/> (b) CEO Ocean Informatics, Adjunct Professor, University Central Queensland<br/> pp 760-764 Proceedings MedInfo 2007, K. Kuhn et al. (Eds), IOS Publishing 2007.</i></p>
 			<p><em>Abstract:</em> In this paper we describe a model of clinical information designed to make health information systems properly interoperable and safely computable. The model is a response to a number of categories of requirements, ranging from the semantic to the performance of software at runtime. We argue that the starting point of a successful model must be an ontological analysis of the process of clinical care delivery, seen as a scientific problem-solving process. From this approach we develop a classification of types of clinical information called the Clinical InvestigatorRecord (CIR) ontology.</p> 		
 			
 			<h4>PhD thesis: Clinical foundations and information architecture for the implementation of a federated health record service (<a href="http://eprints.ucl.ac.uk/archive/00001584/" target="_blank">UCL ePrints link</a> - includes abstract)</h4>
-			<p><b>Dipak Kalra</b></p>
+			<p><strong>Dipak Kalra</strong></p>
 			<p><i>UCL (University College London) deposited 24 January 2006</i></p>
 
 			<h4>Person-Centered Health Records - Toward HealthePeople (<a href="http://www.springer.com/west/home/public+health/health+administration+?SGWID=4-40471-22-34953411-detailsPage=ppmmedia%7Ctoc" target="_blank">Springer page for this book</a>)</h4>
-			<p><b>Jim E Demetriades, Robert M Kolodner, Gary A Christopherson (Eds.)</b></p>
+			<p><strong>Jim E Demetriades, Robert M Kolodner, Gary A Christopherson (Eds.)</strong></p>
 			<p><i>Springer 2005.<br/>
 			Includes a chapter by Ken Rubin, Thomas Beale, Bernd Blobel on Modelling for Health Care.</i></p>
 
 			<h4>Electronic Health Records and Communication for Better Health Care (<a href="http://www.iospress.nl/loadtop/load.php?isbn=1586032534" target="_blank">IOS Press page for this book</a>)</h4>
-			<p><b>Fran&ccedil;ois Mennerat (Ed.)<br/> Includes a chapter by Dipak Kalra, Thomas Beale, Sam Heard on openEHR.</b></p>
+			<p><strong>Fran&ccedil;ois Mennerat (Ed.)<br/> Includes a chapter by Dipak Kalra, Thomas Beale, Sam Heard on openEHR.</strong></p>
 			<p><i>IOS Press 2002.</i></p>
 
 			<h4>Design and Implementation of a Federated Health Record Server (<a href="/files/resources/publications/health_ict/UCL-TEHRE01-Reprint.pdf">PDF</a>)</h4>
-			<p><b>Kalra D</b> (a), <b>Austin A</b> (a), <b>O&rsquo;Connor A</b> (a), <b>Lloyd D</b> (a), <b>Patterson D</b> (b), <b>Ingram D</b> (a)</p>
+			<p><strong>Kalra D</strong> (a), <strong>Austin A</strong> (a), <strong>O&rsquo;Connor A</strong> (a), <strong>Lloyd D</strong> (a), <strong>Patterson D</strong> (b), <strong>Ingram D</strong> (a)</p>
 			<p><i>(a) University College London, CHIME, Holborn Union Building, Highgate Hill, London, N19 3UA<br/>
 			(b) The Whittington Hospital, Highgate Hill, London N19 5NF<br/>
 			Reprinted from: TEHRE 2001 m-Health Conference Proceedings; Paper 001 11-14 November 2001 Page 1
