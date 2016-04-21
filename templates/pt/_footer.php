@@ -63,7 +63,7 @@
 	<div id = "BottomPanelContainer">
 	
 		<div id="BottomPanel">
-			<p><span><a href="/pt/using_the_site/terms_of_use">Termos de Uso</a> | <a href="/pt/using_the_site/privacy_policy">Política de Privacidade</a> |  <a href="/pt/using_the_site/syndication">Reprodução</a> | <a href="/pt/using_the_site/feedback">Comentários</a> | <a href="/pt/using_the_site/site_map">Mapa do Site</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a></span></p>
+			<p><span><a href="/pt/using_the_site/terms_of_use">Termos de Uso</a> | <a href="/pt/using_the_site/privacy_policy">Política de Privacidade</a> | <a href="/pt/using_the_site/feedback">Comentários</a> | <a href="/pt/using_the_site/site_map">Mapa do Site</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a></span></p>
 			<p><span>Copyright &copy; <?php echo date("Y");?> Fundação openEHR. Todos direitos reservados</span></p>
 		</div>
 		

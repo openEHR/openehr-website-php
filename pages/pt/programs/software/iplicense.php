@@ -18,23 +18,23 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<h2>Atribuição</h2>
 			<p>Os contribuintes para um artefato são reconhecidos em uma seção no bloco de licença.</p>
 			
-			<table class="TableMain">
+			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th class="TableMainT"> Tipo do artefato</th>
-				<th class="TableMainT"> Licença para uso</th>
-				<th class="TableMainT"> Comentários</th>
+				<th> Tipo do artefato</th>
+				<th> Licença para uso</th>
+				<th> Comentários</th>
 			</tr>
 			<tr>
-				<td class="TableMainC"> <b>Código Fonte</b> </td>
-				<td class="TableMainC"> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
+				<td> <b>Código Fonte</b> </td>
+				<td> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
 										<a href="http://www.apache.org/licenses/LICENSE-2.0">Licença Apache 2 </a></td>
-				<td class="TableMainC"> <br/><br/>Artefatos computáveis ​​são licenciados, da mesma forma que software, usando a licença do Apache, que é amplamente aceito e amigável à indústria.
+				<td> <br/><br/>Artefatos computáveis ​​são licenciados, da mesma forma que software, usando a licença do Apache, que é amplamente aceito e amigável à indústria.
 			<tr>
-				<td class="TableMainC"> <b>Documentação</b> </td>
-				<td class="TableMainC"> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> está licenciado sob
+				<td> <b>Documentação</b> </td>
+				<td> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> está licenciado sob
 										<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
-				<td class="TableMainC"> <br/><br/>A documentação é destinada a ampla divulgação, e melhorias. Traduções e re-uso são incentivados.<br/><br/><br/> </td>
+				<td> <br/><br/>A documentação é destinada a ampla divulgação, e melhorias. Traduções e re-uso são incentivados.<br/><br/><br/> </td>
 			</tr>
 			</tbody>
 			</table>

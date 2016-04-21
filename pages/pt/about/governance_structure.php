@@ -15,19 +15,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<p>The governance structure of the openEHR Foundation is based on the division of activities into four Programs: Specifications, Clinical models, Software and Localisation. Work is carried out in projects within these Programs by Program leaders and Qualified members, with all Members having the right of access to work items and particpation in meetings.</p>
 			<p>The openEHR Foundation is governed in terms of legal and fiduciary responsibilities by a small number Directors appointed by University College London (UCL) and known as the openEHR Foundation Board. Strategic and operational decisions are made by a larger Management Board, representative of the wider community, which includes Members appointed by the various interest groups that make up the openEHR community. A Foundation Office is responsible for administration and communicaions.</p>
 			<p>The structure is shown below.</p>
-			<p style="text-align:center;"><img src="/files/about/OrganisationalStructure.png" alt="Foundation Governance Structure" title="Foundation Governance Structure" style="border: solid 1px #CCCCCC;" usemap="#orgstructure"></p>
-			<map name="orgstructure">
-				<area shape="rect" coords="180,40,300,100" href="#foundationboard"/>
-				<area shape="rect" coords="320,150,430,210" href="#foundationoffice"/>
-				<area shape="rect" coords="180,150,300,210" href="#managementboard"/>
-				<area shape="rect" coords="55,260,140,315" href="/programs/specification"/>
-				<area shape="rect" coords="150,260,235,315" href="/programs/clinicalmodels"/>
-				<area shape="rect" coords="245,260,330,315" href="/programs/software"/>
-				<area shape="rect" coords="340,260,425,315" href="/programs/localisation"/>
-			</map> 
+			<img src="/files/about/OrganisationalStructure.png" alt="Foundation Governance Structure" title="Foundation Governance Structure" class="imgMiddle width50 border1">
 			
 			
-			<h2><a name="foundationboard"></a>openEHR Foundation Board</h2>
+			<h2>openEHR Foundation Board</h2>
 			<p>The openEHR Foundation Board oversees the proper functioning of the openEHR Foundation with respect to its charter and status as a not-for-profit organisation. The Foundation Board appoints the Chair and one other Member of the Management Board from the openEHR Foundation Board, to ensure close cooperation and mutual understanding between these two governance groups.</p>
 			<p>The openEHR Foundation Board responsibilities include:</p>
 			<ul>

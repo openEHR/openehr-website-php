@@ -177,7 +177,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>CRs are generally raised in response to PRs. However, CRs may also be raised separately by SEC members.</p>
 			<p>CRs need to be a) prioritised in importance and b) allocated to releases. A pre-requisite therefore is to define one or more future releases, each with an identifier and expected date of delivery. Allocation to a release may be done at any time, and changed as deemed necessary by the SEC.</p>
 			<p>The lifecycle of a CR is shown below.</p>
-			<p style="text-align:center;"><img src="/files/programs/specification/CR_workflow.png" alt="CR Workflow" style="border: solid 1px #CCCCCC;"></p>
+			<a href = "/files/programs/specification/CR_workflow.png"><img src="/files/programs/specification/CR_workflow.png" alt="CR Workflow" class = "imgMiddle width25"/></a>
 
 			<h4>Creation</h4>
 			<p>New CRs are created by the SEC on the relevant <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">Component Change tracker</a> for the relevant Component. The following information is initially required:</p>

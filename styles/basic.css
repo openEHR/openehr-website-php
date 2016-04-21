@@ -25,6 +25,7 @@ strong {color: #023760; font-weight: 600;}
 
 .imgLeft {float: left; margin: 0 30px 20px 0;}
 .imgRight {float: right; margin: 0 0 20px 30px;}
+.imgMiddle {	display: block; margin: 0 auto 20px;}
 
 .input {margin: 4px 0px 4px 10px; border: 1px solid #aaa;}
 
@@ -343,6 +344,13 @@ li.menuhover a, li.menuhover span  {
 
 /*Fluid layout*/
 @media (max-width:860px) {
+
+	.width50 {width: 70%;}
+	.width40 {width: 60%;}
+	.width30 {width: 50%;}
+	.width25 {width: 45%;}
+	.width20 {width: 40%;}
+	.width15 {width: 35%;}
 
 	body, html {
 		 overflow-x:scroll;

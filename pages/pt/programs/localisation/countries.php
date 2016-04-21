@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>This part of the website is currently under construction.</p>
+			<p>You can find a list of the countries with openEHR deployed <a href = "/pt/who_is_using_openehr">here</a>.</p>
 
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	

@@ -75,6 +75,22 @@ p {text-align:left; margin-bottom:0.8em;}
 	text-decoration: underline;
 }
 
+#MainArea ul {
+	padding-left: 20px;
+	margin: 0 0 0.8em 0;
+
+	list-style: disc;
+	list-style-position: outside;
+}
+
+#MainArea ul ul{
+	padding-left: 20px;
+	margin: 0 0 0.8em 0;
+
+	list-style: circle;
+	list-style-position: outside;
+}
+
 /* Top 3 Frames */
 #TopLeftFrame {
 	float: left;

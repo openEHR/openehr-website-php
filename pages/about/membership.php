@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<p>Participation in the openEHR community, and access to the openEHR specifications and other IP is free to all. Formal membership is paid, and allows participation in the formal processes of the Foundation.</p>
-			<p style="text-align:center;"><img src="/files/about/MembershipStructure.png" width="400" alt="openEHR Foundation membership categories" title="openEHR Foundation membership categories"></p>	
+			<img src="/files/about/MembershipStructure.png" alt="openEHR Foundation membership categories" title="openEHR Foundation membership categories" class = "imgMiddle width50"/>	
 		
 			
 			<h2 id="individualmembership">Individual Membership</h2>

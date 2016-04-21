@@ -112,7 +112,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>The Java middleware components described in these papers are intended for open source, to be licensed through openEHR on this site, during 2004-5.</p>
 			<p>The demonstration described here has benefited from extensive collaboration within several European project consortia, the results of which have been piloted in many other health care settings as illustrated in the map below.</p>
 			
-			<p style="text-align:center;"><img src="/files/resources/related_projects/EU-EHR-demonstrator-sites.jpg" alt="EHR demonstrator" style="border: solid 1px #CCCCCC;"></p>
+			<img src="/files/resources/related_projects/EU-EHR-demonstrator-sites.jpg" alt="EHR demonstrator" class = "imgMiddle width50"/>
 			
 			<p>This practical implementation and demonstration, building on a long and iterative R&amp;D journey, has been a principal feed into the present version of the openEHR specifications, drafted jointly with our colleagues from Ocean Informatics. UCL is, with them, also contributing to the CEN EHRcom Task Force.</p>
 			<p>The UCL team is a partner in the Medical Research Council e-Science project <a href="http://www.cs.man.ac.uk/mig/projects/current/clef/" target="_blank">CLEF</a>, developing a large-scale anonymised EHR repository of cancer records with access for biomedical and genomics research, via the Grid.</p>

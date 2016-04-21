@@ -16,18 +16,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>Strategic and operational decisions are made by a larger Management Board, representative of the wider community, which includes Members appointed by the various interest groups that make up the openEHR community.</p>
 			<p>The organisational structure below this is based on a division of activities into four Programs: Specifications, Clinical models, Software and Localisation. Work is carried out in projects within these Programs by Program leads and members.</p>
 			<p>The structure is shown below.</p>
-			<p style="text-align:center;"><img src="/files/about/OrganisationalStructure.png" alt="Foundation Governance Structure" title="Foundation Governance Structure" style="border: solid 1px #CCCCCC;" usemap="#orgstructure"></p>
-			<map name="orgstructure">
-				<area shape="rect" coords="206,8,300,62" href="#boardofgovernors"/>
-				<area shape="rect" coords="206,105,300,160" href="#managementboard"/>
-				<area shape="rect" coords="70,208,150,250" href="/programs/specification"/>
-				<area shape="rect" coords="160,208,250,250" href="/programs/clinicalmodels"/>
-				<area shape="rect" coords="260,208,338,250" href="/programs/software"/>
-				<area shape="rect" coords="345,208,424,250" href="/programs/localisation"/>
-			</map> 
+			<img src="/files/about/OrganisationalStructure.png" alt="Foundation Governance Structure" title="Foundation Governance Structure" class = "imgMiddle width50 border1"/>
 			
-			
-			<h2><a name="boardofgovernors"></a>Board of Governors</h2>
+			<h2>Board of Governors</h2>
 			<p>The openEHR Board of Governors oversees the proper functioning of the openEHR Foundation with respect to its charter and status as a not-for-profit organisation. The Board of Governors appoints the Chair and one other Member of the Management Board from the openEHR Board of Governors, to ensure close cooperation and mutual understanding between these two governance groups.</p>
 			<p>The openEHR Board of Governors responsibilities include:</p>
 			<ul>

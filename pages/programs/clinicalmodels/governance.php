@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Documentation';
+$PageName = 'Governance';
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 ?>

@@ -12,35 +12,36 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 <!-- ------------------------------------------- Content starts here ------------------------------------------------- -->		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<div style="position:relative; left:0px; top:0px;">
 			Site
 			<ul>
 				<li><a href="/home">Home</a></li>
 				<li><a href="/what_is_openehr">What is openEHR?</a></li>
 				<li><a href="/about_this_website">About This Website</a></li>
-				<li><a href="mailto:webmaster@openehr.org">Contact Webmaster</a></li>
-				<li><?php include $_SERVER['DOCUMENT_ROOT'].'/pages/who_is_using_openehr/menu.php' ?></li>
+				<li><a href="/wiki" target="_blank">Wiki</a></li>
+				<li><a href="/issues" target="_blank">Jira</a></li>
+				<li><a href="http://www.openehr.org/ckm">CKM</a></li>
+				<li><a href="/openehr_programs">openEHR Programs</a></li>
 			</ul>
 			<br/>
-			
-			<a href="/openehr_programs">openEHR Programs</a>
+
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/programs/specification/menu.php' ?>
 			<br/>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/programs/clinicalmodels/menu.php' ?>
 			<br/>
-				<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/programs/specification/menu.php' ?>
-				<br/>
-				<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/programs/clinicalmodels/menu.php' ?>
-				<br/>
-				<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/programs/software/menu.php' ?>
-				<br/>
-				<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/programs/localisation/menu.php' ?>
-				<br/>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/programs/software/menu.php' ?>
+			<br/>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/programs/localisation/menu.php' ?>
+			<br/>
 				
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/who_is_using_openehr/menu.php' ?>
+			<br/>
+			
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/industry_partners/menu.php' ?>
+			<br/>
+			
 			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/getting_involved/menu.php' ?>
 			<br/>
-			</div>
-			
-			<div style="position:absolute; left:400px; top:50px;">
-			<br/>
+
 			Downloads
 				<ul>
 					<li><a href="/downloads/modellingtools">Modelling Tools</a></li>
@@ -63,22 +64,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			Specifications (Quick Links)
 				<ul>
-					<li><a href="/programs/specification/releases/1.0.2">Current Release</a></li>
-					<li><a href="/programs/specification/releases/currentbaseline">Development Baseline</a></li>
-					<li><a href="http://www.openehr.org/issues/browse/SPECPR" target="_blank">Issue Tracker</a></li>
-					<li><a href="http://www.openehr.org/releases/1.0.2/its/XML-schema/index.html">XML Schemas</a></li>
-					<li>RM UML<a href="/releases/1.0.1/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.1]</a>, <a href="/releases/1.0.2/reference-models/openEHR/UML/HTML" target="_blank" title="Reference Model UML">[1.0.2]</a></li>
-					<li><a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/BMM">RM BMM Schemas</a></li>
+					<li><a href="/programs/specification/releases/" title="Current official release of specifications">Current Release</a></li>
+					<li><a href="/programs/specification/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
+					<li><a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank" title="Specifications issue trackers (Jira)">Specs (Jira)</a></li>
+					<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (ODIN format object model schemas)">RM BMM Schemas</a></li>
 				</ul>
 			<br/>
 			
 			Clinical Models (Quick Links)
 				<ul>
-					<li><a href="http://openehr.org/knowledge/" target="_blank">CKM</a></li>
-					<li><a href="http://openehr.org/knowledge/#repositoryoverview" target="_blank">CKM Archetypes Mindmap</a></li>
-					<li><a href="http://openehr.org/knowledge/#userstatistics" target="_blank">CKM User Statistics</a></li>
-					<li><a href="http://www.openehr.org/wiki/display/spec/openEHR+Terminology" target="_blank">openEHR Terminology</a></li>
-					<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank">Test Archetypes</a></li>
+					<li><a href="/ckm/" title="Clinical Knowledge Manager">CKM</a></li>
+					<li><a href="/ckm/#repositoryoverview" title="Clinical Knowledge Manager mindmap of all archetypes">CKM Archetypes Mindmap</a></li>
+					<li><a href="/ckm/#userstatistics" title="Clinical Knowledge Manager user statistics">CKM User Statistics</a></li>
+					<li><a href="/wiki/display/spec/openEHR+Terminology" title="openEHR terminology/vocabulary page">openEHR Terminology</a></li>
+					<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank" title="Library of ADL reference archetypes for compiler testing">ADL Test Archetypes</a></li>
 				</ul>
 			<br/>
 				
@@ -90,7 +89,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/using_the_site/menu.php' ?>
 			<br/>
-			</div>
+
 			
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
