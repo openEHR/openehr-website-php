@@ -2,17 +2,17 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
-$PageName = '2014-09-16 Meeting Report';
+$PageName = 'Roadmap 2014';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
 
 		<div id="Content">
 <!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
-			<h1><?php echo "$PageName";?></h1>
-			<h2 id="openEHR2014roadmapmeetingreport-Summary">Summary</h2>
-			<p>On September 16 and 17 a general openEHR meeting was held in Lillestrom, near Oslo, with the intention of developing the roadmap for various key activities.<br />
+		<h1><?php echo "$PageName";?></h1>
+		<h2 id="openEHR2014roadmapmeetingreport-Summary">Summary</h2>
+		<p>On September 16 and 17 a general openEHR meeting was held in Lillestrom, near Oslo, with the intention of developing the roadmap for various key activities.<br />
 		Thanks to DIPS asa, Norway, for organising and providing meeting rooms, catering and IT support. <br />
 		<br />
 		Over 30 attendees included participants from 5 current openEHR vendor companies, new vendors, Norwegian and Swedish health organisations and universities, and various other organisations.<br />
