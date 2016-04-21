@@ -4,7 +4,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 //Change page name here:
 $PageName = 'Estratégia de Edições';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_english.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 ?>
 
 		<div id="Content">
