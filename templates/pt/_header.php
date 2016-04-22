@@ -91,7 +91,13 @@
 		
 			<ul id="menu" class="menu">
 			
-				<li><a href="/pt/home">Página Inicial</a></li>
+				<li><a href="/pt/home">Página Inicial</a>
+				<ul>
+					<li><a href="/pt/what_is_openehr">O que é openEHR?</a></li>
+					<li><a href="/pt/who_is_using_openehr">Quem está usando openEHR?</a></li>
+					<li><a href="/pt/industry_partners">openEHR Parceiros da Indústria</a></li>
+				</ul>
+				</li>
 				
 				<li><a href="/pt/openehr_programs">Programas</a>
 				<ul>

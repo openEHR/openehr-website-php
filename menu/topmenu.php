@@ -1,7 +1,13 @@
 	
 		<ul id="menu" class="menu">
 		
-			<li><a href="/home">Home</a></li>
+			<li><a href="/home">Home</a>
+			<ul>
+				<li><a href="/what_is_openehr">What is openEHR?</a></li>
+				<li><a href="/who_is_using_openehr">Who is using openEHR?</a></li>
+				<li><a href="/industry_partners">openEHR Industry Partners</a></li>
+			</ul>
+			</li>
 			
 			<li><a href="/openehr_programs">Programs</a>
 			<ul>

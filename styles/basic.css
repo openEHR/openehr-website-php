@@ -172,7 +172,7 @@ html,body {
  
 .menu ul {
 	position: absolute;
-	top: 32px;
+	top: 34px;
 	left: 0px;
 	
 	display: none; 
@@ -198,8 +198,8 @@ html,body {
 	
 	display: block;
 	width: 100%;
-	height: 26px;
-	padding: 6px 0 0 0;
+
+	padding: 7px 0 8px 0;
 
 	color: #220e10;
 
@@ -212,7 +212,7 @@ html,body {
 	
 	display: block;
 	width: 95%;
-	padding: 8px 0 0 5%;
+	padding: 6px 0 6px 5%;
 
 	background: #220e10;
 	color: #fff;
@@ -357,7 +357,7 @@ li.menuhover a, li.menuhover span  {
 	}
 	
 	#Motto {
-		width:190px;
+		width:180px;
 
 		font-size: 12px;
 	}
