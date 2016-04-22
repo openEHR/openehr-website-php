@@ -209,6 +209,9 @@ html,body {
  
 .menu ul li a {
 	float: none;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
 	
 	display: block;
 	width: 95%;

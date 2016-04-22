@@ -1,11 +1,3 @@
-* {
-    -webkit-box-sizing: initial;
-    -moz-box-sizing: initial;
-    box-sizing: initial;
-}
-
-
-
 /* Basic elements and classes */
 h1, h2, h3, h4, h5 {font-weight:600; line-height:120%; color:#023760; text-decoration:none;}
 
@@ -97,8 +89,7 @@ p {text-align:left; margin-bottom:0.8em;}
 	
 	width: 23%;
 	max-width: 310px;
-	height: 229px;
-	margin: 0 2% 10px 1%;
+	margin: 0 2% 5px 1%;
 	padding: 0;
 	
 	line-height: 130%;
@@ -109,8 +100,9 @@ p {text-align:left; margin-bottom:0.8em;}
 	
 	display: block;
 
-	height: 34px;
+	padding: 9px 0;
 	font-size: 14px;
+	line-height: 100%;
 	text-align: center;
 }
 
@@ -227,10 +219,10 @@ p {text-align:left; margin-bottom:0.8em;}
 #TopMiddleFrame {
 	float: left;
 
+	height: 229px;
 	width: 48%;
 	max-width: 670px;
-	height: 229px;
-	margin: 0 2% 10px 0;
+	margin: 0 2% 5px 0;
 	padding: 0 0 0 0;
 
 	background: #f3f8fa;
@@ -287,7 +279,7 @@ p {text-align:left; margin-bottom:0.8em;}
 
 #CarouselText {
 	width: 47%;
-	min-width: 180px;
+	min-width: 185px;
 	height:229px;
 	margin: 0 3% 0 50%;
 	
@@ -322,10 +314,9 @@ p {text-align:left; margin-bottom:0.8em;}
 	position: static;
 	float: right;
 
-	min-height: 197px;
 	width: 23%;
 	max-width: 310px;
-	margin: 0 1% 10px 0;
+	margin: 0 1% 5px 0;
 	padding: 0 0 0 0;
 	
 	line-height: 130%;
