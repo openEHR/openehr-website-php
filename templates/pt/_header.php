@@ -21,7 +21,7 @@
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
 	<link rel="home" href="http://www.openehr.org">
-	<link rel="index" href="/pt/sitemap">
+	<link rel="index" href="/pt/using_the_site/sitemap">
 
 	<script type="text/javascript" src="/menu/dropdown.js"></script> 
 	
@@ -31,6 +31,7 @@
 	?>
 	
 </head>
+
 <body>
 
 <div id="MainFrame">

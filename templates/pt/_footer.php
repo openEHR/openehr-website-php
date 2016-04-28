@@ -3,7 +3,6 @@
 	<br class="clear">
 	</div>
 	
-	
 	<div id = "BottomMenuContainer">
 		<div id="BottomMenu">
 			
@@ -11,7 +10,7 @@
 				<div class="BottomMenuSection floatLeft">
 					<p class="MenuHeading">Especificações</p>
 					<ul>
-						<li><a href="/programs/specification/releases/1.0.2" title="Current official release of specifications">Edição Atual</a></li>
+						<li><a href="/programs/specification/releases/" title="Current official release of specifications">Edição Atual</a></li>
 						<li><a href="/programs/specification/releases/currentbaseline" title="Specifications development baseline">Cenário Atual</a></li>
 						<li><a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank" title="Specifications issue tracker (Jira)">Rastreador de Problemas</a></li>
 						<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (dADL format object model schemas)">RM BMM Esquemas</a></li>
@@ -21,10 +20,10 @@
 				<div class="BottomMenuSection floatRight">
 					<p class="MenuHeading">Modelos Clínicos</p>
 					<ul>
-						<li><a href="/ckm/" title="Clinical Knowledge Manager">CKM</a></li>
-						<li><a href="/ckm/#repositoryoverview" title="Clinical Knowledge Manager mindmap of all archetypes">CKM Mindmap de Arquétipos</a></li>
-						<li><a href="/ckm/#userstatistics" title="Clinical Knowledge Manager user statistics">CKM Estatísticas de Usuários</a></li>
-						<li><a href="/wiki/display/spec/openEHR+Terminology" title="openEHR terminology/vocabulary page">Terminologia openEHR</a></li>
+						<li><a href="/ckm/" target="_blank" title="Clinical Knowledge Manager">CKM</a></li>
+						<li><a href="/ckm/#repositoryoverview" target="_blank" title="Clinical Knowledge Manager mindmap of all archetypes">CKM Mindmap de Arquétipos</a></li>
+						<li><a href="/ckm/#userstatistics" target="_blank" title="Clinical Knowledge Manager user statistics">CKM Estatísticas de Usuários</a></li>
+						<li><a href="/wiki/display/spec/openEHR+Terminology" target="_blank" title="openEHR terminology/vocabulary page">Terminologia openEHR</a></li>
 						<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank" title="Library of ADL reference archetypes for compiler testing">Arquétipos em Fase de Teste</a></li>
 					</ul>
 				</div>
@@ -34,7 +33,7 @@
 				<div class="BottomMenuSection floatLeft">
 					<p class="MenuHeading">Recursos</p>
 					<ul>
-						<li><a href="http://www.slideshare.net/search/slideshow?searchfrom=header&q=openehr" target="_blank">Slideshare</a></li>
+						<li><a href="https://www.zotero.org/groups/openehr/items" title="Publications@Zotero" target="_blank">Publicações@Zotero</a></li>
 						<li><a href="/pt/resources/learning_centre">Centro de Aprendizagem</a></li>
 						<li><a href="/pt/resources/publications">Publicações</a></li>	
 						<li><a href="/wiki/display/resources/FAQs+-+Frequently+Asked+Questions" target="_blank">FAQs</a></li>
@@ -57,6 +56,7 @@
 			</div>
 			
 			<br class="clear">
+			
 		</div>
 	</div>
 
