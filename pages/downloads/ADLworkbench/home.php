@@ -96,6 +96,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<th> Notes</th>
 					</tr>
 					<tr>
+						<td> Windows (64-bit)</td>
+						<td> 2.0.6.2847</td>
+						<td> 27 Apr 2016</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2847-alpha-windows_64bit.exe">.exe installer</a></td>
+						<td> Various bug fixes.</td>
+					</tr>
+					<tr>
 						<td> Windows (32-bit)</td>
 						<td> 2.0.6.2844</td>
 						<td> 27 Mar 2016</td>
