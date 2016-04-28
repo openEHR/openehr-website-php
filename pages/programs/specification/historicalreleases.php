@@ -30,22 +30,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 						<td> 56 Change Requests. </br><a href="https://openehr.atlassian.net/projects/SPEC/versions/10019">Release notes.</a></td>
 					</tr>
 					<tr>
-						<td> <a href="1.0"><b>Release 1.0</a></td>
+						<td> <a href="1.0">Release 1.0</a></td>
 						<td> 07 February 2006 </td>
 						<td> 54 Change Requests. </br><a href="https://openehr.atlassian.net/projects/SPEC/versions/10018">Release notes.</a></td>
 					</tr>
 					<tr>
-						<td> <em>Release 0.96</em></td>
+						<td> Release 0.96</td>
 						<td> 01 August 2005 </td>
 						<td> Error correction release. <br/>12 Change Requests </br><a href="https://openehr.atlassian.net/projects/SPEC/versions/10017">Release notes.</a></td>
 					</tr>
 					<tr>
-						<td> <a href="0.95"><b>Release 0.95</b></a></td>
+						<td> <a href="0.95">Release 0.95</a></td>
 						<td> 15 March 2005 </td>
 						<td> Basic modelling changes. <br/>17 Change Requests. </br><a href="https://openehr.atlassian.net/projects/SPEC/versions/10016">Release notes.</a></td>
 					</tr>
 					<tr>
-						<td> <a href="0.9"><b>Release 0.9</b></a></td>
+						<td> <a href="0.9">Release 0.9</a></td>
 						<td> 04 May 2004 </td>
 						<td> First complete release of openEHR. <br/>84 Change Requests </br><a href="https://openehr.atlassian.net/projects/SPEC/versions/10015">Release notes.</a></td>
 					</tr>
