@@ -203,8 +203,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tbody>
 			</table>
 
-			<a href="index">>> Back to Releases</a>
-		
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
