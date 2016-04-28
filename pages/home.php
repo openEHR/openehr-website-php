@@ -41,7 +41,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<p><a href="/industry_partners/marand"><img src="/files/industry_partners/marand_logo.png"></a></p>
 					<p><a href="/industry_partners/nousco"><img src="/files/industry_partners/nousco_logo.png"></a></p>
 					<p><a href="/industry_partners/ocean_informatics"><img src="/files/industry_partners/ocean_logo.png"></a></p>
-				<!--[if lt IE 7]><a href="/industry_partners"><img src="files/industry_partners/industry_logo.png"></a><![endif]-->
 				</div>
 				
 				<div id="PartnersText">

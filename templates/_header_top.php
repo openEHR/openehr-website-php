@@ -22,7 +22,7 @@
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
 	<link rel="home" href="http://www.openehr.org">
-	<link rel="index" href="/sitemap">
+	<link rel="index" href="/using_the_site/sitemap">
 
 	<script type="text/javascript" src="/menu/dropdown.js"></script> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

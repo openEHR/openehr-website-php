@@ -9,7 +9,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			<a href="/pt/what_is_openehr" class="button1 col1">O que é openEHR?</a>
 			<a href="/pt/who_is_using_openehr" class="button1 col1">Quem está usando openEHR?</a>
 			<a href="https://openehr.atlassian.net/wiki/questions" class="button1 col1" target="_blank">Perguntas e Respostas</a>
-			<a href="/programs/specification/releases/currentbaseline" class="button3 col2">Especificações</a>
+			<a href="/pt/programs/specification/releases/currentbaseline" class="button3 col2">Especificações</a>
 			<a href="/releases/trunk/UML/#Diagrams___18_1_83e026d_1423485599937_29309_4372" class="button4 col2" target="_blank">UML</a>
 			<a href="/releases/trunk/its/XML-schema/" class="button4 col2" target="_blank">XSD</a>
 			<a href="/pt/programs/clinicalmodels" class="button3 col3">Modelos Clínicos</a>
@@ -77,7 +77,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 						<div id = "Item1">
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1">Indústria Sprint</span>
-								<p>OpenEHR Arquétipos publicação '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Indústria Sprint</a>'</p>
+								<p>openEHR Arquétipos publicação '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Indústria Sprint</a>'</p>
 								<p><a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Progressos mais recentes</a></p>
 								<p>Profissionais da saúde: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adote um Arquétipo</a></p>
 							</div>
@@ -131,7 +131,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 		
 		
 		<div id="BottomRightFrame">
-			<a href="news_events/events"><span class="HomeSubtitle3">Eventos</span></a>
+			<a href="/pt/news_events/events"><span class="HomeSubtitle3">Eventos</span></a>
 			<div id = "EventsContainer">
 			<?php
 				//Retrieve events
@@ -159,7 +159,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 		
 		
 		<div id="BottomMiddleFrame">
-			<a href="news_events/community_news"><span class="HomeSubtitle2">Notícias</span></a>
+			<a href="/pt/news_events/community_news"><span class="HomeSubtitle2">Notícias</span></a>
 			
 			<div id = "NewsContainer">
 			<?php
