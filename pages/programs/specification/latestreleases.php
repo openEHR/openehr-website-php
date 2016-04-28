@@ -20,11 +20,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 						<th> Description </th>
 					</tr>
 					<tr>
-						<td> <a href="currentbaseline">Current baseline</a></td>
-						<td> (latest) </td>
-						<td> Current development version of all specifications</td>
-					</tr>
-					<tr>
 						<td> <a href="/releases/RM/Release-1.0.3/docs/index">RM Release 1.0.3</a></td>
 						<td> 15 December 2015 </td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECRM/versions/10860">23 Changes made</a>; <a href="https://openehr.atlassian.net/projects/SPECPR/versions/10060">29 Problems fixed</a></td>

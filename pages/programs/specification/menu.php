@@ -1,8 +1,8 @@
 ﻿<span style="line-height:150%;"><a href="/programs/specification" <?php if($PageName == 'Specification Program'){?> class="active"<?php }?> style="font-weight:900;">Specification<br/>Program</a></span>
 	<ul>
-		<li><a href="/programs/specification/releases/currentbaseline" <?php if($PageName == 'Current Baseline'){?> class="active"<?php }?>>Current Baseline</a></li>
-		<li><a href="/programs/specification/releases/latestreleases" <?php if($PageName == 'Latest Releases'){?> class="active"<?php }?>>Latest Releases</a></li>
-		<li><a href="/programs/specification/releases/historicalreleases" <?php if($PageName == 'Historical Releases'){?> class="active"<?php }?>>Historical Releases</a></li>
+		<li><a href="/programs/specification/currentbaseline" <?php if($PageName == 'Current Baseline'){?> class="active"<?php }?>>Current Baseline</a></li>
+		<li><a href="/programs/specification/latestreleases" <?php if($PageName == 'Latest Releases'){?> class="active"<?php }?>>Latest Releases</a></li>
+		<li><a href="/programs/specification/historicalreleases" <?php if($PageName == 'Historical Releases'){?> class="active"<?php }?>>Historical Releases</a></li>
 		<br/>
 		<li><a href="/programs/specification/editorialcommittee" <?php if($PageName == 'Specifications Editorial Committee (SEC)'){?> class="active"<?php }?>>Spec Ed Committee (SEC)</a></li>
 		<li><a href="/programs/specification/governance" <?php if($PageName == 'Governance'){?> class="active"<?php }?>>Governance</a></li>
