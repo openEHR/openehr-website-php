@@ -15,6 +15,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h2>openEHR Presentations</h2>
 			<p><a href="http://www.slideshare.net/search/slideshow?searchfrom=header&q=openehr">Slideshare</a></p>
 
+			<h2>openEHR Course Material - Portuguese</h2>
+			<p><a href="http://virtualcare.pt/curso_openehr/">INTRODUÇÃO AO OPENEHR</a></p>
+
 			<h2>openEHR Primers</h2>
 			<iframe width="400" height="300" src="http://www.youtube.com/embed/videoseries?list=PLhWi0RtmG26WRld2BF3BM2sdqrCBT5f3C" frameborder="0" allowfullscreen></iframe>
 			<br/>
