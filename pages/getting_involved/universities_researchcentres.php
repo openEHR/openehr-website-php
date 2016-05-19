@@ -14,8 +14,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Current openEHR Research</h2>
-			<p>Click below to go to the Zotero openEHR publications library.</p>
-			<a href="https://www.zotero.org/groups/openehr/items/order/dateModified/sort/desc" target="_blank"><img src="/files/getting_involved/zotero_logo.png" style="width:150px"></a>
+			<p>openEHR research papers and resources are managed online in Zotero. See the <a href="/resources/zotero">openEHR Zotero page</a>.</p>
 
 			<h2>Research opportunities</h2>
 			<p>Below are some of the areas that represent good opportunities for academic research:</p>
