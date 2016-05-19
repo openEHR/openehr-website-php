@@ -22,14 +22,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<p>CRITICAL Software provides systems, software and data engineering services for safety, mission and business-critical applications, helping to ensure clients meet the most demanding quality standards for safety, performance and reliability.</p>
 
-			<h2>Services</h2>
-			<p>CRITICAL Software's Safety Management services in the healthcare market cover three main areas:</p>
-			<ul>
-				<li>Improving reliability, availability, maintainability and safety analysis of medical devices</li>
-				<li>Verification and validation of safety-critical systems</li>
-				<li>Providing certification support against standards such as IEC 62304</li>
-			</ul>
-			
 			<h2>Solutions</h2>
 			<p>Our I-EHR (Integrated Electronic Health Records) solution electronically aggregates individuals' health records in a single, central repository, allowing trusted clinicians and medical staff  across multiple health care organisations to more effectively use health information.</p>
 			<p>This tackles the problem of reliable data aggregation in the healthcare sector by providing efficient data collection and improved visualisation and usability, resulting in better decision-making. Patient care is improved through a system that takes all of the available data from multiple systems, organisations and healthcare providers and transforms them into a single access point with a single 'language'. This allows healthcare professionals to conduct queries on patients' information in a fast and comprehensive way, reducing errors resulting from mis-diagnosis and removing the need for unnecessarily repeating medical examinations.</p>
