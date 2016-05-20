@@ -62,9 +62,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					<td valign="top">
 						<p> <em>Generic</em> </p>
 						<ul>
+							<li> <a href="/releases/BASE/latest/base_types.html">Base Types</a></li>
 							<li> <a href="/releases/BASE/latest/odin.html">ODIN</a></li>
 							<li> <a href="/releases/BASE/latest/bmm.html">BMM</a></li>
-							<li> <a href="/releases/BASE/latest/rules.html">Rules</a></li>
+							<li> <a href="/releases/BASE/latest/expression.html">Expressions</a></li>
 						</ul>
 					</td>
 				</tr>
