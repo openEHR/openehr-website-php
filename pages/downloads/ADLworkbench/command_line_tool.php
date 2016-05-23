@@ -94,7 +94,7 @@ Configured repositories:
 			<p>List all archetypes / templates available in a library:</p>
 <pre>
 	$ adlc -q -b openEHR-CKM -l
-	$ adlc -q --library CKM --list
+	$ adlc -q --library openEHR-CKM --list
 
 	openehr-demographic-address.address.v1.0.0
 	openehr-demographic-address.address-provider.v1.0.0
@@ -159,7 +159,8 @@ Configured repositories:
 	$ adlc -q -b openEHR-CKM -a validate openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
 	$ adlc -q --library openEHR-CKM --action validate openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
 	$ # no output
-	$ adlc --library CKM --action validate openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+	$ adlc --library openEHR-CKM --action validate openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+
 	------------- compiling ARCHETYPE ---- openEHR-EHR-EVALUATION.problem.v1.0.0 -------------
 	WARNING (WCACA) attribute items in object node at /data[at0001|structure|]/items[at0014|Aetiology|]/items cardinality 1..* same as in reference model
 	WARNING (WCACA) attribute items in object node at /data[at0001|structure|]/items[at0018|Occurrences or exacerbations|]/items cardinality 1..* same as in referen
@@ -181,7 +182,8 @@ Configured repositories:
 			<p>The following command serialises (--action serialise) the differential form of the (specialised) archetype openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0 to JSON syntax. The default output format is adl; yaml, xml and dadl are also supported.</p>
 <pre>
 	$ adlc -q -b openEHR-CKM -a serialise -f json openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
-	$ adlc -q --library CKM --action serialise --format json openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+	$ adlc -q --library openEHR-CKM --action serialise --format json openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+
 	{
 			"original_language": "ISO_639-1::en",
 			"translations": [{
@@ -242,7 +244,8 @@ Configured repositories:
 			<p>The following command serialises (--action serialise) the flat form (--flat) of the archetype openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0 to ADL syntax.</p>
 <pre>
 	$ adlc -q -b openEHR-CKM -a serialise --flat openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
-	$ adlc -q --library CKM --action serialise --flat openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+	$ adlc -q --library openEHR-CKM --action serialise --flat openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+
 	archetype (adl_version=1.5; generated)
 		openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
 
