@@ -18,9 +18,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 <pre>
     USAGE:
        adlc -s [-q]
-       adlc -p &lt;profile name&gt; -l [-q]
-       adlc -p &lt;profile name&gt; -d [-q]
-       adlc &lt;id_pattern&gt; -p &lt;profile name&gt; [-flat] [-cfg &lt;file path&gt;] [-q] [-f &lt;format&gt;] -a &lt;action&gt;
+       adlc -b &lt;library name&gt; -l [-q]
+       adlc -b &lt;library name&gt; -d [-q]
+       adlc &lt;id_pattern&gt; -b &lt;library name&gt; [-flat] [-cfg &lt;file path&gt;] [-q] [-f &lt;format&gt;] -a &lt;action&gt;
 
     OPTIONS:
        Options should be prefixed with: '-' or '/'
@@ -28,10 +28,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
        -q --quiet                      : suppress verbose feedback, including configuration information on startup (Optional)
             --flat                        : use flat form of archetype[s] for actions, e.g. path extraction etc (Optional)
        -s --show_config          : show current configuration and defaults
-       -l  --list_archetypes      : generate list of archetypes in current profile repository (use for further processing)
-       -d --display_archetypes: generate list of archetypes in current profile repository in user-friendly format
-       -p --profile                    : profile to use
-                                            &lt;profile name&gt;: profile name
+       -l  --list_archetypes      : generate list of archetypes in current library (use for further processing)
+       -d --display_archetypes: generate list of archetypes in current library in user-friendly format
+       -b --library                    : library to use
+                                            &lt;library name&gt;: library name
        -f  --format                    : output format for generated files (Optional)
                                             &lt;format&gt;: file formats: json | adl | odin | yaml | xml (default = adl)
            --cfg                          : output default configuration file location (Optional)
@@ -60,88 +60,107 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 <pre>
 	$ adlc -q --show_config
 	$ adlc -q -s
-	User .cfg file location: /home/thomas/openEHR/adl_workbench/adl_workbench.cfg
 
-	Loaded RM schemas (BMM files):
-		openehr_adltest_1.0.2
-		cimi_full_1.0.5
-		cen_en13606_0.95
-		openehr_ehr_extract_1.1.0
+User .cfg file location: C:\Users\Thomas\AppData\Local\openEHR\adl_workbench\adl_workbench.cfg
+XML rules file location: C:\Users\Thomas\AppData\Local\openEHR\adl_workbench\xml_rules.cfg
 
-	Configured repository profiles:
-		adl15-test:		/home/thomas/project/openehr/adl-archetypes/ADL15-reference
-		CKM: 			/home/thomas/project/openehr/adl-archetypes/Reference/CKM_2012_08_08
-		Ehr_Extract: 	/home/thomas/project/openehr/adl-archetypes/Example/openEHR/ehr_extract_template
+Loaded RM schemas (BMM files):
+        cdisc_core_0.5.0
+        cen_en13606_0.95
+        hl7_fhir_0.8.3
+        openehr_adltest_1.0.2
+        openehr_ehr_extract_1.1.0
+        cimi_rm_3.0.5
+
+Configured repositories:
+        C:\dev\openEHR\CKM-mirror
+                  openEHR-CKM
+        C:\dev\openEHR\adl-archetypes
+                  openEHR-ADLref
+                  openEHR-BRIDG_POC
+                  openEHR-FHIR
+                  openEHR-13606_examples
+                  openEHR-Demographics
+                  openEHR-EHR_Extract
+                  openEHR-CKM_2013
+                  MOH Spain-MOH_Spain
+                  Nehta-Nehta_2014-04-25
+        C:\dev\CIMI\archetypes
+                  CIMI-mini-CIMI
 
 </pre>
-			<p>Most adlc commands relate to a particular 'profile', i.e. repository of archetypes and are specified using the -p | --profile option. The names of repositories are shown in the result of the 'show_config' command; in the above example, the profile names are 'adl15-test', 'CKM', and 'Ehr_extract'.</p>
-			<p>List all archetypes / templates available in a profile:</p>
+			<p></p>
+			<p>Most adlc commands relate to a particular library, i.e. logical collection of archetypes. In the output in the above example, the inner names 'openEHR-CKM', ... , 'CIMI-mini-CIMI' etc under the heading 'Configured repositories' are the library names. The library to use is specified using the -b | --library option.</p>
+			<p>List all archetypes / templates available in a library:</p>
 <pre>
-	$ adlc -q -p CKM -l
-	$ adlc -q --profile CKM --list
-	openehr-demographic-address.address.v1
-	openehr-demographic-address.address-provider.v1
-	openehr-demographic-address.electronic_communication.v1
-	openehr-demographic-address.electronic_communication-provider.v1
-	openehr-demographic-capability.individual_credentials.v1
-	openehr-demographic-cluster.biometric_identifier_iso.v1
-	openehr-demographic-cluster.birth_data_additional_detail_br.v1
-	openehr-demographic-cluster.high_level_address_other_data_br.v1
-	openehr-demographic-cluster.person_additional_data_br.v1
-	openehr-demographic-cluster.person_additional_data_iso.v1
+	$ adlc -q -b openEHR-CKM -l
+	$ adlc -q --library CKM --list
+
+	openehr-demographic-address.address.v1.0.0
+	openehr-demographic-address.address-provider.v1.0.0
+	openehr-demographic-address.electronic_communication.v1.0.0
+	openehr-demographic-address.electronic_communication-provider.v1.0.0
+	openehr-demographic-capability.individual_credentials.v1.0.0
+	openehr-demographic-cluster.biometric_identifier_iso.v1.0.0
+	openehr-demographic-cluster.birth_data_additional_detail_br.v1.0.0
+	openehr-demographic-cluster.high_level_address_other_data_br.v1.0.0
+	openehr-demographic-cluster.person_additional_data_br.v1.0.0
+	openehr-demographic-cluster.person_additional_data_iso.v1.0.0
 	...
 
 </pre>
 			<p>This command generates a flat list of archetype identifiers suitable for use in scripts and batch processing. The -d | --display switch is used for the same purpose, with a more human readable output:</p>
 <pre>
-	$ adlc -q -p CKM -d
-	$ adlc -q --profile CKM --display
-	------------ Archetypes in profile 'CKM --------------'
+	$ adlc -q -b openEHR-CKM -d
+	$ adlc -q --library openEHR-CKM --display
+
+	------------ Archetypes in library 'openEHR-CKM' --------------
 		+-- ADDRESS
-			+-- address.v1
-				+-- provider.v1
-			+-- electronic_communication.v1
-				+-- provider.v1
+			+-- address.v1.0.0
+				+-- provider.v1.0.0
+			+-- electronic_communication.v1.0.0
+				+-- provider.v1.0.0
 		+-- CAPABILITY
-			+-- individual_credentials.v1
+			+-- individual_credentials.v1.0.0
 		+-- ITEM
 			+-- CLUSTER
-				+-- biometric_identifier_iso.v1
-				+-- birth_data_additional_detail_br.v1
-				+-- high_level_address_other_data_br.v1
-				+-- identifier_other_details.v1
-				+-- individual_credentials_iso.v1
-				+-- individual_provider_credentials_iso.v1
-				+-- person_additional_data_br.v1
-				+-- person_additional_data_iso.v1
-				+-- person_birth_data_iso.v1
-				+-- person_death_data_iso.v1
-				+-- person_identifier.v1
-					+-- provider.v1
-				+-- person_other_birth_data_br.v1
-				+-- person_other_death_data.v1
-				+-- provider_identifier.v1
-				+-- registration_other_data.v1
+				+-- biometric_identifier_iso.v1.0.0
+				+-- birth_data_additional_detail_br.v1.0.0
+				+-- high_level_address_other_data_br.v1.0.0
+				+-- identifier_other_details.v1.0.0
+				+-- individual_credentials_iso.v1.0.0
+				+-- individual_provider_credentials_iso.v1.0.0
+				+-- person_additional_data_br.v1.0.0
+				+-- person_additional_data_iso.v1.0.0
+				+-- person_birth_data_iso.v1.0.0
+				+-- person_death_data_iso.v1.0.0
+				+-- person_identifier.v1.0.0
+					+-- provider.v1.0.0
+				+-- person_other_birth_data_br.v1.0.0
+				+-- person_other_death_data.v1.0.0
+				+-- provider_identifier.v1.0.0
+				+-- registration_other_data.v1.0.0
 
 </pre>
 			<p>The next set of invocations uses the -a | --action switch to indicate a specific action to perform, and a regex (PERL) pattern on the archetype id to indicate which archetypes to apply the action to (note: this is a true regular expression, not a command-line glob expression: use '.*' to match anything, not just '*').</p>
 			<p>The following command lists (--action list) all archetypes whose identifiers match the regex pattern '.*problem.*':</p>
 <pre>
-	$ adlc -q -p CKM -a list .*problem.*
-	$ adlc -q -profile CKM -action list .*problem.*
-	openEHR-EHR-COMPOSITION.problem_list.v1
-	openEHR-EHR-EVALUATION.problem.v1
-	openEHR-EHR-SECTION.problem_list.v1
-	openEHR-EHR-EVALUATION.problem-diagnosis.v1
+	$ adlc -q -b openEHR-CKM -a list .*problem.*
+	$ adlc -q --library openEHR-CKM --action list .*problem.*
+
+	openEHR-EHR-COMPOSITION.problem_list.v1.0.0
+	openEHR-EHR-EVALUATION.problem.v1.0.0
+	openEHR-EHR-SECTION.problem_list.v1.0.0
+	openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
 
 </pre>
-			<p>The following command validates (--action validate) the archetype openEHR-EHR-EVALUATION.problem-diagnosis.v1. With the -q option, there is no output, because the archetype validates; in verbose mode, warnings will be shown:</p>
+			<p>The following command validates (--action validate) the archetype openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0. With the -q option, there is no output, because the archetype validates; in verbose mode, warnings will be shown:</p>
 <pre>
-	$ adlc -q -p CKM -a validate openEHR-EHR-EVALUATION.problem-diagnosis.v1
-	$ adlc -q -profile CKM -action validate openEHR-EHR-EVALUATION.problem-diagnosis.v1
+	$ adlc -q -b openEHR-CKM -a validate openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+	$ adlc -q --library openEHR-CKM --action validate openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
 	$ # no output
-	$ adlc -profile CKM -action validate openEHR-EHR-EVALUATION.problem-diagnosis.v1
-	------------- compiling ARCHETYPE ---- openEHR-EHR-EVALUATION.problem.v1 -------------
+	$ adlc --library CKM --action validate openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+	------------- compiling ARCHETYPE ---- openEHR-EHR-EVALUATION.problem.v1.0.0 -------------
 	WARNING (WCACA) attribute items in object node at /data[at0001|structure|]/items[at0014|Aetiology|]/items cardinality 1..* same as in reference model
 	WARNING (WCACA) attribute items in object node at /data[at0001|structure|]/items[at0018|Occurrences or exacerbations|]/items cardinality 1..* same as in referen
 	ce model
@@ -152,17 +171,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 	 same as in reference model
 	WARNING (WCACA) attribute items in object node at /protocol[at0032|Tree|]/items cardinality 0..* same as in reference model
 	WARNING (WCACA) attribute items in object node at /protocol[at0032|Tree|]/items[at0033|References|]/items cardinality 1..* same as in reference model
-	------------- compiling ARCHETYPE ---- openEHR-EHR-EVALUATION.problem-diagnosis.v1 -------------
+	------------- compiling ARCHETYPE ---- openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0 -------------
 	WARNING (WOUC) code at0.37 in ontology not used in archetype definition
 	WARNING (WOUC) code at0.38 in ontology not used in archetype definition
 	WARNING (WOUC) code at0.39 in ontology not used in archetype definition
 	...
 
 </pre>
-			<p>The following command serialises (--action serialise) the differential form of the (specialised) archetype openEHR-EHR-EVALUATION.problem-diagnosis.v1 to JSON syntax. The default output format is adl; yaml, xml and dadl are also supported.</p>
+			<p>The following command serialises (--action serialise) the differential form of the (specialised) archetype openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0 to JSON syntax. The default output format is adl; yaml, xml and dadl are also supported.</p>
 <pre>
-	$ adlc -q -p CKM -a serialise -f json openEHR-EHR-EVALUATION.problem-diagnosis.v1
-	$ adlc -q -profile CKM -action serialise --format json openEHR-EHR-EVALUATION.problem-diagnosis.v1
+	$ adlc -q -b openEHR-CKM -a serialise -f json openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+	$ adlc -q --library CKM --action serialise --format json openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
 	{
 			"original_language": "ISO_639-1::en",
 			"translations": [{
@@ -190,7 +209,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							"email": "sam.heard@oceaninformatics.com",
 							"date": "23/04/2006"
 	...
-	   "parent_archetype_id": "openEHR-EHR-EVALUATION.problem.v1",
+	   "parent_archetype_id": "openEHR-EHR-EVALUATION.problem.v1.0.0",
 	   "definition": {
 			   "rm_type_name": "EVALUATION",
 			   "node_id": "at0000.1",
@@ -220,15 +239,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 	...
 
 </pre>
-			<p>The following command serialises (--action serialise) the flat form (--flat) of the archetype openEHR-EHR-EVALUATION.problem-diagnosis.v1 to ADL syntax.</p>
+			<p>The following command serialises (--action serialise) the flat form (--flat) of the archetype openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0 to ADL syntax.</p>
 <pre>
-	$ adlc -q -p CKM -a serialise --flat openEHR-EHR-EVALUATION.problem-diagnosis.v1
-	$ adlc -q -profile CKM -action serialise --flat openEHR-EHR-EVALUATION.problem-diagnosis.v1
+	$ adlc -q -b openEHR-CKM -a serialise --flat openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
+	$ adlc -q --library CKM --action serialise --flat openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
 	archetype (adl_version=1.5; generated)
-		openEHR-EHR-EVALUATION.problem-diagnosis.v1
+		openEHR-EHR-EVALUATION.problem-diagnosis.v1.0.0
 
 	specialize
-		openEHR-EHR-EVALUATION.problem.v1
+		openEHR-EHR-EVALUATION.problem.v1.0.0
 
 	language
 		original_language = <[ISO_639-1::en]>
