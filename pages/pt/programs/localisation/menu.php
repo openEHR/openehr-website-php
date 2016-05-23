@@ -1,4 +1,4 @@
-﻿<span style="line-height:150%;"><a href="/pt/programs/localisation" <?php if($pageOn == 'index.php'){?> class="active"<?php }?> style="font-weight:900;">Programa de <br/>Localização</a></span>
+﻿<span><a href="/pt/programs/localisation" <?php if($pageOn == 'index.php'){?> class="active"<?php }?>>Programa de Localização</a></span>
 			<ul>
 				<li><a href="/pt/programs/localisation/countries" <?php if($pageOn == 'countries.php'){?> class="active"<?php }?>>Países</a></li>
 				<li><a href="/pt/programs/localisation/governance" <?php if($pageOn == 'governance.php'){?> class="active"<?php }?>>Governança</a></li>

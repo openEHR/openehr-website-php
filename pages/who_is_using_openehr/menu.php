@@ -1,4 +1,4 @@
-﻿<span style="line-height:150%; padding:0px;"><a href="index" <?php if($pageOn == 'index.php'){?> class="active"<?php }?> style="font-weight:900; padding-bottom:6px; padding-left:0px;">Who is using openEHR?</a></span>
+﻿<span><a href="index" <?php if($pageOn == 'index.php'){?> class="active"<?php }?>>Who is using openEHR?</a></span>
 			<ul>
 				<li><a href="healthcare_providers_and_authorities" <?php if($pageOn == 'healthcare_providers_and_authorities.php'){?> class="active"<?php }?>>Deployed Solutions</a></li>
 				<li><a href="funded_research_projects" <?php if($pageOn == 'funded_research_projects.php'){?> class="active"<?php }?>>Funded Research Projects</a></li>
