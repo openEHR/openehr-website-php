@@ -36,7 +36,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							<li> <a href="/releases/RM/latest/support.html">Support IM</a> </li>
 							<li> <a href="/releases/RM/latest/integration.html">Integration IM</a> </li>
 							<li> <a href="/releases/RM/latest/ehr_extract.html">EHR Extract IM</a> </li>
-							<li> <a href="/releases/RM/latest/docs/index#_class_index"><strong>Class Index</strong></a></li>
+							<li> <a href="/releases/RM/latest/docs/index#_class_index"><strong>RM Class Index</strong></a></li>
 						</ul>
 					</td>
 
