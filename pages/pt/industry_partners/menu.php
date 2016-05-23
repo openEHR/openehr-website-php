@@ -1,4 +1,4 @@
-﻿<span style="line-height:150%; padding:0px;"><a href="/pt/industry_partners/index" <?php if($pageOn == 'index.php'){?> class="active"<?php }?> style="font-weight:900; padding-bottom:6px; padding-left:0px;">openEHR Parceiros
+﻿<span><a href="/pt/industry_partners/index" <?php if($pageOn == 'index.php'){?> class="active"<?php }?>>openEHR Parceiros
 da Indústria</a></span>
 			<ul>
 				<li><a href="/pt/industry_partners/cambio_healthcare_systems" <?php if($pageOn == 'cambio_healthcare_systems.php'){?> class="active"<?php }?>>Cambio Healthcare Systems</a></li>

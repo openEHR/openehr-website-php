@@ -1,4 +1,4 @@
-﻿<span style="line-height:150%;"><a href="/pt/programs/clinicalmodels" <?php if($pageOn == 'index.php'){?> class="active"<?php }?> style="font-weight:900;">Programas de Modelos <br/>Clínicos</a></span>
+﻿<span><a href="/pt/programs/clinicalmodels" <?php if($pageOn == 'index.php'){?> class="active"<?php }?>>Programas de Modelos Clínicos</a></span>
 			<ul>
 				<li><a href="http://openehr.org/ckm" target="_blank">Repositório de Modelos</a></li>
 				<li><a href="/pt/programs/clinicalmodels/governance" <?php if($pageOn == 'governance.php'){?> class="active"<?php }?>>Governança</a></li>
