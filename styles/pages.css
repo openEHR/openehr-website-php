@@ -55,60 +55,46 @@ img {margin: 10px 0 10px 0;}
 	float: left;
 	width: 20%;
 	margin: 0 0 30px 0;
-	padding: 10px 20px 20px 10px;
+	padding: 20px 20px 20px 10px;
 
 	background-color: #f7f5e7;
 	color: #220e10;
 
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: normal;
 }
 
 #SideMenu a {
-	display: inline-block;
-
 	width: 170px;
 
 	color: #220e10;
 
-	font-weight: 500;
 	text-decoration: none;
 }
 
 #SideMenu a:hover{
-	display: block;
-
 	color: #db572f;
 
-	font-weight: 500;
 	text-decoration: underline;
 } 
 
 #SideMenu .active {
-	width: 170px;
-
 	color: #db572f;
-
-	font-weight: 500;
 }
 
 #SideMenu .active:hover{
 	color: #db572f;
 
-	font-weight: 500;
 	text-decoration: none;
 }
 
 #SideMenu .active a {
 	color: #db572f;
-
-	font-weight: 900;
 }
 
 #SideMenu .active a:hover{
 	color: #db572f;
 
-	font-weight: 500;
 	text-decoration: none;
 }
 
@@ -119,16 +105,19 @@ img {margin: 10px 0 10px 0;}
 #SideMenu span {
 	display: inline-block;
 
-	width: 145px;
 	padding-right: 10px;
-	padding-bottom: 6px;
 
 	color: #220e10;
 
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 900;
-	line-height: 200%; 
 	text-decoration: none; 
+}
+
+#SideMenu br {
+	display: block;
+	margin: 5px;
+	padding: 0;
 }
 
 /* Content style */
