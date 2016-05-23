@@ -36,6 +36,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 							<li> <a href="/releases/RM/latest/support.html">Support IM</a> </li>
 							<li> <a href="/releases/RM/latest/integration.html">Integration IM</a> </li>
 							<li> <a href="/releases/RM/latest/ehr_extract.html">EHR Extract IM</a> </li>
+							<li> <a href="/releases/RM/latest/docs/index#_class_index"><strong>Class Index</strong></a></li>
 						</ul>
 					</td>
 
@@ -62,9 +63,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 					<td valign="top">
 						<p> <em>Generic</em> </p>
 						<ul>
+							<li> <a href="/releases/BASE/latest/base_types.html">Base Types</a></li>
 							<li> <a href="/releases/BASE/latest/odin.html">ODIN</a></li>
 							<li> <a href="/releases/BASE/latest/bmm.html">BMM</a></li>
-							<li> <a href="/releases/BASE/latest/rules.html">Rules</a></li>
+							<li> <a href="/releases/BASE/latest/expression.html">Expressions</a></li>
 						</ul>
 					</td>
 				</tr>
