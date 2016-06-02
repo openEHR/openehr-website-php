@@ -23,10 +23,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header_top.php');
 			<p>The second problem arises shortly after the deployment of the system, even in cases when the first problem is completely avoided. Because of health procedures and health data being not static but developing with the progress in medicine, sooner or later a content change in EHR system would be required. EHR systems whose software design was inspired by software design practices in other areas, usually suffer from <em>inseparability of structure and content</em>, which requires major input from project implementer every time a change need to be realised.</p>
 			<p>The third problem concerns long time horizon, when <em>limits of system scalability and interoperability</em> are exposed only when systems need to be deployed in the large scale and in conjunction with other systems.</p>
 			<p>All these problems are addressed and reflected in the approach proposed by openEHR community. The endeavour of this community is coordinated and promoted by <a href="/es/about/foundation">openEHR Foundation</a>.</p>
+			<div class="less" t="1"><a href="#"><< Less</a></div>
 			</div>
 			
 			<h2>What is the openEHR approach?</h2>
-			<p>The openEHR approach is <em>multi-level, single source modelling</em> within a service-oriented software architecture, in which models built by domain experts are in their own layer. It is delineated by a <a href="/es/programs/specification/releases/currentbaseline">set of specifications</a> published by the openEHR Foundation.</p>
+			<p>The openEHR approach is <em>multi-level, single source modelling</em> within a service-oriented software architecture, in which models built by domain experts are in their own layer. It is delineated by a <a href="/es/programs/specification/workingbaseline">set of specifications</a> published by the openEHR Foundation.</p>
 			<div class="more text2" t="2"><a href="#">>> More</a></div>
 			<div class="text2 dropDown">
 			<a href="/files/what_is_openehr/4layers.png"> <img src="/files/what_is_openehr/4layers.png" alt="openEHR 4 layers image" title="Click to enlarge" class = "imgMiddle width40"/></a>
@@ -34,6 +35,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header_top.php');
 			<p>The next level consists of a library of data points/data groups that are independent of particular use – these are called <em>archetypes</em>. The creation of a library of use-independent data points removes the need for modelling the same data point more than once. The international library of <a href = "http://openehr.org/ckm/" target="_blank">openEHR archetypes (CKM)</a> currently contains about 500 archetypes, or 6,500 data points. Another advantage is that these archetypes can be modelled by clinical professionals or health informatics experts without any technological knowledge of the final EHR systems. The openEHR approach also allows to make use of external health terminologies, such as SNOMED CT, LOINC and ICDx in the modelling process. The openEHR Foundation provides the <a href="http://www.openehr.org/releases/AM/latest/docs/index" target = "_blank">archetype model specification</a> and also <a href="/es/downloads/modellingtools">tools for their authoring and editing</a>.</p>
 			<p>At the next level, the data-points and data-groups are assembled into context-specific data sets – it could be the data for a form, a particular message, or a document. In openEHR, these are called <em>templates</em>. All openEHR systems are built with templates, which contain the relevant bits of various archetypes. Templates preserve the paths of archetype elements they use, even within variable depth structures. Templates are usually developed by implementers local to the solution being built, but it is also possible to build a standard template for a country, e.g. a discharge summary. The <a href="/es/downloads/modellingtools">tools for template design and editing</a> are provided by the openEHR Fondation.</p>
 			<p>The last level, closest to the user are <em>template-generated artefacts</em>, such as application program interfaces, XSDs, UI forms. These artefacts are used by application developers. The openEHR Foundation provides the <a href="http://www.openehr.org/releases/AM/latest/docs/OPT2/OPT2.html" target = "_blank">operational template specification</a>.</p>
+			<div class="less" t="2"><a href="#"><< Less</a></div>
 			</div>
 			
 			<h2>The openEHR approach benefits</h2>
@@ -42,6 +44,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header_top.php');
 			<div class="text3 dropDown">
 			<p>There are some key benefits to openEHR's approach. Firstly, it is now possible to build an EHR repository independently of content specifications. In other words, your EHR system doesn't need to know a priori about any of the clinical data it will process, such as vital signs, diagnoses or orders. Models for those things are developed separately. Models for data sets and forms are also developed separately, and UI form components are generated from these definitions. This enables <em>a new generation of EHR systems that routinely adapts to new requirements</em> - because that's how the architecture is designed in the first place.</p>
 			<p>Secondly, building software is now very different. Significant parts of the software are now generated by tools from the templates, reducing the amount of work to do, and greatly improving semantic traceability. Model-generated code and UI (user interface) is an area of continual innovation in openEHR, and promises to revolutionise health computing.</p>
+			<div class="less" t="3"><a href="#"><< Less</a></div>
 			</div>
 			
 			<h2>The openEHR approach in practice</h2>
@@ -56,6 +59,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header_top.php');
 			</ul>
  			<p>It also allows application developers to concentrate on their applications, and simply plug in to a reliable back-end.</p>
  			<p><a href="/resources/white_paper_docs/openEHR_vendor_independent_platform.pdf" target="_blank">The openEHR White Paper</a> provides a more detailed discussion of the advantages of an open, extensible health computing platform.</p>
+			<div class="less" t="4"><a href="#"><< Less</a></div>
 			</div>
 
 			<h2>Getting Involved</h2>
@@ -64,6 +68,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header_top.php');
 			<div class="text5 dropDown">
 			<a href="/files/what_is_openehr/openehr_platform_stakeholders.png"> <img src="/files/what_is_openehr/openehr_platform_stakeholders.png" alt="openEHR platform stakeholders image" title="Click to enlarge" class = "imgMiddle width40"/></a>
 			<p>Are you a <a href = "/es/getting_involved/providers_clinicians">clinician or health care provider</a>? You can help creating and reviewing the <a href="http://www.openehr.org/ckm/" target="_blank">archetypes</a>. Are you a message designer? You may want to get involved in building template-based message specifications, based on the archetypes. Are you a <a href = "/es/getting_involved/vendors_developers">software vendor or developer</a>? You can help build the new generation of EHR tools. If you are a <a href = "/es/getting_involved/universities_researchcentres">researcher</a>, you can get involved in specifying how openEHR querying, published terminologies and standards like CDISC can be used to improve how longitudinal data-based studies are done. Maybe you want to obtain tools and solutions? You will find <a href = "/es/industry_partners/">vendor solutions</a>, as well as <a href="/es/programs/software">open source components</a>. If you are from the <a href = "/es/getting_involved/governmentbodies_programmes">government institution</a>, the openEHR approach can provide a platform to integrate your local eHealth systems.</p>
+			<div class="less" t="5"><a href="#"><< Less</a></div>
 			</div>
 		
 		</div>

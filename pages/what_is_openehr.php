@@ -27,7 +27,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 			
 			<h2>What is the openEHR approach?</h2>
-			<p>The openEHR approach is <em>multi-level, single source modelling</em> within a service-oriented software architecture, in which models built by domain experts are in their own layer. It is delineated by a <a href="/programs/specification/releases/currentbaseline">set of specifications</a> published by the openEHR Foundation.</p>
+			<p>The openEHR approach is <em>multi-level, single source modelling</em> within a service-oriented software architecture, in which models built by domain experts are in their own layer. It is delineated by a <a href="/programs/specification/workingbaseline">set of specifications</a> published by the openEHR Foundation.</p>
 			<div class="more text2" t="2"><a href="#">>> More</a></div>
 			<div class="text2 dropDown">
 			<a href="/files/what_is_openehr/4layers.png"> <img src="/files/what_is_openehr/4layers.png" alt="openEHR 4 layers image" title="Click to enlarge" class = "imgMiddle width40"/></a>
