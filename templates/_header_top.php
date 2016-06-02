@@ -23,12 +23,12 @@
 	<link rel="shortcut icon" href="/gui/favicon.ico">
 	<link rel="home" href="http://www.openehr.org">
 	<link rel="index" href="/using_the_site/sitemap">
-
-	<script src="/functions/menu_dropdown.js"></script> 
-	<script src="/functions/paragraph_dropdown.js"></script>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="/functions/js/bootstrap.js"></script>
+	
+	<script src="/functions/menu_dropdown.js"></script> 
+	<script src="/functions/paragraph_dropdown.js"></script>
 	
 	<?php
 	$pageOn = basename($_SERVER['PHP_SELF']);

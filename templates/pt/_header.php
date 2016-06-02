@@ -23,6 +23,8 @@
 	<link rel="home" href="http://www.openehr.org">
 	<link rel="index" href="/pt/using_the_site/sitemap">
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
 	<script src="/functions/menu_dropdown.js"></script> 
 	<script src="/functions/paragraph_dropdown.js"></script>
 	
