@@ -17,6 +17,8 @@ a:hover {text-decoration: underline;}
 
 br.clear {display: block; height: 0; font-size: 0; clear: both;}
 
+.dropDown {display: none;}
+
 .floatLeft {float: left;}
 .floatRight {float: right;}
 
@@ -325,6 +327,7 @@ li.menuhover a, li.menuhover span  {
 	padding: 20px 0 10px 1%;
 	
 	font-size: 13px;
+	line-height: 180%;
 }
 
 #BottomPanel span {
@@ -343,7 +346,15 @@ li.menuhover a, li.menuhover span  {
 	text-decoration:underline;
 }
 
+#WebLinks {
+	float: left;
+	width: 50%;
+}
 
+#Acknowledgements {
+	float: right;
+	width: 40%;
+}
 
 /*Fluid layout*/
 @media (max-width:860px) {
