@@ -24,7 +24,9 @@
 	<link rel="home" href="http://www.openehr.org">
 	<link rel="index" href="/es/using_the_site/sitemap">
 	
-	<script type="text/javascript" src="/menu/dropdown.js"></script> 
+	<script src="/functions/menu_dropdown.js"></script> 
+	<script src="/functions/paragraph_dropdown.js"></script> 
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="/functions/js/bootstrap.js"></script>
 

@@ -23,7 +23,7 @@
 	<link rel="home" href="http://www.openehr.org">
 	<link rel="index" href="/using_the_site/sitemap">
 
-	<script type="text/javascript" src="/menu/dropdown.js"></script> 
+	<script src="/functions/menu_dropdown.js"></script> 
 	
 	<?php
 	$pageOn = basename($_SERVER['PHP_SELF']);
