@@ -33,6 +33,7 @@
 	<?php
 	$pageOn = basename($_SERVER['PHP_SELF']);
 	$portuguese = 'http://'.str_replace('.org','.org/pt',$_SERVER['SERVER_NAME']).$_SERVER['PHP_SELF'];
+	$spanish = 'http://'.str_replace('.org','.org/es',$_SERVER['SERVER_NAME']).$_SERVER['PHP_SELF'];
 	?>
 	
 </head>
@@ -59,7 +60,9 @@
 			
 			<div id="Utilities">
 				
+				<a href="<?php echo $spanish;?>"><img src="/gui/spanish_flag.png" style="float:right; margin: 0 0 0 10px; padding: 0 0 0 0;"></a>
 				<a href="<?php echo $portuguese;?>"><img src="/gui/brasil_flag.png" style="float:right; margin: 0 0 0 10px; padding: 0 0 0 0;"></a>
+				
 				<?php
 				if( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'],'logout.php')) ) { 
 					echo '<a href="/login/user_home">User Home</a> | <a href="/login/logout">Logout</a> |';

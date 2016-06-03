@@ -30,7 +30,6 @@
 	
 	<?php
 	$pageOn = basename($_SERVER['PHP_SELF']);
-	$portuguese = 'http://'.str_replace('.org','.org/pt',$_SERVER['SERVER_NAME']).$_SERVER['PHP_SELF'];
 	?>
 	
 </head>
