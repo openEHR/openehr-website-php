@@ -63,17 +63,8 @@
 	<div id = "BottomPanelContainer">
 	
 		<div id="BottomPanel">
-			<div id = "WebLinks">
-				<span><a href="/es/using_the_site/terms_of_use">Términos de Uso</a> | <a href="/es/using_the_site/privacy_policy">Política de Privacidad</a> | <a href="/es/using_the_site/localisation">Localización</a> | <a href="/es/using_the_site/feedback">Retroalimentación</a> | <a href="/es/using_the_site/site_map">Mapa del Sitio</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a></span>
-				<span>Copyright &copy; <?php echo date("Y");?> Fundación openEHR. Todos los derechos reservados</span>
-			</div>
-			
-			<div id = "Acknowledgements">
-				<span>Reconocimiento: <a href="https://www.atlassian.com/" target="_blank">Atlassian</a> (Jira, Confluence) | <a href="https://www.nomagic.com/" target="_blank">NoMagic</a> (MagicDraw UML) | <a href="http://asciidoctor.org/" target="_blank">AsciiDoctor</a> (publishing) | <a href="https://github.com/" target="_blank">GitHub</a> (DVCS) | <a href="https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29" target="_blank">LAMP</a> dev community</span>
-			</div>
-			
-			<br class="clear">
-			
+			<p><span><a href="/es/using_the_site/terms_of_use">Términos de Uso</a> | <a href="/es/using_the_site/privacy_policy">Política de Privacidad</a> | <a href="/es/using_the_site/feedback">Retroalimentación</a> | <a href="/es/using_the_site/site_map">Mapa del Sitio</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a></span></p>
+			<p><span>Copyright &copy; <?php echo date("Y");?> Fundación openEHR. Todos los derechos reservados</span></p>
 		</div>
 	
 	</div>

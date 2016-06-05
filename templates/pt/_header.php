@@ -58,14 +58,14 @@
 			
 			<div id="Utilities">
 				
-				<a href="<?php echo $spanish;?>"><img src="/gui/spanish_flag.png" class="flagIcon"></a>
-				<a href="<?php echo $english;?>"><img src="/gui/british_flag.png" class="flagIcon"></a>
+				<a href="<?php echo $spanish;?>"><img src="/gui/spanish_flag.png" style="float:right; margin: 0 0 0 10px; padding: 0 0 0 0;"></a>
+				<a href="<?php echo $english;?>"><img src="/gui/british_flag.png" style="float:right; margin: 0 0 0 10px; padding: 0 0 0 0;"></a>
 				
 				<?php
 				if( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'],'logout.php')) ) { 
 					echo '<a href="/login/user_home">User Home</a> | <a href="/login/logout">Logout</a> |';
 				} 
-				?> <a href="/pt/about_this_website">Sobre Este Site</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="https://openehr.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all" target="_blank">Jira</a> | <a href="http://www.openehr.org/ckm">CKM</a>
+				?> <a href="/pt/about_this_website">Sobre Este Site</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="/issues" target="_blank">Jira</a> | <a href="http://www.openehr.org/ckm">CKM</a>
 				
 				<div id="Search">
 				
