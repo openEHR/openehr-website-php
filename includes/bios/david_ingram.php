@@ -1,4 +1,4 @@
-﻿			<h3><a name="david_ingram"></a>Professor Emeritus David Ingram (United Kingdom)</h3>
+			<h3 id="david_ingram">Professor Emeritus David Ingram (United Kingdom)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

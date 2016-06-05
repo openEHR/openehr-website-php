@@ -1,4 +1,4 @@
-﻿			<h3><a name="ian_mcnicoll"></a>Ian McNicoll, MD, MSc (United Kingdom)</h3>
+			<h3 id="ian_mcnicoll">Ian McNicoll, MD, MSc (United Kingdom)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

@@ -1,4 +1,4 @@
-﻿			<h3><a name="sebastian_garde"></a>Sebastian Garde, Dr. sc. hum., Dipl.-Inform. Med., FACHI (Germany)</h3>
+			<h3 id="sebastian_garde">Sebastian Garde, Dr. sc. hum., Dipl.-Inform. Med., FACHI (Germany)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

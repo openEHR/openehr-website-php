@@ -1,4 +1,4 @@
-			<h3><a name="tomaz_gornik"></a>Tomaž Gornik (Slovenia)</h3>
+			<h3 id="tomaz_gornik">Tomaž Gornik (Slovenia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

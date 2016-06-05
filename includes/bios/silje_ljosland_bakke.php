@@ -1,4 +1,4 @@
-			<h3><a name="silje_ljosland_bakke"></a>Silje Ljosland Bakke, RN (Norway)</h3>
+			<h3 id="silje_ljosland_bakke">Silje Ljosland Bakke, RN (Norway)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

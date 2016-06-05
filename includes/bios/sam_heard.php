@@ -1,4 +1,4 @@
-			<h3><a name="sam_heard"></a>Sam Heard MD, FRACGP, MRCGP, FACHI (Australia)</h3>
+			<h3 id="sam_heard">Sam Heard MD, FRACGP, MRCGP, FACHI (Australia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

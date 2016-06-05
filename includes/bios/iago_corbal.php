@@ -1,4 +1,4 @@
-﻿			<h3><a name="iago_corbal"></a>Iago Corbal</h3>
+			<h3 id="iago_corbal">Iago Corbal</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

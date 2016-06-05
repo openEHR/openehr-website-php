@@ -1,4 +1,4 @@
-﻿			<h3><a name="heath_frankel"></a>Heath Frankel (Australia)</h3>
+			<h3 id="heath_frankel">Heath Frankel (Australia)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

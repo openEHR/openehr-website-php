@@ -1,4 +1,4 @@
-﻿			<h3><a name="dipak_kalra"></a>Professor Dipak Kalra PhD, FRCGP (United Kingdom)</h3>
+			<h3 id="dipak_kalra">Professor Dipak Kalra PhD, FRCGP (United Kingdom)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

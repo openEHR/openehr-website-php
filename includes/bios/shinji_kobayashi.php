@@ -1,4 +1,4 @@
-﻿			<h3><a name="shinji_kobayashi"></a>Shinji Kobayashi MD, PhD (Japan)</h3>
+			<h3 id="shinji_kobayashi">Shinji Kobayashi MD, PhD (Japan)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

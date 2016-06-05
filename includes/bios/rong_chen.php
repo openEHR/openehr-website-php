@@ -1,4 +1,4 @@
-﻿			<h3><a name="rong_chen"></a>Rong Chen MD, PhD (Sweden)</h3>
+			<h3 id="rong_chen">Rong Chen MD, PhD (Sweden)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

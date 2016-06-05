@@ -1,4 +1,4 @@
-﻿			<h3><a name="joanna_feijo"></a>Joana Feijó (Portugal)</h3>
+			<h3 id="joanna_feijo">Joana Feijó (Portugal)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

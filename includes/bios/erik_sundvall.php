@@ -1,4 +1,4 @@
-﻿			<h3><a name="erik_sundvall"></a>Erik Sundvall, PhD (Sweden)</h3>
+			<h3 id="erik_sundvall">Erik Sundvall, PhD (Sweden)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

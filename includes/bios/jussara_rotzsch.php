@@ -1,4 +1,4 @@
-﻿			<h3><a name="jussara_rotzsch"></a>Dr. Jussara R&ouml;tzsch (Brazil)</h3>
+			<h3 id="jussara_rotzsch">Dr. Jussara R&ouml;tzsch (Brazil)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

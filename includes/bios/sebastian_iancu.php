@@ -1,4 +1,4 @@
-﻿			<h3><a name="sebastian_iancu"></a>Sebastian Iancu (The Netherlands)</h3>
+			<h3 id="sebastian_iancu">Sebastian Iancu (The Netherlands)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

@@ -1,4 +1,4 @@
-﻿			<h3><a name="gustavo_bacelar"></a>Gustavo Bacelar MD MBA (Brazil/Portugal)</h3>
+			<h3 id="gustavo_bacelar">Gustavo Bacelar MD MBA (Brazil/Portugal)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

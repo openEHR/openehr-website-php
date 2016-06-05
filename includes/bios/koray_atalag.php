@@ -1,4 +1,4 @@
-﻿			<h3><a name="koray_atalag"></a>Koray Atalag MD, PhD, FACHI (New Zealand)</h3>
+			<h3 id="koray_atalag">Koray Atalag MD, PhD, FACHI (New Zealand)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>
