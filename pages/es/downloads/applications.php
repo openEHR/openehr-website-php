@@ -24,7 +24,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 				<td>GastrOS</td>
 				<td>GastrOS is an endoscopic reporting application based on open standards: openEHR and MST. GUI is driven by Archetypes/Templates. It is part of our research at the University of Auckland to investigate software maintainability and interoperability.</td>
 				<td>C#, Microsoft .Net</td>
-				<td><a href="http://gastros.codeplex.com/">GastrOS codeplex homepage</a></td>
+				<td><a href="http://gastros.codeplex.com/" target="_blank">GastrOS codeplex homepage</a></td>
 			</tr>
 			</tbody>
 			</table>

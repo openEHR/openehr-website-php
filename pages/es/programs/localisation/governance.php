@@ -41,7 +41,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 
 			<h2><a name="programstructure"></a>Program Structure</h2>
 			<p>The Localisation Program consists of <em>Qualified Members</em> for the Localisation Program, <em>Localisation Program Committee</em> (LPC) and <em>Local openEHR Representative</em>(s) and <em>Organisations</em>. In addition, individuals that are enthusiastic about openEHR who work with the openEHR Representative(s) (most probably affiliated with Local Organisations if any) are also recognised as Local Members.</p>
-			<p style="text-align:center;"><img src="/files/programs/localisation/LocProgStr.png" alt="Specification Program Structure" style="border: solid 1px #CCCCCC;"></p>
+			<a href = "/files/programs/localisation/LocProgStr.png"><img src="/files/programs/localisation/LocProgStr.png" alt="Localisation Program Structure" class = "imgMiddle width50"/></a>
 			
 			<p><em>Qualified Membership (QM):</em> local openEHR activity will happen through qualified members where individuals can join from any country or region (can be a specific territory, language group etc. depending on what local needs are). Acceptance will be based on relevant experience and skills required for localisation activities. It is this group that will do most of the work&#33;</p>
 			<p><em>Localisation Program Committee (LPC):</em> consists of up to nine (minimum of 5) individuals with appropriate background and skills for the localisation work. LPC will decide about who can be qualified members in this arena. Main focus of this Committee is to work with the Community and Board, and to describe how to establish local presence, what processes are required to getting activity in that country and eventually having an affiliated organisation that takes on local representation. LPC has up to 2 co-chairs and the Program Lead acts as the interim chair during initial establishment.</p>
@@ -108,7 +108,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 				<li><em>Local experience</em>: relevant professional stature and recognition in own locale in the field of eHealth and potential for influence.</li>
 			</ul>
 			<p>Note that a high level of technical competency is <em>not a necessity</em> as Localisation work will involve substantial amount of work related with content (which may actually require clinical or organisational skills more than technical). However a basic level of technical knowledge will be required to appreciate the foundational principles of openEHR as well as skills around software localisation when adapting tools and components.</p>
-			<p class="par">Candidates should submit, in writing, where they stand with regards to the cause of openEHR and provide evidence about their qualifications in these main areas:</p>
+			<p>Candidates should submit, in writing, where they stand with regards to the cause of openEHR and provide evidence about their qualifications in these main areas:</p>
 			<ul>
 				<li>background/training: degree(s) obtained, training/certification etc.</li>
 				<li>research and development: openEHR related research and/or design/software artefacts developed</li>
@@ -119,7 +119,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			<ul>
 				<li>A new nomination is sent to any co-chair of the LPC, who will announce and discuss with existing QM.</li>
 				<li>the nomination may be rejected on formal grounds, such as lack of qualification</li>
-				<li>LPC may take a formal vote if unanymous decision cannot be reached (n.b. koray: I'm not entirely happy with this but still recognise it might be a necessity - TBD).</li>
+				<li>LPC may take a formal vote if unanimous decision cannot be reached (n.b. koray: I'm not entirely happy with this but still recognise it might be a necessity - TBD).</li>
 			</ul>
 
 			<h4>Length of membership</h4>
@@ -138,17 +138,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 				<li>creative thinking around locale specific issues; including
 				<ul>
 					<li>keeping vision aligned with changing requirements, advances, paradigms etc.</li>
-					<li>keeping an eye on local assets (e.g. training material, consistency etc.) making sure that the credit/value doesn't go to certain individuals or organisations but to the community. <font color="#0000ff">[TB: can this be stated better with some kind of rules of copyright / attribution?]</font> <font color="#ff0000">[KA: I'll need help with this, I don't think we can get away with a single copyright attribution here but the principle is clear I think. We definitely need whole lot more on IP issues around Localised resources. I suggest we move on but acknowledge the difficulty. I've created a new Heading below with reference to a future Document]</font></li>
+					<li>keeping an eye on local assets (e.g. training material, consistency etc.) making sure that the credit/value doesn't go to certain individuals or organisations but to the community.</li>
 					<li>how to empower local users to get things done</li>
-					<li>trying to find workarounds to address local pecularities due to language, culture etc. but fair enough not to compromise the Foundation's values, principles and more importantly its assets.</li>
+					<li>trying to find workarounds to address local peculiarities due to language, culture etc. but fair enough not to compromise the Foundation's values, principles and more importantly its assets.</li>
 				</ul>
 				</li>
 				<li>managing Qualified Membership:
 				<ul>
 					<li>setting the criteria for Qualified Membership</li>
 					<li>reviewing nominations from existing QM or from the Foundation and deciding who can become QM</li>
-					<li>maintaining an appropriate balance of individuals (e.g. academics, government workers, vendors etc. as well as in terms of technical, organisational and other desired skills) <font color="#0000ff">[TB: how would this be done? What are the criteria?]</font> <font color="#ff0000">[KA: since this is not a fixed number group it is not appropriate to give a number or proportion for each. Also this is not a formal decision making group so probably there's no need for a strict rule. If we end up 90% vendor representation is this bad? Not at all in my opinion. I think we'll determine this along the way but the principle is clear]</font></li>
-					<li>etc.</li>
+					<li>maintaining an appropriate balance of individuals (e.g. academics, government workers, vendors etc. as well as in terms of technical, organisational and other desired skills).</li>
 				</ul>
 				</li>
 				<li>leadership and support for Qualified Members:
@@ -212,9 +211,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			<h3><a name="withprograms"></a>With other Programs</h3>
 			<p>The Localisation Program needs to maintain communications with the other openEHR Programs on a fairly constant basis. Necessary communications include:</p>
 			<ul>
-				<li>Clinical Models Program: TBD</li>
-				<li>Software Program: TBD</li>
-				<li>Specification Program: TBD</li>
+				<li>Clinical Models Program</li>
+				<li>Software Program</li>
+				<li>Specification Program</li>
 			</ul>
 
 			<h3><a name="withcommunity"></a>With the wider openEHR Community</h3>
@@ -228,12 +227,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 
 			<h2><a name="meetings"></a>Meetings</h2>
 			<p>Online meetings are the norm and the LPC and other QM will meet by teleconference at least bimonthly.</p>
-			<p>Face to face meetings should be sought whenever and whereever possible (e.g. conferences).</p>
+			<p>Face to face meetings should be sought whenever and wherever possible (e.g. conferences).</p>
 
 			
 			<h2><a name="ipissues"></a>IP Issues</h2>
-			<p>It is acknowledged that this may be a 'hard' topic&#33; While the copyright (of left) and licensing issues can be become quite complicated the rule of thumb is to provide maximum freedom in the use and dissemination of local openEHR resources while ensuring ownership and quality is retained.<font color="#ff0000">[KA: this can be as complicated as we want]</font>.</p>
-			<p>The details are discussed in this Page (TBD).</p>
+			<p>It is acknowledged that this may be a 'hard' topic&#33; While the copyright (of left) and licensing issues can be become quite complicated the rule of thumb is to provide maximum freedom in the use and dissemination of local openEHR resources while ensuring ownership and quality is retained.</p>
 
 
 			<h2><a name="evolution"></a>Evolution of these Terms of Reference</h2>

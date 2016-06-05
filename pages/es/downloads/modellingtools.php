@@ -17,48 +17,76 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			<tr>
 				<th>Project</th>
 				<th>Description</th>
+				<th>Artefacts</th>
 				<th>Technology</th>
-				<th>Download</th>
+				<th>Download/Access</th>
 				<th>Dev project</th>
 			</tr>
 			<tr>
-				<td><em>ADL 1.5 workbench (AWB)</em></td>
-				<td>Reference model-driven visual IDE for parsing, compiling, analysing, converting and (Q1 2013) editing ADL 1.4 and ADL 1.5 archetypes and templates. Built on the reference ADL parser.</td>
-				<td>Source: Eiffel 7.2; builds available for Windows, Linux and Mac OSX.</td>
-				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
-				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
+				<th><em>ADL Designer</em></th>
+				<td>The tool allows visual authoring of ADL 2 archetypes and templates including full archetype parsing, validation, flattening and serialisation. Backward compatibility for existing ADL 1.4 archetypes and export to Operational Template (1.4 OPT) is also supported</td>
+				<td>ADL 2 archetypes,<br/>templates,<br/>ADL 2 OPTs,<br/>ADL 1.4 OPTs</td>
+				<td>web (JavaScript, HTML etc)</td>
+				<td><a href="http://ehrscape.marand.si/designer/" target="_blank">Archetype Designer</a><br/>
+					<a href="http://ehrscape.marand.si/designer/" target="_blank">Template Designer</a>
+				</td>
+				<td><a href="https://github.com/openEHR/adl-designer" target="_blank">ADL-designer@Github</a></td>
 			</tr>
 			<tr>
-				<td><em>ADL 1.5 command-line compiler (ADLC)</em></td>
-				<td>A command-line version of the compiler used inside the ADL Workbench</td>
-				<td>Source: Eiffel 7.2; builds available for Windows, Linux and Mac OSX.</td>
-				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
-				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
-			</tr>
-			<tr>
-				<td><em>Archetype Editor (AE)</em></td>
-				<td>The Archetype Editor is currently the main tool in use for authoring openEHR ADL 1.4 archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Russian, Spanish, Swedish and Turkish.</td>
+				<th><em>Archetype Editor (AE)</em></th>
+				<td>The Archetype Editor is currently the main tool in use for authoring archetypes as found on openEHR CKM and elsewhere. It is Unicode-enabled and works with archetypes in any language. The editor application has been localised to several languages, including Danish, English, Farsi, German, Japanese, Russian, Spanish, Swedish and Turkish.</td>
+				<td>ADL 1.4 archetypes</td>
 				<td>Microsoft VB.NET</td>
 				<td><br/><a href="/downloads/archetypeeditor/home">Download and help pages</a><br/></td>
-				<td><a href="https://github.com/openEHR/arch_ed-dotneti" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
+				<td><a href="https://github.com/openEHR/arch_ed-dotnet" target="_blank">openEHR/arch_ed-dotnet@Github</a></td>
 			</tr>
 			<tr>
-				<td><em>LinkEHR Editor</em></td>
-				<td>The LinkEHR AOM 1.4 Editor works with multiple reference models and languages. Reference models can be plugged in in XML-schema or openEHR BMM (basic meta-model) format.</td>
-				<td>Java; all platforms.</td>
-				<td><br/><a href="http://pangea.upv.es/linkehr/" target="_blank">Download and help pages</a><br/></td>
+				<th><em>Template Designer</em></th>
+				<td>The Template Designer is the tool required for editing '.oet' (pre-ADL2) templates.</td>
+				<td>.oet templates;<br/>ADL 1.4 OPTs;<br/>ADL 1.4 archetypes.</td>
+				<td>.Net; Windows.</td>
+				<td>
+					<br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.6.1213.3.exe">TemplateDesignerSetup_ 2.6.1213.3.exe (EN)</a><br/>
+					<br/><a href="/download_files/TemplateDesigner/TemplateDesignerSetup_2.8.94.2.exe">TemplateDesignerSetup_ 2.8.94.2.exe (EN)</a><br/>
+				</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td><em>ADL Text Editor Modes</em></td>
+				<th><em>ADL 2 workbench (AWB)</em></th>
+				<td>Reference model-driven visual IDE for parsing, compiling, analysing, converting and editing archetypes and templates. Built on the reference ADL parser.</td>
+				<td>ADL 1.4 (read),<br/>ADL 2 archetypes and templates (read/write).</td>
+				<td>Windows, Linux and Mac OSX.</td>
+				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
+				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
+			</tr>
+			<tr>
+				<th><em>ADL 2 command-line compiler (ADLC)</em></th>
+				<td>A command-line version of the compiler used inside the ADL Workbench</td>
+				<td>ADL 1.4 (read),<br/>ADL 2 archetypes and templates (read/write).</td>
+				<td>Windows, Linux and Mac OSX.</td>
+				<td><a href="/downloads/ADLworkbench/home">Download and help pages</a></td>
+				<td><a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">openEHR/adl-tools@Github</a></td>
+			</tr>
+			<tr>
+				<th><em>LinkEHR Editor</em></th>
+				<td>The LinkEHR Editor works with multiple reference models and languages. Reference models can be plugged in in XML-schema or openEHR BMM (basic meta-model) format.</td>
+				<td>AOM 1.4 archetypes</td>
+				<td>Java; all platforms.</td>
+				<td><br/><a href="http://linkehr.com/" target="_blank">Download and help pages</a><br/></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th><em>ADL Text Editor Modes</em></th>
 				<td>ADL syntax plug-ins, syntax files and other support for text editors, including gvim/vim, emacs, Notepad++, Textpad, and Kate/KDevelop.</td>
+				<td></td>
 				<td>All platforms</td>
 				<td><a href="http://www.openehr.org/wiki/display/dev/ADL+Text+Editors" target="_blank">Download and help page</a></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td><em>LiU Archetype Editor</em></td>
+				<th><em>LiU Archetype Editor*</em></th>
 				<td>Part of the Link&ouml;ping University Project to build openEHR tools and demonstrators</td>
+				<td>ADL 1.4 archetypes</td>
 				<td>Java</td>
 				<td><br/><a href="http://www.imt.liu.se/mi/ehr/" target="_blank"> LiU</a> Archetype Editor, <br/>version 0.5.2 (2007 March 20)&nbsp;
 				<ul>
@@ -76,6 +104,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			</tr>
 			</tbody>
 			</table>
+			<p>* Status: unsupported</p>
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	

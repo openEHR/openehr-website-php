@@ -14,30 +14,28 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			
 			<p>The openEHR mailing lists are sited at <a href="http://www.mailmanhost.com/" target="_blank">dot.list</a>, a mailing list hoster run by one of the developers of the mailman software.</p>
 			
-			<table class="TableMain">
+			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th class="TableMainT">List</th>
-				<th class="TableMainT">Name</th>
-				<th class="TableMainT">Description</th>
-				<th class="TableMainT">Access</th>
-				<th class="TableMainT">Moderated</th>
-				<th class="TableMainT">Admins</th>
+				<th>List</th>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Access</th>
+				<th>Moderated</th>
 			</tr>
 			<tr>
-				<th class="TableMainT">Localistion list</th>
-				<td class="TableMainC">openehr-localisation</td>
-				<td class="TableMainC">This list is for discussions about issues of templates, archetypes and model localisation.</td>
-				<td class="TableMainC">subscribe <br/>
+				<th>Localistion list</th>
+				<td>openehr-localisation</td>
+				<td>This list is for discussions about issues of templates, archetypes and model localisation.</td>
+				<td>subscribe <br/>
 				unsubscribe <br/>
 				archive</td>
-				<td class="TableMainC">No</td>
-				<td class="TableMainC"></td>
+				<td>No</td>
 			</tr>
 			</tbody>
 			</table>
 	
-			<p>Other mailing lists you can find <a href="/community/mailinglists">here</a>.</p>
+			<p>Other mailing lists you can find <a href="/es/community/mailinglists">here</a>.</p>
 	
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	

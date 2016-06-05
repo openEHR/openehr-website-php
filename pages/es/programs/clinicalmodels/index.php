@@ -33,7 +33,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			<h2>Terminology</h2>
 			<p>Terminology is as old as computers in health care. Initially used to minimise disk space, the use of terminologies has grown to classify health care offered and more recently, through use of SNOMED-CT (<a href="http://www.ihtsdo.org/" target="_blank">IHTSDO</a>) to support automated clinical process. Archetypes, and openEHR for that matter, are designed to work with terminology.</p>
 			
-			<h4>Archetypes and Terminolofy</h4>
+			<h4>Archetypes and Terminology</h4>
 			<p>Every term in an archetype can be 'bound' to a terminology to better understand the authors intent. Further, archetypes allow expression of subsets to determine which terms are appropriate values at a given data point. This is called a 'constraint definition' and is really a placeholder for a valueset that is offered to the user within the application.</p>
 			
 			<h4>Templates and Terminology</h4>
@@ -45,7 +45,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			
 			
 			<h2>Clinical Knowledge Governance</h2>
-			<p>The openEHR <a href="documentation">Clinical Knowledge Manager (CKM)</a> (available <a href="http://www.openehr.org/ckm/" target="_blank">here</a>) is an online application that supports knowledge governance within and across the health enterprise. In practice, it is a system for collaborative development, management and publishing of a wide range of clinical knowledge resources including archetypes, templates and terminology subsets.</p>
+			<p>The openEHR <a href="http://www.openehr.org/ckm/" target="_blank">Clinical Knowledge Manager (CKM)</a> is an online application that supports knowledge governance within and across the health enterprise. In practice, it is a system for collaborative development, management and publishing of a wide range of clinical knowledge resources including archetypes, templates and terminology subsets.</p>
 			
 			
 			<h2>Clinical process including guidelines, workflow and pathways</h2>

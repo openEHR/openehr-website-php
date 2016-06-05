@@ -11,7 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
-			
+				
 			<p>The following table indicates known funded research projects using openEHR. Please <a href="/about/contacts">contact us</a>, to notify of other projects.</p>
 			
 			<table class="TableBasic">

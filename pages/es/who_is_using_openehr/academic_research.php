@@ -12,6 +12,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
+			<p>See <a href="https://www.zotero.org/groups/openehr/items">here</a> for the Zotero openEHR Research library, which contains an up to date index of all papers and theses published on opeEHR-related topics.</p>
+			
 			<p>If you are using openEHR for an academic (including open source) product, and would like to be included on the list, or you want to submit updates or corrections, then please <a href="/about/contacts">contact us</a>.</p>
 			
 			<table class="TableBasic">

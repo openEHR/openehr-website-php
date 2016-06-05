@@ -22,19 +22,32 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 				<th>Download</th>
 			</tr>	
 			<tr>
+				<td>EhrScape</td>
+				<td>openEHR health data platform, providing a rich service framework that allows you to build innovative health apps in a web friendly environment.</td>
+				<td> Java</td>
+				<td><a href="https://www.ehrscape.com/" target="_blank">EhrScape.com</a></td>
+			</tr>
+			<tr>
+				<td>adl2-core</td>
+				<td>A reference implementation of openEHR reference model, archetype model and other core ADL/AOM 2 semantics. This library is the core of ADL2 Java implementations of openEHR.</td>
+				<td> Java</td>
+				<td><a href="https://github.com/openEHR/adl2-core/" target="_blank">adl2-core@GitHub</a></td>
+			</tr>
+			<tr>
 				<td>open EHR-Gen</td>
 				<td>A framework for generating medical record systems based on openEHR</td>
 				<td> Grails, Groovy, Java</td>
-				<td><a href="http://translate.google.com/translate?sl=es&tl=en&js=n&prev=_t&hl=es&ie=UTF-8&eotf=1&u=http%3A%2F%2Fcode.google.com%2Fp%2Fopen-ehr-gen-framework%2F">Download page</a></td>
+				<td><a href="http://code.google.com/p/open-ehr-gen-framework/" target="_blank">Download page</a></td>
 			</tr>
 			<tr>
 				<td>Java Reference Implementation of openEHR</td>
 				<td>A reference implementation of openEHR reference model, archetype model and other core semantics. This library is the core of most other Java implementations of openEHR.</td>
 				<td>Java</td>
-				<td><a href="http://www.openehr.org/wiki/display/projects/Java+Project+Download">Download page</a></td>
+				<td><a href="http://www.openehr.org/wiki/display/projects/Java+Project+Download" target="_blank">Download page</a></td>
 			</tr>
 			</tbody>
 			</table>
+
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
