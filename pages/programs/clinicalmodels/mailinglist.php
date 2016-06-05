@@ -22,19 +22,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Description</th>
 				<th>Access</th>
 				<th>Moderated</th>
-				<th>Admins</th>
 			</tr>
 			<tr>
 				<th>Clinical list</th>
 				<td>openehr-clinical</td>
 				<td>This list is for discussions about any clinical aspect of the EHR. including clinical design of archetypes.</td>
 				<td>
-				<a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">subscribe<br/>
+				<a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org" target="_blank">subscribe<br/>
 				unsubscribe</a><br/>
 				<a href="mailto:openehr-clinical@lists.openehr.org">post</a><br/>
-				<a href="http://lists.openehr.org/pipermail/openehr-clinical_lists.openehr.org/">archive</a></td>
+				<a href="http://lists.openehr.org/pipermail/openehr-clinical_lists.openehr.org/" target="_blank">archive</a></td>
 				<td>No</td>
-				<td></td>
 			</tr>
 			</tbody>
 			</table>

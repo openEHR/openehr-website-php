@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<p>Having established a solid set of baseline specifications, the openEHR Foundation and community aims to build on these in order to provide more direct value to implementers, clinicians and users of health information systems. Community and vendor involvement is encouraged in all activities. </p>
-			<p>The following describes future directions. The operational Roadmap is always available on the <a href="https://openehr.atlassian.net/browse/SPEC">Specifications tracker</a>. </p>
+			<p>The following describes future directions. The operational Roadmap is always available on the <a href="https://openehr.atlassian.net/browse/SPEC" target="_blank">Specifications tracker</a>. </p>
 			
 			
 			<h2>Specifications</h2>
@@ -22,7 +22,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>ADL/AOM 2 bring the possibility of a formal unified model of templates, enabling archetype and template tools to be effectively the same thing.</p>
 
 			<h3>openEHR / Snomed CT integration</h3>
-			<p>The ADL 2 specifications define how terminology may be bound to archetypes, using IHTSDO URI guidelines, and experience gained from the community, and also from the <a href="http://opencimi.org">CIMI</a> community's use of ADL 2. The best approach to dealing with differing levels of model and terminology post-coordination are under active investigation.</p>
+			<p>The ADL 2 specifications define how terminology may be bound to archetypes, using IHTSDO URI guidelines, and experience gained from the community, and also from the <a href="http://opencimi.org" target="_blank">CIMI</a> community's use of ADL 2. The best approach to dealing with differing levels of model and terminology post-coordination are under active investigation.</p>
 
 			<h3>Virtual EHR (vEHR) and other Service Interfaces</h3>
 			<p>A number of service API definitions are available from industry for key services, including EHR, Demographics and Decision Support. These are being actively integrated into a coherent set of openEHR specifications.</p>

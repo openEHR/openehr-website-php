@@ -27,27 +27,27 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th> Artefact type</th>
-				<th> License for use</th>
-				<th> Comments</th>
+				<th>Artefact type</th>
+				<th>License for use</th>
+				<th>Comments</th>
 			</tr>
 			<tr>
-				<td> <b>Archetypes, templates</b> </td>
-				<td> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /> <br/>
-										WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. </td>
-				<td> The use of the CC-BY-SA license allows for public sharing, republishing and forking of the specifications. This acts as a safeguard against subversion of the openEHR Foundation preventing the community using the specifications in a fair way. <br/>
-				</td>
+				<td><em>Archetypes, templates</em></td>
+				<td><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" target="_blank"/><br/>
+				WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
+				<td>The use of the CC-BY-SA license allows for public sharing, republishing and forking of the specifications. This acts as a safeguard against subversion of the openEHR Foundation preventing the community using the specifications in a fair way.</td>
 			</tr>
 			<tr>
-				<td> <b>Terminology subsets</b> </td>
-				<td> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /> <br/>
-										WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. </td>
-				<td> <br/><br/><br/>ibid <br/><br/><br/></td>
+				<td><em>Terminology subsets</em></td>
+				<td><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" target="_blank"/><br/>
+				WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
+				<td>ibid</td>
 			</tr>
 			<tr>
-				<td> <b>Documentation</b> </td>
-				<td> <img src="http://i.creativecommons.org/l/by/3.0/88x31.png" style="border: 1px solid black" /><br/>WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</td>
-				<td> <br/><br/>Documentation is intended for wide dissemination. Improvement, translation and re-use are encouraged. <br/><br/><br/> </td>
+				<td><em>Documentation</em> </td>
+				<td><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" target="_blank"/><br/>
+				WORK by <a href="http://www.openEHR.org">openEHR Foundation</a> is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 Unported License</a>.</td>
+				<td>Documentation is intended for wide dissemination. Improvement, translation and re-use are encouraged.</td>
 			</tr>
 			</tbody>
 			</table>

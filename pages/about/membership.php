@@ -17,7 +17,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			
 			<h2 id="individualmembership">Individual Membership</h2>
-			<p>Individual participation in openEHR is free, and includes access to all openEHR published resources and specifications. Paid membership enables an individual to participate in Foundation elections, nominate for a board position and take part in formal processes. <a href="http://members.openehr.org">Membership site</a>.</p>
+			<p>Individual participation in openEHR is free, and includes access to all openEHR published resources and specifications. Paid membership enables an individual to participate in Foundation elections, nominate for a board position and take part in formal processes. <a href="http://members.openehr.org" target="_blank">Membership site</a>.</p>
 			<table class="TableBasic">
 			<tbody>
 			<tr>
@@ -28,7 +28,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 			<tr>
 				<td> <b>Informal<br/>Member</b></td>
-				<td> Open to individuals from any company or organisation. Community links <a href="http://www.openehr.org/community/mailinglists">here</a>.</td>
+				<td> Open to individuals from any company or organisation. Community links <a href="/community/mailinglists">here</a>.</td>
 				<td> 
 					<ul>
 						<li>Can participates in meetings.</li>
@@ -40,7 +40,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 			<tr>
 				<td> <b>Individual<br/>Member</b>	</td>
-				<td> Paid individual membership. Join <a href="http://members.openehr.org/join-us">here</a>.</td>
+				<td> Paid individual membership. Join <a href="http://members.openehr.org/join-us" target="_blank">here</a>.</td>
 				<td> 
 					<ul>
 						<li>Can vote in Management Board elections; </li>
@@ -55,7 +55,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</table>
 			
 			
-			<h2>Organisations</h2>
+			<h2 id="nationalpartner">Organisations</h2>
 			<p>Organisational membership currently relates to vendor companies. The openEHR Foundation is interested in proposals from public sector and academic organisations on an equivalent basis for institutional membership.</p>
 			<table class="TableBasic">
 			<tbody>
@@ -66,8 +66,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th> Financial<br/>Basis</th>
 			</tr>
 			<tr>
-				<td> <b id="industrypartner">Industry Partner</b></td>
-				<td> Vendor companies using openEHR. Join <a href="http://members.openehr.org/join-us">here</a>.</td>
+				<td id="industrypartner"> <b>Industry Partner</b></td>
+				<td> Vendor companies using openEHR. Join <a href="http://members.openehr.org/join-us" target="_blank">here</a>.</td>
 				<td> 
 					<ul>
 						<li>Ability to collectively elect 2 Management Board members;</li>

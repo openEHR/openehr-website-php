@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Legal Status</h2>
-			<p>The openEHR Foundation is a not-for-profit company, limited by guarantee, of University College London, UK. It is regulated under the UK Companies Acts 1985 and 1989. The name 'openEHR' has been registered internationally as a Trade Mark. One of its main legal functions is as the holder of its Intellectual Property, which it <a href="http://www.openehr.org/about/intellectual_property">makes freely available</a>.</p>
+			<p>The openEHR Foundation is a not-for-profit company, limited by guarantee, of University College London, UK. It is regulated under the UK Companies Acts 1985 and 1989. The name 'openEHR' has been registered internationally as a Trade Mark. One of its main legal functions is as the holder of its Intellectual Property, which it <a href="/about/intellectual_property">makes freely available</a>.</p>
 			
 			<h2>openEHR Vision</h2>
 			<p>The openEHR Foundation vision is of a world in which healthcare routinely obtains benefit from ICT, in particular:</p>

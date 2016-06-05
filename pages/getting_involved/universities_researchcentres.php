@@ -26,6 +26,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li>Legacy data integration </li>
 				<li>REST interfaces to archetyped data </li>
 			</ul>
+			<a href="/files/getting_involved/universities_research.png"><img src="/files/getting_involved/universities_research.png" alt="openEHR Ecosystem - Universities / Research" title="openEHR Ecosystem - Universities / Research" class = "imgMiddle width50"/></a>
 
 			<h2>How openEHR works for others</h2>
 			<p>For list of universities and centres which are working and contributing to openEHR see <a href="/who_is_using_openehr/academic_research">who is using openEHR</a>.</p>

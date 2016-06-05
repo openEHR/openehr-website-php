@@ -22,42 +22,38 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Description</th>
 				<th>Access</th>
 				<th>Moderated</th>
-				<th>Admins</th>
 			</tr>
 			<tr>
 				<th>Implementers<br> list</th>
 				<td>openehr-implementers</td>
 				<td>This list is for those implementing openEHR to discuss low-level technicalities in detail, including methods of programming, tools, schemas and so on.</td>
-				<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-implementers_lists.openehr.org">subscribe<br/>
+				<td><a href="http://lists.openehr.org/mailman/listinfo/openehr-implementers_lists.openehr.org" target="_blank">subscribe<br/>
 				unsubscribe</a><br/>
 				<a href="mailto:openehr-implementers@lists.openehr.org">post</a><br/>
-				<a href="http://lists.openehr.org/pipermail/openehr-implementers_lists.openehr.org/">archive</a></td>
+				<a href="http://lists.openehr.org/pipermail/openehr-implementers_lists.openehr.org/" target="_blank">archive</a></td>
 				<td>No</td>
-				<td></td>
 			</tr>
 			<tr>
 				<th>Eiffel implementation list</th>
 				<td>ref_impl_eiffel</td>
 				<td>This list is for those implementing openEHR in Eiffel and/or .Net, C, and other Eiffel-connectable technologies.</td>
 				<td>
-				<a href="http://lists.openehr.org/mailman/listinfo/ref_impl_eiffel_lists.openehr.org">subscribe<br/>
+				<a href="http://lists.openehr.org/mailman/listinfo/ref_impl_eiffel_lists.openehr.org" target="_blank">subscribe<br/>
 				unsubscribe</a><br/>
 				<a href="mailto:ref_impl_eiffel@lists.openehr.org">post</a><br/>
-				<a href="http://lists.openehr.org/pipermail/ref_impl_eiffel_lists.openehr.org/">archive</a></td>
+				<a href="http://lists.openehr.org/pipermail/ref_impl_eiffel_lists.openehr.org/" target="_blank">archive</a></td>
 				<td>No</td>
-				<td></td>
 			</tr>
 			<tr>
 				<th>Java implementation list</th>
 				<td>ref_impl_java</td>
 				<td>This list is for those implementing openEHR in Java and Java-related technologies.</td>
 				<td>
-				<a href="http://lists.openehr.org/mailman/listinfo/ref_impl_java_lists.openehr.org">subscribe<br/>
+				<a href="http://lists.openehr.org/mailman/listinfo/ref_impl_java_lists.openehr.org" target="_blank">subscribe<br/>
 				unsubscribe</a><br/>
 				<a href="mailto:ref_impl_java@lists.openehr.org">post</a><br/>
-				<a href="http://lists.openehr.org/pipermail/ref_impl_java_lists.openehr.org/">archive</a></td>
+				<a href="http://lists.openehr.org/pipermail/ref_impl_java_lists.openehr.org/" target="_blank">archive</a></td>
 				<td>No</td>
-				<td></td>
 			</tr>
 			</tbody>
 			</table>

@@ -27,7 +27,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li>Develop strategy and determine overall priorities for use of funds.</li>
 			</ul>
 			
-			<h2 id="managementboard">Management Board</h2>
+			<h2>Management Board</h2>
 			<p>The openEHR Management Board exists to coordinate Programme activities, and ensure they are synchronised with the current priorities of the Board of Governors. Its membership consists of five members, with up to three further co-opted positions:
 			<ul>
 				<li>One position appointed by the Board of Governors, from the Board of Governors;</li>
@@ -45,10 +45,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li>Liaise with industry, eHealth standards bodies and national eHealth programmes;</li>
 				<li>Meet monthly.</li>
 			</ul>
-			<p>See members of openEHR Management Board <a href="people_in_governance#managementboard">here</a>.</p>
+			<p>See members of openEHR Management Board <a href="/about/management_board">here</a>.</p>
 			
-			<h2 id="administration">Administration</h2>
-			<h3 id="foundationoffice">Foundation Office</h3>
+			<h2>Administration</h2>
+			<h3>Foundation Office</h3>
 			<p>The Foundation Office manages the day-to-day operation of the Foundation and has paid staff. The responsibilities are as follows:</p>
 			<ul>
 				<li>Routine administration as required by all parts of the Foundation;</li>
@@ -58,16 +58,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li>Running an annual openEHR community conference;</li>
 				<li>Book-keeping and liaising with accountants.</li>
 			</ul>
-			<h3 id="webcommittee">Web Committee</h3>
+			<h3>Web Committee</h3>
 			<p>The Web Committee is responsible for the e-presence of openEHR, undertaking the following tasks:</p>
 			<ul>
 				<li>Design & manage the online resources, including website, educational resources, and social media;</li>
 				<li>Respond to and implement board directives relating to online communications.</li>
 			</ul>
-			<h3 id="instrastructuregroup">Infrastructure</h3>
+			<h3>Infrastructure</h3>
 			<p>The Infrastructure admin group is responsible for the computing infrastructure of openEHR, including all online services, hosting etc.</p>
 
-			<h2 id="programs">Programs</h2>
+			<h2>Programs</h2>
 			<p>Each Program has its own governance Terms of Reference, as follows:</p>
 			<ul>
 				<li><a href="/programs/specification/governance">Specification Program</li>

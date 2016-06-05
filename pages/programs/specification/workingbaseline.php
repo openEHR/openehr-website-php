@@ -4,7 +4,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 //Change page name here:
 $PageName = 'Working Baseline';
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 ?>
 
 		<div id="Content">

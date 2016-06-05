@@ -41,8 +41,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>The sections below describe in detail how the Specifications Program functions. The essentials are as follows:</p>
 				<ul>
 					<li>A Specifications Editorial Committee (SEC) is the governing body and has between 5 and 40 members, representing major stakeholders, particularly implementers;</li>
-					<li>The specifications are change-managed and released as separate Components, e.g. 'Reference Model', 'Conformance' etc, each of which has its own visible <a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">online Change Tracker</a>, enabling community and public involvement possible at all stages;</li>
-					<li>A global <a href="https://openehr.atlassian.net/browse/SPECPR/">Problem Tracker</a> is available to the whole community for reporting issues with the specifications;</li>
+					<li>The specifications are change-managed and released as separate Components, e.g. 'Reference Model', 'Conformance' etc, each of which has its own visible <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">online Change Tracker</a>, enabling community and public involvement possible at all stages;</li>
+					<li>A global <a href="https://openehr.atlassian.net/browse/SPECPR/" target="_blank">Problem Tracker</a> is available to the whole community for reporting issues with the specifications;</li>
 					<li>Decision-making is normally based on consensus, with wider consultation and then formal voting used when no agreement is available.</li>
 				</ul>		
 			<p>The governance provisions here are intended to be as lightweight and transparent as possible, with progress depending primarily on a) the experience and goodwill of the members, and b) on high quality tool support for efficient e-working.</p>
@@ -53,7 +53,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h2><a name="specifications"></a>The Specifications</h2>
 			<p>The specifications under management by the Program are identified in terms of Specifications Components, each consisting of one or more concrete Specifications relating to a topic area. <em>A Component is defined as being something that is separately releasable</em>. In openEHR, Components include the Reference Model, the Archetype Model, Querying, Conformance and CDS.</p>
-			<p>The definitive list of Components at any time is shown in the 'Component' column of the <a href="/programs/specification/releases/currentbaseline">current baseline specifications page.</a></p>
+			<p>The definitive list of Components at any time is shown in the 'Component' column of the <a href="/programs/specification/releases/workingbaseline">current baseline specifications page.</a></p>
 			<p>Each logical Specification within a Component consists of:</p>
 				<ul>
 					<li>a definitive publishable documentary form, typically in PDF and/or HTML format;</li>

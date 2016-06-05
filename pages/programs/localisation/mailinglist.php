@@ -22,7 +22,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Description</th>
 				<th>Access</th>
 				<th>Moderated</th>
-				<th>Admins</th>
 			</tr>
 			<tr>
 				<th>Localistion list</th>
@@ -32,7 +31,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				unsubscribe <br/>
 				archive</td>
 				<td>No</td>
-				<td></td>
 			</tr>
 			</tbody>
 			</table>

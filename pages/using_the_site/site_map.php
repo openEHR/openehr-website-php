@@ -63,22 +63,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<br/>
 			
 			Specifications (Quick Links)
-				<ul>
-					<li><a href="/programs/specification/releases/" title="Current official release of specifications">Current Release</a></li>
-					<li><a href="/programs/specification/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
-					<li><a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank" title="Specifications issue trackers (Jira)">Specs (Jira)</a></li>
-					<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (ODIN format object model schemas)">RM BMM Schemas</a></li>
-				</ul>
+			<ul>
+				<li><a href="/programs/specification/releases/" title="Current official release of specifications">Current Release</a></li>
+				<li><a href="/programs/specification/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
+				<li><a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank" title="Specifications issue trackers (Jira)">Specs (Jira)</a></li>
+				<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (ODIN format object model schemas)">RM BMM Schemas</a></li>
+			</ul>
 			<br/>
 			
 			Clinical Models (Quick Links)
-				<ul>
-					<li><a href="/ckm/" title="Clinical Knowledge Manager">CKM</a></li>
-					<li><a href="/ckm/#repositoryoverview" title="Clinical Knowledge Manager mindmap of all archetypes">CKM Archetypes Mindmap</a></li>
-					<li><a href="/ckm/#userstatistics" title="Clinical Knowledge Manager user statistics">CKM User Statistics</a></li>
-					<li><a href="/wiki/display/spec/openEHR+Terminology" title="openEHR terminology/vocabulary page">openEHR Terminology</a></li>
-					<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank" title="Library of ADL reference archetypes for compiler testing">ADL Test Archetypes</a></li>
-				</ul>
+			<ul>
+				<li><a href="/ckm/" title="Clinical Knowledge Manager">CKM</a></li>
+				<li><a href="/ckm/#repositoryoverview" title="Clinical Knowledge Manager mindmap of all archetypes">CKM Archetypes Mindmap</a></li>
+				<li><a href="/ckm/#userstatistics" title="Clinical Knowledge Manager user statistics">CKM User Statistics</a></li>
+				<li><a href="/wiki/display/spec/openEHR+Terminology" title="openEHR terminology/vocabulary page">openEHR Terminology</a></li>
+				<li><a href="https://github.com/openEHR/adl-archetypes/tree/master/ADL15-reference/" target="_blank" title="Library of ADL reference archetypes for compiler testing">ADL Test Archetypes</a></li>
+			</ul>
 			<br/>
 				
 			<?php include $_SERVER['DOCUMENT_ROOT'].'/pages/resources/menu.php' ?>

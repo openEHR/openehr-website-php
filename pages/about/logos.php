@@ -20,8 +20,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			
 			<h2>Specification for fonts</h2>
-			<p>Orange: RGB = 250, 151, 57 [FA9739]; HSV = 29, 77, 98</p>
-			<p>Blue: RGB = 0, 53, 95 [00355F]; HSV = 206, 100, 37</p>
+			<p>Orange: RGB = 222, 125, 71 [de7d47]; HSV = 21, 68, 87</p>
+			<p>Blue: RGB = 18, 63, 109 [123f6d]; HSV = 210, 83, 43</p>
 			
 			<table class="TableBasic">
 			<tbody>
@@ -31,13 +31,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Uses</th>
 			</tr>
 			<tr> 
-				<td><img src="/files/about/logodoc.jpeg"></td>
-				<td>457x155 PNG</td>
+				<td><a href="/gui/Logo.jpg"><img src="/gui/Logo.jpg"></a></td>
+				<td>JPG (min. width: 100px)</td>
 				<td>Documents, mainly for web publishing, ok for basic printing</td>
 			</tr>
 			<tr>
-				<td><img src="/files/about/logoweb.png"></td>
-				<td>150x50 PNG</td>
+				<td><a href="/gui/Logo.png"><img src="/gui/Logo.png"></a></td>
+				<td>PNG (min. width: 75px)</td>
 				<td>Web sites</td>
 			</tr>
 			</tbody>

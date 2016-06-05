@@ -45,7 +45,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			
 			<h2>Clinical Knowledge Governance</h2>
-			<p>The openEHR <a href="documentation">Clinical Knowledge Manager (CKM)</a> (available <a href="http://www.openehr.org/ckm/" target="_blank">here</a>) is an online application that supports knowledge governance within and across the health enterprise. In practice, it is a system for collaborative development, management and publishing of a wide range of clinical knowledge resources including archetypes, templates and terminology subsets.</p>
+			<p>The openEHR <a href="http://www.openehr.org/ckm/" target="_blank">Clinical Knowledge Manager (CKM)</a> is an online application that supports knowledge governance within and across the health enterprise. In practice, it is a system for collaborative development, management and publishing of a wide range of clinical knowledge resources including archetypes, templates and terminology subsets.</p>
 			
 			
 			<h2>Clinical process including guidelines, workflow and pathways</h2>
