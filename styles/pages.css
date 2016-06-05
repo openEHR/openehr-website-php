@@ -209,7 +209,7 @@ img {margin: 10px 0 10px 0;}
 
 .TableInvisible th {
 	padding: 3px 5px 3px 5px;
-	border: none;
+	border: 1px solid #fff;
 
 	background-color: #ebf0f0;
 	color: #023760;
@@ -219,7 +219,7 @@ img {margin: 10px 0 10px 0;}
 
 .TableInvisible td {
 	padding: 3px 5px 3px 5px;
-	border: none;
+	border: 1px solid #fff;
 
 	text-align: justify;
 	vertical-align: top;

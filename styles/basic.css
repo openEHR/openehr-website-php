@@ -19,8 +19,6 @@ br.clear {display: block; height: 0; font-size: 0; clear: both;}
 
 .dropDown {display: none;}
 
-.flagIcon {float:right; margin: 0 0 0 10px; padding: 0;}
-
 .floatLeft {float: left;}
 .floatRight {float: right;}
 
