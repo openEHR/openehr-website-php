@@ -113,6 +113,10 @@ html,body {
 	
 }
 
+#cse-search-form {
+	width: 100%;
+}
+
 #Search input.gsc-search-button {
 	width: 60px;
 	border: 1px solid #023760;
