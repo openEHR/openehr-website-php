@@ -64,7 +64,7 @@
 	
 		<div id="BottomPanel">
 			<div id = "WebLinks">
-				<span><a href="/es/using_the_site/terms_of_use">Términos de Uso</a> | <a href="/es/using_the_site/privacy_policy">Política de Privacidad</a> | <a href="/es/using_the_site/localisation">Localización</a> | <a href="/es/using_the_site/feedback">Retroalimentación</a> | <a href="/es/using_the_site/site_map">Mapa del Sitio</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a></span>
+				<span><a href="/es/using_the_site/terms_of_use">Términos de Uso</a> | <a href="/es/using_the_site/privacy_policy">Política de Privacidad</a> | <a href="/es/using_the_site/localisation">Localización</a> | <a href="/es/using_the_site/feedback">Retroalimentación</a> | <a href="/es/using_the_site/site_map">Mapa del Sitio</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a></span><br/>
 				<span>Copyright &copy; <?php echo date("Y");?> Fundación openEHR. Todos los derechos reservados</span>
 			</div>
 			
