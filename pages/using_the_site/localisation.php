@@ -15,7 +15,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>If you want to help translate the openEHR website please <a href="mailto:webmaster@openehr.org">contact us</a>.</p>
 
 			<h2>Updating the translation of an existing language</h2>
-			<p>If you want to translate new or changed content to a language that is already established in the website, we will provide you a contact to the person responsible for that language so as to coordinate the work. Normally you will use the 'fork/pull-request' workflow as described below to do the changes.</p>
+			<p>If you want to translate new or change content to a language that is already established in the website, we will provide you a contact to the person responsible for that language so as to coordinate the work. Normally you will use the 'fork/pull-request' workflow as described below to do the changes.</p>
 
 			<h2>Translating the website into a new language</h2>
 			<p>If you want to translate to a language that is not yet established in the website, the process is as follows:</p>
@@ -29,12 +29,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>The latter steps are described in detail below.</p>
 
 			<h2>How the website is structured</h2>
-			<p>The website content for a given language translation exists under the directory <code>/pages/lang</code>, for example <code>/pages/es</code>. The translation work consists of copying selected parts of the EN language main site to this directory, and translating three things:</p>
-			<ul>
-				<li>the main content within a page, delimited by the 'Content starts here' / 'content ends here' lines, e.g. as per <a href ="https://github.com/openEHR/openehr-website/blob/master/pages/es/openehr_programs.php">this example</a>;</li>
-				<li>index file texts (but not hrefs), as per <a href="https://github.com/openEHR/openehr-website/blob/master/pages/es/who_is_using_openehr/index.php">this example</a>;</li>
-				<li>menu file texts (but not hrefs / file names), as per <a href="https://github.com/openEHR/openehr-website/blob/master/pages/es/who_is_using_openehr/menu.php">this example</a>.</li>
-			</ul>
+			<p>The website content for a given language translation exists under the directory <code>/pages/lang</code>, for example <code>/pages/es</code>. The translation work consists of translating the main content within a page, delimited by the 'Content starts here' / 'content ends here' lines, e.g. as per <a href ="https://github.com/openEHR/openehr-website/blob/master/pages/es/openehr_programs.php" target="_blank">this example</a>. You don't need to worry about the markup content inside the angle brackets, but you need to translate content outside of the brackets e.g. 'Deployed Solutions' as per <a href="https://github.com/openEHR/openehr-website/blob/master/pages/who_is_using_openehr/index.php" target="_blank">this example</a>.</p>
+				
+	
 			<a href="/files/using_the_site/translation.png"><img src="/files/using_the_site/translation.png" alt="Translation" title="Click to enlarge" class = "imgMiddle width50"/></a>
 			<p>Translating diagrams may require some extra effort, since diagram source files may be PPT or other formats. Please contact the webmaster for diagram translations.</p>
 
