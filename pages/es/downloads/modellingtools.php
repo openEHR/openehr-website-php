@@ -70,7 +70,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			<tr>
 				<th><em>LinkEHR Editor</em></th>
 				<td>The LinkEHR Editor works with multiple reference models and languages. Reference models can be plugged in in XML-schema or openEHR BMM (basic meta-model) format.</td>
-				<td>AOM 1.4 archetypes</td>
+				<td>.oet templates;<br/>ADL 1.4 OPTs;<br/>ADL 1.4 archetypes.</td>
 				<td>Java; all platforms.</td>
 				<td><br/><a href="http://linkehr.com/" target="_blank">Download and help pages</a><br/></td>
 				<td></td>

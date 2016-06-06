@@ -70,7 +70,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<tr>
 				<th><em>Editor LinkEHR</em></th>
 				<td>O Editor LinkEHR trabalha com vários modelos e línguas de referência. Os modelos de referência podem ser conectado em XML-schema ou no formato openEHR BMM (básico meta-modelo).</td>
-				<td>AOM 1.4 Arquétipos</td>
+				<td>.oet templates;<br/>ADL 1.4 OPTs;<br/>ADL 1.4 Arquétipos.</td>
 				<td>Java; todas as plataformas.</td>
 				<td><br/><a href="http://pangea.upv.es/linkehr/" target="_blank">Download e páginas de ajuda</a><br/></td>
 				<td></td>
