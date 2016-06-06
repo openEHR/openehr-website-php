@@ -12,12 +12,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<a href="http://www.marand.com/" target="_blank"><img src="/files/industry_partners/marand_logo.png" class="IndustryLogoImg"></a>
+			<a href="http://www.marand.com/" target="_blank"><img src="/files/industry_partners/marand_logo.png" class="IndustryLogo"></a>
 			
 			<p><em>Headquarters:</em> Slovenia</p>
 			<p><em>Size:</em> 110 employees</p>
 			<p><em>Trading since:</em> 1989</p>
 			<p><a href="http://www.marand.com/" target="_blank">website</a></p>
+			<br/>
+			<br/>
 			
 			<h2>Solutions</h2>
 			<p><a href ="http://www.marand-think.com/" target="_blank">Think!EHR Platform&#8482;</a> is a health data repository based on open standards. It provides a solid foundation to jumpstart development of state-of-the-art healthcare apps and applications.</p>

@@ -37,12 +37,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			</table>
 
 			<h2><a name="introduction"></a>Introduction</h2>
-			<p>This page and the associated <a href = "/programs/specification/changeprocess">Change Process page</a> constitute the terms of reference (ToR) for the openEHR Specification Program. The Specification Program has members drawn from the wider openEHR membership, particularly openEHR solution vendors and other implementers for whom the specifications are of concrete importance. Ideally the membership of the Program will include individuals from multiple language groups, cultures as well as with a diversity of technical, clinical and informatics backgrounds.</p>
+			<p>This page and the associated <a href = "/pt/programs/specification/changeprocess">Change Process page</a> constitute the terms of reference (ToR) for the openEHR Specification Program. The Specification Program has members drawn from the wider openEHR membership, particularly openEHR solution vendors and other implementers for whom the specifications are of concrete importance. Ideally the membership of the Program will include individuals from multiple language groups, cultures as well as with a diversity of technical, clinical and informatics backgrounds.</p>
 			<p>The sections below describe in detail how the Specifications Program functions. The essentials are as follows:</p>
 				<ul>
 					<li>A Specifications Editorial Committee (SEC) is the governing body and has between 5 and 40 members, representing major stakeholders, particularly implementers;</li>
-					<li>The specifications are change-managed and released as separate Components, e.g. 'Reference Model', 'Conformance' etc, each of which has its own visible <a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">online Change Tracker</a>, enabling community and public involvement possible at all stages;</li>
-					<li>A global <a href="https://openehr.atlassian.net/browse/SPECPR/">Problem Tracker</a> is available to the whole community for reporting issues with the specifications;</li>
+					<li>The specifications are change-managed and released as separate Components, e.g. 'Reference Model', 'Conformance' etc, each of which has its own visible <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">online Change Tracker</a>, enabling community and public involvement possible at all stages;</li>
+					<li>A global <a href="https://openehr.atlassian.net/browse/SPECPR/" target="_blank">Problem Tracker</a> is available to the whole community for reporting issues with the specifications;</li>
 					<li>Decision-making is normally based on consensus, with wider consultation and then formal voting used when no agreement is available.</li>
 				</ul>		
 			<p>The governance provisions here are intended to be as lightweight and transparent as possible, with progress depending primarily on a) the experience and goodwill of the members, and b) on high quality tool support for efficient e-working.</p>
@@ -53,7 +53,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			
 			<h2><a name="specifications"></a>The Specifications</h2>
 			<p>The specifications under management by the Program are identified in terms of Specifications Components, each consisting of one or more concrete Specifications relating to a topic area. <em>A Component is defined as being something that is separately releasable</em>. In openEHR, Components include the Reference Model, the Archetype Model, Querying, Conformance and CDS.</p>
-			<p>The definitive list of Components at any time is shown in the 'Component' column of the <a href="/programs/specification/releases/currentbaseline">current baseline specifications page.</a></p>
+			<p>The definitive list of Components at any time is shown in the 'Component' column of the <a href="/pt/programs/specification/workingbaseline">current baseline specifications page.</a></p>
 			<p>Each logical Specification within a Component consists of:</p>
 				<ul>
 					<li>a definitive publishable documentary form, typically in PDF and/or HTML format;</li>
@@ -62,7 +62,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 					<li>formal educational materials accompanying the specification, including example uses and files.</li>
 				</ul>		
 			<p>At any point in time, a Specification is in one of the lifecycle states: Planned, Development, Trial, Stable, or Retired.</p>
-			<p>Each specifications Component has a dedicated <a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Change Tracker</a>.</li>
+			<p>Each specifications Component has a dedicated <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">Change Tracker</a>.</li>
 
 			<h2><a name="sec"></a>Specifications Editorial Committee (SEC)</h2>
 			<p>The Specification Program is managed by the Specifications Editorial Committee (SEC). The SEC membership consists of community members who are qualified and who have an interest in maintaining the specifications into the future on behalf of the community. The SEC aims to be as representative as possible of the interests of major stakeholders, including vendors, healthcare professionals and government, with implementers having a certain precedence, since it is software products that are directly based on the specifications.</p>

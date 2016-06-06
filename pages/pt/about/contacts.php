@@ -12,9 +12,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			
 			<h1><?php echo "$PageName";?></h1>
 			
-			<p>Para contactar o  webmaster clique <a href="mailto:webmaster@openehr.org">aqui</a>.</p>
-			<p>Para contactar um membro da diretoria clique <a href="mailto:foundationoffice@openehr.org">aqui</a>.</p>			
-			<p>Para contactar a secretaria  da fundação clique <a href="mailto:foundationoffice@openehr.org">aqui</a>.</p>
+			<p>Para contactar o webmaster clique <a href="mailto:webmaster@openehr.org">aqui</a>.</p>
+			<p>Para contactar a secretaria da fundação clique <a href="mailto:foundationoffice@openehr.org">aqui</a>.</p>
+			<p>Para contactar um membro da gestão clique <a href="mailto:mgtboard@openehr.org">aqui</a>.</p>
+			<p>Para contactar um membro da diretoria clique <a href="mailto:govboard@openehr.org">aqui</a>.</p>			
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	

@@ -19,9 +19,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header_top.php');
 			
 			
 			<h2>Enviando feedback</h2>
-			<p>Por favor envie feedback ou novas idéias de design <a href="http://www.openehr.org/wiki/display/oecom/2012+Website+-+feedback+page" target="_blank">aqui</a>.</p>
-			<p> Relatar problemas e requisições de mundança <a href="https://github.com/openEHR/openehr-website/issues" target="_blank">aqui</a>.</p>
-			<p>Email <a href="mailto:webmaster@openehr.org">webmaster</a>.</p>
+			<p>Por favor envie feedback ou novas idéias de design ou relatar problemas e requisições de mundança <a href="https://openehr.atlassian.net/projects/WEB/issues" target="_blank">aqui</a>.</p>
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>

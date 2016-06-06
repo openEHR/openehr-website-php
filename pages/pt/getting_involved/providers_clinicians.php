@@ -18,7 +18,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			
 			<h2>What can openEHR do for you</h2>
 			<p>As a clinician you are in the position to present your information requirements to the openEHR community and ensure that the specifications really do allow you to do what you need. These are specified as archetypes - allowing them to be shared across systems implementing the openEHR architecture.</p>
-			<p>The openEHR community is presently building a repository for the web-based authoring of archetypes. This <a href="http://www.openehr.org/knowledge/" target="_blank">Archetype Library</a> is an early prototype and includes an OWL repository for aiding the documentation of archetypes and helping us find them.</p>
+			<p>The openEHR community is presently building a repository for the web-based authoring of archetypes. This <a href="http://www.openehr.org/ckm" target="_blank">Archetype Library</a> is an early prototype and includes an OWL repository for aiding the documentation of archetypes and helping us find them.</p>
 			<p>Some of the benefits available from openEHR-baed systems for clinical professionals:</p>
 			<ul>
 				<li><em>Domain specialists can model their own information and workflows</em> using archetypes, and have these used directly in the openEHR-enabled environments. Archeype modelling can occur at an international as well as local level, enabled by the openEHR online archetype library, a managed global archetype development and governance environment. By this means, even doctors in remote locations can participate directly in building health content models for the needs of their local environment and speciality.</li>

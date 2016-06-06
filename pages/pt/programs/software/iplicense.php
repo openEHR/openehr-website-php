@@ -26,15 +26,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 				<th> Comentários</th>
 			</tr>
 			<tr>
-				<td> <b>Código Fonte</b> </td>
-				<td> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
-										<a href="http://www.apache.org/licenses/LICENSE-2.0">Licença Apache 2 </a></td>
-				<td> <br/><br/>Artefatos computáveis ​​são licenciados, da mesma forma que software, usando a licença do Apache, que é amplamente aceito e amigável à indústria.
+				<td><em>Código Fonte</em></td>
+				<td><a href="http://www.apache.org" target="_blank"><img src="http://www.apache.org/images/feather-small.gif" height="25px"/></a><br/>
+				<a href="http://www.apache.org/licenses/LICENSE-2.0">Licença Apache 2 </a></td>
+				<td>Artefatos computáveis ​​são licenciados, da mesma forma que software, usando a licença do Apache, que é amplamente aceito e amigável à indústria.</td>
+			</tr>
 			<tr>
-				<td> <b>Documentação</b> </td>
-				<td> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /><br/>PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> está licenciado sob
-										<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
-				<td> <br/><br/>A documentação é destinada a ampla divulgação, e melhorias. Traduções e re-uso são incentivados.<br/><br/><br/> </td>
+				<td><em>Documentação</em></td>
+				<td><a href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB" target="_blank"><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a><br/>
+				PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> está licenciado sob
+				<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
+				<td>>A documentação é destinada a ampla divulgação, e melhorias. Traduções e re-uso são incentivados.</td>
 			</tr>
 			</tbody>
 			</table>

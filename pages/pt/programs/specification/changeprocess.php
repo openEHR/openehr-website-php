@@ -11,7 +11,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 <!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
-		
 			
 			<h2><a name="revision_history"></a>Revision History</h2>
 			<table class='TableBasic'>
@@ -38,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			</table>
 
 			<h2><a name="introduction"></a>Introduction</h2>
-			<p>This document describes the Change Management of the openEHR Specification Program, and is part of the <a href="/programs/specification/governance">governance Terms of Reference</a> for the program. Specifications are divided into major Components (identified in the 'Component' column of the <a href="/programs/specification/releases/currentbaseline">current baseline</a>). They are managed by the <a href="/programs/specification/governance#sec">Specifications Editorial Committee (SEC)</a>, according to the process described here. All change and release management is <a href="https://openehr.atlassian.net/browse/SPEC">visible online</a>.</p>
+			<p>This document describes the Change Management of the openEHR Specification Program, and is part of the <a href="/pt/programs/specification/governance">governance Terms of Reference</a> for the program. Specifications are divided into major Components (identified in the 'Component' column of the <a href="/pt/programs/specification/workingbaseline">current baseline</a>). They are managed by the <a href="/pt/programs/specification/governance#sec">Specifications Editorial Committee (SEC)</a>, according to the process described here. All change and release management is <a href="https://openehr.atlassian.net/browse/SPEC" target="_blank">visible online</a>.</p>
 
 			<h2><a name="lifecycle"></a>Specification Lifecycle</h2>
 			<p>All specification artefacts, both documentary and computable follow a lifecycle, from inception (or accession, in the case of donated works) to stability to obsolescence. The following formal lifecycle states are recognised: Planning, Development, Trial, Stable, and Retired. For specifications developed from scratch within openEHR (i.e. not donated), the management is as follows:</p>
@@ -169,7 +168,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<p>Releases are defined for each Component, as the organising structure for changes. They are normally defined pragmataically, depending on the needs and interests of the community, as understood by the SEC. For example various 'easy' changes may be already described in PRs or CRs, that could be allocated to a release scheduled soon, whereas other changes might be spread over a programme of other releases.</p>
 
 			<h3><a name="problemreports"></a>Problem Reports</h3>
-			<p>PRs raised on the <a href="https://openehr.atlassian.net/browse/SPECPR/">public SPECPR tracker</a> are reviewed on a regular basis by the SEC, and where appropriate,  CRs raised. PR review is carried out online by the SEC either when a new PR is raised, or at least every 3 months.</p>
+			<p>PRs raised on the <a href="https://openehr.atlassian.net/browse/SPECPR/" target="_blank">public SPECPR tracker</a> are reviewed on a regular basis by the SEC, and where appropriate,  CRs raised. PR review is carried out online by the SEC either when a new PR is raised, or at least every 3 months.</p>
 			<p>PR review can lead to a number of possibilities. The PR may be rejected, in which case it is resolved as such and closed. For PRs that are accepted, one or more CRs may be created on the relevant Component CR tracker, or the PR may be linked to an existing PR.</p>
 			<p>PRs that create CRs are referenced by the relevant CRs. When the latter are completed, the relevant PRs are resolved according to the resolutions of the related CRs.</p>
 			<p>CRs are not created for specifications still in development phase; instead, changes are added to the CR used at creation of the specification.</p>
@@ -308,7 +307,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<h2><a name="faq"></a>Frequently Asked Questions</h2>
 			
 			<h3>Who can report a problem or propose a change to a specification?</h3>
-			<p>Anyone. This is done by creating a Problem Report (PR) on the <a href="https://openehr.atlassian.net/browse/SPECPR/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel10190">SPEC PR public issue tracker</a>. The (SEC) reviews these on a  regular basis and may decide to create a Change Request on the specification library based on the PR.</p>
+			<p>Anyone. This is done by creating a Problem Report (PR) on the <a href="https://openehr.atlassian.net/browse/SPECPR/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel10190" target="_blank">SPEC PR public issue tracker</a>. The (SEC) reviews these on a  regular basis and may decide to create a Change Request on the specification library based on the PR.</p>
 
 			<h3>Who decides if a change will be performed or rejected?</h3>
 			<p>A change to the specifications proposed on the SPEC PR public tracker will be reviewed by the SEC, and may cause a CR to be  created. CRs are performed by SEC members, and will  result in change(s) to the specifications. Sometimes CRs may be rejected  during processing, in which case no change will be made.</p>

@@ -13,7 +13,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<p>openEHR oferece muitas vantagens para sistemas de informação em saúde e para aplicativos de fornecedores. Por se tratar de uma plataforma computacional padronizada permite que muitos fornecedores evitem re-inventar seu próprio back-end para EHR, demografia, integração de dados e assim por diante, e em vez disso usem implementações de alta qualidade disponíveis. Todas as especificações de API e serviços já estão ou estarão em breve disponíveis publicamente.</p>
-
 			<p>A principal fonte de eficiência no uso da plataforma openEHR é a capacidade de usar os arquétipos aprovados oficialmente em outros lugares, garantindo uma verdadeira interoperabilidade semântica de registros de saúde. Isso pode ser considerado uma forma cooperativa de configuração clínica. Embora essa configuração seja uma fonte de renda para os fornecedores no ambiente atual, é um desperdício para o sistema de saúde como um todo e a raiz de muitos dos problemas de integração que estamos experimentando atualmente.</p>
 			<a href="/files/getting_involved/vendors_developers.png"><img src="/files/getting_involved/vendors_developers.png" alt="openEHR Ecosystem - Vendors / Developers" title="openEHR Ecosystem - Vendors / Developers" class = "imgMiddle width50"/></a>
 			

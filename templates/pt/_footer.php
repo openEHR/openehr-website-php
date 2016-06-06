@@ -33,7 +33,7 @@
 				<div class="BottomMenuSection floatLeft">
 					<p class="MenuHeading">Recursos</p>
 					<ul>
-						<li><a href="https://www.zotero.org/groups/openehr/items" title="Publications@Zotero" target="_blank">Publicações@Zotero</a></li>
+						<li><a href="/pt/resources/zotero">Publicações@Zotero</a></li>
 						<li><a href="/pt/resources/learning_centre">Centro de Aprendizagem</a></li>
 						<li><a href="/pt/resources/publications">Publicações</a></li>	
 						<li><a href="/wiki/display/resources/FAQs+-+Frequently+Asked+Questions" target="_blank">FAQs</a></li>

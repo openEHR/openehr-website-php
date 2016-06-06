@@ -22,7 +22,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 				<th>Description</th>
 				<th>Access</th>
 				<th>Moderated</th>
-				<th>Admins</th>
 			</tr>
 			<tr>
 				<th>Localistion list</th>
@@ -32,12 +31,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 				unsubscribe <br/>
 				archive</td>
 				<td>No</td>
-				<td></td>
 			</tr>
 			</tbody>
 			</table>
 	
-			<p>Other mailing lists you can find <a href="/community/mailinglists">here</a>.</p>
+			<p>Other mailing lists you can find <a href="/pt/community/mailinglists">here</a>.</p>
 	
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	

@@ -26,27 +26,27 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th> Tipo do artefato</th>
-				<th> Licença para uso</th>
-				<th> Comentários</th>
+				<th>Tipo do artefato</th>
+				<th>Licença para uso</th>
+				<th>Comentários</th>
 			</tr>
 			<tr>
-				<td> <b>Arquétipos, modelos</b> </td>
-				<td> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /> <br/>
-										PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a>está licenciado sob<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. </td>
-				<td> O uso da licença CC-BY-SA permite o compartilhamento com o público, republicação e bifurcação das especificações. Isso funciona como uma salvaguarda contra a subversão da Fundação openEHR prevenindo a comunidade e usando as especificações de uma forma justa. <br/>
-				</td>
+				<td><em>Arquétipos, modelos</em></td>
+				<td><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" target="_blank"/><br/>
+				PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a>está licenciado sob<a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
+				<td>O uso da licença CC-BY-SA permite o compartilhamento com o público, republicação e bifurcação das especificações. Isso funciona como uma salvaguarda contra a subversão da Fundação openEHR prevenindo a comunidade e usando as especificações de uma forma justa.</td>
 			</tr>
 			<tr>
-				<td> <b>Subconjunto de terminologia</b> </td>
-				<td> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border: 1px solid black" /> <br/>
-										PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a>está licenciado sob<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. </td>
-				<td> <br/><br/><br/>idem <br/><br/><br/></td>
+				<td><em>Subconjunto de terminologia</em></td>
+				<td><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" target="_blank"/><br/>
+				PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a>está licenciado sob<a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
+				<td>idem</td>
 			</tr>
 			<tr>
-				<td> <b>Documentação</b> </td>
-				<td> <img src="http://i.creativecommons.org/l/by/3.0/88x31.png" style="border: 1px solid black" /><br/>PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> está licenciado sob <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</td>
-				<td> <br/><br/>A documentação é destinada a ampla divulgação. Melhorias, traduções e re-uso são incentivados <br/><br/><br/> </td>
+				<td><em>Documentação</em></td>
+				<td><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" target="_blank"/><br/>
+				PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> está licenciado sob <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 Unported License</a>.</td>
+				<td>A documentação é destinada a ampla divulgação. Melhorias, traduções e re-uso são incentivados.</td>
 			</tr>
 			</tbody>
 			</table>

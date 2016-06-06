@@ -65,35 +65,38 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/pt/_header.php');
 			<table class="TableBasic">
 			<tbody>
 			<tr>
-				<th> Tipos de artefatos</th>
-				<th> Licença de uso</th>
-				<th> Comentários</th>
+				<th>Tipos de artefatos</th>
+				<th>Licença de uso</th>
+				<th>Comentários</th>
 			</tr>
 			<tr>
-				<td> <em>Arquivos de documento de especificações publicados </em> </td>
-				<td><img alt="Creative Commons Licence" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /><br/>Especificações openEHR produzidas pela <a href="http://www.openEHR.org">Fundação openEHR</a> é licenciada sob a <a href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB" target="_blank">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissões além do escopo desta licença podem estar disponíveis <a href="/programs/specification/iplicense">aqui</a>. </td>
-				<td> <p>O uso da licença CC-BY-ND permite o compartilhamento público, a republicação, e uso comercial sem restrições. Ele protege os usuários das especificações de modificações desconhecidos e / ou locais, adulteração etc sendo feito fora do próprio processo aberto da Fundação. Esta é a mesma coisa que o W3C faz com sua  <a href="http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231" target="_blank">licença documento</a>.</p>
+				<td><em>Arquivos de documento de especificações publicados</em></td>
+				<td><a href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB" target="_blank"><img alt="Creative Commons Licence" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png"/></a><br/>
+				Especificações openEHR produzidas pela <a href="http://www.openEHR.org">Fundação openEHR</a> é licenciada sob a <a href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB" target="_blank">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissões além do escopo desta licença podem estar disponíveis <a href="/pt/programs/specification/iplicense">aqui</a>. </td>
+				<td><p>O uso da licença CC-BY-ND permite o compartilhamento público, a republicação, e uso comercial sem restrições. Ele protege os usuários das especificações de modificações desconhecidos e / ou locais, adulteração etc sendo feito fora do próprio processo aberto da Fundação. Esta é a mesma coisa que o W3C faz com sua  <a href="http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231" target="_blank">licença documento</a>.</p>
 				<p>A opção CC 'SA' (Share-alike) também foi considerada, mas rejeitada por duas razões:</p> <ul>
-					<li>Em primeiro lugar, as especificações openEHR são consideradas obras definitivas da Fundação, e não interpretações de qualquer outra coisa. Seu conteúdo e evolução, portanto, precisa refletir corretamente os processos da própria comunidade openEHR.</li>
-					<li>Em segundo lugar, a integridade das especificações no qual o software e os sistemas de saúde são baseados diretamente é considerada de suma importância para os pacientes e os profissionais clínicos.</li>
+				<li>Em primeiro lugar, as especificações openEHR são consideradas obras definitivas da Fundação, e não interpretações de qualquer outra coisa. Seu conteúdo e evolução, portanto, precisa refletir corretamente os processos da própria comunidade openEHR.</li>
+				<li>Em segundo lugar, a integridade das especificações no qual o software e os sistemas de saúde são baseados diretamente é considerada de suma importância para os pacientes e os profissionais clínicos.</li>
 				</ul>
 				</td>
 			</tr>
 			<tr>
-				<td> <em>Arquivos de origem do documento de especificação </em> </td>
-				<td> <img alt="Creative Commons Licence" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /><br/>Especificações openEHR produzidos pela <a href="http://www.openEHR.org">Fundação openEHR</a> são licenciadas sob a <a href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB" target="_blank">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissões além do escopo desta licença podem estar disponíveis <a href="/programs/specification/iplicense">aqui</a>. </td>
-				<td> <br/><br/><br/>idem <br/><br/><br/></td>
+				<td><em>Arquivos de origem do documento de especificação</em></td>
+				<td><a href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB" target="_blank"><img alt="Creative Commons Licence" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png"/></a><br/>
+				Especificações openEHR produzidos pela <a href="http://www.openEHR.org">Fundação openEHR</a> são licenciadas sob a <a href="http://creativecommons.org/licenses/by-nd/3.0/deed.en_GB" target="_blank">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.<br />Permissões além do escopo desta licença podem estar disponíveis <a href="/pt/programs/specification/iplicense">aqui</a>. </td>
+				<td>idem</td>
 			</tr>
 			<tr>
-				<td> <em>Especificação de artefatos computáveis</em> </td>
-				<td> <img src="http://www.apache.org/images/feather-small.gif" style="border: 1px solid black; height:30px;" /><br/>
+				<td><em>Especificação de artefatos computáveis</em></td>
+				<td><img src="http://www.apache.org/images/feather-small.gif" height="25px"/><br/>
 				<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2 License</a></td>
-				<td> <br/><br/>Artefatos computáveis são licenciados da mesma forma que software, ou seja, usando a licença Apache que é amplamente aceita e amigável a indústria.<br/><br/></td>
+				<td>Artefatos computáveis são licenciados da mesma forma que software, ou seja, usando a licença Apache que é amplamente aceita e amigável a indústria.</td>
 			</tr>
 			<tr>
-				<td> <em>Artefatos educacionais</em> </td>
-				<td> <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /><br/>PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> é licenciado sob a <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
-				<td> <br/><br/>Artefatos educacionais devem ser amplamente utilizados e a melhoria das traduções e a reutilização são incentivadas.<br/><br/><br/> </td>
+				<td><em>Artefatos educacionais</em></td>
+				<td><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/><br/>
+				PRODUZIDO pela <a href="http://www.openEHR.org">Fundação openEHR</a> é licenciado sob a <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</td>
+				<td>Artefatos educacionais devem ser amplamente utilizados e a melhoria das traduções e a reutilização são incentivadas.</td>
 			</tr>
 			</tbody>
 			</table></body>
