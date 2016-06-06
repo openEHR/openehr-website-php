@@ -10,7 +10,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 	<div id="MainArea">
 		
 		<div id="Content">
-		
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
 			<h1><?php echo "$PageName";?></h1>
 			
 			<p>openEHR is a virtual community working on means of <em>turning health data from the physical form into electronic form</em> and ensuring <em>universal interoperability</em> among all forms of electronic data. The primary focus of its endeavour is on <em>electronic health records (EHR)</em> and related systems.</p>
@@ -70,7 +71,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<p>Are you a <a href = "/getting_involved/providers_clinicians">clinician or health care provider</a>? You can help creating and reviewing the <a href="http://www.openehr.org/ckm/" target="_blank">archetypes</a>. Are you a message designer? You may want to get involved in building template-based message specifications, based on the archetypes. Are you a <a href = "/getting_involved/vendors_developers">software vendor or developer</a>? You can help build the new generation of EHR tools. If you are a <a href = "/getting_involved/universities_researchcentres">researcher</a>, you can get involved in specifying how openEHR querying, published terminologies and standards like CDISC can be used to improve how longitudinal data-based studies are done. Maybe you want to obtain tools and solutions? You will find <a href = "/industry_partners/">vendor solutions</a>, as well as <a href="/programs/software">open source components</a>. If you are from the <a href = "/getting_involved/governmentbodies_programmes">government institution</a>, the openEHR approach can provide a platform to integrate your local eHealth systems.</p>
 			<div class="less" t="5"><a href="#"><< Less</a></div>
 			</div>
-		
+			
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+			
 		</div>
 		
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
