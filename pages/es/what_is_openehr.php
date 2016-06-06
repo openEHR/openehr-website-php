@@ -10,6 +10,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header_top.php');
 	<div id="MainArea">
 		
 		<div id="Content">
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -71,6 +72,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header_top.php');
 			<div class="less" t="5"><a href="#"><< Less</a></div>
 			</div>
 		
+<!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
 		</div>
 		
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_footer.php');?>
