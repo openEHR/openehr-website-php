@@ -63,8 +63,16 @@
 	<div id = "BottomPanelContainer">
 	
 		<div id="BottomPanel">
-			<p><span><a href="/pt/using_the_site/terms_of_use">Termos de Uso</a> | <a href="/pt/using_the_site/privacy_policy">Política de Privacidade</a> | <a href="/pt/using_the_site/feedback">Comentários</a> | <a href="/pt/using_the_site/site_map">Mapa do Site</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a></span></p>
-			<p><span>Copyright &copy; <?php echo date("Y");?> Fundação openEHR. Todos direitos reservados</span></p>
+			<div id = "WebLinks">
+				<p><span><a href="/pt/using_the_site/terms_of_use">Termos de Uso</a> | <a href="/pt/using_the_site/privacy_policy">Política de Privacidade</a> | <a href="/pt/using_the_site/localisation">Localização</a> | <a href="/pt/using_the_site/feedback">Comentários</a> | <a href="/pt/using_the_site/site_map">Mapa do Site</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a></span></p>
+				<p><span>Copyright &copy; <?php echo date("Y");?> Fundação openEHR. Todos direitos reservados</span></p>
+			</div>
+			
+			<div id = "Acknowledgements">
+				<span>Agradecimentos: <a href="https://www.atlassian.com/" target="_blank">Atlassian</a> (Jira, Confluence) | <a href="https://www.nomagic.com/" target="_blank">NoMagic</a> (MagicDraw UML) | <a href="http://asciidoctor.org/" target="_blank">AsciiDoctor</a> (publishing) | <a href="https://github.com/" target="_blank">GitHub</a> (DVCS) | <a href="https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29" target="_blank">LAMP</a> dev community</span>
+			</div>
+			
+			<br class="clear">
 		</div>
 		
 	</div>
