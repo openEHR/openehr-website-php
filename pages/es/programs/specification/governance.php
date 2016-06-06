@@ -53,7 +53,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 			
 			<h2><a name="specifications"></a>The Specifications</h2>
 			<p>The specifications under management by the Program are identified in terms of Specifications Components, each consisting of one or more concrete Specifications relating to a topic area. <em>A Component is defined as being something that is separately releasable</em>. In openEHR, Components include the Reference Model, the Archetype Model, Querying, Conformance and CDS.</p>
-			<p>The definitive list of Components at any time is shown in the 'Component' column of the <a href="/programs/specification/releases/workingbaseline">current baseline specifications page.</a></p>
+			<p>The definitive list of Components at any time is shown in the 'Component' column of the <a href="/es/programs/specification/workingbaseline">current baseline specifications page.</a></p>
 			<p>Each logical Specification within a Component consists of:</p>
 				<ul>
 					<li>a definitive publishable documentary form, typically in PDF and/or HTML format;</li>
@@ -62,7 +62,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 					<li>formal educational materials accompanying the specification, including example uses and files.</li>
 				</ul>		
 			<p>At any point in time, a Specification is in one of the lifecycle states: Planned, Development, Trial, Stable, or Retired.</p>
-			<p>Each specifications Component has a dedicated <a href="https://openehr.atlassian.net/browse/SPEC/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel">Change Tracker</a>.</li>
+			<p>Each specifications Component has a dedicated <a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank">Change Tracker</a>.</li>
 
 			<h2><a name="sec"></a>Specifications Editorial Committee (SEC)</h2>
 			<p>The Specification Program is managed by the Specifications Editorial Committee (SEC). The SEC membership consists of community members who are qualified and who have an interest in maintaining the specifications into the future on behalf of the community. The SEC aims to be as representative as possible of the interests of major stakeholders, including vendors, healthcare professionals and government, with implementers having a certain precedence, since it is software products that are directly based on the specifications.</p>

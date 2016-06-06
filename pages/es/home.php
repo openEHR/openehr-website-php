@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header_top.php');
 			<a href="/es/what_is_openehr" class="button1 col1">Qué es openEHR?</a>
 			<a href="/es/who_is_using_openehr" class="button1 col1">¿Quiénes Utilizan openEHR?</a>
 			<a href="https://openehr.atlassian.net/wiki/questions" class="button1 col1" target="_blank">Preguntas y Respuestas</a>
-			<a href="/es/programs/specification/releases/currentbaseline" class="button3 col2">Especificación</a>
+			<a href="/es/programs/specification/workingbaseline" class="button3 col2">Especificación</a>
 			<a href="/releases/trunk/UML/#Diagrams___18_1_83e026d_1423485599937_29309_4372" class="button4 col2" target="_blank">UML</a>
 			<a href="/releases/trunk/its/XML-schema/" class="button4 col2" target="_blank">XSD</a>
 			<a href="/es/programs/clinicalmodels" class="button3 col3">Modelos Clínicos</a>

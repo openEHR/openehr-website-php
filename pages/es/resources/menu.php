@@ -1,6 +1,6 @@
 ﻿<span>Recursos</span>
 			<ul>
-				<li><a href="https://www.zotero.org/groups/openehr/items" title="Publications@Zotero" target="_blank">Publicaciones@Zotero</a></li>
+				<li><a href="/es/resources/zotero" <?php if($pageOn == 'zotero.php'){?> class="active"<?php }?>>Publicaciones@Zotero</a></li>
 				<li><a href="/es/resources/learning_centre" <?php if($pageOn == 'learning_centre.php'){?> class="active"<?php }?>>Centro de Aprendizaje</a></li>
 				<li><a href="/es/resources/publications" <?php if($pageOn == 'publications.php'){?> class="active"<?php }?>>Publicaciones</a></li>
 				<li><a href="/wiki/display/resources/FAQs+-+Frequently+Asked+Questions" target="_blank">Preguntas Frecuentes</a></li>
