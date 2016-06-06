@@ -15,6 +15,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>Most current openEHR-related software projects are self-governed sparate entities. The principles below only govern the common openEHR Software Programme itself and it's provided resources (sometimes including code donated to the openEHR foundation).</p>
 			<p>The governance structure of the openEHR software program/group is mosly mail-list based and inspired by the <a href="http://www.apache.org/foundation/" target="_blank">Apache Software Foundation</a> and <a href="http://www.apache.org/foundation/how-it-works.html#management" target="_blank">the way it works</a>. That is combined with the general <a href="/about/governance_structure">governance structure</a> of the openEHR Foundation that requires both a <em>Program Committee</em> and a list of <em>Program Qualified Members</em>.</p>
 			
+			
 			<h2>Community, including Program Qualified Members</h2>
 			<p>The majority of the work and software decisions should be discussed on the <a href="/community/mailinglists.php">openehr-implementers mailing list</a> where anybody can contribute to the concensus-targeted discussion (no qualified membership required).</p>
 			<p>If voting is needed then votes from <em>Program Qualified Members</em> will be evaluated using <a href="http://www.apache.org/foundation/voting.html" target="_blank"> Apache style voting and interpretation</a>.</p>
@@ -25,6 +26,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>b) be recommended to first gain more experience in order to get suggested again later.</p>
 			<p>If thorny vendor/institution-related issues arise that at least three independent* Qualified Members think would benefit from vendor/institution balance, then the issue can be transferred to the program committee instead.</p>
 			<p>*) Independent in this case refers to not being dependent on the same organisation for salary or other benefits.</p>
+			
 			
 			<h2>Program Committee</h2>
 			<p>The <em>Program Committee</em> is responsible for reporting to and relating to the openEHR foundation board and it also maintains the official (and incubating) openEHR software project listings and approves new <em>Program Qualified Member</em> suggestions (as described above).</p>

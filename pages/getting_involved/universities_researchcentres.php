@@ -19,7 +19,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h2>Research opportunities</h2>
 			<p>Below are some of the areas that represent good opportunities for academic research:</p>
 			<ul>
-				<li>Clinical Gudelines </li> 
+				<li>Clinical Guidelines </li> 
 				<li>Querying in archetype-based systems </li>
 				<li>Generating software artefacts from ADL templates </li>
 				<li>Efficient persistence </li>
