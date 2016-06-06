@@ -62,7 +62,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/es/_header.php');
 
 			<h2>More information about Program</h2>
 			<p class="content">
-			<a href="workingbaseline">List of specifications</a><br/>
+			<a href="workingbaseline">Working baseline</a><br/>
 			<a href="governance">Governance process</a><br/>
 			<a href="changeprocess">Change process</a></p>
 			
