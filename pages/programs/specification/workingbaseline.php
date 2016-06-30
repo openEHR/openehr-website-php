@@ -53,7 +53,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</td>
 
 					<td valign="top">
-						<p> <em>Data Access &amp; Use</em> </p>
+						<p> <em>Data Access</em> </p>
 						<ul>
 							<li> <a href="/releases/QUERY/latest/AQL.html" target="_blank">AQL</a> </li>
 							<li> <a href="/releases/CDS/latest/GDL.html" target="_blank">GDL</a> </li>
@@ -63,7 +63,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<td valign="top">
 						<p> <em>APIs</em> </p>
 						<ul>
-							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST API</a> </li>
+							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST</a> </li>
 						</ul>
 					</td>
 
