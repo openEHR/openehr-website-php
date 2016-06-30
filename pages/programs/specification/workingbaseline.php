@@ -135,6 +135,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th> Status </th>
 			</tr>
 			<tr>
+				<td> EHR REST API </td>
+				<td> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST API</a> </td>
+				<td> REST API for EHR access, rendered from <a href="https://github.com/openEHR/specifications-ITS/blob/master/apiary.apib">Apiary (apib) file</a>.</td>
+				<td> development</td>
+			</tr>
+			<tr>
 				<td> Reference Model </td>
 				<td> <a href="/releases/trunk/its/XML-schema" target="_blank">XSDs</a> </td>
 				<td> XML schema 1.0 expression of the Reference Model.</td>
