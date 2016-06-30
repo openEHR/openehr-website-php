@@ -61,6 +61,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</td>
 
 					<td valign="top">
+						<p> <em>APIs</em> </p>
+						<ul>
+							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST API</a> </li>
+						</ul>
+					</td>
+
+					<td valign="top">
 						<p> <em>Generic</em> </p>
 						<ul>
 							<li> <a href="/releases/BASE/latest/base_types.html" target="_blank">Base Types</a></li>
