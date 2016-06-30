@@ -8,7 +8,7 @@
     $commands = array(
         'echo $PWD',
         'whoami',
-        './populate_releases.sh'
+        './populate_releases.sh &' // run in background to avoid GitHub webhook timeout
     );
 
     // Run the commands for output
