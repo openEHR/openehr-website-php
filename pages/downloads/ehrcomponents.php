@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>	
 
 			<tr>
-				<td rowspan="0">REST API platform</td>
+				<th colspan="0">REST API platform</th>
 			</tr>
 			<tr>
 				<td>EhrScape</td>
@@ -37,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 
 			<tr>
-				<td rowspan="0">EHR back-end persistence and services</td>
+				<th colspan="0">EHR back-end persistence and services</th>
 			</tr>
 			<tr>
 				<td>EtherCIS<br/><a href="https://github.com/ethercis">GitHub</a></td>
@@ -57,7 +57,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 
 			<tr>
-				<td rowspan="0">Libraries</td>
+				<th colspan="0">Libraries</th>
 			</tr>
 			<tr>
 				<td>adl2-core<br/><a href="https://github.com/openEHR/adl2-core/" target="_blank">GitHub</a></td>
