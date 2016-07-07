@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>	
 
 			<tr>
-				<th colspan="0">REST API platform</th>
+				<th colspan="6">REST API platform</th>
 			</tr>
 			<tr>
 				<td>EhrScape</td>
@@ -37,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 
 			<tr>
-				<th colspan="0">EHR back-end persistence and services</th>
+				<th colspan="6">EHR back-end persistence and services</th>
 			</tr>
 			<tr>
 				<td>EtherCIS<br/><a href="https://github.com/ethercis">GitHub</a></td>
@@ -57,7 +57,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 
 			<tr>
-				<th colspan="0">Libraries</th>
+				<th colspan="6">Libraries</th>
 			</tr>
 			<tr>
 				<td>adl2-core<br/><a href="https://github.com/openEHR/adl2-core/" target="_blank">GitHub</a></td>
@@ -69,11 +69,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 			<tr>
 				<td>Archie<br/><a href="https://github.com/nedap/archie/" target="_blank">GitHub</a></td>
-				<td>An implementation of the openEHR <a href="/releases/AM/latest/ADL2.html">ADL2</a> and <a href="/releases/AM/latest/AOM2.html">AOM 2</a> specifications.</td>
+				<td>An implementation of the openEHR <a href="/releases/AM/latest/ADL2.html">ADL2</a> and <a href="/releases/AM/latest/AOM2.html">AOM 2</a> specifications. <a href="https://github.com/nedap/archie">(more)</a></td>
 				<td> Java, Antlr4</td>
 				<td></td>
 				<td>Apache 2</td>
-				<td><a href="https://github.com/openEHR/adl2-core/issues">Issues</a></td>
+				<td><a href="https://github.com/nedap/archie/issues">Issues</a></td>
 			</tr>
 			<tr>
 				<td>java-libs<br/><a href="https://github.com/openEHR/java-libs/" target="_blank">GitHub</a></td>
