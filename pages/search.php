@@ -12,42 +12,45 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<h1>Search</h1>
 		<br/>
 
+		<!-- Google search locations -->
+		<p>Searches: openEHR website, openEHR wiki, openEHR Jira, openEHR Github repositories</p>
 		<div id='cse' style='width: 100%;'>Loading</div>
+
 		<script src='//www.google.com/jsapi' type='text/javascript'></script>
 		<script type='text/javascript'>
-		google.load('search', '1', {language: 'en', style: google.loader.themes.V2_DEFAULT});
-		google.setOnLoadCallback(function() {
-			var customSearchOptions = {};
-			var orderByOptions = {};
-			orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
-			customSearchOptions['enableOrderBy'] = true;
-			customSearchOptions['orderByOptions'] = orderByOptions;
-			customSearchOptions['overlayResults'] = true;
-			var customSearchControl =   new google.search.CustomSearchControl('014923816845002093082:vhhv7n9d_ao', customSearchOptions);
-			customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-			var options = new google.search.DrawOptions();
-			options.setAutoComplete(true);
-			customSearchControl.draw('cse', options);
+			google.load('search', '1', {language: 'en', style: google.loader.themes.V2_DEFAULT});
+			google.setOnLoadCallback(function() {
+				var customSearchOptions = {};
+				var orderByOptions = {};
+				orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+				customSearchOptions['enableOrderBy'] = true;
+				customSearchOptions['orderByOptions'] = orderByOptions;
+				customSearchOptions['overlayResults'] = true;
+				var customSearchControl =   new google.search.CustomSearchControl('014923816845002093082:vhhv7n9d_ao', customSearchOptions);
+				customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+				var options = new google.search.DrawOptions();
+				options.setAutoComplete(true);
+				customSearchControl.draw('cse', options);
 
-			function parseParamsFromUrl() {
-				var params = {};
-				var parts = window.location.search.substr(1).split('\x26');
-				for (var i = 0; i < parts.length; i++) {
-					var keyValuePair = parts[i].split('=');
-					var key = decodeURIComponent(keyValuePair[0]);
-					params[key] = keyValuePair[1] ?
-					decodeURIComponent(keyValuePair[1].replace(/\+/g, ' ')) :
-					keyValuePair[1];
+				function parseParamsFromUrl() {
+					var params = {};
+					var parts = window.location.search.substr(1).split('\x26');
+					for (var i = 0; i < parts.length; i++) {
+						var keyValuePair = parts[i].split('=');
+						var key = decodeURIComponent(keyValuePair[0]);
+						params[key] = keyValuePair[1] ?
+						decodeURIComponent(keyValuePair[1].replace(/\+/g, ' ')) :
+						keyValuePair[1];
+					}
+					return params;
 				}
-				return params;
-			}
 
-			var urlParams = parseParamsFromUrl();
-			var queryParamName = "q";
-			if (urlParams[queryParamName]) {
-				customSearchControl.execute(urlParams[queryParamName]);
-			}
-		}, true);
+				var urlParams = parseParamsFromUrl();
+				var queryParamName = "q";
+				if (urlParams[queryParamName]) {
+					customSearchControl.execute(urlParams[queryParamName]);
+				}
+			}, true);
 		</script>
 
 		<style type='text/css'>
@@ -171,7 +174,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		  }
 		</style>
 					
+		<!-- non-google search locations -->
+		<p><a href="https://www.mail-archive.com/openehr-clinical@lists.openehr.org/">Search openEHR clinical mailing list<</a></p>
+		<p><a href="https://www.mail-archive.com/openehr-technical@lists.openehr.org/">Search openEHR technical mailing list<</a></p>
+		<p><a href="https://www.mail-archive.com/ref_impl_java@lists.openehr.org/">Search openEHR Java mailing list<</a></p>
 
-		</div>
+	</div>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
