@@ -48,12 +48,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="https://app.assembla.com/spaces/ethercis-support/support/tickets">Support</a></td>
 			</tr>
 			<tr>
-				<td><strong>open EHR-Gen</strong><br/><a href="https://code.google.com/archive/p/open-ehr-gen-framework/">Google Code</a></td>
-				<td>A framework for generating medical record systems based on openEHR</td>
-				<td> Grails, Groovy, Java</td>
-				<td><a href="https://code.google.com/archive/p/open-ehr-gen-framework/downloads" target="_blank">Downloads</a></td>
+				<td><strong>EHRServer</strong><br/><a href="http://cabolabs.com/en/projects/">Project page</a></td>
+				<td>EHRServer is an open source, service‐oriented, openEHR clinical data repository. It provides a secure REST API to store and query clinical data in many ways, supporting standard formats like JSON and XML, that are easy to integrate with any front‐end application. Data queries can be created via the Administrative User Interface, with the powerful and easy to use EHRServer Query Builder. EHRServer complies with the openEHR specifications , leveraging the openEHR Information Model and the Dual Modeling methodology, using standard Archetypes and Templates.</td>
+				<td> Grails, Groovy, Java, PHP, JavaScript</td>
+				<td><a href="https://cabolabs-ehrserver.rhcloud.com/ehr" target="_blank">Cloud</a></td>
 				<td>Apache 2.0</td>
-				<td><a href="https://code.google.com/archive/p/open-ehr-gen-framework/issues">Issues</a></td>
+				<td><a href="http://cabolabs.com/forum/categories/ehrserver">Forum</a></td>
 			</tr>
 
 			<tr>
@@ -82,6 +82,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="http://www.openehr.org/wiki/display/projects/Java+Project+Download" target="_blank">Downloads</a></td>
 				<td>MPL 2.0/GPL 2.0/LGPL 2.1</td>
 				<td><a href="https://github.com/openEHR/java-libs/issues">Issues</a></td>
+			</tr>
+			<tr>
+				<td><strong>open EHR-Gen</strong><br/><a href="https://code.google.com/archive/p/open-ehr-gen-framework/">Google Code</a></td>
+				<td>A framework for generating medical record systems based on openEHR</td>
+				<td> Grails, Groovy, Java</td>
+				<td><a href="https://code.google.com/archive/p/open-ehr-gen-framework/downloads" target="_blank">Downloads</a></td>
+				<td>Apache 2.0</td>
+				<td><a href="https://code.google.com/archive/p/open-ehr-gen-framework/issues">Issues</a></td>
 			</tr>
 			</tbody>
 			</table>
