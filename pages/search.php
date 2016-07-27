@@ -13,7 +13,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<br/>
 
 		<!-- Google search locations -->
-		<p>Searches: openEHR website, openEHR wiki, openEHR Jira, openEHR Github repositories</p>
+		<h2>Main sites search</h2>
+		<p>Search: openEHR website, openEHR wiki, openEHR Jira, openEHR Github repositories</p>
 		<div id='cse' style='width: 100%;'>Loading</div>
 
 		<script src='//www.google.com/jsapi' type='text/javascript'></script>
@@ -175,9 +176,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		</style>
 					
 		<!-- non-google search locations -->
-		<p><a href="https://www.mail-archive.com/openehr-clinical@lists.openehr.org/">Search openEHR clinical mailing list<</a></p>
-		<p><a href="https://www.mail-archive.com/openehr-technical@lists.openehr.org/">Search openEHR technical mailing list<</a></p>
-		<p><a href="https://www.mail-archive.com/ref_impl_java@lists.openehr.org/">Search openEHR Java mailing list<</a></p>
+		<h2>Mailing list search</h2>
+		<p><a href="https://www.mail-archive.com/openehr-clinical@lists.openehr.org/">Search openEHR clinical mailing list</a></p>
+		<p><a href="https://www.mail-archive.com/openehr-technical@lists.openehr.org/">Search openEHR technical mailing list</a></p>
+		<p><a href="https://www.mail-archive.com/ref_impl_java@lists.openehr.org/">Search openEHR Java mailing list</a></p>
 
 	</div>
 
