@@ -10,7 +10,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 	<div id="MainArea" >
 		
 		<h1>Search</h1>
-		<br/>
 
 		<!-- Google search locations -->
 		<h2>Main sites search</h2>

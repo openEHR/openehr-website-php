@@ -24,6 +24,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Elected Feb 2015 as Industry Partner representative.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/koray_atalag.php');?>
 				<p>Elected Feb 2015 as Membership representative.</p>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/silje_ljosland_bakke.php');?>
+				<p>Co-opted Aug 2016.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
 				<p>Co-opted Mar 2015.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sam_heard.php');?>
