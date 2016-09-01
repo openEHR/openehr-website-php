@@ -43,7 +43,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<h2>Frequently Asked Questions</h2>
 			<h3>How do I post news?</h3>
-			<p>In order to post news you need to send us a note of the email address you would like to use to post news. Send this information to comms@openehr.org.  We will send you a password and you should be able to login using the email you provided and the password we send you.</p>
+			<p>In order to post news you need to send us a note of the email address you would like to use to post news. Send this information to <a href="mailto:comms@openehr.org">comms@openehr.org</a>.org.  We will send you a password and you should be able to login using the email you provided and the password we send you.</p>
 			<h3>Where is the login page? </h3>
 			<p>You can login <a href="http://www.openehr.org/login/index.php">here</a> </p>
 			<h3>I can't remember my username/password! What can I do? </h3>
