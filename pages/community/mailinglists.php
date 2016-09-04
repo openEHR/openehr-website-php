@@ -42,6 +42,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<td><p>This list is used to inform participants about key events, releases, changes in openEHR. openehr-announce is a <em>low-traffic list for announcements only</em>. All other material should be the subject of a message to one of the other lists, typically openehr-technical or openehr-clinical. Anyone interested in openEHR should subscribe to at least this list.</p>
 			<p class="center">
 				<a href="http://lists.openehr.org/mailman/listinfo/openehr-announce_lists.openehr.org" target="_blank">subscribe/unsubscribe</a> | 
+				<a href="https://www.mail-archive.com/openehr-announce@lists.openehr.org/" target="_blank">web archive</a> | 
 				<a href="http://lists.openehr.org/pipermail/openehr-announce_lists.openehr.org/" target="_blank">raw archive</a>
 			</p>
 			</td>
@@ -74,19 +75,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<a href="http://lists.openehr.org/pipermail/openehr-technical_lists.openehr.org/" target="_blank">raw archive</a>
 			</p>
 			</td>
-			<td>No</td>
-			<td>Seref Arikan, Thomas Beale</td>
-		</tr>
-		<tr>
-		<th>ISO 13606 list</th>
-			<td>openehr-13606</td>
-			<td><p>This list is for discussions about the use of openEHR methods and technology for current and future revisions of the ISO 13606 standard.</p>
-			<p class="center">
-				<a href="http://lists.openehr.org/mailman/listinfo/openehr-13606_lists.openehr.org" target="_blank">subscribe/unsubscribe</a> | 
-				<a href="mailto:openehr-13606@lists.openehr.org">post</a> | 
-				<a href="http://lists.openehr.org/pipermail/openehr-13606_lists.openehr.org/" target="_blank">raw archive</a>
-			</p>
-		    </td>
 			<td>No</td>
 			<td>Seref Arikan, Thomas Beale</td>
 		</tr>
@@ -141,6 +129,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p class="center">
 				<a href="http://lists.openehr.org/mailman/listinfo/openehr-implementers_lists.openehr.org" target="_blank">subscribe/unsubscribe</a> | 
 				<a href="mailto:openehr-implementers@lists.openehr.org">post</a> | 
+				<a href="https://www.mail-archive.com/openehr-implementers@lists.openehr.org/" target="_blank">web archive</a> | 
 				<a href="http://lists.openehr.org/pipermail/openehr-implementers_lists.openehr.org/" target="_blank">raw archive</a>
 			</p>
 			</td>
