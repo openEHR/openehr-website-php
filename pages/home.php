@@ -35,11 +35,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<div id="LogoImage">
 					<p><a href="/industry_partners/cambio_healthcare_systems"><img src="/files/industry_partners/cambio_logo.png"></a></p>
 					<p><a href="/industry_partners/code24"><img src="/files/industry_partners/code24_logo.png"></a></p>
-					<p><a href="/industry_partners/critical_software"><img src="/files/industry_partners/critical_logo.png"></a></p>
 					<p><a href="/industry_partners/dips"><img src="/files/industry_partners/dips_logo.png"></a></p>
 					<p><a href="/industry_partners/infinnity_solutions"><img src="/files/industry_partners/infinnity_logo.png"></a></p>
 					<p><a href="/industry_partners/marand"><img src="/files/industry_partners/marand_logo.png"></a></p>
-					<p><a href="/industry_partners/nousco"><img src="/files/industry_partners/nousco_logo.png"></a></p>
 					<p><a href="/industry_partners/ocean_informatics"><img src="/files/industry_partners/ocean_logo.png"></a></p>
 				</div>
 				

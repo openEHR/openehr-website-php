@@ -27,12 +27,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<a href="/industry_partners/code24">Learn more</a></td>
 			</tr>
 			<tr>
-				<td><a href="/industry_partners/critical_software"><img src="/files/industry_partners/critical_logo.png"></a></td>
-				<td><h2>Critical Software</h2>
-				<p>CRITICAL Software is an international company, founded in 1998, which specialises in the delivery of reliable solutions, services and technologies for business-critical information systems, providing software solutions and technologies that protect individuals, provide valuable insights, monitor the safety of equipment and guarantee business-critical processes are carried out securely and efficiently. In the healthcare area, Critical Software developed a patient centric solution, focused on sharing relevant clinical information. Healthcare facilities have patient information generated from different IT solutions, our solution consolidate this information in a Clinical Repository, centered on the patient.</p>
-				<a href="/industry_partners/critical_software">Learn more</a></td>
-			</tr>
-			<tr>
 				<td><a href="/industry_partners/dips"><img src="/files/industry_partners/dips_logo.png"></a></td>
 				<td><h2>DIPS</h2>
 				<p>DIPS ASA is the largest supplier of electronic patient record systems to Norwegian hospitals, the largest supplier of Radiology Information Systems and the second largest supplier of Laboratory Information Systems. DIPS has group and framework agreements with the health trusts organised under the regional health authorities for South-Eastern Norway, Western Norway and Northern Norway. DIPS also has customers in Denmark and Sweden.</p>
@@ -49,12 +43,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><h2>Marand</h2>
 				<p>Marand is one of the leading Slovenian company in the field of information and communication technologies and information support business processes. Marand is a customer-centric solution provider in healthcare offering products including Think!Med Clinical&trade;, Think!Med EHR Platform and Think!Med Preventive. All these solutions are based on state of the art technology and industry standards.</p>
 				<a href="/industry_partners/marand">Learn more</a></td>
-			</tr>
-			<tr>
-				<td><a href="/industry_partners/nousco"><img src="/files/industry_partners/nousco_logo.png"></a></td>
-				<td><h2>Nousco</h2>
-				<p>Nousco is a Healthcare software vendor in South Korea. Nousco is developing an openEHR-based Hospital Information System with EHR, health information (HI) standards-based EHR Platform & PHR solutions. openEHR & HI standards-based EHR platform is the first innovative work of its kind in South Korea. In 2015, Nousco will launch products internationally.</p>
-				<a href="/industry_partners/nousco">Learn more</a></td>
 			</tr>
 			<tr>
 				<td><a href="/industry_partners/ocean_informatics"><img src="/files/industry_partners/ocean_logo.png"></a></td>
