@@ -14,7 +14,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<a href="http://www.code24.nl/en/Home" target="_blank"><img src="/files/industry_partners/code24_logo.png" class="IndustryLogo"></a>
 			
 			<p><em>Headquarters:</em> The Netherlands</p>
-			<p><em>Size:</em> 7 employees</p>
+			<p><em>Size:</em> 10-20 employees</p>
 			<p><em>Trading since:</em> 2010</p>
 			<p><a href="http://www.code24.nl/en/Home" target="_blank">website</a></p>
 			
@@ -25,13 +25,26 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h2><a href="http://www.code24.nl/en/Home/Medische-database" target="_blank">Solutions</a></h2>
 			<p>Code24 offers a wide selection of different solutions for health care organisations. Our two main stream solutions are:</p>
 			<ol>
-			<li>Base24 - a highly advanced Clinical Data Repository that functions as an inexhaustible source of health data, based on the openEHR specifications.</li>
-			<li>mConsole suite - a care provider portal for access to the complete EHR environment enriched with a wide variaty of modules.</li>
+				<li><a href="http://www.code24.nl/en/Home/Medische-database" target="_blank">Base24</a> - a highly advanced Clinical Data Repository that functions as an inexhaustible source of health data, based on the openEHR specifications.</li>
+				<li><a href="https://www.code24.nl/en/Zorgverlenersportaal/mConsole" target="_blank">mConsole suite</a> - a care provider portal for access to the complete EHR environment enriched with a wide variaty of modules.</li>
 			</ol>
-			<p>For a complete overview of the solutions of Code24 please visit <a href="http://www.code24.nl/en/Home/Medische-database" target="_blank">our website</a>.</p>
 			
 			<h2><a href="http://www.code24.nl/en/Home/Referenties" target="_blank">Customers</a></h2>
-			<p>A wide range and growing number of healthcare institutions are now using solutions produced by Code24 and if their responses are anything to go by, they are certainly satisfied with their choice. See <a href="http://www.code24.nl/en/Home/Referenties" target="_blank">our website</a> for a complete and actual overview of our customers.</p>
+			<ul>
+				<li>LUMC - University Medical Center</li>
+				<li>Diagnostiek voor U - Diagnostic Center</li>
+				<li>Amici - Mental Health</li>
+				<li>Arkin - Mental Health</li>
+				<li>GGZ Centraal - Mental Health</li>
+				<li>GGZ Delfland - Mental Health</li>
+				<li>GGZ Drenthe - Mental Health</li>
+				<li>GGZ Eindhoven - Mental Health</li>
+				<li>GGZ Friesland - Mental Health</li>
+				<li>GGZ Noord-Holland-Noord - Mental Health</li>
+				<li>GGZ Westelijk Noord-Brabant - Mental Health</li>
+				<li>Mondriaan - Mental Health</li>
+				<li>Yulius - Mental Health</li>
+			</ul>
 		
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
