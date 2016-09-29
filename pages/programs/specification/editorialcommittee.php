@@ -22,6 +22,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li><a href="#thomas_beale">Thomas Beale</a></li>
 				<li><a href="#diego_tomas_bosca">Diego Tomas Boscá</a></li>
 				<li><a href="#rong_chen">Rong Chen</a></li>
+				<li><a href="#christian_chevalley">Christian Chevalley</a></li>
 				<li><a href="#heath_frankel">Heath Frankel</a></li>
 				<li><a href="#sebastian_iancu">Sebastian Iancu</a></li>
 				<li><a href="#shinji_kobayashi">Shinji Kobayashi</a></li>
@@ -40,6 +41,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Member since 1 Feb 2015.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/rong_chen.php');?>
 				<p>Member since 1 Feb 2015. <em>Joint Program Lead</em></p><br/>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/christian_chevalley.php');?>
+				<p>Member since 1 Oct 2016.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/heath_frankel.php');?>
 				<p>Member since 1 Feb 2015.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sebastian_iancu.php');?>
