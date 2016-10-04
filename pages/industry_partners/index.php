@@ -50,6 +50,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Ocean Informatics is a recognised leader in e-health strategy, semantic interoperability and the shared EHR. Founded in 1998, Ocean Informatics is a unique company, comprising an experienced engineering team with strong clinical expertise. Collectively the Ocean team has over 100 man-years of health informatics experience. Ocean's vision is fully integrated and highly computable health data organised around the patient care process, served from high-availability infrastructure to point of care, reporting and analytics applications.</p>
 				<a href="/industry_partners/ocean_informatics">Learn more</a></td>
 			</tr>
+			<tr>
+				<td><a href="/industry_partners/operon"><img src="/files/industry_partners/operon_logo.png"></a></td>
+				<td><h2>Operon</h2>
+				<p>Operon provides an open platform-as-a-service for health and social care data based on openEHR and IHE-XDS. Our aim is to provide a self-service environment, aimed particularly at microenterprises and in-house developers building apps for health and care, who would otherwise find it difficult to deal with the complexity of the professional health and care environment. The Operon platform provides all the components need to support health and care apps. This allows app developers to use the platform to take care of the routinely demanding “plumbing”, and to focus their efforts on the unique features of their app.</p>
+				<a href="/industry_partners/operon">Learn more</a></td>
+			</tr>
 			</tbody>
 			</table>
 		
