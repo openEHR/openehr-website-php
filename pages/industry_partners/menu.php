@@ -8,4 +8,5 @@
 				<li><a href="/industry_partners/marand" <?php if($pageOn == 'marand.php'){?> class="active"<?php }?>>Marand</a></li>
 				<li><a href="/industry_partners/nousco" <?php if($pageOn == 'nousco.php'){?> class="active"<?php }?>>Nousco</a></li>
 				<li><a href="/industry_partners/ocean_informatics" <?php if($pageOn == 'ocean_informatics.php'){?> class="active"<?php }?>>Ocean Informatics</a></li>
+				<li><a href="/industry_partners/operon" <?php if($pageOn == 'operon.php'){?> class="active"<?php }?>>Operon</a></li>
 			</ul>

@@ -20,7 +20,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p><a href="http://operon.systems/" target="_blank">website</a></p>
 			
 			<h2>Overview</h2>
-			<p>Operon is a new venture planning to deliver an open platform-as-a-service for health and social care based on openEHR and IHE-XDS. Our aim is to provide a self-service environment, aimed particularly at microenterprises and in-house developers building apps for health and care, who would otherwise find it difficult to deal with the complexity of the professional health and care environment. The Operon platform provides all the components need to support health and care apps. This allows app developers to use the platform to take care of the routinely demanding “plumbing”, and to focus their efforts on the unique features of their app.</p>
+			<p>Operon provides an open platform-as-a-service for health and social care data based on openEHR and IHE-XDS. Our aim is to provide a self-service environment, aimed particularly at microenterprises and in-house developers building apps for health and care, who would otherwise find it difficult to deal with the complexity of the professional health and care environment. The Operon platform provides all the components need to support health and care apps. This allows app developers to use the platform to take care of the routinely demanding “plumbing”, and to focus their efforts on the unique features of their app.</p>
 
 			<h2>Solutions</h2>
 			<p>Operon provides an open platform-as-a-service for health and social care. The platform provides a range of components including:</p>
