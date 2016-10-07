@@ -15,8 +15,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<a href="http://www.cambiohealthcare.co.uk/" target="_blank"><img src="/files/industry_partners/cambio_logo.png" class="IndustryLogo"></a>
 			
 			<p><em>Headquarters:</em> Sweden</p>
-			<p><em>Branches:</em> UK, Sri Lanka, Denmark</p>
-			<p><em>Size:</em> 350 employees</p>
+			<p><em>Branches:</em> Denmark, UK, Sri Lanka</p>
+			<p><em>Size:</em> 450 employees</p>
 			<p><em>Trading since:</em> 1993</p>
 			<p><a href="http://www.cambiohealthcare.co.uk/" target="_blank">website</a></p>
 			
@@ -42,8 +42,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>United Kingdom:</p>
 				<ul>
 					<li>Princess Alexandra Hospital NHS Trust</li>
-					<li>InHealth (via Agilisys)</li>
-					<li>25 hospitals within Ramsay Health Care UK</li>
 				</ul>
 			<p>Today Cambio COSMIC has more than 100 000 users. </p>
 			
