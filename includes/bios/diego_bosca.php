@@ -1,4 +1,4 @@
-			<h3 id="diego_tomas_bosca">Diego Boscá Tomás (Spain)</h3>
+			<h3 id="diego_bosca_tomas">Diego Boscá Tomás (Spain)</h3>
 			<table class="TableInvisible">
 			<tbody>
 			<tr>

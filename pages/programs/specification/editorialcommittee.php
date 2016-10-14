@@ -20,7 +20,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li><a href="#koray_atalag">Koray Atalag</a></li>
 				<li><a href="#thomas_beale">Thomas Beale</a></li>
-				<li><a href="#diego_tomas_bosca">Diego Tomas Boscá</a></li>
+				<li><a href="#diego_bosca_tomas">Diego Boscá Tomás</a></li>
 				<li><a href="#rong_chen">Rong Chen</a></li>
 				<li><a href="#christian_chevalley">Christian Chevalley</a></li>
 				<li><a href="#heath_frankel">Heath Frankel</a></li>
