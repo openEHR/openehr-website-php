@@ -66,9 +66,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/QUERY/latest/AQL.html" target="_blank">AQL</a> </li>
 							<li> <a href="/releases/CDS/latest/GDL.html" target="_blank">GDL</a> </li>
 						</ul>
-					</td>
-
-					<td valign="top">
+						<p> </p>
 						<p> <em>APIs</em> </p>
 						<ul>
 							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">*EHR REST</a> </li>
