@@ -23,6 +23,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/BASE/latest/architecture_overview.html" target="_blank">openEHR Architecture</a> </li>
 							<li> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetype Technology</a> </li>
 						</ul>
+						<p> </p>
+						<p> <em>Generic</em> </p>
+						<ul>
+							<li> <a href="/releases/BASE/latest/base_types.html" target="_blank">*Base Types</a></li>
+							<li> <a href="/releases/BASE/latest/odin.html" target="_blank">ODIN</a></li>
+							<li> <a href="/releases/BASE/latest/bmm.html" target="_blank">BMM</a></li>
+							<li> <a href="/releases/BASE/latest/expression.html" target="_blank">*Expressions</a></li>
+						</ul>
 					</td>
 
 					<td valign="top">
@@ -63,22 +71,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<td valign="top">
 						<p> <em>APIs</em> </p>
 						<ul>
-							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST</a> </li>
+							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">*EHR REST</a> </li>
 						</ul>
 					</td>
 
 					<td valign="top">
-						<p> <em>Generic</em> </p>
+						<p> <em>Process</em> </p>
 						<ul>
-							<li> <a href="/releases/BASE/latest/base_types.html" target="_blank">Base Types</a></li>
-							<li> <a href="/releases/BASE/latest/odin.html" target="_blank">ODIN</a></li>
-							<li> <a href="/releases/BASE/latest/bmm.html" target="_blank">BMM</a></li>
-							<li> <a href="/releases/BASE/latest/expression.html" target="_blank">Expressions</a></li>
+							<li> <a href="/releases/RM/latest/task_planning.html" target="_blank">*Task Planning IM</a> </li>
 						</ul>
 					</td>
 				</tr>
 			</tbody>
 			</table>
+
+			<p>* = in development.
 
 			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
 			<h2>Specifications</h2>
