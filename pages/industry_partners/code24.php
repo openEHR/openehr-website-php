@@ -18,6 +18,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p><em>Trading since:</em> 2010</p>
 			<p><a href="http://www.code24.nl/en/Home" target="_blank">website</a></p>
 			
+			<p>Code24 B.V. is an innovative software development company located in Alkmaar in the Netherlands. Driven by great passion and dedication, our efforts are devoted entirely to the development of IT applications that can be used in the healthcare sector. We specialise in providing smart, web-based solutions for care providers that are also easy to use. Thanks to those solutions, they are able to rely upon a single, manageable and comprehensive overview of all of their patient's and client's health details, even if that information originates from a variety of systems.</p>
+            
 			<h2><a href="http://www.code24.nl/en/Home/Services" target="_blank">Services</a></h2>
 			<p><em>Consultancy</em>: The people behind Code24 have many years of experience within the healthcare sector and are aware of the IT needs that exist within healthcare organisations in the area of medical information. We provide consultancy to assist organisations in setting up the most effective IT architecture and Electronic Health Record environment.</p>
 			<p><em>Training</em>: Code24 provides its courses tailor-made, in line with the needs and preferences of the care organisation concerned. A variety of workshops and training courses about openEHR can be provded.</p>
@@ -31,17 +33,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h2><a href="http://www.code24.nl/en/Home/Referenties" target="_blank">Customers</a></h2>
 			<ul>
-				<li>LUMC - University Medical Center</li>
-				<li>Diagnostiek voor U - Diagnostic Center</li>
 				<li>Amici - Mental Health</li>
 				<li>Arkin - Mental Health</li>
-				<li>GGZ Centraal - Mental Health</li>
+                <li>Diagnostiek voor U - Diagnostic Center</li>
+                <li>GGZ Centraal - Mental Health</li>
 				<li>GGZ Delfland - Mental Health</li>
 				<li>GGZ Drenthe - Mental Health</li>
 				<li>GGZ Eindhoven - Mental Health</li>
 				<li>GGZ Friesland - Mental Health</li>
 				<li>GGZ Noord-Holland-Noord - Mental Health</li>
 				<li>GGZ Westelijk Noord-Brabant - Mental Health</li>
+				<li>LUMC - University Medical Center</li>
 				<li>Mondriaan - Mental Health</li>
 				<li>Yulius - Mental Health</li>
 			</ul>
