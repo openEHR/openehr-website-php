@@ -36,14 +36,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<td valign="top">
 						<p> <em>RM</em> </p>
 						<ul>
-							<li> <a href="/releases/RM/latest/ehr.html" target="_blank">EHR IM</a> </li>
-							<li> <a href="/releases/RM/latest/demographic.html" target="_blank">Demographic IM</a> </li>
-							<li> <a href="/releases/RM/latest/common.html" target="_blank">Common IM</a> </li>
-							<li> <a href="/releases/RM/latest/data_structures.html" target="_blank">Data Structures IM</a> </li>
-							<li> <a href="/releases/RM/latest/data_types.html" target="_blank">Data Types IM</a> </li>
-							<li> <a href="/releases/RM/latest/support.html" target="_blank">Support IM</a> </li>
-							<li> <a href="/releases/RM/latest/integration.html" target="_blank">Integration IM</a> </li>
-							<li> <a href="/releases/RM/latest/ehr_extract.html" target="_blank">EHR Extract IM</a> </li>
+							<li> <a href="/releases/RM/latest/ehr.html" target="_blank">EHR</a> </li>
+							<li> <a href="/releases/RM/latest/demographic.html" target="_blank">Demographic</a> </li>
+							<li> <a href="/releases/RM/latest/common.html" target="_blank">Common</a> </li>
+							<li> <a href="/releases/RM/latest/data_structures.html" target="_blank">Data Structures</a> </li>
+							<li> <a href="/releases/RM/latest/data_types.html" target="_blank">Data Types</a> </li>
+							<li> <a href="/releases/RM/latest/support.html" target="_blank">Support</a> </li>
+							<li> <a href="/releases/RM/latest/integration.html" target="_blank">Integration</a> </li>
+							<li> <a href="/releases/RM/latest/ehr_extract.html" target="_blank">EHR Extract</a> </li>
 							<li> <a href="/releases/RM/latest/docs/index#_class_index" target="_blank"><strong>RM Class Index</strong></a></li>
 						</ul>
 					</td>
@@ -76,7 +76,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<td valign="top">
 						<p> <em>Process</em> </p>
 						<ul>
-							<li> <a href="/releases/RM/latest/task_planning.html" target="_blank">*Task Planning IM</a> </li>
+							<li> <a href="/releases/RM/latest/task_planning.html" target="_blank">*Task Planning</a> </li>
 						</ul>
 					</td>
 				</tr>
