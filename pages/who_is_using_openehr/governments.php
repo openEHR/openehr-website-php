@@ -40,13 +40,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>The Brazilian Agency for Supplementary Health (ANS) established a national standard to support the exchange of information among health providers and health care insurance companies. This standard, called (TISS in Portuguese), was conceived as a traditional message exchange standard. This project aims at designing archetypes that could be used to carry all information represented in TISS. It also aims at implementing a prototype software that will use openEHR reference model to exchange TISS information. This proof of concept will show an alternative way of implementing TISS that could be more effective in dealing with the standard evolution.</td>
 			</tr>
 			<tr>
-				<td rowspan="2"><img src="/files/who_is_using_openehr/denmark.gif" alt="Flag of Denmark" title="Flag of Denmark" style="width:80px;"><p>Denmark</p></td>
-				<td>Connected Digital <br/>Health in Denmark</td>
-				<td>National proof-of-concept project.</td>
-			</tr>
-			<tr>
-				<td>Various Danish<br/> regions</td>
-				<td>Evaluation of archetype methodology in progress 2008/9.</td>
+				<td><img src="/files/who_is_using_openehr/Flag_of_India.png" alt="Flag of India" title="Flag of India" style="width:80px;"><p>India</p></td>
+				<td><a href="http://mohfw.nic.in">Ministry of Health &amp; Family Welfare, Government of India</a></td>
+				<td>The Department of Health &amp; Family Welfare, e-Health Division has chosen in 2016 a number of standards for use in Indian e-Health, including SNOMED CT, LOINC, ISO 13940, ISO 13606, and openEHR. See the document <a href="http://mohfw.nic.in/showfile.php?lid=4138">ELECTRONIC HEALTH RECORD(EHR) STANDARDS FOR INDIA</a>.</td>
 			</tr>
 			<tr>
 				<td><img src="/files/who_is_using_openehr/newzealand.gif" alt="Flag of New Zealand" title="Flag of New Zealand" style="width:80px;"><p>New Zealand</p>
