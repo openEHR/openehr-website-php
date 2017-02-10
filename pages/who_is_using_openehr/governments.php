@@ -22,13 +22,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Usage</th>
 			</tr>
 			<tr>
-				<td rowspan="2"><img src="/files/who_is_using_openehr/australia.gif" alt="Flag of Australia" title="Flag of Australia" style="width:80px;"><p>Australia</p></td>
-				<td>NeHTA (National e-Health Transition Authority)</td>
-				<td>Clinical data modelling based on openEHR methodology. Use of transformation from openEHR models to CDA schemas.</td>
-			</tr>
-			<tr>
-				<td>Victoria Health</td>
-				<td>Various projects including the state cancer registry are using or will use openEHR.</td>
+				<td><img src="/files/who_is_using_openehr/australia.gif" alt="Flag of Australia" title="Flag of Australia" style="width:80px;"><p>Australia</p></td>
+				<td>Australian Digital Health Agency (was NeHTA - National e-Health Transition Authority)</td>
+				<td>Clinical data modelling based on openEHR methodology. Use of transformation from openEHR models to various output formats.<br/>
+					Library of archetypes, templates and terminology subsets in <a href="http://dcm.nehta.org.au/ckm/">Clinical Knowledge Manager</a>.
+				</td>
 			</tr>
 			<tr>
 				<td rowspan="2"><img src="/files/who_is_using_openehr/brazil_S.gif" alt="Flag of Brazil" title="Flag of Brazil" style="width:80px;"><p>Brazil</p></td>
@@ -50,14 +48,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>New Zealand's <a href="http://www.ithealthboard.health.nz/sites/all/files/Interoperability%20Reference%20Architecture%20v%201.0.pdf" target="_blank">Interoperability Reference Architecture</a> is underpinned by openEHR. One of the building blocks of this national standard (<a href="http://www.ithealthboard.health.nz/sites/all/files/HISO%2010040.2%20HIE%20Content%20Model%20v1.pdf" target="_blank">HISO 10040.2 Exchange Content Model</a>) describes a uniform content model for the purpose of health information exchange. The Content Model follows CCR in its top level headings and comprises archetypes from various sources including Nehta and openEHR CKM as well as newly modelled ones. It is intended not to establish own CKM but share Australian CKM as the healthcare systems and cultures are very similar.</td>
 			</tr>
 			<tr>
+				<td><img src="/files/who_is_using_openehr/Flag_of_Norway.png" alt="Flag of Norway" title="Flag of Norway" style="width:80px;"><p>Norway</p></td>
+				<td>Nasjonal IKT</td>
+				<td><a href="http://arketyper.no/ckm/">Norwegian Clinical Knowledge Manager</a>.</td>
+			</tr>
+			<tr>
 				<td><img src="/files/who_is_using_openehr/slovenia.gif" alt="Flag of Slovenia" title="Flag of Slovenia" style="width:80px;"><p>Slovenia</p></td>
 				<td>Ministry of Health</td>
-				<td>National health information exchange network enabling sharing of clinical information among all healthcare stakeholders. Provides the interoperability backbone providing services to eHealth applications such as eReferral, ePrescription as well as national health registries. See <a href="http://www.openehr.org/who_is_using_openehr/healthcare_providers_and_authorities">here</a> for details.</td>
+				<td>National health information exchange network enabling sharing of clinical information among all healthcare stakeholders. <br/>
+					<a href="http://ukz.ezdrav.si/ckm/OKM_sl.html">National Archetype repository</a> <br/>
+					Provides the interoperability backbone for eHealth applications such as eReferral, ePrescription as well as national health registries. <a href="http://www.openehr.org/who_is_using_openehr/healthcare_providers_and_authorities">See here for details</a>.</td>
 			</tr>
 			<tr>
 				<td><img src="/files/who_is_using_openehr/uk_S.gif" alt="Flag of United Kingdom" title="Flag of United Kingdom" style="width:80px;"><p>UK</p></td>
-				<td>National Health <br/>Service (NHS)<br/>Connecting for <br/>Health (CFH)</td>
-				<td>The NHS has developed and used openEHR archetypes and templates as a formal way of capturing clinical content requirements. In a pilot in Q1&amp;2 2007, around 220 archetypes and 40 templates were developed in the maternity and emergency department (ED) specialties. By end 2008, the number of archetypes was around 1000.</td>
+				<td>National Health <br/>Service (NHS)</td>
+				<td>The NHS has supports development of clinical models via the Apperta Foundation, which has a <a href="http://www.clinicalmodels.org.uk/ckm/">Clinical Knowledge Manager archetype repository</a>.</td>
 			</tr>
 			</tbody>
 			</table>
