@@ -7,7 +7,6 @@
 				<br/>
 				<li><a href="/news_events/events" <?php if($PageName == 'Events'){?> class="active"<?php }?>>Events</a></li>
 				<li><a href="/news_events/releases" <?php if($PageName == 'Releases'){?> class="active"<?php }?>>Releases</a></li>
-				<li><a href="/news_events/conference_reports" <?php if($PageName == 'Conference Reports'){?> class="active"<?php }?>>Conference Reports</a></li>
 				<br/>
 				<li><a href="/news_events/clinical_model_news" <?php if($PageName == 'CKM Activity'){?> class="active"<?php }?>>CKM Activity</a></li>
 				<br/>
