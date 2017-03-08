@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Roadmap 2014';
+$PageName = 'openEHR in China 2016';
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
@@ -11,7 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 <!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
 		
 		<h1><?php echo "$PageName";?></h1>
-		<h2 id="openEHR2014roadmapmeetingreport-Summary">Summary</h2>
+		<h2 id="openEHRinChina2016">Summary</h2>
 		<p>After the successful "First Workshop on Using and Promoting openEHR in China in 2016" in April, more and more domain experts, hospitals and vendors in China are interested in openEHR.  To make more people know openEHR in China, OpenEHR technical committee had developed an <a href="http://www.openehr.org.cn:8080/MyOpenEHRWeb/index.jsp">official website</a>, including contents of news, notification, forum, cases and program. And several other organizations and companies has joined in the working groups led by Zhejiang University (ZJU) to start localization of archetypes in China. More and more projects have used openEHR as the basic model of the system.</p>
 	
 		<p>Under this background, in order to deeply facilitate openEHR adoption and implementation in China, openEHR technical committee organized second workshop in November 25, 2016, as the sattelite meeting of CAMDI Medical Software Yearly Conference. The workshop has totally over 50 people participated, including university professors, vendor representatives, hospital managers and standard researchers. This workshop consisted of two sessions: openEHR modeling and openEHR technical implementation.</p>
