@@ -2,7 +2,7 @@
 			<ul>
 				<li><a href="/news_events/industry_news" <?php if($PageName == 'Industry News'){?> class="active"<?php }?>>Industry News</a></li>
 				<li><a href="/news_events/community_news" <?php if($PageName == 'Community News'){?> class="active"<?php }?>>Community News</a></li>
-				<li><a href="/news_events/affiliate_news" <?php if($PageName == 'Affiliate News'){?> class="active"<?php }?>>Affiliate News</a></li>
+				<li><a href="/news_events/local_affiliate_news" <?php if($PageName == 'Local Affiliate News'){?> class="active"<?php }?>>Local Affiliate News</a></li>
 				<li><a href="/news_events/foundation_news" <?php if($PageName == 'Foundation News'){?> class="active"<?php }?>>Foundation News</a></li>
 				<br/>
 				<li><a href="/news_events/events" <?php if($PageName == 'Events'){?> class="active"<?php }?>>Events</a></li>

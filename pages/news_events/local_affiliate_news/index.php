@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_functions.php');
 
 //Change page name here:
-$PageName = 'Affiliate News';
+$PageName = 'Local Affiliate News';
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
