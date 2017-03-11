@@ -46,7 +46,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 		  
 			<h2>Download</h2>
-			
+
+<!--
 			<h3 id="currentrelease">Current Release</h3>
             <table class="TableBasic">
 				<tbody>
@@ -84,7 +85,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 				</tbody>
             </table>
-			
+-->			
 			<h3 id="latest_build">Latest Builds</h3>
             <table class="TableBasic">
 				<tbody>
@@ -97,10 +98,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.2923</td>
-						<td> 01 Dec 2016</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2923-windows_64bit.exe">.exe installer</a></td>
-						<td> Various bug fixes.</td>
+						<td> 2.0.6.2926</td>
+						<td> 11 Mar 2017</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2926-windows_64bit.exe">.exe installer</a></td>
+						<td> Improve output of adlc.</td>
 					</tr>
 					<tr>
 						<td> Windows (32-bit)</td>
