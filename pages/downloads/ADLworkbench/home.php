@@ -104,18 +104,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<td> Improve output of adlc.</td>
 					</tr>
 					<tr>
-						<td> Windows (32-bit)</td>
-						<td> 2.0.6.2844</td>
-						<td> 27 Mar 2016</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2844-alpha-windows_32bit.exe">.exe installer</a></td>
-						<td> Various bug fixes.</td>
-					</tr>
-					<tr>
-						<td> Mac OS X 10.9 (Yosemite)<br/></td>
-						<td> 2.0.6.2820-alpha</td>
-						<td> 07 May 2015</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2820-alpha-macosx_yosemite.dmg">.dmg installer</a></td>
-						<td> Rewritten export function (Archetypes>Export); faster XML export; single-file templates; improved adlc command-line; XSD-validating XML output; new style annotations section.</td>
+						<td> Mac OS X 10.11 (Yosemite)<br/></td>
+						<td> 2.0.6.2926-alpha</td>
+						<td> 14 Mar 2017</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2926-macosx_el_capitan.dmg">.dmg installer</a></td>
+						<td> Improve output of adlc.</td>
 					</tr>
 					<tr>
 						<td>Linux (32-bit Intel)<br/></td>
