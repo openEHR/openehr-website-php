@@ -44,12 +44,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Marand is one of the leading Slovenian company in the field of information and communication technologies and information support business processes. Marand is a customer-centric solution provider in healthcare offering products including Think!Med Clinical&trade;, Think!Med EHR Platform and Think!Med Preventive. All these solutions are based on state of the art technology and industry standards.</p>
 				<a href="/industry_partners/marand">Learn more</a></td>
 			</tr>
+<!-- 
 			<tr>
 				<td><a href="/industry_partners/medrecord"><img src="/files/industry_partners/medrecord_logo.png"></a></td>
 				<td><h2>MEDrecord BV</h2>
 				<p>MEDrecord provides a ground-breaking eHealth platform that is completely based on the openEHR standard, developed using MEDrecord's extensive experience in the eHealth sector.</p>
 				<a href="/industry_partners/medrecord">Learn more</a></td>
 			</tr>
+ -->
 			<tr>
 				<td><a href="/industry_partners/ocean_health_systems"><img src="/files/industry_partners/ocean_logo.png"></a></td>
 				<td><h2>Ocean Health Systems</h2>
