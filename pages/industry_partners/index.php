@@ -45,6 +45,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<a href="/industry_partners/marand">Learn more</a></td>
 			</tr>
 			<tr>
+				<td><a href="/industry_partners/medrecord"><img src="/files/industry_partners/medrecord_logo.png"></a></td>
+				<td><h2>MEDrecord BV</h2>
+				<p>MEDrecord provides a ground-breaking eHealth platform that is completely based on the openEHR standard, developed using MEDrecord's extensive experience in the eHealth sector.</p>
+				<a href="/industry_partners/medrecord">Learn more</a></td>
+			</tr>
+			<tr>
 				<td><a href="/industry_partners/ocean_health_systems"><img src="/files/industry_partners/ocean_logo.png"></a></td>
 				<td><h2>Ocean Health Systems</h2>
 				<p>Ocean Health Systems is a recognised leader in e-health strategy, semantic interoperability and the shared EHR. Founded in 1998, Ocean Informatics is a unique company, comprising an experienced engineering team with strong clinical expertise. Collectively the Ocean team has over 100 person-years of health informatics experience. Ocean's vision is fully integrated and highly computable health data organised around the patient care process, served from high-availability infrastructure to point of care, reporting and analytics applications.</p>
