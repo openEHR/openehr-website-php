@@ -20,7 +20,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p><a href="http://www.medrecord.nl/" target="_blank">website</a></p>
 			
 			<h2>Services</h2>
-			<p>MEDrecord provides a ground-breaking eHealth platform completely based on the openEHR standard. With our extensive experience in the eHealth sector our Cloud based API's are the most competitive solution in the market to date.</p>
+			<p>MEDrecord provides a ground-breaking eHealth platform completely based on the openEHR standard. We have a long history in the eHealth landscape with significant expertise on security, continuous development and semantic interoperability. For developers and integrators we provide advanced, easy-to-use APIs for the development of clinically validated apps.</p>
 			
 			<h2>Solutions</h2>
 			<ul>
