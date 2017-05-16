@@ -29,7 +29,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 			<tr>
 				<td><strong>EhrScape</strong></td>
-				<td>openEHR health data platform from Marand, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://www.ehrscape.com/documentation.html">(more)</a>.</td>
+				<td>openEHR health data platform from <a href="http://www2.openehr.org/industry_partners/marand">Marand</a>, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://www.ehrscape.com/documentation.html">(more)</a>.</td>
 				<td> Java</td>
 				<td><a href="https://www.ehrscape.com/" target="_blank">EhrScape.com</a></td>
 				<td></td>
@@ -37,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 			<tr>
 				<td><strong>MedRecord</strong></td>
-				<td>openEHR health API platform from MEDrecord, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://developers.medrecord.io">(more)</a>.</td>
+				<td>openEHR health API platform from <a href="http://www2.openehr.org/industry_partners/medrecord">MEDrecord</a>, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://developers.medrecord.io">(more)</a>.</td>
 				<td> Java</td>
 				<td><a href="https://developers.medrecord.io/" target="_blank">MEDrecord.io</a></td>
 				<td></td>
