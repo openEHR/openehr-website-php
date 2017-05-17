@@ -36,7 +36,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="https://www.ehrscape.com/contact.html">Support</a></td>
 			</tr>
 			<tr>
-				<td><strong>MedRecord</strong></td>
+				<td><strong>MEDrecord</strong></td>
 				<td>openEHR health API platform from <a href="http://www2.openehr.org/industry_partners/medrecord">MEDrecord</a>, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://developers.medrecord.io">(more)</a>.</td>
 				<td> Java</td>
 				<td><a href="https://developers.medrecord.io/" target="_blank">MEDrecord.io</a></td>
