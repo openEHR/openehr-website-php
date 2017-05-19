@@ -30,9 +30,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		          <li>A wearable for the prediction of hypo attacks at Diabetic patients</li>
             </ul>
 			
+			<h2>Target Market</h2>
+			<ul>
+				<li>Front end developers and designers.</li>
+				<li>Healthcare delivery institutions.</li>
+			</ul>
+		
 			<h2>Customers</h2>
-            <p>Horizon2020 myAirCoach project, funded to end 2018.</p> 
-            <p>Within the myAirCoach project an advanced wearable for Asthma COPD patients is being developed. The infrastructure is based on the MEDrecord openEHR platform. Our research is in use by the UK National Institute for Health and Care Excellence (NICE) <a href="https://www.nice.org.uk/advice/mib90/chapter/Patient-organisation-comments">[ref]</a>.</p>
+			<ul>
+				<li>Epilepsy monitoring at the largest Dutch institute (under NDA).</li>
+				<li>Three hospitals in the Horizon2020 myAirCoach project (funded to end of 2018) - Within the myAirCoach project an advanced wearable for Asthma COPD patients is being developed. The infrastructure is based on the MEDrecord openEHR platform. Our research is in use by the UK National Institute for Health and Care Excellence (NICE) <a href="https://www.nice.org.uk/advice/mib90/chapter/Patient-organisation-comments">[ref]</a>.</li>
+			</ul>
 		
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	

@@ -37,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<p>All of our components are based on open standards. This allows apps built on our platform to be ported easily to other platforms using the same standards.</p>
 			
-			<h2>Customers</h2>
+			<h2>Target Market</h2>
 			<p>The Operon Platform is aimed at microenterprises and small in-house development teams in health and care organisations who would otherwise struggle with the complexity of the health and care environment, providing the “plumbing” to deal with:</p>
 			<ul>
 				<li>Interoperability</li>
@@ -46,6 +46,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li>Cybersecurity</li>
 			</ul>
 			<p>The Platform provides a self-service environment allowing developers to instantly provision the components and services they need and concentrate their efforts on the unique features of their app.</p>
+
+			<h2>Charging Model</h2>
 			<p>Customers are charged only for the resources they consume. Usage plans include a ‘starter’ tier, allowing developers to make small-scale deployments permanently free of charge.</p>
 			
 
