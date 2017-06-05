@@ -49,7 +49,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				</ul>
 			<p>In Europe:</p>
 				<ul>
-					<li><a href="http://www.leedsth.nhs.uk/home/" target="_blank">Leeds Teaching Hospital Trust</a></li>
 					<li><a href="http://www.mz.gov.si/en/" target="_blank">Ministry of Health, Slovenia</a></li>
 					<li><a href="http://www.helse-bergen.no/english/Sider/side.aspx" target="_blank">Helse Bergen, Norway</a></li>
 				</ul>
