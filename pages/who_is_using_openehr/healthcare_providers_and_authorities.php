@@ -28,38 +28,38 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tr>
 				<td rowspan="6"><img src="/files/who_is_using_openehr/australia.gif" alt="Flag of Australia" title="Flag of Australia" style="width:80px;"><p>Australia</p></td>
 				<td><a href="http://www.health.qld.gov.au/">Queensland Health</a><br/>Australian state health authority responsible for the providing public health 4.5m consumers; Centre for Healthcare Related Infection Surveillance and Prevention (CHRISP).</td>
-				<td>Infection Control system, Multiprac, for 140+ hospitals in Queensland based on the Ocean OceanEHR platform. <a href="http://oceaninformatics.com/case_studies/queensland_health">Case study</a></td>
-				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a></td>
+				<td>Infection Control system, Multiprac, for 140+ hospitals in Queensland based on the Ocean OceanEHR platform.</td>
+				<td><a href="http://www.openehr.org/industry_partners/ocean_health_systems">Ocean Health Systems</a></td>
 				<td>Deployed Aug 2012</td>
 			</tr>
 			<tr>
 				<td><a href="http://www.wentwest.com.au/">Western Sydney Primary Healthcare Network & Western Sydney local Health District</a><br/>Community health organisation</td>
 				<td>Integrate care project between acute care and primary care for NSW health. </td>
-				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a><br/></td>
+				<td><a href="http://www.openehr.org/industry_partners/ocean_health_systems">Ocean Health Systems</a><br/></td>
 				<td>Deployed June 2015</td>
 			</tr>
 			<tr>
 				<td><a href="http://www.wentwest.com.au/">Western Sydney Medicare Local</a><br/>Community health organisation</td>
-				<td>Community Health record for 350 GP clinics in Western Sydney. <a href="http://oceaninformatics.com/case_studies/western_sydney">Case study</a></td>
-				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a><br/></td>
+				<td>Community Health record for 350 GP clinics in Western Sydney.</td>
+				<td><a href="http://www.openehr.org/industry_partners/ocean_health_systems">Ocean Health Systems</a><br/></td>
 				<td>Deployed December 2013</td>
 			</tr>
 			<tr>
 				<td><a href="http://www.health.nt.gov.au/">Northern Territory Health</a><br/>Australian state health authority responsible for the providing public health 233,000 consumers</td>
-				<td>Shared Electronic Health record for over 50,000 remote indigenous people in the NT and other states in Australia. <a href="http://oceaninformatics.com/case_studies/northern_territory">Case study</a></td>
-				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a></td>
+				<td>Shared Electronic Health record for over 50,000 remote indigenous people in the NT and other states in Australia.</td>
+				<td><a href="http://www.openehr.org/industry_partners/ocean_health_systems">Ocean Health Systems</a></td>
 				<td>Deployed October 2012</td>
 			</tr>
 			<tr>
 				<td><a href="http://www.sath.org.au/">St Andrews Hospital Toowoomba, Queensland, Australia</a><br/>Regional private hospital</td>
 				<td>Multiprac Infection Control and Staff Health system based on the Ocean OceanEHR platform</td>
-				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a></td>
+				<td><a href="http://www.openehr.org/industry_partners/ocean_health_systems">Ocean Health Systems</a></td>
 				<td>Deployed June 2012</td>
 			</tr>
 			<tr>
 				<td><a href="http://hsnph.org.au/about-us/welcome/">St Vincents Holy Spirit Hospital, Brisbane, Australia</a><br/>Large private 225 bed hospital</td>
 				<td>Multiprac Infection Control and Staff Health system based on the Ocean OceanEHR platform</td>
-				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a></td>
+				<td><a href="http://www.openehr.org/industry_partners/ocean_health_systems">Ocean Health Systems</a></td>
 				<td>Deployed December 2012</td>
 			</tr>
 
@@ -241,7 +241,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><img src="/files/who_is_using_openehr/uk_S.gif" alt="Flag of United Kingdom" title="Flag of United Kingdom" style="width:80px;"><p>UK</p></td>
 				<td>
 					<a href="https://www.genomicsengland.co.uk/the-100000-genomes-project/" target="_blank">100,000 Genome information integration research project, UK</a><br>
-					Genomics England is working with NHS England (NHSE), Public Health England (PHE), Health Education England (HEE) and NHS Trusts. <br>
+					Genomics England is working with NHS England (NHSE), Public Health England (PHE), Health Education England (HEE) and NHS Trusts. <br><br>
 					The mission of the organisation is focused on combining clinical and whole genome sequencing data in rare disease, cancer, and infection with the goal to make UK the first ever country to introduce this technology in its mainstream health system.<br>
 					<ul>
 						<li>Great Ormond Street Hospital for Children</li>
