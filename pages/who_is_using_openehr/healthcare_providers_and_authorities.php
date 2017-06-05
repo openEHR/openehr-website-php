@@ -23,6 +23,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Vendor(s)</th>
 				<th>Status</th>
 			</tr>
+
+			<!-- ------------- Australia ------------- -->
 			<tr>
 				<td rowspan="6"><img src="/files/who_is_using_openehr/australia.gif" alt="Flag of Australia" title="Flag of Australia" style="width:80px;"><p>Australia</p></td>
 				<td><a href="http://www.health.qld.gov.au/">Queensland Health</a><br/>Australian state health authority responsible for the providing public health 4.5m consumers; Centre for Healthcare Related Infection Surveillance and Prevention (CHRISP).</td>
@@ -60,6 +62,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics, Australia</a></td>
 				<td>Deployed December 2012</td>
 			</tr>
+
+			<!-- ------------- Brazil ------------- -->
 			<tr>
 				<td rowspan="2"><img src="/files/who_is_using_openehr/brazil_S.gif" alt="Flag of Brazil" title="Flag of Brazil" style="width:80px;"><p>Brazil</p></td>
 				<td>Around 3,000 health professionals including doctors (primarily ophthalmologists - Brazilian College of Ophthalmologists), physiotherapists, nurses and receptionists.</td>
@@ -73,8 +77,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="http://ricardoquintano.wix.com/ezvida/">ezVida, Brazil</a></td>
 				<td>Deployed June 2012</td>
 			</tr>
+
+			<!-- ------------- Netherlands ------------- -->
 			<tr>
-				<td rowspan="3"><img src="/files/who_is_using_openehr/netherlands.gif" alt="Flag of Netherlands" title="Flag of Netherlands" style="width:80px;"><p>The Netherlands</p></td>
+				<td rowspan="5"><img src="/files/who_is_using_openehr/netherlands.gif" alt="Flag of Netherlands" title="Flag of Netherlands" style="width:80px;"><p>The Netherlands</p></td>
+				<td><a href="https://www.diagnostiekvooru.nl/">Diagnostiek voor U</a></td>
+				<td>A structured and standards based clinical data repository (CDR) for lab and other healthcare services.</td>
+				<td><a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
+				<td>Deployed Feb 2017</td>
+			</tr>
+			<tr>
+				<td><a href="https://www.eurotransplant.org/cms/">Eurotransplant International Foundation</a></td>
+				<td>A structured and standards based clinical data repository (CDR) for Eurotransplant applications / registries.</td>
+				<td><a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
+				<td>Deployed Feb 2017</td>
+			</tr>
+			<tr>
 				<td><a href="http://www.ggznhn.nl">GGZ Noord Holland Noord</a><br/>Mental health organisation</td>
 				<td>MedPlus24 medication viewer (openEHR 1.0.2), to view all prescribed medication for a specific patient. The information 
 				is digitally collected from all the surrounding city pharmacies in the region.</td>
@@ -95,17 +113,32 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="http://www.openehr.org/industry_partners/code24">Code24, The Netherlands</a></td>
 				<td>Deployed November 2012</td>
 			</tr>
+
+			<!-- ------------- Norway ------------- -->
 			<tr>
 				<td><img src="/files/who_is_using_openehr/Flag_of_Norway.png" alt="Flag of Norway" title="Flag of Norway" style="width:80px;"><p>Norway</p></td>
 				<td>The DIPS EPR solution is in use in 3 of the 4 regions in Norway, corresponding to about 85% of beds.</td>
 				<td>
 					<p>DIPS Arena, based on openEHR archetypes and release 1.0.2 is being rolled out across the country from 2014 - 2018 to DIPS hospitals using the existing DIPS 'classic' system. The first production version of DIPS Arena was put in production at Oslo University Hospital on October 2014 alongside the current DIPS Classic. As of now the trauma center and the orthopedic ER are using archetypes for documentation. OUS are expanding the use of Arena to other areas, first up is a large clinic for STDs where archetypes are now under development and will support both clinical notes and patient self registrations which are used both for the clinicians and for public health reporting. During 2015 the medication solution will be converte to be fully archetype based, and similarly the CPOE-modules.</p>
-					<p>The two other regions are in different stages of planning. The Nordic region will start using our surgery planning system which is fully archetype based in September and will receive modules for psychiatry by the end of the year. Similarly the western regions plan to start implementation projects for outpatient clinics this fall, with projected startup January 2016.</p>
+					<p>The two other regions are in different stages of planning. The Nordic region will start using our surgery planning system which is fully archetype based in September and will receive modules for psychiatry by the end of the year. Similarly the western regions plan to start implementation projects for outpatient clinics this fall, with projected startup Jan 2016.</p>
 					<p>DIPS also cooperates on the national ICT archetype development project, utilising the <a href="http://arketyper.no/ckm/">Norwegian CKM</a>.</p>
 				</td>
 				<td><a href="http://www.openehr.org/industry_partners/dips">DIPS asa</a></td>
 				<td>Deploying since 2014</td>
 			</tr>
+
+
+			<!-- ------------- The Philippines ------------- -->
+			<tr>
+				<td><img src="/files/who_is_using_openehr/Flag_of_the_Philippines.png" alt="Flag of The Philippines" title="Flag of The Philippines" style="width:80px;"><p>The Philippines</p></td>
+				<td><a href="https://www.diagnostiekvooru.nl/">Ayala Healthcare Holdings</a></td>
+				<td>A structured and standards based clinical data repository (CDR) for a comprehensive Primary Care EHR solution built on top of Think!EHR Platform.</td>
+				<td><a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
+				<td>Deployed Jan 2017</td>
+			</tr>
+
+
+			<!-- ------------- Portugal ------------- -->
 			<tr>
 				<td><img src="/files/who_is_using_openehr/portugal_flag.jpg" alt="Flag of Portugal" title="Flag of Portugal" style="width:80px;"><p>Portugal</p></td>
 				<td><a href="http://www.idealmed.pt/index.php/en/idealmed/uhc-unidade-hospitalar-de-coimbra#/como-chegar">IdealMed, Coimbra, Portugal</a><br/>Large private hospital covering all medical specialties and settings including inpatient, outpatient, surgery, emergency, Medical Training, Clinical Research and Clinical Trials</td>
@@ -113,16 +146,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="http://www.openehr.org/industry_partners/critical_software">Critical Software S.A., Portugal</a></td>
 				<td>Deployed May 2011</td>
 			</tr>
+
+			<!-- ------------- Russia ------------- -->
 			<tr>
 				<td rowspan="4"><img src="/files/who_is_using_openehr/Flag_of_Russia.svg.png" alt="Flag of Russia" title="Flag of Russian" style="width:80px;"><p>Russia</p></td>
 				<td id="IBS_Moscow"><a href="http://www.mos.ru/en/authority/dit/">Moscow City Department of Information Technologies</a><br/>Authority responsible for e-health solutions for Moscow's 12 million, and 130,000 users in 780 facilities.</td>
-				<td>The Integrated Medical Information System (SIMI) project will centralise electronic health records for Moscow, including all primary health centres and city hospitals, using the Marand Think!Med EHR platform.</td>
+				<td>The integrated Medical Information and Analytical System (IMIAS) project centralises electronic health records for Moscow, including all primary health centres and city hospitals, using Marand’s Think!EHR&trade; Platform.  IMIAS provides patients with convenient alternatives for medical appointments, relieves doctors of the burden of paperwork and allows the authorities to supervise the provision of medical care.</td>
 				<td>Prime: <a href="http://www.ibs.ru/">IBS, Moscow</a><br/>
-					EHR platform: <a href="http://www.openehr.org/industry_partners/marand">Marand (Slovenia)</a><br/>
-					Clinical apps: <a href="http://www.openehr.org/industry_partners/infinnity_solutions">Infinnity (Russia)</a><br/>
-					Clinical strategy &amp; tooling: <a href="http://www.openehr.org/industry_partners/ocean_informatics">Ocean Informatics UK</a><br/>
-					IHE/XDS: <a href="http://www.forcare.nl/">Forcare (Netherlands)</a></td>
-				<td>Pilot phase contracted; deployment during 2013</td>
+					EHR platform: <a href="http://www.openehr.org/industry_partners/marand">Think!EHR&trade; - Marand (Slovenia)</a><br/>
+					Clinical applations: <a href="http://www.openehr.org/industry_partners/infinnity_solutions">Infinnity (Russia)</a><br/>
+				<td>City-wide use for all the GPs and hospitals in the city of Moscow, 2016.</td>
 			</tr>
 			<tr>
 				<td><em>Clinic of Chelyabinsk Medical Academy</em><br/>572 beds, 196 physicians, 386 staff in total</td>
@@ -143,6 +176,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="http://www.openehr.org/industry_partners/infinnity_solutions">Infinnity, Russia</a></td>
 				<td>Deployed 2011</td>
 			</tr>
+
+			<!-- ------------- Slovenia ------------- -->
 			<tr>
 				<td rowspan="3"><img src="/files/who_is_using_openehr/slovenia.gif" alt="Flag of Slovenia" title="Flag of Slovenia" style="width:80px;"><p>Slovenia</p></td>
 				<td><a href="http://www4.kclj.si/ang/index.php">University Medical Center Ljubljana, Slovenia</a><br/>UMCL is a tertiary care institution covering all medical specialties with more that 2,000 beds and 7,500 employees including 1,200 physicians.</td>
@@ -153,7 +188,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tr>
 				<td><a href="http://www.onko-i.si/">Institute of Oncology, Ljubljana</a><br/>The Institute is the leading cancer care and research institution in the 
 				region. 400 beds, 150 physicans and 800 staff.</td>
-				<td>Think!Med Screening, based on the Think!EHR Platform, provides a medical data repository and supports the workflow for Slovenia's National Breast Cancer Screening program. 
+				<td>Think!Screening, based on the Think!EHR Platform, provides a medical data repository and supports the workflow for Slovenia's National Breast Cancer Screening program. 
 				It covers screening of all women between the ages of 50 and 69 and is run countrywide by the Institute of Oncology.</td>
 				<td><a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
 				<td>Deployed Dec 2012</td>
@@ -162,9 +197,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="http://www.mz.gov.si">Ministry of Health, Slovenia</a><br/>The Slovenian Ministry of Health is responsible for the majority of all healthcare delivery institutions in the country.</td>
 				<td>National health information exchange network enabling sharing of clinical information among all healthcare stakeholders. Provides the interoperability backbone providing 
 				services to eHealth applications such as eReferral, ePrescription as well as national health registries. Based on established industry standards including <a href = "http://www.ihe.net">IHE</a> and <a href = "http://www.openEHR.org">openEHR</a>.</td>
-				<td>Consoritum led by <a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
+				<td>Consortium led by <a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
 				<td>Contracted Sep 2012; deployed Q2 2013</td>
 			</tr>
+
+			<!-- ------------- Sweden ------------- -->
 			<tr>
 				<td rowspan="1"><img src="/files/who_is_using_openehr/sweden_flag.png" alt="Flag of Sweden" title="Flag of Sweden" style="width:80px;"><p>Sweden</p></td>
 				<td>Cambio COSMIC customers in Europe including: 
@@ -198,12 +235,30 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="http://www.openehr.org/industry_partners/cambio_healthcare_systems">Cambio Healthcare, Sweden</a></td>
 				<td>Deploying 2014, 2015, ...</td>
 			</tr>
+
+			<!-- ------------- United Kingdom ------------- -->
 			<tr>
 				<td><img src="/files/who_is_using_openehr/uk_S.gif" alt="Flag of United Kingdom" title="Flag of United Kingdom" style="width:80px;"><p>UK</p></td>
-				<td><a href="http://www.leedsnorthccg.nhs.uk/about-us/leeds-care-record.htm" target="_blank">NHS Leeds North Clinical Commissioning Group</a></td>
-				<td>The Leeds Care Record is a city-wide community-based shared health records system that enables clinicians at Leeds Hospital to see GP records of admitted patients, and GPs to see other GP records (e.g. in case of patient move). It aims to support 'source of truth' key health data such as medications list, problem list and shared care plan. Based on established industry standards including openEHR.</td>
-				<td><a href="http://www.openehr.org/industry_partners/ocean_informatics" target="_blank">Ocean Informatics UK</a></td>
-				<td>Pilot contracted Sep 2012; initial deployment October 2013</td>
+				<td>
+					<a href="https://www.genomicsengland.co.uk/the-100000-genomes-project/" target="_blank">100,000 Genome information integration research project, UK</a><br>
+					Genomics England is working with NHS England (NHSE), Public Health England (PHE), Health Education England (HEE) and NHS Trusts. <br>
+					The mission of the organisation is focused on combining clinical and whole genome sequencing data in rare disease, cancer, and infection with the goal to make UK the first ever country to introduce this technology in its mainstream health system.<br>
+					<ul>
+						<li>Great Ormond Street Hospital for Children</li>
+						<li>University College London Hospitals</li>
+						<li>Barts Health</li>
+						<li>London North West Healthcare</li>
+						<li>Moorfields Eye Hospital</li>
+						<li>Royal National Orthopaedic Hospital</li>
+						<li>Royal Free London</li>
+					</ul>
+				</td>
+				<td>
+					North Thames GMC set up an interoperability infrastructure based on openEHR to more easily collect phenotype data from all the trusts that participate in the 100,000 genome project.<br>
+					North Thames GMC’s use the Marand’s Think!EHR Platform and tools to set up a vendor-neutral clinical data repository that will store the phenotype data from all the participating NHS Trusts (up to 13).
+				</td>
+				<td><a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
+				<td>April 2017</td>
 			</tr>
 			</tbody>
 			</table>
