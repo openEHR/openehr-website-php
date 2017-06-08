@@ -91,7 +91,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1">openEHR Task Planning</span>
 								<p>Task Planning &amp; process specification</p>
-								<p><a href="/releases/RM/latest/task_planning.html">Latest draft</a></p>
+								<p><a href="/releases/RM/latest/task_planning.html" target="_blank">Latest draft</a></p>
+								<p><a href="https://wolandscat.net/2017/01/23/initial-foundations-for-clinical-workflow/" target="_blank">Clinical workflow foundations</a></p>
 							</div>
 						</div>
 					</div>
