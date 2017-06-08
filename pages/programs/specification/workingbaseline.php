@@ -45,7 +45,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/RM/latest/integration.html" target="_blank">Integration</a> </li>
 							<li> <a href="/releases/RM/latest/ehr_extract.html" target="_blank">EHR Extract</a> </li>
 							<li> <a href="/releases/RM/latest/docs/index#_class_index" target="_blank"><strong>RM Class Index</strong></a></li>
-							<li> <a href="//releases/trunk/UML/#Diagrams___18_2_83e026d_1485017378329_293966_5101" target="_blank"><strong>Instr. State<br>Machine</strong></a></li>
+							<li> <a href="/releases/trunk/UML/#Diagrams___18_2_83e026d_1485017378329_293966_5101" target="_blank"><strong>Instr. State<br>Machine</strong></a></li>
 						</ul>
 					</td>
 
