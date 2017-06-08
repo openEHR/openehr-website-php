@@ -53,6 +53,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		
 		<div id="TopMiddleFrame">
 					
+			<!-- image settings for carousel in /styles/home.css -->
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -65,14 +66,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<div class="item active">
 						<div id = "Item0">
 							<div id = "CarouselText">
-								<span class="HomeSubtitle1">RM Release 1.0.4, AM 2.x, ITS underway</span>
+								<span class="HomeSubtitle1">RM 1.0.4, EHR APIs, Task Planning underway</span>
 								<p><a href="https://openehr.atlassian.net/issues/?filter=10820" target="_blank">RM Release 1.0.4</a></p>
-								<p><a href="https://openehr.atlassian.net/issues/?filter=10721" target="_blank">AM Release 2.0.0</a></p>
-								<p><a href="https://openehr.atlassian.net/issues/secure/Dashboard.jspa" target="_blank">Specifications Dashboard (Jira)</a></p>
+								<p><a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST API</a></p>
+								<p><a href="/releases/RM/latest/task_planning.html" target="_blank">Task Planning</a></p>
 							</div>
 						</div>
 					</div>
 					
+					<!--
 					<div class="item">
 						<div id = "Item1">
 							<div id = "CarouselText">
@@ -80,6 +82,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 								<p>OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'</p>
 								<p><a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a></p>
 								<p>Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a></p>
+							</div>
+						</div>
+					</div>
+					-->
+					<div class="item">
+						<div id = "Item1">
+							<div id = "CarouselText">
+								<span class="HomeSubtitle1">openEHR Task Planning</span>
+								<p>Task Planning &amp; process specification</p>
+								<p><a href="/releases/RM/latest/task_planning.html">Latest draft</a></p>
 							</div>
 						</div>
 					</div>
