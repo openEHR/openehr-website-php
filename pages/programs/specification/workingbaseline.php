@@ -45,6 +45,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/RM/latest/integration.html" target="_blank">Integration</a> </li>
 							<li> <a href="/releases/RM/latest/ehr_extract.html" target="_blank">EHR Extract</a> </li>
 							<li> <a href="/releases/RM/latest/docs/index#_class_index" target="_blank"><strong>RM Class Index</strong></a></li>
+							<li> <a href="//releases/trunk/UML/#Diagrams___18_2_83e026d_1485017378329_293966_5101" target="_blank"><strong>Instr. State<br>Machine</strong></a></li>
 						</ul>
 					</td>
 
@@ -61,12 +62,18 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</td>
 
 					<td valign="top">
-						<p> <em>Data Access</em> </p>
+						<p> <em>Querying</em> </p>
 						<ul>
 							<li> <a href="/releases/QUERY/latest/AQL.html" target="_blank">AQL</a> </li>
+						</ul>
+						<p> </p>
+
+						<p> <em>Decision Support</em> </p>
+						<ul>
 							<li> <a href="/releases/CDS/latest/GDL.html" target="_blank">GDL</a> </li>
 						</ul>
 						<p> </p>
+
 						<p> <em>APIs</em> </p>
 						<ul>
 							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">*EHR REST</a> </li>
