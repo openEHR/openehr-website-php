@@ -24,7 +24,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetype Technology</a> </li>
 						</ul>
 						<p> </p>
-						<p> <em>Generic</em> </p>
+						<p> <em>Infrastructure</em> </p>
 						<ul>
 							<li> <a href="/releases/BASE/latest/base_types.html" target="_blank">*Base Types</a></li>
 							<li> <a href="/releases/BASE/latest/odin.html" target="_blank">ODIN</a></li>
@@ -45,8 +45,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/RM/latest/support.html" target="_blank">Support</a> </li>
 							<li> <a href="/releases/RM/latest/integration.html" target="_blank">Integration</a> </li>
 							<li> <a href="/releases/RM/latest/ehr_extract.html" target="_blank">EHR Extract</a> </li>
-							<li> <a href="/releases/RM/latest/docs/index#_class_index" target="_blank"><strong>RM Class Index</strong></a></li>
-							<li> <a href="/releases/trunk/UML/#Diagrams___18_2_83e026d_1485017378329_293966_5101" target="_blank"><strong>Instr. State<br>Machine</strong></a></li>
+							<li> <a href="/releases/RM/latest/docs/index#_class_index" target="_blank">RM Class Index</a></li>
+							<li> <a href="/releases/trunk/UML/#Diagrams___18_2_83e026d_1485017378329_293966_5101" target="_blank">Instruction<br>State Machine</a></li>
 						</ul>
 					</td>
 
@@ -77,7 +77,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 						<p> <em>APIs</em> </p>
 						<ul>
-							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">*EHR REST</a> </li>
+							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">*EHR REST API</a> </li>
 						</ul>
 					</td>
 
