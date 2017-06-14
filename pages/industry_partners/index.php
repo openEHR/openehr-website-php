@@ -78,6 +78,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Operon provides an open platform-as-a-service for health and social care data based on openEHR and IHE-XDS. Our aim is to provide a self-service environment, aimed particularly at microenterprises and in-house developers building apps for health and care, who would otherwise find it difficult to deal with the complexity of the professional health and care environment. The Operon platform provides all the components need to support health and care apps. This allows app developers to use the platform to take care of the routinely demanding “plumbing”, and to focus their efforts on the unique features of their app.</p>
 				<a href="/industry_partners/operon">Learn more</a></td>
 			</tr>
+
+			<!-- Tieto -->
+			<tr>
+				<td><a href="/industry_partners/tieto"><img src="/files/industry_partners/tieto_logo.png"></a></td>
+				<td><h2>Tieto</h2>
+				<p>Tieto is the leading Nordic software and services company whose goal is to be the customer's first choice for business renewal. In a rapidly changing world, every bit of information can be used to provide new value. Tieto aims to capture the significant opportunities of the data-driven world and turn them into lifelong value for people, business and society.</p>
+				<p>Healthcare is an important strategic area for Tieto.</p>
+				<a href="/industry_partners/tieto">Learn more</a></td>
+			</tr>
 			</tbody>
 			</table>
 		
