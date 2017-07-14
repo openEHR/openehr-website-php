@@ -117,7 +117,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			</tr>
 			<tr>
 				<td style="background-color:#FFFFFF;"> &nbsp;</td>
-				<td> <a href="/releases/RM/Release-1.0.2/support_im.pdf" target="_blank">Support IM</a></td>
+				<td> <a href="/releases/RM/Release-1.0.2/support.html" target="_blank">Support IM</a></td>
 				<td> <a href="/releases/1.0.2/architecture/rm/support_im.pdf" target="_blank">(PDF)</a></td>
 				<td> Support model defining identifiers, assumed types, and terminology interface specification used in the rest of the specifications. </td>
 				<td> stable</td>
