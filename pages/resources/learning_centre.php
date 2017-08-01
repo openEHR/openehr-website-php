@@ -19,7 +19,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h3>DIPS Conference, Norway, 20013 - T Beale</h3>
 			<iframe width="250" src="http://www.youtube.com/embed/videoseries?list=PLhWi0RtmG26WRld2BF3BM2sdqrCBT5f3C" frameborder="0" allowfullscreen></iframe>
 
-			<h3>Apperta Foundation - 2017</h3>
+			<h3><a href="http://ripple.foundation/">Ripple Foundation - 2017</a></h3>
 			<iframe width="250" src="https://www.youtube.com/embed/BUwGNXppdbw?list=PLNxHSK29ViKI1foDYNUbToJuFdhwKzx4U" frameborder="0" allowfullscreen></iframe>
 			<iframe width="250" src="https://www.youtube.com/embed/ZyJv-tzS344" frameborder="0" allowfullscreen></iframe>
 			<iframe width="250" src="https://www.youtube.com/embed/7tIYjR7ykMo" frameborder="0" allowfullscreen></iframe>
