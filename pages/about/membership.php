@@ -103,7 +103,7 @@ Examples of likely use of such funding is:</li>
 						<li>Can vote in meetings.</li>
 					</ul>
 				</td>
-				<td> Table of fees.</td>
+				<td> By arrangement.</td>
 			</tr>
 			</tbody>
 			</table>
