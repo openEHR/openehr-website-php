@@ -40,12 +40,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<p><a href="/industry_partners/marand"><img src="/files/industry_partners/marand_logo.png"></a></p>
 					<p><a href="/industry_partners/medrecord"><img src="/files/industry_partners/medrecord_logo.png"></a></p>
 					<p><a href="/industry_partners/ocean_health_systems"><img src="/files/industry_partners/ocean_logo.png"></a></p>
-					<p><a href="/industry_partners/operon"><img src="/files/industry_partners/operon_logo.png"></a></p>
+					<p><a href="/industry_partners/inidus"><img src="/files/industry_partners/inidus_logo.png"></a></p>
 					<p><a href="/industry_partners/tieto"><img src="/files/industry_partners/tieto_logo.png"></a></p>
 				</div>
 				
 				<div id="PartnersText">
+					<!--  use this line instead, when org partners page sorted out
 					<a href="/organisational_partners">Org Partners</a> | <a href="/industry_partners">Industry Partners</a> | <a href="http://members.openehr.org/join-us" target="_blank">Join Us</a>
+					-->
+					<a href="/industry_partners">Industry Partners</a> | <a href="http://members.openehr.org/join-us" target="_blank">Join Us</a>
 				</div>
 				
 			</div>
