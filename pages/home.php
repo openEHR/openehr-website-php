@@ -45,7 +45,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				</div>
 				
 				<div id="PartnersText">
-					<a href="/industry_partners">Industry Partners</a> | <a href="http://members.openehr.org/join-us" target="_blank">Join Us</a>
+					<a href="/organisational_partners">Org Partners</a> | <a href="/industry_partners">Industry Partners</a> | <a href="http://members.openehr.org/join-us" target="_blank">Join Us</a>
 				</div>
 				
 			</div>
