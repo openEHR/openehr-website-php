@@ -71,12 +71,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<a href="/industry_partners/ocean_health_systems">Learn more</a></td>
 			</tr>
 
-			<!-- Operon -->
+			<!-- Inidus -->
 			<tr>
-				<td><a href="/industry_partners/operon"><img src="/files/industry_partners/operon_logo.png"></a></td>
-				<td><h2>Operon</h2>
-				<p>Operon provides an open platform-as-a-service for health and social care data based on openEHR and IHE-XDS. Our aim is to provide a self-service environment, aimed particularly at microenterprises and in-house developers building apps for health and care, who would otherwise find it difficult to deal with the complexity of the professional health and care environment. The Operon platform provides all the components need to support health and care apps. This allows app developers to use the platform to take care of the routinely demanding “plumbing”, and to focus their efforts on the unique features of their app.</p>
-				<a href="/industry_partners/operon">Learn more</a></td>
+				<td><a href="/industry_partners/inidus"><img src="/files/industry_partners/inidus_logo.png"></a></td>
+				<td><h2>Inidus</h2>
+				<p>inidus provides an open, secure, scalable health and care platform that enables developers to build health and care applications using open standards including HL7 FHIR, openEHR, SNOMED CT and IHE-XDS, making your data and applications portable and extensible.  The inidus platform enables rapid development allowing you to use any modern programming language, and our platform services to build integrated and scalable applications. Hosted in UK owned and located data centers meeting UK government and NHS standards for information governance and cyber security and offering N3 connectivity the inidus platform helps you meet your customer's requirements for connectivity and cyber security.</p>
+				<a href="/industry_partners/inidus">Learn more</a></td>
 			</tr>
 
 			<!-- Tieto -->
