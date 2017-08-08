@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- ----------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			<p>The openEHR Industry Partners are a group of companies implementing openEHR who have agreed to materially support the Foundation. The list below is the initial group, present at a meeting in September 2013, documented in <a href="http://www.openehr.org/news_events/foundation_news.php?id=87">this news item</a>. The industry partners will support the foundation with resources, both human and financial. They will work on many aspects of openEHR, but in particular, are focussed on product compliance and quality. To that end, they are developing conformance specifications for openEHR.</p>
@@ -37,6 +37,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><h2>DIPS</h2>
 				<p>DIPS ASA is the largest supplier of electronic patient record systems to Norwegian hospitals, the largest supplier of Radiology Information Systems and the second largest supplier of Laboratory Information Systems. DIPS has group and framework agreements with the health trusts organised under the regional health authorities for South-Eastern Norway, Western Norway and Northern Norway. DIPS also has customers in Denmark and Sweden.</p>
 				<a href="/industry_partners/dips">Learn more</a></td>
+			</tr>
+
+			<!-- Inidus -->
+			<tr>
+				<td><a href="/industry_partners/inidus"><img src="/files/industry_partners/inidus_logo.png"></a></td>
+				<td><h2>Inidus</h2>
+				<p>inidus provides an open, secure, scalable health and care platform that enables developers to build health and care applications using open standards including HL7 FHIR, openEHR, SNOMED CT and IHE-XDS, making your data and applications portable and extensible.  The inidus platform enables rapid development allowing you to use any modern programming language, and our platform services to build integrated and scalable applications. Hosted in UK owned and located data centers meeting UK government and NHS standards for information governance and cyber security and offering N3 connectivity the inidus platform helps you meet your customer's requirements for connectivity and cyber security.</p>
+				<a href="/industry_partners/inidus">Learn more</a></td>
 			</tr>
 
 			<!-- Infinnity -->
@@ -69,14 +77,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><h2>Ocean Health Systems</h2>
 				<p>Ocean Health Systems is a recognised leader in e-health strategy, semantic interoperability and the shared EHR. Founded in 1998, Ocean Informatics is a unique company, comprising an experienced engineering team with strong clinical expertise. Collectively the Ocean team has over 100 person-years of health informatics experience. Ocean's vision is fully integrated and highly computable health data organised around the patient care process, served from high-availability infrastructure to point of care, reporting and analytics applications.</p>
 				<a href="/industry_partners/ocean_health_systems">Learn more</a></td>
-			</tr>
-
-			<!-- Inidus -->
-			<tr>
-				<td><a href="/industry_partners/inidus"><img src="/files/industry_partners/inidus_logo.png"></a></td>
-				<td><h2>Inidus</h2>
-				<p>inidus provides an open, secure, scalable health and care platform that enables developers to build health and care applications using open standards including HL7 FHIR, openEHR, SNOMED CT and IHE-XDS, making your data and applications portable and extensible.  The inidus platform enables rapid development allowing you to use any modern programming language, and our platform services to build integrated and scalable applications. Hosted in UK owned and located data centers meeting UK government and NHS standards for information governance and cyber security and offering N3 connectivity the inidus platform helps you meet your customer's requirements for connectivity and cyber security.</p>
-				<a href="/industry_partners/inidus">Learn more</a></td>
 			</tr>
 
 			<!-- Tieto -->
