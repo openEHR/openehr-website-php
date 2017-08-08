@@ -98,10 +98,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.2926</td>
-						<td> 11 Mar 2017</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2926-windows_64bit.exe">.exe installer</a></td>
-						<td> Improve output of adlc.</td>
+						<td> 2.0.6.2931</td>
+						<td> 31 Jul 2017</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2931-windows_64bit.exe">.exe installer</a></td>
+						<td> Correct ADL converter regex bug.</td>
 					</tr>
 					<tr>
 						<td> Mac OS X 10.11 (Yosemite)<br/></td>
