@@ -77,9 +77,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						</ul>
 						<p> </p>
 
-						<p> <em>APIs</em> </p>
+						<p> <em>REST APIs</em> </p>
 						<ul>
-							<li> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">*EHR REST API</a> </li>
+							<li> <a href="https://openehr.github.io/specifications-ITS/ehr.html" target="_blank">*EHR</a> </li>
+							<li> <a href="https://openehr.github.io/specifications-ITS/query.html" target="_blank">*Query</a> </li>
+							<li> <a href="https://openehr.github.io/specifications-ITS/definitions.html" target="_blank">*Definitions</a> </li>
+							<li> <a href="https://openehr.github.io/specifications-ITS/cds.html" target="_blank">*CDS</a> </li>
 						</ul>
 					</td>
 
@@ -152,14 +155,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tbody>
 			<tr>
 				<th> Specification </th>
-				<th> Computable form </th>
+				<th> Artefact type </th>
 				<th> Description </th>
 				<th> Status </th>
 			</tr>
 			<tr>
-				<td> EHR REST API </td>
-				<td> <a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST API</a> </td>
-				<td> REST API for EHR access, rendered from <a href="https://github.com/openEHR/specifications-ITS/blob/master/apiary.apib">Apiary (apib) file</a>.</td>
+				<td> REST APIs </td>
+				<td> <a href="https://openehr.github.io/specifications-ITS/" target="_blank">Apiary API definitions</a> </td>
+				<td> REST API for EHR access, querying, definitions (including archetypes, templates, AQL queries) and CDS. Rendered from <a href="https://github.com/openEHR/specifications-ITS/tree/master/REST_API">Apiary (apib) files</a>.</td>
 				<td> development</td>
 			</tr>
 			<tr>
@@ -205,13 +208,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th> Status </th>
 			</tr>
 			<tr>
-				<td>  Archetype tooling </td>
-				<td> Conformance profiles for Archetype tooling. </td>
+				<td> <a href="/releases/CNF/latest/openehr_platform_conformance.html">openEHR Platform Conformance</a> </td>
+				<td> Conformance schedule and profiles for EHR platform implementations.</td>
 				<td> <a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market" target="_blank">wiki page</a></td>
 			</tr>
 			<tr>
-				<td> EHR Systems </td>
-				<td> Conformance profiles for EHR system components. </td>
+				<td> Archetype tooling </td>
+				<td> Conformance profiles for Archetype tooling. </td>
 				<td> <a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market" target="_blank">wiki page</a></td>
 			</tr>
 			</tbody>
