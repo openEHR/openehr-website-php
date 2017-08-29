@@ -97,6 +97,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td> <em>PDF + computable</em></td>
 				<td> x.y.z </td>
 				<td> Change Requests  </td>
+				<td> <em>SEC</em> </td>
 				<td> Problem Reports </td>
 			</tr>
 			<tr>
