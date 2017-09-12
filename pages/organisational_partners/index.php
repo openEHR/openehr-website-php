@@ -17,7 +17,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<!-- Norway -->
 			<tr>
-				<td><a href="/organisational_partners/norway"><img src="https://www.regjeringen.no/globalassets/upload/hod/profilprogram_helseforetakene/nasjonale/nasjonalikt.png"></a></td>
+				<td><a href="/organisational_partners/norway"><img width="150" src="https://www.regjeringen.no/globalassets/upload/hod/profilprogram_helseforetakene/nasjonale/nasjonalikt.png"></a></td>
 				<td><h2>Norwegian Nasjonal IKT</h2>
 				<p>Nasjonal IKT is the Norwegian hospital sector’s main arena for cooperation and coordination in information and communication technology.</p>
 				<a href="/organisational_partners/norway">Learn more</a></td>

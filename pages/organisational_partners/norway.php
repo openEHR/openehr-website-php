@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<a href="http://www.nasjonalikt.no" target="_blank"><img src="https://www.regjeringen.no/globalassets/upload/hod/profilprogram_helseforetakene/nasjonale/nasjonalikt.png"></a>
+			<a href="http://www.nasjonalikt.no" target="_blank"><img width="150" src="https://www.regjeringen.no/globalassets/upload/hod/profilprogram_helseforetakene/nasjonale/nasjonalikt.png"></a>
 			
 			<p><em>Location:</em> Head Office: Bergen, Norway</p>
 			<p><em>Organisation type:</em> Public sector health organisation</p>
