@@ -33,7 +33,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<div id="PartnersContainer">
 				
 				<div id="LogoImage">
-					<p><a href="/organisational_partners/norway"><img width="150" src="https://www.regjeringen.no/globalassets/upload/hod/profilprogram_helseforetakene/nasjonale/nasjonalikt.png"></a></p>
+					<p><a href="/organisational_partners/norway"><img src="/files/organisational_partners/norway_ikt_logo.png"></a></p>
 					<p><a href="/industry_partners/inidus"><img src="/files/industry_partners/inidus_logo.png"></a></p>
 					<p><a href="/industry_partners/tieto"><img src="/files/industry_partners/tieto_logo.png"></a></p>
 					<p><a href="/industry_partners/medrecord"><img src="/files/industry_partners/medrecord_logo.png"></a></p>
