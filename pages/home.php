@@ -123,6 +123,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<div id="BottomLeftFrame">
 			<div style="position: relative; word-wrap:break-word;">
 
+				<a href="https://twitter.com/search?q=%40openehr+OR+%23openEHR+-RT"><span class="HomeSubtitle1">openehr / #openEHR</span></a>
 				<a class="twitter-timeline"  href="https://twitter.com/search?q=%40openehr%20OR%20%23openEHR%20-RT" 
 					data-widget-id="910876752528003072"
 					height="500" 
