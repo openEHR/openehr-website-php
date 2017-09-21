@@ -11,9 +11,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
-			<div style="position: relative; top:10px; padding-left:1px; padding-right:10px; word-wrap:break-word; height:600px; ">
-			<a class="twitter-timeline"  href="https://twitter.com/clinicalmodels"  data-widget-id="362155991539806208">Tweets by @clinicalmodels</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<div style="position: relative; top:10px; padding-left:1px; padding-right:10px; word-wrap:break-word; ">
+
+			<a class="twitter-timeline" data-width="280" data-height="500" href="https://twitter.com/openEHRCKM">@openEHRCKM</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 			</div>
 				
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
