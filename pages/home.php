@@ -127,6 +127,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					data-widget-id="910876752528003072"
 					height="500" 
 					lang="EN"
+					data-chrome="noheader"
 					data-chrome="nofooter">@openehr / #openEHR</a>
 				<script>
 					!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
