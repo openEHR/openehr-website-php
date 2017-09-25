@@ -77,6 +77,19 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						</ul>
 						<p> </p>
 
+						<p> <em>Process</em> </p>
+						<ul>
+							<li> <a href="/releases/RM/latest/task_planning.html" target="_blank">*Task Planning</a> </li>
+						</ul>
+					</td>
+
+					<td valign="top">
+						<p> <em>Service Model</em> </p>
+						<ul>
+							<li> <a href="/releases/SM/latest/openehr_platform.html" target="_blank">openEHR Platform</a> </li>
+						</ul>
+						<p> </p>
+
 						<p> <em>REST APIs</em> </p>
 						<ul>
 							<li> <a href="https://openehr.github.io/specifications-ITS/ehr.html" target="_blank">*EHR</a> </li>
@@ -86,12 +99,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						</ul>
 					</td>
 
-					<td valign="top">
-						<p> <em>Process</em> </p>
-						<ul>
-							<li> <a href="/releases/RM/latest/task_planning.html" target="_blank">*Task Planning</a> </li>
-						</ul>
-					</td>
 				</tr>
 			</tbody>
 			</table>
