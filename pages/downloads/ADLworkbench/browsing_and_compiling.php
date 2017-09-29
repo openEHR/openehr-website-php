@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'templates/_header_english.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- ------------------------------------------ Content starts here - ----------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
