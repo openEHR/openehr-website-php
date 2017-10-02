@@ -17,6 +17,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/huilong_duan.php');?>
 				<p>Appointed Aug 2017.</p>
 			
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/ryan_banez.php');?>
+				<p>Appointed Sep 2017.</p>
+			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
