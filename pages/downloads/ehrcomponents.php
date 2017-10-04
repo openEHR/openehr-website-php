@@ -48,7 +48,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th style="text-align:center" colspan="6">EHR back-end persistence and services</th>
 			</tr>
 			<tr>
-				<td><strong>EtherCIS</strong><br/><a href="https://github.com/ethercis">GitHub</a></td>
+				<td><strong>EtherCIS</strong><br/><a href="https://github.com/ethercis/ethercis#ethercis">GitHub</a></td>
 				<td>EtherCIS (Ethereal Clinical Information System) is an Open Source platform compatible with the openEHR standard. It is designed to allow simple interactions with clients using RESTful API and persist clinical data in a separate DB engine. <a href="http://docs.ethercis.org/">(more)</a>.</td>
 				<td> Java, Postgres</td>
 				<td>VM image on request</a></td>
