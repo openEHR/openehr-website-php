@@ -23,10 +23,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<th>Description</th>
 			</tr>
 			<tr>
-				<td><a href="https://www.cabolabs.com/en"><img src="/files/who_is_using_openehr/openEHRgen_logo.png" alt="openEHRgen logo" title="openEHRgen logo"></a></td>
+				<td><a href="https://www.cabolabs.com/en"><img src="/files/who_is_using_openehr/ehrserver_logo.png" alt="EHRServer logo" title="EHRServer logo"></a></td>
 				<td><a href = "https://www.cabolabs.com/en">Cabo-labs</a></td>
-				<td><em>openEHR-Gen Framework</em><br/>
-				A system building framework for EMR systems based on openEHR and other dynamic technologies, including <em>Grails Framework</em> and the <em>Groovy</em> language.
+				<td><em>EHRServer</em><br/>
+				<p>EHRServer is an open source, service‐oriented, openEHR clinical data repository. It provides a secure REST API to store and query clinical data.<br>
+					<a href="http://www.openehr.org/downloads/ehrcomponents">More details here</a>
+				</p>
 				<ul>
 					<li>Technology: Java</li>
 					<li>License: Apache 2.0</li>
