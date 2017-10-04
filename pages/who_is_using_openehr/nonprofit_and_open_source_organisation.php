@@ -37,8 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</tr>
 			<tr>
 				<td>
-					<a href="http://docs.ethercis.org/"><img src="/files/who_is_using_openehr/ethercis_logo.png" alt="EtherCIS logo" title="EtherCIS logo"></a><br>
-					<a href="http://docs.ethercis.org/"><strong>EtherCIS</strong></a>
+					<a href="http://docs.ethercis.org/"><img src="/files/who_is_using_openehr/ethercis_logo.png" alt="EtherCIS logo" title="EtherCIS logo"></a>
 				</td>
 				<td><a href="http://ripple.foundation/">Ripple Foundation</a></td>
 				<td><em>Enterprise Clinical Data Repository</em><br/>

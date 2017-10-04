@@ -27,17 +27,23 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tr>
 				<th style="text-align:center" colspan="6">REST API platform</th>
 			</tr>
+
 			<tr>
-				<td><strong>EhrScape</strong></td>
-				<td>openEHR health data platform from <a href="http://www2.openehr.org/industry_partners/marand">Marand</a>, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://www.ehrscape.com/documentation.html">(more)</a>.</td>
+				<td><a href="https://www.ehrscape.com/documentation.html"><img src="/files/who_is_using_openehr/ehrscape_logo.png" alt="EhrScape logo" title="EhrScape logo"></a><br>
+					<strong>EhrScape</strong>
+				</td>
+				<td>openEHR health data platform from <a href="http://www.openehr.org/industry_partners/marand">Marand</a>, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://www.ehrscape.com/documentation.html">(more)</a>.</td>
 				<td> Java</td>
 				<td><a href="https://www.ehrscape.com/" target="_blank">EhrScape.com</a></td>
 				<td></td>
 				<td><a href="https://www.ehrscape.com/contact.html">Support</a></td>
 			</tr>
+
 			<tr>
-				<td><strong>MEDrecord</strong></td>
-				<td>openEHR health API platform from <a href="http://www2.openehr.org/industry_partners/medrecord">MEDrecord</a>, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://developers.medrecord.io">(more)</a>.</td>
+				<td><a href="https://developers.medrecord.io/"><img src="/files/who_is_using_openehr/medrecord_logo.png" alt="MEDrecord logo" title="MEDrecord logo"></a><br>
+					<strong>MEDrecord</strong>
+				</td>
+				<td>openEHR health API platform from <a href="http://www.openehr.org/industry_partners/medrecord">MEDrecord</a>, providing a service framework that allows you to build innovative health apps in a web friendly environment. <a href="https://developers.medrecord.io">(more)</a>.</td>
 				<td> Java</td>
 				<td><a href="https://developers.medrecord.io/" target="_blank">MEDrecord.io</a></td>
 				<td></td>
@@ -47,16 +53,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tr>
 				<th style="text-align:center" colspan="6">EHR back-end persistence and services</th>
 			</tr>
+
 			<tr>
-				<td><strong>EtherCIS</strong><br/><a href="https://github.com/ethercis/ethercis#ethercis">GitHub</a></td>
+				<td><a href="http://docs.ethercis.org/"><img src="/files/who_is_using_openehr/ethercis_logo.png" alt="EtherCIS logo" title="EtherCIS logo"></a><br>
+					<strong>EtherCIS</strong><br/><a href="https://github.com/ethercis/ethercis#ethercis">Project page</a>
+				</td>
 				<td>EtherCIS (Ethereal Clinical Information System) is an Open Source platform compatible with the openEHR standard. It is designed to allow simple interactions with clients using RESTful API and persist clinical data in a separate DB engine. <a href="http://docs.ethercis.org/">(more)</a>.</td>
 				<td> Java, Postgres</td>
 				<td>VM image on request</a></td>
 				<td>Apache 2.0</td>
 				<td><a href="https://app.assembla.com/spaces/ethercis-support/support/tickets">Support</a></td>
 			</tr>
+
 			<tr>
-				<td><strong>EHRServer</strong><br/><a href="https://github.com/ppazos/cabolabs-ehrserver#cabolabs-ehrserver">Project page</a></td>
+				<td><a href="https://github.com/ppazos/cabolabs-ehrserver#cabolabs-ehrserver"><img src="/files/who_is_using_openehr/ehrserver_logo.png" alt="EHRServer logo" title="EHRServer logo"></a><br>
+					<strong>EHRServer</strong><br/><a href="https://github.com/ppazos/cabolabs-ehrserver#cabolabs-ehrserver">Project page</a>
+				</td>
 				<td><p>EHRServer is an open source, service‐oriented, openEHR clinical data repository. It provides a secure REST API to store and query clinical data in many ways, supporting standard formats like JSON and XML, that are easy to integrate with any front‐end application. Data queries can be created via the Administrative User Interface, with the powerful and easy to use EHRServer Query Builder. EHRServer complies with the openEHR specifications , leveraging the openEHR Information Model and the Dual Modeling methodology, using standard Archetypes and Templates.</p>
 					<table class="TableInvisible">
 					<tbody>
@@ -105,7 +117,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="https://github.com/openEHR/adl2-core/issues">Issues</a></td>
 			</tr>
 			<tr>
-				<td><strong>Archie</strong><br/><a href="https://github.com/nedap/archie/" target="_blank">GitHub</a></td>
+				<td><strong>Archie</strong><br/><a href="https://github.com/nedap/archie/#archie-openehr-library" target="_blank">GitHub</a></td>
 				<td>An implementation of the openEHR <a href="/releases/AM/latest/ADL2.html">ADL2</a> and <a href="/releases/AM/latest/AOM2.html">AOM 2</a> specifications and the <a href="/releases/RM/latest/docs/index">Reference Model</a>. <a href="https://github.com/nedap/archie">(more)</a>.</td>
 				<td> Java, Antlr4</td>
 				<td></td>

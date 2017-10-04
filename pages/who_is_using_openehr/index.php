@@ -15,7 +15,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<ul>
 				<li><a href="healthcare_providers_and_authorities">Deployed Solutions</a></li>
 				<li><a href="funded_research_projects">Funded Research Projects</a></li>
-				<li><a href="nonprofit_and_open_source_organisation">Non-profit and Open Source Organisations</a></li>
+				<li><a href="nonprofit_and_open_source_organisation">Non-profit and Open Source</a></li>
 				<li><a href="governments">Governments</a></li>
 				<li><a href="academic_research">Academic Research</a></li>
 			</ul>
