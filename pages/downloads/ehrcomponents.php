@@ -58,24 +58,35 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tr>
 				<td><strong>EHRServer</strong><br/><a href="http://cabolabs.com/en/projects/">Project page</a></td>
 				<td><p>EHRServer is an open source, service‐oriented, openEHR clinical data repository. It provides a secure REST API to store and query clinical data in many ways, supporting standard formats like JSON and XML, that are easy to integrate with any front‐end application. Data queries can be created via the Administrative User Interface, with the powerful and easy to use EHRServer Query Builder. EHRServer complies with the openEHR specifications , leveraging the openEHR Information Model and the Dual Modeling methodology, using standard Archetypes and Templates.</p>
-				<p>Sample EMRs</p>
-					<ul>
-						<li><a href="https://github.com/ppazos/EHRCommitter">EHRCommitter</a></li>
-						<li><a href="https://github.com/ppazos/cabolabs-emrapp">cabolabs-emrapp</a></li>
-					</ul>
-
-				<p>OPT Toolkit</p>
-					<ul>
-						<li><a href="https://github.com/ppazos/openEHR-OPT">openEHR-OPT</a></li>
-					</ul>
-
-				<p>EHRServer clients</p>
-					<ul>
-						<li><a href="https://github.com/ppazos/EHRClientPHP">EHRClientPHP</a></li>
-						<li><a href="https://github.com/ppazos/cabolabs-ehrserver-js">cabolabs-ehrserver-js</a></li>
-						<li><a href="https://github.com/ppazos/cabolabs-ehrserver-groovy">cabolabs-ehrserver-groovy</a></li>
-					</ul>
+					<table class="TableInvisible">
+					<tbody>
+						<tr>
+							<td valign="top">
+								<p>Sample EMRs</p>
+									<ul>
+										<li><a href="https://github.com/ppazos/EHRCommitter">EHRCommitter</a></li>
+										<li><a href="https://github.com/ppazos/cabolabs-emrapp">cabolabs-emrapp</a></li>
+									</ul>
+							</td>
+							<td valign="top">
+								<p>OPT Toolkit</p>
+									<ul>
+										<li><a href="https://github.com/ppazos/openEHR-OPT">openEHR-OPT</a></li>
+									</ul>
+							</td>
+							<td valign="top">
+								<p>EHRServer clients</p>
+									<ul>
+										<li><a href="https://github.com/ppazos/EHRClientPHP">EHRClientPHP</a></li>
+										<li><a href="https://github.com/ppazos/cabolabs-ehrserver-js">cabolabs-ehrserver-js</a></li>
+										<li><a href="https://github.com/ppazos/cabolabs-ehrserver-groovy">cabolabs-ehrserver-groovy</a></li>
+									</ul>
+							</td>
+						</tr>
+					</tbody>
+					</table>
 				</td>
+
 				<td> Grails, Groovy, Java, PHP, JavaScript</td>
 				<td><a href="https://cabolabs-ehrserver.rhcloud.com/ehr" target="_blank">Cloud</a></td>
 				<td>Apache 2.0</td>
