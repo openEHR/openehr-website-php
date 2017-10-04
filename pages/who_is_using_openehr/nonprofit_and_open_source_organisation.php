@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<tr>
 				<td><a href="https://www.cabolabs.com/en"><img src="/files/who_is_using_openehr/openEHRgen_logo.png" alt="openEHRgen logo" title="openEHRgen logo"></a></td>
 				<td><a href = "https://www.cabolabs.com/en">Cabo-labs</a></td>
-				<td><em>openEHRgen Framework</em><br/>
+				<td><em>openEHR-Gen Framework</em><br/>
 				A system building framework for EMR systems based on openEHR and other dynamic technologies, including <em>Grails Framework</em> and the <em>Groovy</em> language.
 				<ul>
 					<li>Technology: Java</li>
@@ -34,10 +34,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<em>Status</em> (2017): active</td>
 			</tr>
 			<tr>
-				<td><a href="http://docs.ethercis.org/"><img src="/files/who_is_using_openehr/ethercis_logo.png" alt="EtherCIS logo" title="EtherCIS logo"></a></td>
+				<td>
+					<a href="http://docs.ethercis.org/"><img src="/files/who_is_using_openehr/ethercis_logo.png" alt="EtherCIS logo" title="EtherCIS logo"></a><br>
+					<a href="http://docs.ethercis.org/">EtherCIS></a>
+				</td>
 				<td><a href="http://ripple.foundation/">Ripple Foundation</a></td>
 				<td><em>Enterprise Clinical Data Repository</em><br/>
-				EtherCIS (Ethereal Clinical Information System) is an Open Source platform compatible with the openEHR clinical information representation standard.
+				EtherCIS (Ethereal Clinical Information System) is an Open Source platform compatible with the openEHR clinical information standard.
 				<ul>
 					<li>Technology: Java</li>
 					<li>License: Apache 2.0</li>
