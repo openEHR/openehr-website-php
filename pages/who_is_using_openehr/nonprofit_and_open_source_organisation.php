@@ -14,6 +14,41 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<p>If you are using openEHR in a non-profit, standards or similar organisation, and would like to be included on this list, or you want to submit updates or corrections, then <a href="/about/contacts">contact us</a>.</p>
 
+			<h2>Active Projects</h2>
+			<table class="TableBasic">
+			<tbody>
+			<tr>
+				<th>Organisation</th>
+				<th>Team/Contacts</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td><a href="https://www.cabolabs.com/en"><img src="/files/who_is_using_openehr/openEHRgen_logo.png" alt="openEHRgen logo" title="openEHRgen logo"></a></td>
+				<td><a href = "https://www.cabolabs.com/en">Cabo-labs</a></td>
+				<td><em>openEHRgen Framework</em><br/>
+				A system building framework for EMR systems based on openEHR and other dynamic technologies, including <em>Grails Framework</em> and the <em>Groovy</em> language.
+				<ul>
+					<li>Technology: Java</li>
+					<li>License: Apache 2.0</li>
+				</ul>
+				<em>Status</em> (2017): active</td>
+			</tr>
+			<tr>
+				<td><a href="http://docs.ethercis.org/"><img src="/files/who_is_using_openehr/ethercis_logo.png" alt="EtherCIS logo" title="EtherCIS logo"></a></td>
+				<td><a href="http://ripple.foundation/">Ripple Foundation</a></td>
+				<td><em>Enterprise Clinical Data Repository</em><br/>
+				EtherCIS (Ethereal Clinical Information System) is an Open Source platform compatible with the openEHR clinical information representation standard.
+				<ul>
+					<li>Technology: Java</li>
+					<li>License: Apache 2.0</li>
+				</ul>
+				<em>Status</em> (2017): active</td>
+			</tr>
+			</tbody>
+			</table>
+		
+
+			<h2>Past Projects</h2>
 			<table class="TableBasic">
 			<tbody>
 			<tr>
@@ -30,19 +65,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<li>collect resources and develop new information tools or share existing ones</li>
 					<li>gather feedback on their templates and discuss how to improve them</li>
 				</ul>
-				<a href="http://www.clinicaltemplates.org/info/ehealth-and-informatics/">Role of openEHR</a><br/>
-				<em>Status</em> (Jun 2011): active</td>
-			</tr>
-			<tr>
-				<td><a href="http://code.google.com/p/open-ehr-gen-framework/"><img src="/files/who_is_using_openehr/openEHRgen_logo.png" alt="openEHRgen logo" title="openEHRgen logo"></a></td>
-				<td>Pablo Pazos</td>
-				<td><em>openEHRgen Framework</em><br/>
-				A system building framework for EMR systems based on openEHR and other dynamic technologies, including <em>Grails Framework</em> and the <em>Groovy</em> language.
-				<ul>
-					<li>Technology: Java</li>
-					<li>License: Apache 2.0</li>
-				</ul>
-				<em>Status</em> (Jun 2011): active</td>
+				<a href="http://www.clinicaltemplates.org/info/ehealth-and-informatics/">Role of openEHR</a>
+				</td>
 			</tr>
 			</tbody>
 			</table>
