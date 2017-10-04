@@ -56,7 +56,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td><a href="https://app.assembla.com/spaces/ethercis-support/support/tickets">Support</a></td>
 			</tr>
 			<tr>
-				<td><strong>EHRServer</strong><br/><a href="http://cabolabs.com/en/projects/">Project page</a></td>
+				<td><strong>EHRServer</strong><br/><a href="https://github.com/ppazos/cabolabs-ehrserver#cabolabs-ehrserver">Project page</a></td>
 				<td><p>EHRServer is an open source, service‐oriented, openEHR clinical data repository. It provides a secure REST API to store and query clinical data in many ways, supporting standard formats like JSON and XML, that are easy to integrate with any front‐end application. Data queries can be created via the Administrative User Interface, with the powerful and easy to use EHRServer Query Builder. EHRServer complies with the openEHR specifications , leveraging the openEHR Information Model and the Dual Modeling methodology, using standard Archetypes and Templates.</p>
 					<table class="TableInvisible">
 					<tbody>
