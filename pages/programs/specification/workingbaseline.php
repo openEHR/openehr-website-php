@@ -79,7 +79,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 						<p> <em>Process</em> </p>
 						<ul>
-							<li> <a href="/releases/RM/latest/task_planning.html" target="_blank">*Task Planning</a> </li>
+							<li> <a href="/releases/PROC/latest/task_planning.html" target="_blank">*Task Planning</a> </li>
 						</ul>
 					</td>
 
@@ -114,6 +114,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<th> Description </th>
 					</tr>
 
+					<tr>
+						<td> <a name="PROC"></a><a href="/releases/PROC/latest/docs/index" target="_blank">PROC</a></td>
+						<td> Process Model - specifications for Care pathways, Task planning, Care plans and clinical workflow.</td>
+					</tr>
 					<tr>
 						<td> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index" target="_blank">CDS</a></td>
 						<td> Clinical Decision Support - specifications for guidelines and related languages, including GDL.</td>
