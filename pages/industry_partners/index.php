@@ -31,6 +31,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<a href="/industry_partners/code24">Learn more</a></td>
 			</tr>
 
+			<!-- CORE Consulting -->
+			<tr>
+				<td><a href="/industry_partners/core_consulting"><img src="/files/industry_partners/core_consulting_logo.png"></a></td>
+				<td><h2>CORE Consulting</h2>
+				<p>CORE Consulting's provides architectural vision and critical advice to support the development and implementation of eHealth solutions in Brazil. CORE is involved in several ehealth projects, including the proposal to create a national center for terminology and openEHR clinical knowledge artifacts. CORE takes part in several standardization committees and also in technical and scientific communities, standards such as OpenEHR, IHE (PIX / MPI, PDQ, XDS.b), HL7, SNOMED-CT.</p>
+				<a href="/industry_partners/core_consulting">Learn more</a></td>
+			</tr>
+
 			<!-- DIPS -->
 			<tr>
 				<td><a href="/industry_partners/dips"><img src="/files/industry_partners/dips_logo.png"></a></td>
