@@ -98,10 +98,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.2934.1</td>
-						<td> 03 Nov 2017</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2934.1-windows_64bit.exe">.exe installer</a></td>
+						<td> 2.0.6.2935</td>
+						<td> 07 Nov 2017</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2935-windows_64bit.exe">.exe installer</a></td>
 						<td>
+							<p>Add BMM (RM) output mode to adlc CLI tool.</p>
 							<p>Correct schema loading bug; include Task Planning schemas in delivery.</p>
 							<p>Correct ADL converter regex bug; correct value-set redefinition bug.</p>
 							<p>Correct editor hang bug; correct startup failure when BMM schema broken.</p>
