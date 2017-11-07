@@ -33,8 +33,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li><a href="#erik_sundvall">Erik Sundvall</a></li>
 			</ul>
 			
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/koray_atalag.php');?>
-				<p>Member since 1 Feb 2015.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
 				<p>Member since 1 Feb 2015. <em>Joint Program Lead</em></p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/diego_bosca.php');?>
@@ -60,6 +58,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/erik_sundvall.php');?>
 				<p>Member since 1 Feb 2015.</p><br/>
 			
+
+			<h2>Past Members</h2>
+			<ul>
+				<li><a href="#koray_atalag">Koray Atalag</a></li>
+			</ul>
+			
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/koray_atalag.php');?>
+				<p>Member 1 Feb 2015 - Dev 2016.</p><br/>
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
