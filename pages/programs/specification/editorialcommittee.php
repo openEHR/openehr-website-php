@@ -18,7 +18,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<h2>Members</h2>
 			<ul>
-				<li><a href="#koray_atalag">Koray Atalag</a></li>
 				<li><a href="#thomas_beale">Thomas Beale</a></li>
 				<li><a href="#diego_bosca_tomas">Diego Boscá Tomás</a></li>
 				<li><a href="#rong_chen">Rong Chen</a></li>
@@ -31,6 +30,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li><a href="#pablo_pazos">Pablo Pazos Gutierrez</a></li>
 				<li><a href="#bjorn_naess">Bjørn Næss</a></li>
 				<li><a href="#erik_sundvall">Erik Sundvall</a></li>
+			</ul>
+			
+			<h2>Past Members</h2>
+			<ul>
+				<li><a href="#koray_atalag">Koray Atalag</a></li>
 			</ul>
 			
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
