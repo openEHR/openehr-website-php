@@ -70,7 +70,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						<div id = "Item0">
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1">openEHR Day 22 Nov 2017 London</span>
-								<p><a href="https://www.youtube.com/openEHR" target="_blank">All videos</a> &#8226;
+								<p><a href="https://www.youtube.com/openEHR" target="_blank">ALL VIDEOS</a> &#8226;
 								   <a href="https://youtu.be/-rhB8bDfdbU" target="_blank">Intro</a> &#8226;
 								   <a href="https://youtu.be/zFSq66FkULA" target="_blank">Platforms, tools, apps</a></p>
 
