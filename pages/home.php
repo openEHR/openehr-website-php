@@ -69,6 +69,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<div class="item active">
 						<div id = "Item0">
 							<div id = "CarouselText">
+								<span class="HomeSubtitle1">openEHR Day 22 Nov 2017 London</span>
+								<p><a href="https://www.youtube.com/openEHR" target="_blank">Videos@YouTube</a></p>
+							</div>
+						</div>
+					</div>
+					
+					<!--
+					<div class="item active">
+						<div id = "Item0">
+							<div id = "CarouselText">
 								<span class="HomeSubtitle1">RM 1.0.4, EHR APIs, Task Planning underway</span>
 								<p><a href="https://openehr.atlassian.net/issues/?filter=10820" target="_blank">RM Release 1.0.4</a></p>
 								<p><a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST API</a></p>
@@ -77,7 +87,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						</div>
 					</div>
 					
-					<!--
 					<div class="item">
 						<div id = "Item1">
 							<div id = "CarouselText">

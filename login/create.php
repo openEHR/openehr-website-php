@@ -161,7 +161,16 @@ $PageName = 'Create News Items';
 				?>
 	
 				<form id="news_form" action="create.php" method="post">
-				<p>News category: <select name="category"><option value="foundation_news">Foundation News</option><option value="community_news">Community News</option><option value="industry_news">Industry News</option><option value="events">Events</option><option value="releases">Releases</option></select></p>
+				<p>News category: 
+					<select name="category">
+						<option value="foundation_news">Foundation News</option>
+						<option value="community_news">Community News</option>
+						<option value="industry_news">Industry News</option>
+						<option value="events">Events</option>
+						<option value="releases">Releases</option>
+						<option value="conference_reports">Conference Reports</option>
+					</select>
+				</p>
 				<p>&#42; News title: <input type="text" name="title" size="20" maxlength="80" class="input" value="<?php if(isset($_POST['title'])) echo $_POST['title']; ?>" /></p>
 				<p>&#42; News summary: <input type="text" name="summary" size="40" maxlength="300" class="input" value="<?php if(isset($_POST['summary'])) echo $_POST['summary']; ?>" /></p>
 				<p>&#42; News text: <textarea id="elm1" name="text" rows="20" cols="80"><?php if(isset($_POST['text'])) echo $_POST['text']; ?></textarea></p>

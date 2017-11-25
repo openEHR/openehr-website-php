@@ -197,7 +197,15 @@ $PageName = 'Edit News Items';
 				?>
 
 				<form id="news_form" action="edit.php" method="post">
-				<p>News category: <select name="category"><option value="foundation_news" <?php if($array_data['category']== 'foundation_news') { echo 'selected';} ?>>Foundation News</option><option value="community_news" <?php if($array_data['category']== 'community_news') { echo 'selected';} ?>>Community News</option><option value="industry_news" <?php if($array_data['category']== 'industry_news') { echo 'selected';} ?>>Industry News</option><option value="events" <?php if($array_data['category']== 'events') { echo 'selected';} ?>>Events</option><option value="releases" <?php if($array_data['category']== 'releases') { echo 'selected';} ?>>Releases</option></select></p>
+				<p>News category: 
+					<select name="category">
+						<option value="foundation_news" <?php if($array_data['category']== 'foundation_news') { echo 'selected';} ?>>Foundation News</option>
+						<option value="community_news" <?php if($array_data['category']== 'community_news') { echo 'selected';} ?>>Community News</option>
+						<option value="industry_news" <?php if($array_data['category']== 'industry_news') { echo 'selected';} ?>>Industry News</option>
+						<option value="events" <?php if($array_data['category']== 'events') { echo 'selected';} ?>>Events</option>
+						<option value="releases" <?php if($array_data['category']== 'releases') { echo 'selected';} ?>>Releases</option></select></p>
+						<option value="conference_reports" <?php if($array_data['category']== 'conference_reports') { echo 'selected';} ?>>Conference Reports</option>
+					</select></p>
 				<p>&#42; News title: <input type="text" name="title" size="20" maxlength="80" class="input" value="<?php if(isset($array_data['title'])) echo $array_data['title']; ?>" /></p>
 				<p>&#42; News summary: <input type="text" name="summary" size="40" maxlength="300" class="input" value="<?php if(isset($array_data['summary'])) echo $array_data['summary']; ?>" /></p>
 				<p>&#42; News text: <textarea name="text" rows="20" cols="80"><?php if(isset($array_data['text'])) echo $array_data['text']; ?></textarea></p>
