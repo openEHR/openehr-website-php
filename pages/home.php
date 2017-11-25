@@ -70,19 +70,19 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						<div id = "Item0">
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1">openEHR Day 22 Nov 2017 London</span>
-								<p><a href="https://www.youtube.com/openEHR" target="_blank">All videos</a></p>
-								<p><a href="https://youtu.be/-rhB8bDfdbU" target="_blank">Intro</a>&#8226;
+								<p><a href="https://www.youtube.com/openEHR" target="_blank">All videos</a> &#8226;
+								   <a href="https://youtu.be/-rhB8bDfdbU" target="_blank">Intro</a> &#8226;
 								   <a href="https://youtu.be/zFSq66FkULA" target="_blank">Platforms, tools, apps</a></p>
 
-								<p><a href="https://youtu.be/snvm21SZoho" target="_blank">Clinical modelling</a>&#8226;
- 								   <a href="https://youtu.be/Rcv-3aSfPoA" target="_blank">Get Ready - Medtronic</a>&#8226;
-								   <a href="https://youtu.be/A89fEyeRl7k" target="_blank">Leeds Care Record</a>&#8226;
-								   <a href="https://youtu.be/geX5RO9woPI" target="_blank">100,000 Genomes</a>&#8226;
-								   <a href="https://youtu.be/ZWzqti-_qIA" target="_blank">NHS Scotland</a>&#8226;
-								   <a href="https://youtu.be/sKSMEIarcnI" target="_blank">Eurotransplant</a>&#8226;
+								<p><a href="https://youtu.be/snvm21SZoho" target="_blank">Clinical modelling</a> &#8226;
+ 								   <a href="https://youtu.be/Rcv-3aSfPoA" target="_blank">Get Ready - Medtronic</a> &#8226;
+								   <a href="https://youtu.be/A89fEyeRl7k" target="_blank">Leeds Care Record</a> &#8226;
+								   <a href="https://youtu.be/geX5RO9woPI" target="_blank">100,000 Genomes</a> &#8226;
+								   <a href="https://youtu.be/ZWzqti-_qIA" target="_blank">NHS Scotland</a> &#8226;
+								   <a href="https://youtu.be/sKSMEIarcnI" target="_blank">Eurotransplant</a> &#8226;
 								   <a href="https://youtu.be/2hbmiLs14vM" target="_blank">Heart transplant</a></p>
-								<p><a href="https://youtu.be/Zv5rwm4TYzU" target="_blank">Task Planning</a></p>
-								<p><a href="https://youtu.be/3-O9AXadC50" target="_blank">Panel</a></p>
+								<p><a href="https://youtu.be/Zv5rwm4TYzU" target="_blank">Task Planning</a> &#8226;
+								   <a href="https://youtu.be/3-O9AXadC50" target="_blank">Panel</a></p>
 							</div>
 						</div>
 					</div>
