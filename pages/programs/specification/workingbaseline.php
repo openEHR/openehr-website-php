@@ -22,7 +22,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<ul>
 							<li> <a href="/releases/BASE/latest/architecture_overview.html" target="_blank">openEHR Architecture</a> </li>
 							<li> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetype Technology</a> </li>
-							<li> <a href="/releases/trunk/UML" target="_blank">Global UML</a> </li>
+							<li> <a href="/releases/trunk/UML" target="_blank">GLOBAL UML</a> </li>
+							<li> <a href="/releases/BASE/latest/docs/global/index.html" target="_blank">CLASS INDEX</a></li>
 						</ul>
 						<p> </p>
 						<p> <em>Infrastructure</em> </p>
@@ -47,7 +48,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/RM/latest/support.html" target="_blank">Support</a> </li>
 							<li> <a href="/releases/RM/latest/integration.html" target="_blank">Integration</a> </li>
 							<li> <a href="/releases/RM/latest/ehr_extract.html" target="_blank">EHR Extract</a> </li>
-							<li> <a href="/releases/RM/latest/docs/index#_class_index" target="_blank">RM Class Index</a></li>
 							<li> <a href="/releases/trunk/UML/#Diagrams___18_2_83e026d_1485017378329_293966_5101" target="_blank">Instruction<br>State Machine</a></li>
 						</ul>
 					</td>
@@ -106,7 +106,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>* = in development.
 
 			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
-			<h2>Specifications</h2>
+			<h2>Component Specifications Index</h2>
 			<table class="TableBasic">
 				<tbody>
 					<tr>
