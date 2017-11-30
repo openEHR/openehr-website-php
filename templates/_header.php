@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
-	<link rel="home" href="http://www.openehr.org">
+	<link rel="home" href="/">
 	<link rel="index" href="/using_the_site/sitemap">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -30,8 +30,8 @@
 	
 	<?php
 	$pageOn = basename($_SERVER['PHP_SELF']);
-	$portuguese = 'http://'.str_replace('.org','.org/pt',$_SERVER['SERVER_NAME']).$_SERVER['PHP_SELF'];
-	$spanish = 'http://'.str_replace('.org','.org/es',$_SERVER['SERVER_NAME']).$_SERVER['PHP_SELF'];
+	$portuguese = 'https://'.str_replace('.org','.org/pt',$_SERVER['SERVER_NAME']).$_SERVER['PHP_SELF'];
+	$spanish = 'https://'.str_replace('.org','.org/es',$_SERVER['SERVER_NAME']).$_SERVER['PHP_SELF'];
 	?>
 	
 </head>

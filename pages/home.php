@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<a href="/releases/trunk/UML/" class="button4 col2" target="_blank">UML</a>
 			<a href="/releases/trunk/its/XML-schema/" class="button4 col2" target="_blank">XSD</a>
 			<a href="/programs/clinicalmodels" class="button3 col3">Clinical Models</a>
-			<a href="http://www.openehr.org/ckm/" class="button4 col3" target="_blank">CKM</a>
+			<a href="/ckm/" class="button4 col3" target="_blank">CKM</a>
 			<a href="https://github.com/openEHR/CKM-mirror" class="button4 col3" target="_blank">Git</a>
 			<a href="/programs/software" class="button2 col4">Software</a>
 			<a href="https://github.com/openEHR" class="button4 col4" target="_blank">Git</a>

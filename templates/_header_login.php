@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="/styles/menu.css" type="text/css"> 
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
-	<link rel="home" href="http://www.openehr.org">
+	<link rel="home" href="/">
 	<link rel="index" href="/using_the_site/sitemap">
 
 	<script src="/functions/menu_dropdown.js"></script> 
@@ -57,7 +57,7 @@
 				if( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'],'logout.php')) ) { 
 					echo '<a href="/login/user_home">User Home</a> | <a href="/login/logout">Logout</a> |';
 				} 
-				?> <a href="/about_this_website">About this Website</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="https://openehr.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all" target="_blank">Jira</a> | <a href="http://www.openehr.org/ckm">CKM</a>
+				?> <a href="/about_this_website">About this Website</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="https://openehr.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all" target="_blank">Jira</a> | <a href="/ckm">CKM</a>
 				
 				<div id="Search">
 					
@@ -71,7 +71,7 @@
 						  '012150377208032227381:uwpn0z1deyi', customSearchOptions);
 						customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
 						var options = new google.search.DrawOptions();
-						options.enableSearchboxOnly("http://www.openehr.org/search");
+						options.enableSearchboxOnly("/search");
 						customSearchControl.draw('cse-search-form', options);
 					  }, true);
 					</script>
