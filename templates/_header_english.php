@@ -14,7 +14,7 @@
 	<meta name="robots" content="All">
 	<meta name="revisit-after" content="15 days">
 
-	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
 	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
@@ -66,7 +66,7 @@
 			
 					<div id="cse-search-form">Loading</div>
 					
-					<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+					<script src="https://www.google.com/jsapi" type="text/javascript"></script>
 					<script type="text/javascript"> 
 					  google.load('search', '1', {language : 'en', style : google.loader.themes.ESPRESSO});
 					  google.setOnLoadCallback(function() {

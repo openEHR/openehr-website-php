@@ -14,9 +14,9 @@
 	<meta name="robots" content="All">
 	<meta name="revisit-after" content="15 days">
 
-	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
 	<link rel="stylesheet" href="/styles/basic.css"  type="text/css">
 	<link rel="stylesheet" href="/styles/home.css"  type="text/css"> 
 	
@@ -73,7 +73,7 @@
 				
 					<div id="cse-search-form">Loading</div>
 					
-					<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+					<script src="https://www.google.com/jsapi" type="text/javascript"></script>
 					<script type="text/javascript"> 
 					  google.load('search', '1', {language : 'en', style : google.loader.themes.ESPRESSO});
 					  google.setOnLoadCallback(function() {
