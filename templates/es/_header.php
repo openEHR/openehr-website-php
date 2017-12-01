@@ -79,7 +79,7 @@
 						  '012150377208032227381:uwpn0z1deyi', customSearchOptions);
 						customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
 						var options = new google.search.DrawOptions();
-						options.enableSearchboxOnly("http://www.openehr.org/search");
+						options.enableSearchboxOnly("/search");
 						customSearchControl.draw('cse-search-form', options);
 					  }, true);
 					</script>

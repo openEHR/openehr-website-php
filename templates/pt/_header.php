@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="/styles/pages.css"  type="text/css"> 
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
-	<link rel="home" href="http://www.openehr.org">
+	<link rel="home" href="/">
 	<link rel="index" href="/pt/using_the_site/sitemap">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -65,7 +65,7 @@
 				if( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'],'logout.php')) ) { 
 					echo '<a href="/login/user_home">User Home</a> | <a href="/login/logout">Logout</a> |';
 				} 
-				?> <a href="/pt/about_this_website">Sobre Este Site</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="https://openehr.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all" target="_blank">Jira</a> | <a href="http://www.openehr.org/ckm">CKM</a>
+				?> <a href="/pt/about_this_website">Sobre Este Site</a> | <a href="/wiki" target="_blank">Wiki</a> | <a href="https://openehr.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all" target="_blank">Jira</a> | <a href="/ckm">CKM</a>
 				
 				<div id="Search">
 				
