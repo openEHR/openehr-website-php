@@ -40,6 +40,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<td>PNG (min. width: 75px)</td>
 				<td>Web sites</td>
 			</tr>
+			<tr>
+				<td><a href="/gui/openEHR-new-RGB.svg"><img src="/gui/openEHR-new-RGB.svg"></a></td>
+				<td>SVG - RGB</td>
+				<td>Web sites</td>
+			</tr>
+			<tr>
+				<td><a href="/gui/openEHR-new-CMYK.svg"><img src="/gui/openEHR-new-CMYK.svg"></a></td>
+				<td>SVG - CMYK</td>
+				<td>Printing, PDFs, posters</td>
+			</tr>
 			</tbody>
 			</table>
 			
