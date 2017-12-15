@@ -99,7 +99,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<!-- Virtual Care -->
 			<tr>
 				<td><a href="/industry_partners/virtual_care"><img src="/files/industry_partners/virtual_care_logo.png"></a></td>
-				<td><h2>Tieto</h2>
+				<td><h2>VirtualCare</h2>
 				<p>VirtualCare is a leading company in openEHR education and training. We provide online and in-company courses; we have also developed ebooks and tools, such as the openEHR modelling canvas kit.</p>
 				<a href="/industry_partners/virtual_care">Learn more</a></td>
 			</tr>
