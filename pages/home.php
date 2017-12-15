@@ -33,6 +33,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<div id="PartnersContainer">
 				
 				<div id="LogoImage">
+					<p><a href="/industry_partners/virtual_care"><img src="/files/industry_partners/virtual_care_logo.png"></a></p>
 					<p><a href="/industry_partners/core_consulting"><img src="/files/industry_partners/core_consulting_logo.png"></a></p>
 					<p><a href="/organisational_partners/norway"><img src="/files/organisational_partners/norway_ikt_logo.png"></a></p>
 					<p><a href="/industry_partners/inidus"><img src="/files/industry_partners/inidus_logo.png"></a></p>
