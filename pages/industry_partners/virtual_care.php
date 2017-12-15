@@ -41,12 +41,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li>How to implement openEHR in software.</li>
 			</ul>
 
-			<h2>Software and Devops</h2>
-			<ul>
-				<li>Rendering engine for EHR clinical documents using IHE/XDS.b interface on openEHR standards.</li>
-				<li>API for Patient Consent Authorization for sharing EHR.</li>
-			</ul>
-
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
