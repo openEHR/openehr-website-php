@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h1><?php echo "$PageName";?></h1>
 
-			<a href="http://virtualcare.pt/" target="_blank"><img src="/files/industry_partners/virtual_care_logo.png" class="IndustryLogo"></a>
+			<a href="http://virtualcare.pt/" target="_blank"><img src="/files/industry_partners/virtual_care_logo-large.png" class="IndustryLogo"></a>
 			
 			<p><em>Headquarters:</em>Porto, Portugal</p>
 			<p><em>Size:</em> 6 employees</p>
