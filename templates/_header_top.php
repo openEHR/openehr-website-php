@@ -22,7 +22,7 @@
 	
 	<link rel="shortcut icon" href="/gui/favicon.ico">
 	<link rel="home" href="/">
-	<link rel="index" href="/using_the_site/sitemap">
+	<link rel="index" href="/using_the_site/site_map">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="/functions/js/bootstrap.js"></script>
