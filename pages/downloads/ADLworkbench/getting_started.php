@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - ----------------------------------------- Content starts here ------------------------------------------------ - -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -128,11 +128,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
             </table>
 		  
 			<h3>Using the ADL Workbench with the Archetype Editor</h3>
-			<p>You can use the ADL Workbench as a convenient way to launch the <a href="images/AWB_plus_AE.png">Archetype Editor</a> on individual archetypes. The AWB provides an easy way to see all archetypes, as well as performing ADL 1.5 validation, not currently available in the Archetype Editor. Firstly, <a href="http://www.openehr.org/downloads/archetypeeditor/home">download the Archetype Editor</a>, and then configure it as the editor for archetypes, as described <a href = "tool_configuration#archedconfig">here</a>.</p>
+			<p>You can use the ADL Workbench as a convenient way to launch the <a href="images/AWB_plus_AE.png">Archetype Editor</a> on individual archetypes. The AWB provides an easy way to see all archetypes, as well as performing ADL 1.5 validation, not currently available in the Archetype Editor. Firstly, <a href="/downloads/archetypeeditor/home">download the Archetype Editor</a>, and then configure it as the editor for archetypes, as described <a href = "tool_configuration#archedconfig">here</a>.</p>
 
 
 			<h2>Artefact overview</h2>
-			<p>The ADL Workbench is designed to parse and validate archetypes. Technically speaking, 'archetypes' are any artefact conforming to the openEHR Archetype Definition Language (ADL) and Archetype Object Model (AOM) specifications (see lower part of the <a href="http://www.openehr.org/programs/specification/releases/currentbaseline">specifications page</a>), or the older EN13606-2 specification, which is a snapshot of the openEHR AOM 1.4 specification. The latest <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/aom1.5.pdf?raw=true">ADL 1.5 specification</a> defines 4 logical kinds of artefact. These include three kinds of archetype, and the 'operational template'. The latter is generated from a template, and is used as the basis for all further downstream transformations. The various artefact types and their file formats are shown below.</p>
+			<p>The ADL Workbench is designed to parse and validate archetypes. Technically speaking, 'archetypes' are any artefact conforming to the openEHR Archetype Definition Language (ADL) and Archetype Object Model (AOM) specifications (see lower part of the <a href="/programs/specification/releases/currentbaseline">specifications page</a>), or the older EN13606-2 specification, which is a snapshot of the openEHR AOM 1.4 specification. The latest <a href="https://github.com/openEHR/specifications/blob/master/publishing/architecture/am/aom1.5.pdf?raw=true">ADL 1.5 specification</a> defines 4 logical kinds of artefact. These include three kinds of archetype, and the 'operational template'. The latter is generated from a template, and is used as the basis for all further downstream transformations. The various artefact types and their file formats are shown below.</p>
             
 			<table class="TableBasic">
             <tbody>

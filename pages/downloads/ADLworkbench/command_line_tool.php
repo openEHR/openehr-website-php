@@ -18,6 +18,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 <pre>
     USAGE:
        adlc -s [-q]
+       adlc -r [-q]
+       adlc -R &lt;reference model name&gt; [-q]
        adlc -b &lt;library name&gt; -l [-q]
        adlc -b &lt;library name&gt; -d [-q]
        adlc &lt;id_pattern&gt; -b &lt;library name&gt; [-flat] [-cfg &lt;file path&gt;] [-q] [-f &lt;format&gt;] -a &lt;action&gt;
@@ -28,6 +30,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
        -q --quiet                      : suppress verbose feedback, including configuration information on startup (Optional)
             --flat                        : use flat form of archetype[s] for actions, e.g. path extraction etc (Optional)
        -s --show_config          : show current configuration and defaults
+	   -r --list_rms                 : generate list of reference models.
+	   -R --display_rms		     : generate view of reference models user-friendly format
        -l  --list_archetypes      : generate list of archetypes in current library (use for further processing)
        -d --display_archetypes: generate list of archetypes in current library in user-friendly format
        -b --library                    : library to use

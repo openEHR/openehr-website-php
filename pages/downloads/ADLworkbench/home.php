@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p><a href="release_notes">Release notes</a> - <a href="https://openehr.atlassian.net/browse/AWBPR" target="_blank">Report an issue</a> - <a href="https://openehr.atlassian.net/browse/AWB/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="_blank">Development Project (Jira)</a></p>
          
 			<h2>What is the Workbench?</h2>
-			<p>The ADL Workbench (AWB) is a compiler and IDE for working with the archetypes and templates written in the Achetype Definition Language (ADL), and based on any reference model, including openEHR, ISO 13606 and CIMI. The <a href="http://www.openehr.org/programs/specification/releases/currentbaseline#ADL2">latest version of the archetype formalism</a> makes it one of the most powerful domain modelling tools available. Create models of clinical content (archetypes), data set definitions (templates), add terminology bindings and translations and then visualise and generate fully compiled output form in ADL, JSON, XML, YAML or ODIN.</p>
+			<p>The ADL Workbench (AWB) is a compiler and IDE for working with the archetypes and templates written in the Achetype Definition Language (ADL), and based on any reference model, including openEHR, ISO 13606 and CIMI. The <a href="/programs/specification/releases/currentbaseline#ADL2">latest version of the archetype formalism</a> makes it one of the most powerful domain modelling tools available. Create models of clinical content (archetypes), data set definitions (templates), add terminology bindings and translations and then visualise and generate fully compiled output form in ADL, JSON, XML, YAML or ODIN.</p>
 
 			<p><a href="browsing_and_compiling">Screenshots</a></p>
 
@@ -26,14 +26,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li><a href="http://opencimi.org">CIMI</a> archetypes and templates supported</li>
 				<li>Many new visualisation and usability features</li>
 				<li>New governance meta-data supported</li>
-				<li>New tuple syntax replaces domain specific syntax for quantities, ordinals etc (<a href="http://www.openehr.org/wiki/display/ADL/Tuple+Proposal">wiki</a>)</li>
-				<li>New internal coding system uses id-codes, at-codes and ac-codes (<a href="http://www.openehr.org/wiki/display/ADL/Id-codes+unification+proposal">wiki</a>)</li>
-				<li>Value sets now defined in archetype terminology (<a href="http://www.openehr.org/wiki/display/ADL/Value+sets+proposal">wiki</a>)</li>
+				<li>New tuple syntax replaces domain specific syntax for quantities, ordinals etc (<a href="/wiki/display/ADL/Tuple+Proposal">wiki</a>)</li>
+				<li>New internal coding system uses id-codes, at-codes and ac-codes (<a href="/wiki/display/ADL/Id-codes+unification+proposal">wiki</a>)</li>
+				<li>Value sets now defined in archetype terminology (<a href="/wiki/display/ADL/Value+sets+proposal">wiki</a>)</li>
 				<li>All code bindings are IHTSDO URIs</li>
-				<li>Standard lifecycle states (<a href="http://www.openehr.org/wiki/display/ADL/Knowledge+Artefact+Identification">wiki</a>)</li>
+				<li>Standard lifecycle states (<a href="/wiki/display/ADL/Knowledge+Artefact+Identification">wiki</a>)</li>
 				<li>Fully independent of specific reference models - can load any RM</li>
 				<li>ADL 1.4 archetypes fully converted to ADL 2, including with extraction and synthesis of value sets</li>
-				<li>Namespaced archetype identifiers (<a href="http://www.openehr.org/wiki/display/ADL/Knowledge+Artefact+Identification">wiki</a>)</li>
+				<li>Namespaced archetype identifiers (<a href="/wiki/display/ADL/Knowledge+Artefact+Identification">wiki</a>)</li>
 			</ul>
           
 			<h2>Roadmap</h2>
@@ -129,7 +129,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
             </table>
 			
 			<h2>Learn how the workbench works</h2>
-			<iframe width="560" height="315" src="http://www.youtube.com/embed/videoseries?list=PLhWi0RtmG26U6PGezBrDD2QPeQL8tQYTZ&amp;hl=en_GB" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLhWi0RtmG26U6PGezBrDD2QPeQL8tQYTZ&amp;hl=en_GB" frameborder="0" allowfullscreen></iframe>
           
 			<h3>Source Code</h3>
 			<p>The source code can be accessed from the <a href="https://github.com/openEHR/adl-tools/wiki" target="_blank">adl-tools GitHub home page</a>.</p>

@@ -8,7 +8,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - ----------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
@@ -17,7 +17,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			
 			
 			<h2>EN13606 schema for AWB</h2>
-			<p>An initial schema for EN13606-1 has been included in the set of RM schemas used by AWB. This was produced by Christoph Rinner (Medical University of Vienna) and Thomas Beale (Ocean Informatics). The definitive copy of this resides in the openEHR <a href="https://github.com/openEHR/reference-models/tree/master/models/ISO_13606/2008/BMM" target="_blank">openEHR reference-models GitHub repository</a>. If you are interested in being added to the committers list to work on this schema, please email webmaster@openehr.org.</p>
+			<p>An initial schema for EN13606-1 has been included in the set of RM schemas used by AWB. This was produced by Christoph Rinner (Medical University of Vienna) and Thomas Beale (Ocean Informatics). The definitive copy of this resides in the openEHR <a href="https://github.com/openEHR/reference-models/tree/master/models/ISO_13606/2008/BMM" target="_blank">openEHR reference-models GitHub repository</a>. If you are interested in being added to the committers list to work on this schema, please email webmaster at openehr.org.</p>
 			<a href="images/rm_schema_en13606.png"><img border="0" alt="RM Schema EN13606 schema view" src="images/rm_schema_en13606.png" width="150"/></a>
 			
 			

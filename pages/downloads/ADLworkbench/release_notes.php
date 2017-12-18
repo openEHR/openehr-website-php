@@ -8,14 +8,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 ?>
 
 		<div id="Content">
-<!-- ------------------------------------------- Content starts here ------------------------------------------------- -->
+<!-- - - ----------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Release History</h2>
 			
 			<h3>04 December 2014 - ADL 2.0.5 (<a href="https://github.com/openEHR/adl-tools/tree/adl_2.0.5">Github tag adl_2.0.5</a>) 
-				(Jira - <a href="http://www.openehr.org/issues/?jql=project%20%3D%20AWB%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">new features</a>; <a href="http://www.openehr.org/issues/?jql=project%20%3D%20AWBPR%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">issues fixed</a>)</h3>
+				(Jira - <a href="/issues/?jql=project%20%3D%20AWB%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">new features</a>; <a href="/issues/?jql=project%20%3D%20AWBPR%20AND%20fixVersion%20%3D%20%22ADL%202.0.5%20Workbench%22%20AND%20status%20%3D%20Closed%20ORDER%20BY%20priority%20DESC">issues fixed</a>)</h3>
 			<ul>
 				<li><em>Archetype Object Model / compiler</em>:
 					<ul>
@@ -37,8 +37,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				</li>
 				<li><em>Tool functionality</em>:
 					<ul>
-						<li><a href="http://www.openehr.org/downloads/ADLworkbench/obtaining_archetypes">New method</a> of specifying archetype repositories uses self-describing repository/library structure</li>
-						<li><a href="http://www.openehr.org/downloads/ADLworkbench/obtaining_archetypes">Git / Github integration</a></li>
+						<li><a href="/downloads/ADLworkbench/obtaining_archetypes">New method</a> of specifying archetype repositories uses self-describing repository/library structure</li>
+						<li><a href="/downloads/ADLworkbench/obtaining_archetypes">Git / Github integration</a></li>
 						<li>One-click template creation</li>
 						<li>Automatic conversion of ADL 1.4 'other_details' meta-data to ADL 2 form</li>
 					</ul>
@@ -58,10 +58,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 			<ul>
 				<li><em>Archetype Object Model / compiler</em>:
 					<ul>
-						<li>All domain-specific AOM types for Quantities, Ordinals and Term-lists replaced by new <a href="http://www.openehr.org/wiki/display/spec/ADL+1.5+Power+Syntax+Proposals">AOM standard tuple representation</a></li>
-						<li>New <a href="http://www.openehr.org/wiki/pages/viewpage.action?pageId=49053703">internal coding system</a> - uses id-codes (node identification), at-codes (values) and ac-codes (value sets)</li>
-						<li>Dedicated ADL 1.4 =&gt; ADL 1.5 converter implemented, following <a href="http://www.openehr.org/wiki/display/spec/ADL+1.5.1+Archetype+Conversion+Summary">published conversion rules</a></li>
-						<li>Namespaced identifiers implemented as per openEHR <a href="http://www.openehr.org/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">Knowledge Artefact Specification</a></li>
+						<li>All domain-specific AOM types for Quantities, Ordinals and Term-lists replaced by new <a href="/wiki/display/spec/ADL+1.5+Power+Syntax+Proposals">AOM standard tuple representation</a></li>
+						<li>New <a href="/wiki/pages/viewpage.action?pageId=49053703">internal coding system</a> - uses id-codes (node identification), at-codes (values) and ac-codes (value sets)</li>
+						<li>Dedicated ADL 1.4 =&gt; ADL 1.5 converter implemented, following <a href="/wiki/display/spec/ADL+1.5.1+Archetype+Conversion+Summary">published conversion rules</a></li>
+						<li>Namespaced identifiers implemented as per openEHR <a href="/wiki/display/spec/Development+and+Governance+of+Knowledge+Artefacts">Knowledge Artefact Specification</a></li>
 						<li>Terminology references are all URIs, following IHTSDO model</li>
 						<li>Value-sets are moved from archetype definition to archetype terminology</li>
 					</ul>
@@ -309,7 +309,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 
 			<h3>11 Aug 2010 ADL 1.5 beta Release 1 (<a href="https://github.com/openEHR/adl-tools/commit/569646fc6480548311e33a9a16d2bc4e12c94597">Git commit 569646fc6480548311e33a9a16d2bc4e12c94597 (was SVN rev 1105)</a>):</h3>
 			<ul>
-				<li>Improved validation, with code-based error messages matching ADL and AOM 1.5 <a href="http://www.openehr.org/programs/specification/releases/currentbaseline">draft&nbsp;specifications</a> (see bottom of page);</li>
+				<li>Improved validation, with code-based error messages matching ADL and AOM 1.5 <a href="/programs/specification/releases/currentbaseline">draft&nbsp;specifications</a> (see bottom of page);</li>
 				<li>Support for referencing from one archetype to another without slots;</li>
 				<li>Support for ADL 1.5 templates, including slot-filling and exclusions;</li>
 				<li>Separate explorers for archetypes and templates;</li>
@@ -341,7 +341,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<li>it now uses the reference model (RM) to validate all archetypes. The reference model is
 				currently expressed in a custom meta-model format which is much simpler than UML 2 based meta-models, e.g.
 				XMI (<a href=
-				"http://www.openehr.org/wiki/display/dev/Machine-readable+model+representations+of+openEHR">why</a>?). The
+				"/wiki/display/dev/Machine-readable+model+representations+of+openEHR">why</a>?). The
 				meta-model can be found <a href="https://github.com/openEHR/reference-models/tree/master/models/openEHR/Release-1.0.2/BMM">here</a>. Both the
 				location of this file, and its design may change in the future, and its current format should not be taken as
 				normative for openEHR.</li>
