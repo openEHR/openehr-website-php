@@ -98,9 +98,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.2952</td>
-						<td> 18 Dec 2017</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2952-windows_64bit.exe">.exe installer</a></td>
+						<td> 2.0.6.2953</td>
+						<td> 31 Dec 2017</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2953-windows_64bit.exe">.exe installer</a></td>
 						<td>
 							<p>Add BMM (RM) JSON exporter.</p>
 							<p>Improve editing functionality; add new-archetype-from-subtree function.</p>
