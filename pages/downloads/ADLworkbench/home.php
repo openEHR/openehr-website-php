@@ -98,9 +98,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.2961</td>
-						<td> 11 Jan 2018</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2961-windows_64bit.exe">.exe installer</a></td>
+						<td> 2.0.6.2963</td>
+						<td> 12 Jan 2018</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2963-windows_64bit.exe">.exe installer</a></td>
 						<td>
 							<p>Include latest Task Planning and CIMI BMMs.</p>
 							<p>Support regular C_PRIMITIVE_OBJECT structures.</p>
