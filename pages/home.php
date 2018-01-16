@@ -71,7 +71,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						<div id = "Item0">
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1"><a href="https://ehealthresearch.no/en/events/openehr2018">openEHR 2nd Arctic Conference</a></span>
-								<p>Tromsø, Norway</p>
+								<p>Tromsø, Norway, Jan 18,19 2018</p>
 								<p>Nasjonal IKT &#8226; Region Östergötland &#8226; 
 								   Veratech &#8226; Polytech U Valencia &#8226;
 								   Inidus &#8226; Hannover Medical School &#8226;
