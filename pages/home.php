@@ -70,6 +70,25 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<div class="item active">
 						<div id = "Item0">
 							<div id = "CarouselText">
+								<span class="HomeSubtitle1"><a href="https://ehealthresearch.no/en/events/openehr2018">openEHR 2nd Arctic Conference</a></span>
+								<p>Tromsø, Norway</p>
+								<p>Nasjonal IKT &#8226; Region Östergötland &#8226; 
+								   Veratech &#8226; Polytech U Valencia &#8226;
+								   Inidus &#8226; Hannover Medical School &#8226;
+								   Örebro University &#8226; Clinical Workflow &#8226;
+								   Helse Nord RHF &#8226; University of Seville &#8226;
+								   Cambio Healthcare &#8226; DIPS &#8226; Marand &#8226; 
+								   Fürst Medical Lab &#8226; CaboLabs 
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!--
+					<div class="item active">
+						<div id = "Item0">
+							<div id = "CarouselText">
 								<span class="HomeSubtitle1">openEHR Day 22 Nov 2017 London</span>
 								<p><a href="https://www.youtube.com/openEHR" target="_blank">ALL VIDEOS</a> &#8226;
 								   <a href="https://youtu.be/-rhB8bDfdbU" target="_blank">Intro</a> &#8226;
@@ -89,7 +108,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						</div>
 					</div>
 					
-					<!--
 					<div class="item active">
 						<div id = "Item0">
 							<div id = "CarouselText">
