@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 		
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2>ADL Workbench release 2.0.6, 10 Mar 2017</h2>
+			<h2>ADL Workbench release 2.0.6</h2>
 			<p><a href="release_notes">Release notes</a> - <a href="https://openehr.atlassian.net/browse/AWBPR" target="_blank">Report an issue</a> - <a href="https://openehr.atlassian.net/browse/AWB/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="_blank">Development Project (Jira)</a></p>
          
 			<h2>What is the Workbench?</h2>
@@ -98,9 +98,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.2963</td>
-						<td> 12 Jan 2018</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2963-windows_64bit.exe">.exe installer</a></td>
+						<td> 2.0.6.2970</td>
+						<td> 20 Jan 2018</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2970-windows_64bit.exe">.exe installer</a></td>
 						<td>
 							<p>Include latest Task Planning and CIMI BMMs.</p>
 							<p>Support regular C_PRIMITIVE_OBJECT structures.</p>
