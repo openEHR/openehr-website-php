@@ -21,6 +21,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
+						<td> <a href="/releases/ITS/Release-0.9.0/docs/index" target="_blank">ITS Release 0.9.0</a></td>
+						<td> 22 January 2018 </td>
+						<td> <a href="https://openehr.atlassian.net/projects/SPECITS/versions/12509" target="_blank">Initial publishing</a>
+						</td>
+					</tr>
+
+					<tr>
 						<td> <a href="/releases/PROC/Release-1.0.0/docs/index" target="_blank">PROC Release 1.0.0</a></td>
 						<td> 1 December 2017 </td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECPROC/versions/12500" target="_blank">Initial publishing</a>;
