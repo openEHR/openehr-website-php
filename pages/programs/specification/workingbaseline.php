@@ -92,10 +92,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 						<p> <em>REST APIs</em> </p>
 						<ul>
-							<li> <a href="https://openehr.github.io/specifications-ITS/ehr.html" target="_blank">*EHR</a> </li>
-							<li> <a href="https://openehr.github.io/specifications-ITS/query.html" target="_blank">*Query</a> </li>
-							<li> <a href="https://openehr.github.io/specifications-ITS/definitions.html" target="_blank">*Definitions</a> </li>
-							<li> <a href="https://openehr.github.io/specifications-ITS/cds.html" target="_blank">*CDS</a> </li>
+							<li> <a href="/releases/ITS/latest/docs/ehr.html" target="_blank">*EHR</a> </li>
+							<li> <a href="/releases/ITS/latest/docs/query.html" target="_blank">*Query</a> </li>
+							<li> <a href="/releases/ITS/latest/docs/definitions.html" target="_blank">*Definitions</a> </li>
 						</ul>
 					</td>
 
