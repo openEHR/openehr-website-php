@@ -62,6 +62,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/AM/latest/ADL1.4.html" target="_blank">ADL 1.4</a></li>
 							<li> <a href="/releases/AM/latest/AOM1.4.html" target="_blank">AOM 1.4</a></li>
 						</ul>
+						<p> </p>
+
+						<p> <em>Terminology</em> </p>
+						<ul>
+							<li> <a href="/TERM/latest/SupportTerminology.html" target="_blank">Terminology</a> </li>
+						</ul>
 					</td>
 
 					<td valign="top">
