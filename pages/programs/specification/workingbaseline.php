@@ -66,7 +66,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 						<p> <em>Terminology</em> </p>
 						<ul>
-							<li> <a href="/TERM/latest/SupportTerminology.html" target="_blank">Terminology</a> </li>
+							<li> <a href="/releases/TERM/latest/SupportTerminology.html" target="_blank">Terminology</a> </li>
 						</ul>
 					</td>
 
