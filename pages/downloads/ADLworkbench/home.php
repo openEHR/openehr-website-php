@@ -98,10 +98,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.2972</td>
-						<td> 22 Jan 2018</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2972-windows_64bit.exe">.exe installer</a></td>
+						<td> 2.0.6.2978</td>
+						<td> 28 Jan 2018</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2978-windows_64bit.exe">.exe installer</a></td>
 						<td>
+							<p>Bug fixes.</p>
 							<p>Improve enumerated type support.</p>
 							<p>Include latest Task Planning and CIMI BMMs.</p>
 							<p>Support regular C_PRIMITIVE_OBJECT structures.</p>
