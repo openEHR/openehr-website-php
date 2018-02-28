@@ -71,13 +71,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<a href="/industry_partners/marand">Learn more</a></td>
 			</tr>
 
-			<!-- MEDrecord -->
+			<!-- MEDrecord 
 			<tr>
 				<td><a href="/industry_partners/medrecord"><img src="/files/industry_partners/medrecord_logo.png"></a></td>
 				<td><h2>MEDrecord BV</h2>
 				<p>MEDrecord provides a ground-breaking eHealth platform completely based on the openEHR standard. We have a long history in the eHealth landscape with significant expertise on security, continuous development and semantic interoperability. For developers and integrators we provide advanced, easy-to-use APIs for the development of clinically validated apps.</p>
 				<a href="/industry_partners/medrecord">Learn more</a></td>
 			</tr>
+			-->
 
 			<!-- Ocean -->
 			<tr>
