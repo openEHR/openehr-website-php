@@ -120,7 +120,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
-						<td colspan="2">Conformance</td>
+						<td colspan="2" align="center">Productisation</td>
 					</tr>
 					<tr>
 						<td> <a name="CNF"></a><a href="/releases/CNF/latest/docs/index" target="_blank">CNF</a></td>
@@ -128,7 +128,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
-						<td colspan="2">Domains</td>
+						<td colspan="2" align="center">Domains</td>
 					</tr>
 					<tr>
 						<td> <a name="INTG"></a><a href="/releases/INTG/latest/docs/index" target="_blank">INTG</a></td>
@@ -144,7 +144,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
-						<td colspan="2">Core specifications</td>
+						<td colspan="2" align="center">Core specifications</td>
 					</tr>
 					<tr>
 						<td> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index" target="_blank">QUERY</a></td>
@@ -168,7 +168,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
-						<td colspan="2">Terminology</td>
+						<td colspan="2" align="center">Terminology</td>
 					</tr>
 					<tr>
 						<td> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index" target="_blank">TERM</a></td>
