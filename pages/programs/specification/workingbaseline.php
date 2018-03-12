@@ -116,7 +116,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<tbody>
 					<tr>
 						<th style="text-align:center"> Component </th>
-						<th style="text-align:center"> Description </th>
+						<th style="text-align:center"> Description         </th>
 					</tr>
 
 					<tr>
