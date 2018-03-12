@@ -120,6 +120,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
+						<td colspan="2">Conformance</td>
+					</tr>
+					<tr>
+						<td> <a name="CNF"></a><a href="/releases/CNF/latest/docs/index" target="_blank">CNF</a></td>
+						<td> Conformance specifications.</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">Domains</td>
+					</tr>
+					<tr>
+						<td> <a name="INTG"></a><a href="/releases/INTG/latest/docs/index" target="_blank">INTG</a></td>
+						<td> Integration specifications, including TDS and TDO.</td>
+					</tr>
+					<tr>
 						<td> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index" target="_blank">CDS</a></td>
 						<td> Clinical Decision Support - specifications for guidelines and related languages, including GDL.</td>
 					</tr>
@@ -127,29 +142,33 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<td> <a name="PROC"></a><a href="/releases/PROC/latest/docs/index" target="_blank">PROC</a></td>
 						<td> Process Model - specifications for Care pathways, Task planning, Care plans and clinical workflow.</td>
 					</tr>
+
+					<tr>
+						<td colspan="2">Core specifications</td>
+					</tr>
 					<tr>
 						<td> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index" target="_blank">QUERY</a></td>
 						<td> Query language specifications, including AQL.</td>
-					</tr>
-					<tr>
-						<td> <a name="INTG"></a><a href="/releases/INTG/latest/docs/index" target="_blank">INTG</a></td>
-						<td> Integration specifications, including TDS and TDO.</td>
 					</tr>
 					<tr>
 						<td> <a name="SM"></a><a href="/releases/SM/latest/docs/index" target="_blank">SM</a></td>
 						<td> Service Model - service and application programming interface (API) specifications.</td>
 					</tr>
 					<tr>
-						<td> <a name="AM"></a><a href="/releases/AM/latest/docs/index" target="_blank">AM</a></td>
-						<td> Archetype Model (1.4 and 2) - Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and Identification.</td>
-					</tr>
-					<tr>
 						<td> <a name="RM"></a><a href="/releases/RM/latest/docs/index" target="_blank">RM</a></td>
 						<td> Reference Model - the core information models of the EHR, Demographics and EHR Extract</td>
 					</tr>
 					<tr>
+						<td> <a name="AM"></a><a href="/releases/AM/latest/docs/index" target="_blank">AM</a></td>
+						<td> Archetype Model (1.4 and 2) - Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and Identification.</td>
+					</tr>
+					<tr>
 						<td> <a name="BASE"></a><a href="/releases/BASE/latest/docs/index" target="_blank">BASE</a></td>
 						<td> Base models and languages underpinning other specifications; includes BMM, ODIN.</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">Terminology</td>
 					</tr>
 					<tr>
 						<td> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index" target="_blank">TERM</a></td>
@@ -209,34 +228,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</table>
 
 		
-			<!-- ----------------------------------------- CONF ------------------------------------------------- -->
-			<h2><a name="CONF"></a>Conformance</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="_blank">SPECCNF Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel" target="_blank">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECCNF/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel" target="_blank">Issues</a>
-			</p>
-			<table class="TableBasic">
-			<tbody>
-			<tr>
-				<th> Documentary Specification </th>
-				<th> Description </th>
-				<th> Status </th>
-			</tr>
-			<tr>
-				<td> <a href="/releases/CNF/latest/openehr_platform_conformance.html">openEHR Platform Conformance</a> </td>
-				<td> Conformance schedule and profiles for EHR platform implementations.</td>
-				<td> <a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market" target="_blank">wiki page</a></td>
-			</tr>
-			<tr>
-				<td> Archetype tooling </td>
-				<td> Conformance profiles for Archetype tooling. </td>
-				<td> <a href="http://www.openehr.org/wiki/display/oecom/openEHR+2014+Roadmap+-+Product+and+Market" target="_blank">wiki page</a></td>
-			</tr>
-			</tbody>
-			</table>
-
-
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
