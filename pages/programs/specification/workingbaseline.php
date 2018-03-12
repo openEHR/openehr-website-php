@@ -116,11 +116,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<tbody>
 					<tr>
 						<th style="text-align:center"> Component </th>
-						<th style="text-align:center"> Description         </th>
+						<th style="text-align:center"> Description </th>
 					</tr>
 
 					<tr>
-						<th colspan="2" style="text-align:center">Productisation</td>
+						<td colspan="2" style="text-align:center">Productisation</td>
 					</tr>
 					<tr>
 						<td> <a name="CNF"></a><a href="/releases/CNF/latest/docs/index" target="_blank">CNF</a></td>
@@ -128,7 +128,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
-						<th colspan="2"style="text-align:center">Domains</td>
+						<td colspan="2"style="text-align:center">Domains</td>
 					</tr>
 					<tr>
 						<td> <a name="INTG"></a><a href="/releases/INTG/latest/docs/index" target="_blank">INTG</a></td>
@@ -144,7 +144,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
-						<th colspan="2" style="text-align:center">Core specifications</td>
+						<td colspan="2" style="text-align:center">Core specifications</td>
 					</tr>
 					<tr>
 						<td> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index" target="_blank">QUERY</a></td>
@@ -168,7 +168,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 
 					<tr>
-						<th colspan="2" style="text-align:center">Terminology</td>
+						<td colspan="2" style="text-align:center">Terminology</td>
 					</tr>
 					<tr>
 						<td> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index" target="_blank">TERM</a></td>
