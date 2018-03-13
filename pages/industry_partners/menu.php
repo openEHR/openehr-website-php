@@ -8,7 +8,6 @@
 				<li><a href="/industry_partners/inidus" <?php if($pageOn == 'inidus.php'){?> class="active"<?php }?>>Inidus</a></li>
 				<li><a href="/industry_partners/marand" <?php if($pageOn == 'marand.php'){?> class="active"<?php }?>>Marand</a></li>
 
-				<li><a href="/industry_partners/medrecord" <?php if($pageOn == 'medrecord.php'){?> class="active"<?php }?>>MEDrecord BV</a></li>
 				<li><a href="/industry_partners/ocean_health_systems" <?php if($pageOn == 'ocean_informatics.php'){?> class="active"<?php }?>>Ocean Health Systems</a></li>
 				<li><a href="/industry_partners/tieto" <?php if($pageOn == 'tieto.php'){?> class="active"<?php }?>>Tieto</a></li>
 				<li><a href="/industry_partners/virtual_care" <?php if($pageOn == 'virtual_care.php'){?> class="active"<?php }?>>VirtualCare</a></li>

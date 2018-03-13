@@ -131,7 +131,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<!-- ------------- The Philippines ------------- -->
 			<tr>
 				<td><img src="/files/who_is_using_openehr/Flag_of_the_Philippines.png" alt="Flag of The Philippines" title="Flag of The Philippines" style="width:80px;"><p>The Philippines</p></td>
-				<td><a href="https://www.diagnostiekvooru.nl/">Ayala Healthcare Holdings</a></td>
+				<td><a href="http://www.achealth.com.ph">Ayala Healthcare Holdings</a></td>
 				<td>A structured and standards based clinical data repository (CDR) for a comprehensive Primary Care EHR solution built on top of Think!EHR Platform.</td>
 				<td><a href="http://www.openehr.org/industry_partners/marand">Marand, Slovenia</a></td>
 				<td>Deployed Jan 2017</td>

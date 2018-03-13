@@ -11,7 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 <!-- ----------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
-			<p>The openEHR Industry Partners are a group of companies implementing openEHR who have agreed to materially support the Foundation. The list below is the initial group, present at a meeting in September 2013, documented in <a href="http://www.openehr.org/news_events/foundation_news.php?id=87">this news item</a>. The industry partners will support the foundation with resources, both human and financial. They will work on many aspects of openEHR, but in particular, are focussed on product compliance and quality. To that end, they are developing conformance specifications for openEHR.</p>
+			<p>The openEHR Industry Partners are a group of companies implementing openEHR who have agreed to materially support the Foundation.  Industry Partners support the foundation with resources, both human and financial; and work on many aspects of openEHR, but in particular are focussed on product compliance and quality.  To that end they are developing conformance specifications for openEHR.</p>
 			<table class="TableInvisible">
 			<tbody>
 
@@ -71,13 +71,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<a href="/industry_partners/marand">Learn more</a></td>
 			</tr>
 
-			<!-- MEDrecord -->
+			<!-- MEDrecord 
 			<tr>
 				<td><a href="/industry_partners/medrecord"><img src="/files/industry_partners/medrecord_logo.png"></a></td>
 				<td><h2>MEDrecord BV</h2>
 				<p>MEDrecord provides a ground-breaking eHealth platform completely based on the openEHR standard. We have a long history in the eHealth landscape with significant expertise on security, continuous development and semantic interoperability. For developers and integrators we provide advanced, easy-to-use APIs for the development of clinically validated apps.</p>
 				<a href="/industry_partners/medrecord">Learn more</a></td>
 			</tr>
+			-->
 
 			<!-- Ocean -->
 			<tr>

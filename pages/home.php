@@ -38,7 +38,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<p><a href="/organisational_partners/norway"><img src="/files/organisational_partners/norway_ikt_logo.png"></a></p>
 					<p><a href="/industry_partners/inidus"><img src="/files/industry_partners/inidus_logo.png"></a></p>
 					<p><a href="/industry_partners/tieto"><img src="/files/industry_partners/tieto_logo.png"></a></p>
-					<p><a href="/industry_partners/medrecord"><img src="/files/industry_partners/medrecord_logo.png"></a></p>
 					<p><a href="/industry_partners/dips"><img src="/files/industry_partners/dips_logo.png"></a></p>
 					<p><a href="/industry_partners/infinnity_solutions"><img src="/files/industry_partners/infinnity_logo.png"></a></p>
 					<p><a href="/industry_partners/code24"><img src="/files/industry_partners/code24_logo.png"></a></p>
