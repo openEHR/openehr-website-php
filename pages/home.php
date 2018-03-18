@@ -129,7 +129,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						</div>
 					</div>
 					-->
-					<div class="item">
+					<div class="item active">
 						<div id = "Item0">
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1">openEHR Days Helsinki/Stockholm</span>
