@@ -66,6 +66,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		
 				<div class="carousel-inner" role="listbox">
 
+					<!--
 					<div class="item active">
 						<div id = "Item0">
 							<div id = "CarouselText">
@@ -84,7 +85,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					</div>
 
 
-					<!--
 					<div class="item active">
 						<div id = "Item0">
 							<div id = "CarouselText">
@@ -129,6 +129,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						</div>
 					</div>
 					-->
+					<div class="item">
+						<div id = "Item0">
+							<div id = "CarouselText">
+								<span class="HomeSubtitle1">openEHR Days Helsinki/Stockholm</span>
+								<p>20/21 Mar 2018</p>
+								<p><a href="http://pages.tieto.com/LP-GL-PHCW-2017-05-openEHR_LP-event.html" target="_blank">Event site</a></p>
+							</div>
+						</div>
+					</div>
+					
 					<div class="item">
 						<div id = "Item1">
 							<div id = "CarouselText">
