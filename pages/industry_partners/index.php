@@ -11,7 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 <!-- ----------------------------------------- Content starts here ------------------------------------------------- -->
 		
 			<h1><?php echo "$PageName";?></h1>
-			<p>The openEHR Industry Partners are a group of companies implementing openEHR who have agreed to materially support the Foundation.  Industry Partners support the foundation with resources, both human and financial; and work on many aspects of openEHR, but in particular are focussed on product compliance and quality.  To that end they are developing conformance specifications for openEHR.</p>
+			<p>The openEHR Industry Partners are a group of companies implementing openEHR who have agreed to materially support the Foundation.  Industry Partners support the foundation with resources, both human and financial; and work on many aspects of openEHR, but in particular are focussed on product compliance and quality. To that end they are responsible for the <a href="/releases/CNF/latest/docs/index">conformance specifications for openEHR.</a></p>
 			<table class="TableInvisible">
 			<tbody>
 
