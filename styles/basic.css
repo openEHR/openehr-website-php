@@ -108,7 +108,7 @@ html,body {
 }
 
 #Search input {
-	width: 150px;
+	width: 180px;
 	border: 1px solid #aaa;
 	
 }
@@ -117,13 +117,38 @@ html,body {
 	width: 100%;
 }
 
-#Search input.gsc-search-button {
-	width: 60px;
-	border: 1px solid #023760;
+#Search input.gsc-search-button, input.gsc-search-button2-v2 {
+	padding: 0;
+	width: 30px;
+	border: none;
+	height:28px;
 	
 	background: #023760;
+	color: #fff;
+	
+	content: "Search";
 }
 
+#Search .gsc-control-cse {
+	background: transparent;
+	border: none;
+	padding: 5px 0;
+}
+
+.gsc-cursor-page, div.gsc-cursor-page {
+    font-size: 1em;
+    padding: 4px 8px;
+    border: 0px solid #fff;
+    }
+	
+#Search .gsc-cursor-page.gsc-cursor-current-page, div.gsc-cursor-page.gsc-cursor-current-page {
+	background: transparent;
+}
+
+#Search .gsc-tabHeader.gsc-tabhActive {
+	background: #9FC5E8;
+}
+	
 #Logo {
 	position: absolute;
 	top: 10px;

@@ -71,20 +71,18 @@
 				
 				<div id="Search">
 					
-					<div id="cse-search-form">Loading</div>
-					
-					<script src="https://www.google.com/jsapi" type="text/javascript"></script>
-					<script type="text/javascript"> 
-					  google.load('search', '1', {language : 'en', style : google.loader.themes.ESPRESSO});
-					  google.setOnLoadCallback(function() {
-						var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
-						  '012150377208032227381:uwpn0z1deyi', customSearchOptions);
-						customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-						var options = new google.search.DrawOptions();
-						options.enableSearchboxOnly("/search");
-						customSearchControl.draw('cse-search-form', options);
-					  }, true);
+					<script>
+					  (function() {
+						var cx = '013258992131926468583:q3vo4hyneyu';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
+					  })();
 					</script>
+					<gcse:search></gcse:search>
 
 				</div>
 			
