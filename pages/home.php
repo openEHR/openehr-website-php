@@ -134,7 +134,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1">openEHR Days Helsinki/Stockholm</span>
 								<p>20/21 Mar 2018</p>
-								<p><a href="http://pages.tieto.com/LP-GL-PHCW-2017-05-openEHR_LP-event.html" target="_blank">Event site</a></p>
+								<p><a href="http://pages.tieto.com/LP-GL-PHCW-2017-05-openEHR_LP-event.html" target="_blank">Presentations</a></p>
 							</div>
 						</div>
 					</div>
