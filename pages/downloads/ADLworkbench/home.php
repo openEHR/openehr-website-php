@@ -22,6 +22,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<h2>News</h2>
 			<ul>
+				<li>New BMM 2.3 meta-model</li>
 				<li>GitHub integration and new smart archetype repository management</li>
 				<li><a href="http://opencimi.org">CIMI</a> archetypes and templates supported</li>
 				<li>Many new visualisation and usability features</li>
@@ -98,10 +99,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.2978</td>
-						<td> 28 Jan 2018</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.2978-windows_64bit.exe">.exe installer</a></td>
+						<td> 2.0.6.3010</td>
+						<td> 17 Apr 2018</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.3010-windows_64bit.exe">.exe installer</a></td>
 						<td>
+							<p>BMM 2.3 meta-model.</p>
 							<p>Bug fixes.</p>
 							<p>Improve enumerated type support.</p>
 							<p>Include latest Task Planning and CIMI BMMs.</p>
