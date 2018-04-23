@@ -25,16 +25,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/trunk/UML" target="_blank">GLOBAL UML</a> </li>
 							<li> <a href="/releases/BASE/latest/docs/global/index.html" target="_blank">CLASS INDEX</a></li>
 						</ul>
-						<p> </p>
-						<p> <em>Infrastructure</em> </p>
-						<ul>
-							<li> <a href="/releases/BASE/latest/foundation_types.html" target="_blank">Foundation Types</a></li>
-							<li> <a href="/releases/BASE/latest/base_types.html" target="_blank">Base Types</a></li>
-							<li> <a href="/releases/BASE/latest/odin.html" target="_blank">ODIN</a></li>
-							<li> <a href="/releases/BASE/latest/bmm.html" target="_blank">BMM</a></li>
-							<li> <a href="/releases/BASE/latest/resource.html" target="_blank">Resource</a></li>
-							<li> <a href="/releases/BASE/latest/expression.html" target="_blank">*Expressions</a></li>
-						</ul>
 					</td>
 
 					<td valign="top">
@@ -101,6 +91,18 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/ITS/latest/docs/ehr.html" target="_blank">*EHR</a> </li>
 							<li> <a href="/releases/ITS/latest/docs/query.html" target="_blank">*Query</a> </li>
 							<li> <a href="/releases/ITS/latest/docs/definitions.html" target="_blank">*Definitions</a> </li>
+						</ul>
+					</td>
+
+					<td valign="top">
+						<p> <em>Infrastructure</em> </p>
+						<ul>
+							<li> <a href="/releases/BASE/latest/foundation_types.html" target="_blank">Foundation Types</a></li>
+							<li> <a href="/releases/BASE/latest/base_types.html" target="_blank">Base Types</a></li>
+							<li> <a href="/releases/BASE/latest/odin.html" target="_blank">ODIN</a></li>
+							<li> <a href="/releases/BASE/latest/bmm.html" target="_blank">BMM</a></li>
+							<li> <a href="/releases/BASE/latest/resource.html" target="_blank">Resource</a></li>
+							<li> <a href="/releases/BASE/latest/expression.html" target="_blank">*Expressions</a></li>
 						</ul>
 					</td>
 
