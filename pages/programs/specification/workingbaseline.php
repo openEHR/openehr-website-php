@@ -119,7 +119,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<tr>
 						<th style="text-align:center"> Component </th>
 						<th style="text-align:center"> Description </th>
-						<th style="text-align:center"> Releases </th>
+						<th style="text-align:center"> Releases (Jira) </th>
+						<th style="text-align:center"> UML source </th>
 					</tr>
 
 					<tr>
@@ -129,6 +130,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<td> <a name="CNF"></a><a href="/releases/CNF/latest/docs/index" target="_blank">CNF</a></td>
 						<td> Conformance specifications.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECCNF?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECCNF?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> </td>
 					</tr>
 
 					<tr>
@@ -138,16 +140,19 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<td> <a name="INTG"></a><a href="/releases/INTG/latest/docs/index" target="_blank">INTG</a></td>
 						<td> Integration specifications, including TDS and TDO.</td>
 						<td> </td>
+						<td> </td>
 					</tr>
 					<tr>
 						<td> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index" target="_blank">CDS</a></td>
 						<td> Clinical Decision Support - specifications for guidelines and related languages, including GDL.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECCDS?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECCDS?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> </td>
 					</tr>
 					<tr>
 						<td> <a name="PROC"></a><a href="/releases/PROC/latest/docs/index" target="_blank">PROC</a></td>
 						<td> Process Model - specifications for Care pathways, Task planning, Care plans and clinical workflow.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECPROC?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECPROC?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> <a href="/releases/PROC/latest/UML/openEHR_UML-PROC.mdzip">openEHR_UML-PROC.mdzip</a></td>
 					</tr>
 
 					<tr>
@@ -157,26 +162,34 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<td> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index" target="_blank">QUERY</a></td>
 						<td> Query language specifications, including AQL.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECQUERY?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECQUERY?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> </td>
 					</tr>
 					<tr>
 						<td> <a name="SM"></a><a href="/releases/SM/latest/docs/index" target="_blank">SM</a></td>
 						<td> Service Model - service and application programming interface (API) specifications.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECSM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECSM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> <a href="/releases/SM/latest/UML/openEHR_UML-SM.mdzip">openEHR_UML-SM.mdzip</a></td>
 					</tr>
 					<tr>
 						<td> <a name="RM"></a><a href="/releases/RM/latest/docs/index" target="_blank">RM</a></td>
 						<td> Reference Model - the core information models of the EHR, Demographics and EHR Extract</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECRM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECRM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> <a href="/releases/RM/latest/UML/openEHR_UML-RM.mdzip">openEHR_UML-RM.mdzip</a></td>
 					</tr>
 					<tr>
 						<td> <a name="AM"></a><a href="/releases/AM/latest/docs/index" target="_blank">AM</a></td>
 						<td> Archetype Model (1.4 and 2) - Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and Identification.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECAM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECAM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> 
+							<a href="/releases/AM/latest/UML/openEHR_UML-AM.mdzip">openEHR_UML-AM.mdzip</a><br>
+							<a href="/releases/AM/latest/UML/openEHR_UML-AM-14.mdzip">openEHR_UML-AM-14.mdzip</a>
+						</td>
 					</tr>
 					<tr>
 						<td> <a name="BASE"></a><a href="/releases/BASE/latest/docs/index" target="_blank">BASE</a></td>
 						<td> Base models and languages underpinning other specifications; includes BMM, ODIN.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECBASE?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECBASE?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> <a href="/releases/BASE/latest/UML/openEHR_UML-Base.mdzip">openEHR_UML-BASE.mdzip</a></td>
 					</tr>
 
 					<tr>
@@ -186,6 +199,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<td> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index" target="_blank">TERM</a></td>
 						<td> openEHR support terminology, used by the RM and other components.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECTERM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECTERM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> </td>
 					</tr>
 				</tbody>
 			</table>
