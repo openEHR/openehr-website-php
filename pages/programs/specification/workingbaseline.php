@@ -172,13 +172,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> <a name="RM"></a><a href="/releases/RM/latest/docs/index" target="_blank">RM</a></td>
-						<td> Reference Model - the core information models of the EHR, Demographics and EHR Extract</td>
+						<td>
+							Reference Model - the core information models of the EHR,<br>
+							Demographics, EHR Extract
+						</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECRM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECRM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
 						<td> <a href="/releases/RM/latest/UML/openEHR_UML-RM.mdzip">openEHR_UML-RM.mdzip</a></td>
 					</tr>
 					<tr>
 						<td> <a name="AM"></a><a href="/releases/AM/latest/docs/index" target="_blank">AM</a></td>
-						<td> Archetype Model (1.4 and 2) - Archetype formalism syntax (ADL), object model (AOM), templates (OPT), and Identification.</td>
+						<td> 
+							Archetype Model (1.4 and 2) - Archetype formalism syntax (ADL),<br>
+							Archetype object model (AOM),<br>
+							Operational Template Model (OPT),<br>
+							Identification.
+						</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECAM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECAM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
 						<td> 
 							<a href="/releases/AM/latest/UML/openEHR_UML-AM.mdzip">openEHR_UML-AM.mdzip</a><br>
