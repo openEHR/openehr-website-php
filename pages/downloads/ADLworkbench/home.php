@@ -99,22 +99,18 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.3010</td>
-						<td> 17 Apr 2018</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.3010-windows_64bit.exe">.exe installer</a></td>
+						<td> 2.0.6.3011</td>
+						<td> 27 Apr 2018</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.3011-windows_64bit.exe">.exe installer</a></td>
 						<td>
-							<p>BMM 2.3 meta-model.</p>
-							<p>Bug fixes.</p>
-							<p>Improve enumerated type support.</p>
+							<p>BMM 3.0 / P_BMM 2.3 meta-model.</p>
+							<p>Include CIMI 0.0.5 BMMs and AOM profile.</p>
 							<p>Include latest Task Planning and CIMI BMMs.</p>
 							<p>Support regular C_PRIMITIVE_OBJECT structures.</p>
 							<p>Add BMM (RM) JSON exporter.</p>
 							<p>Improve editing functionality; add new-archetype-from-subtree function.</p>
 							<p>Fix generic type handling in BMM.</p>
 							<p>Add BMM (RM) output mode to adlc CLI tool.</p>
-							<p>Correct schema loading bug; include Task Planning schemas in delivery.</p>
-							<p>Correct ADL converter regex bug; correct value-set redefinition bug.</p>
-							<p>Correct editor hang bug; correct startup failure when BMM schema broken.</p>
 						</td>
 					</tr>
 					<tr>
