@@ -99,9 +99,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.3011</td>
+						<td> 2.0.6.3015</td>
 						<td> 27 Apr 2018</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.3011-windows_64bit.exe">.exe installer</a></td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.3015-windows_64bit.exe">.exe installer</a></td>
 						<td>
 							<p>BMM 3.0 / P_BMM 2.3 meta-model.</p>
 							<p>Include CIMI 0.0.5 BMMs and AOM profile.</p>
