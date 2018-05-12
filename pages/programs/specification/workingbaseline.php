@@ -101,6 +101,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/BASE/latest/base_types.html" target="_blank">Base Types</a></li>
 							<li> <a href="/releases/BASE/latest/odin.html" target="_blank">ODIN</a></li>
 							<li> <a href="/releases/BASE/latest/bmm.html" target="_blank">BMM</a></li>
+							<li> <a href="/releases/BASE/latest/bmm_persistence.html" target="_blank">P_BMM</a></li>
 							<li> <a href="/releases/BASE/latest/resource.html" target="_blank">Resource</a></li>
 							<li> <a href="/releases/BASE/latest/expression.html" target="_blank">*Expressions</a></li>
 						</ul>
