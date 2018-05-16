@@ -13,12 +13,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			
 			<h1><?php echo "$PageName";?></h1>
 			
-			<h2 id="asia">Asia</h2>
+			<h2 id="china">China</h2>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/huilong_duan.php');?>
 				<p>Appointed Aug 2017.</p>
 			
+			<h2 id="philippines">The Philippines</h2>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/ryan_banez.php');?>
 				<p>Appointed Sep 2017.</p>
+			
+			<h2 id="japan">Japan</h2>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/shinji_kobayashi.php');?>
+				<p>Appointed May 2018.</p>
+			
+			<h2 id="germany">Germany</h2>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/birger_haarbrandt.php');?>
+				<p>Appointed May 2018.</p>
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
