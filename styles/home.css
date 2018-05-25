@@ -262,7 +262,7 @@ p {text-align:left; margin-bottom:0.8em;}
 #Item0 {
 	height:229px;
 	
-	background-image: url(/files/home/helsinki.png);
+	background-image: url(/files/home/2nd-HiGHmed-Symposium-cropped.jpg);
 }
 
 #Item1 {
@@ -284,6 +284,15 @@ p {text-align:left; margin-bottom:0.8em;}
 	margin: 0 3% 0 50%;
 	
 	background: rgba(240, 245, 250, 0.9);
+}
+
+#CarouselTextInvisible {
+	width: 47%;
+	min-width: 185px;
+	height:229px;
+	margin: 0 3% 0 50%;
+	
+	background: rgba(240, 245, 250, 0.0);
 }
 
 .imageContainer {

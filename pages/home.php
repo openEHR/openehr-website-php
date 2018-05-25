@@ -66,75 +66,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		
 				<div class="carousel-inner" role="listbox">
 
-					<!--
 					<div class="item active">
 						<div id = "Item0">
-							<div id = "CarouselText">
-								<span class="HomeSubtitle1"><a href="https://ehealthresearch.no/en/events/openehr2018">openEHR 2nd Arctic Conference</a></span>
-								<p>Tromsø, Norway, Jan 18,19 2018</p>
-								<p>Nasjonal IKT &#8226; Region Östergötland &#8226; 
-								   Veratech &#8226; Polytech U Valencia &#8226;
-								   Inidus &#8226; Hannover Medical School &#8226;
-								   Örebro University &#8226; Clinical Workflow &#8226;
-								   Helse Nord RHF &#8226; University of Seville &#8226;
-								   Cambio Healthcare &#8226; DIPS &#8226; Marand &#8226; 
-								   Fürst Medical Lab &#8226; CaboLabs 
-								</p>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="item active">
-						<div id = "Item0">
-							<div id = "CarouselText">
-								<span class="HomeSubtitle1">openEHR Day 22 Nov 2017 London</span>
-								<p><a href="https://www.youtube.com/openEHR" target="_blank">ALL VIDEOS</a> &#8226;
-								   <a href="https://youtu.be/-rhB8bDfdbU" target="_blank">Intro</a> &#8226;
-								   <a href="https://youtu.be/zFSq66FkULA" target="_blank">Platforms, tools, apps</a></p>
-
-								<p><a href="https://youtu.be/snvm21SZoho" target="_blank">Clinical modelling</a> &#8226;
- 								   <a href="https://youtu.be/Rcv-3aSfPoA" target="_blank">Get Ready - Medtronic</a> &#8226;
-								   <a href="https://youtu.be/A89fEyeRl7k" target="_blank">Leeds Care Record</a> &#8226;
-								   <a href="https://youtu.be/geX5RO9woPI" target="_blank">100,000 Genomes</a> &#8226;
-								   <a href="https://youtu.be/ZWzqti-_qIA" target="_blank">NHS Scotland</a> &#8226;
-								   <a href="https://youtu.be/sKSMEIarcnI" target="_blank">Eurotransplant</a> &#8226;
-								   <a href="https://youtu.be/upv2Ln9mXsQ" target="_blank">OPENeP Plymouth</a> &#8226;
-								   <a href="https://youtu.be/2hbmiLs14vM" target="_blank">Heart transplant</a></p>
-								<p><a href="https://youtu.be/Zv5rwm4TYzU" target="_blank">Task Planning</a> &#8226;
-								   <a href="https://youtu.be/3-O9AXadC50" target="_blank">Panel</a></p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="item active">
-						<div id = "Item0">
-							<div id = "CarouselText">
-								<span class="HomeSubtitle1">RM 1.0.4, EHR APIs, Task Planning underway</span>
-								<p><a href="https://openehr.atlassian.net/issues/?filter=10820" target="_blank">RM Release 1.0.4</a></p>
-								<p><a href="/releases/ITS/latest/ehr_restapi.html" target="_blank">EHR REST API</a></p>
-								<p><a href="/releases/RM/latest/task_planning.html" target="_blank">Task Planning</a></p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="item">
-						<div id = "Item1">
-							<div id = "CarouselText">
-								<span class="HomeSubtitle1">Industry Sprint</span>
-								<p>OpenEHR Archetype publication '<a href="https://openehr.atlassian.net/wiki/pages/viewpage.action?pageId=2949155" target="_blank">Industry Sprint</a>'</p>
-								<p><a href="https://openehr.atlassian.net/wiki/display/healthmod/Proposed+archetypes+for+%27Industry+Sprint%27+Publication" target="_blank">Latest progress</a></p>
-								<p>Health professionals: <a href="https://openehr.atlassian.net/wiki/display/healthmod/Adopt+an+archetype" target="_blank">Adopt an Archetype</a></p>
-							</div>
-						</div>
-					</div>
-					-->
-					<div class="item active">
-						<div id = "Item0">
-							<div id = "CarouselText">
-								<span class="HomeSubtitle1">openEHR Days Helsinki/Stockholm</span>
-								<p>20/21 Mar 2018</p>
-								<p><a href="http://pages.tieto.com/LP-GL-PHCW-2017-05-openEHR_LP-event.html" target="_blank">Presentations</a></p>
+							<div id = "CarouselTextInvisible">
+								<p></p>
+								<p></p>
+								<p><a href="http://www.highmed.org/news/2018/04/17/2nd-highmed-symposium/" target="_blank">Event Site</a></p>
 							</div>
 						</div>
 					</div>
