@@ -67,13 +67,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<div class="carousel-inner" role="listbox">
 
 					<div class="item active">
-						<div id = "Item0">
-							<div id = "CarouselTextInvisible">
-								<p></p>
-								<p></p>
-								<p><a href="http://www.highmed.org/news/2018/04/17/2nd-highmed-symposium/" target="_blank">Event Site</a></p>
-							</div>
-						</div>
+						<p><a href="http://www.highmed.org/news/2018/04/17/2nd-highmed-symposium/" target="_blank" id="Item0">Event Site</a></p>
 					</div>
 					
 					<div class="item">
