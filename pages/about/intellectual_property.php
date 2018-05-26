@@ -11,34 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 			
 			<h1><?php echo "$PageName";?></h1>
-			
-			<h2>Licence Overview</h2>
-			<p>The three areas of work that constitute the main Foundation IP will be licensed in the  following manner:</p>
-			
-			<table class="TableBasic">
-			<tbody>
-			<tr>
-				<th>Asset</th>
-				<th>Description</th>
-				<th>Licence</th>
-			</tr>
-			<tr>
-				<td><em>Specification</em></td>
-				<td>Official specifications of the Foundation</td>
-				<td>Copyright openEHR Foundation, licensed under Creative Commons CC-BY-ND. <a href="/programs/specification/iplicense">Details</a></td>
-			</tr>
-			<tr>
-				<td><em>Clinical Models</em></td>
-				<td>Archetypes, Templates and Terminology subsets developed by the community</td>
-				<td>Creative Commons for organisational and individual use. CC-BY-(SA) The Share Alike (SA) is specifically applied to derived archatypes and templates only. <a href="/programs/clinicalmodels/iplicense">Details</a></td>
-			</tr>
-			<tr>
-				<td><em>Software</em></td>
-				<td>Software with IP rights ascribed to the openEHR Foundation</td>
-				<td>Apache 2 License. <a href="/programs/software/iplicense">Details</a></td>
-			</tr>
-			</tbody>
-			</table>
+			<p>This page describes the principles and formal conditions on the use of openEHR IP, and of openEHR's use of 3rd party IP, including such things as terminology.</p>
 			
 			<h2>Principles</h2>
 			<p>Licensing of openEHR artefacts is based on following principles:</p>
@@ -54,6 +27,45 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li>Have a formal agreement to use any terminology codes, value sets and reference sets where required.</li>
 			</ul>
 			
+			<h2>openEHR IP</h2>
+			<p>The three areas of work that constitute the main Foundation IP are available for use according to the following:</p>
+			
+			<table class="TableBasic">
+			<tbody>
+			<tr>
+				<th>Asset</th>
+				<th>Description</th>
+				<th>Copyright</th>
+				<th>Licence</th>
+			</tr>
+			<tr>
+				<td><em>Specification</em></td>
+				<td>Official specifications of the Foundation</td>
+				<td>openEHR Foundation</td>
+				<td>Creative Commons CC-BY-ND. <a href="/programs/specification/iplicense">Details</a></td>
+			</tr>
+			<tr>
+				<td><em>Clinical Models</em></td>
+				<td>Archetypes, Templates and Terminology subsets developed by the community</td>
+				<td>openEHR Foundation</td>
+				<td>Creative Commons for organisational and individual use. CC-BY-(SA) The Share Alike (SA) is specifically applied to derived archatypes and templates only. <a href="/programs/clinicalmodels/iplicense">Details</a></td>
+			</tr>
+			<tr>
+				<td><em>Software</em></td>
+				<td>Software with IP rights ascribed to the openEHR Foundation</td>
+				<td>openEHR Foundation, or original authoring organisation</td>
+				<td>Generally, Apache 2 License <a href="/programs/software/iplicense">Details</a></td>
+			</tr>
+			</tbody>
+			</table>
+			
+			<h2>3rd Party IP</h2>
+			<p>Third-party IP is <i>referenced</i> in various ways within openEHR artefacts, primarily archetypes and templates. Such references do not generally constitute <i>use</i> of the 3rd-party IP as envisaged by its publishers, however <i>use</i> of the relevant openEHR artefacts (for example, in production health information systems) may well entail <i>use</i> of the referenced 3rd party IP, e.g. terminology codes. The developers of such deployments must therefore accept responsibility for ensuring legal use of relevant third party IP.</p>
+			<p>The openEHR Foundation has formal bilateral or unilateral agreements to reference the following types of IP in its published artefacts:</p>
+			<ul>
+				<li><a href="snomed_ct_ip">SNOMED CT terminology</a></li>
+			</ul>
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
