@@ -11,11 +11,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 			
 			<h1><?php echo "$PageName";?></h1>
-			<p>This page provides the formal agreement between SNOMED International and openEHR Foundation regarding use of SNOMED CT IP by openEHR, as well as an informal guide to how and where SNOMED CT is used in openEHR artefacts.</p>
+			<p>This page describes the formal agreement between SNOMED International and openEHR Foundation regarding use of SNOMED CT IP by openEHR, as well as an informal guide to how and where SNOMED CT is used in openEHR artefacts.</p>
 			
 			<h2>RE: LICENSED USE OF SNOMED CT IN openEHR ARTEFACTS</h2>
 			<p>The folowing text reproduces the substantive elements of the letter of agreement between SNOMED International and openEHR Foundation, from 20 April 2017. (<a href="/files/ip_licensing/IHTSDO-openEHR-licensing-letter-20170420 v1.0.pdf">Original letter (PDF)</a>).</p>
-			<p>20 April 2017</p>
 			<p>We understand that you have a SNOMED CT Affiliate Licence issued by UK Terminology Centre for use of the SNOMED CT International Release and UK extension to undertake development of openEHR artefacts and usage in the UK. This licence is breached as soon as products are used outside the UK without a licence and the UK TC would normally expect to be made aware of usage outside the UK, particularly in IHTSDO non-member countries.</p>
 			<p>We are aware that openEHR does not have any information about or management of those who consequently use/implement the products outside the UK at this time. SNOMED International therefore asks that you undertake the following:</p>
 			<ol>
