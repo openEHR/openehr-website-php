@@ -29,6 +29,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/birger_haarbrandt.php');?>
 				<p>Appointed May 2018.</p>
 			
+			<h2 id="south_america">South America</h2>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/pablo_pazos.php');?>
+				<p>Appointed May 2018.</p>
+			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
