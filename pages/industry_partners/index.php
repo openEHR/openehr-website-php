@@ -55,6 +55,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<a href="/industry_partners/inidus">Learn more</a></td>
 			</tr>
 
+			<!-- IRYO -->
+			<tr>
+				<td><a href="/industry_partners/iryo"><img src="/files/industry_partners/iryo_logo.png"></a></td>
+				<td><h2>IRYO</h2>
+				<p>Iryo is a Slovenia-based IT company focused on improving the user experience of all stakeholders in the healthcare system. The Iryo system is using openEHR for increasing interoperability in healthcare, zero-knowledge data storage for data security and patient enforceable privacy. The company is building a global open-sourced permisionless protocol for healthcare solutions.</p>
+				<a href="/industry_partners/iryo">Learn more</a></td>
+			</tr>
+
 			<!-- Infinnity -->
 			<tr>
 				<td><a href="/industry_partners/infinnity_solutions"><img src="/files/industry_partners/infinnity_logo.png"></a></td>

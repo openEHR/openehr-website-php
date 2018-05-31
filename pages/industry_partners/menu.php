@@ -6,6 +6,7 @@
 				<li><a href="/industry_partners/dips" <?php if($pageOn == 'dips.php'){?> class="active"<?php }?>>DIPS</a></li>
 				<li><a href="/industry_partners/infinnity_solutions" <?php if($pageOn == 'infinnity_solutions.php'){?> class="active"<?php }?>>Infinnity Solutions</a></li>
 				<li><a href="/industry_partners/inidus" <?php if($pageOn == 'inidus.php'){?> class="active"<?php }?>>Inidus</a></li>
+				<li><a href="/industry_partners/iryo" <?php if($pageOn == 'iryo.php'){?> class="active"<?php }?>>IRYO</a></li>
 				<li><a href="/industry_partners/marand" <?php if($pageOn == 'marand.php'){?> class="active"<?php }?>>Marand</a></li>
 
 				<li><a href="/industry_partners/ocean_health_systems" <?php if($pageOn == 'ocean_informatics.php'){?> class="active"<?php }?>>Ocean Health Systems</a></li>
