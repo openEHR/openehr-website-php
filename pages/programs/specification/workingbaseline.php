@@ -250,56 +250,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</table>
 			
 
-			<!-- ----------------------------------------- ITS ------------------------------------------------- -->
-			<h2><a name="ITS"></a>Implementation Technology Specification (ITS)</h2>
-			<p>
-				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="_blank">SPECITS Jira project</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel" target="_blank">Roadmap</a> | 
-				<a href="https://openehr.atlassian.net/browse/SPECITS/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel" target="_blank">Issues</a>
-			</p>
-
-			<table class="TableBasic">
-			<tbody>
-			<tr>
-				<th> Specification </th>
-				<th> Artefact type </th>
-				<th> Description </th>
-				<th> Status </th>
-			</tr>
-			<tr>
-				<td> REST APIs </td>
-				<td> <a href="https://openehr.github.io/specifications-ITS/" target="_blank">Apiary API definitions</a> </td>
-				<td> REST API for EHR access, querying, definitions (including archetypes, templates, AQL queries) and CDS. Rendered from <a href="https://github.com/openEHR/specifications-ITS/tree/master/REST_API">Apiary (apib) files</a>.</td>
-				<td> development</td>
-			</tr>
-			<tr>
-				<td> Reference Model </td>
-				<td> <a href="/releases/trunk/its/XML-schema" target="_blank">XSDs</a> </td>
-				<td> XML schema 1.0 expression of the Reference Model.</td>
-				<td> stable</td>
-			</tr>
-			<tr>
-				<td> Archetype Model 1.4 </td>
-				<td> <a href="/releases/trunk/its/XML-schema" target="_blank">XSDs</a> </td>
-				<td> XML schema 1.0 expression of ADL/AOM 1.4.</td>
-				<td> stable</td>
-			</tr>
-			<tr>
-				<td> Templating (OET based) </td>
-				<td> <a href="https://github.com/openEHR/java-libs/tree/master/oet-parser/src/main/xsd" target="_blank">OET XSD</a> | <a href="https://github.com/openEHR/java-libs/tree/master/oet-parser" target="_blank">Java OET parser</a> </td>
-				<td> Simple XML format for templates.</td>
-				<td> trial </td>
-			</tr>
-			<tr>
-				<td> Archetype Model 2.x </td>
-				<td> <a href="https://github.com/openEHR/specifications/tree/master/ITS/AOM2/XML-schema" target="_blank">XSDs</a> </td>
-				<td> XML schema 1.1 expression of ADL/AOM 2.</td>
-				<td> development</td>
-			</tr>
-			</tbody>
-			</table>
-
-		
 <!-- ------------------------------------------- Content ends here ------------------------------------------------- -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
