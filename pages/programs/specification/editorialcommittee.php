@@ -22,19 +22,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li><a href="#diego_bosca_tomas">Diego Boscá Tomás</a></li>
 				<li><a href="#rong_chen">Rong Chen</a></li>
 				<li><a href="#christian_chevalley">Christian Chevalley</a></li>
-				<li><a href="#heath_frankel">Heath Frankel</a></li>
+				<li><a href="#sebastian_garde">Sebastian Garde</a></li>
 				<li><a href="#sebastian_iancu">Sebastian Iancu</a></li>
 				<li><a href="#shinji_kobayashi">Shinji Kobayashi</a></li>
 				<li><a href="#bostjan_lah">Bostjan Lah</a></li>
 				<li><a href="#ian_mcnicoll">Ian McNicoll</a></li>
-				<li><a href="#pablo_pazos">Pablo Pazos Gutierrez</a></li>
 				<li><a href="#bjorn_naess">Bjørn Næss</a></li>
+				<li><a href="#pablo_pazos">Pablo Pazos Gutierrez</a></li>
 				<li><a href="#erik_sundvall">Erik Sundvall</a></li>
-			</ul>
-			
-			<h2>Past Members</h2>
-			<ul>
-				<li><a href="#koray_atalag">Koray Atalag</a></li>
 			</ul>
 			
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
@@ -45,8 +40,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Member since 1 Feb 2015. <em>Joint Program Lead</em></p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/christian_chevalley.php');?>
 				<p>Member since 1 Oct 2016.</p><br/>
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/heath_frankel.php');?>
-				<p>Member since 1 Feb 2015.</p><br/>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sebastian_garde.php');?>
+				<p>Member since 11 Jul 2018.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sebastian_iancu.php');?>
 				<p>Member since 1 Feb 2015.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/shinji_kobayashi.php');?>
@@ -55,9 +50,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Member since 1 Feb 2015.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/ian_mcnicoll.php');?>
 				<p>Member since 1 Feb 2015.</p><br/>
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/pablo_pazos.php');?>
-				<p>Member since 1 Feb 2015.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/bjorn_naess.php');?>
+				<p>Member since 1 Feb 2015.</p><br/>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/pablo_pazos.php');?>
 				<p>Member since 1 Feb 2015.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/erik_sundvall.php');?>
 				<p>Member since 1 Feb 2015.</p><br/>
@@ -65,11 +60,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<h2>Past Members</h2>
 			<ul>
+				<li><a href="#heath_frankel">Heath Frankel</a></li>
 				<li><a href="#koray_atalag">Koray Atalag</a></li>
 			</ul>
 			
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/heath_frankel.php');?>
+				<p>Member 1 Feb 2015 - Jul 2018.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/koray_atalag.php');?>
-				<p>Member 1 Feb 2015 - Dev 2016.</p><br/>
+				<p>Member 1 Feb 2015 - Dec 2016.</p><br/>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
