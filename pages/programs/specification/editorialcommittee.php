@@ -18,6 +18,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 			<h2>Members</h2>
 			<ul>
+				<li><a href="#seref_arikan">Seref Arikan</a></li>
 				<li><a href="#thomas_beale">Thomas Beale</a></li>
 				<li><a href="#diego_bosca_tomas">Diego Boscá Tomás</a></li>
 				<li><a href="#rong_chen">Rong Chen</a></li>
@@ -32,6 +33,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<li><a href="#erik_sundvall">Erik Sundvall</a></li>
 			</ul>
 			
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/seref_arikan.php');?>
+				<p>Member since 20 Jul 2018.</p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
 				<p>Member since 1 Feb 2015. <em>Joint Program Lead</em></p><br/>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/diego_bosca.php');?>
