@@ -13,8 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Meeting Reports</h2>
-			Meeting proceedings are available <a href="https://openehr.atlassian.net/wiki/display/spec/Specifications+Editorial+Committee+%28SEC%29+Work+area" target="_blank">here</a>.
-			A community-wide <a href="/news_events/meetings">roadmap meeting</a> was held in 2014.
+			<p>Meeting proceedings are available <a href="https://openehr.atlassian.net/wiki/display/spec/Specifications+Editorial+Committee+%28SEC%29+Work+area" target="_blank">here</a>.</p>
 
 			<h2>Members</h2>
 			<ul>
