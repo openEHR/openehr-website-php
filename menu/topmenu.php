@@ -6,7 +6,7 @@
 					<li><a href="/what_is_openehr">What is openEHR?</a></li>
 					<li><a href="/who_is_using_openehr">Who is using openEHR?</a></li>
 					<li><a href="/industry_partners">openEHR Industry Partners</a></li>
-					<li><a href="/organisational_members">openEHR Organisational Members</a></li>
+					<li><a href="/organisational_partners">openEHR Organisational Partners</a></li>
 				</ul>
 			</li>
 			
