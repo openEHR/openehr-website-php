@@ -68,14 +68,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<div class="carousel-inner" role="listbox">
 
 					<div class="item active">
-						<p><a href="http://www.highmed.org/news/2018/04/17/2nd-highmed-symposium/" target="_blank" id="Item0">Event Site</a></p>
+						<p><a href="https://cds-apps.com/" target="_blank" id="Item0">CDS Site</a></p>
 					</div>
 					
-					<div class="item">
-						<p><a href="https://www.eventbrite.com/e/openehr-clinical-modelling-workshop-tickets-45892266003" target="_blank" id="Item1">Event Site</a></p>
-					</div>
-					
-			<!-- Task Planning
+			<!-- Task Planning -->
 					<div class="item">
 						<div id = "Item1">
 							<div id = "CarouselText">
@@ -86,7 +82,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 							</div>
 						</div>
 					</div>
-			-->
 					
 					<div class="item">
 						<div id = "Item2">
