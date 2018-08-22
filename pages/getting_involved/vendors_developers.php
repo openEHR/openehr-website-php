@@ -31,7 +31,24 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<p>Using an implementation of the openEHR platform as the back-end of a large system provides many advantages. Rather than having to constantly maintain a proprietary database structure, using the openEHR back-end will make the system applications much easier to manage and evolve. Integration with other systems is likely to be easier via the standard formats supported by the platform, including CEN EN13606, HL7 CDA, HL7v2.x and others.</p>
 			
 			
-			<h2>How you can get involved</h2>
+			<h2>How To Get Involved?</h2>
+			<h3>How Can I start Writing Code?</h3>
+			<p>It depends on what you want to do, there are various places to start working. If you want to work on a <strong>platform implementation</strong>, i.e. EHR or other back-end component:</p>
+				<ul>
+					<li>You could work on one of the <strong>open source</strong> implementations. See <a href="/downloads/ehrcomponents">here</a> for the websites and contacts.</li>
+					<li>You may be able to work with an existing <strong>commercial vendor</strong>. See <a href="/industry_partners">here</a> for a list of vendors - they are usually hiring.</li>
+					<li>There may be a <strong>project</strong> in your region or city that uses any of the above implementations that you could get involved with. See <a href="/who_is_using_openehr/healthcare_providers_and_authorities">here</a> for current projects.</li>
+				</ul>
+			<p>If you are interested in working on <strong>tools</strong>here are some possibilities:</p>
+				<ul>
+					<li>The open source <strong>Archie</strong> modelling platform based on BMM, ADL2, AOM2 <a href="https://github.com/openEHR/archie">Github project</a>.</li>
+				</ul>
+			<p>If you are interested in working on <strong>Clinical Decision Support</strong>there are some specific projects happening:</p>
+				<ul>
+					<li>Cambio has a programme called <strong>cds-apps</strong> for building CDS applications and actual guidelines for use in their CDS platform, based on the <a href="/releases/CDS/latest/docs/GDL/GDL.html">openEHR GDL specification</a>.</li>
+				</ul>
+
+			<h3>How Can We Join openEHR?</h3>
 			<p>You can become openEHR Partner through the Organisational membership as Industry Partner, or members of your team can become part of openEHR as the Individual members. Find out more about <a href="/about/membership#industrypartner">membership</a>.</p>
 			
 			
