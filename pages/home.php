@@ -71,7 +71,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						<p><a href="https://cds-apps.com/" target="_blank" id="Item0">CDS Site</a></p>
 					</div>
 					
-			<!-- Task Planning -->
+					<div class="item">
+						<div id = "Item1">
+							<p><a href="https://nasjonalikt.no/oslo-apen-plattform-dag-13-september" target="_blank" id="Item1">Event site</a></p>
+						</div>
+					</div>
+					
+			<!-- 
 					<div class="item">
 						<div id = "Item1">
 							<div id = "CarouselText">
@@ -82,6 +88,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 							</div>
 						</div>
 					</div>
+			 -->
 					
 					<div class="item">
 						<div id = "Item2">
