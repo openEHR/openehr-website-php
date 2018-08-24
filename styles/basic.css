@@ -113,6 +113,19 @@ html,body {
 	
 }
 
+.cse .gsc-search-button-v2, .gsc-search-button-v2 {
+	padding: 0;
+	width: 30px;
+	border: none;
+	height:28px;
+	
+	background: #023760;
+	color: #fff;
+	
+	content: "Search";
+	
+}
+
 #cse-search-form {
 	width: 100%;
 }
