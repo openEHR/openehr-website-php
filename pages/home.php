@@ -70,7 +70,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<div class="item active">
 						<div id="Item0">
 							<div id = "CarouselText">
-								<p><a href="https://cds-apps.com/" target="_blank" >CDS Site</a></p>
+								<span class="HomeSubtitle1">CDS Summer app challenge 2018</span>
+								<p>Find out on <a href="https://cds-apps.com/" target="_blank" >CDS Site</a>!</p>
 							</div>
 						</div>
 					</div>
@@ -78,7 +79,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<div class="item">
 						<div id = "Item1">
 							<div id = "CarouselText">
-								<p><a href="https://nasjonalikt.no/oslo-apen-plattform-dag-13-september" target="_blank" id="Item1">Event site</a></p>
+								<p><a href="https://nasjonalikt.no/oslo-apen-plattform-dag-13-september" target="_blank">Event site</a></p>
 							</div>
 						</div>
 					</div>
