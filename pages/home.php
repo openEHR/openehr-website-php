@@ -66,14 +66,24 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				</ol>
 		
 				<div class="carousel-inner" role="listbox">
-
+						
 					<div class="item active">
-						<p><a href="https://cds-apps.com/" target="_blank" id="Item0">CDS Site</a></p>
+						<div id = "Item0">
+							<div id = "CarouselText">
+								
+								<span class="HomeSubtitle1">CDS Summer app challenge 2018</span>
+								<p>Find out on <a href="https://cds-apps.com/" target="_blank" >CDS site</a>!</p>
+							</div>
+						</div>
 					</div>
 					
 					<div class="item">
 						<div id = "Item1">
-							<p><a href="https://nasjonalikt.no/oslo-apen-plattform-dag-13-september" target="_blank" id="Item1">Event site</a></p>
+							<div id = "CarouselText">
+								
+								<span class="HomeSubtitle1">Oslo Apen Platform</span>
+								<p>Check out the <a href="https://nasjonalikt.no/oslo-apen-plattform-dag-13-september" target="_blank">event site</a>!</p>
+							</div>
 						</div>
 					</div>
 					
