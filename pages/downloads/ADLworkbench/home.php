@@ -99,9 +99,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					</tr>
 					<tr>
 						<td> Windows (64-bit)</td>
-						<td> 2.0.6.3016</td>
-						<td> 16 May 2018</td>
-						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.3016-windows_64bit.exe">.exe installer</a></td>
+						<td> 2.0.6.3022</td>
+						<td> 19 Sep 2018</td>
+						<td> <a href="/download_files/adl_workbench/adl_workbench_2.0.6.3022-windows_64bit.exe">.exe installer</a></td>
 						<td>
 							<p>Correct RM schemas dialog size problem.</p>
 							<p>BMM 3.0 / P_BMM 2.3 meta-model.</p>
