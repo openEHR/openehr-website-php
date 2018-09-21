@@ -11,6 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		
 			<h1><?php echo "$PageName";?></h1>
+
 			<h2>openEHR Brazil</h2>
 			<p><a href="http://openehr.org.br/">openEHR Brazil website</a></p>
 
@@ -21,6 +22,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_english.php');
 				<li><a href="/pages/news_events/local_affiliate_news/2016_11_25_openehr_china">Using and Promoting openEHR in China in 2016.</a>.</li>
 			</ul>
 					
+			<h2>openEHR Japan</h2>
+			<p><a href="http://openehr.jp/">openEHR Japan website</a></p>
+			<p>News</p>
+			<ul>
+				<li><a href="https://www.slideshare.net/openEHR-Japan/openehr-activities-20172018">Japan openEHR activities 2017-2018.</a>.</li>
+			</ul>
+
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>	
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_footer.php');?>
