@@ -82,7 +82,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 							<div id = "CarouselText">
 								
 								<span class="HomeSubtitle1">Oslo Apen Platform</span>
-								<p>Check out the <a href="https://nasjonalikt.no/oslo-apen-plattform-dag-13-september" target="_blank">event site</a>!</p>
+								<p>Check out the <a href="https://www.youtube.com/playlist?list=PLnMJHuL5FeHYAEdH-eJT_tX2Ag9Fwc5So" target="_blank">Presentation videos (YouTube)</a>!</p>
 							</div>
 						</div>
 					</div>
