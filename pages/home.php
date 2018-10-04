@@ -123,24 +123,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		
 		<div id="BottomLeftFrame">
 			<div style="position: relative; word-wrap:break-word;">
+				<a class="twitter-timeline" data-height="550" href="https://twitter.com/openEHR?ref_src=twsrc%5Etfw">Tweets by openEHR</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-				<a href="https://twitter.com/search?q=%40openehr+OR+%23openEHR+-RT"><span class="HomeSubtitle1">openehr / #openEHR</span></a>
-				<a class="twitter-timeline"  href="https://twitter.com/search?q=%40openehr%20OR%20%23openEHR%20-RT" 
-					data-widget-id="910876752528003072"
-					height="500" 
-					lang="EN"
-					data-chrome="noheader"
-					data-chrome="nofooter">@openehr / #openEHR</a>
-				<script>
-					!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
-						if(!d.getElementById(id)) {
-							js=d.createElement(s);
-							js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-							fjs.parentNode.insertBefore(js,fjs);
-						}
-					}
-					(document,"script","twitter-wjs");
-				</script>
 			</div>
 		</div>
 	
