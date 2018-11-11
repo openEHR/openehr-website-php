@@ -99,11 +99,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<ul>
 							<li> <a href="/releases/BASE/latest/foundation_types.html" target="_blank">Foundation Types</a></li>
 							<li> <a href="/releases/BASE/latest/base_types.html" target="_blank">Base Types</a></li>
-							<li> <a href="/releases/BASE/latest/odin.html" target="_blank">ODIN</a></li>
-							<li> <a href="/releases/BASE/latest/bmm.html" target="_blank">BMM</a></li>
-							<li> <a href="/releases/BASE/latest/bmm_persistence.html" target="_blank">P_BMM</a></li>
 							<li> <a href="/releases/BASE/latest/resource.html" target="_blank">Resource</a></li>
-							<li> <a href="/releases/BASE/latest/expression.html" target="_blank">*Expressions</a></li>
+						</ul>
+						<p> </p>
+
+						<p> <em>languages</em> </p>
+						<ul>
+							<li> <a href="/releases/LANG/latest/odin.html" target="_blank">ODIN</a></li>
+							<li> <a href="/releases/LANG/latest/bmm.html" target="_blank">BMM</a></li>
+							<li> <a href="/releases/LANG/latest/bmm_persistence.html" target="_blank">P_BMM</a></li>
+							<li> <a href="/releases/LANG/latest/expression.html" target="_blank">*Expression</a></li>
 						</ul>
 					</td>
 
@@ -224,6 +229,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<a href="/releases/AM/latest/UML/openEHR_UML-AM.mdzip">openEHR_UML-AM.mdzip</a><br>
 							<a href="/releases/AM/latest/UML/openEHR_UML-AM-14.mdzip">openEHR_UML-AM-14.mdzip</a>
 						</td>
+					</tr>
+
+					<!-------------- LANG --------------->
+					<tr>
+						<td> <a name="LANG"></a><a href="/releases/LANG/latest/docs/index" target="_blank">LANG</a></td>
+						<td> Base models and languages underpinning other specifications; includes BMM, ODIN.</td>
+						<td> <a href="https://openehr.atlassian.net/projects/SPECLANG?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECLANG?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
+						<td> <a href="/releases/LANG/latest/UML/openEHR_UML-LANG.mdzip">openEHR_UML-LANG.mdzip</a></td>
 					</tr>
 
 					<!-------------- BASE --------------->
