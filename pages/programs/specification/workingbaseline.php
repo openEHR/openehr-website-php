@@ -103,7 +103,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						</ul>
 						<p> </p>
 
-						<p> <em>languages</em> </p>
+						<p> <em>Languages</em> </p>
 						<ul>
 							<li> <a href="/releases/LANG/latest/odin.html" target="_blank">ODIN</a></li>
 							<li> <a href="/releases/LANG/latest/bmm.html" target="_blank">BMM</a></li>
@@ -234,7 +234,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<!-------------- LANG --------------->
 					<tr>
 						<td> <a name="LANG"></a><a href="/releases/LANG/latest/docs/index" target="_blank">LANG</a></td>
-						<td> Base models and languages underpinning other specifications; includes BMM, ODIN.</td>
+						<td> Generic languages used in other specifications; includes BMM, ODIN.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECLANG?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECLANG?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
 						<td> <a href="/releases/LANG/latest/UML/openEHR_UML-LANG.mdzip">openEHR_UML-LANG.mdzip</a></td>
 					</tr>
@@ -242,7 +242,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 					<!-------------- BASE --------------->
 					<tr>
 						<td> <a name="BASE"></a><a href="/releases/BASE/latest/docs/index" target="_blank">BASE</a></td>
-						<td> Base models and languages underpinning other specifications; includes BMM, ODIN.</td>
+						<td> Base models underpinning openEHR, including Foundation and Base Types.</td>
 						<td> <a href="https://openehr.atlassian.net/projects/SPECBASE?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased" target="_blank">Roadmap</a>|<a href="https://openehr.atlassian.net/projects/SPECBASE?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released" target="_blank">Previous</a></td>
 						<td> <a href="/releases/BASE/latest/UML/openEHR_UML-Base.mdzip">openEHR_UML-BASE.mdzip</a></td>
 					</tr>
