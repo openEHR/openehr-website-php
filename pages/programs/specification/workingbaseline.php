@@ -23,7 +23,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<li> <a href="/releases/BASE/latest/architecture_overview.html" target="_blank">openEHR Architecture</a> </li>
 							<li> <a href="/releases/AM/latest/Overview.html" target="_blank">Archetype Technology</a> </li>
 							<li> <a href="/releases/trunk/UML" target="_blank">GLOBAL UML</a> </li>
-							<li> <a href="/releases/BASE/latest/docs/global/index.html" target="_blank">CLASS INDEX</a></li>
+							<li> <a href="/releases/AA_GLOBAL/latest/docs/global/index.html" target="_blank">CLASS INDEX</a></li>
 						</ul>
 					</td>
 
