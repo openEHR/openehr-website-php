@@ -39,9 +39,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- CNF --------------->
 					<tr>
-						<td> <b><a name="CNF"></a></b><a href="/releases/CNF/latest/docs/index" target="_blank">CNF</a><br>
+						<td> <a name="CNF"></a><a href="/releases/CNF/latest/docs/index" target="_blank"><b>CNF</b> (Conformance)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11108" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECCNF?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td colspan="5" style="text-align:center"> Conformance specifications<br>
+						<td colspan="5" style="text-align:center">
 							<table width="100%">
 								<tbody>
 									<tr>
@@ -55,11 +55,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- ITS --------------->
 					<tr>
-						<td> <b><a name="ITS"></a></b><a href="/releases/ITS/latest/docs/index" target="_blank">ITS</a><br>
+						<td> <a name="ITS"></a><a href="/releases/ITS/latest/docs/index" target="_blank"><b>ITS</b> (Implementation Technologies)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11118" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECITS?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a>
 						</td>
-						<td colspan="5" style="text-align:center"> Implementation Technology Specifications.<br>
-							<table> width="100%"
+						<td colspan="5" style="text-align:center">
+							<table width="100%">
 								<tbody>
 									<tr>
 										<td style="text-align:center"><a href="/releases/ITS-REST/latest/docs/ehr.html" target="_blank">EHR REST API</a></td>
@@ -79,9 +79,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- SM --------------->
 					<tr>
-						<td> <b><a name="SM"></a></b><a href="/releases/SM/latest/docs/index" target="_blank">SM</a><br>
+						<td> <a name="SM"></a><a href="/releases/SM/latest/docs/index" target="_blank"><b>SM</b> (Service Model)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11104" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECSM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td colspan="5" style="text-align:center"> Service Model <br>
+						<td colspan="5" style="text-align:center">
 							<table width="100%">
 								<tbody>
 									<tr>
@@ -94,9 +94,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- CDS --------------->
 					<tr>
-						<td> <b><a name="CDS"></a></b><a href="/releases/CDS/latest/docs/index" target="_blank">CDS</a><br>
+						<td> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index" target="_blank"><b>CDS</b> (Clinical Decision Support)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11107" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECCDS?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td style="text-align:center"> Clinical Decision Support <br>
+						<td style="text-align:center">
 							<table width="100%">
 								<tbody>
 									<tr>
@@ -107,9 +107,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						</td>
 
 					<!-------------- PROC --------------->
-						<td> <b><a name="PROC"></a></b><a href="/releases/PROC/latest/docs/index" target="_blank">PROC</a><br>
+						<td> <a name="PROC"></a><a href="/releases/PROC/latest/docs/index" target="_blank"><b>PROC</b> (Process Model)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11106" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECPROC?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td colspan="3" style="text-align:center"> Process Model <br>
+						<td colspan="3" style="text-align:center">
 							<table width="100%">
 								<tbody>
 									<tr>
@@ -122,9 +122,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- QUERY --------------->
 					<tr>
-						<td> <b><a name="QUERY"></a></b><a href="/releases/QUERY/latest/docs/index" target="_blank">QUERY</a><br>
+						<td> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index" target="_blank"><b>QUERY</b> (Query language)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11109" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECQUERY?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td colspan="5" style="text-align:center"> Query language specifications.<br>
+						<td colspan="5" style="text-align:center">
 							<table width="100%">
 								<tbody>
 									<tr>
@@ -137,9 +137,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- RM --------------->
 					<tr>
-						<td> <b><a name="RM"></a></b><a href="/releases/RM/latest/docs/index" target="_blank">RM</a><br>
+						<td> <a name="RM"></a><a href="/releases/RM/latest/docs/index" target="_blank"><b>RM</b> (Reference Model)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11103" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECRM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td style="text-align:center"> Reference Model <br>
+						<td style="text-align:center">
 							<table>
 								<tbody>
 									<tr>
@@ -155,17 +155,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 										<td  colspan="2" style="text-align:center"><a href="/releases/RM/latest/data_structures.html" target="_blank">Data Structures</a></td>
 										<td style="text-align:center"><a href="/releases/RM/latest/data_types.html" target="_blank">Data Types</a></td>
 									</tr>
-									<tr colspan="3">
-										<td style="text-align:center"><a href="/releases/RM/latest/support.html" target="_blank">Support</a></td>
+									<tr>
+										<td colspan="3" style="text-align:center"><a href="/releases/RM/latest/support.html" target="_blank">Support</a></td>
 									</tr>
 								</tbody>
 							</table>
 						</td>
 
 					<!-------------- AM --------------->
-						<td> <b><a name="AM"></a></b><a href="/releases/AM/latest/docs/index" target="_blank">AM</a><br>
+						<td> <a name="AM"></a><a href="/releases/AM/latest/docs/index" target="_blank"><b>AM</b> (Archetype Model)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11101" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECAM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td style="text-align:center"> Archetype Model <br>
+						<td style="text-align:center">
 							<table>
 								<tbody>
 									<tr>
@@ -188,9 +188,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						</td>
 
 					<!-------------- LANG --------------->
-						<td> <b><a name="LANG"></a></b><a href="/releases/LANG/latest/docs/index" target="_blank">LANG</a><br>
+						<td> <a name="LANG"></a><a href="/releases/LANG/latest/docs/index" target="_blank"><b>LANG</b> (Generic languages)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11116" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECLANG?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td style="text-align:center"> Generic languages<br>
+						<td style="text-align:center">
 							<table>
 								<tbody>
 									<tr>
@@ -212,9 +212,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- BASE --------------->
 					<tr>
-						<td> <b><a name="BASE"></a></b><a href="/releases/BASE/latest/docs/index" target="_blank">BASE</a><br>
+						<td> <a name="BASE"></a><a href="/releases/BASE/latest/docs/index" target="_blank"><b>BASE</b> (Base models)</a><br>
 							<a href="https://openehr.atlassian.net/issues/?filter=11105" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECBASE?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td colspan="5" style="text-align:center"> Base models <br>
+						<td colspan="5" style="text-align:center">
 							<table width="100%">
 								<tbody>
 									<tr>
@@ -231,9 +231,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- TERM --------------->
 					<tr>
-						<td> <b><a name="TERM"></a></b><a href="/releases/TERM/latest/docs/index" target="_blank">TERM</a><br>
+						<td> <a name="TERM"></a><a href="/releases/TERM/latest/docs/index" target="_blank"><b>TERM</b> (Terminology)</a><br>
 							<a href="https://openehr.atlassian.net/issues/?filter=11110" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECTERM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
-						<td colspan="5" style="text-align:center"> Terminology<br>
+						<td colspan="5" style="text-align:center">
 							<table width="100%">
 								<tbody>
 									<tr>
