@@ -27,7 +27,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			</table>
 
 			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
-			<table class="TableBasic" rules="rows">
+			<table class="TableBasic">
 				<tbody>
 					<tr>
 						<th colspan="6" style="text-align:center"> Component Specifications Index </th>
@@ -75,7 +75,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- SM --------------->
 					<tr>
-						<td> <a name="SM"></a><a href="/releases/SM/latest/docs/index" target="_blank"><b>SM</b><br>(Service<br>Model)</a><br>
+						<td> <a name="SM"></a><a href="/releases/SM/latest/docs/index" target="_blank"><b>SM</b><br>(Service Model)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11104" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECSM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
 						<td colspan="5" style="text-align:center">
 							<table width="100%">
@@ -90,7 +90,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- CDS --------------->
 					<tr>
-						<td> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index" target="_blank"><b>CDS</b><br>(Clinical<br>Decision<br>Support)</a><br>
+						<td> <a name="CDS"></a><a href="/releases/CDS/latest/docs/index" target="_blank"><b>CDS</b><br>(Clinical Decision<br>Support)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11107" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECCDS?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
 						<td style="text-align:center">
 							<table width="100%">
@@ -118,7 +118,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- QUERY --------------->
 					<tr>
-						<td> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index" target="_blank"><b>QUERY</b><br>(Query<br>language)</a><br>
+						<td> <a name="QUERY"></a><a href="/releases/QUERY/latest/docs/index" target="_blank"><b>QUERY</b><br>(Query language)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11109" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECQUERY?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
 						<td colspan="5" style="text-align:center">
 							<table width="100%">
