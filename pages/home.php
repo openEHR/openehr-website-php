@@ -14,7 +14,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<a href="https://openehr.atlassian.net/wiki/questions" class="button1 col1" target="_blank">Questions and Answers</a>
 			<a href="/programs/specification/workingbaseline" class="button3 col2">Specifications</a>
 			<a href="/releases/trunk/UML/" class="button4 col2" target="_blank">UML</a>
-			<a href="/releases/trunk/its/XML-schema/" class="button4 col2" target="_blank">XSD</a>
+			<a href="https://openehrspecs.slack.com/" class="button4 col2" target="_blank">Slack</a>
 			<a href="/programs/clinicalmodels" class="button3 col3">Clinical Models</a>
 			<a href="/ckm/" class="button4 col3" target="_blank">CKM</a>
 			<a href="https://github.com/openEHR/CKM-mirror" class="button4 col3" target="_blank">Git</a>
