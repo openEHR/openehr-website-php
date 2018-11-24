@@ -26,11 +26,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				</tbody>
 			</table>
 
-			<!-- ------------------------------ Specification index pages ------------------------------------------- -->
+			<!=============== Implementation Specs ===============>
 			<table class="TableBasic">
 				<tbody>
 					<tr>
-						<th colspan="6" style="text-align:center"> Component Specifications Index </th>
+						<th colspan="6" style="text-align:center"> Implementation Specifications </th>
 					</tr>
 
 					<!-------------- CNF --------------->
@@ -71,6 +71,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							</table>
 						</td>
 						
+					</tr>
+				</tbody>
+			</table>
+
+			<!=============== Formal Specs ===============>
+			<table class="TableBasic">
+				<tbody>
+					<tr>
+						<th colspan="6" style="text-align:center"> Formal Specifications</th>
 					</tr>
 
 					<!-------------- SM --------------->
