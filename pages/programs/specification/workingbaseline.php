@@ -58,10 +58,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td colspan="2" style="text-align:center"><b>REST APIs</b><br>
-                                            <a href="/releases/ITS-REST/latest/docs/ehr.html" target="_blank">EHR</a>, 
-                                            <a href="/releases/ITS-REST/latest/docs/query.html" target="_blank">Query</a>, 
-                                            <a href="/releases/ITS-REST/latest/docs/definitions.html" target="_blank">Definitions</a>
+										<td colspan="2" style="text-align:center">REST APIs<br>
+                                            <a href="/releases/ITS-REST/latest/docs/ehr.html" target="_blank"><b>EHR</b></a>, 
+                                            <a href="/releases/ITS-REST/latest/docs/query.html" target="_blank"><b>Query</b></a>, 
+                                            <a href="/releases/ITS-REST/latest/docs/definitions.html" target="_blank"><b>Definitions</b></a>
                                         </td>
 									</tr>
 									<tr>
@@ -187,8 +187,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 									<tr>
 										<td  colspan="2" style="text-align:center"><a href="/releases/RM/latest/data_structures.html" target="_blank"><b>Data Structures</b></a></td>
 										<td style="text-align:center">
-                                            <a href="/releases/RM/latest/data_types.html" target="_blank"><b>Data Types</b></a><br>
-                                            DvBoolean, DvText, DvCodedText, DvQuantity, DvUri, DvDate/Time types
+                                            <a href="/releases/RM/latest/data_types.html" target="_blank"><b>Data Types</b></a>
                                         </td>
 									</tr>
 									<tr>
@@ -216,13 +215,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 									</tr>
 									<tr>
 										<td style="text-align:center">
-                                            <a href="/releases/AM/latest/AOM1.4.html" target="_blank"><b>AOM 1.4</b></a><br>
-                                            Archetype, CObject, CAttribute, CPrimitiveObject
+                                            <a href="/releases/AM/latest/AOM1.4.html" target="_blank"><b>AOM 1.4</b></a>
                                         </td>
 										<td style="text-align:center">
-                                            <a href="/releases/AM/latest/AOM2.html" target="_blank"><b>AOM 2</b></a><br>
-                                            Archetype, AuthoredArchetype, Template, OperationalTemplate,
-                                            ArchetypeHrid, CObject, CAttribute, CPrimitiveObject
+                                            <a href="/releases/AM/latest/AOM2.html" target="_blank"><b>AOM 2</b></a>
                                         </td>
 									</tr>
 									<tr>
