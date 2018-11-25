@@ -58,7 +58,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td colspan="2" style="text-align:center">REST APIs<br>
+										<td colspan="2" style="text-align:center">REST APIs: 
                                             <a href="/releases/ITS-REST/latest/docs/ehr.html" target="_blank"><b>EHR</b></a>, 
                                             <a href="/releases/ITS-REST/latest/docs/query.html" target="_blank"><b>Query</b></a>, 
                                             <a href="/releases/ITS-REST/latest/docs/definitions.html" target="_blank"><b>Definitions</b></a>
@@ -98,7 +98,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center"><a href="/releases/SM/latest/openehr_platform.html" target="_blank"><b>Platform Services</b></a></td>
+										<td style="text-align:center">
+											<a href="/releases/SM/latest/openehr_platform.html" target="_blank"><b>Platform Services</b></a>: Ehr, Query, Definitions, EhrIndex, Admin, Demographic, Terminology, Message, SystemLog
+										</td>
 									</tr>
 								</tbody>
 							</table>
@@ -113,7 +115,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center"> <a href="/releases/CDS/latest/GDL.html" target="_blank"><b>GDL</b></a></td>
+										<td style="text-align:center">
+											<a href="/releases/CDS/latest/GDL.html" target="_blank"><b>GDL</b></a>: Guideline Definition Language
+										</td>
 									</tr>
 								</tbody>
 							</table>
@@ -133,8 +137,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 								<tbody>
 									<tr>
 										<td style="text-align:center">
-                                            <a href="/releases/PROC/latest/task_planning.html" target="_blank"><b>Task Planning</b></a><br>
-                                            Work Plan, Task Plan, Event
+                                            <a href="/releases/PROC/latest/task_planning.html" target="_blank"><b>Task Planning</b></a>: Work Plan, Task Plan, Event
                                         </td>
 									</tr>
 								</tbody>
@@ -150,7 +153,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center"><a href="/releases/QUERY/latest/AQL.html" target="_blank"><b>AQL</b></a></td>
+										<td style="text-align:center">
+											<a href="/releases/QUERY/latest/AQL.html" target="_blank"><b>AQL</b></a>: Archetype Querying Language
+										</td>
 									</tr>
 								</tbody>
 							</table>
@@ -159,43 +164,39 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- RM --------------->
 					<tr>
-						<td> <a name="RM"></a><a href="/releases/RM/latest/docs/index" target="_blank"><b>RM</b><br>(Reference Model)</a><br>
+						<td> <a name="RM"></a><a href="/releases/RM/latest/docs/index" target="_blank"><b>RM</b> (Reference Model)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11103" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECRM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
 						<td style="text-align:center">
 							<table>
 								<tbody>
 									<tr>
 										<td style="text-align:center">
-                                            <a href="/releases/RM/latest/demographic.html" target="_blank"><b>Demographic</b></a><br>
-                                            Party, Party_relationship, Actor, Role, Contact, Address
+                                            <a href="/releases/RM/latest/demographic.html" target="_blank"><b>Demographic</b></a>: Party, Party_relationship, Actor, Role, Contact, Address
                                         </td>
-										<td style="text-align:center">
-                                            <a href="/releases/RM/latest/ehr.html" target="_blank"><b>EHR</b></a><br>
-                                            Composition, Section, Entry, Observation,
+										<td colspan="2" style="text-align:center">
+                                            <a href="/releases/RM/latest/ehr.html" target="_blank"><b>EHR</b></a>: Composition, Section, Entry, Observation,<br>
                                             Evaluation, Instruction, Action, Admin_entry
                                         </td>
 										<td style="text-align:center">
-                                            <a href="/releases/RM/latest/ehr_extract.html" target="_blank"><b>EHR Extract</b></a><br>
-                                            OpenehrExtract, GenericExtract
+                                            <a href="/releases/RM/latest/ehr_extract.html" target="_blank"><b>EHR Extract</b></a>: OpenehrExtract, GenericExtract
                                         </td>
 									</tr>
 									<tr>
 										<td colspan="2" style="text-align:center">
-                                            <a href="/releases/RM/latest/common.html" target="_blank"><b>Common</b></a><br>
-                                            Versioned_object, Version, Party_self, Audit_details
+                                            <a href="/releases/RM/latest/common.html" target="_blank"><b>Common</b></a>: Versioned_object, Version, Party_self, Audit_details
                                         </td>
-										<td style="text-align:center">
-                                            <a href="/releases/RM/latest/integration.html" target="_blank"><b>Integration</b></a>
-                                        </td>
-									</tr>
-									<tr>
-										<td  colspan="2" style="text-align:center"><a href="/releases/RM/latest/data_structures.html" target="_blank"><b>Data Structures</b></a></td>
-										<td style="text-align:center">
-                                            <a href="/releases/RM/latest/data_types.html" target="_blank"><b>Data Types</b></a>
+										<td colspan="2" style="text-align:center">
+                                            <a href="/releases/RM/latest/integration.html" target="_blank"><b>Integration</b></a>: IntegrationEntry
                                         </td>
 									</tr>
 									<tr>
-										<td colspan="3" style="text-align:center"><a href="/releases/RM/latest/support.html" target="_blank"><b>Support</b></a></td>
+										<td  colspan="2" style="text-align:center"><a href="/releases/RM/latest/data_structures.html" target="_blank"><b>Data Structures</b></a></td>: History, Event, ItemTree, Cluster, Element
+										<td colspan="2" style="text-align:center">
+                                            <a href="/releases/RM/latest/data_types.html" target="_blank"><b>Data Types</b></a>: DvBoolean, DvText, DvCodedText, DvUri, DvQuantity, DvDate/Time types, DvMultimedia
+                                        </td>
+									</tr>
+									<tr>
+										<td colspan="4" style="text-align:center"><a href="/releases/RM/latest/support.html" target="_blank"><b>Support</b></a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -204,34 +205,33 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- AM --------------->
 					<tr>
-						<td> <a name="AM"></a><a href="/releases/AM/latest/docs/index" target="_blank"><b>AM</b><br>(Archetype Model)</a><br>
+						<td> <a name="AM"></a><a href="/releases/AM/latest/docs/index" target="_blank"><b>AM</b> (Archetype Model)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11101" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECAM?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
 						<td style="text-align:center">
 							<table>
 								<tbody>
 									<tr>
-										<td style="text-align:center"><a href="" target="_blank"><b>OPT 1.4</b></a></td>
-										<td style="text-align:center"><a href="/releases/AM/latest/OPT2.html" target="_blank"><b>OPT 2</b></a></td>
+										<td style="text-align:center"><a href="" target="_blank"><b>OPT 1.4</b></a></td>: Operational Template 1.4
+										<td style="text-align:center"><a href="/releases/AM/latest/OPT2.html" target="_blank"><b>OPT 2</b></a></td>: Operational Template 2
 									</tr>
 									<tr>
-										<td style="text-align:center"> <a href="/releases/AM/latest/ADL1.4.html" target="_blank"><b>ADL 1.4</b></a></td>
+										<td style="text-align:center"> <a href="/releases/AM/latest/ADL1.4.html" target="_blank"><b>ADL 1.4</b></a></td>: Archetype Definition Language 1.4
 										<td style="text-align:center">
-                                            <a href="/releases/AM/latest/ADL2.html" target="_blank"><b>ADL 2</b></a>
+                                            <a href="/releases/AM/latest/ADL2.html" target="_blank"><b>ADL 2</b></a>: Archetype Definition Language 2
                                         </td>
 									</tr>
 									<tr>
 										<td style="text-align:center">
-                                            <a href="/releases/AM/latest/AOM1.4.html" target="_blank"><b>AOM 1.4</b></a><br>
-                                            Archetype, CObject, ArchetypeSlot, CAttribute, CPrimitive
+                                            <a href="/releases/AM/latest/AOM1.4.html" target="_blank"><b>AOM 1.4</b></a>: Archetype,<br>
+											CObject, ArchetypeSlot, CAttribute, CPrimitive
                                         </td>
 										<td style="text-align:center">
-                                            <a href="/releases/AM/latest/AOM2.html" target="_blank"><b>AOM 2</b></a><br>
-                                            Archetype, AuthoredArchetype,Template, OperationalTemplate,<br>
+                                            <a href="/releases/AM/latest/AOM2.html" target="_blank"><b>AOM 2</b></a>: Archetype, AuthoredArchetype,Template, OperationalTemplate,<br>
                                             CObject, ArchetypeSlot, CAttribute, CPrimitive
                                         </td>
 									</tr>
 									<tr>
-										<td colspan="2" style="text-align:center"><a href="/releases/AM/latest/Identification.html" target="_blank">Identification</a></td>
+										<td colspan="2" style="text-align:center"><a href="/releases/AM/latest/Identification.html" target="_blank"><b>Identification</b></a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -240,31 +240,23 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 
 					<!-------------- LANG --------------->
 					<tr>
-						<td> <a name="LANG"></a><a href="/releases/LANG/latest/docs/index" target="_blank"><b>LANG</b><br>(Generic languages)</a><br>
+						<td> <a name="LANG"></a><a href="/releases/LANG/latest/docs/index" target="_blank"><b>LANG</b> (Generic Languages)</a><br>
 						<a href="https://openehr.atlassian.net/issues/?filter=11116" target="_blank">PRs</a>|<a href="https://openehr.atlassian.net/projects/SPECLANG?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released-unreleased" target="_blank">CRs</a></td>
 						<td style="text-align:center">
 							<table>
 								<tbody>
 									<tr>
-										<td style="text-align:center">
-                                            <a href="/releases/LANG/latest/EL.html" target="_blank"><b>*Expression</b></a>
+										<td rowspan="2" style="text-align:center">
+											<a href="/releases/LANG/latest/EL.html" target="_blank"><b>*Expression</b></a>: Expression Language
                                         </td>
-									</tr>
-									<tr>
 										<td style="text-align:center">
-                                            <a href="/releases/LANG/latest/bmm.html" target="_blank"><b>BMM</b></a><br>
-                                            BmmSchema, BmmModel, BmmClass, BmmType, BmmProperty
+                                            <a href="/releases/LANG/latest/bmm.html" target="_blank"><b>BMM</b></a>: BmmSchema, BmmModel, BmmClass, BmmType, BmmProperty
                                         </td>
-									</tr>
-									<tr>
-										<td style="text-align:center">
-                                            <a href="/releases/LANG/latest/bmm_persistence.html" target="_blank"><b>P_BMM</b></a><br>
-                                            PBmmSchema, P_xxx types
+										<td rowspan="2" style="text-align:center">
+											<a href="/releases/LANG/latest/odin.html" target="_blank"><b>ODIN</b></a>: Object Data Instance Notation
                                         </td>
-									</tr>
-									<tr>
 										<td style="text-align:center">
-                                            <a href="/releases/LANG/latest/odin.html" target="_blank"><b>ODIN</b></a>
+                                            <a href="/releases/LANG/latest/bmm_persistence.html" target="_blank"><b>P_BMM</b></a>: PBmmSchema, P_xxx types
                                         </td>
 									</tr>
 								</tbody>
@@ -281,18 +273,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 								<tbody>
 									<tr>
 										<td style="text-align:center">
-                                            <a href="/releases/BASE/latest/base_types.html" target="_blank"><b>Base Types</b></a><br>
-                                            Identification
+                                            <a href="/releases/BASE/latest/base_types.html" target="_blank"><b>Base Types</b></a>: Identification
                                         </td>
 										<td style="text-align:center">
-                                            <a href="/releases/BASE/latest/resource.html" target="_blank"><b>Resource</b></a><br>
-                                            AuthoredResource
+                                            <a href="/releases/BASE/latest/resource.html" target="_blank"><b>Resource</b></a>: AuthoredResource
                                         </td>
 									</tr>
 									<tr>
                                         <td colspan="2" style="text-align:center">
-                                            <a href="/releases/BASE/latest/foundation_types.html" target="_blank"><b>Foundation Types</b></a><br>
-                                            Primitive types: Values, Structures, Interval, Date/times
+                                            <a href="/releases/BASE/latest/foundation_types.html" target="_blank"><b>Foundation Types</b></a>: Primitive types: Values, Structures, Interval, Date/times
                                         </td>
 									</tr>
 								</tbody>
