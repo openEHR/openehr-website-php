@@ -30,7 +30,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<table class="TableBasic">
 				<tbody>
 					<tr>
-						<th colspan="2" style="text-align:center"> Implementation Specifications </th>
+						<th style="text-align:center"> Component</th>
+						<th style="text-align:center"> Implementation Specifications </th>
 					</tr>
 
 					<!-------------- CNF --------------->
@@ -41,7 +42,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center"><a href="/releases/CNF/latest/openehr_platform_conformance.html" target="_blank"><b>Platform Conformance</b></a></td>
+										<td style="text-align:center">
+											<a href="/releases/CNF/latest/openehr_platform_conformance.html" target="_blank"><b>Platform Conformance</b></a>: System Under Test (SUT), Conformance Schedule, Profiles, Certification
+										</td>
 									</tr>
 								</tbody>
 							</table>
@@ -66,14 +69,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 									</tr>
 									<tr>
 										<td style="text-align:center">
-                                            <a href="https://github.com/openEHR/specifications-ITS-XML" target="_blank"><b>XSDs</b></a>
+                                            <a href="https://github.com/openEHR/specifications-ITS-XML" target="_blank"><b>XSDs</b></a>: XML Schemas for the openEHR RM and AM
                                         </td>
 										<td style="text-align:center">
-                                            <a href="https://github.com/openEHR/specifications-ITS-JSON" target="_blank"><b>JSON schema</b></a>
+                                            <a href="https://github.com/openEHR/specifications-ITS-JSON" target="_blank"><b>JSON schema</b></a>: JSON Schemas for the openEHR RM and AM
                                         </td>
 									</tr>
 									<tr>
-										<td colspan="2" style="text-align:center"><a href="https://github.com/openEHR/specifications-ITS-BMM" target="_blank"><b>BMMs</b></a></td>
+										<td colspan="2" style="text-align:center">
+											<a href="https://github.com/openEHR/specifications-ITS-BMM" target="_blank"><b>BMMs</b></a>: BMM schemas for Task Planning, RM, Expressions, BASE
+										</td>
 									</tr>
 								</tbody>
 							</table>
@@ -87,7 +92,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<table class="TableBasic">
 				<tbody>
 					<tr>
-						<th colspan="2" style="text-align:center"> Formal Specifications</th>
+						<th style="text-align:center"> Component</th>
+						<th style="text-align:center"> Formal Specifications</th>
 					</tr>
 
 					<!-------------- SM --------------->
@@ -174,8 +180,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
                                             <a href="/releases/RM/latest/demographic.html" target="_blank"><b>Demographic</b></a>: Party, Party_relationship, Actor, Role, Contact, Address
                                         </td>
 										<td colspan="2" style="text-align:left">
-                                            <a href="/releases/RM/latest/ehr.html" target="_blank"><b>EHR</b></a>: Composition, Section, Entry, Observation,<br>
-                                            Evaluation, Instruction, Action, Admin_entry
+                                            <a href="/releases/RM/latest/ehr.html" target="_blank"><b>EHR</b></a>: Composition, Section, Entry, Observation, Evaluation, Instruction, Action, Admin_entry
                                         </td>
 										<td style="text-align:left">
                                             <a href="/releases/RM/latest/ehr_extract.html" target="_blank"><b>EHR Extract</b></a>: OpenehrExtract, GenericExtract
@@ -194,7 +199,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 											<a href="/releases/RM/latest/data_structures.html" target="_blank"><b>Data Structures</b></a>: History, Event, ItemTree, Cluster, Element
 										</td>
 										<td colspan="2" style="text-align:left">
-                                            <a href="/releases/RM/latest/data_types.html" target="_blank"><b>Data Types</b></a>: DvBoolean, DvText, DvCodedText, DvUri,<br>DvQuantity, DvDate/Time types, DvMultimedia
+                                            <a href="/releases/RM/latest/data_types.html" target="_blank"><b>Data Types</b></a>: DvBoolean, DvText, DvCodedText, DvUri, DvQuantity, DvDate/Time types, DvMultimedia
                                         </td>
 									</tr>
 									<tr>
@@ -230,12 +235,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 									</tr>
 									<tr>
 										<td style="text-align:left">
-                                            <a href="/releases/AM/latest/AOM1.4.html" target="_blank"><b>AOM 1.4</b></a>: Archetype,<br>
-											CObject, ArchetypeSlot, CAttribute, CPrimitive
+                                            <a href="/releases/AM/latest/AOM1.4.html" target="_blank"><b>AOM 1.4</b></a>: Archetype, CObject, ArchetypeSlot, CAttribute, CPrimitive
                                         </td>
 										<td style="text-align:left">
-                                            <a href="/releases/AM/latest/AOM2.html" target="_blank"><b>AOM 2</b></a>: Archetype, AuthoredArchetype,Template, OperationalTemplate,<br>
-                                            CObject, ArchetypeSlot, CAttribute, CPrimitive
+                                            <a href="/releases/AM/latest/AOM2.html" target="_blank"><b>AOM 2</b></a>: Archetype, AuthoredArchetype,Template, OperationalTemplate, CObject, ArchetypeSlot, CAttribute, CPrimitive
                                         </td>
 									</tr>
 									<tr>
