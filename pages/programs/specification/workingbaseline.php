@@ -98,7 +98,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center">
+										<td style="text-align:left">
 											<a href="/releases/SM/latest/openehr_platform.html" target="_blank"><b>Platform Services</b></a>: Ehr, Query, Definitions, EhrIndex, Admin, Demographic, Terminology, Message, SystemLog
 										</td>
 									</tr>
@@ -115,7 +115,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center">
+										<td style="text-align:left">
 											<a href="/releases/CDS/latest/GDL.html" target="_blank"><b>GDL</b></a>: Guideline Definition Language
 										</td>
 									</tr>
@@ -136,7 +136,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center">
+										<td style="text-align:left">
                                             <a href="/releases/PROC/latest/task_planning.html" target="_blank"><b>Task Planning</b></a>: Work Plan, Task Plan, Event
                                         </td>
 									</tr>
@@ -153,7 +153,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center">
+										<td style="text-align:left">
 											<a href="/releases/QUERY/latest/AQL.html" target="_blank"><b>AQL</b></a>: Archetype Querying Language
 										</td>
 									</tr>
@@ -170,33 +170,35 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table>
 								<tbody>
 									<tr>
-										<td style="text-align:center">
+										<td style="text-align:left">
                                             <a href="/releases/RM/latest/demographic.html" target="_blank"><b>Demographic</b></a>: Party, Party_relationship, Actor, Role, Contact, Address
                                         </td>
-										<td colspan="2" style="text-align:center">
+										<td colspan="2" style="text-align:left">
                                             <a href="/releases/RM/latest/ehr.html" target="_blank"><b>EHR</b></a>: Composition, Section, Entry, Observation,<br>
                                             Evaluation, Instruction, Action, Admin_entry
                                         </td>
-										<td style="text-align:center">
+										<td style="text-align:left">
                                             <a href="/releases/RM/latest/ehr_extract.html" target="_blank"><b>EHR Extract</b></a>: OpenehrExtract, GenericExtract
                                         </td>
 									</tr>
 									<tr>
-										<td colspan="2" style="text-align:center">
+										<td colspan="2" style="text-align:left">
                                             <a href="/releases/RM/latest/common.html" target="_blank"><b>Common</b></a>: Versioned_object, Version, Party_self, Audit_details
                                         </td>
-										<td colspan="2" style="text-align:center">
+										<td colspan="2" style="text-align:left">
                                             <a href="/releases/RM/latest/integration.html" target="_blank"><b>Integration</b></a>: IntegrationEntry
                                         </td>
 									</tr>
 									<tr>
-										<td  colspan="2" style="text-align:center"><a href="/releases/RM/latest/data_structures.html" target="_blank"><b>Data Structures</b></a></td>: History, Event, ItemTree, Cluster, Element
-										<td colspan="2" style="text-align:center">
-                                            <a href="/releases/RM/latest/data_types.html" target="_blank"><b>Data Types</b></a>: DvBoolean, DvText, DvCodedText, DvUri, DvQuantity, DvDate/Time types, DvMultimedia
+										<td  colspan="2" style="text-align:left">
+											<a href="/releases/RM/latest/data_structures.html" target="_blank"><b>Data Structures</b></a>: History, Event, ItemTree, Cluster, Element
+										</td>
+										<td colspan="2" style="text-align:left">
+                                            <a href="/releases/RM/latest/data_types.html" target="_blank"><b>Data Types</b></a>: DvBoolean, DvText, DvCodedText, DvUri,<br>DvQuantity, DvDate/Time types, DvMultimedia
                                         </td>
 									</tr>
 									<tr>
-										<td colspan="4" style="text-align:center"><a href="/releases/RM/latest/support.html" target="_blank"><b>Support</b></a></td>
+										<td colspan="4" style="text-align:left"><a href="/releases/RM/latest/support.html" target="_blank"><b>Support</b></a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -211,27 +213,33 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table>
 								<tbody>
 									<tr>
-										<td style="text-align:center"><a href="" target="_blank"><b>OPT 1.4</b></a></td>: Operational Template 1.4
-										<td style="text-align:center"><a href="/releases/AM/latest/OPT2.html" target="_blank"><b>OPT 2</b></a></td>: Operational Template 2
+										<td style="text-align:left">
+											<a href="" target="_blank"><b>OPT 1.4</b></a>: Operational Template 1.4
+										</td>
+										<td style="text-align:left">
+											<a href="/releases/AM/latest/OPT2.html" target="_blank"><b>OPT 2</b></a>: Operational Template 2
+										</td>
 									</tr>
 									<tr>
-										<td style="text-align:center"> <a href="/releases/AM/latest/ADL1.4.html" target="_blank"><b>ADL 1.4</b></a></td>: Archetype Definition Language 1.4
-										<td style="text-align:center">
+										<td style="text-align:left">
+											<a href="/releases/AM/latest/ADL1.4.html" target="_blank"><b>ADL 1.4</b></a>: Archetype Definition Language 1.4
+										</td>
+										<td style="text-align:left">
                                             <a href="/releases/AM/latest/ADL2.html" target="_blank"><b>ADL 2</b></a>: Archetype Definition Language 2
                                         </td>
 									</tr>
 									<tr>
-										<td style="text-align:center">
+										<td style="text-align:left">
                                             <a href="/releases/AM/latest/AOM1.4.html" target="_blank"><b>AOM 1.4</b></a>: Archetype,<br>
 											CObject, ArchetypeSlot, CAttribute, CPrimitive
                                         </td>
-										<td style="text-align:center">
+										<td style="text-align:left">
                                             <a href="/releases/AM/latest/AOM2.html" target="_blank"><b>AOM 2</b></a>: Archetype, AuthoredArchetype,Template, OperationalTemplate,<br>
                                             CObject, ArchetypeSlot, CAttribute, CPrimitive
                                         </td>
 									</tr>
 									<tr>
-										<td colspan="2" style="text-align:center"><a href="/releases/AM/latest/Identification.html" target="_blank"><b>Identification</b></a></td>
+										<td colspan="2" style="text-align:left"><a href="/releases/AM/latest/Identification.html" target="_blank"><b>Identification</b></a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -246,16 +254,18 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table>
 								<tbody>
 									<tr>
-										<td rowspan="2" style="text-align:center">
+										<td rowspan="2" style="text-align:left">
 											<a href="/releases/LANG/latest/EL.html" target="_blank"><b>*Expression</b></a>: Expression Language
                                         </td>
-										<td style="text-align:center">
+										<td style="text-align:left">
                                             <a href="/releases/LANG/latest/bmm.html" target="_blank"><b>BMM</b></a>: BmmSchema, BmmModel, BmmClass, BmmType, BmmProperty
                                         </td>
-										<td rowspan="2" style="text-align:center">
+										<td rowspan="2" style="text-align:left">
 											<a href="/releases/LANG/latest/odin.html" target="_blank"><b>ODIN</b></a>: Object Data Instance Notation
                                         </td>
-										<td style="text-align:center">
+									</tr>
+									<tr>
+										<td style="text-align:left">
                                             <a href="/releases/LANG/latest/bmm_persistence.html" target="_blank"><b>P_BMM</b></a>: PBmmSchema, P_xxx types
                                         </td>
 									</tr>
@@ -272,15 +282,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center">
+										<td style="text-align:left">
                                             <a href="/releases/BASE/latest/base_types.html" target="_blank"><b>Base Types</b></a>: Identification
                                         </td>
-										<td style="text-align:center">
+										<td style="text-align:left">
                                             <a href="/releases/BASE/latest/resource.html" target="_blank"><b>Resource</b></a>: AuthoredResource
                                         </td>
 									</tr>
 									<tr>
-                                        <td colspan="2" style="text-align:center">
+                                        <td colspan="2" style="text-align:left">
                                             <a href="/releases/BASE/latest/foundation_types.html" target="_blank"><b>Foundation Types</b></a>: Primitive types: Values, Structures, Interval, Date/times
                                         </td>
 									</tr>
@@ -297,7 +307,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td style="text-align:center"><a href="/releases/TERM/latest/SupportTerminology.html" target="_blank"><b>openEHR Terminology</b></a></td>
+										<td style="text-align:left"><a href="/releases/TERM/latest/SupportTerminology.html" target="_blank"><b>openEHR Terminology</b></a></td>
 									</tr>
 								</tbody>
 							</table>
