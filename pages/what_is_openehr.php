@@ -13,6 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 			<h1><?php echo "$PageName";?></h1>
+
 			
 			<p>openEHR is a virtual community working on means of <em>turning health data from the physical form into electronic form</em> and ensuring <em>universal interoperability</em> among all forms of electronic data. The primary focus of its endeavour is on <em>electronic health records (EHR)</em> and related systems.</p>
 			
