@@ -36,8 +36,8 @@ do_cmd () {
 #
 # ============== Set up paths =============
 #
-site=${PWD#$sites_root}
-site=${site%%/*}
+site=${PWD#$sites_root}	# strip $sites_root from the front
+site=${site%%/*}		# remove any trailing slash
 echo "------ exporting $old_specs_git_repo Git repo to site $site"
 
 
