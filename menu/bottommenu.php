@@ -2,10 +2,10 @@
 			<div class="BottomMenuSection floatLeft">
 				<p class="MenuHeading">Specifications <sup style="font-size:8px; font-style:italic;">Quick Links</sup></p>
 				<ul>
-					<li><a href="/programs/specification/releases/" title="Current official release of specifications">Current Release</a></li>
-					<li><a href="/programs/specification/releases/currentbaseline" title="Specifications development baseline">Development Baseline</a></li>
+					<li><a href="https://specifications.openehr.org/latestreleases" title="Current official release of specifications">Current Releases</a></li>
+					<li><a href="https://specifications.openehr.org/" title="Specifications development baseline">Development Baseline</a></li>
 					<li><a href="https://openehr.atlassian.net/secure/Dashboard.jspa?selectPageId=10190" target="_blank" title="Specifications issue trackers (Jira)">Specs (Jira)</a></li>
-					<li><a href="/releases/1.0.2/reference-models/openEHR/BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (ODIN format object model schemas)">RM BMM Schemas</a></li>
+					<li><a href="https://github.com/openEHR/specifications-ITS-BMM" target="_blank" title="Reference Model Basic Meta-Model schemas (ODIN format object model schemas)">BMM Schemas</a></li>
 				</ul>
 			</div>
 
