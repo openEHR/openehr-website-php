@@ -71,8 +71,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						<div id = "Item0">
 							<div id = "CarouselText">
 								
-								<span class="HomeSubtitle1">CDS Summer app challenge 2018</span>
-								<p>Find out on <a href="https://cds-apps.com/" target="_blank" >CDS site</a>!</p>
+								<span class="HomeSubtitle1">REST APIs 1.0.0 released</span>
+								<p><a href="https://specifications.openehr.org/releases/ITS-REST/Release-1.0.0/" target="_blank" >REST APIs</a></p>
+								<p><a href="https://github.com/openEHR/specifications-ITS-REST/tree/Release-1.0.0" target="_blank" >Github</a></p>
 							</div>
 						</div>
 					</div>
