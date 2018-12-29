@@ -82,6 +82,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 						<div id = "Item1">
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1">openEHR Paradigm</span>
+								<p><a href="https://specifications.openehr.org/releases/BASE/latest/architecture_overview.html#_design_principles" target="_blank">openEHR Design principles</a></p>
+								<p><a href="https://specifications.openehr.org/releases/AM/latest/Overview.html#_business_purpose_of_archetypes" target="_blank">Business purpose of archetypes</a></p>
 							</div>
 						</div>
 					</div>
