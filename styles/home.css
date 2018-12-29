@@ -270,10 +270,16 @@ p {text-align:left; margin-bottom:0.8em;}
 #Item1 {
 	height:229px;
 	
-	background-image: url(/files/home/norway_platform_12_sep_2018.png);
+	background-image: url(/files/home/multi_level_modelling.png);
 }
 
 #Item2 {
+	height:229px;
+	
+	background-image: url(/files/home/rm_release_104.png);
+}
+
+#Item3 {
 	height:229px;
 	
 	background-image: url(/files/home/membership.jpg);

@@ -81,28 +81,24 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<div class="item">
 						<div id = "Item1">
 							<div id = "CarouselText">
-								
-								<span class="HomeSubtitle1">Oslo Apen Platform</span>
-								<p>Check out the <a href="https://www.youtube.com/playlist?list=PLnMJHuL5FeHYAEdH-eJT_tX2Ag9Fwc5So" target="_blank">Presentation videos (YouTube)</a>!</p>
+								<span class="HomeSubtitle1">openEHR Paradigm</span>
 							</div>
 						</div>
 					</div>
-					
-			<!-- 
-					<div class="item">
-						<div id = "Item1">
-							<div id = "CarouselText">
-								<span class="HomeSubtitle1">openEHR Task Planning</span>
-								<p>Task Planning &amp; process specification</p>
-								<p><a href="/releases/PROC/latest/task_planning.html" target="_blank">Release 1.0.0</a></p>
-								<p><a href="https://wolandscat.net/2017/01/23/initial-foundations-for-clinical-workflow/" target="_blank">Clinical workflow foundations</a></p>
-							</div>
-						</div>
-					</div>
-			 -->
 					
 					<div class="item">
 						<div id = "Item2">
+							<div id = "CarouselText">
+								<span class="HomeSubtitle1">RM Release 1.0.4 Coming Soon</span>
+								<p><a href="https://specifications.openehr.org/releases/RM/latest/index" target="_blank">RM specifications index</a></p>
+								<p><a href="https://openehr.atlassian.net/projects/SPECRM/versions/11074" target="_blank">Change history</a></p>
+								<p><a href="https://openehr.atlassian.net/issues/?filter=11135" target="_blank">Problems fixed</a></p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div id = "Item3">
 							<div id = "CarouselText">
 								<span class="HomeSubtitle1">Membership</span>
 								<p>Become an openEHR member!</p>
