@@ -91,8 +91,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<div class="item">
 						<div id = "Item2">
 							<div id = "CarouselText">
-								<span class="HomeSubtitle1">RM Release 1.0.4 Coming Soon</span>
-								<p><a href="https://specifications.openehr.org/releases/RM/latest/index" target="_blank">RM specifications index</a></p>
+								<span class="HomeSubtitle1">RM Release 1.0.4 Published</span>
+								<p><a href="https://https://specifications.openehr.org/releases/RM/Release-1.0.4/" target="_blank">RM specifications index</a></p>
 								<p><a href="https://openehr.atlassian.net/projects/SPECRM/versions/11074" target="_blank">Change history</a></p>
 								<p><a href="https://openehr.atlassian.net/issues/?filter=11135" target="_blank">Problems fixed</a></p>
 							</div>
