@@ -26,6 +26,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 				<p>Elected Jul 2018 as Membership representative.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/silje_ljosland_bakke.php');?>
 				<p>Co-opted Aug 2016.</p>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/birger_haarbrandt.php');?>
+				<p>Co-opted Aug 2018.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/thomas_beale.php');?>
 				<p>Co-opted Mar 2015.</p>
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/includes/bios/sam_heard.php');?>
