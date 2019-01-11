@@ -15,11 +15,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 			<table class="TableInvisible">
 			<tbody>
 
+			<!-- Accenda -->
+			<tr>
+				<td><a href="/industry_partners/accenda"><img src="/files/industry_partners/accenda_logo.png"></a></td>
+				<td><h2>Accenda</h2>
+					<p>Accenda Limited is a UK-based software consulting business.  We help our clients streamline processes, reduce waste and improve efficiencies. We work closely with NHS Digital to help deliver solutions based on cutting-edge technology. We have a 'sleeves-rolled-up' approach to engaging on projects and are passionate about delivering solutions that deliver real value for patients, clinicians and stakeholders.</p>
+				<a href="/industry_partners/accenda">Learn more</a>
+				</td>
+			</tr>
+
 			<!-- Cambio -->
 			<tr>
 				<td><a href="/industry_partners/cambio_healthcare_systems"><img src="/files/industry_partners/cambio_logo.png"></a></td>
 				<td><h2>Cambio Healthcare Systems</h2>
-				<p>Cambio Healthcare Systems is an e-Health company with approximately 370 employees who provide the Cambio COSMIC healthcare system for comprehensive, easy-to-use solutions to meet the healthcare needs of all patients. Since 1993, Cambio has worked tirelessly to develop open, flexible and comprehensive IT support for healthcare. Development has taken place in constant close co-operation with those who work in health care - doctors, nurses, administrators and IT-technichians.</p>
+					<p>Cambio Healthcare Systems is an e-Health company with approximately 370 employees who provide the Cambio COSMIC healthcare system for comprehensive, easy-to-use solutions to meet the healthcare needs of all patients. Since 1993, Cambio has worked tirelessly to develop open, flexible and comprehensive IT support for healthcare. Development has taken place in constant close co-operation with those who work in health care - doctors, nurses, administrators and IT-technichians.</p>
 				<a href="/industry_partners/cambio_healthcare_systems">Learn more</a></td>
 			</tr>
 

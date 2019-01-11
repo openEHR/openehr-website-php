@@ -1,5 +1,6 @@
 <span><a href="/industry_partners/index" <?php if($pageOn == 'index.php'){?> class="active"<?php }?>>openEHR Industry Partners</a></span>
 			<ul>
+				<li><a href="/industry_partners/accenda" <?php if($pageOn == 'accenda.php'){?> class="active"<?php }?>>Accenda</a></li>
 				<li><a href="/industry_partners/cambio_healthcare_systems" <?php if($pageOn == 'cambio_healthcare_systems.php'){?> class="active"<?php }?>>Cambio Healthcare Systems</a></li>
 				<li><a href="/industry_partners/code24" <?php if($pageOn == 'code24.php'){?> class="active"<?php }?>>Code24</a></li>
 				<li><a href="/industry_partners/core_consulting" <?php if($pageOn == 'core_consulting.php'){?> class="active"<?php }?>>CORE Consulting</a></li>
