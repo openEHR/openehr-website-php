@@ -15,10 +15,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<h1><?php echo "$PageName";?></h1>
 			
 			<h2>Motivations</h2>
-			<p>In recent decades, it has become clear that the value of information technology in health (often called e-health) has lagged far behind other domains such as banking, process control and logistics. People in all countries still wonder why their health records don't move with them when they move to a different place to live, why hospitals and general practice can't share medication lists, and why they repeatedly get asked the same questions whenever they go to a new clinic or even a new department of a hospital they are already admitted to.</p> 
-			<p>Healthcare professionals wonder why it is that preventable adverse events occur in 8 - 12% of hospital admissions across the EU [<a href="http://www.euro.who.int/en/health-topics/Health-systems/patient-safety/data-and-statistics">WHO</a>]; why their EMR systems still don't talk to each other or to other products and indeed, why hospital EMR solutions are so expensive; why there has not been more progress on analysis of health data for prevention; and why they still have to use non-computable guidelines and protocols instead of having IT tool support, such as we use when navigating in our cars.</p>
+			<p>In recent decades, it has become clear that the value of information technology in health (often called e-health) has lagged far behind other domains such as banking, process control and logistics. Consumers in all countries still wonder why their health records don't move with them when they move to a different place to live, why hospitals and general practice can't share medication lists, and why they repeatedly get asked the same questions whenever they go to a new clinic or even a new department of a hospital they are already admitted to.</p> 
+			<p>Healthcare professionals wonder why it is that preventable adverse events occur in 8 - 12% of hospital admissions across the EU [<a href="http://www.euro.who.int/en/health-topics/Health-systems/patient-safety/data-and-statistics">WHO</a>]; why their EMR systems create more work, not less, but still don't talk to each other or to other products and indeed, why hospital EMR solutions are so expensive; why there has not been more progress on analysis of health data for prevention; why there isn't even a reliable shared medications list; and why they still have to use non-computable guidelines and protocols instead of having IT tool support, such as we use when navigating in our cars.</p>
 
-			<p>The single greatest problem in e-health however, is the <b>lack of support for continuity of care</b>, across provider facilities and independent of particular vendors. Missed referrals, hand-offs, investigation orders continue to frustrate basic care provision, often dangerously for the patient. The <b>lack of a process view</b> driven by care pathways and guidelines is a major impediment to quality of care.</p>
+			<p>The single greatest problem in care provision however, is the <b>lack of support for continuity of care</b>, across provider facilities and independent of particular EMR vendors. Missed referrals, hand-offs, investigation orders continue to frustrate basic care provision, often dangerously for the patient. The <b>lack of a process view</b> driven by care pathways and guidelines is a major impediment to quality of care.</p>
+
+			<p>In the medical research and public health arenas, workers wonder why most of their budget is routinely lost on endlessly transforming clinical data to obtain a minimum computable form for their studies.</p>
 
 			<p>A number of major, heavily-funded national e-Health programmes in Western countries since 2005 have failed to significantly change this state of affairs.</p>
 
@@ -31,9 +33,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<li>the rapid <i>march of technology</i> versus the longevity of care processes: healthcare process state must be constantly transferrable across changing OSs, DBs, programming languages and user devices.</li>
 			</ul>
 
-			<p>The first factor can only be addressed by a technology approach that makes <i>domain semantics a central concern</i>. The sheer size and rate of change of the semantics problem renders standard methods of IT architecture unsustainable. Instead, the modelling must be done by those with intimate knowledge of the domain  healthcare professionals  enabled by advanced languages and tools.</p>
+			<p>The first factor can only be addressed by a technology approach that <b>makes domain semantics a central concern</b>. The sheer size and rate of change of the semantics problem renders standard methods of IT architecture unsustainable. Instead, the modelling must be done by those with intimate knowledge of the domain - healthcare professionals - enabled by advanced languages and tools.</p>
 
-			<p>The second challenge of simultaneous teamwork, coupled with case complexity requires a new generation of clinical process support: <i>computable care pathways</i> and executable <i>adaptive task plans</i>.</p>
+			<p>The second challenge of simultaneous teamwork, coupled with case complexity requires a <b>new generation of clinical process support</b>: <i>computable care pathways</i> and executable <i>adaptive task plans</i>.</p>
 
 			<p>The third factor - the moving patient - presents a challenge to standard IT architectures in which data usually reside inside single institutions and then inside single products. The need in healthcare however is that coherent data be <i>associated with the patient</i>, not with the institution or product, and to make things worse, remain available and intellible for a human lifetime, regardless of technology churn. This requires a new kind of health computing environment, based on an <i>open platform architecture</i> deployed in a <i>horizontal services layer</i>.</p>
 
@@ -43,13 +45,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 
 			<h2>OpenEHR as a Technology</h2>
 
-			<p>openEHR is designed to fulfill this need, by providing the following:</p>
+			<p>openEHR is designed to fulfill this need, by providing the a <a href="https://specifications.openehr.org/releases/BASE/latest/architecture_overview.html#_design_principles">comprehensive architecture</a> for building e-health solutions:</p>
 
 			<ul>
 				<li>A multi-level framework that <i>separates data models from domain models</i>;</li>
 				<li>An open platform architecture that can be used to represent patient-centric health data, which are <i>accessed</i> by institutions and products <i>but not controlled</i> by them;</li>
-				<li>A domain modelling formalism supporting <i>composition</i>, <i>specialisation</i>, <i>localisation</i> and flexible binding to terminology;</li>
-				<li>A modelling <i>factory</i> environment that continually produces computable domain models, known as <i>archetypes</i> and <i>templates</i>, developed by domain professionals, in any language;</li>
+				<li>A <a href="https://specifications.openehr.org/releases/AM/latest/index">domain modelling formalism</a> supporting <i>composition</i>, <i>specialisation</i>, <i>localisation</i> and flexible binding to terminology;</li>
+				<li>A <a href="https://www.openehr.org/ckm/">modelling <i>factory</i> environment</a> that continually produces computable domain models, known as <i>archetypes</i> and <i>templates</i>, developed by domain professionals, in any language;</li>
 				<li>Tools that <i>machine-convert</i> domain models into technical forms that can be used to build:</li>
 				<ul>
 					<li>applications (e.g. screen definitions);</li>
@@ -58,7 +60,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				</ul>
 			</ul>
 
-			<p>We can visualise an <b>openEHR technology ecosystem</b> that implements the above as follows:</p>
+			<p>We can visualise the <b>openEHR technology ecosystem</b> that implements the above as follows:</p>
 
 			<p><img border=0 src="/files/what_is_openehr/openEHR-what_is_it-architecture.png"></p>
 
@@ -76,7 +78,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 
 			<p>The <a href="https://specifications.openehr.org">technical specifications</a> include <b>information models for healthcare data</b>, including the EHR (how to record clinical observations?) and demographics (parties, roles and relationships); a portable <a href="https://specifications.openehr.org/releases/QUERY/latest/index"><b>query language</b></a>, the <a href="https://specifications.openehr.org/releases/AM/latest/index">archetype formalism</a> for expressing domain content (what does a 'blood pressure measurement' look like?) and data sets (what does the clinical note for a 12-month diabetic visit look like?), and finally, an <a href="https://specifications.openehr.org/releases/ITS-REST/latest/"><b>open API</b> specification</a>. Additionally, it defines a formal conformance test approach for use in validating implementations.</p>
 
-			<p>The openEHR query language represents a major innovation, which enables the writing of <b>model-based queries</b> that are independent of physical DB schemas, and thus <b>portable across systems</b>. This enables a sustainable approach to clinical decision support and business analytics, which are otherwise either tied to a single database, or else have to be rewritten for every target system.</p>
+			<p>The <a href="https://specifications.openehr.org/releases/QUERY/latest/AQL.html">openEHR query language (AQL)</a> represents a major innovation, which enables the writing of <b>model-based queries</b> that are independent of physical DB schemas, and thus <b>portable across systems</b>. This enables a sustainable approach to clinical decision support and business analytics, which are otherwise either tied to a single database, or else have to be rewritten for every target system.</p>
 
 			<p>The most recent specifications address the area of <a href="https://specifications.openehr.org/releases/PROC/latest/index"><b>clinical process</b></a>, via <b>adaptive workflow</b> and <a href="https://specifications.openehr.org/releases/CDS/latest/index"><b>guidelines</b></a> formalisms that will ultimately be used to represent clinical care pathways.</p>
 
@@ -94,9 +96,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 
 			<p>In the most advanced form, the technical advances of openEHR lead naturally to a <b>plug-and-play platform economy</b>, in which any vendor or developer can produce a solution component, as long as it conforms to the published data and API base standards of openEHR, and additionally, the domain content models created by the community of clinical professionals, including those from the customer. This puts the customer in back in charge of their own system environment, while enabling <b>incremental procurement</b>.</p>
 
-			<p>Significant benefits are available in more routine deployments in which openEHR is deployed in a bimodal form, alongside monolithic EMR systems, to add semantic power and flexibility.</p>
+			<p>Significant benefits are available in more typical environments in which openEHR is deployed in a 'bimodal' form, alongside monolithic EMR systems, to add semantic power and flexibility, and to provide a high-fidelity common data repository, independent of commercial products and contracts.</p>
 
-			<p>The use of openEHR also entails new <b>freedom with respect to health data</b>: initially, it is liberated from <i>products and vendors</i>, to be owned by providers; eventually it can move to full patient ownership, with healthcare professionals as managers and guardians  the ultimate realisation of the patient-centric EHR.</p>
+			<p>The use of openEHR also entails new <b>freedom with respect to health data</b>: initially, it is liberated from <i>products and vendors</i>, to be owned by providers; eventually it can move to full patient ownership, with healthcare professionals as managers and guardians - the ultimate realisation of the patient-centric EHR.</p>
 
 			<p>It is the goal of the openEHR Foundation and community to fundamentally change the quality of information technology in the service of medicine, so as to improve outcomes in clinical healthcare, public health and the value of secondary data use.</p>
 	
