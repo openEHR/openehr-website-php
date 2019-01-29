@@ -41,7 +41,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<p><a href="/industry_partners/inidus"><img src="/files/industry_partners/inidus_logo.png"></a></p>
 					<p><a href="/industry_partners/tieto"><img src="/files/industry_partners/tieto_logo.png"></a></p>
 					<p><a href="/industry_partners/dips"><img src="/files/industry_partners/dips_logo.png"></a></p>
-					<p><a href="/industry_partners/infinnity_solutions"><img src="/files/industry_partners/infinnity_logo.png"></a></p>
 					<p><a href="/industry_partners/code24"><img src="/files/industry_partners/code24_logo.png"></a></p>
 					<p><a href="/industry_partners/cambio_healthcare_systems"><img src="/files/industry_partners/cambio_logo.png"></a></p>
 					<p><a href="/industry_partners/marand"><img src="/files/industry_partners/marand_logo.png"></a></p>

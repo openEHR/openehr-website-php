@@ -87,14 +87,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header.php');
 						<a href="/industry_partners/core_consulting">Learn more</a></td>
 					</tr>
 
-					<!-- Infinnity -->
-					<tr>
-						<td><a href="/industry_partners/infinnity_solutions"><img src="/files/industry_partners/infinnity_logo.png"></a></td>
-						<td><h3>Infinnity Solutions</h3>
-						<p>Infinnity Solutions is a Russian company who develop innovative software solutions in the field of health. The main areas of software development are integrated electronic medical record, medical information systems and mobile medical applications. Since 2006, Infinnity Solutions is concerned with improving the efficiency of hospitals and health care systems as a whole.</p>
-						<a href="/industry_partners/infinnity_solutions">Learn more</a></td>
-					</tr>
-
 				</tbody>
 				</table>
 

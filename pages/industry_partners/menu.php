@@ -5,7 +5,6 @@
 				<li><a href="/industry_partners/code24" <?php if($pageOn == 'code24.php'){?> class="active"<?php }?>>Code24</a></li>
 				<li><a href="/industry_partners/core_consulting" <?php if($pageOn == 'core_consulting.php'){?> class="active"<?php }?>>CORE Consulting</a></li>
 				<li><a href="/industry_partners/dips" <?php if($pageOn == 'dips.php'){?> class="active"<?php }?>>DIPS</a></li>
-				<li><a href="/industry_partners/infinnity_solutions" <?php if($pageOn == 'infinnity_solutions.php'){?> class="active"<?php }?>>Infinnity Solutions</a></li>
 				<li><a href="/industry_partners/inidus" <?php if($pageOn == 'inidus.php'){?> class="active"<?php }?>>Inidus</a></li>
 				<li><a href="/industry_partners/iryo" <?php if($pageOn == 'iryo.php'){?> class="active"<?php }?>>IRYO</a></li>
 				<li><a href="/industry_partners/marand" <?php if($pageOn == 'marand.php'){?> class="active"<?php }?>>Marand</a></li>
