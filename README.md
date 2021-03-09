@@ -1,6 +1,6 @@
 openehr-website
 ===============
 
-Source of 2012 openEHR PHP website
+Source of 2012 openEHR PHP website (replaced by django site)
 
-Status: DEPRECATED
+Status: ARCHIVED
